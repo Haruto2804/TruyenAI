@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import { 
   Sparkles, User, X, ZoomIn, Shield, Scroll, Tag, 
   ChevronRight, ChevronLeft, Maximize2, FileText,
@@ -167,9 +168,14 @@ function renderFormattedDescription(desc: string | null) {
 }
 
 export function CharacterGallery({ characters }: CharacterGalleryProps) {
+  const [mounted, setMounted] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [activeTab, setActiveTab] = useState<"bio" | "relations">("bio");
   const [isFullscreenImage, setIsFullscreenImage] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const selectedChar = selectedIndex !== null ? characters[selectedIndex] : null;
 
@@ -177,6 +183,18 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
   const currentRelations: CharacterRelation[] = selectedChar
     ? CHARACTER_RELATIONS[selectedChar.name] || []
     : [];
+
+  // Lock body scroll when modal is open
+  useEffect(() => {
+    if (selectedIndex !== null || isFullscreenImage) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [selectedIndex, isFullscreenImage]);
 
   // Keyboard navigation & Esc to close
   useEffect(() => {
@@ -326,11 +344,11 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
       </div>
 
       {/* ========================================================================= */}
-      {/* ADAPTIVE DOSSIER MODAL WITH RELATIONSHIP WEB INTERACTION */}
+      {/* ADAPTIVE DOSSIER MODAL WITH RELATIONSHIP WEB INTERACTION (PORTALED TO BODY) */}
       {/* ========================================================================= */}
-      {selectedChar && !isFullscreenImage && (
+      {mounted && selectedChar && !isFullscreenImage && createPortal(
         <div
-          className="fixed inset-0 z-50 flex items-end md:items-center justify-center p-0 md:p-6 bg-black/90 backdrop-blur-2xl animate-in fade-in duration-200"
+          className="fixed inset-0 z-50 flex items-end md:items-center justify-center p-0 md:p-6 bg-black/95 backdrop-blur-2xl animate-in fade-in duration-200"
           onClick={() => setSelectedIndex(null)}
         >
           {/* ========================================================================= */}
@@ -761,11 +779,12 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
               </button>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
 
-      {/* FULLSCREEN IMMERSIVE LIGHTBOX (Dành cho khi người dùng muốn chiêm ngưỡng 100% artwork) */}
-      {selectedChar && isFullscreenImage && (
+      {/* FULLSCREEN IMMERSIVE LIGHTBOX (PORTALED TO BODY) */}
+      {mounted && selectedChar && isFullscreenImage && createPortal(
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/95 backdrop-blur-2xl p-4 sm:p-8 animate-in fade-in duration-200"
           onClick={() => setIsFullscreenImage(false)}
@@ -811,7 +830,8 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
               </div>
             )}
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );

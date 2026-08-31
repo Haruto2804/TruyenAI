@@ -163,8 +163,10 @@ export default async function StoryDetail({
       {/* Character Gallery Section (if story has characters) */}
       <CharacterGallery characters={story.characters} />
 
-      {/* Lore & Concepts Glossary Section */}
-      <LoreGallery lores={story.lores} />
+      {/* Lore & Concepts Glossary Section - Generous Spacing */}
+      <div className="pt-6 sm:pt-10">
+        <LoreGallery lores={story.lores} />
+      </div>
 
       {/* Chapters Grid / List Section */}
       <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl overflow-hidden shadow-xl">
