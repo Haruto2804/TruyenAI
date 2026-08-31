@@ -19,7 +19,7 @@
 ### 1. Caelen Von Ravenwood
 * **Vai trò:** Nhân vật chính / Đệ tam công tử của gia tộc Công tước Ravenwood.
 * **Biệt danh:** Đống rác Bắc Cảnh, Công tử phế vật, Caelen.
-* **Ảnh Avatar:** `https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=300&auto=format&fit=crop`
+* **Ảnh Avatar:** `/characters/dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/caelen-von-ravenwood.jpg`
 * **Tiểu sử & Tính cách:** Kiếp trước là chiến thuật gia sinh tồn kiêm sát thủ thời hiện đại. Khi chuyển sinh, thức tỉnh **Ma Đồng Giải Cấu** và kích hoạt huyết mạch Băng Sương thượng cổ. Tính cách lạnh lùng, quyết đoán, mưu sâu kế độc, giả heo ăn thịt hổ, không bao giờ để lại mối họa về sau.
 
 ### 2. Lilian
