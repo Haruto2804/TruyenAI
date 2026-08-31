@@ -63,66 +63,67 @@ export default async function ChapterDetail({
   });
 
   return (
-    <div className="max-w-3xl mx-auto">
+    <div className="max-w-4xl mx-auto space-y-8">
       {/* Chapter Header / Nav */}
-      <div className="mb-8 flex flex-col items-center text-center space-y-4">
+      <div className="flex flex-col items-center text-center space-y-4 pt-2">
         <Link 
           href={`/truyen/${story.slug}`}
-          className="text-[#d4af37] hover:underline text-sm font-medium uppercase tracking-wider"
+          className="inline-flex items-center gap-1.5 text-[#d4af37] hover:text-amber-300 text-xs sm:text-sm font-bold uppercase tracking-widest transition-colors py-1 px-3 rounded-full bg-[#d4af37]/10 border border-[#d4af37]/20"
         >
           {story.title}
         </Link>
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-100">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white tracking-tight leading-tight max-w-2xl">
           Chương {chapter.chapterNo}: {chapter.title}
         </h1>
         
-        {/* Navigation Bar */}
-        <div className="flex items-center gap-4 py-4 w-full justify-center">
+        {/* Top Navigation Bar */}
+        <div className="flex items-center gap-3 py-3 w-full justify-center">
           <Link
             href={prevChapter ? `/truyen/${story.slug}/${prevChapter.chapterNo}` : '#'}
-            className={`flex items-center justify-center p-2 rounded border ${
+            className={`flex items-center justify-center h-10 w-10 sm:h-11 sm:w-11 rounded-xl border transition-all duration-200 ${
               prevChapter 
-                ? 'border-slate-700 bg-slate-800 text-slate-200 hover:bg-slate-700' 
-                : 'border-slate-800 bg-slate-900 text-slate-600 cursor-not-allowed'
+                ? 'border-white/10 bg-white/5 text-slate-200 hover:bg-white/10 hover:border-[#d4af37]/40 hover:text-[#d4af37]' 
+                : 'border-white/5 bg-white/[0.02] text-slate-600 cursor-not-allowed pointer-events-none opacity-40'
             }`}
+            aria-label="Chương trước"
           >
             <ChevronLeft className="w-5 h-5" />
           </Link>
 
           <Link
             href={`/truyen/${story.slug}`}
-            className="flex items-center justify-center p-2 rounded border border-slate-700 bg-slate-800 text-slate-200 hover:bg-slate-700 px-4"
+            className="flex items-center justify-center h-10 sm:h-11 px-4 sm:px-6 rounded-xl border border-white/10 bg-white/5 text-slate-200 hover:bg-white/10 hover:border-[#d4af37]/40 hover:text-[#d4af37] text-xs sm:text-sm font-bold transition-all duration-200 gap-2"
           >
-            <Menu className="w-5 h-5 mr-2" /> Mục Lục
+            <Menu className="w-4 h-4 text-[#d4af37]" /> Mục Lục
           </Link>
 
           <Link
             href={nextChapter ? `/truyen/${story.slug}/${nextChapter.chapterNo}` : '#'}
-            className={`flex items-center justify-center p-2 rounded border ${
+            className={`flex items-center justify-center h-10 w-10 sm:h-11 sm:w-11 rounded-xl border transition-all duration-200 ${
               nextChapter 
-                ? 'border-slate-700 bg-slate-800 text-slate-200 hover:bg-slate-700' 
-                : 'border-slate-800 bg-slate-900 text-slate-600 cursor-not-allowed'
+                ? 'border-white/10 bg-white/5 text-slate-200 hover:bg-white/10 hover:border-[#d4af37]/40 hover:text-[#d4af37]' 
+                : 'border-white/5 bg-white/[0.02] text-slate-600 cursor-not-allowed pointer-events-none opacity-40'
             }`}
+            aria-label="Chương sau"
           >
             <ChevronRight className="w-5 h-5" />
           </Link>
         </div>
       </div>
 
-      {/* Chapter Content */}
-      <div className="bg-slate-900 md:bg-slate-800/20 md:border border-slate-800 rounded-2xl md:p-8 p-0">
+      {/* Chapter Content Section - Seamless dark reading background */}
+      <div className="relative bg-white/[0.02] border border-white/5 rounded-3xl p-5 sm:p-8 md:p-12 shadow-2xl backdrop-blur-sm">
         {!isUnlocked ? (
           <UnlockButton chapterId={chapter.id} price={chapter.price} />
         ) : (
           <div 
-            className="prose prose-invert prose-lg max-w-none text-slate-300 leading-loose"
-            style={{ 
-              fontSize: '1.125rem', 
-              fontFamily: 'system-ui, sans-serif'
-            }}
+            className="prose prose-invert prose-lg max-w-none text-slate-200 select-text"
           >
-            {chapter.content.split('\n').map((paragraph, idx) => (
-              <p key={idx} className="mb-4">
+            {chapter.content.split('\n').filter(p => p.trim() !== '').map((paragraph, idx) => (
+              <p 
+                key={idx} 
+                className="mb-6 text-[17px] sm:text-[18px] md:text-[19px] text-slate-200/90 leading-[2.1] font-light tracking-wide"
+              >
                 {paragraph}
               </p>
             ))}
@@ -133,28 +134,28 @@ export default async function ChapterDetail({
       {/* Tặng thưởng tác giả (chỉ hiện khi đã mở khóa hoặc chương free) */}
       {isUnlocked && <DonateButton storyId={story.id} />}
 
-      {/* Bottom Navigation */}
-      <div className="flex items-center gap-4 py-8 mt-4 w-full justify-center border-t border-slate-800">
+      {/* Bottom Navigation Bar */}
+      <div className="flex items-center gap-3 sm:gap-4 py-8 mt-4 w-full justify-center border-t border-white/5">
         <Link
           href={prevChapter ? `/truyen/${story.slug}/${prevChapter.chapterNo}` : '#'}
-          className={`flex items-center justify-center p-3 rounded-lg border flex-1 md:flex-none md:w-32 ${
+          className={`flex items-center justify-center py-3.5 px-6 rounded-xl border text-sm font-bold transition-all flex-1 sm:flex-none sm:w-40 ${
             prevChapter 
-              ? 'border-slate-700 bg-slate-800 text-slate-200 hover:bg-slate-700' 
-              : 'border-slate-800 bg-slate-900 text-slate-600 cursor-not-allowed pointer-events-none'
+              ? 'border-white/10 bg-white/5 text-slate-200 hover:bg-white/10 hover:border-white/20' 
+              : 'border-white/5 bg-white/[0.02] text-slate-600 cursor-not-allowed pointer-events-none opacity-40'
           }`}
         >
-          <ChevronLeft className="w-5 h-5 mr-1" /> Trước
+          <ChevronLeft className="w-4 h-4 mr-1.5" /> Chương Trước
         </Link>
 
         <Link
           href={nextChapter ? `/truyen/${story.slug}/${nextChapter.chapterNo}` : '#'}
-          className={`flex items-center justify-center p-3 rounded-lg border flex-1 md:flex-none md:w-32 ${
+          className={`flex items-center justify-center py-3.5 px-6 rounded-xl text-sm font-extrabold transition-all flex-1 sm:flex-none sm:w-40 ${
             nextChapter 
-              ? 'border-[#d4af37]/30 bg-[#d4af37]/10 text-[#d4af37] hover:bg-[#d4af37]/20 hover:border-[#d4af37]/50' 
-              : 'border-slate-800 bg-slate-900 text-slate-600 cursor-not-allowed pointer-events-none'
+              ? 'bg-gradient-to-r from-[#d4af37] to-amber-400 text-slate-950 hover:brightness-110 shadow-[0_4px_20px_rgba(212,175,55,0.25)]' 
+              : 'border-white/5 bg-white/[0.02] text-slate-600 cursor-not-allowed pointer-events-none opacity-40'
           }`}
         >
-          Tiếp <ChevronRight className="w-5 h-5 ml-1" />
+          Chương Tiếp <ChevronRight className="w-4 h-4 ml-1.5" />
         </Link>
       </div>
       
@@ -162,7 +163,9 @@ export default async function ChapterDetail({
       <ProgressTracker storyId={story.id} chapterId={chapter.id} />
 
       {/* Chapter Comments */}
-      <CommentSection storyId={story.id} chapterId={chapter.id} />
+      <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6 sm:p-8 shadow-xl mt-10">
+        <CommentSection storyId={story.id} chapterId={chapter.id} />
+      </div>
     </div>
   );
 }
