@@ -3,9 +3,8 @@
 import { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
 import { 
-  Sparkles, User, X, ZoomIn, Shield, Scroll, Tag, 
-  ChevronRight, ChevronLeft, Maximize2, FileText,
-  Eye, GitFork, HeartHandshake, Swords, Users, UserCheck
+  Sparkles, User, X, ZoomIn, Shield, Tag, 
+  ChevronRight, ChevronLeft, Maximize2, Eye
 } from "lucide-react";
 
 export interface CharacterItem {
@@ -20,116 +19,6 @@ export interface CharacterItem {
 interface CharacterGalleryProps {
   characters: CharacterItem[];
 }
-
-export interface CharacterRelation {
-  targetName: string;
-  relationType: "ALLY" | "ENEMY" | "KINSHIP" | "PUPPET" | "COMPLEX";
-  label: string;
-  description: string;
-}
-
-const RELATION_BADGES: Record<string, { label: string, color: string, border: string, bg: string, icon: any }> = {
-  ALLY: {
-    label: "Đồng Minh",
-    color: "text-emerald-300",
-    border: "border-emerald-500/40",
-    bg: "bg-emerald-500/15",
-    icon: HeartHandshake
-  },
-  ENEMY: {
-    label: "Đối Địch / Kẻ Thù",
-    color: "text-rose-300",
-    border: "border-rose-500/40",
-    bg: "bg-rose-500/15",
-    icon: Swords
-  },
-  KINSHIP: {
-    label: "Huyết Thống / Tỷ Đệ",
-    color: "text-amber-300",
-    border: "border-amber-500/40",
-    bg: "bg-amber-500/15",
-    icon: Users
-  },
-  PUPPET: {
-    label: "Thao Túng / Nội Gián",
-    color: "text-cyan-300",
-    border: "border-cyan-500/40",
-    bg: "bg-cyan-500/15",
-    icon: UserCheck
-  },
-  COMPLEX: {
-    label: "Ân Oán Phức Tạp",
-    color: "text-purple-300",
-    border: "border-purple-500/40",
-    bg: "bg-purple-500/15",
-    icon: GitFork
-  }
-};
-
-const CHARACTER_RELATIONS: Record<string, CharacterRelation[]> = {
-  "Caelen Von Ravenwood": [
-    {
-      targetName: "Lilian",
-      relationType: "PUPPET",
-      label: "Chủ Nhân & Gián Điệp Ngầm",
-      description: "Sau khi bị Caelen bẻ khớp tay và phát giác độc Hắc Tử La Lan, Lilian đã thần phục và trở thành tai mắt nội gián ngầm theo dõi Nhị Trưởng Lão Karlov."
-    },
-    {
-      targetName: "Evelyn Von Ravenwood",
-      relationType: "KINSHIP",
-      label: "Tỷ Đệ Ruột Thịt",
-      description: "Tỷ tỷ ruột của Caelen, Kiếm Vương Bắc Cảnh. Bề ngoài nghiêm khắc lạnh lùng trước sự sa đọa giả tạo của em trai, nhưng nội tâm luôn bảo bọc dòng máu Ravenwood."
-    },
-    {
-      targetName: "Valerie De Valois",
-      relationType: "ENEMY",
-      label: "Vị Hôn Thê Đối Địch / Tử Địch Chính Trị",
-      description: "Tam Công Chúa Solaria mang theo Huyết Chiếu Hoàng Gia đến Bắc Cảnh để công khai phế hôn và lập mưu đày Caelen ra Tiền Tuyến làm vật tế thần."
-    }
-  ],
-  "Lilian": [
-    {
-      targetName: "Caelen Von Ravenwood",
-      relationType: "PUPPET",
-      label: "Chủ Nhân Bí Mật",
-      description: "Từng là nội gián hạ độc của Nhị Trưởng Lão, nay hoàn toàn quy phục và nằm dưới quyền sinh sát bí mật của Caelen."
-    },
-    {
-      targetName: "Valerie De Valois",
-      relationType: "ENEMY",
-      label: "Áp Lực Quyền Uy",
-      description: "Công chúa Valerie và Nhị Trưởng Lão gián tiếp gây sức ép đày ải hạ nhân Bắc Cảnh để phục vụ mưu đồ chính trị."
-    }
-  ],
-  "Evelyn Von Ravenwood": [
-    {
-      targetName: "Caelen Von Ravenwood",
-      relationType: "KINSHIP",
-      label: "Đệ Đệ Cần Khảo Nghiệm",
-      description: "Chỉ huy Đội Quân Thiết Kỵ Băng Sương. Sẽ lập tức đứng ra bảo vệ Caelen nếu hắn chứng minh được năng lực phục hưng gia tộc."
-    },
-    {
-      targetName: "Valerie De Valois",
-      relationType: "ENEMY",
-      label: "Xung Đột Vương Quyền",
-      description: "Tuyệt đối không dung thứ cho sự sỉ nhục từ Hoàng gia Solaria đối với tôn nghiêm của Đại Gia Tộc Bắc Cảnh."
-    }
-  ],
-  "Valerie De Valois": [
-    {
-      targetName: "Caelen Von Ravenwood",
-      relationType: "ENEMY",
-      label: "Vật Tế Thần Chính Trị",
-      description: "Muốn biến Caelen thành cái cớ để hủy hôn ước và mở đường cho Thần Điện Quang Minh can thiệp sâu vào Bắc Cảnh."
-    },
-    {
-      targetName: "Evelyn Von Ravenwood",
-      relationType: "ENEMY",
-      label: "Chướng Ngại Vật Quân Sự",
-      description: "Coi Nữ Kiếm Vương Evelyn là đối thủ quân sự lớn nhất tại phương Bắc cần bị cô lập."
-    }
-  ]
-};
 
 function renderFormattedDescription(desc: string | null) {
   if (!desc) return <p className="text-xs text-slate-500 italic py-4">Chưa có tóm tắt cho nhân vật này.</p>;
@@ -170,7 +59,6 @@ function renderFormattedDescription(desc: string | null) {
 export function CharacterGallery({ characters }: CharacterGalleryProps) {
   const [mounted, setMounted] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
-  const [activeTab, setActiveTab] = useState<"bio" | "relations">("bio");
   const [isFullscreenImage, setIsFullscreenImage] = useState(false);
 
   useEffect(() => {
@@ -178,11 +66,6 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
   }, []);
 
   const selectedChar = selectedIndex !== null ? characters[selectedIndex] : null;
-
-  // Find relationships for selected character
-  const currentRelations: CharacterRelation[] = selectedChar
-    ? CHARACTER_RELATIONS[selectedChar.name] || []
-    : [];
 
   // Lock body scroll when modal is open
   useEffect(() => {
@@ -219,16 +102,7 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
 
   const handleOpenChar = (index: number) => {
     setSelectedIndex(index);
-    setActiveTab("bio");
     setIsFullscreenImage(false);
-  };
-
-  const handleSwitchToCharacterName = (targetName: string) => {
-    const foundIdx = characters.findIndex((c) => c.name.toLowerCase().includes(targetName.toLowerCase().split(" ")[0]));
-    if (foundIdx !== -1) {
-      setSelectedIndex(foundIdx);
-      setActiveTab("bio");
-    }
   };
 
   const handlePrev = (e: React.MouseEvent) => {
@@ -251,50 +125,54 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
 
   return (
     <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-4 sm:p-7 shadow-2xl space-y-4 sm:space-y-6">
-      {/* Section Header */}
-      <div className="flex items-center justify-between gap-3 border-b border-white/5 pb-3 sm:pb-4">
-        <div>
-          <h2 className="text-lg sm:text-2xl font-extrabold text-slate-100 flex items-center gap-2.5">
-            <div className="p-1.5 sm:p-2 bg-[#d4af37]/15 rounded-xl text-[#d4af37] border border-[#d4af37]/30 shadow-[0_0_15px_rgba(212,175,55,0.2)]">
-              <Sparkles className="w-4 h-4 sm:w-5 sm:h-5" />
-            </div>
-            <span>Hồ Sơ Nhân Vật</span>
-          </h2>
-          <p className="text-[11px] sm:text-xs text-slate-400 mt-0.5">
-            Chân dung 9:16 • Sơ đồ mối quan hệ ân oán & Tiểu sử tương tác.
-          </p>
+      {/* Header Section */}
+      <div className="flex items-center justify-between border-b border-white/5 pb-3 sm:pb-4">
+        <div className="flex items-center gap-2 sm:gap-2.5">
+          <div className="p-1.5 sm:p-2 rounded-xl bg-[#d4af37]/15 text-[#d4af37] border border-[#d4af37]/30 shadow-inner">
+            <Sparkles className="w-4 h-4 sm:w-5 sm:h-5" />
+          </div>
+          <div>
+            <h2 className="text-base sm:text-xl font-extrabold text-white tracking-tight flex items-center gap-1.5">
+              <span>Hồ Sơ Nhân Vật</span>
+              <span className="text-xs font-normal text-slate-400">({characters.length})</span>
+            </h2>
+            <p className="text-[11px] sm:text-xs text-slate-400 hidden sm:block">
+              Chiêm ngưỡng chân dung minh họa 9:16 và khám phá thông tin nhân vật
+            </p>
+          </div>
         </div>
-        <span className="text-[11px] sm:text-xs font-bold px-3 py-1 rounded-full bg-[#d4af37]/10 text-amber-300 border border-[#d4af37]/20 shrink-0">
-          {characters.length} nhân vật
+
+        <span className="text-[10px] sm:text-xs text-slate-400 bg-white/5 px-2.5 py-1 rounded-full border border-white/5">
+          Chạm để mở hồ sơ
         </span>
       </div>
 
-      {/* Responsive Cards: Horizontal Swipe Carousel on Mobile, Grid on Tablet/Desktop */}
-      <div className="flex sm:grid sm:grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-6 overflow-x-auto sm:overflow-visible pb-2 sm:pb-0 snap-x snap-mandatory scrollbar-none -mx-1 px-1">
-        {characters.map((char, idx) => (
+      {/* Grid Danh Sách Nhân Vật (2 Cột Mobile, 4 Cột Desktop) */}
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 md:gap-5">
+        {characters.map((char, index) => (
           <div
             key={char.id}
-            onClick={() => handleOpenChar(idx)}
-            className="w-[170px] xs:w-[190px] sm:w-auto shrink-0 snap-start group relative flex flex-col bg-slate-950/90 border border-white/10 rounded-2xl sm:rounded-3xl overflow-hidden hover:border-[#d4af37]/70 hover:shadow-[0_15px_45px_rgba(212,175,55,0.25)] transition-all duration-300 cursor-pointer select-none"
+            onClick={() => handleOpenChar(index)}
+            className="group relative cursor-pointer rounded-2xl overflow-hidden bg-slate-900/90 border border-white/10 hover:border-[#d4af37]/60 hover:shadow-[0_10px_30px_rgba(212,175,55,0.2)] transition-all duration-300 transform active:scale-98"
           >
-            {/* 9:16 Portrait Canvas */}
-            <div className="relative w-full aspect-[9/16] overflow-hidden bg-gradient-to-b from-slate-900 to-black">
+            {/* Khung Tranh Chuẩn 9:16 */}
+            <div className="relative aspect-[9/16] w-full overflow-hidden bg-slate-950">
               {char.avatarUrl ? (
                 <img
                   src={char.avatarUrl}
                   alt={char.name}
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
                 />
               ) : (
-                <div className="w-full h-full flex flex-col items-center justify-center bg-slate-900 text-slate-600 p-4 text-center">
-                  <User className="w-12 h-12 text-[#d4af37]/40 mb-2" />
-                  <span className="text-xs text-slate-500 font-medium">Chưa có ảnh</span>
+                <div className="w-full h-full flex flex-col items-center justify-center bg-slate-900 text-slate-500 p-4 text-center">
+                  <User className="w-10 h-10 text-[#d4af37]/40 mb-2" />
+                  <span className="text-xs font-medium">Chưa có ảnh</span>
                 </div>
               )}
 
-              {/* Multi-layered cinematic gradient overlays */}
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/50 to-transparent opacity-95 group-hover:opacity-85 transition-opacity pointer-events-none" />
-              <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-transparent pointer-events-none" />
+              {/* Gradient che sáng để làm nổi bật thông tin */}
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-black/30 pointer-events-none" />
 
               {/* Role Badge */}
               {char.role && (
@@ -334,7 +212,7 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
                 )}
 
                 <div className="flex items-center justify-between pt-1.5 border-t border-white/10 text-[10px] font-bold text-[#d4af37] group-hover:text-amber-300 transition-colors">
-                  <span>Xem hồ sơ & quan hệ</span>
+                  <span>Xem hồ sơ chi tiết</span>
                   <ChevronRight className="w-3.5 h-3.5 transform group-hover:translate-x-0.5 transition-transform" />
                 </div>
               </div>
@@ -344,7 +222,7 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
       </div>
 
       {/* ========================================================================= */}
-      {/* ADAPTIVE DOSSIER MODAL WITH RELATIONSHIP WEB INTERACTION (PORTALED TO BODY) */}
+      {/* UNIVERSAL CHARACTER DOSSIER MODAL (PORTALED TO BODY) */}
       {/* ========================================================================= */}
       {mounted && selectedChar && !isFullscreenImage && createPortal(
         <div
@@ -427,7 +305,7 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
               </div>
             </div>
 
-            {/* Cột 2 (Desktop Phải): Hồ sơ chi tiết & Sơ đồ quan hệ */}
+            {/* Cột 2 (Desktop Phải): Hồ sơ chi tiết */}
             <div className="flex-1 p-7 md:p-8 flex flex-col justify-between overflow-y-auto space-y-5">
               <div className="space-y-4">
                 {/* Header Profile Title */}
@@ -443,111 +321,22 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
                   </h3>
                 </div>
 
-                {/* Tab Switcher: [ Tiểu Sử ] vs [ Sơ Đồ Mối Quan Hệ ] */}
-                <div className="flex bg-black/50 border border-white/10 rounded-2xl p-1 gap-1">
-                  <button
-                    type="button"
-                    onClick={() => setActiveTab("bio")}
-                    className={`flex-1 py-2 rounded-xl text-xs font-extrabold flex items-center justify-center gap-2 transition-all cursor-pointer ${
-                      activeTab === "bio"
-                        ? "bg-[#d4af37] text-slate-950 shadow-md shadow-[#d4af37]/20"
-                        : "text-slate-400 hover:text-white"
-                    }`}
-                  >
-                    <FileText className="w-4 h-4" />
-                    <span>Tiểu Sử & Tính Cách</span>
-                  </button>
-
-                  <button
-                    type="button"
-                    onClick={() => setActiveTab("relations")}
-                    className={`flex-1 py-2 rounded-xl text-xs font-extrabold flex items-center justify-center gap-2 transition-all cursor-pointer ${
-                      activeTab === "relations"
-                        ? "bg-[#d4af37] text-slate-950 shadow-md shadow-[#d4af37]/20"
-                        : "text-slate-400 hover:text-white"
-                    }`}
-                  >
-                    <GitFork className="w-4 h-4" />
-                    <span>Mối Quan Hệ & Ân Oán ({currentRelations.length})</span>
-                  </button>
-                </div>
-
-                {/* Tab 1: Biography */}
-                {activeTab === "bio" && (
-                  <div className="space-y-3.5 animate-in fade-in duration-200">
-                    {selectedChar.aliases && (
-                      <div className="bg-white/5 border border-white/10 rounded-2xl p-3.5 space-y-1">
-                        <div className="text-[11px] font-bold text-amber-200/80 uppercase tracking-wider flex items-center gap-1.5">
-                          <Tag className="w-3.5 h-3.5 text-[#d4af37]" /> Biệt danh & Danh xưng
-                        </div>
-                        <p className="text-base text-slate-100 font-medium">
-                          {selectedChar.aliases}
-                        </p>
-                      </div>
-                    )}
-
-                    <div className="max-h-60 overflow-y-auto pr-1">
-                      {renderFormattedDescription(selectedChar.description)}
+                {/* Aliases Card */}
+                {selectedChar.aliases && (
+                  <div className="bg-white/5 border border-white/10 rounded-2xl p-3.5 space-y-1">
+                    <div className="text-[11px] font-bold text-amber-200/80 uppercase tracking-wider flex items-center gap-1.5">
+                      <Tag className="w-3.5 h-3.5 text-[#d4af37]" /> Biệt danh & Danh xưng
                     </div>
+                    <p className="text-base text-slate-100 font-medium">
+                      {selectedChar.aliases}
+                    </p>
                   </div>
                 )}
 
-                {/* Tab 2: Relationship Web */}
-                {activeTab === "relations" && (
-                  <div className="space-y-3 animate-in fade-in duration-200">
-                    {currentRelations.length === 0 ? (
-                      <div className="p-6 text-center text-slate-500 text-sm bg-black/20 rounded-2xl border border-white/5">
-                        Chưa có thông tin mạng lưới quan hệ cho nhân vật này.
-                      </div>
-                    ) : (
-                      <div className="grid grid-cols-1 gap-3 max-h-72 overflow-y-auto pr-1">
-                        {currentRelations.map((rel, rIdx) => {
-                          const badge = RELATION_BADGES[rel.relationType] || RELATION_BADGES.COMPLEX;
-                          const BadgeIcon = badge.icon;
-                          const targetChar = characters.find(c => c.name.toLowerCase().includes(rel.targetName.toLowerCase().split(" ")[0]));
-
-                          return (
-                            <div
-                              key={rIdx}
-                              onClick={() => handleSwitchToCharacterName(rel.targetName)}
-                              className="p-4 rounded-2xl bg-black/50 border border-white/10 hover:border-[#d4af37]/60 hover:shadow-[0_4px_25px_rgba(212,175,55,0.15)] transition-all cursor-pointer group flex items-start gap-4"
-                            >
-                              {/* Target Avatar Mini */}
-                              <div className="w-12 aspect-[9/16] rounded-xl overflow-hidden bg-slate-900 border border-white/15 shrink-0 relative shadow-md">
-                                {targetChar?.avatarUrl ? (
-                                  <img src={targetChar.avatarUrl} alt={rel.targetName} className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform" />
-                                ) : (
-                                  <div className="w-full h-full flex items-center justify-center text-slate-600">
-                                    <User className="w-4 h-4" />
-                                  </div>
-                                )}
-                              </div>
-
-                              {/* Relation Details */}
-                              <div className="flex-1 min-w-0 space-y-1">
-                                <div className="flex items-center justify-between gap-2 flex-wrap">
-                                  <h4 className="font-extrabold text-sm text-white group-hover:text-[#d4af37] transition-colors flex items-center gap-1.5 truncate">
-                                    <span>{rel.targetName}</span>
-                                    <ChevronRight className="w-3.5 h-3.5 text-slate-500 group-hover:text-[#d4af37] group-hover:translate-x-0.5 transition-all shrink-0" />
-                                  </h4>
-
-                                  <span className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-lg text-[10px] font-extrabold ${badge.bg} ${badge.color} border ${badge.border} shrink-0`}>
-                                    <BadgeIcon className="w-3 h-3" />
-                                    <span>{rel.label}</span>
-                                  </span>
-                                </div>
-
-                                <p className="text-xs text-slate-300/85 leading-relaxed font-light">
-                                  {rel.description}
-                                </p>
-                              </div>
-                            </div>
-                          );
-                        })}
-                      </div>
-                    )}
-                  </div>
-                )}
+                {/* Formatted Biography */}
+                <div className="max-h-80 overflow-y-auto pr-1">
+                  {renderFormattedDescription(selectedChar.description)}
+                </div>
               </div>
 
               {/* Bottom Character Switcher */}
@@ -557,7 +346,7 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
                     <button
                       key={c.id}
                       type="button"
-                      onClick={() => { setSelectedIndex(i); setActiveTab("bio"); }}
+                      onClick={() => setSelectedIndex(i)}
                       className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 cursor-pointer ${
                         i === selectedIndex
                           ? "bg-[#d4af37] text-slate-950 shadow-md shadow-[#d4af37]/20 font-extrabold"
@@ -652,103 +441,20 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
               </button>
             </div>
 
-            {/* Mobile Tab Switcher */}
-            <div className="flex bg-black/50 border border-white/10 rounded-xl p-1 gap-1 shrink-0">
-              <button
-                type="button"
-                onClick={() => setActiveTab("bio")}
-                className={`flex-1 py-1.5 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5 transition-all ${
-                  activeTab === "bio"
-                    ? "bg-[#d4af37] text-slate-950 font-extrabold shadow-sm"
-                    : "text-slate-400 hover:text-white"
-                }`}
-              >
-                <FileText className="w-3.5 h-3.5" />
-                <span>Tiểu Sử</span>
-              </button>
-
-              <button
-                type="button"
-                onClick={() => setActiveTab("relations")}
-                className={`flex-1 py-1.5 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5 transition-all ${
-                  activeTab === "relations"
-                    ? "bg-[#d4af37] text-slate-950 font-extrabold shadow-sm"
-                    : "text-slate-400 hover:text-white"
-                }`}
-              >
-                <GitFork className="w-3.5 h-3.5" />
-                <span>Quan Hệ ({currentRelations.length})</span>
-              </button>
-            </div>
-
-            {/* Mobile Tab Content */}
-            <div className="space-y-3 flex-1 overflow-y-auto max-h-[42vh] pr-0.5">
-              {activeTab === "bio" ? (
-                <div className="space-y-2.5 animate-in fade-in duration-200">
-                  {selectedChar.aliases && (
-                    <div className="bg-white/5 border border-white/10 rounded-xl p-2.5 space-y-0.5">
-                      <div className="text-[10px] font-bold text-amber-200/80 uppercase tracking-wider flex items-center gap-1">
-                        <Tag className="w-3 h-3 text-[#d4af37]" /> Danh Xưng & Biệt Hiệu
-                      </div>
-                      <p className="text-xs text-slate-100 font-medium">
-                        {selectedChar.aliases}
-                      </p>
-                    </div>
-                  )}
-
-                  {renderFormattedDescription(selectedChar.description)}
-                </div>
-              ) : (
-                <div className="space-y-2.5 animate-in fade-in duration-200">
-                  {currentRelations.length === 0 ? (
-                    <p className="text-xs text-slate-500 italic py-4 text-center">
-                      Chưa có dữ liệu mối quan hệ cho nhân vật này.
-                    </p>
-                  ) : (
-                    currentRelations.map((rel, rIdx) => {
-                      const badge = RELATION_BADGES[rel.relationType] || RELATION_BADGES.COMPLEX;
-                      const BadgeIcon = badge.icon;
-                      const targetChar = characters.find(c => c.name.toLowerCase().includes(rel.targetName.toLowerCase().split(" ")[0]));
-
-                      return (
-                        <div
-                          key={rIdx}
-                          onClick={() => handleSwitchToCharacterName(rel.targetName)}
-                          className="p-3 rounded-xl bg-black/50 border border-white/10 hover:border-[#d4af37]/60 active:scale-98 transition-all cursor-pointer flex items-start gap-3"
-                        >
-                          <div className="w-10 aspect-[9/16] rounded-lg overflow-hidden bg-slate-900 border border-white/15 shrink-0 relative shadow-sm">
-                            {targetChar?.avatarUrl ? (
-                              <img src={targetChar.avatarUrl} alt={rel.targetName} className="w-full h-full object-cover object-center" />
-                            ) : (
-                              <div className="w-full h-full flex items-center justify-center text-slate-600">
-                                <User className="w-3.5 h-3.5" />
-                              </div>
-                            )}
-                          </div>
-
-                          <div className="flex-1 min-w-0 space-y-1">
-                            <div className="flex items-center justify-between gap-1.5 flex-wrap">
-                              <h4 className="font-extrabold text-xs text-white flex items-center gap-1 truncate">
-                                <span>{rel.targetName}</span>
-                                <ChevronRight className="w-3 h-3 text-[#d4af37]" />
-                              </h4>
-
-                              <span className={`inline-flex items-center gap-0.5 px-2 py-0.5 rounded text-[9px] font-extrabold ${badge.bg} ${badge.color} border ${badge.border} shrink-0`}>
-                                <BadgeIcon className="w-2.5 h-2.5" />
-                                <span>{badge.label}</span>
-                              </span>
-                            </div>
-
-                            <p className="text-[11px] text-slate-300 leading-relaxed font-light">
-                              {rel.description}
-                            </p>
-                          </div>
-                        </div>
-                      );
-                    })
-                  )}
+            {/* Mobile Body Content */}
+            <div className="space-y-3 flex-1 overflow-y-auto max-h-[48vh] pr-0.5">
+              {selectedChar.aliases && (
+                <div className="bg-white/5 border border-white/10 rounded-xl p-2.5 space-y-0.5">
+                  <div className="text-[10px] font-bold text-amber-200/80 uppercase tracking-wider flex items-center gap-1">
+                    <Tag className="w-3 h-3 text-[#d4af37]" /> Danh Xưng & Biệt Hiệu
+                  </div>
+                  <p className="text-xs text-slate-100 font-medium">
+                    {selectedChar.aliases}
+                  </p>
                 </div>
               )}
+
+              {renderFormattedDescription(selectedChar.description)}
             </div>
 
             {/* Mobile Thumb Navigation (Switch Between Characters) */}
@@ -758,7 +464,7 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
                   <button
                     key={c.id}
                     type="button"
-                    onClick={() => { setSelectedIndex(i); setActiveTab("bio"); }}
+                    onClick={() => setSelectedIndex(i)}
                     className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 ${
                       i === selectedIndex
                         ? "bg-[#d4af37] text-slate-950 shadow-md font-extrabold"
