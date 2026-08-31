@@ -50,7 +50,13 @@ Mỗi lần sáng tác chương mới hoặc phát triển cốt truyện, AI ph
 ### [SKILL 4] MEMORY MANAGER AGENT (NGƯỜI QUẢN LÝ KÝ ỨC & ĐỒNG BỘ)
 * **Nhiệm vụ:** Trích xuất siêu dữ liệu (Metadata) sau mỗi chương và thực thi **Giao Thức Đồng Bộ (Sync Protocol)**.
 
+### [SKILL 5] ILLUSTRATOR AGENT (HỌA SƯ NHÂN VẬT & MINH HỌA)
+* **Nhiệm vụ:** Đọc bối cảnh `master_codex.md`, trích xuất nhân dạng, sinh ảnh AI tỷ lệ 3:4 chân dung chất lượng cao.
+* **Quy tắc duyệt (Review Gate):** Luôn tạo bản xem trước (Preview) cho người dùng phê duyệt trước khi lưu và đồng bộ lên Database web.
+* **Chi tiết kỹ thuật:** Xem file skill riêng tại [SKILL.md](file:///c:/Users/ngohi/OneDrive/Documents/TruyenAI/.agents/skills/novel-character-illustrator/SKILL.md).
+
 ---
+
 
 ## ⚡ 3. GIAO THỨC ĐỒNG BỘ BẮT BUỘC (MANDATORY SYNC PROTOCOL)
 
