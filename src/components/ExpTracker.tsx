@@ -2,8 +2,10 @@
 
 import { useEffect, useState, useRef } from "react";
 import { addExpToUser } from "@/app/actions";
+import { useRouter } from "next/navigation";
 
 export function ExpTracker({ chapterId }: { chapterId: string }) {
+  const router = useRouter();
   const [showToast, setShowToast] = useState(false);
   const hasTriggered = useRef(false);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
@@ -42,6 +44,7 @@ export function ExpTracker({ chapterId }: { chapterId: string }) {
         const result = await addExpToUser(chapterId);
         if (result.success) {
           setShowToast(true);
+          router.refresh(); // Tự động cập nhật lại giao diện (Navbar)
           setTimeout(() => setShowToast(false), 3000);
         }
       }

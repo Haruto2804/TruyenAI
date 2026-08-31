@@ -4,6 +4,7 @@ import { useState } from "react";
 import { updateUserPath } from "@/app/actions";
 import { PATH_NAMES, PathType } from "@/lib/levels";
 import { useFormStatus } from "react-dom";
+import { useRouter } from "next/navigation";
 
 function SubmitButton() {
   const { pending } = useFormStatus();
@@ -19,6 +20,7 @@ function SubmitButton() {
 }
 
 export function PathSelector({ currentPath }: { currentPath: string }) {
+  const router = useRouter();
   const [selected, setSelected] = useState(currentPath);
   const [message, setMessage] = useState("");
 
@@ -27,6 +29,7 @@ export function PathSelector({ currentPath }: { currentPath: string }) {
     const res = await updateUserPath(newPath);
     if (res.success) {
       setMessage("Đã cập nhật Hệ Tu Luyện thành công!");
+      router.refresh();
       setTimeout(() => setMessage(""), 3000);
     } else {
       setMessage("Có lỗi xảy ra, vui lòng thử lại.");
