@@ -384,7 +384,7 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
           {/* CENTERED MOBILE MODAL VIEW (< md screens) */}
           {/* ========================================================================= */}
           <div
-            className="md:hidden relative w-full max-w-lg bg-gradient-to-b from-slate-900 via-slate-950 to-black border border-[#d4af37]/40 rounded-3xl p-5 sm:p-6 shadow-[0_20px_70px_rgba(0,0,0,0.95)] max-h-[85vh] overflow-y-auto flex flex-col space-y-4 animate-in zoom-in-95 duration-200"
+            className="md:hidden relative w-full max-w-lg bg-gradient-to-b from-slate-900 via-slate-950 to-black border border-[#d4af37]/40 rounded-3xl p-5 sm:p-6 shadow-[0_20px_70px_rgba(0,0,0,0.95)] max-h-[82vh] overflow-y-auto flex flex-col space-y-4 animate-in zoom-in-95 duration-200 my-auto"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Mobile Hero Bar: Side-by-Side (Avatar + Name/Role) */}

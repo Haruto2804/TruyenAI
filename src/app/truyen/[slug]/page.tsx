@@ -19,9 +19,6 @@ export default async function StoryDetail({
   const story = await prisma.story.findUnique({
     where: { slug: slug },
     include: {
-      author: {
-        select: { name: true }
-      },
       chapters: {
         orderBy: { chapterNo: 'asc' },
         select: { 
@@ -105,7 +102,7 @@ export default async function StoryDetail({
             <div className="bg-black/45 border border-white/10 rounded-2xl sm:rounded-3xl p-4 sm:p-5 space-y-3 text-xs sm:text-sm shadow-inner">
               <div className="flex items-center justify-between border-b border-white/5 pb-2.5">
                 <span className="text-slate-400 font-medium">Tác giả</span>
-                <span className="font-bold text-[#d4af37]">{story.author?.name || "Thiên Thư AI"}</span>
+                <span className="font-bold text-[#d4af37]">Thiên Thư AI</span>
               </div>
               <div className="flex items-center justify-between border-b border-white/5 pb-2.5">
                 <span className="text-slate-400 font-medium">Tình trạng</span>

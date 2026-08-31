@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import { BookMarked, Sparkles, X, ShieldAlert, Flame, Compass, Gem, Layers, Tag, ChevronRight } from "lucide-react";
 
 export interface LoreItem {
@@ -25,8 +26,25 @@ const CATEGORY_ICONS: Record<string, any> = {
 };
 
 export function LoreGallery({ lores }: LoreGalleryProps) {
+  const [mounted, setMounted] = useState(false);
   const [selectedLore, setSelectedLore] = useState<LoreItem | null>(null);
   const [activeCategory, setActiveCategory] = useState<string>("ALL");
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Lock body scroll when modal is open
+  useEffect(() => {
+    if (selectedLore) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [selectedLore]);
 
   // Close modal on Escape key
   useEffect(() => {
@@ -152,14 +170,14 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
         })}
       </div>
 
-      {/* Lore Detail Modal (Always Centered Dialog on All Devices) */}
-      {selectedLore && (
+      {/* Lore Detail Modal (Always Centered Dialog on All Devices - Portaled to Body) */}
+      {mounted && selectedLore && createPortal(
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 md:p-8 bg-black/90 backdrop-blur-2xl animate-in fade-in duration-200"
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 md:p-8 bg-black/90 backdrop-blur-2xl animate-in fade-in duration-200 overflow-y-auto"
           onClick={() => setSelectedLore(null)}
         >
           <div
-            className="relative w-full max-w-lg sm:max-w-xl md:max-w-2xl bg-gradient-to-b from-slate-900 via-slate-950 to-black border border-cyan-500/40 rounded-3xl p-6 sm:p-8 shadow-[0_20px_70px_rgba(0,0,0,0.95)] space-y-5 max-h-[85vh] overflow-y-auto animate-in zoom-in-95 duration-200"
+            className="relative w-full max-w-lg sm:max-w-xl md:max-w-2xl bg-gradient-to-b from-slate-900 via-slate-950 to-black border border-cyan-500/40 rounded-3xl p-5 sm:p-7 md:p-8 shadow-[0_20px_70px_rgba(0,0,0,0.95)] space-y-4 sm:space-y-5 max-h-[82vh] overflow-y-auto animate-in zoom-in-95 duration-200 my-auto"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex items-start justify-between border-b border-white/10 pb-4">
@@ -215,7 +233,8 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
               </button>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );
