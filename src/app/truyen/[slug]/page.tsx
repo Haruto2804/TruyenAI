@@ -74,8 +74,8 @@ export default async function StoryDetail({
       <div className="relative overflow-hidden bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-5 sm:p-8 md:p-10 shadow-2xl transition-all">
         <div className="flex flex-col sm:flex-row gap-6 sm:gap-8 items-center sm:items-start">
           
-          {/* Story Cover Poster */}
-          <div className="relative w-36 xs:w-44 sm:w-52 aspect-[2/3] rounded-2xl overflow-hidden shadow-[0_12px_30px_rgba(0,0,0,0.6)] border border-white/15 shrink-0 group bg-slate-950">
+          {/* Story Cover Poster - Grand & High Prominence */}
+          <div className="relative w-48 xs:w-56 sm:w-64 md:w-72 lg:w-80 aspect-[2/3] rounded-2xl sm:rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.9)] border-2 border-[#d4af37]/40 hover:border-[#d4af37] shrink-0 group bg-slate-950 transition-all duration-300">
             {story.coverUrl ? (
               <img
                 src={story.coverUrl}
@@ -92,7 +92,7 @@ export default async function StoryDetail({
                 </span>
               </div>
             )}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-50 pointer-events-none" />
           </div>
 
           {/* Story Info Details */}

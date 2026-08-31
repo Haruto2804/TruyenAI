@@ -51,7 +51,7 @@ export default async function Home() {
             </button>
           </div>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
             {stories.map((story) => (
               <Link 
                 key={story.id} 
@@ -59,10 +59,10 @@ export default async function Home() {
                 className="group block outline-none"
                 aria-label={`Đọc truyện ${story.title}`}
               >
-                <div className="relative flex flex-col h-full overflow-hidden bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl transition-all duration-300 group-hover:-translate-y-1.5 group-hover:border-[#d4af37]/40 group-hover:shadow-[0_12px_35px_rgba(212,175,55,0.15)] group-focus-visible:ring-2 group-focus-visible:ring-[#d4af37]">
+                <div className="relative flex flex-col h-full overflow-hidden bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl sm:rounded-3xl p-2.5 sm:p-3 transition-all duration-300 group-hover:-translate-y-1.5 group-hover:border-[#d4af37]/60 group-hover:shadow-[0_15px_40px_rgba(212,175,55,0.2)] group-focus-visible:ring-2 group-focus-visible:ring-[#d4af37]">
                   
-                  {/* Cover Image Thumbnail Container */}
-                  <div className="relative aspect-[16/10] w-full overflow-hidden bg-slate-950/80 border-b border-white/5">
+                  {/* Cover Image Thumbnail Container (Chuẩn tỉ lệ dọc 2:3 của bìa tiểu thuyết & manhwa) */}
+                  <div className="relative aspect-[2/3] w-full overflow-hidden rounded-xl sm:rounded-2xl bg-slate-950 shadow-lg border border-white/10">
                     {story.coverUrl ? (
                       <img
                         src={story.coverUrl}
@@ -79,16 +79,19 @@ export default async function Home() {
                       </div>
                     )}
 
+                    {/* Gradient Overlay for bottom text clarity */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 pointer-events-none" />
+
                     {/* Genre Badge */}
-                    <div className="absolute top-3 left-3">
-                      <span className="rounded-lg border border-white/10 bg-black/60 px-2.5 py-1 text-xs font-semibold text-amber-200 backdrop-blur-md shadow-sm">
+                    <div className="absolute top-2.5 left-2.5">
+                      <span className="rounded-lg border border-white/10 bg-black/80 px-2 sm:px-2.5 py-0.5 sm:py-1 text-[10px] sm:text-xs font-bold text-amber-200 backdrop-blur-md shadow-sm">
                         {story.genre || 'Tiên Hiệp'}
                       </span>
                     </div>
 
                     {/* Chapter Count Badge */}
-                    <div className="absolute bottom-3 right-3">
-                      <span className="rounded-lg border border-white/10 bg-black/70 px-2.5 py-1 text-xs font-medium text-slate-300 backdrop-blur-md shadow-sm flex items-center gap-1.5">
+                    <div className="absolute bottom-2.5 right-2.5">
+                      <span className="rounded-lg border border-white/10 bg-black/80 px-2 sm:px-2.5 py-0.5 sm:py-1 text-[10px] sm:text-xs font-medium text-slate-200 backdrop-blur-md shadow-sm flex items-center gap-1">
                         <span className="w-1.5 h-1.5 rounded-full bg-[#d4af37]" />
                         {story._count.chapters} chương
                       </span>
@@ -99,17 +102,17 @@ export default async function Home() {
                   </div>
 
                   {/* Story Details */}
-                  <div className="flex flex-1 flex-col p-5">
-                    <h3 className="font-bold text-lg md:text-xl text-slate-100 group-hover:text-[#d4af37] transition-colors line-clamp-1 mb-2">
+                  <div className="flex flex-1 flex-col pt-3 pb-1 px-1">
+                    <h3 className="font-extrabold text-sm sm:text-base text-slate-100 group-hover:text-[#d4af37] transition-colors line-clamp-2 leading-snug mb-1.5">
                       {story.title}
                     </h3>
                     
                     {story.summary ? (
-                      <p className="text-slate-400 text-sm line-clamp-2 leading-relaxed mt-auto">
+                      <p className="text-slate-400 text-xs line-clamp-2 leading-relaxed font-light">
                         {story.summary}
                       </p>
                     ) : (
-                      <p className="text-slate-500 italic text-sm mt-auto">Chưa có tóm tắt.</p>
+                      <p className="text-slate-500 italic text-xs">Chưa có tóm tắt.</p>
                     )}
                   </div>
                 </div>
