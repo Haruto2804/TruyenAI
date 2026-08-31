@@ -189,12 +189,19 @@
 
 ## 🧠 4. MEMORY MANAGER - TIẾN ĐỘ & TRẠNG THÁI (STATE TRACKING)
 
-### Trạng Thái Hiện Tại (Sau Chương 1):
-* **Caelen:** Đã giải trừ 80% độc Hắc Tử La Lan; thức tỉnh Ma Đồng Giải Cấu; Ma Hạch đạt Sơ Giai đỉnh phong; đang diện lễ phục Đại Lễ tiến vào đại sảnh dự yến từ hôn.
-* **Lilian:** Bị trật khớp cổ tay phải; bị chấn áp tinh thần, quy phục và làm nội gián ngược dưới quyền Caelen.
-* **Vật phẩm nắm giữ:** Trâm bạc tẩm độc (tịch thu từ Lilian), Lễ phục Đại Lễ Huyết Ưng.
-* **Mối quan hệ:**
-  - Caelen vs Lilian: Kẻ thao túng - Quân cờ bị kiểm soát.
-  - Caelen vs Karlov (Nhị Trưởng Lão): Kẻ thù ngầm sinh tử.
-  - Caelen vs Valerie: Chuẩn bị đối đầu trực diện tại yến tiệc.
-* **Plot Hooks đang mở:** Cuộc đụng độ tại tiệc từ hôn ở Chương 2; âm mưu ép ký văn thư thông đồng Dị Giáo của Công chúa Valerie và Nhị Trưởng Lão.
+### Trạng Thái Hiện Tại (Sau Chương 2):
+* **Caelen:** 
+  - Đã xuất hiện hoành tráng chấn động Đại Điện Băng Sương.
+  - Dùng *Ma Đồng Giải Cấu* vạch trần ma trận Huyết Hồn cấm thuật của Karlov.
+  - Dùng ngón tay ngưng tụ Băng Sương Cổ Ngữ ký tên đồng thuận từ hôn dứt khoát trên Huyết Chiếu Hoàng Gia.
+  - Khiến Tam Công Chúa Valerie chấn động sâu sắc trước tầm nhìn và khí chất vương giả.
+* **Valerie:** 
+  - Đã hoàn thành mục đích giải trừ hôn ước để bảo vệ tham vọng ngai vàng.
+  - Bị sốc và rung động mạnh mẽ trước sự nguy hiểm, thâm trầm và bản lĩnh của Caelen; bắt đầu xem Caelen là một đối thủ / biến số chính trị tầm cỡ trên bàn cờ đại lục.
+* **Evelyn:** 
+  - Dùng kiếm Băng Phách răn đe và phán phạt 100 roi Thiết Kỷ đối với Karlov tại Hầm Băng; bắt đầu nhìn đứa em trai bằng con mắt khác.
+* **Karlov (Nhị Trưởng Lão):** 
+  - Bị lật tẩy mưu đồ mượn tay hoàng thất hãm hại người kế vị dòng chính; bị giam lỏng chờ thọ phạt. Lão sẽ tìm cách cấu kết với các thế lực đen tối hơn ngoài biên ải.
+* **Plot Hooks đang mở:** 
+  - Hành trình đột phá ma hạch và khai mở trọn vẹn Huyết Mạch Băng Sương Cổ Ngữ của Caelen tại Vực Thẳm Hoang Vu / Tàng Thư Các Cổ.
+  - Phản ứng của Hoàng Cung Kinh Đô khi Valerie mang bản Huyết Chiếu có chữ ký Băng Sương trở về.
