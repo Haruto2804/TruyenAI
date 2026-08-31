@@ -321,7 +321,7 @@ export function InteractiveReader({
                         key={partIdx}
                         type="button"
                         onClick={() => setSelectedItem(matched)}
-                        className="inline-flex items-center text-amber-200/95 font-medium underline decoration-dotted decoration-[#d4af37]/70 underline-offset-[5px] hover:decoration-solid hover:text-[#d4af37] hover:bg-[#d4af37]/15 px-1 py-0.5 rounded-md transition-all cursor-pointer select-none"
+                        className="inline font-medium text-amber-200 underline decoration-dotted decoration-[#d4af37]/80 underline-offset-[4px] hover:decoration-solid hover:text-[#d4af37] hover:bg-[#d4af37]/20 px-0.5 rounded transition-all cursor-pointer select-none"
                         title={`Tra cứu nhân vật: ${matched.data.name}`}
                       >
                         {part}
@@ -335,13 +335,14 @@ export function InteractiveReader({
                         key={partIdx}
                         type="button"
                         onClick={() => setSelectedItem(matched)}
-                        className="inline-flex items-center text-cyan-200/95 font-medium underline decoration-dotted decoration-cyan-400/70 underline-offset-[5px] hover:decoration-solid hover:text-cyan-300 hover:bg-cyan-500/15 px-1 py-0.5 rounded-md transition-all cursor-pointer select-none"
+                        className="inline font-medium text-cyan-200 underline decoration-dotted decoration-cyan-400/80 underline-offset-[4px] hover:decoration-solid hover:text-cyan-300 hover:bg-cyan-500/20 px-0.5 rounded transition-all cursor-pointer select-none"
                         title={`Tra cứu chú giải: ${matched.data.term}`}
                       >
                         {part}
                       </button>
                     );
                   }
+
                 }
 
                 return part;

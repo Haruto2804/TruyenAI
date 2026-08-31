@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Be_Vietnam_Pro, Lora } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import { BookOpen } from "lucide-react";
@@ -7,14 +7,16 @@ import { UserMenu } from "@/components/UserMenu";
 import { MobileBottomNav } from "@/components/MobileBottomNav";
 import { auth } from "@/auth";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const beVietnamPro = Be_Vietnam_Pro({
+  weight: ["300", "400", "500", "600", "700", "800"],
+  subsets: ["latin", "vietnamese"],
+  variable: "--font-sans",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const lora = Lora({
+  weight: ["400", "500", "600", "700"],
+  subsets: ["latin", "vietnamese"],
+  variable: "--font-serif",
 });
 
 export const metadata: Metadata = {
@@ -34,9 +36,10 @@ export default async function RootLayout({
   return (
     <html
       lang="vi"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${beVietnamPro.variable} ${lora.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#09090b] text-slate-100 selection:bg-[#d4af37]/30 selection:text-white">
+      <body className="min-h-full flex flex-col bg-[#09090b] text-slate-100 font-sans selection:bg-[#d4af37]/30 selection:text-white">
+
         
         {/* Glow nền mờ tạo chiều sâu */}
         <div className="pointer-events-none fixed inset-0 flex justify-center z-0">

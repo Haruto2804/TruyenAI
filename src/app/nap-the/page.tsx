@@ -32,7 +32,7 @@ export default async function TopupPage() {
   const qrUrl = `https://img.vietqr.io/image/${BANK_BIN}-${BANK_ACCOUNT}-compact2.png?amount=50000&addInfo=${transferSyntax}&accountName=${ACCOUNT_NAME}`;
 
   return (
-    <div className="max-w-4xl mx-auto p-4 sm:p-6 lg:p-8">
+    <div className="max-w-4xl mx-auto p-4 sm:p-6 lg:p-8 pb-28 sm:pb-12">
       <div className="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
         {/* Header */}
         <div className="bg-gradient-to-r from-amber-900/40 to-slate-900 p-8 text-center border-b border-slate-800">

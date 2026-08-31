@@ -13,7 +13,7 @@ export default async function Home() {
   });
 
   return (
-    <div className="space-y-12">
+    <div className="space-y-10 sm:space-y-12 pb-28 sm:pb-12">
       {/* Hero Section */}
       <section className="text-center py-16 space-y-6 relative">
         {/* Glow effect behind title with design-spells pulse */}
