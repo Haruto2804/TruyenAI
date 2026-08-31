@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import { BookOpen } from "lucide-react";
+import { UserMenu } from "@/components/UserMenu";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,6 +38,7 @@ export default function RootLayout({
               <BookOpen className="h-6 w-6" />
               <span className="font-bold text-lg tracking-tight">Thiên Thư AI</span>
             </Link>
+            <UserMenu />
           </div>
         </header>
 

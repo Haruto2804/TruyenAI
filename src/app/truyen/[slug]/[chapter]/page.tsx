@@ -1,6 +1,8 @@
 import prisma from "@/lib/prisma";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { ArrowLeft, ChevronLeft, ChevronRight } from "lucide-react";
+import { ExpTracker } from "@/components/ExpTracker";
 import { ChevronLeft, ChevronRight, Menu } from "lucide-react";
 
 export default async function ChapterDetail({
@@ -130,8 +132,10 @@ export default async function ChapterDetail({
           }`}
         >
           Tiếp <ChevronRight className="w-5 h-5 ml-1" />
-        </Link>
+        </div>
       </div>
-    </div>
+      
+      <ExpTracker chapterId={chapter.id} />
+    </article>
   );
 }
