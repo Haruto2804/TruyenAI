@@ -54,34 +54,36 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
   return (
     <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-4 sm:p-7 shadow-2xl space-y-4 sm:space-y-6">
       {/* Section Header */}
-      <div className="flex items-center justify-between gap-3 border-b border-white/5 pb-3 sm:pb-4">
-        <div>
-          <h2 className="text-lg sm:text-2xl font-extrabold text-slate-100 flex items-center gap-2.5">
-            <div className="p-1.5 sm:p-2 bg-cyan-500/15 rounded-xl text-cyan-400 border border-cyan-500/30 shadow-[0_0_15px_rgba(6,182,212,0.2)]">
-              <BookMarked className="w-4 h-4 sm:w-5 sm:h-5" />
-            </div>
-            <span>Bách Khoa Chú Giải & Khái Niệm</span>
-          </h2>
-          <p className="text-[11px] sm:text-xs text-slate-400 mt-0.5">
-            Tra cứu thuật ngữ ma pháp, độc dược, bí cảnh và các khái niệm trong truyện.
-          </p>
+      <div className="flex items-center justify-between gap-3 border-b border-white/10 pb-4 sm:pb-5">
+        <div className="flex items-center gap-3 sm:gap-3.5">
+          <div className="p-2 sm:p-2.5 bg-cyan-500/15 rounded-2xl text-cyan-400 border border-cyan-500/30 shadow-[0_0_20px_rgba(6,182,212,0.25)]">
+            <BookMarked className="w-5 h-5 sm:w-6 sm:h-6" />
+          </div>
+          <div>
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-100 flex items-center gap-2">
+              <span>Bách Khoa Chú Giải & Khái Niệm</span>
+            </h2>
+            <p className="text-xs sm:text-sm md:text-base text-slate-300 font-normal mt-0.5">
+              Tra cứu thuật ngữ ma pháp, độc dược, bí cảnh và các khái niệm trong truyện.
+            </p>
+          </div>
         </div>
 
-        <span className="text-[11px] sm:text-xs font-bold px-3 py-1 rounded-full bg-cyan-500/10 text-cyan-300 border border-cyan-500/20 shrink-0">
+        <span className="text-xs sm:text-sm font-bold px-3.5 py-1.5 rounded-full bg-cyan-500/15 text-cyan-300 border border-cyan-500/30 shrink-0">
           {lores.length} chú giải
         </span>
       </div>
 
       {/* Category Filter Pills */}
       {categories.length > 0 && (
-        <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none -mx-1 px-1">
+        <div className="flex items-center gap-2.5 overflow-x-auto pb-1 scrollbar-none -mx-1 px-1">
           <button
             type="button"
             onClick={() => setActiveCategory("ALL")}
-            className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 min-h-[36px] ${
+            className={`px-4 py-2 rounded-xl text-xs sm:text-sm md:text-base font-bold transition-all shrink-0 min-h-[40px] ${
               activeCategory === "ALL"
-                ? "bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20 font-extrabold"
-                : "bg-white/5 hover:bg-white/10 text-slate-300 border border-white/5"
+                ? "bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/25 font-extrabold scale-102"
+                : "bg-white/5 hover:bg-white/10 text-slate-200 border border-white/10"
             }`}
           >
             Tất Cả ({lores.length})
@@ -94,13 +96,13 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
                 key={cat}
                 type="button"
                 onClick={() => setActiveCategory(cat)}
-                className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 shrink-0 min-h-[36px] ${
+                className={`px-4 py-2 rounded-xl text-xs sm:text-sm md:text-base font-bold transition-all flex items-center gap-2 shrink-0 min-h-[40px] ${
                   activeCategory === cat
-                    ? "bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20 font-extrabold"
-                    : "bg-white/5 hover:bg-white/10 text-slate-300 border border-white/5"
+                    ? "bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/25 font-extrabold scale-102"
+                    : "bg-white/5 hover:bg-white/10 text-slate-200 border border-white/10"
                 }`}
               >
-                <Icon className="w-3.5 h-3.5" />
+                <Icon className="w-4 h-4" />
                 <span>{cat} ({count})</span>
               </button>
             );
