@@ -6,32 +6,29 @@ async function main() {
   const screenshotsDir = path.join(process.cwd(), "test_screenshots");
   const browser = await chromium.launch();
 
-  // 1. Desktop Test (1366x768 / 1920x1080)
-  console.log("Testing Desktop Split-Screen (1440x900)...");
+  // 1. Desktop Test (1440x900)
+  console.log("Testing Desktop Split-Screen Relationship Web (1440x900)...");
   const desktopContext = await browser.newContext({ viewport: { width: 1440, height: 900 } });
   const desktopPage = await desktopContext.newPage();
 
   await desktopPage.goto("http://localhost:3000/truyen/dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong", { waitUntil: "networkidle" });
   
-  // Click first character card
+  // Click first character card (Caelen)
   const firstCard = desktopPage.locator(".aspect-\\[9\\/16\\]").first();
   await firstCard.click();
-  await desktopPage.waitForTimeout(600);
-  await desktopPage.screenshot({ path: path.join(screenshotsDir, "desktop_character_split_screen.png") });
-  console.log("Saved desktop_character_split_screen.png");
+  await desktopPage.waitForTimeout(500);
 
-  // Test Chapter Reader on Desktop with Side Dossier
-  await desktopPage.goto("http://localhost:3000/truyen/dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/1", { waitUntil: "networkidle" });
-  const caelenBtn = desktopPage.locator("button:has-text('Caelen')").first();
-  if (await caelenBtn.isVisible()) {
-    await caelenBtn.click();
-    await desktopPage.waitForTimeout(600);
-    await desktopPage.screenshot({ path: path.join(screenshotsDir, "desktop_reader_side_dossier.png") });
-    console.log("Saved desktop_reader_side_dossier.png");
+  // Click Relationship tab on desktop
+  const relTab = desktopPage.locator("button:has-text('Mối Quan Hệ & Ân Oán')").first();
+  if (await relTab.isVisible()) {
+    await relTab.click();
+    await desktopPage.waitForTimeout(500);
+    await desktopPage.screenshot({ path: path.join(screenshotsDir, "desktop_relationship_web.png") });
+    console.log("Saved desktop_relationship_web.png");
   }
 
   // 2. Mobile Test (390x844)
-  console.log("Testing Mobile Responsive Dossier (390x844)...");
+  console.log("Testing Mobile Responsive Relationship Web (390x844)...");
   const mobileContext = await browser.newContext({
     viewport: { width: 390, height: 844 },
     isMobile: true,
@@ -41,12 +38,19 @@ async function main() {
   await mobilePage.goto("http://localhost:3000/truyen/dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong", { waitUntil: "networkidle" });
   const firstMobileCard = mobilePage.locator(".aspect-\\[9\\/16\\]").first();
   await firstMobileCard.click();
-  await mobilePage.waitForTimeout(600);
-  await mobilePage.screenshot({ path: path.join(screenshotsDir, "mobile_character_split_modal.png") });
-  console.log("Saved mobile_character_split_modal.png");
+  await mobilePage.waitForTimeout(500);
+
+  // Click Quan Hệ tab on mobile
+  const mobileRelTab = mobilePage.getByRole("button", { name: /Quan Hệ/i });
+  if (await mobileRelTab.isVisible()) {
+    await mobileRelTab.click();
+    await mobilePage.waitForTimeout(500);
+    await mobilePage.screenshot({ path: path.join(screenshotsDir, "mobile_relationship_web.png") });
+    console.log("Saved mobile_relationship_web.png");
+  }
 
   await browser.close();
-  console.log("All tests passed!");
+  console.log("Relationship Web tests passed completely!");
 }
 
 main().catch(console.error);
