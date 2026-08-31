@@ -97,7 +97,7 @@ export default async function ProfilePage() {
         </p>
         <div className="mt-4 overflow-hidden rounded-xl border border-slate-800 shadow-2xl">
           <img 
-            src="/leveling-chart.jpg" 
+            src="/image.png" 
             alt="Sơ đồ Phân cấp Tu luyện" 
             className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700"
           />
