@@ -22,7 +22,7 @@ export default async function TopupPage() {
     redirect("/");
   }
 
-  const userId = session.user.id;
+  const userId = session.user.id || "USER";
   const linhThach = (session.user as any).linhThach || 0;
 
   // Cú pháp chuyển khoản tự động
