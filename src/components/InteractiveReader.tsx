@@ -370,13 +370,13 @@ export function InteractiveReader({
               <div className="space-y-4">
                 <div className="flex items-start justify-between gap-3 border-b border-white/10 pb-4">
                   <div className="flex items-center gap-3.5">
-                    {/* Avatar */}
-                    <div className="w-16 h-20 rounded-xl overflow-hidden bg-slate-950 border border-[#d4af37]/30 shrink-0 shadow-lg relative">
+                    {/* Avatar 9:16 Portrait Canvas */}
+                    <div className="w-20 aspect-[9/16] rounded-2xl overflow-hidden bg-slate-950 border border-[#d4af37]/40 shrink-0 shadow-2xl relative">
                       {selectedItem.data.avatarUrl ? (
                         <img
                           src={selectedItem.data.avatarUrl}
                           alt={selectedItem.data.name}
-                          className="w-full h-full object-cover object-top"
+                          className="w-full h-full object-cover object-center"
                         />
                       ) : (
                         <div className="w-full h-full flex items-center justify-center bg-slate-900 text-slate-500">
