@@ -4,6 +4,7 @@ import Link from "next/link";
 import { BookOpen, List, Clock, ChevronRight } from "lucide-react";
 import { auth } from "@/auth";
 import { BookmarkButton } from "@/components/BookmarkButton";
+import { CommentSection } from "@/components/CommentSection";
 
 export default async function StoryDetail({
   params,
@@ -135,6 +136,9 @@ export default async function StoryDetail({
           </div>
         )}
       </div>
+
+      {/* Comment Section */}
+      <CommentSection storyId={story.id} />
     </div>
   );
 }

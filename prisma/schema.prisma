@@ -19,6 +19,7 @@ model Story {
   chapters  Chapter[]
   bookmarks Bookmark[]
   readingProgresses ReadingProgress[]
+  comments  Comment[]
 }
 
 model Chapter {
@@ -52,6 +53,7 @@ model User {
   readHistories ReadHistory[]
   bookmarks     Bookmark[]
   readingProgresses ReadingProgress[]
+  comments      Comment[]
   
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -140,4 +142,25 @@ model ReadingProgress {
   updatedAt DateTime @updatedAt
 
   @@unique([userId, storyId])
+}
+
+// Comments for stories with self-referencing for replies
+model Comment {
+  id        String   @id @default(cuid())
+  content   String
+  isDeleted Boolean  @default(false)
+  
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  storyId   String
+  story     Story    @relation(fields: [storyId], references: [id], onDelete: Cascade)
+
+  // Reply functionality
+  parentId  String?
+  parent    Comment?  @relation("CommentToComment", fields: [parentId], references: [id], onDelete: Cascade)
+  replies   Comment[] @relation("CommentToComment")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
