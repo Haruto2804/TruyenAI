@@ -233,18 +233,18 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
       </div>
 
       {/* ========================================================================= */}
-      {/* UNIVERSAL CHARACTER DOSSIER MODAL (PORTALED TO BODY - ALWAYS CENTERED) */}
+      {/* UNIVERSAL CHARACTER DOSSIER MODAL (PORTALED TO BODY - ALWAYS CENTERED IN FULL VIEWPORT) */}
       {/* ========================================================================= */}
       {mounted && selectedChar && !isFullscreenImage && createPortal(
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 md:p-8 bg-black/95 backdrop-blur-2xl animate-in fade-in duration-200"
+          className="fixed inset-0 top-0 left-0 w-screen h-screen z-[9999] flex items-center justify-center p-4 sm:p-6 md:p-8 bg-black/90 backdrop-blur-2xl animate-in fade-in duration-200"
           onClick={() => setSelectedIndex(null)}
         >
           {/* ========================================================================= */}
           {/* DESKTOP SPLIT-SCREEN VIEW (>= md screens) */}
           {/* ========================================================================= */}
           <div
-            className="hidden md:flex relative w-full md:max-w-5xl lg:max-w-6xl h-[84vh] bg-gradient-to-br from-slate-900 via-slate-950 to-black border border-[#d4af37]/40 rounded-3xl shadow-[0_25px_80px_rgba(0,0,0,0.95)] overflow-hidden animate-in zoom-in-95 duration-200"
+            className="hidden md:flex relative w-full md:max-w-5xl lg:max-w-6xl h-[84vh] bg-gradient-to-br from-slate-900 via-slate-950 to-black border-2 border-[#d4af37]/50 rounded-3xl shadow-[0_0_90px_rgba(212,175,55,0.25)] overflow-hidden animate-in zoom-in-95 duration-200 m-auto"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Close Button Desktop */}
@@ -384,7 +384,7 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
           {/* CENTERED MOBILE MODAL VIEW (< md screens) */}
           {/* ========================================================================= */}
           <div
-            className="md:hidden relative w-full max-w-lg bg-gradient-to-b from-slate-900 via-slate-950 to-black border border-[#d4af37]/40 rounded-3xl p-5 sm:p-6 shadow-[0_20px_70px_rgba(0,0,0,0.95)] max-h-[82vh] overflow-y-auto flex flex-col space-y-4 animate-in zoom-in-95 duration-200 my-auto"
+            className="md:hidden relative w-full max-w-lg bg-gradient-to-b from-slate-900 via-slate-950 to-black border-2 border-[#d4af37]/50 rounded-3xl p-5 sm:p-6 shadow-[0_0_90px_rgba(212,175,55,0.25)] max-h-[85vh] overflow-y-auto flex flex-col space-y-4 animate-in zoom-in-95 duration-200 m-auto"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Mobile Hero Bar: Side-by-Side (Avatar + Name/Role) */}
@@ -500,7 +500,7 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
       {/* FULLSCREEN IMMERSIVE LIGHTBOX (PORTALED TO BODY) */}
       {mounted && selectedChar && isFullscreenImage && createPortal(
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/95 backdrop-blur-2xl p-4 sm:p-8 animate-in fade-in duration-200"
+          className="fixed inset-0 top-0 left-0 w-screen h-screen z-[99999] flex items-center justify-center bg-black/95 backdrop-blur-2xl p-4 sm:p-8 animate-in fade-in duration-200"
           onClick={() => setIsFullscreenImage(false)}
         >
           {/* Top Bar inside Fullscreen Lightbox */}

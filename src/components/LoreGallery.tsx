@@ -170,14 +170,14 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
         })}
       </div>
 
-      {/* Lore Detail Modal (Always Centered Dialog on All Devices - Portaled to Body) */}
+      {/* Lore Detail Modal (Always Centered in Full Viewport - Portaled to Body) */}
       {mounted && selectedLore && createPortal(
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 md:p-8 bg-black/90 backdrop-blur-2xl animate-in fade-in duration-200 overflow-y-auto"
+          className="fixed inset-0 top-0 left-0 w-screen h-screen z-[9999] flex items-center justify-center p-4 sm:p-6 md:p-8 bg-black/90 backdrop-blur-2xl animate-in fade-in duration-200"
           onClick={() => setSelectedLore(null)}
         >
           <div
-            className="relative w-full max-w-lg sm:max-w-xl md:max-w-2xl bg-gradient-to-b from-slate-900 via-slate-950 to-black border border-cyan-500/40 rounded-3xl p-5 sm:p-7 md:p-8 shadow-[0_20px_70px_rgba(0,0,0,0.95)] space-y-4 sm:space-y-5 max-h-[82vh] overflow-y-auto animate-in zoom-in-95 duration-200 my-auto"
+            className="relative w-full max-w-lg sm:max-w-xl md:max-w-2xl bg-gradient-to-b from-slate-900 via-slate-950 to-black border-2 border-cyan-500/50 rounded-3xl p-6 sm:p-8 shadow-[0_0_80px_rgba(6,182,212,0.35)] space-y-5 max-h-[85vh] overflow-y-auto animate-in zoom-in-95 duration-200 m-auto"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex items-start justify-between border-b border-white/10 pb-4">
