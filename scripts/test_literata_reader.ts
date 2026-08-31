@@ -8,7 +8,7 @@ async function main() {
   // Desktop (1440x900)
   const desktopContext = await browser.newContext({ viewport: { width: 1440, height: 900 } });
   const desktopPage = await desktopContext.newPage();
-  await desktopPage.goto("http://localhost:3000/truyen/dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/1", { waitUntil: "networkidle" });
+  await desktopPage.goto("http://localhost:3000/truyen/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/1", { waitUntil: "networkidle" });
   await desktopPage.waitForTimeout(1000);
   await desktopPage.screenshot({ path: path.join(screenshotsDir, "desktop_chapter_literata_23px.png") });
 

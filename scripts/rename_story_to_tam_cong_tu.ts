@@ -3,12 +3,46 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
 async function main() {
-  const story = await prisma.story.findUnique({
-    where: { slug: "tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong" }
+  console.log("Finding existing story...");
+  let story = await prisma.story.findFirst({
+    where: {
+      OR: [
+        { slug: "dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong" },
+        { slug: "tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong" },
+        { title: { contains: "Gia Tộc Băng Sương" } }
+      ]
+    }
   });
 
-  if (!story) return;
+  if (!story) {
+    console.log("Story not found, creating new...");
+    story = await prisma.story.create({
+      data: {
+        title: "Tam Công Tử Rác Rưởi Của Gia Tộc Băng Sương",
+        slug: "tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong",
+        genre: "Fantasy Tây Phương",
+        summary: `Đại Lục Erebia – một thế giới ma pháp cổ điển đang bước vào thời kỳ suy tàn của các đại gia tộc huyết thống trước sự trỗi dậy của Thần Điện Quang Minh.
 
+Caelen Von Ravenwood – Đệ tam công tử của gia tộc Công tước Băng Sương khét tiếng phương Bắc, kẻ bị cả kinh đô khinh miệt là "Đống rác của Bắc Cảnh", một kẻ nghiện rượu, đồi bại và bất tài. Không ai biết rằng, hắn thực chất đã bị đầu độc bằng kịch độc "Hắc Tử La Lan" làm nghẽn kinh mạch suốt năm năm qua.
+
+Khi một linh hồn chiến thuật gia kiêm sát thủ thời hiện đại nhập xác, Ma Đồng Giải Cấu thức tỉnh, nhìn thấu mọi mạch chảy mana và điểm yếu ma pháp. Đối diện với vị hôn thê Công chúa kiêu ngạo mang Huyết Chiếu đến phế hôn và âm mưu đày hắn làm vật tế thần nơi Vực Thẳm Hoang Vu, "tên phế vật" bắt đầu mỉm cười...`,
+        coverUrl: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop"
+      }
+    });
+  } else {
+    console.log(`Updating story ID ${story.id} title & slug...`);
+    story = await prisma.story.update({
+      where: { id: story.id },
+      data: {
+        title: "Tam Công Tử Rác Rưởi Của Gia Tộc Băng Sương",
+        slug: "tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong"
+      }
+    });
+  }
+
+  console.log(`Story: ${story.title} (Slug: ${story.slug})`);
+
+  // Update Character Avatar URLs
   const characters = [
     {
       name: "Caelen Von Ravenwood",
@@ -59,16 +93,33 @@ Mang theo *Huyết Chiếu Hoàng Gia* đến Bắc Cảnh để công khai hủ
     if (found) {
       await prisma.character.update({
         where: { id: found.id },
-        data: { 
+        data: {
+          name: char.name,
           role: char.role,
           aliases: char.aliases,
           avatarUrl: char.avatarUrl,
           description: char.description
         }
       });
-      console.log(`Updated ${char.name} summary -> DB OK`);
+      console.log(`Updated character: ${char.name}`);
+    } else {
+      await prisma.character.create({
+        data: {
+          storyId: story.id,
+          name: char.name,
+          role: char.role,
+          aliases: char.aliases,
+          avatarUrl: char.avatarUrl,
+          description: char.description
+        }
+      });
+      console.log(`Created character: ${char.name}`);
     }
   }
+
+  console.log("Successfully migrated to: Tam Công Tử Rác Rưởi Của Gia Tộc Băng Sương!");
 }
 
-main().finally(() => prisma.$disconnect());
+main()
+  .catch(console.error)
+  .finally(() => prisma.$disconnect());

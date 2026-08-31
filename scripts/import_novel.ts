@@ -4,8 +4,8 @@ const prisma = new PrismaClient();
 
 async function main() {
   const storyData = {
-    title: "Đại Công Tử Rác Rưởi Của Gia Tộc Băng Sương",
-    slug: "dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong",
+    title: "Tam Công Tử Rác Rưởi Của Gia Tộc Băng Sương",
+    slug: "tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong",
     genre: "Fantasy Tây Phương",
     summary: `Đại Lục Erebia – một thế giới ma pháp cổ điển đang bước vào thời kỳ suy tàn của các đại gia tộc huyết thống trước sự trỗi dậy của Thần Điện Quang Minh.
 

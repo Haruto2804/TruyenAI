@@ -4,7 +4,7 @@ const prisma = new PrismaClient();
 
 async function main() {
   const story = await prisma.story.findUnique({
-    where: { slug: "dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong" }
+    where: { slug: "tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong" }
   });
 
   if (!story) {

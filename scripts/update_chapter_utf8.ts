@@ -6,7 +6,7 @@ const prisma = new PrismaClient();
 
 async function main() {
   const story = await prisma.story.findUnique({
-    where: { slug: "dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong" }
+    where: { slug: "tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong" }
   });
 
   if (!story) {
@@ -16,7 +16,7 @@ async function main() {
 
   const chapterFile = path.join(
     process.cwd(),
-    ".agents/viet_truyen/novels/dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/chapters/chapter_1.md"
+    ".agents/viet_truyen/novels/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/chapters/chapter_1.md"
   );
 
   const rawContent = fs.readFileSync(chapterFile, "utf-8");

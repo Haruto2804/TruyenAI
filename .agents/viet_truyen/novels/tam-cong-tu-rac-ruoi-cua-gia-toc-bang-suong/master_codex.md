@@ -1,4 +1,4 @@
-# MASTER CODEX: ĐẠI CÔNG TỬ RÁC RƯỞI CỦA GIA TỘC BĂNG SƯƠNG
+# MASTER CODEX: TAM CÔNG TỬ RÁC RƯỞI CỦA GIA TỘC BĂNG SƯƠNG
 *(Tựa tiếng Anh: The Trash Scion of House Ravenwood)*
 
 > **Lưu ý cho AI:** Đây là tập tin bộ nhớ tối cao (Master Memory & Codex). Trước khi viết bất kỳ chương mới nào, BẮT BUỘC phải đọc và đối chiếu toàn bộ các mục dưới đây. Mỗi khi xuất hiện nhân vật mới hoặc thuật ngữ/chú giải mới trong chương, phải bổ sung ngay vào file này theo đúng **Quy Chuẩn Hồ Sơ Siêu Chi Tiết**!
@@ -20,7 +20,7 @@
 * **Vai trò & Thân phận:** Nhân vật chính / Đệ tam công tử của gia tộc Công tước Ravenwood (Huyết Ưng Băng Sương).
 * **Danh xưng & Biệt hiệu:** Đống rác Bắc Cảnh, Công tử phế vật, Caelen, Đệ tam thiếu chủ.
 * **Cảnh giới & Tu vi:** Ma Hạch Sơ Giai Đỉnh Phong (đang khai mở sau khi trừ 80% kịch độc).
-* **Ảnh Avatar (9:16):** `/characters/dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/caelen-von-ravenwood.jpg`
+* **Ảnh Avatar (9:16):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/caelen-von-ravenwood.jpg`
 
 * **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):**
   - *Vóc dáng & Thể hình:* Cao 1m84, thân hình thon dài săn chắc ẩn giấu sức bùng nổ của sát thủ cận chiến. Làn da trắng sứ quý tộc phương Bắc, tỏa ra hàn khí nhàn nhạt và mùi hương gỗ tuyết tùng trầm ấm xen lẫn chút vị đắng của độc thảo.
@@ -58,7 +58,7 @@
 * **Vai trò & Thân phận:** Hầu nữ thân cận của Caelen / Gián điệp ngầm của Nhị Trưởng Lão Karlov $\rightarrow$ Nội gián hai mang dưới quyền Caelen.
 * **Danh xưng & Biệt hiệu:** Ả hầu gái, Lilian.
 * **Cảnh giới & Tu vi:** Sơ Giai Sơ Kỳ (Chuyên về ám sát vi mô, điều chế độc dược mạn tính).
-* **Ảnh Avatar (9:16):** `/characters/dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/lilian.jpg`
+* **Ảnh Avatar (9:16):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/lilian.jpg`
 
 * **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):**
   - *Vóc dáng & Thể hình:* Cao 1m65, thân hình thon thả thanh nhã, làn da trắng tuyết mịn màng, tỏa ra mùi hương hoa oải hương dịu nhẹ.
@@ -93,7 +93,7 @@
 * **Vai trò & Thân phận:** Đại tiểu thư Gia tộc Ravenwood / Quân đoàn trưởng Đội Quân Thiết Kỵ Băng Sương / Kiếm Vương Bắc Cảnh.
 * **Danh xưng & Biệt hiệu:** Nữ Kiếm Vương, Evelyn, Tỷ tỷ Thiết Huyết.
 * **Cảnh giới & Tu vi:** Địa Giai Trung Kỳ (Cao thủ kiếm thuật hàng đầu phương Bắc).
-* **Ảnh Avatar (9:16):** `/characters/dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/evelyn-von-ravenwood.jpg`
+* **Ảnh Avatar (9:16):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/evelyn-von-ravenwood.jpg`
 
 * **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):**
   - *Vóc dáng & Thể hình:* Cao 1m76, dáng vóc cao ráo, cân đối và săn chắc chuẩn nữ chiến binh hoàng gia.
@@ -125,7 +125,7 @@
 * **Vai trò & Thân phận:** Tam Công Chúa Đế Quốc Solaria / Vị hôn thê đối địch mang Huyết Chiếu từ hôn.
 * **Danh xưng & Biệt hiệu:** Công Chúa Solaria, Phượng Hoàng Lửa Vàng, Valerie.
 * **Cảnh giới & Tu vi:** Cao Giai Đỉnh Phong (Hỏa hệ Ma Pháp Sư Quang Minh).
-* **Ảnh Avatar (9:16):** `/characters/dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/valerie-de-valois.jpg`
+* **Ảnh Avatar (9:16):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/valerie-de-valois.jpg`
 
 * **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):**
   - *Vóc dáng & Thể hình:* Cao 1m70, thân hình đồng hồ cát quyến rũ, làn da trắng muốt không tì vết, tỏa ra mùi hương nước hoa hoa hồng hoàng gia ngào ngạt.
