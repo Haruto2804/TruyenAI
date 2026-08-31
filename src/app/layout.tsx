@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Be_Vietnam_Pro, Lora } from "next/font/google";
+import { Be_Vietnam_Pro, Literata } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import { BookOpen } from "lucide-react";
@@ -13,8 +13,8 @@ const beVietnamPro = Be_Vietnam_Pro({
   variable: "--font-sans",
 });
 
-const lora = Lora({
-  weight: ["400", "500", "600", "700"],
+const literata = Literata({
+  weight: ["400", "500", "600", "700", "800"],
   subsets: ["latin", "vietnamese"],
   variable: "--font-serif",
 });
@@ -36,7 +36,7 @@ export default async function RootLayout({
   return (
     <html
       lang="vi"
-      className={`${beVietnamPro.variable} ${lora.variable} h-full antialiased`}
+      className={`${beVietnamPro.variable} ${literata.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-[#09090b] text-slate-100 font-sans selection:bg-[#d4af37]/30 selection:text-white">
 

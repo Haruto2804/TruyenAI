@@ -61,10 +61,10 @@ export function InteractiveReader({
   const [selectedItem, setSelectedItem] = useState<MatchedItem | null>(null);
 
   // Reader Customization State (Stored in localStorage)
-  const [fontSize, setFontSize] = useState<number>(21); // 16 to 28px
+  const [fontSize, setFontSize] = useState<number>(23); // 16 to 34px
   const [fontFamily, setFontFamily] = useState<FontFamily>("serif");
   const [theme, setTheme] = useState<ReadingTheme>("dark");
-  const [lineHeight, setLineHeight] = useState<number>(2.15); // 1.8 to 2.5
+  const [lineHeight, setLineHeight] = useState<number>(2.2); // 1.8 to 2.5
   const [showToolbar, setShowToolbar] = useState<boolean>(false);
 
   // Load reader preferences from localStorage
@@ -86,7 +86,7 @@ export function InteractiveReader({
 
   const updateFontSize = (delta: number) => {
     setFontSize((prev) => {
-      const next = Math.min(28, Math.max(16, prev + delta));
+      const next = Math.min(34, Math.max(16, prev + delta));
       localStorage.setItem("reader_fontSize", String(next));
       return next;
     });
@@ -207,7 +207,7 @@ export function InteractiveReader({
               <Sliders className="w-3.5 h-3.5" />
             </div>
             <span className="text-[11px] sm:text-xs text-slate-300 font-medium whitespace-nowrap">
-              {fontFamily === "serif" ? "Lora Serif" : "Modern Sans"} • {fontSize}px
+              {fontFamily === "serif" ? "Literata Serif" : "Modern Sans"} • {fontSize}px
             </span>
           </div>
 
