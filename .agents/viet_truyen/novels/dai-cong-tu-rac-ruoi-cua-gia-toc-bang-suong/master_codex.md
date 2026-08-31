@@ -25,20 +25,21 @@
 ### 2. Lilian
 * **Vai trò:** Hầu nữ thân cận / Gián điệp ngầm của Nhị Trưởng Lão.
 * **Biệt danh:** Ả hầu gái.
-* **Ảnh Avatar:** `https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=300&auto=format&fit=crop`
+* **Ảnh Avatar:** `/characters/dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/lilian.jpg`
 * **Tiểu sử & Tính cách:** Được cài cắm bên cạnh Caelen từ năm 14 tuổi để định kỳ hạ độc *Hắc Tử La Lan*. Sau khi bị Caelen bẻ gãy khớp tay và chấn áp tinh thần ở Chương 1, nàng đã quy phục và trở thành nội gián bí mật của Caelen.
 
 ### 3. Evelyn Von Ravenwood
 * **Vai trò:** Đại tiểu thư / Kiếm Vương Bắc Cảnh.
 * **Biệt danh:** Nữ kiếm vương, Tỷ tỷ.
-* **Ảnh Avatar:** `https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=300&auto=format&fit=crop`
+* **Ảnh Avatar:** `/characters/dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/evelyn-von-ravenwood.jpg`
 * **Tiểu sử & Tính cách:** Chị ruột của Caelen, chỉ huy Đội Quân Thiết Kỵ Băng Sương. Bên ngoài lạnh lùng, nghiêm khắc và thất vọng trước sự sa đọa của em trai, nhưng thâm tâm luôn mang mặc cảm vì chưa bảo vệ được mẹ và gia tộc.
 
 ### 4. Valerie De Valois
 * **Vai trò:** Tam Công chúa Đế Quốc Solaria / Vị hôn thê đối địch.
 * **Biệt danh:** Công chúa Solaria, Valerie.
-* **Ảnh Avatar:** `https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=300&auto=format&fit=crop`
+* **Ảnh Avatar:** `/characters/dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/valerie-de-valois.jpg`
 * **Tiểu sử & Tính cách:** Tam Công chúa kiêu ngạo, tàn nhẫn và đầy toan tính chính trị. Mang theo Huyết Chiếu Hoàng Gia đến Bắc Cảnh để hủy hôn ước và gài bẫy đày Caelen ra Tiền Tuyến Hắc Vực làm vật tế thần.
+
 
 ---
 
