@@ -142,15 +142,18 @@
   - *Tuyệt kỹ:* *Quang Minh Viêm Trận*.
 
 * **🧠 Tính Cách & Chiều Sâu Tâm Lý:**
-  - Tự phụ, độc đoán, coi con người là những quân cờ trên bàn cờ quyền lực đế quốc.
+  - *Bản chất cốt lõi:* Bản chất không hề xấu xa hay tàn độc vô cớ; nàng là nữ chính trị gia kiêu hãnh, sắc sảo, tôn sùng kẻ mạnh và có lòng tự trọng hoàng gia cực cao.
+  - *Động cơ & Tham vọng:* Mang dã tâm chính trị to lớn muốn vươn lên đỉnh cao quyền lực của Đế Quốc Solaria. Nàng kiên quyết từ hôn vì không thể chấp nhận tương lai và danh dự của mình bị trói buộc với một "kẻ phế vật nghiện rượu, bất tài làm trò cười cho kinh đô".
+  - *Thái độ với Caelen:* Ban đầu cực kỳ chán ghét và khinh miệt sự trụy lạc nhu nhược của Caelen quá khứ; nhưng khi Caelen bộc lộ mưu lược thâm sâu và thực lực thực sự, thái độ của nàng sẽ chuyển từ khinh thường sang kinh ngạc, cảnh giác và bị cuốn hút bởi sự bí ẩn nguy hiểm của gã.
 
 * **❤️ Sở Thích & Thói Quen Vi Mô:**
-  - *Sở thích:* Tiệc tùng xa hoa, thu thập trang sức đá quý hiếm, thuần phục những kẻ kiêu ngạo.
-  - *Điều căm ghét:* Sự chống đối, cái lạnh băng giá của Bắc Cảnh.
+  - *Sở thích:* Đọc các bản đồ địa chính trị đế quốc, sưu tầm các loại đá quý ma pháp cao cấp, thưởng trà hoa hồng sa mạc nóng.
+  - *Điều căm ghét:* Những kẻ nhu nhược bất tài sống dựa dẫm vào gia thế, sự thất hứa, sự bẩn thỉu và thô lỗ.
+  - *Thói quen:* Khẽ nâng cằm khi đưa ra phán quyết chính trị; ngón tay thon dài gõ nhẹ lên chuôi dao găm vàng ròng khi suy tính thiệt hơn.
 
 * **🕸️ Mạng Lưới Mối Quan Hệ:**
-  - *Caelen:* Vật tế thần chính trị cần bị phế bỏ.
-  - *Evelyn:* Đối thủ quân sự nguy hiểm tại phương Bắc.
+  - *Caelen:* Vị hôn phu "phế vật" cần từ hôn để dọn đường tham vọng chính trị $\rightarrow$ Biến số nguy hiểm ngoài dự tính khiến nàng chấn động.
+  - *Evelyn:* Nữ Kiếm Vương phương Bắc – đối thủ quân sự đáng gờm mà nàng vừa kiêng dè vừa kính trọng thực lực.
 
 
 ---

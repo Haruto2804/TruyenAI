@@ -1,113 +1,129 @@
 # CHƯƠNG 1: TỈNH GIẤC TRONG VŨNG BÙN NHỤC NHÃ
 
-Mùi rượu nho lên men chua lòm xộc thẳng vào cánh mũi, quyện chặt với thứ hương hoa dạ lan nồng nặc đến buồn nôn.
+Mùi rượu vang tuyết lên men chua lòm xộc thẳng vào cánh mũi, quẩn quanh trong không khí lạnh buốt cùng thứ hương độc thảo tử la lan ngọt lịm đến buồn nôn.
 
 Caelen mở mắt.
 
-Trần nhà vòm bằng đá hoa cương xám tro đập vào tầm nhìn, mờ ảo sau lớp rèm lụa viền vàng rách bươm. Từng thớ cơ trên người hắn co giật từng hồi, đau nhức tựa như có hàng vạn mũi kim gỉ sét đang cắm sâu vào tủy sống. Nơi cuống họng khô khốc trào lên một ngụm dịch lỏng tanh nồng mùi sắt rỉ.
+Trần nhà vòm bằng đá hoa cương xám tro đập vào tầm nhìn, mờ ảo sau tấm rèm nhung đen viền bạc rách bươm. Từng thớ cơ trên người hắn co giật từng cơn dữ dội, đau nhức tựa như có hàng vạn mũi kim băng gỉ sét đang đâm xuyên tủy sống. Nơi cuống họng khô khốc trào lên một ngụm dịch đắng chát mang theo vị tanh nồng của kim loại rỉ.
 
-Độc.
+Kịch độc.
 
-Không phải độc dược thông thường, mà là chất kịch độc ma thuật ăn mòn kinh mạch một cách êm ái qua năm tháng.
+Không phải thứ độc dược giết người trong chớp mắt, mà là loại độc tố ma thuật mạn tính ăn mòn kinh mạch một cách êm ái suốt năm năm qua.
 
-Ký ức xa lạ ùa về như thác lũ. Đại Lục Erebia... Bắc Cảnh Ravenwood... Caelen Von Ravenwood, đệ tam công tử của gia tộc Công tước Băng Sương danh chấn thiên hạ, kẻ nổi danh khắp kinh đô là nỗi ô nhục lớn nhất mà dòng họ này từng sinh ra: một tên nghiện rượu, đồi bại, hoang phí và bất tài.
+Từng mảng ký ức xa lạ ùa về như dòng lũ tuyết sụp đổ. Đại Lục Erebia... Bắc Cảnh Frostford... Pháo đài Băng Sương của gia tộc Công tước Ravenwood. Và hắn – Caelen Von Ravenwood, Đệ tam công tử của dòng máu Huyết Ưng kiêu hùng. Kẻ bị cả kinh đô khinh miệt gọi là "Đống rác của Bắc Cảnh", một tên nghiện rượu, đồi bại, ma hạch phế bỏ và trở thành trò cười cho toàn bộ giới quý tộc đế quốc.
 
-"Thiếu gia, ngài lại nôn mửa ra thảm Ba Tư nữa rồi."
+"Tam thiếu gia, ngài lại làm bẩn thảm lông tuyết sói nữa rồi."
 
-Một giọng nói trong trẻo cất lên từ mép giường, nhưng ngữ điệu lại lạnh lùng và cứng nhắc, không hề có nửa điểm kính trọng.
+Một giọng nói thanh mảnh vang lên bên mép giường, nhưng ngữ điệu lại lạnh lùng và cứng nhắc đến gai người, không hề mang theo lấy nửa phần kính trọng của kẻ bề dưới.
 
-Lilian đứng đó. Nàng ta vận bộ váy hầu gái viền ren màu lam sẫm, hai tay bưng khay bạc đựng một chén canh giải rượu còn bốc khói nghi ngút. Đôi mắt màu lục bích của nàng liếc nhìn Caelen đang nằm bẹp trên sàn đá, khóe môi khẽ nhếch lên một tia khinh miệt không buồn che giấu.
+Lilian đứng đó. Ả khoác trên mình bộ lễ phục nhung màu xanh bóng đêm viền lông thú trắng muốt, mái tóc xám bạc tết lệch sang một bên vai. Đôi mắt màu hổ phách của ả liếc nhìn Caelen đang nằm gục bên mép giường, khóe môi khẽ cong lên một nét giễu cợt quen thuộc.
 
-"Uống đi. Đây là canh hoa Tuyết Liên do chính Nhị Trưởng lão dặn dò nhà bếp nấu cho ngài. Ngài say khướt suốt ba ngày nay rồi, dưới đại sảnh... khách quý đã đến đông đủ cả."
+Trên tay ả là chiếc khay bạc đựng một chén canh giải rượu còn bốc khói nghi ngút.
 
-Caelen không đáp. Hắn chống một tay xuống nền đá cẩm thạch lạnh buốt, từ từ gượng dậy. Từng giọt mồ hôi lạnh túa ra trên trán hắn, lăn qua gò má góc cạnh nhưng tái nhợt vì trụy lạc lâu ngày. 
+"Uống đi. Đây là canh hoa Tuyết Liên do đích thân Nhị Trưởng lão dặn dò phòng bếp hầm cho ngài. Ngài say khướt suốt ba ngày nay rồi, dưới Đại Điện... khách quý phương xa đã ngồi chờ suốt nửa canh giờ."
 
-Trong khoảnh khắc mắt hắn chạm vào chén canh nghi ngút khói, đáy mắt màu tro tàn của Caelen đột nhiên lóe lên một chuỗi ký tự cổ tựa như băng tinh xoay chuyển.
+Caelen không đáp. Hắn chống một bàn tay xuống nền đá cẩm thạch lạnh buốt, từ từ gượng dậy. Mái tóc bạc ánh lam tro rũ xuống vầng trán tái nhợt nhưng ngũ quan lại sắc sảo lạ thường. 
 
-Ma Đồng Giải Cấu kích hoạt.
+Khoảnh khắc tầm mắt hắn chạm vào chén canh bạc đang nghi ngút khói, sâu trong đồng tử màu lam băng của Caelen đột nhiên xoay chuyển những vòng ma trận cổ ngữ rực rỡ.
 
-Dòng chảy ma lực mỏng manh như sợi tơ đen kịt đang cuộn xoáy dưới đáy bát canh lập tức hiện rõ mồn một. 
+*Ma Đồng Giải Cấu* thức tỉnh!
 
-Hắc Tử La Lan. Liều lượng gấp ba lần ngày thường. Kẻ hạ độc muốn hắn hoặc là chết đột tử vì vỡ tim, hoặc là phát điên ngay trong buổi tiệc trưa nay.
+Dưới tầm nhìn thấu thị dòng chảy ma lực, đáy chén canh hiện rõ những sợi tơ ma thuật đen kịt đang cuộn xoáy ngấm ngầm.
 
-"Thiếu gia? Ngài ngơ ngác cái gì?" Lilian bước tới gần hơn, khay bạc khẽ rung nhẹ, giọng điệu mang theo sự mất kiên nhẫn rõ rệt. "Uống nhanh lên rồi còn thay lễ phục. Tam Công chúa của Đế quốc đã chờ ở Nghị Sự Điện suốt nửa canh giờ rồi. Ngài muốn để cả gia tộc mất mặt thêm lần nữa sao?"
+*Hắc Tử La Lan*. Liều lượng hôm nay đậm đặc gấp ba lần ngày thường. Kẻ hạ độc muốn hắn nếu không chết đột tử vì vỡ mạch mana thì cũng sẽ phát điên, mất hết lý trí ngay trước mặt các vị khách quý của kinh đô.
 
-Nàng ta đưa chén canh tới sát mặt Caelen, bàn tay giấu sau ống tay áo khẽ siết lại, sẵn sàng dùng lực ép hắn uống nếu hắn từ chối như mọi bận.
+"Tam thiếu gia? Ngài ngơ ngác cái gì?" Lilian tiến thêm một bước, chiếc khay bạc khẽ rung nhẹ, giọng điệu lộ rõ vẻ mất kiên nhẫn. "Uống nhanh lên rồi còn khoác quân phục vào. Tam Công chúa của Đế quốc không có kiên nhẫn ngồi chờ một kẻ say xỉn đâu. Ngài muốn gia tộc Ravenwood mất hết thể diện hôm nay sao?"
 
-Thế nhưng, Caelen không cự tuyệt, cũng không phát tiết cơn giận vô cớ như kẻ phế vật trước đây.
+Ả đưa chén canh tới sát mặt Caelen, bàn tay giấu sau ống tay áo hơi siết lại, sẵn sàng dùng ma lực sơ giai ép hắn nuốt trọn như những lần trước.
 
-Hắn vươn tay ra, những ngón tay thon dài run rẩy chạm vào thành chén bạc. Lilian thở phào trong bụng, ánh mắt ánh lên vẻ đắc ý quen thuộc.
+Thế nhưng, Caelen không cự tuyệt, cũng chẳng hề nổi trận lôi đình bất lực như tên phế vật trước đây.
 
-Xoảng!
+Hắn bình thản vươn tay ra, những ngón tay thon dài chạm nhẹ vào thành chén bạc. Trong mắt Lilian lóe lên một tia đắc ý thầm kín.
 
-Âm thanh chát chúa vang vọng khắp căn phòng tĩnh mịch.
+*Xoảng!*
 
-Chén canh nóng bỏng hắt thẳng vào ngực áo Lilian, nước canh văng tung tóe khắp mặt sàn, bốc lên làn khói xám xịt mang theo mùi lưu huỳnh khét lẹt khi tiếp xúc với thảm lông thú.
+Âm thanh chát chúa xé toạc không gian tĩnh lặng của tẩm điện.
 
-"A!" Lilian giật mình lùi lại, đôi mắt trợn tròn vì kinh hãi và phẫn nộ: "Caelen! Ngươi phát điên cái gì—"
+Chén canh nóng bỏng hắt thẳng vào ngực áo Lilian. Nước thuốc đen đặc văng tung tóe xuống mặt sàn đá, bốc lên làn khói xám xịt kèm theo mùi lưu huỳnh nồng nặc khi ăn mòn lớp thảm lông thú.
 
-Chữ "đấy" chưa kịp bật ra khỏi cổ họng thì một bàn tay ướt đẫm mồ hôi lạnh đã siết chặt lấy thanh quản của nàng.
+"A!" Lilian kinh hãi lùi lại, đôi mắt hổ phách trừng lớn vì tức giận: "Caelen! Ngươi phát điên cái gì—"
 
-Tốc độ nhanh đến mức không khí bị xé toạc bằng một tiếng vút sắc lẹm.
+Chữ "đấy" còn chưa kịp thốt ra khỏi cổ họng thì một bàn tay lạnh như băng đã chuẩn xác siết chặt lấy thanh quản của ả!
 
-Rầm!
+Tốc độ ra đòn nhanh đến mức xé toạc luồng không khí lạnh bằng một tiếng rít sắc lẹm.
 
-Caelen đẩy mạnh Lilian vào cột giường gỗ sồi chạm khắc hình chim ưng. Lưng nàng ta đập mạnh vào thân gỗ, phát ra một tiếng vang nghẹn ngào. Toàn bộ trọng lượng của Caelen dồn lên cánh tay, gân xanh hằn rõ trên mu bàn tay trắng bệch, ngón tay hắn như gọng kìm bằng thép nguội khóa chặt yết hầu của ả hầu gái.
+*Rầm!*
 
-"Tên phế vật... ngươi dám..." Khuôn mặt thanh tú của Lilian đỏ bừng vì nghẹt thở, hai tay nàng ta vung lên, những móng tay nhọn hoắt tẩm độc cào mạnh về phía mắt Caelen.
+Caelen dồn lực đẩy mạnh Lilian vào cột giường gỗ sồi chạm khắc hình chim ưng. Lưng ả đập mạnh vào thân gỗ, phát ra một tiếng vang nghẹn ứ. Toàn bộ trọng lượng của Caelen dồn ép lên cánh tay, gân xanh nổi rõ trên mu bàn tay trắng muốt. Bàn tay hắn như một gọng kìm bằng sắt nguội khóa chặt hơi thở của ả hầu gái hai mang.
 
-Caelen nghiêng đầu né chuẩn xác trong tích tắc. Tay kia của hắn vung lên, chuẩn xác bẻ gập cổ tay phải của Lilian ra sau lưng.
+"Tên phế vật... buông..." Khuôn mặt thanh tú của Lilian tím tái vì nghẹt thở. Ả vung tay phải lên, chiếc trâm bạc giấu ám khí nơi kẽ tay đâm thẳng về phía thái dương Caelen.
 
-Rắc!
+Caelen chỉ khẽ nghiêng đầu nửa tấc. Đòn phản xạ của một bậc thầy cận chiến kiếp trước khiến mũi kim độc sượt qua trong gang tấc. Bàn tay còn lại của hắn chộp lấy cổ tay Lilian, vặn ngược một góc chín mươi độ.
 
-Tiếng khớp xương trật ra khô khốc vang lên. Cây trâm bạc giấu trong kẽ tay Lilian rơi cắm phập xuống nền gỗ.
+*Rắc!*
 
-"Ưm...!" Lilian cắn chặt môi để không thét lên, nước mắt vì đau đớn ứa ra nơi khóe mi. Nàng ta kinh hãi nhìn người đàn ông trước mặt. 
+Tiếng khớp xương trật ra khô khốc vang lên. Cây trâm bạc tẩm kịch độc rơi cắm phập xuống sàn gỗ.
 
-Đây không phải là tên công tử bột yếu ớt, chỉ biết vung tiền và gào thét khi say xỉn. Đôi mắt xám tro kia phẳng lặng như mặt hồ băng ngàn năm, lạnh lùng, vô cảm và mang theo sát khí đặc quánh của kẻ đã từng bước ra từ vô số vũng máu.
+"Ưm...!" Lilian cắn chặt môi đến bật máu để không thét lên, nước mắt đau đớn ứa ra nơi khóe mi. Ả run rẩy nhìn người đàn ông trước mặt.
 
-"Năm năm." Giọng Caelen khàn đặc, trầm thấp như tiếng gió rít qua khe đá. Hắn ghé sát tai nàng ta, hơi thở lạnh buốt phả vào vành tai Lilian khiến từng sợi lông tơ của nàng dựng đứng. "Hắc Tử La Lan, ba ngày một chén nhỏ. Karlov hứa cho ngươi cái gì? Một chức quản sự ở Kinh Đô, hay là tự do?"
+Đây tuyệt đối không phải là tên công tử bột yếu đuối, chỉ biết vung tiền đập phá mỗi khi say rượu. Đôi mắt lam băng kia phẳng lặng như mặt hồ đóng băng ngàn năm, lạnh lùng, thấu triệt và tràn ngập sát khí ngột ngạt của một kẻ săn mồi thượng đẳng.
 
-Đồng tử Lilian co rút lại thành hai chấm nhỏ xíu. Toàn thân nàng ta run rẩy kịch liệt.
+"Năm năm." Giọng Caelen khàn đặc, trầm thấp như tiếng gió rít qua hẻm núi tuyết. Hắn ghé sát vành tai ả, hơi thở lạnh lẽo phả vào da thịt khiến toàn thân Lilian run bắn: "Hắc Tử La Lan, ba ngày một chén nhỏ. Karlov hứa cho ngươi cái gì? Một khế ước tự do, hay một chỗ đứng tại kinh đô?"
 
-Bí mật này... ngay cả các trưởng lão khác cũng không hề hay biết! Tại sao tên phế vật này lại biết đích danh Nhị Trưởng lão Karlov?
+Đồng tử Lilian co rút lại thành hai chấm nhỏ xíu.
 
-"Ta... ta không biết ngài đang nói gì..." Lilian run rẩy thốt lên qua kẽ răng.
+Bí mật hạ độc này ngay cả Đại tiểu thư Evelyn cũng không hề hay biết! Tại sao một kẻ suốt ngày chìm trong men rượu lại có thể đọc vanh vách tên loại độc và kẻ chủ mưu sau lưng?
 
-Caelen siết chặt thêm nửa phân. Không khí trong phổi Lilian cạn kiệt, lồng ngực nàng ta phập phồng tuyệt vọng, móng chân quẫy đạp trên thảm lông.
+"Ta... nô tỳ không biết ngài đang nói gì..." Lilian run rẩy thốt lên qua kẽ răng.
 
-"Ngươi chỉ có một cơ hội." Caelen nhả từng chữ, ánh mắt không hề chớp. "Khai ra lý do Tam Công chúa Valerie đến đây hôm nay. Trả lời sai một chữ, ta sẽ bẻ gãy từng ngón tay của ngươi, rồi ném ngươi xuống Vực Thẳm Hoang Vu cho bầy Ma Lang róc thịt."
+Caelen tăng thêm nửa phần lực siết. Không khí trong lồng ngực Lilian cạn kiệt hoàn toàn, đôi chân ả quẫy đạp tuyệt vọng trên không trung.
 
-Sát khí chân thực và tàn bạo đến mức bóp nghẹt mọi ý chí phản kháng của Lilian. Nàng ta nhận ra người này hoàn toàn nghiêm túc. Hắn thật sự sẽ giết nàng mà không chớp mắt một cái.
+"Ngươi chỉ có một cơ hội duy nhất." Caelen lạnh nhạt nhả từng chữ: "Khai ra mục đích thực sự của Tam Công Chúa Valerie khi đến Bắc Cảnh hôm nay. Trả lời sai một chữ, ta sẽ bẻ gãy từng ngón tay của ngươi rồi ném xác xuống Vực Thẳm Hoang Vu."
 
-"T... Tôi nói! Tôi nói!" Lilian bật khóc nức nở, giọng đứt quãng: "Tam Công chúa... nàng mang theo Huyết Chiếu Hoàng gia... đến để phế bỏ hôn ước... và... và ép ngài ký vào văn thư nhận tội thông đồng với Dị Giáo... để đày ngài ra Tiền Tuyến Hắc Vực..."
+Sát khí chân thực và tàn bạo bóp nghẹt mọi ý chí dối trá của Lilian. Ả biết, nếu ả còn chần chừ nửa giây, người đàn ông này sẽ bẻ gãy cổ ả thật sự.
 
-Caelen khẽ nheo mắt lại. 
+"Tôi nói! Tôi nói...!" Lilian nghẹn ngào trong nước mắt, giọng đứt quãng vì sợ hãi: "Tam Công chúa... nàng mang theo *Huyết Chiếu Hoàng Gia* đến để chính thức phế bỏ hôn ước!"
 
-Một mũi tên trúng hai đích. 
+"Chỉ để từ hôn thôi sao?" Ánh mắt Caelen sắc lạnh như dao lam.
 
-Vừa hủy bỏ cuộc hôn nhân nhục nhã với một tên phế vật, vừa nhân cơ hội đó đổ tội phản quốc lên đầu huyết mạch dòng chính của gia tộc Ravenwood, giúp Nhị Trưởng lão danh chính ngôn thuận đoạt quyền thừa kế Bắc Cảnh. Một nước cờ chính trị hoàn hảo.
+"Tam Công chúa... nàng là thiên tài ma pháp của hoàng tộc, mang dã tâm vươn lên ngai vàng đế chế..." Lilian run rẩy khai hết: "Nàng căm ghét ngài vì ngài là kẻ phế vật nghiện rượu làm hoen ố thanh danh của nàng! Nàng không chấp nhận tương lai và tham vọng của mình bị trói buộc với một kẻ bất tài làm trò cười cho kinh thành... Còn... còn Nhị Trưởng Lão Karlov thì muốn nhân cơ hội ngài bị từ hôn, cấu kết ép ngài ký vào văn thư nhận tội vô năng, đày ngài ra Tiền Tuyến Hắc Vực để đoạt lấy quyền thừa kế của dòng chính!"
 
-"Tốt." 
+Caelen khẽ nheo mắt lại, trong đáy mắt lóe lên tia sáng suy tư.
 
-Caelen buông tay.
+Hắn hiểu rồi.
 
-Lilian ngã quỵ xuống sàn đá, ôm lấy cổ họng ho sặc sụa, từng ngụm không khí tràn vào phổi rát buốt.
+Tam Công Chúa Valerie De Valois bản chất không phải là kẻ tiểu nhân độc ác hay khát máu vô cớ. Nàng là một nữ tử kiêu hãnh tuyệt đối, thực tế và mang trong mình ngọn lửa tham vọng vương quyền rực cháy. Việc nàng căm ghét "Caelen" chỉ đơn giản là vì hắn từng là một đống rác rưởi bất tài, một vết nhơ cản trở con đường vươn tới đỉnh cao quyền lực của nàng.
 
-Caelen bước qua vũng nước canh độc hại trên sàn, đi thẳng về phía ban công đá. Gió tuyết phương Bắc lập tức ùa vào, thổi tung mái tóc đen dài rối bời và tà áo lụa mỏng dính của hắn. Hơi lạnh âm hai mươi độ táp vào da thịt như dao cạo, nhưng lại khiến đầu óc Caelen tỉnh táo lạ thường.
+Đến phương Bắc từ hôn là để giải phóng danh dự và tương lai chính trị cho bản thân nàng. Còn mưu hèn kế bẩn hạ độc và đày ải hắn ra tiền tuyến, thực chất lại là đòn đánh lén đục nước béo cò của lão già Nhị Trưởng Lão Karlov!
 
-Dưới sân thành, cờ xí mang huy hiệu Hoàng gia Solaria hình Mặt Trời Vàng đang phần phật bay trong bão tuyết. Một cỗ xe ngựa nạm vàng ròng tráng lệ được hộ tống bởi hai mươi hiệp sĩ khoác giáp bạc sáng loáng vừa tiến vào cổng chính Pháo đài Băng Sương.
+"Rất tốt."
 
-Tiếng chuông đồng ngân vang từng hồi giục giã, báo hiệu giờ khai tiệc đã điểm.
+Caelen nới lỏng tay.
 
-Caelen nhắm mắt lại, hít một hơi thật sâu làn không khí buốt giá. Hắn vận chuyển ý niệm, kích hoạt dòng huyết mạch ngủ sâu bên trong cơ thể. Một luồng khí lưu màu lam nhạt bùng lên từ sâu trong đan điền, nhanh chóng đóng băng toàn bộ tàn dư độc tố Hắc Tử La Lan trong mạch máu, nghiền nát chúng thành hư vô.
+Lilian ngã quỵ xuống sàn đá, hai tay ôm lấy cổ họng ho sặc sụa, từng ngụm không khí lạnh buốt tràn vào buồng phổi rát bỏng.
 
-Rắc... rắc...
+"Từ hôm nay, ngươi vẫn là hầu nữ thân cận của ta, vẫn nhận chỉ thị từ Karlov." Caelen cúi nhìn ả, giọng nói mang theo uy quyền không thể chối từ: "Nhưng mỗi lời nói, mỗi bước đi của lão ta, ngươi phải báo lại cho ta đầu tiên. Nếu làm tốt, khi ta quét sạch đám sâu mọt này, ngươi sẽ có tự do thực sự. Hiểu chưa?"
 
-Khí thế quanh người hắn đột ngột biến đổi. Cốt lõi ma lực vốn bị phong ấn bấy lâu nay khẽ rung lên, một vòng tròn cổ ngữ băng giá xoay tròn trong đáy mắt hắn.
+Lilian run rẩy quỳ rạp dưới chân Caelen, trán dập sát mặt sàn đá: "Nô tỳ... tuân lệnh Tam thiếu gia!"
 
-"Muốn biến ta thành vật tế thần sao?"
+Caelen bước qua vũng độc dược trên sàn, tiến thẳng về phía chiếc gương lớn bằng bạc. Hắn vận chuyển ý niệm, kích hoạt dòng huyết mạch thượng cổ Băng Sương đang ngủ sâu trong tế bào. Luồng hàn khí tinh khiết bùng nổ từ sâu trong ma hạch, đóng băng toàn bộ tàn dư độc tố Hắc Tử La Lan trong mạch máu, nghiền nát chúng thành hư vô.
 
-Khóe môi Caelen nhếch lên một nụ cười ngạo nghễ đầy tàn nhẫn.
+*Rắc... rắc...*
 
-"Lilian, nhặt cây trâm lên và lấy lễ phục Đại Lễ của gia tộc ra đây. Hôm nay... bổn thiếu gia sẽ đích thân đi tiếp đón vị hôn thê cao quý của mình."
+Khí thế quanh người hắn đột ngột biến chuyển. Sắc diện nhợt nhạt biến mất, thay vào đó là phong thái lạnh lùng, thâm trầm và nguy hiểm của một vương giả phương Bắc.
+
+Caelen khoác lên mình bộ quân phục quý tộc Midnight Black may đo thủ công, ve áo thêu nổi phù hiệu Huyết Ưng bằng chỉ bạc lộng lẫy, cầu vai tua rua bạc vương giả đính chuỗi xích vắt ngang ngực. Hắn chỉnh lại chiếc nhẫn bạc chạm khắc Đầu Ưng nơi ngón trỏ tay trái, rồi bước ra ban công đá.
+
+Gió tuyết phương Bắc gầm thét, thổi tung mái tóc bạc ánh lam tro của hắn.
+
+Dưới sân thành, đoàn xa giá nạm vàng ròng tráng lệ mang huy hiệu Thái Dương của Hoàng gia Solaria đang rẽ tuyết tiến vào cổng chính Pháo đài Băng Sương, được hộ tống bởi hàng chục kỵ sĩ giáp bạc uy nghiêm.
+
+Một cỗ xe ngựa xa hoa bậc nhất, nơi Tam Công Chúa Valerie đang ngự trị với bản Huyết Chiếu từ hôn trên tay.
+
+Khóe môi Caelen nhếch lên một nụ cười thâm trầm đầy ngạo nghễ.
+
+"Một nàng công chúa kiêu hãnh và đầy tham vọng sao?"
+
+Hắn khẽ xoay chiếc nhẫn bạc nơi ngón trỏ, ánh mắt lam băng rực sáng giữa bão tuyết.
+
+"Muốn từ hôn để dọn đường lên ngai vàng? Vậy thì để xem... ai mới là người định đoạt bàn cờ này."
