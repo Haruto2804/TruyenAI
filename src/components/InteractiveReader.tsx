@@ -352,19 +352,20 @@ export function InteractiveReader({
         })}
       </div>
 
-      {/* Responsive Mobile Bottom-Sheet / Desktop Modal */}
+      {/* Responsive Split-Screen: Desktop Side Dossier Panel (Bên Phải) / Mobile Bottom-Sheet */}
       {selectedItem && (
         <div
-          className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-black/80 backdrop-blur-md animate-in fade-in duration-200"
+          className="fixed inset-0 md:inset-auto md:top-20 md:right-6 md:w-[420px] md:max-w-[calc(100vw-3rem)] z-50 flex items-end md:block p-0 bg-black/70 md:bg-transparent backdrop-blur-md md:backdrop-blur-none animate-in fade-in duration-200"
           onClick={() => setSelectedItem(null)}
         >
-          {/* Modal Container */}
+          {/* Modal / Side-Panel Container */}
           <div
-            className="w-full sm:max-w-lg bg-gradient-to-b from-slate-900 via-slate-950 to-black border-t sm:border border-white/15 rounded-t-3xl sm:rounded-3xl p-6 sm:p-7 shadow-[0_-10px_40px_rgba(0,0,0,0.8)] sm:shadow-2xl space-y-4 max-h-[85vh] overflow-y-auto animate-in slide-in-from-bottom-5 duration-200"
+            className="w-full bg-gradient-to-b from-slate-900 via-slate-950 to-black border-t md:border border-[#d4af37]/40 rounded-t-3xl md:rounded-3xl p-5 sm:p-6 shadow-[0_-10px_40px_rgba(0,0,0,0.8)] md:shadow-[0_15px_50px_rgba(0,0,0,0.9)] space-y-4 max-h-[85vh] md:max-h-[calc(100vh-6.5rem)] overflow-y-auto animate-in slide-in-from-bottom-5 md:slide-in-from-right-6 duration-200"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Mobile Drag Handle */}
-            <div className="w-12 h-1.5 bg-white/20 rounded-full mx-auto mb-2 sm:hidden" />
+            <div className="w-12 h-1.5 bg-white/20 rounded-full mx-auto mb-2 md:hidden" />
+
 
             {/* Character Dossier Popover */}
             {selectedItem.type === "character" && (
