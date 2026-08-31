@@ -98,23 +98,23 @@ export default async function StoryDetail({
           {/* Story Info Details */}
           <div className="flex-1 space-y-4 sm:space-y-5 text-center sm:text-left w-full">
             <div>
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#d4af37]/10 border border-[#d4af37]/20 text-[#d4af37] text-xs font-bold uppercase tracking-wider mb-2 sm:mb-3">
-                <Sparkles className="w-3.5 h-3.5" />
+              <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#d4af37]/15 border border-[#d4af37]/30 text-[#d4af37] text-xs sm:text-sm font-bold uppercase tracking-wider mb-2.5 sm:mb-3.5 shadow-sm">
+                <Sparkles className="w-4 h-4" />
                 {story.genre || 'Tiên Hiệp'}
               </div>
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-tight sm:leading-tight">
                 {story.title}
               </h1>
             </div>
 
             {/* Badges / Meta row */}
-            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2.5 sm:gap-4 text-xs sm:text-sm text-slate-300">
-              <div className="flex items-center gap-1.5 bg-white/5 border border-white/5 px-3 py-1 rounded-xl">
-                <List className="w-3.5 h-3.5 text-[#d4af37]" />
-                <span className="font-semibold text-slate-100">{story.chapters.length}</span> chương
+            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-3 sm:gap-4 text-sm sm:text-base text-slate-300">
+              <div className="flex items-center gap-2 bg-white/5 border border-white/10 px-3.5 py-1.5 rounded-xl shadow-sm">
+                <List className="w-4 h-4 text-[#d4af37]" />
+                <span className="font-bold text-slate-100">{story.chapters.length}</span> chương
               </div>
-              <div className="flex items-center gap-1.5 bg-white/5 border border-white/5 px-3 py-1 rounded-xl text-slate-400">
-                <Clock className="w-3.5 h-3.5 text-slate-400" />
+              <div className="flex items-center gap-2 bg-white/5 border border-white/10 px-3.5 py-1.5 rounded-xl text-slate-400 shadow-sm">
+                <Clock className="w-4 h-4 text-slate-400" />
                 <span>{story.updatedAt.toLocaleDateString('vi-VN')}</span>
               </div>
             </div>
@@ -125,15 +125,15 @@ export default async function StoryDetail({
                 {lastReadChapter ? (
                   <Link 
                     href={`/truyen/${story.slug}/${lastReadChapter.chapterNo}`}
-                    className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 min-h-[48px] px-7 rounded-xl shadow-[0_4px_25px_rgba(212,175,55,0.3)] transition-all transform hover:-translate-y-0.5 active:scale-98 w-full xs:w-auto text-sm sm:text-base cursor-pointer"
+                    className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-13 sm:h-14 min-h-[52px] px-8 rounded-2xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 w-full xs:w-auto text-base sm:text-lg cursor-pointer"
                   >
                     Đọc tiếp #{lastReadChapter.chapterNo}
-                    <ChevronRight className="w-4 h-4" />
+                    <ChevronRight className="w-5 h-5" />
                   </Link>
                 ) : (
                   <Link 
                     href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
-                    className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 min-h-[48px] px-7 rounded-xl shadow-[0_4px_25px_rgba(212,175,55,0.3)] transition-all transform hover:-translate-y-0.5 active:scale-98 w-full xs:w-auto text-sm sm:text-base cursor-pointer"
+                    className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-13 sm:h-14 min-h-[52px] px-8 rounded-2xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 w-full xs:w-auto text-base sm:text-lg cursor-pointer"
                   >
                     Đọc Từ Đầu (Chương 1)
                   </Link>
@@ -147,11 +147,11 @@ export default async function StoryDetail({
 
             {/* Story Summary Description */}
             {story.summary && (
-              <div className="bg-black/30 border border-white/5 rounded-2xl p-4 sm:p-5 text-left">
-                <h3 className="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-[#d4af37] mb-1.5 flex items-center gap-1.5">
+              <div className="bg-black/40 border border-white/10 rounded-2xl sm:rounded-3xl p-5 sm:p-7 text-left space-y-2 shadow-inner">
+                <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-[#d4af37] flex items-center gap-1.5">
                   <span>📖</span> Tóm Tắt Nội Dung
                 </h3>
-                <p className="text-slate-300 text-xs sm:text-sm leading-relaxed whitespace-pre-wrap font-normal">
+                <p className="text-slate-200 text-sm sm:text-base md:text-lg leading-relaxed sm:leading-loose whitespace-pre-wrap font-normal">
                   {story.summary}
                 </p>
               </div>
@@ -170,46 +170,46 @@ export default async function StoryDetail({
 
       {/* Chapters Grid / List Section */}
       <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl overflow-hidden shadow-xl">
-        <div className="p-4 sm:p-6 border-b border-white/5 flex items-center justify-between">
-          <h2 className="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
-            <List className="w-5 h-5 text-[#d4af37]" /> Danh Sách Chương
+        <div className="p-5 sm:p-7 border-b border-white/5 flex items-center justify-between">
+          <h2 className="text-xl sm:text-2xl font-extrabold text-white flex items-center gap-2.5">
+            <List className="w-6 h-6 text-[#d4af37]" /> Danh Sách Chương
           </h2>
-          <span className="text-xs text-slate-400">
+          <span className="text-xs sm:text-sm text-slate-400 font-medium">
             {story.chapters.length} chương đã phát hành
           </span>
         </div>
 
         {story.chapters.length === 0 ? (
-          <div className="p-8 text-center text-slate-500 text-sm">
+          <div className="p-8 text-center text-slate-500 text-base">
             Truyện chưa có chương nào được đăng tải.
           </div>
         ) : (
-          <div className="divide-y divide-white/5 max-h-[500px] overflow-y-auto">
+          <div className="divide-y divide-white/5 max-h-[550px] overflow-y-auto">
             {story.chapters.map((chapter) => (
               <Link
                 key={chapter.id}
                 href={`/truyen/${story.slug}/${chapter.chapterNo}`}
-                className="flex items-center justify-between p-3.5 sm:p-4 hover:bg-white/5 transition-colors group min-h-[44px]"
+                className="flex items-center justify-between p-4 sm:p-5 hover:bg-white/5 transition-colors group min-h-[52px]"
               >
-                <div className="flex items-center gap-2.5 sm:gap-3 min-w-0">
-                  <span className="font-mono text-xs sm:text-sm font-bold text-[#d4af37] shrink-0">
+                <div className="flex items-center gap-3 sm:gap-4 min-w-0">
+                  <span className="font-mono text-sm sm:text-base font-extrabold text-[#d4af37] shrink-0">
                     #{chapter.chapterNo}
                   </span>
-                  <span className="text-xs sm:text-sm font-medium text-slate-200 group-hover:text-white transition-colors truncate">
+                  <span className="text-sm sm:text-base md:text-lg font-semibold text-slate-200 group-hover:text-white transition-colors truncate">
                     {chapter.title}
                   </span>
                   {chapter.isVip && (
-                    <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30 shrink-0">
+                    <span className="px-2.5 py-0.5 rounded-lg text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30 shrink-0">
                       VIP ({chapter.price}💎)
                     </span>
                   )}
                 </div>
 
-                <div className="flex items-center gap-2 shrink-0">
-                  <span className="text-[11px] text-slate-500 hidden xs:inline">
+                <div className="flex items-center gap-2.5 shrink-0">
+                  <span className="text-xs sm:text-sm text-slate-400 hidden xs:inline">
                     {chapter.createdAt.toLocaleDateString('vi-VN')}
                   </span>
-                  <ChevronRight className="w-4 h-4 text-slate-600 group-hover:text-[#d4af37] transition-colors" />
+                  <ChevronRight className="w-5 h-5 text-slate-500 group-hover:text-[#d4af37] group-hover:translate-x-1 transition-all" />
                 </div>
               </Link>
             ))}
