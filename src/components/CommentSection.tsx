@@ -130,28 +130,30 @@ export function CommentSection({ storyId, chapterId }: { storyId: string, chapte
   };
 
   return (
-    <div className="mt-12 pt-8 border-t border-slate-800">
-      <div className="flex items-center gap-2 mb-6">
-        <MessageSquare className="w-6 h-6 text-indigo-400" />
-        <h2 className="text-2xl font-bold text-white">Khu Vực Luận Đạo</h2>
+    <div className="pt-2">
+      <div className="flex items-center gap-3 mb-6">
+        <div className="p-2 bg-[#d4af37]/10 rounded-xl">
+          <MessageSquare className="w-5 h-5 text-[#d4af37]" />
+        </div>
+        <h2 className="text-xl sm:text-2xl font-bold text-white">Khu Vực Luận Đạo</h2>
       </div>
 
       {/* Main Comment Form */}
-      <div className="bg-slate-800/40 border border-slate-700/50 rounded-xl p-4 mb-8">
+      <div className="bg-black/30 border border-white/10 rounded-2xl p-4 sm:p-5 mb-8">
         <textarea
           value={content}
           onChange={(e) => setContent(e.target.value)}
           placeholder="Bạn nghĩ gì về bộ truyện này? (Yêu cầu Trúc Cơ trở lên)"
-          className="w-full bg-slate-900 border border-slate-700 rounded-lg p-3 text-slate-200 focus:outline-none focus:border-indigo-500 transition-colors resize-none"
+          className="w-full bg-slate-950/70 border border-white/10 rounded-xl p-3.5 text-slate-200 placeholder-slate-500 focus:outline-none focus:border-[#d4af37]/60 focus:ring-1 focus:ring-[#d4af37]/60 transition-all resize-none text-sm"
           rows={3}
           maxLength={500}
         />
         <div className="flex justify-between items-center mt-3">
-          <span className="text-xs text-slate-500">{content.length}/500</span>
+          <span className="text-xs text-slate-500 font-mono">{content.length}/500</span>
           <button 
             onClick={() => handleSubmit()}
             disabled={submitting || !content.trim()}
-            className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-lg font-medium transition-colors disabled:opacity-50"
+            className="bg-gradient-to-r from-[#d4af37] to-amber-400 hover:brightness-110 text-slate-950 px-6 py-2.5 rounded-xl font-bold text-sm transition-all disabled:opacity-50 disabled:hover:brightness-100 shadow-[0_2px_15px_rgba(212,175,55,0.25)]"
           >
             {submitting ? "Đang gửi..." : "Đăng bình luận"}
           </button>

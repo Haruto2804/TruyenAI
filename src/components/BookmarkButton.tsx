@@ -28,14 +28,14 @@ export function BookmarkButton({ storyId, initialBookmarked }: { storyId: string
     <button
       onClick={handleToggle}
       disabled={loading}
-      className={`flex items-center justify-center gap-2 px-6 py-3 rounded-lg transition-colors font-medium border w-full md:w-auto ${
+      className={`flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-bold border transition-all duration-300 w-full sm:w-auto ${
         isBookmarked 
-          ? "bg-slate-800 border-indigo-500 text-indigo-400 hover:bg-slate-700" 
-          : "bg-slate-800/50 border-slate-700 text-slate-300 hover:bg-slate-700 hover:text-white"
+          ? "bg-[#d4af37]/15 border-[#d4af37]/50 text-[#d4af37] shadow-[0_0_20px_rgba(212,175,55,0.2)]" 
+          : "bg-white/5 border-white/10 text-slate-300 hover:bg-white/10 hover:border-white/20 hover:text-white"
       }`}
     >
       <Bookmark className={`w-5 h-5 ${isBookmarked ? "fill-current" : ""}`} />
-      {isBookmarked ? "Đã lưu tủ" : "Thêm vào tủ"}
+      {isBookmarked ? "Đã Lưu Tủ Sách" : "Lưu Vào Tủ Sách"}
     </button>
   );
 }
