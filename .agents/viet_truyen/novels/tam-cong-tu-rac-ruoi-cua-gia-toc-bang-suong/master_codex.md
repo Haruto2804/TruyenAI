@@ -6,6 +6,8 @@
 ---
 
 ## 🌍 1. WORLD CODEX (BỐI CẢNH THẾ GIỚI)
+* **Tựa Truyện:** Tam Công Tử Rác Rưởi Của Gia Tộc Băng Sương
+* **Ảnh Bìa / Banner Chính Thức:** `/covers/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong.jpg`
 * **Đại Lục:** Erebia – Thế giới ma pháp cổ điển đang diễn ra sự suy tàn của các đại gia tộc huyết mạch trước sức ép từ Thần Điện Quang Minh và liên minh thương hội mới.
 * **Địa Bàn Chính:** **Bắc Cảnh Frostford** – Lãnh thổ băng tuyết quanh năm của **Gia tộc Công tước Ravenwood (Huyết Ưng Băng Sương)**, tiền đồn giam giữ và ngăn chặn "Vực Thẳm Hoang Vu".
 * **Hệ Thống Sức Mạnh:**
