@@ -2,6 +2,7 @@ import { auth, signOut } from "@/auth";
 import { redirect } from "next/navigation";
 import { getUserLevel, getNextLevelExp, getUserTitle, PathType } from "@/lib/levels";
 import { PathSelector } from "@/components/PathSelector";
+import { DisplayNameForm } from "@/components/DisplayNameForm";
 import { LogOut } from "lucide-react";
 
 export default async function ProfilePage() {
@@ -49,9 +50,9 @@ export default async function ProfilePage() {
           />
         )}
         <div className="flex-1 space-y-4 text-center md:text-left">
-          <div>
-            <h2 className="text-2xl font-bold text-white">{session.user.name}</h2>
-            <p className="text-slate-400">{session.user.email}</p>
+          <div className="flex flex-col items-center md:items-start">
+            <DisplayNameForm initialName={(session.user as any).displayName || session.user.name || "User"} />
+            <p className="text-slate-400 mt-1">{session.user.email}</p>
           </div>
           
           <div className="inline-block bg-slate-950 border border-slate-800 rounded-lg px-4 py-2">

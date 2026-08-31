@@ -33,6 +33,7 @@ model Chapter {
   updatedAt     DateTime      @updatedAt
   readHistories ReadHistory[]
   readingProgresses ReadingProgress[]
+  comments      Comment[]
 
   @@unique([storyId, chapterNo])
 }
@@ -40,6 +41,7 @@ model Chapter {
 model User {
   id            String          @id @default(cuid())
   name          String?
+  displayName   String?
   email         String?         @unique
   emailVerified DateTime?
   image         String?
@@ -155,6 +157,9 @@ model Comment {
   
   storyId   String
   story     Story    @relation(fields: [storyId], references: [id], onDelete: Cascade)
+
+  chapterId String?
+  chapter   Chapter? @relation(fields: [chapterId], references: [id], onDelete: Cascade)
 
   // Reply functionality
   parentId  String?

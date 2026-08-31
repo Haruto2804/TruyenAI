@@ -27,8 +27,8 @@ export function ExpTracker({ chapterId }: { chapterId: string }) {
       // Nếu đã cộng EXP rồi thì bỏ qua
       if (hasTriggered.current) return;
       
-      // Chưa đủ 60 giây thì chưa xét
-      if (timeSpent < 60) return;
+      // Chưa đủ 5 giây thì chưa xét (Giảm xuống 5s để test, sau test nhớ đổi lại 60s)
+      if (timeSpent < 5) return;
 
       // Tính toán phần trăm cuộn trang
       const scrollTop = window.scrollY;

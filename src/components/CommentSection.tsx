@@ -6,7 +6,7 @@ import { getUserTitle, PathType } from "@/lib/levels";
 import { UserCircle, MessageSquare, Reply } from "lucide-react";
 import { useRouter } from "next/navigation";
 
-type CommentUser = { name: string | null, image: string | null, exp: number, path: string };
+type CommentUser = { name: string | null, displayName?: string | null, image: string | null, exp: number, path: string };
 type CommentType = {
   id: string;
   content: string;
@@ -16,7 +16,7 @@ type CommentType = {
   replies?: CommentType[];
 };
 
-export function CommentSection({ storyId }: { storyId: string }) {
+export function CommentSection({ storyId, chapterId }: { storyId: string, chapterId?: string }) {
   const router = useRouter();
   const [comments, setComments] = useState<CommentType[]>([]);
   const [loading, setLoading] = useState(true);
@@ -27,7 +27,7 @@ export function CommentSection({ storyId }: { storyId: string }) {
 
   const fetchComments = async () => {
     setLoading(true);
-    const res = await getComments(storyId);
+    const res = await getComments(storyId, chapterId);
     if (res.success && res.comments) {
       setComments(res.comments as unknown as CommentType[]);
     }
@@ -36,14 +36,14 @@ export function CommentSection({ storyId }: { storyId: string }) {
 
   useEffect(() => {
     fetchComments();
-  }, [storyId]);
+  }, [storyId, chapterId]);
 
   const handleSubmit = async (parentId?: string) => {
     const text = parentId ? replyContent : content;
     if (!text.trim()) return;
 
     setSubmitting(true);
-    const res = await addComment(storyId, text, parentId);
+    const res = await addComment(storyId, text, parentId, chapterId);
     
     if (res.success) {
       if (parentId) {
@@ -61,18 +61,20 @@ export function CommentSection({ storyId }: { storyId: string }) {
 
   const renderComment = (c: CommentType, isReply = false) => {
     const title = getUserTitle(c.user.exp, (c.user.path as PathType) || "TIEN_HIEP");
+    const displayUserName = c.user.displayName || c.user.name || "Đạo hữu ẩn danh";
+    
     return (
       <div key={c.id} className={`flex gap-4 ${isReply ? "mt-4 ml-8 md:ml-12 border-l-2 border-slate-800 pl-4" : "mt-6"}`}>
         <div className="shrink-0 mt-1">
           {c.user.image ? (
-            <img src={c.user.image} alt={c.user.name || "User"} className="w-10 h-10 rounded-full border border-slate-700" />
+            <img src={c.user.image} alt={displayUserName} className="w-10 h-10 rounded-full border border-slate-700" />
           ) : (
             <UserCircle className="w-10 h-10 text-slate-500" />
           )}
         </div>
         <div className="flex-1">
           <div className="flex items-center gap-2 mb-1 flex-wrap">
-            <span className="font-semibold text-slate-200">{c.user.name || "Đạo hữu ẩn danh"}</span>
+            <span className="font-semibold text-slate-200">{displayUserName}</span>
             <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-emerald-400 font-medium border border-slate-700/50">
               {title}
             </span>

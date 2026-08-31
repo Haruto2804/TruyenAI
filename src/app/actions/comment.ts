@@ -6,7 +6,7 @@ import { auth } from "@/auth";
 const LEVEL_2_EXP = 10;
 const RATE_LIMIT_MS = 60 * 1000; // 60 seconds
 
-export async function addComment(storyId: string, content: string, parentId?: string) {
+export async function addComment(storyId: string, content: string, parentId?: string, chapterId?: string) {
   const session = await auth();
   if (!session?.user?.id) {
     return { success: false, message: "Bạn cần đăng nhập để bình luận." };
@@ -53,6 +53,7 @@ export async function addComment(storyId: string, content: string, parentId?: st
         content: content.trim(),
         userId,
         storyId,
+        chapterId: chapterId || null,
         parentId: parentId || null,
       },
     });
@@ -64,21 +65,22 @@ export async function addComment(storyId: string, content: string, parentId?: st
   }
 }
 
-export async function getComments(storyId: string) {
+export async function getComments(storyId: string, chapterId?: string) {
   try {
     const comments = await prisma.comment.findMany({
       where: { 
         storyId,
+        chapterId: chapterId || null,
         parentId: null // Only fetch top-level comments first
       },
       include: {
         user: {
-          select: { name: true, image: true, exp: true, path: true }
+          select: { name: true, displayName: true, image: true, exp: true, path: true }
         },
         replies: {
           include: {
             user: {
-              select: { name: true, image: true, exp: true, path: true }
+              select: { name: true, displayName: true, image: true, exp: true, path: true }
             }
           },
           orderBy: { createdAt: "asc" }

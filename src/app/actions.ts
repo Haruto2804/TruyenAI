@@ -65,3 +65,29 @@ export async function updateUserPath(path: string) {
     return { success: false, message: "Server error" };
   }
 }
+
+export async function updateDisplayName(displayName: string) {
+  const session = await auth();
+  
+  if (!session?.user?.id) {
+    return { success: false, message: "Not logged in" };
+  }
+
+  if (!displayName || displayName.trim().length === 0) {
+    return { success: false, message: "Tên hiển thị không được để trống" };
+  }
+
+  if (displayName.trim().length > 30) {
+    return { success: false, message: "Tên hiển thị tối đa 30 ký tự" };
+  }
+
+  try {
+    await prisma.user.update({
+      where: { id: session.user.id },
+      data: { displayName: displayName.trim() }
+    });
+    return { success: true };
+  } catch (error) {
+    return { success: false, message: "Server error" };
+  }
+}

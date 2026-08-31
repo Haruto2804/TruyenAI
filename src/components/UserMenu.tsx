@@ -26,6 +26,7 @@ export async function UserMenu() {
 
   const exp = (session.user as any).exp || 0;
   const path = ((session.user as any).path as PathType) || "TIEN_HIEP";
+  const displayName = (session.user as any).displayName || session.user.name || "User";
   
   const currentLevel = getUserLevel(exp);
   const nextLevelExp = getNextLevelExp(exp);
@@ -69,7 +70,7 @@ export async function UserMenu() {
           {session.user.image ? (
             <img 
               src={session.user.image} 
-              alt={session.user.name || "User"} 
+              alt={displayName} 
               className="w-8 h-8 rounded-full border border-slate-700 group-hover:border-indigo-500 transition-colors"
             />
           ) : (

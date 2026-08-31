@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowLeft, ChevronLeft, ChevronRight, Menu } from "lucide-react";
 import { ExpTracker } from "@/components/ExpTracker";
 import { ProgressTracker } from "@/components/ProgressTracker";
+import { CommentSection } from "@/components/CommentSection";
 
 export default async function ChapterDetail({
   params,
@@ -137,6 +138,9 @@ export default async function ChapterDetail({
       
       <ExpTracker chapterId={chapter.id} />
       <ProgressTracker storyId={story.id} chapterId={chapter.id} />
+
+      {/* Chapter Comments */}
+      <CommentSection storyId={story.id} chapterId={chapter.id} />
     </div>
   );
 }
