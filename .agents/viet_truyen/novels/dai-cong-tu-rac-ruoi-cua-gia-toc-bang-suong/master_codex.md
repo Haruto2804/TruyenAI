@@ -20,7 +20,9 @@
 * **Vai trò:** Nhân vật chính / Đệ tam công tử của gia tộc Công tước Ravenwood.
 * **Biệt danh:** Đống rác Bắc Cảnh, Công tử phế vật, Caelen.
 * **Ảnh Avatar:** `/characters/dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/caelen-von-ravenwood.jpg`
+* **Diện mạo & Thần thái:** Chàng trai trẻ quý tộc với mái tóc bạc ánh lam tro bồng bềnh, đôi mắt xanh thẳm sắc lạnh như băng tuyết Bắc Cảnh. Khoác trên mình quân phục quý tộc đen thêu hoa văn chỉ bạc tinh xảo, cầu vai tua rua bạc quý phái, toát lên vẻ thâm trầm, lạnh lùng và đầy nguy hiểm.
 * **Tiểu sử & Tính cách:** Kiếp trước là chiến thuật gia sinh tồn kiêm sát thủ thời hiện đại. Khi chuyển sinh, thức tỉnh **Ma Đồng Giải Cấu** và kích hoạt huyết mạch Băng Sương thượng cổ. Tính cách lạnh lùng, quyết đoán, mưu sâu kế độc, giả heo ăn thịt hổ, không bao giờ để lại mối họa về sau.
+
 
 ### 2. Lilian
 * **Vai trò:** Hầu nữ thân cận / Gián điệp ngầm của Nhị Trưởng Lão.
