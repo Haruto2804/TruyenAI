@@ -37,5 +37,41 @@ test.describe('Admin Studio Flow', () => {
     await page.getByRole('button', { name: 'Đăng Chương' }).click();
     
     await expect(page.getByText(chapterTitle)).toBeVisible();
+
+    // --- TEST EDIT CHAPTER ---
+    await page.getByRole('link', { name: 'Sửa' }).click();
+    await expect(page).toHaveURL(/\/admin\/story\/.+\/chapter\/.+\/edit/);
+    
+    const updatedChapterTitle = chapterTitle + ' (Đã sửa)';
+    await page.fill('input[name="title"]', updatedChapterTitle);
+    await page.getByRole('button', { name: 'Cập Nhật Chương' }).click();
+    
+    await expect(page.getByText(updatedChapterTitle)).toBeVisible();
+
+    // --- TEST DELETE CHAPTER ---
+    page.on('dialog', dialog => dialog.accept()); // Accept the confirmation dialog
+    await page.getByRole('button', { name: 'Xóa' }).click();
+    
+    // The chapter should no longer be visible
+    await expect(page.getByText(updatedChapterTitle)).not.toBeVisible();
+
+    // --- TEST EDIT STORY ---
+    await page.goto('/admin');
+    const storyRow = page.locator('tr').filter({ hasText: storyTitle });
+    await storyRow.getByRole('link', { name: 'Sửa' }).click();
+    
+    const updatedStoryTitle = storyTitle + ' (Đã sửa)';
+    await page.fill('input[name="title"]', updatedStoryTitle);
+    await page.getByRole('button', { name: 'Cập Nhật' }).click();
+    
+    await expect(page).toHaveURL('/admin');
+    await expect(page.getByText(updatedStoryTitle)).toBeVisible();
+
+    // --- TEST DELETE STORY ---
+    const updatedRow = page.locator('tr').filter({ hasText: updatedStoryTitle });
+    await updatedRow.getByRole('button', { name: 'Xóa' }).click();
+    
+    // The story should no longer be visible
+    await expect(page.getByText(updatedStoryTitle)).not.toBeVisible();
   });
 });
