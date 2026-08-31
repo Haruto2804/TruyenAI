@@ -158,6 +158,25 @@ export async function deleteChapter(formData: FormData) {
 // CHARACTER MANAGEMENT ACTIONS
 // -------------------------------------------------------------
 
+function revalidateAllCharacterPaths(storySlug: string) {
+  // Revalidate public story detail and all chapter readers
+  revalidatePath(`/truyen/${storySlug}`, "layout");
+  revalidatePath(`/truyen/${storySlug}`);
+  revalidatePath(`/truyen/${storySlug}/[chapter]`, "page");
+  
+  // Revalidate admin management pages
+  revalidatePath(`/admin/story/${storySlug}`, "layout");
+  revalidatePath(`/admin/story/${storySlug}`);
+  revalidatePath(`/admin/story/${storySlug}/characters`);
+  revalidatePath(`/admin/story/${storySlug}/characters/[id]/edit`, "page");
+  
+  // Revalidate global entrypoints
+  revalidatePath("/", "layout");
+  revalidatePath("/");
+  revalidatePath("/admin", "layout");
+  revalidatePath("/admin");
+}
+
 export async function createCharacter(formData: FormData) {
   await requireAdmin();
   const storyId = formData.get("storyId") as string;
@@ -168,7 +187,7 @@ export async function createCharacter(formData: FormData) {
   const avatarUrl = (formData.get("avatarUrl") as string) || null;
   const description = (formData.get("description") as string) || null;
 
-  await prisma.character.create({
+  const char = await prisma.character.create({
     data: {
       storyId,
       name: name.trim(),
@@ -177,11 +196,19 @@ export async function createCharacter(formData: FormData) {
       avatarUrl,
       description: description ? description.trim() : null,
     },
+    include: {
+      story: { select: { slug: true } }
+    }
   });
 
-  revalidatePath(`/truyen/${storySlug}`);
-  revalidatePath(`/admin/story/${storySlug}/characters`);
-  redirect(`/admin/story/${storySlug}/characters`);
+  await prisma.story.update({
+    where: { id: storyId },
+    data: { updatedAt: new Date() }
+  });
+
+  const slug = char.story?.slug || storySlug;
+  revalidateAllCharacterPaths(slug);
+  redirect(`/admin/story/${slug}/characters`);
 }
 
 export async function updateCharacter(formData: FormData) {
@@ -194,7 +221,7 @@ export async function updateCharacter(formData: FormData) {
   const avatarUrl = (formData.get("avatarUrl") as string) || null;
   const description = (formData.get("description") as string) || null;
 
-  await prisma.character.update({
+  const char = await prisma.character.update({
     where: { id },
     data: {
       name: name.trim(),
@@ -203,11 +230,19 @@ export async function updateCharacter(formData: FormData) {
       avatarUrl,
       description: description ? description.trim() : null,
     },
+    include: {
+      story: { select: { slug: true } }
+    }
   });
 
-  revalidatePath(`/truyen/${storySlug}`);
-  revalidatePath(`/admin/story/${storySlug}/characters`);
-  redirect(`/admin/story/${storySlug}/characters`);
+  await prisma.story.update({
+    where: { id: char.storyId },
+    data: { updatedAt: new Date() }
+  });
+
+  const slug = char.story?.slug || storySlug;
+  revalidateAllCharacterPaths(slug);
+  redirect(`/admin/story/${slug}/characters`);
 }
 
 export async function deleteCharacter(formData: FormData) {
@@ -215,12 +250,30 @@ export async function deleteCharacter(formData: FormData) {
   const id = formData.get("id") as string;
   const storySlug = formData.get("storySlug") as string;
 
-  await prisma.character.delete({
+  const char = await prisma.character.findUnique({
     where: { id },
+    include: {
+      story: { select: { id: true, slug: true } }
+    }
   });
 
-  revalidatePath(`/truyen/${storySlug}`);
-  revalidatePath(`/admin/story/${storySlug}/characters`);
-  redirect(`/admin/story/${storySlug}/characters`);
+  if (char) {
+    await prisma.character.delete({
+      where: { id },
+    });
+
+    await prisma.story.update({
+      where: { id: char.storyId },
+      data: { updatedAt: new Date() }
+    });
+
+    const slug = char.story?.slug || storySlug;
+    revalidateAllCharacterPaths(slug);
+    redirect(`/admin/story/${slug}/characters`);
+  } else {
+    revalidateAllCharacterPaths(storySlug);
+    redirect(`/admin/story/${storySlug}/characters`);
+  }
 }
+
 
