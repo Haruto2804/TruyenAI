@@ -53,7 +53,8 @@ model User {
   accounts      Account[]
   sessions      Session[]
   
-  // Custom fields for Leveling System
+  // Custom fields for Leveling & Roles
+  role          String          @default("USER") // USER, ADMIN
   exp           Int             @default(0)
   path          String          @default("TIEN_HIEP") // TIEN_HIEP, MA_DAO, KY_AO
   linhThach     Int             @default(0) // Đơn vị tiền tệ

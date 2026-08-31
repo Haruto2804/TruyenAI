@@ -3,8 +3,18 @@
 import prisma from "@/lib/prisma";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
+import { auth } from "@/auth";
+
+async function requireAdmin() {
+  const session = await auth();
+  if (!session?.user || (session.user as any).role !== "ADMIN") {
+    throw new Error("Unauthorized: Chỉ Quản Trị Viên mới có quyền thực hiện hành động này.");
+  }
+  return session.user;
+}
 
 export async function createStory(formData: FormData) {
+  await requireAdmin();
   const title = formData.get("title") as string;
   const genre = formData.get("genre") as string;
   const summary = formData.get("summary") as string;
@@ -35,6 +45,7 @@ export async function createStory(formData: FormData) {
 }
 
 export async function createChapter(formData: FormData) {
+  await requireAdmin();
   const storyId = formData.get("storyId") as string;
   const storySlug = formData.get("storySlug") as string;
   const chapterNo = parseInt(formData.get("chapterNo") as string, 10);
@@ -63,6 +74,7 @@ export async function createChapter(formData: FormData) {
 }
 
 export async function updateStory(formData: FormData) {
+  await requireAdmin();
   const id = formData.get("id") as string;
   const title = formData.get("title") as string;
   const genre = formData.get("genre") as string;
@@ -86,6 +98,7 @@ export async function updateStory(formData: FormData) {
 }
 
 export async function deleteStory(formData: FormData) {
+  await requireAdmin();
   const id = formData.get("id") as string;
 
   // Cascade delete is usually handled by Prisma if configured, 
@@ -104,6 +117,7 @@ export async function deleteStory(formData: FormData) {
 }
 
 export async function updateChapter(formData: FormData) {
+  await requireAdmin();
   const id = formData.get("id") as string;
   const storySlug = formData.get("storySlug") as string;
   const chapterNo = parseInt(formData.get("chapterNo") as string, 10);
@@ -126,6 +140,7 @@ export async function updateChapter(formData: FormData) {
 }
 
 export async function deleteChapter(formData: FormData) {
+  await requireAdmin();
   const id = formData.get("id") as string;
   const storySlug = formData.get("storySlug") as string;
 

@@ -40,13 +40,27 @@ export async function UserMenu() {
     progress = Math.max(0, Math.min(100, ((exp - prevLevelExp) / (nextLevelExp - prevLevelExp)) * 100));
   }
 
+  const isAdmin = (session.user as any).role === "ADMIN";
+
   return (
-    <div className="flex items-center gap-4">
+    <div className="flex items-center gap-3 sm:gap-4">
+      {/* Admin Studio Quick Link (Only for ADMIN) */}
+      {isAdmin && (
+        <Link 
+          href="/admin" 
+          className="flex items-center gap-1.5 bg-[#d4af37]/15 hover:bg-[#d4af37]/25 text-[#d4af37] border border-[#d4af37]/40 px-3 py-1.5 rounded-full text-xs font-bold transition-all shadow-[0_0_15px_rgba(212,175,55,0.15)] hover:scale-105"
+          title="Khu Vực Quản Trị"
+        >
+          <span className="w-2 h-2 rounded-full bg-[#d4af37] animate-ping" />
+          <span>Admin</span>
+        </Link>
+      )}
+
       {/* Level Info */}
       <div className="hidden sm:flex flex-col items-end">
         <span className="text-xs font-semibold text-emerald-400">{title}</span>
         <div className="flex items-center gap-2 w-32">
-          <div className="h-1.5 flex-1 bg-slate-800 rounded-full overflow-hidden">
+          <div className="h-1.5 flex-1 bg-white/10 rounded-full overflow-hidden">
             <div 
               className="h-full bg-emerald-500 rounded-full transition-all duration-500" 
               style={{ width: `${progress}%` }}
@@ -59,16 +73,16 @@ export async function UserMenu() {
       </div>
 
       {/* Economy / Linh Thạch */}
-      <Link href="/nap-the" className="flex items-center gap-1.5 bg-slate-800/50 hover:bg-slate-800 border border-slate-700 hover:border-amber-500/50 px-3 py-1.5 rounded-full transition-colors" title="Nạp Linh Thạch">
+      <Link href="/nap-the" className="flex items-center gap-1.5 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-[#d4af37]/50 px-3 py-1.5 rounded-full transition-colors" title="Nạp Linh Thạch">
         <span className="text-sm font-bold text-amber-400">{linhThach}</span>
         <span className="text-xs text-amber-500/80">💎</span>
       </Link>
 
       {/* Avatar & Dropdown */}
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-2 sm:gap-3">
         <Link 
           href="/tu-truyen" 
-          className="text-slate-400 hover:text-indigo-400 transition-colors p-2 rounded-full hover:bg-slate-800"
+          className="text-slate-400 hover:text-[#d4af37] transition-colors p-2 rounded-full hover:bg-white/5"
           title="Tủ Truyện"
         >
           <Library className="w-5 h-5" />
@@ -78,10 +92,10 @@ export async function UserMenu() {
             <img 
               src={session.user.image} 
               alt={displayName} 
-              className="w-8 h-8 rounded-full border border-slate-700 group-hover:border-indigo-500 transition-colors"
+              className="w-8 h-8 rounded-full border border-white/10 group-hover:border-[#d4af37] transition-colors"
             />
           ) : (
-            <UserCircle className="w-8 h-8 text-slate-400 group-hover:text-indigo-400 transition-colors" />
+            <UserCircle className="w-8 h-8 text-slate-400 group-hover:text-[#d4af37] transition-colors" />
           )}
         </Link>
       </div>

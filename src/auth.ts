@@ -22,6 +22,17 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
         (session.user as any).path = (user as any).path;
         (session.user as any).displayName = (user as any).displayName;
         (session.user as any).linhThach = (user as any).linhThach || 0;
+
+        // Determine user role (by database role or ADMIN_EMAILS in .env)
+        const adminEmails = (process.env.ADMIN_EMAILS || "")
+          .split(",")
+          .map((e) => e.trim().toLowerCase())
+          .filter(Boolean);
+
+        const userEmail = (user.email || session.user.email || "").toLowerCase();
+        const isAdmin = (user as any).role === "ADMIN" || adminEmails.includes(userEmail);
+
+        (session.user as any).role = isAdmin ? "ADMIN" : ((user as any).role || "USER");
       }
       return session;
     },

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "make-admin": "node scripts/make-admin.js"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.3",
