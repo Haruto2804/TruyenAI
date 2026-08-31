@@ -125,7 +125,7 @@ export default async function StoryDetail({
                 {lastReadChapter ? (
                   <Link 
                     href={`/truyen/${story.slug}/${lastReadChapter.chapterNo}`}
-                    className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold px-6 py-3 rounded-xl shadow-[0_4px_25px_rgba(212,175,55,0.3)] transition-all transform hover:-translate-y-0.5 active:translate-y-0 w-full xs:w-auto text-sm sm:text-base min-h-[44px]"
+                    className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 min-h-[48px] px-7 rounded-xl shadow-[0_4px_25px_rgba(212,175,55,0.3)] transition-all transform hover:-translate-y-0.5 active:scale-98 w-full xs:w-auto text-sm sm:text-base cursor-pointer"
                   >
                     Đọc tiếp #{lastReadChapter.chapterNo}
                     <ChevronRight className="w-4 h-4" />
@@ -133,7 +133,7 @@ export default async function StoryDetail({
                 ) : (
                   <Link 
                     href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
-                    className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold px-6 py-3 rounded-xl shadow-[0_4px_25px_rgba(212,175,55,0.3)] transition-all transform hover:-translate-y-0.5 active:translate-y-0 w-full xs:w-auto text-sm sm:text-base min-h-[44px]"
+                    className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 min-h-[48px] px-7 rounded-xl shadow-[0_4px_25px_rgba(212,175,55,0.3)] transition-all transform hover:-translate-y-0.5 active:scale-98 w-full xs:w-auto text-sm sm:text-base cursor-pointer"
                   >
                     Đọc Từ Đầu (Chương 1)
                   </Link>

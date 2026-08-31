@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { addComment, getComments } from "@/app/actions/comment";
 import { getUserTitle, PathType } from "@/lib/levels";
-import { UserCircle, MessageSquare, Reply } from "lucide-react";
+import { UserCircle, MessageSquare, Reply, Send, Sparkles } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 type CommentUser = { name: string | null, displayName?: string | null, image: string | null, exp: number, path: string };
@@ -64,55 +64,65 @@ export function CommentSection({ storyId, chapterId }: { storyId: string, chapte
     const displayUserName = c.user.displayName || c.user.name || "Đạo hữu ẩn danh";
     
     return (
-      <div key={c.id} className={`flex gap-4 ${isReply ? "mt-4 ml-8 md:ml-12 border-l-2 border-slate-800 pl-4" : "mt-6"}`}>
-        <div className="shrink-0 mt-1">
+      <div key={c.id} className={`flex gap-3 sm:gap-4 ${isReply ? "mt-3.5 ml-6 sm:ml-10 border-l-2 border-[#d4af37]/30 pl-3.5 sm:pl-4" : "mt-5"}`}>
+        <div className="shrink-0 mt-0.5">
           {c.user.image ? (
-            <img src={c.user.image} alt={displayUserName} className="w-10 h-10 rounded-full border border-slate-700" />
+            <img src={c.user.image} alt={displayUserName} className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border border-[#d4af37]/30 object-cover shadow-sm" />
           ) : (
-            <UserCircle className="w-10 h-10 text-slate-500" />
+            <UserCircle className="w-8 h-8 sm:w-10 sm:h-10 text-slate-500" />
           )}
         </div>
-        <div className="flex-1">
-          <div className="flex items-center gap-2 mb-1 flex-wrap">
-            <span className="font-semibold text-slate-200">{displayUserName}</span>
-            <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-emerald-400 font-medium border border-slate-700/50">
+        <div className="flex-1 min-w-0 space-y-1.5">
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="font-bold text-xs sm:text-sm text-slate-200">{displayUserName}</span>
+            <span className="text-[10px] sm:text-xs px-2 py-0.5 rounded-md bg-[#d4af37]/15 text-amber-300 font-bold border border-[#d4af37]/30">
               {title}
             </span>
-            <span className="text-xs text-slate-500">
+            <span className="text-[10px] sm:text-xs text-slate-500">
               {new Date(c.createdAt).toLocaleDateString("vi-VN")}
             </span>
           </div>
           
-          <div className="text-slate-300 leading-relaxed text-sm bg-slate-900/50 p-3 rounded-lg border border-slate-800/50">
+          <div className="text-slate-200 leading-relaxed text-xs sm:text-sm bg-black/40 p-3 sm:p-3.5 rounded-xl border border-white/5 whitespace-pre-wrap">
             {c.isDeleted ? <span className="italic text-slate-500">Bình luận này đã bị xóa.</span> : c.content}
           </div>
 
           {!c.isDeleted && !isReply && (
-            <div className="mt-2">
+            <div className="mt-1">
               <button 
                 onClick={() => setReplyTo(replyTo === c.id ? null : c.id)}
-                className="text-xs font-semibold text-indigo-400 hover:text-indigo-300 flex items-center gap-1 transition-colors"
+                className="text-[11px] sm:text-xs font-bold text-amber-300/80 hover:text-amber-300 flex items-center gap-1 transition-colors cursor-pointer py-1"
               >
                 <Reply className="w-3 h-3" /> Trả lời
               </button>
               
               {replyTo === c.id && (
-                <div className="mt-3 flex gap-2">
+                <div className="mt-2.5 flex flex-col xs:flex-row gap-2 bg-slate-950/80 border border-white/10 rounded-xl p-3">
                   <textarea
                     value={replyContent}
                     onChange={(e) => setReplyContent(e.target.value)}
-                    placeholder="Viết câu trả lời..."
-                    className="flex-1 bg-slate-900 border border-slate-700 rounded-lg p-2 text-sm text-white focus:outline-none focus:border-indigo-500 resize-none"
+                    placeholder="Viết câu trả lời luận đạo..."
+                    className="flex-1 bg-black/50 border border-white/10 rounded-lg p-2.5 text-xs sm:text-sm text-white focus:outline-none focus:border-[#d4af37]/60 resize-none placeholder-slate-500"
                     rows={2}
                     maxLength={500}
                   />
-                  <button 
-                    onClick={() => handleSubmit(c.id)}
-                    disabled={submitting || !replyContent.trim()}
-                    className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors disabled:opacity-50 shrink-0 self-end"
-                  >
-                    {submitting ? "..." : "Gửi"}
-                  </button>
+                  <div className="flex xs:flex-col justify-end gap-2 shrink-0">
+                    <button 
+                      onClick={() => handleSubmit(c.id)}
+                      disabled={submitting || !replyContent.trim()}
+                      className="bg-[#d4af37] hover:brightness-110 text-slate-950 px-4 py-2 rounded-lg text-xs font-bold transition-all disabled:opacity-50 flex items-center justify-center gap-1 cursor-pointer"
+                    >
+                      <Send className="w-3 h-3" />
+                      <span>{submitting ? "..." : "Gửi"}</span>
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setReplyTo(null)}
+                      className="px-3 py-1.5 text-xs text-slate-400 hover:text-slate-200"
+                    >
+                      Hủy
+                    </button>
+                  </div>
                 </div>
               )}
             </div>
@@ -120,7 +130,7 @@ export function CommentSection({ storyId, chapterId }: { storyId: string, chapte
 
           {/* Render Replies */}
           {c.replies && c.replies.length > 0 && (
-            <div className="mt-2 space-y-2">
+            <div className="space-y-1">
               {c.replies.map(reply => renderComment(reply, true))}
             </div>
           )}
@@ -130,45 +140,51 @@ export function CommentSection({ storyId, chapterId }: { storyId: string, chapte
   };
 
   return (
-    <div className="pt-2">
-      <div className="flex items-center gap-3 mb-6">
-        <div className="p-2 bg-[#d4af37]/10 rounded-xl">
-          <MessageSquare className="w-5 h-5 text-[#d4af37]" />
-        </div>
-        <h2 className="text-xl sm:text-2xl font-bold text-white">Khu Vực Luận Đạo</h2>
+    <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-5 sm:p-8 shadow-xl space-y-6">
+      <div className="flex items-center justify-between border-b border-white/5 pb-4">
+        <h2 className="text-lg sm:text-2xl font-extrabold text-white flex items-center gap-2.5">
+          <div className="p-1.5 sm:p-2 bg-[#d4af37]/15 rounded-xl text-[#d4af37] border border-[#d4af37]/30 shadow-[0_0_15px_rgba(212,175,55,0.2)]">
+            <MessageSquare className="w-4 h-4 sm:w-5 sm:h-5" />
+          </div>
+          <span>Khu Vực Luận Đạo</span>
+        </h2>
+        <span className="text-xs text-slate-400 font-semibold">
+          {comments.length} bình luận
+        </span>
       </div>
 
       {/* Main Comment Form */}
-      <div className="bg-black/30 border border-white/10 rounded-2xl p-4 sm:p-5 mb-8">
+      <div className="bg-black/30 border border-white/10 rounded-2xl p-4 sm:p-5 space-y-3">
         <textarea
           value={content}
           onChange={(e) => setContent(e.target.value)}
-          placeholder="Bạn nghĩ gì về bộ truyện này? (Yêu cầu Trúc Cơ trở lên)"
-          className="w-full bg-slate-950/70 border border-white/10 rounded-xl p-3.5 text-slate-200 placeholder-slate-500 focus:outline-none focus:border-[#d4af37]/60 focus:ring-1 focus:ring-[#d4af37]/60 transition-all resize-none text-sm"
+          placeholder="Bạn nghĩ gì về bộ truyện này? Để lại lời bình luận luận đạo..."
+          className="w-full bg-slate-950/80 border border-white/10 rounded-xl p-3.5 text-slate-200 placeholder-slate-500 focus:outline-none focus:border-[#d4af37]/60 focus:ring-1 focus:ring-[#d4af37]/60 transition-all resize-none text-xs sm:text-sm leading-relaxed"
           rows={3}
           maxLength={500}
         />
-        <div className="flex justify-between items-center mt-3">
-          <span className="text-xs text-slate-500 font-mono">{content.length}/500</span>
+        <div className="flex justify-between items-center">
+          <span className="text-[11px] text-slate-500 font-mono">{content.length}/500</span>
           <button 
             onClick={() => handleSubmit()}
             disabled={submitting || !content.trim()}
-            className="bg-gradient-to-r from-[#d4af37] to-amber-400 hover:brightness-110 text-slate-950 px-6 py-2.5 rounded-xl font-bold text-sm transition-all disabled:opacity-50 disabled:hover:brightness-100 shadow-[0_2px_15px_rgba(212,175,55,0.25)]"
+            className="bg-gradient-to-r from-[#d4af37] to-amber-400 hover:brightness-110 text-slate-950 px-5 sm:px-6 py-2.5 rounded-xl font-extrabold text-xs sm:text-sm transition-all disabled:opacity-50 shadow-[0_2px_15px_rgba(212,175,55,0.25)] flex items-center gap-1.5 cursor-pointer active:scale-95"
           >
-            {submitting ? "Đang gửi..." : "Đăng bình luận"}
+            <Send className="w-3.5 h-3.5" />
+            <span>{submitting ? "Đang gửi..." : "Đăng bình luận"}</span>
           </button>
         </div>
       </div>
 
       {/* Comments List */}
       {loading ? (
-        <div className="text-center text-slate-500 py-8">Đang tải bình luận...</div>
+        <div className="text-center text-slate-500 py-6 text-sm">Đang tải bình luận...</div>
       ) : comments.length === 0 ? (
-        <div className="text-center text-slate-500 py-8 bg-slate-900/20 rounded-xl border border-slate-800/50">
-          Chưa có đạo hữu nào để lại dấu chân. Hãy là người đầu tiên!
+        <div className="text-center text-slate-400 py-8 bg-black/20 rounded-2xl border border-white/5 text-xs sm:text-sm">
+          Chưa có đạo hữu nào để lại dấu chân. Hãy là người đầu tiên luận đạo!
         </div>
       ) : (
-        <div className="space-y-6">
+        <div className="divide-y divide-white/5 space-y-1">
           {comments.map(c => renderComment(c))}
         </div>
       )}

@@ -199,34 +199,35 @@ export function InteractiveReader({
   return (
     <div className="space-y-6 select-text">
       {/* Reader Customization Floating Toolbar (Mobile & Desktop) */}
-      <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-3 sm:p-4 transition-all">
-        <div className="flex flex-wrap items-center justify-between gap-3 text-xs sm:text-sm">
-          {/* Quick Info & Toggle */}
-          <div className="flex items-center gap-2 text-slate-300">
-            <Sliders className="w-4 h-4 text-[#d4af37]" />
-            <span className="font-semibold text-slate-200 hidden xs:inline">Tùy Chỉnh Đọc:</span>
-            <span className="text-[11px] sm:text-xs text-slate-400">
-              {fontFamily === "serif" ? "Serif (Tiểu Thuyết)" : "Sans-Serif (Hiện Đại)"} • {fontSize}px
+      <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-2.5 sm:p-3.5 transition-all">
+        <div className="flex items-center justify-between gap-2 overflow-x-auto scrollbar-none text-xs sm:text-sm">
+          {/* Quick Font Info */}
+          <div className="flex items-center gap-2 text-slate-300 shrink-0">
+            <div className="p-1.5 rounded-lg bg-[#d4af37]/15 text-[#d4af37]">
+              <Sliders className="w-3.5 h-3.5" />
+            </div>
+            <span className="text-[11px] sm:text-xs text-slate-300 font-medium whitespace-nowrap">
+              {fontFamily === "serif" ? "Lora Serif" : "Modern Sans"} • {fontSize}px
             </span>
           </div>
 
-          {/* Quick Action Buttons */}
-          <div className="flex items-center gap-1.5 sm:gap-2">
+          {/* Quick Action Controls */}
+          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
             {/* Font Size A- / A+ */}
-            <div className="flex items-center bg-black/40 border border-white/10 rounded-xl p-0.5">
+            <div className="flex items-center bg-black/40 border border-white/10 rounded-xl p-0.5 shadow-inner">
               <button
                 type="button"
                 onClick={() => updateFontSize(-1)}
-                className="px-2.5 py-1 text-xs font-bold text-slate-300 hover:text-white hover:bg-white/10 rounded-lg transition-colors"
+                className="px-2 py-1 text-xs font-bold text-slate-300 hover:text-white hover:bg-white/10 rounded-lg transition-colors min-h-[32px] min-w-[32px] flex items-center justify-center cursor-pointer active:scale-95"
                 title="Giảm cỡ chữ"
               >
                 A-
               </button>
-              <span className="px-1 text-[11px] font-mono text-[#d4af37]">{fontSize}</span>
+              <span className="px-1.5 text-xs font-mono text-[#d4af37] font-bold">{fontSize}</span>
               <button
                 type="button"
                 onClick={() => updateFontSize(1)}
-                className="px-2.5 py-1 text-xs font-bold text-slate-300 hover:text-white hover:bg-white/10 rounded-lg transition-colors"
+                className="px-2 py-1 text-xs font-bold text-slate-300 hover:text-white hover:bg-white/10 rounded-lg transition-colors min-h-[32px] min-w-[32px] flex items-center justify-center cursor-pointer active:scale-95"
                 title="Tăng cỡ chữ"
               >
                 A+
@@ -237,19 +238,19 @@ export function InteractiveReader({
             <button
               type="button"
               onClick={() => updateFontFamily(fontFamily === "serif" ? "sans" : "serif")}
-              className="px-3 py-1.5 rounded-xl bg-black/40 border border-white/10 text-slate-200 hover:border-[#d4af37]/40 text-xs font-semibold transition-all flex items-center gap-1"
-              title="Đổi kiểu chữ"
+              className="px-2.5 sm:px-3 py-1.5 rounded-xl bg-black/40 border border-white/10 text-slate-200 hover:border-[#d4af37]/40 text-xs font-semibold transition-all flex items-center gap-1 min-h-[32px] cursor-pointer active:scale-95"
+              title="Đổi kiểu chữ (Serif / Sans)"
             >
               <Type className="w-3.5 h-3.5 text-[#d4af37]" />
-              <span className="hidden sm:inline">{fontFamily === "serif" ? "Serif" : "Sans"}</span>
+              <span className="text-[11px] sm:text-xs">{fontFamily === "serif" ? "Serif" : "Sans"}</span>
             </button>
 
             {/* Theme Toggle Buttons */}
-            <div className="flex items-center bg-black/40 border border-white/10 rounded-xl p-1 gap-1">
+            <div className="flex items-center bg-black/40 border border-white/10 rounded-xl p-0.5 gap-0.5 shadow-inner">
               <button
                 type="button"
                 onClick={() => updateTheme("dark")}
-                className={`p-1.5 rounded-lg transition-all ${
+                className={`p-1.5 rounded-lg transition-all min-h-[30px] min-w-[30px] flex items-center justify-center cursor-pointer ${
                   theme === "dark" ? "bg-white/20 text-[#d4af37]" : "text-slate-400 hover:text-white"
                 }`}
                 title="Giao diện Deep Dark"
@@ -259,7 +260,7 @@ export function InteractiveReader({
               <button
                 type="button"
                 onClick={() => updateTheme("sepia")}
-                className={`p-1.5 rounded-lg transition-all ${
+                className={`p-1.5 rounded-lg transition-all min-h-[30px] min-w-[30px] flex items-center justify-center cursor-pointer ${
                   theme === "sepia" ? "bg-amber-600/30 text-amber-300" : "text-slate-400 hover:text-white"
                 }`}
                 title="Giao diện Sepia ấm áp chống mỏi mắt"
@@ -269,7 +270,7 @@ export function InteractiveReader({
               <button
                 type="button"
                 onClick={() => updateTheme("oled")}
-                className={`p-1.5 rounded-lg transition-all ${
+                className={`p-1.5 rounded-lg transition-all min-h-[30px] min-w-[30px] flex items-center justify-center cursor-pointer ${
                   theme === "oled" ? "bg-white/20 text-yellow-300" : "text-slate-400 hover:text-white"
                 }`}
                 title="Giao diện AMOLED Black"
