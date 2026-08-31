@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 
 export function ExpTracker({ chapterId }: { chapterId: string }) {
   const router = useRouter();
-  const [showToast, setShowToast] = useState(false);
+  const [toastMsg, setToastMsg] = useState("");
   const hasTriggered = useRef(false);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const [timeSpent, setTimeSpent] = useState(0);
@@ -43,9 +43,13 @@ export function ExpTracker({ chapterId }: { chapterId: string }) {
         
         const result = await addExpToUser(chapterId);
         if (result.success) {
-          setShowToast(true);
+          let msg = "✨ Bạn nhận được +10 EXP!";
+          if (result.linhThachGained) {
+            msg += ` và +${result.linhThachGained} 💎 (Điểm danh hằng ngày)`;
+          }
+          setToastMsg(msg);
           router.refresh(); // Tự động cập nhật lại giao diện (Navbar)
-          setTimeout(() => setShowToast(false), 3000);
+          setTimeout(() => setToastMsg(""), 3000);
         }
       }
     };
@@ -54,12 +58,11 @@ export function ExpTracker({ chapterId }: { chapterId: string }) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [timeSpent, chapterId]);
 
-  if (!showToast) return null;
+  if (!toastMsg) return null;
 
   return (
-    <div className="fixed bottom-4 right-4 bg-emerald-600 text-white px-4 py-2 rounded-lg shadow-lg flex items-center gap-2 animate-bounce z-50">
-      <span className="text-xl">✨</span>
-      <span className="font-medium">Bạn nhận được +10 EXP!</span>
+    <div className="fixed bottom-4 right-4 bg-emerald-600 text-white px-4 py-3 rounded-lg shadow-xl flex items-center gap-2 animate-bounce z-50">
+      <span className="font-medium">{toastMsg}</span>
     </div>
   );
 }

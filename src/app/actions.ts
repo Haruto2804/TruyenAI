@@ -22,12 +22,51 @@ export async function addExpToUser(chapterId: string) {
       }
     });
 
-    // If successful, user hasn't read this chapter before. Award 10 EXP.
+    // Check daily reading mission (10 Linh Thạch/ngày)
+    const today = new Date().toISOString().split('T')[0];
+    const dailyReadMission = await prisma.userMission.findUnique({
+      where: {
+        userId_dateString_type: {
+          userId,
+          dateString: today,
+          type: "DAILY_READ"
+        }
+      }
+    });
+
+    let linhThachGained = 0;
+    if (!dailyReadMission) {
+      await prisma.userMission.create({
+        data: {
+          userId,
+          dateString: today,
+          type: "DAILY_READ",
+          isClaimed: true
+        }
+      });
+      linhThachGained = 10; // Thưởng 10 Linh Thạch
+      
+      // Tạo lịch sử giao dịch nhận thưởng
+      await prisma.transaction.create({
+        data: {
+          userId,
+          amount: linhThachGained,
+          type: "MISSION_REWARD",
+          description: "Thưởng đọc truyện hằng ngày",
+          status: "SUCCESS"
+        }
+      });
+    }
+
+    // Award 10 EXP and Linh Thạch (if any)
     const updatedUser = await prisma.user.update({
       where: { id: userId },
       data: {
         exp: {
           increment: 10
+        },
+        linhThach: {
+          increment: linhThachGained
         }
       }
     });
@@ -35,6 +74,7 @@ export async function addExpToUser(chapterId: string) {
     return { 
       success: true, 
       expGained: 10,
+      linhThachGained,
       totalExp: updatedUser.exp 
     };
 

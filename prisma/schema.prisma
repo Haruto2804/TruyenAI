@@ -31,9 +31,14 @@ model Chapter {
   story         Story         @relation(fields: [storyId], references: [id], onDelete: Cascade)
   createdAt     DateTime      @default(now())
   updatedAt     DateTime      @updatedAt
+  
+  isVip         Boolean       @default(false)
+  price         Int           @default(0) // Số linh thạch để mở khóa
+
   readHistories ReadHistory[]
   readingProgresses ReadingProgress[]
   comments      Comment[]
+  unlockedBy    UnlockedChapter[]
 
   @@unique([storyId, chapterNo])
 }
@@ -51,11 +56,15 @@ model User {
   // Custom fields for Leveling System
   exp           Int             @default(0)
   path          String          @default("TIEN_HIEP") // TIEN_HIEP, MA_DAO, KY_AO
+  linhThach     Int             @default(0) // Đơn vị tiền tệ
   
   readHistories ReadHistory[]
   bookmarks     Bookmark[]
   readingProgresses ReadingProgress[]
   comments      Comment[]
+  transactions  Transaction[]
+  missions      UserMission[]
+  unlockedChapters UnlockedChapter[]
   
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -168,4 +177,55 @@ model Comment {
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+}
+
+// ----------------------------------------------------------------------
+// ECONOMY SYSTEM (Phase 5)
+// ----------------------------------------------------------------------
+
+// Lịch sử giao dịch (Nạp tiền, Donate, Mua chương)
+model Transaction {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  amount      Int      // Số lượng linh thạch (+ hoặc -)
+  type        String   // "TOPUP", "DONATE", "UNLOCK_CHAPTER", "MISSION_REWARD"
+  description String?  // Mô tả chi tiết
+  
+  referenceId String?  @unique // Mã giao dịch SePay (nếu có)
+  status      String   @default("SUCCESS") // SUCCESS, PENDING, FAILED
+
+  createdAt   DateTime @default(now())
+}
+
+// Theo dõi nhiệm vụ điểm danh hằng ngày
+model UserMission {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  dateString  String   // "YYYY-MM-DD"
+  type        String   // "DAILY_LOGIN", "DAILY_READ"
+  isClaimed   Boolean  @default(false)
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([userId, dateString, type])
+}
+
+// Lịch sử mua chương VIP
+model UnlockedChapter {
+  id          String   @id @default(cuid())
+  userId      String
+  chapterId   String
+  price       Int
+  
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  chapter     Chapter  @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+
+  createdAt   DateTime @default(now())
+
+  @@unique([userId, chapterId])
 }

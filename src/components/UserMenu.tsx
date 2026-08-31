@@ -27,6 +27,7 @@ export async function UserMenu() {
   const exp = (session.user as any).exp || 0;
   const path = ((session.user as any).path as PathType) || "TIEN_HIEP";
   const displayName = (session.user as any).displayName || session.user.name || "User";
+  const linhThach = (session.user as any).linhThach || 0;
   
   const currentLevel = getUserLevel(exp);
   const nextLevelExp = getNextLevelExp(exp);
@@ -56,6 +57,12 @@ export async function UserMenu() {
           </span>
         </div>
       </div>
+
+      {/* Economy / Linh Thạch */}
+      <Link href="/nap-the" className="flex items-center gap-1.5 bg-slate-800/50 hover:bg-slate-800 border border-slate-700 hover:border-amber-500/50 px-3 py-1.5 rounded-full transition-colors" title="Nạp Linh Thạch">
+        <span className="text-sm font-bold text-amber-400">{linhThach}</span>
+        <span className="text-xs text-amber-500/80">💎</span>
+      </Link>
 
       {/* Avatar & Dropdown */}
       <div className="flex items-center gap-3">

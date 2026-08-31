@@ -21,6 +21,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
         (session.user as any).exp = (user as any).exp;
         (session.user as any).path = (user as any).path;
         (session.user as any).displayName = (user as any).displayName;
+        (session.user as any).linhThach = (user as any).linhThach || 0;
       }
       return session;
     },

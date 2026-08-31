@@ -5,6 +5,8 @@ import { ArrowLeft, ChevronLeft, ChevronRight, Menu } from "lucide-react";
 import { ExpTracker } from "@/components/ExpTracker";
 import { ProgressTracker } from "@/components/ProgressTracker";
 import { CommentSection } from "@/components/CommentSection";
+import { UnlockButton, DonateButton } from "@/components/EconomyButtons";
+import { auth } from "@/auth";
 
 export default async function ChapterDetail({
   params,
@@ -25,6 +27,9 @@ export default async function ChapterDetail({
     notFound();
   }
 
+  const session = await auth();
+  const userId = session?.user?.id;
+
   const chapter = await prisma.chapter.findUnique({
     where: {
       storyId_chapterNo: {
@@ -32,11 +37,21 @@ export default async function ChapterDetail({
         chapterNo: chapterNo,
       },
     },
+    include: {
+      unlockedBy: {
+        where: { userId: userId || "no-user" }
+      }
+    }
   });
 
   if (!chapter) {
     notFound();
   }
+
+  // Nếu chương là VIP, kiểm tra xem đã được người dùng này mua chưa
+  // (hoặc nếu là Admin / Author thì mặc định cho xem) -> tạm thời chỉ xét mua
+  const isUnlocked = chapter.isVip ? (chapter.unlockedBy.length > 0) : true;
+
 
   // Fetch previous and next chapters for navigation
   const prevChapter = await prisma.chapter.findUnique({
@@ -96,20 +111,27 @@ export default async function ChapterDetail({
 
       {/* Chapter Content */}
       <div className="bg-slate-900 md:bg-slate-800/20 md:border border-slate-800 rounded-2xl md:p-8 p-0">
-        <div 
-          className="prose prose-invert prose-lg max-w-none text-slate-300 leading-loose"
-          style={{ 
-            fontSize: '1.125rem', 
-            fontFamily: 'system-ui, sans-serif'
-          }}
-        >
-          {chapter.content.split('\n').map((paragraph, idx) => (
-            <p key={idx} className="mb-4">
-              {paragraph}
-            </p>
-          ))}
-        </div>
+        {!isUnlocked ? (
+          <UnlockButton chapterId={chapter.id} price={chapter.price} />
+        ) : (
+          <div 
+            className="prose prose-invert prose-lg max-w-none text-slate-300 leading-loose"
+            style={{ 
+              fontSize: '1.125rem', 
+              fontFamily: 'system-ui, sans-serif'
+            }}
+          >
+            {chapter.content.split('\n').map((paragraph, idx) => (
+              <p key={idx} className="mb-4">
+                {paragraph}
+              </p>
+            ))}
+          </div>
+        )}
       </div>
+
+      {/* Tặng thưởng tác giả (chỉ hiện khi đã mở khóa hoặc chương free) */}
+      {isUnlocked && <DonateButton storyId={story.id} />}
 
       {/* Bottom Navigation */}
       <div className="flex items-center gap-4 py-8 mt-4 w-full justify-center border-t border-slate-800">
