@@ -20,6 +20,17 @@ interface CharacterGalleryProps {
   characters: CharacterItem[];
 }
 
+function getShortRole(role?: string | null): string {
+  if (!role) return "";
+  const parts = role.split(/[/–—]/);
+  const main = parts[0].trim();
+  if (main.includes("Tam Công Chúa")) return "Tam Công Chúa";
+  if (main.includes("Nhân vật chính")) return "Nhân vật chính";
+  if (main.includes("Hầu nữ")) return "Hầu nữ thân cận";
+  if (main.includes("Đại tiểu thư")) return "Đại tiểu thư";
+  return main.length > 16 ? main.slice(0, 16) + "..." : main;
+}
+
 function renderFormattedDescription(desc: string | null) {
   if (!desc) return <p className="text-sm sm:text-base text-slate-500 italic py-4">Chưa có tóm tắt cho nhân vật này.</p>;
 
@@ -176,10 +187,10 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
 
               {/* Role Badge */}
               {char.role && (
-                <div className="absolute top-3 left-3 sm:top-3.5 sm:left-3.5 max-w-[90%]">
-                  <span className="inline-flex items-center gap-1.5 px-2.5 py-1 sm:px-3 sm:py-1 rounded-xl text-xs sm:text-sm font-extrabold bg-black/85 backdrop-blur-md text-amber-300 border border-[#d4af37]/50 shadow-xl truncate">
-                    <Shield className="w-3.5 h-3.5 text-[#d4af37] shrink-0" />
-                    <span className="truncate">{char.role}</span>
+                <div className="absolute top-2.5 left-2.5 sm:top-3 sm:left-3 max-w-[calc(100%-16px)]">
+                  <span className="inline-flex items-center gap-1 px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg sm:rounded-xl text-xs sm:text-sm font-extrabold bg-black/85 backdrop-blur-md text-amber-300 border border-[#d4af37]/50 shadow-xl truncate">
+                    <Shield className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-[#d4af37] shrink-0" />
+                    <span className="truncate">{getShortRole(char.role)}</span>
                   </span>
                 </div>
               )}
