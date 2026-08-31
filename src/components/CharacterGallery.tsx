@@ -21,28 +21,28 @@ interface CharacterGalleryProps {
 }
 
 function renderFormattedDescription(desc: string | null) {
-  if (!desc) return <p className="text-xs text-slate-500 italic py-4">Chưa có tóm tắt cho nhân vật này.</p>;
+  if (!desc) return <p className="text-sm sm:text-base text-slate-500 italic py-4">Chưa có tóm tắt cho nhân vật này.</p>;
 
   // Split by double newline for paragraphs
   const paragraphs = desc.split(/\n\s*\n/);
 
   return (
-    <div className="bg-black/40 border border-white/5 rounded-2xl p-4 sm:p-5 space-y-3.5 shadow-inner">
+    <div className="bg-black/50 border border-white/10 rounded-2xl sm:rounded-3xl p-4 sm:p-6 space-y-4 shadow-inner">
       {paragraphs.map((p, pIdx) => {
         const parts = p.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g);
         return (
-          <p key={pIdx} className="text-xs sm:text-sm text-slate-200 leading-relaxed font-light">
+          <p key={pIdx} className="text-sm sm:text-base md:text-lg lg:text-xl text-slate-100 leading-relaxed sm:leading-loose font-normal">
             {parts.map((part, idx) => {
               if (part.startsWith("**") && part.endsWith("**")) {
                 return (
-                  <strong key={idx} className="font-bold text-[#d4af37]">
+                  <strong key={idx} className="font-extrabold text-[#d4af37]">
                     {part.slice(2, -2)}
                   </strong>
                 );
               }
               if (part.startsWith("*") && part.endsWith("*")) {
                 return (
-                  <em key={idx} className="italic text-amber-200/90">
+                  <em key={idx} className="italic text-amber-200/90 font-medium">
                     {part.slice(1, -1)}
                   </em>
                 );
@@ -306,50 +306,50 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
             </div>
 
             {/* Cột 2 (Desktop Phải): Hồ sơ chi tiết */}
-            <div className="flex-1 p-7 md:p-8 flex flex-col justify-between overflow-y-auto space-y-5">
-              <div className="space-y-4">
+            <div className="flex-1 p-6 md:p-8 lg:p-10 flex flex-col justify-between overflow-y-auto space-y-6">
+              <div className="space-y-5">
                 {/* Header Profile Title */}
                 <div>
                   {selectedChar.role && (
-                    <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-xl text-xs font-extrabold bg-[#d4af37]/15 text-[#d4af37] border border-[#d4af37]/40 shadow-sm mb-2.5">
-                      <Shield className="w-3.5 h-3.5" />
+                    <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-xl text-xs sm:text-sm font-extrabold bg-[#d4af37]/15 text-[#d4af37] border border-[#d4af37]/40 shadow-sm mb-3">
+                      <Shield className="w-4 h-4" />
                       {selectedChar.role}
                     </span>
                   )}
-                  <h3 className="text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-tight">
+                  <h3 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
                     {selectedChar.name}
                   </h3>
                 </div>
 
                 {/* Aliases Card */}
                 {selectedChar.aliases && (
-                  <div className="bg-white/5 border border-white/10 rounded-2xl p-3.5 space-y-1">
-                    <div className="text-[11px] font-bold text-amber-200/80 uppercase tracking-wider flex items-center gap-1.5">
-                      <Tag className="w-3.5 h-3.5 text-[#d4af37]" /> Biệt danh & Danh xưng
+                  <div className="bg-white/5 border border-white/10 rounded-2xl p-4 sm:p-5 space-y-1.5 shadow-inner">
+                    <div className="text-xs sm:text-sm font-bold text-amber-200/90 uppercase tracking-wider flex items-center gap-2">
+                      <Tag className="w-4 h-4 text-[#d4af37]" /> Biệt danh & Danh xưng
                     </div>
-                    <p className="text-base text-slate-100 font-medium">
+                    <p className="text-base sm:text-lg md:text-xl text-slate-100 font-semibold">
                       {selectedChar.aliases}
                     </p>
                   </div>
                 )}
 
                 {/* Formatted Biography */}
-                <div className="max-h-80 overflow-y-auto pr-1">
+                <div className="overflow-y-auto pr-1">
                   {renderFormattedDescription(selectedChar.description)}
                 </div>
               </div>
 
               {/* Bottom Character Switcher */}
               <div className="pt-4 border-t border-white/10 flex items-center justify-between gap-3">
-                <div className="flex items-center gap-2 overflow-x-auto scrollbar-none py-1">
+                <div className="flex items-center gap-2.5 overflow-x-auto scrollbar-none py-1">
                   {characters.map((c, i) => (
                     <button
                       key={c.id}
                       type="button"
                       onClick={() => setSelectedIndex(i)}
-                      className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 cursor-pointer ${
+                      className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all shrink-0 cursor-pointer ${
                         i === selectedIndex
-                          ? "bg-[#d4af37] text-slate-950 shadow-md shadow-[#d4af37]/20 font-extrabold"
+                          ? "bg-[#d4af37] text-slate-950 shadow-md shadow-[#d4af37]/20 font-extrabold scale-105"
                           : "bg-white/5 text-slate-300 hover:bg-white/10 hover:text-white border border-white/5"
                       }`}
                     >
@@ -361,7 +361,7 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
                 <button
                   type="button"
                   onClick={() => setSelectedIndex(null)}
-                  className="px-6 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-slate-200 text-sm font-semibold transition-colors border border-white/10 shrink-0 cursor-pointer"
+                  className="px-6 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-slate-200 text-sm sm:text-base font-semibold transition-colors border border-white/10 shrink-0 cursor-pointer"
                 >
                   Đóng
                 </button>
@@ -373,19 +373,19 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
           {/* COMPACT & ERGONOMIC MOBILE BOTTOM-SHEET (< md screens) */}
           {/* ========================================================================= */}
           <div
-            className="md:hidden relative w-full bg-gradient-to-b from-slate-900 via-slate-950 to-black border-t border-[#d4af37]/40 rounded-t-3xl p-4 sm:p-5 shadow-[0_-15px_50px_rgba(0,0,0,0.95)] max-h-[85vh] overflow-y-auto flex flex-col space-y-3.5 animate-in slide-in-from-bottom-6 duration-200"
+            className="md:hidden relative w-full bg-gradient-to-b from-slate-900 via-slate-950 to-black border-t border-[#d4af37]/40 rounded-t-3xl p-5 shadow-[0_-15px_50px_rgba(0,0,0,0.95)] max-h-[88vh] overflow-y-auto flex flex-col space-y-4 animate-in slide-in-from-bottom-6 duration-200"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Drag handle */}
-            <div className="w-12 h-1 bg-white/20 rounded-full mx-auto -mt-1 shrink-0" />
+            <div className="w-12 h-1.5 bg-white/25 rounded-full mx-auto -mt-1 shrink-0" />
 
             {/* Mobile Hero Bar: Side-by-Side (Avatar + Name/Role) */}
-            <div className="flex items-start justify-between gap-3 border-b border-white/10 pb-3">
-              <div className="flex items-center gap-3 min-w-0">
+            <div className="flex items-start justify-between gap-3.5 border-b border-white/10 pb-3.5">
+              <div className="flex items-center gap-3.5 min-w-0">
                 {/* 9:16 Mini Avatar with Tap-to-Zoom */}
                 <div
                   onClick={() => setIsFullscreenImage(true)}
-                  className="group relative w-16 aspect-[9/16] rounded-xl overflow-hidden bg-slate-950 border-2 border-[#d4af37]/60 shrink-0 shadow-lg cursor-pointer active:scale-95 transition-all"
+                  className="group relative w-18 aspect-[9/16] rounded-2xl overflow-hidden bg-slate-950 border-2 border-[#d4af37]/60 shrink-0 shadow-lg cursor-pointer active:scale-95 transition-all"
                   title="Chạm để xem ảnh toàn màn hình"
                 >
                   {selectedChar.avatarUrl ? (
@@ -400,23 +400,23 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
                     </div>
                   )}
                   <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                    <Maximize2 className="w-3.5 h-3.5 text-white" />
+                    <Maximize2 className="w-4 h-4 text-white" />
                   </div>
                 </div>
 
                 {/* Name, Role & Quick Expand */}
-                <div className="space-y-1 min-w-0">
+                <div className="space-y-1.5 min-w-0">
                   {selectedChar.role && (
-                    <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-lg text-[10px] font-bold bg-[#d4af37]/15 text-amber-300 border border-[#d4af37]/30 truncate max-w-full">
-                      <Shield className="w-2.5 h-2.5 shrink-0 text-[#d4af37]" />
+                    <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-lg text-xs font-extrabold bg-[#d4af37]/15 text-amber-300 border border-[#d4af37]/30 truncate max-w-full">
+                      <Shield className="w-3 h-3 shrink-0 text-[#d4af37]" />
                       <span className="truncate">{selectedChar.role}</span>
                     </span>
                   )}
-                  <h3 className="text-base font-extrabold text-white tracking-tight truncate leading-tight">
+                  <h3 className="text-xl font-extrabold text-white tracking-tight truncate leading-tight">
                     {selectedChar.name}
                   </h3>
                   {selectedChar.aliases && (
-                    <p className="text-[11px] text-amber-200/80 truncate font-medium">
+                    <p className="text-xs sm:text-sm text-amber-200/90 truncate font-medium">
                       {selectedChar.aliases}
                     </p>
                   )}
@@ -424,9 +424,9 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
                   <button
                     type="button"
                     onClick={() => setIsFullscreenImage(true)}
-                    className="text-[11px] font-bold text-[#d4af37] hover:text-amber-300 flex items-center gap-1 pt-0.5 cursor-pointer"
+                    className="text-xs font-bold text-[#d4af37] hover:text-amber-300 flex items-center gap-1.5 pt-0.5 cursor-pointer"
                   >
-                    <Eye className="w-3 h-3" /> Xem ảnh 9:16 HD
+                    <Eye className="w-3.5 h-3.5" /> Xem ảnh 9:16 HD
                   </button>
                 </div>
               </div>
@@ -435,20 +435,20 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
               <button
                 type="button"
                 onClick={() => setSelectedIndex(null)}
-                className="p-2 rounded-xl bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white border border-white/10 transition-colors shrink-0"
+                className="p-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white border border-white/10 transition-colors shrink-0"
               >
-                <X className="w-4 h-4" />
+                <X className="w-5 h-5" />
               </button>
             </div>
 
             {/* Mobile Body Content */}
-            <div className="space-y-3 flex-1 overflow-y-auto max-h-[48vh] pr-0.5">
+            <div className="space-y-3.5 flex-1 overflow-y-auto max-h-[50vh] pr-0.5">
               {selectedChar.aliases && (
-                <div className="bg-white/5 border border-white/10 rounded-xl p-2.5 space-y-0.5">
-                  <div className="text-[10px] font-bold text-amber-200/80 uppercase tracking-wider flex items-center gap-1">
-                    <Tag className="w-3 h-3 text-[#d4af37]" /> Danh Xưng & Biệt Hiệu
+                <div className="bg-white/5 border border-white/10 rounded-2xl p-3.5 space-y-1">
+                  <div className="text-xs font-bold text-amber-200/80 uppercase tracking-wider flex items-center gap-1.5">
+                    <Tag className="w-3.5 h-3.5 text-[#d4af37]" /> Danh Xưng & Biệt Hiệu
                   </div>
-                  <p className="text-xs text-slate-100 font-medium">
+                  <p className="text-sm sm:text-base text-slate-100 font-semibold">
                     {selectedChar.aliases}
                   </p>
                 </div>
@@ -458,14 +458,14 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
             </div>
 
             {/* Mobile Thumb Navigation (Switch Between Characters) */}
-            <div className="pt-2 border-t border-white/10 flex items-center justify-between gap-2 shrink-0">
-              <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-0.5">
+            <div className="pt-3 border-t border-white/10 flex items-center justify-between gap-2.5 shrink-0">
+              <div className="flex items-center gap-2 overflow-x-auto scrollbar-none py-0.5">
                 {characters.map((c, i) => (
                   <button
                     key={c.id}
                     type="button"
                     onClick={() => setSelectedIndex(i)}
-                    className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 ${
+                    className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 ${
                       i === selectedIndex
                         ? "bg-[#d4af37] text-slate-950 shadow-md font-extrabold"
                         : "bg-white/5 text-slate-300 border border-white/5"
@@ -479,7 +479,7 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
               <button
                 type="button"
                 onClick={() => setSelectedIndex(null)}
-                className="px-4 py-1.5 rounded-xl bg-white/10 text-slate-200 text-xs font-semibold shrink-0"
+                className="px-5 py-2 rounded-xl bg-white/10 text-slate-200 text-xs sm:text-sm font-semibold shrink-0"
               >
                 Đóng
               </button>
