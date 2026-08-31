@@ -111,18 +111,18 @@ export default async function ChapterDetail({
         </div>
       </div>
 
-      {/* Chapter Content Section - Seamless dark reading background */}
-      <div className="relative bg-white/[0.02] border border-white/5 rounded-3xl p-5 sm:p-8 md:p-12 shadow-2xl backdrop-blur-sm">
+      {/* Chapter Content Section - 100% seamless pure black canvas */}
+      <div className="py-4 sm:py-6 px-1 sm:px-2">
         {!isUnlocked ? (
           <UnlockButton chapterId={chapter.id} price={chapter.price} />
         ) : (
           <div 
-            className="prose prose-invert prose-lg max-w-none text-slate-200 select-text"
+            className="prose prose-invert prose-lg max-w-none text-slate-100 select-text"
           >
             {chapter.content.split('\n').filter(p => p.trim() !== '').map((paragraph, idx) => (
               <p 
                 key={idx} 
-                className="mb-6 text-[17px] sm:text-[18px] md:text-[19px] text-slate-200/90 leading-[2.1] font-light tracking-wide"
+                className="mb-7 text-[18px] sm:text-[19px] md:text-[20px] text-slate-200/95 leading-[2.2] font-normal tracking-wide"
               >
                 {paragraph}
               </p>
