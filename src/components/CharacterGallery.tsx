@@ -131,63 +131,37 @@ const CHARACTER_RELATIONS: Record<string, CharacterRelation[]> = {
 };
 
 function renderFormattedDescription(desc: string | null) {
-  if (!desc) return <p className="text-xs text-slate-500 italic py-4">Chưa có mô tả chi tiết cho nhân vật này.</p>;
+  if (!desc) return <p className="text-xs text-slate-500 italic py-4">Chưa có tóm tắt cho nhân vật này.</p>;
 
-  if (desc.includes("【")) {
-    const parts = desc.split(/(?=【[^】]+】)/g);
-    return (
-      <div className="space-y-2.5 sm:space-y-3">
-        {parts.map((part, idx) => {
-          const match = part.match(/^【([^】]+)】([\s\S]*)$/);
-          if (match) {
-            const title = match[1];
-            const text = match[2].trim();
-            let iconColor = "text-[#d4af37]";
-            let borderColor = "border-[#d4af37]/30";
-            let bgColor = "bg-[#d4af37]/10";
-
-            if (title.includes("Ngoại hình")) {
-              iconColor = "text-cyan-400";
-              borderColor = "border-cyan-500/30";
-              bgColor = "bg-cyan-500/10";
-            } else if (title.includes("Tính cách")) {
-              iconColor = "text-purple-400";
-              borderColor = "border-purple-500/30";
-              bgColor = "bg-purple-500/10";
-            } else if (title.includes("Sở thích") || title.includes("Thói quen")) {
-              iconColor = "text-emerald-400";
-              borderColor = "border-emerald-500/30";
-              bgColor = "bg-emerald-500/10";
-            } else if (title.includes("Võ công") || title.includes("Tuyệt kỹ") || title.includes("Kỹ năng")) {
-              iconColor = "text-rose-400";
-              borderColor = "border-rose-500/30";
-              bgColor = "bg-rose-500/10";
-            }
-
-            return (
-              <div key={idx} className="bg-black/50 border border-white/10 rounded-2xl p-3 sm:p-3.5 space-y-1.5 shadow-sm">
-                <span className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-lg text-[10px] sm:text-[11px] font-extrabold ${iconColor} ${bgColor} border ${borderColor}`}>
-                  【{title}】
-                </span>
-                <p className="text-xs sm:text-sm text-slate-200 leading-relaxed font-light whitespace-pre-wrap pl-0.5">
-                  {text}
-                </p>
-              </div>
-            );
-          }
-          return (
-            <p key={idx} className="text-xs sm:text-sm text-slate-200 leading-relaxed font-light whitespace-pre-wrap">
-              {part}
-            </p>
-          );
-        })}
-      </div>
-    );
-  }
+  // Split by double newline for paragraphs
+  const paragraphs = desc.split(/\n\s*\n/);
 
   return (
-    <div className="text-xs sm:text-sm text-slate-200 leading-relaxed font-light whitespace-pre-wrap bg-black/40 border border-white/5 rounded-2xl p-4 sm:p-5">
-      {desc}
+    <div className="bg-black/40 border border-white/5 rounded-2xl p-4 sm:p-5 space-y-3.5 shadow-inner">
+      {paragraphs.map((p, pIdx) => {
+        const parts = p.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g);
+        return (
+          <p key={pIdx} className="text-xs sm:text-sm text-slate-200 leading-relaxed font-light">
+            {parts.map((part, idx) => {
+              if (part.startsWith("**") && part.endsWith("**")) {
+                return (
+                  <strong key={idx} className="font-bold text-[#d4af37]">
+                    {part.slice(2, -2)}
+                  </strong>
+                );
+              }
+              if (part.startsWith("*") && part.endsWith("*")) {
+                return (
+                  <em key={idx} className="italic text-amber-200/90">
+                    {part.slice(1, -1)}
+                  </em>
+                );
+              }
+              return part;
+            })}
+          </p>
+        );
+      })}
     </div>
   );
 }
