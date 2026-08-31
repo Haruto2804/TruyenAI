@@ -7,6 +7,7 @@ import { BookmarkButton } from "@/components/BookmarkButton";
 import { CommentSection } from "@/components/CommentSection";
 import { CharacterGallery } from "@/components/CharacterGallery";
 import { LoreGallery } from "@/components/LoreGallery";
+import { StorySummary } from "@/components/StorySummary";
 
 export default async function StoryDetail({
   params,
@@ -18,6 +19,9 @@ export default async function StoryDetail({
   const story = await prisma.story.findUnique({
     where: { slug: slug },
     include: {
+      author: {
+        select: { name: true }
+      },
       chapters: {
         orderBy: { chapterNo: 'asc' },
         select: { 
@@ -72,30 +76,55 @@ export default async function StoryDetail({
 
       {/* Story Header Hero Card */}
       <div className="relative overflow-hidden bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-5 sm:p-8 md:p-10 shadow-2xl transition-all">
-        <div className="flex flex-col sm:flex-row gap-6 sm:gap-8 items-center sm:items-start">
+        <div className="flex flex-col sm:flex-row gap-6 sm:gap-8 lg:gap-10 items-center sm:items-start">
           
-          {/* Story Cover Poster - Grand & High Prominence */}
-          <div className="relative w-48 xs:w-56 sm:w-64 md:w-72 lg:w-80 aspect-[2/3] rounded-2xl sm:rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.9)] border-2 border-[#d4af37]/40 hover:border-[#d4af37] shrink-0 group bg-slate-950 transition-all duration-300">
-            {story.coverUrl ? (
-              <img
-                src={story.coverUrl}
-                alt={story.title}
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-            ) : (
-              <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-amber-950/40 p-4 text-center">
-                <div className="p-3 sm:p-4 rounded-2xl bg-white/5 border border-white/10 mb-2 sm:mb-3 shadow-inner">
-                  <BookOpen className="w-8 h-8 sm:w-10 sm:h-10 text-[#d4af37]" />
+          {/* Left Column: Story Cover Poster + Quick Specs Panel */}
+          <div className="w-48 xs:w-56 sm:w-64 md:w-72 lg:w-80 flex flex-col gap-4 shrink-0">
+            {/* Story Cover Poster */}
+            <div className="relative aspect-[2/3] w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.9)] border-2 border-[#d4af37]/40 hover:border-[#d4af37] group bg-slate-950 transition-all duration-300">
+              {story.coverUrl ? (
+                <img
+                  src={story.coverUrl}
+                  alt={story.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              ) : (
+                <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-amber-950/40 p-4 text-center">
+                  <div className="p-3 sm:p-4 rounded-2xl bg-white/5 border border-white/10 mb-2 sm:mb-3 shadow-inner">
+                    <BookOpen className="w-8 h-8 sm:w-10 sm:h-10 text-[#d4af37]" />
+                  </div>
+                  <span className="text-xs font-semibold text-amber-200/80 uppercase tracking-widest">
+                    {story.genre || 'Tiên Hiệp'}
+                  </span>
                 </div>
-                <span className="text-[10px] sm:text-xs font-semibold text-amber-200/80 uppercase tracking-widest">
-                  {story.genre || 'Tiên Hiệp'}
+              )}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-50 pointer-events-none" />
+            </div>
+
+            {/* Quick Specs / Attributes Panel (Fills the empty space below cover on Desktop) */}
+            <div className="bg-black/45 border border-white/10 rounded-2xl sm:rounded-3xl p-4 sm:p-5 space-y-3 text-xs sm:text-sm shadow-inner">
+              <div className="flex items-center justify-between border-b border-white/5 pb-2.5">
+                <span className="text-slate-400 font-medium">Tác giả</span>
+                <span className="font-bold text-[#d4af37]">{story.author?.name || "Thiên Thư AI"}</span>
+              </div>
+              <div className="flex items-center justify-between border-b border-white/5 pb-2.5">
+                <span className="text-slate-400 font-medium">Tình trạng</span>
+                <span className="font-bold text-emerald-400 flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" /> Đang phát hành
                 </span>
               </div>
-            )}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-50 pointer-events-none" />
+              <div className="flex items-center justify-between border-b border-white/5 pb-2.5">
+                <span className="text-slate-400 font-medium">Họa phẩm</span>
+                <span className="font-bold text-slate-200">Manhwa 9:16 HD</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-slate-400 font-medium">Đặc sắc</span>
+                <span className="font-bold text-amber-300">Đại Tác Tử AI</span>
+              </div>
+            </div>
           </div>
 
-          {/* Story Info Details */}
+          {/* Right Column: Story Info Details & Expandable Summary */}
           <div className="flex-1 space-y-4 sm:space-y-5 text-center sm:text-left w-full">
             <div>
               <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#d4af37]/15 border border-[#d4af37]/30 text-[#d4af37] text-xs sm:text-sm font-bold uppercase tracking-wider mb-2.5 sm:mb-3.5 shadow-sm">
@@ -119,7 +148,7 @@ export default async function StoryDetail({
               </div>
             </div>
 
-            {/* Action Buttons: Moved above summary for better thumb UX on mobile */}
+            {/* Action Buttons: Above summary for easy access */}
             {story.chapters.length > 0 && (
               <div className="pt-1 flex flex-col xs:flex-row items-center gap-3">
                 {lastReadChapter ? (
@@ -145,16 +174,9 @@ export default async function StoryDetail({
               </div>
             )}
 
-            {/* Story Summary Description */}
+            {/* Story Summary with Interactive Expand / Collapse */}
             {story.summary && (
-              <div className="bg-black/40 border border-white/10 rounded-2xl sm:rounded-3xl p-5 sm:p-7 text-left space-y-2 shadow-inner">
-                <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-[#d4af37] flex items-center gap-1.5">
-                  <span>📖</span> Tóm Tắt Nội Dung
-                </h3>
-                <p className="text-slate-200 text-sm sm:text-base md:text-lg leading-relaxed sm:leading-loose whitespace-pre-wrap font-normal">
-                  {story.summary}
-                </p>
-              </div>
+              <StorySummary summary={story.summary} />
             )}
           </div>
         </div>
