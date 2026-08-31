@@ -24,11 +24,11 @@
 
 * **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):**
   - *Vóc dáng & Thể hình:* Cao 1m84, thân hình thon dài săn chắc ẩn giấu sức bùng nổ của sát thủ cận chiến. Làn da trắng sứ quý tộc phương Bắc, tỏa ra hàn khí nhàn nhạt và mùi hương gỗ tuyết tùng trầm ấm xen lẫn chút vị đắng của độc thảo.
-  - *Mái tóc:* Mái tóc bạc ánh lam tro bồng bềnh tự nhiên, những lọn tóc mai phủ nhẹ trước trán, phản chiếu ánh sáng tựa sương tuyết ban mai.
+  - *Mái tóc:* Mái tóc bạc ánh lam tro bồng bềnh tự nhiên, rẽ ngôi nhẹ, những lọn tóc mai phủ nhẹ trước trán và thái dương, phản chiếu ánh sáng tựa sương tuyết ban mai.
   - *Đôi mắt & Ánh nhìn:* Con ngươi màu xanh thẳm như hồ băng Bắc Cảnh (Ice Blue), sắc lạnh và thấu triệt; khi kích hoạt *Ma Đồng Giải Cấu*, trong đồng tử hiện lên các vòng ma trận cổ ngữ xoay chuyển màu lam quang rực rỡ.
-  - *Ngũ quan & Thần thái:* Xương hàm góc cạnh sắc sảo, sống mũi cao thẳng, khóe môi luôn mang nụ cười nửa miệng giễu cợt thâm trầm, toát lên khí chất quý tộc nguy hiểm, tàn nhẫn và khó lường.
-  - *Trang phục & Y phục:* Quân phục quý tộc bóng đêm (Midnight Navy) may đo thủ công, ve áo đứng thêu hoa văn Huyết Ưng bằng chỉ bạc tinh xảo, cầu vai tua rua bạc vương giả, thắt lưng da thú đính khóa bạc khắc gia huy, găng tay da hươu đen tuyền, ủng da cao cổ khảm viền bạc.
-  - *Trang sức & Phụ kiện:* Nhẫn bạc gia huy khắc biểu tượng Đầu Ưng Băng Sương đeo ở ngón trỏ tay trái.
+  - *Ngũ quan & Thần thái:* Xương hàm góc cạnh sắc sảo, sống mũi cao thanh tú, tay chống cằm suy tư, khóe môi luôn mang nụ cười nửa miệng giễu cợt thâm trầm, toát lên khí chất quý tộc nguy hiểm, tàn nhẫn và khó lường.
+  - *Trang phục & Y phục:* Quân phục quý tộc đen tuyền (Midnight Black) may đo thủ công, ve áo thêu hoa văn Huyết Ưng bằng chỉ bạc tinh xảo, cầu vai tua rua bạc vương giả đính chuỗi xích bạc vắt ngang ngực, thắt lưng da khóa bạc khắc gia huy, găng tay da hươu đen tuyền, quần âu ôm dáng và ủng da cao cổ bóng loáng.
+  - *Phụ kiện & Bối cảnh:* Ngồi trên sàn gỗ mộc giữa những trang thư văn kiện và hoa hồng đỏ rơi rụng, bên ngọn đèn bão tỏa ánh sáng vàng ấm áp tương phản hàn khí trong người. Nhẫn bạc gia huy khắc biểu tượng Đầu Ưng Băng Sương đeo ở ngón trỏ tay trái.
 
 * **⚔️ Vũ Khí, Bảo Vật & Tuyệt Kỹ:**
   - *Binh khí bản mệnh:* Dao găm bạc ngầm tàng trữ trong cổ tay áo; Đoản kiếm Băng Sương.
@@ -61,12 +61,12 @@
 * **Ảnh Avatar (9:16):** `/characters/dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/lilian.jpg`
 
 * **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):**
-  - *Vóc dáng & Thể hình:* Cao 1m65, thân hình mềm mại thanh mảnh nhưng các khớp ngón tay có vết chai nhỏ của kẻ luyện độc và phóng ám tiễn. Làn da trắng mịn, thoang thoảng hương hoa oải hương dịu nhẹ.
-  - *Mái tóc:* Nâu hạt dẻ uốn lọn xoăn bồng bềnh dài chạm vai, cài nơ đăng ten đen viền trắng phong cách hầu gái quý tộc.
-  - *Đôi mắt & Ánh nhìn:* Xanh ngọc lục bảo (Emerald Green) to tròn trong veo nhưng đáy mắt luôn ẩn giấu sự sợ hãi và cảnh giác tột cùng.
-  - *Ngũ quan & Thần thái:* Khuôn mặt trái xoan thanh tú, vẻ đẹp ngây thơ ngoan ngoãn dễ đánh lừa người khác.
-  - *Trang phục & Y phục:* Đồng phục hầu nữ trưởng gia tộc Ravenwood tông màu đen - trắng cổ điển, váy dài quá gối có tạp dề ren viền đăng ten, tay áo phồng xếp ly tinh tế.
-  - *Trang sức & Phụ kiện:* Trâm bạc cài tóc có chốt ngầm chứa kịch độc *Hắc Tử La Lan* (đã bị Caelen tịch thu).
+  - *Vóc dáng & Thể hình:* Cao 1m65, thân hình thon thả thanh nhã, làn da trắng tuyết mịn màng, tỏa ra mùi hương hoa oải hương dịu nhẹ.
+  - *Mái tóc:* Mái tóc xám bạc ánh tro (Silver Ash) óng ả, được tết thành bím tóc lớn lệch sang vai phải, đính các hạt ngọc bạc và hoa văn tinh xảo dọc theo bím tóc.
+  - *Đôi mắt & Ánh nhìn:* Đôi mắt màu hổ phách vàng kim (Amber Gold) to tròn, sắc sảo, trầm tĩnh nhưng đáy mắt luôn phảng phất sự cảnh giác và toan tính ngầm.
+  - *Ngũ quan & Thần thái:* Gương mặt trái xoan thanh tú kiêu sa, đôi môi nhỏ thanh nhã, toát lên vẻ đoan trang quý phái của nữ quan/hầu cận thân tín gia tộc Ravenwood.
+  - *Trang phục & Y phục:* Lễ phục nhung màu xanh bóng đêm (Midnight Navy) quý phái, cổ áo và cổ tay áo bo viền lông thú trắng muốt (White Fur Trim) dày dặn chống chọi cái lạnh Bắc Cảnh. Ngực áo và cầu vai thêu nổi phù hiệu Bạch Ưng Tung Cánh (Gia huy Ravenwood) bằng chỉ bạc lộng lẫy.
+  - *Trang sức & Phụ kiện:* Trâm cài ngọc đính bảo thạch trước cổ áo (từng giấu chốt ngầm chứa kịch độc *Hắc Tử La Lan*), chuỗi xích bạc và ngọc trai vắt ngang ngực áo.
 
 * **⚔️ Vũ Khí, Bảo Vật & Tuyệt Kỹ:**
   - *Binh khí:* Kim châm tẩm độc; Trâm cài ám khí.
@@ -80,7 +80,7 @@
   - *Món ăn & Đồ uống:* Trà thảo mộc hoa cúc tuyết; bánh quy bơ mật ong.
   - *Sở thích:* Chăm sóc các chậu cây dược liệu hiếm trong vườn kính.
   - *Điều căm ghét:* Mùi máu tanh nồng; sự đe dọa tàn bạo từ Nhị Trưởng Lão.
-  - *Thói quen:* Nắm chặt hai tay vào vạt tạp dề và cúi thấp đầu khi đứng trước Caelen.
+  - *Thói quen:* Nắm chặt hai tay vào vạt áo và cúi thấp đầu khi đứng trước Caelen.
 
 * **🕸️ Mạng Lưới Mối Quan Hệ:**
   - *Caelen:* Chủ nhân bí mật nắm giữ mạng sống.
@@ -97,11 +97,11 @@
 
 * **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):**
   - *Vóc dáng & Thể hình:* Cao 1m76, dáng vóc cao ráo, cân đối và săn chắc chuẩn nữ chiến binh hoàng gia.
-  - *Mái tóc:* Vàng bạch kim dài óng ả thường buộc đuôi ngựa cao sau gáy để lộ chiếc gáy thanh tú và đôi vai kiêu hãnh.
-  - *Đôi mắt & Ánh nhìn:* Xanh xám tro (Steel Grey) sắc bén như lưỡi kiếm vừa rút khỏi vỏ, toát lên uy áp của kẻ từng tắm máu sa trường.
-  - *Ngũ quan & Thần thái:* Gương mặt kiêu sa thanh tú nhưng lạnh băng như tượng tạc, đôi lông mày lá liễu thanh mảnh nhưng nghiêm nghị.
-  - *Trang phục & Y phục:* Chiến giáp nhẹ bằng hợp kim Băng Thiết màu bạc viền xanh bóng đêm, áo choàng lông sói tuyết Bắc Cảnh phủ qua vai, thắt lưng da bản to đính phù văn gia tộc.
-  - *Trang sức & Phụ kiện:* Vòng tay hộ mệnh đính bảo thạch Frostford.
+  - *Mái tóc:* Mái tóc dài màu bạc ánh lam băng (Frost Silver) buông xõa dài qua vai và lưng, vài lọn tóc bay nhẹ trong gió lạnh sa trường.
+  - *Đôi mắt & Ánh nhìn:* Đôi mắt xanh băng sương (Ice Blue) sắc như lưỡi kiếm vừa tuốt vỏ, tràn đầy sát khí kiên định và uy áp của chiến thần phương Bắc.
+  - *Ngũ quan & Thần thái:* Khuôn mặt thanh tú nhưng sắc lạnh kiên nghị, đường nét tuyệt mỹ không góc chết của nữ chiến vương, bờ môi mím chặt nghiêm nghị.
+  - *Trang phục & Chiến giáp:* Toàn thân khoác bộ giáp Băng Thiết màu bạc sáng chói (Full Plate Silver Frost Armor) chạm khắc phù văn hoa tuyết sắc sảo ở ngực, vai và giáp tay. Khoác bên ngoài là áo choàng lông thú đen tuyền (Black Fur Cloak) phủ kín hai vai.
+  - *Binh khí bản mệnh:* Tay cầm Đại kiếm Băng Phách (Frostblade) bằng băng lam trong suốt tỏa ra hàn khí buốt giá kết tinh thành sương tuyết.
 
 * **⚔️ Vũ Khí, Bảo Vật & Tuyệt Kỹ:**
   - *Binh khí bản mệnh:* Đại kiếm Băng Phách (Frostfang) dài 1m3 khảm lam ngọc cổ ngữ.
@@ -129,10 +129,11 @@
 
 * **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):**
   - *Vóc dáng & Thể hình:* Cao 1m70, thân hình đồng hồ cát quyến rũ, làn da trắng muốt không tì vết, tỏa ra mùi hương nước hoa hoa hồng hoàng gia ngào ngạt.
-  - *Mái tóc:* Đỏ rực như lửa (Crimson Red) uốn lượn như sóng nước, đội vương miện nhỏ bằng vàng ròng đính hồng ngọc.
-  - *Đôi mắt & Ánh nhìn:* Vàng kim (Amber Gold) kiêu kỳ, luôn nhìn kẻ khác bằng ánh mắt từ trên cao nhìn xuống.
-  - *Ngũ quan & Thần thái:* Đôi môi son đỏ thắm quyến rũ, cằm thon v-line, ánh mắt sắc sảo đầy toan tính chính trị.
-  - *Trang phục & Y phục:* Lễ phục dạ hội hoàng gia màu đỏ thẫm xẻ tà quý phái, viền đăng ten thêu chỉ vàng kim nguyên chất, cổ áo trễ khoe xương quai xanh quyến rũ.
+  - *Mái tóc:* Mái tóc vàng kim óng ả (Platinum Blonde) dài bồng bềnh uốn lượn qua vai và ngực như suối vàng rực rỡ.
+  - *Đôi mắt & Ánh nhìn:* Đôi mắt màu tím thạch anh (Amethyst Violet) sắc sảo, đuôi mắt phượng kiêu kỳ, ánh nhìn uy nghi lạnh lùng từ trên cao nhìn xuống.
+  - *Ngũ quan & Thần thái:* Khuôn mặt nữ thần diễm lệ kiêu kỳ, sống mũi thon gọn, bờ môi hồng căng mọng toát lên vẻ ngạo nghễ của dòng máu hoàng tộc.
+  - *Trang phục & Y phục:* Váy dạ hội hoàng gia cao cấp bằng gấm lụa màu xanh lục bảo (Emerald Green) thêu kín hoa văn hoàng gia chỉ vàng kim cổ điển (Gold Filigree), cổ áo đứng cách điệu đính ngọc quý, tay áo phồng viền đăng ten trắng và dải thêu vàng, khoét ngực chữ V quý phái.
+  - *Trang sức & Hào quang:* Hoa tai thạch anh tím nạm vàng rủ dài, dây chuyền mặt đá quý tím lấp lánh trước ngực, phía sau tỏa ra vầng hào quang Thái Dương Thần Thánh (Holy Solar Halo) rực rỡ.
 
 * **⚔️ Vũ Khí, Bảo Vật & Tuyệt Kỹ:**
   - *Bảo vật:* *Huyết Chiếu Hoàng Gia*, Trượng Ma Pháp Thái Dương.
