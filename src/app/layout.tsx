@@ -4,6 +4,8 @@ import "./globals.css";
 import Link from "next/link";
 import { BookOpen } from "lucide-react";
 import { UserMenu } from "@/components/UserMenu";
+import { MobileBottomNav } from "@/components/MobileBottomNav";
+import { auth } from "@/auth";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,11 +23,14 @@ export const metadata: Metadata = {
 };
 
 // Next.js 15+ App Router type for Layout
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const session = await auth();
+  const isAdmin = (session?.user as any)?.role === "ADMIN";
+
   return (
     <html
       lang="vi"
@@ -56,12 +61,15 @@ export default function RootLayout({
           </div>
         </header>
 
-        <main className="flex-1 container mx-auto px-4 py-10 relative z-10">
+        <main className="flex-1 container mx-auto px-3 sm:px-4 py-6 sm:py-10 relative z-10">
           {children}
         </main>
 
-        <footer className="border-t border-white/5 py-8 mt-auto relative z-10">
-          <div className="container mx-auto px-4 text-center text-sm text-slate-500 font-medium">
+        {/* Mobile Thumb-Friendly Bottom Navigation */}
+        <MobileBottomNav isAdmin={isAdmin} />
+
+        <footer className="border-t border-white/5 py-8 pb-24 md:pb-8 mt-auto relative z-10">
+          <div className="container mx-auto px-4 text-center text-xs sm:text-sm text-slate-500 font-medium">
             &copy; {new Date().getFullYear()} Thiên Thư AI. Tự động hóa bởi Antigravity.
           </div>
         </footer>
@@ -69,3 +77,4 @@ export default function RootLayout({
     </html>
   );
 }
+
