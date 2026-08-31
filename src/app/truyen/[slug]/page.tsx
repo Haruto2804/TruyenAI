@@ -5,6 +5,7 @@ import { BookOpen, List, Clock, ChevronRight, Sparkles, Crown } from "lucide-rea
 import { auth } from "@/auth";
 import { BookmarkButton } from "@/components/BookmarkButton";
 import { CommentSection } from "@/components/CommentSection";
+import { CharacterGallery } from "@/components/CharacterGallery";
 
 export default async function StoryDetail({
   params,
@@ -156,62 +157,8 @@ export default async function StoryDetail({
       </div>
 
       {/* Character Gallery Section (if story has characters) */}
-      {story.characters.length > 0 && (
-        <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6 sm:p-8 shadow-xl space-y-6">
-          <div className="flex items-center justify-between border-b border-white/5 pb-4">
-            <h2 className="text-xl sm:text-2xl font-bold text-slate-100 flex items-center gap-3">
-              <div className="p-2 bg-[#d4af37]/10 rounded-xl">
-                <Sparkles className="w-5 h-5 text-[#d4af37]" />
-              </div>
-              Hồ Sơ Nhân Vật
-            </h2>
-            <span className="text-xs font-semibold px-3 py-1 rounded-full bg-white/10 text-slate-300 border border-white/5">
-              {story.characters.length} nhân vật
-            </span>
-          </div>
+      <CharacterGallery characters={story.characters} />
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {story.characters.map((char) => (
-              <div
-                key={char.id}
-                className="flex gap-4 p-4 rounded-2xl bg-black/40 border border-white/10 hover:border-[#d4af37]/40 hover:shadow-[0_4px_20px_rgba(212,175,55,0.1)] transition-all group"
-              >
-                {/* Avatar */}
-                <div className="w-16 h-20 sm:w-20 sm:h-24 rounded-xl overflow-hidden bg-slate-950 border border-white/15 shrink-0">
-                  {char.avatarUrl ? (
-                    <img
-                      src={char.avatarUrl}
-                      alt={char.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                  ) : (
-                    <div className="w-full h-full flex items-center justify-center bg-slate-900 text-slate-600">
-                      <BookOpen className="w-6 h-6 text-[#d4af37]/40" />
-                    </div>
-                  )}
-                </div>
-
-                {/* Info */}
-                <div className="flex-1 min-w-0 flex flex-col justify-center space-y-1">
-                  <h3 className="font-bold text-base text-slate-100 group-hover:text-[#d4af37] transition-colors truncate">
-                    {char.name}
-                  </h3>
-                  {char.role && (
-                    <span className="inline-block w-fit px-2 py-0.5 rounded text-[11px] font-semibold bg-[#d4af37]/15 text-[#d4af37] border border-[#d4af37]/20">
-                      {char.role}
-                    </span>
-                  )}
-                  {char.description && (
-                    <p className="text-xs text-slate-400 line-clamp-2 leading-relaxed font-light pt-0.5">
-                      {char.description}
-                    </p>
-                  )}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
 
       {/* Chapters Grid / List Section */}
       <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl overflow-hidden shadow-xl">
