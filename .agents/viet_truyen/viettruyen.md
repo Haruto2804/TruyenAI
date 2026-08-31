@@ -63,9 +63,15 @@ Mỗi lần sáng tác chương mới hoặc phát triển cốt truyện, AI ph
 Khi sáng tác bất kỳ chương mới nào:
 
 1. **Phát Hiện Nhân Vật Mới (New Characters):**
-   - Nếu trong chương xuất hiện nhân vật mới (dù là phụ hay phản diện ngắn hạn), phải lập tức trích xuất: `Tên`, `Vai trò`, `Biệt danh`, `Mô tả tính cách`.
+   - Nếu trong chương xuất hiện nhân vật mới (dù là phụ hay phản diện ngắn hạn), phải lập tức trích xuất và lập **Hồ Sơ Nhân Vật Siêu Chi Tiết (Ultra-Detailed Dossier)** theo chuẩn:
+     - `Tên đầy đủ`, `Vai trò`, `Danh xưng & Biệt hiệu`, `Cảnh giới tu vi`.
+     - `Diện mạo & Ngoại hình (Head-to-Toe)`: Chiều cao, vóc dáng, màu da, mái tóc, đôi mắt ma nhãn, ngũ quan thần thái, trang phục quý tộc/chiến bào chi tiết từng đường kim mũi chỉ, trang sức phụ kiện.
+     - `Vũ khí, Bảo vật & Tuyệt kỹ ma pháp`.
+     - `Tính cách & Chiều sâu tâm lý` (bản chất, phong cách hành sự, tâm ma quá khứ).
+     - `Sở thích & Thói quen vi mô` (món ăn/rượu trà ưa chuộng, thói quen khi tính kế, điều ghét cay ghét đắng).
+     - `Mạng lưới quan hệ & Ân oán`.
    - **Ghi ngay vào mục `## 2. Character Codex` trong file `master_codex.md`** của bộ truyện đó.
-   - Đồng bộ vào cơ sở dữ liệu (`prisma.character.create`).
+   - Đồng bộ vào cơ sở dữ liệu (`prisma.character.upsert`).
 
 2. **Phát Hiện Khái Niệm / Thuật Ngữ / Chú Giải Mới (New Lore & Glossary):**
    - Nếu xuất hiện thuật ngữ lạ, bí thuật, độc dược, địa danh, bảo vật, công pháp, cảnh giới mà người đọc có thể bỡ ngỡ:
