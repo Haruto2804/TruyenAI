@@ -17,6 +17,8 @@ model Story {
   createdAt DateTime  @default(now())
   updatedAt DateTime  @updatedAt
   chapters  Chapter[]
+  bookmarks Bookmark[]
+  readingProgresses ReadingProgress[]
 }
 
 model Chapter {
@@ -29,6 +31,7 @@ model Chapter {
   createdAt     DateTime      @default(now())
   updatedAt     DateTime      @updatedAt
   readHistories ReadHistory[]
+  readingProgresses ReadingProgress[]
 
   @@unique([storyId, chapterNo])
 }
@@ -47,6 +50,8 @@ model User {
   path          String          @default("TIEN_HIEP") // TIEN_HIEP, MA_DAO, KY_AO
   
   readHistories ReadHistory[]
+  bookmarks     Bookmark[]
+  readingProgresses ReadingProgress[]
   
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -105,4 +110,34 @@ model ReadHistory {
   createdAt DateTime @default(now())
 
   @@unique([userId, chapterId])
+}
+
+// Track stories user has bookmarked/saved
+model Bookmark {
+  id        String   @id @default(cuid())
+  userId    String
+  storyId   String
+  
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  story     Story    @relation(fields: [storyId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+
+  @@unique([userId, storyId])
+}
+
+// Track user's reading progress for a story (for "Continue Reading")
+model ReadingProgress {
+  id        String   @id @default(cuid())
+  userId    String
+  storyId   String
+  chapterId String
+  
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  story     Story    @relation(fields: [storyId], references: [id], onDelete: Cascade)
+  chapter   Chapter  @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, storyId])
 }

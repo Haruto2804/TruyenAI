@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, ChevronLeft, ChevronRight, Menu } from "lucide-react";
 import { ExpTracker } from "@/components/ExpTracker";
+import { ProgressTracker } from "@/components/ProgressTracker";
 
 export default async function ChapterDetail({
   params,
@@ -135,6 +136,7 @@ export default async function ChapterDetail({
       </div>
       
       <ExpTracker chapterId={chapter.id} />
+      <ProgressTracker storyId={story.id} chapterId={chapter.id} />
     </div>
   );
 }

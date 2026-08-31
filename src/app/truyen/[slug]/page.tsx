@@ -1,7 +1,9 @@
 import prisma from "@/lib/prisma";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { BookOpen, List, Clock } from "lucide-react";
+import { BookOpen, List, Clock, ChevronRight } from "lucide-react";
+import { auth } from "@/auth";
+import { BookmarkButton } from "@/components/BookmarkButton";
 
 export default async function StoryDetail({
   params,
@@ -22,6 +24,27 @@ export default async function StoryDetail({
 
   if (!story) {
     notFound();
+  }
+
+  const session = await auth();
+  const userId = session?.user?.id;
+
+  let isBookmarked = false;
+  let lastReadChapter = null;
+
+  if (userId) {
+    const bookmark = await prisma.bookmark.findUnique({
+      where: { userId_storyId: { userId, storyId: story.id } }
+    });
+    isBookmarked = !!bookmark;
+
+    const progress = await prisma.readingProgress.findUnique({
+      where: { userId_storyId: { userId, storyId: story.id } },
+      include: { chapter: true }
+    });
+    if (progress) {
+      lastReadChapter = progress.chapter;
+    }
   }
 
   return (
@@ -56,13 +79,24 @@ export default async function StoryDetail({
           )}
           
           {story.chapters.length > 0 && (
-            <div className="pt-4">
-              <Link 
-                href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
-                className="inline-flex items-center justify-center bg-[#d4af37] hover:bg-[#b5952f] text-slate-900 font-bold px-6 py-3 rounded-lg transition-colors w-full md:w-auto"
-              >
-                Đọc Từ Đầu
-              </Link>
+            <div className="pt-4 flex flex-col md:flex-row gap-3">
+              {lastReadChapter ? (
+                <Link 
+                  href={`/truyen/${story.slug}/${lastReadChapter.chapterNo}`}
+                  className="inline-flex items-center justify-center gap-2 bg-[#d4af37] hover:bg-[#b5952f] text-slate-900 font-bold px-6 py-3 rounded-lg transition-colors w-full md:w-auto"
+                >
+                  Đọc tiếp Ch. {lastReadChapter.chapterNo} <ChevronRight className="w-5 h-5" />
+                </Link>
+              ) : (
+                <Link 
+                  href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
+                  className="inline-flex items-center justify-center bg-[#d4af37] hover:bg-[#b5952f] text-slate-900 font-bold px-6 py-3 rounded-lg transition-colors w-full md:w-auto"
+                >
+                  Đọc Từ Đầu
+                </Link>
+              )}
+              
+              <BookmarkButton storyId={story.id} initialBookmarked={isBookmarked} />
             </div>
           )}
         </div>

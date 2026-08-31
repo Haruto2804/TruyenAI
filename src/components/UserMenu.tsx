@@ -1,7 +1,7 @@
 import { signIn, signOut, auth } from "@/auth";
 import { getUserLevel, getNextLevelExp, getUserTitle, PathType } from "@/lib/levels";
 import Link from "next/link";
-import { UserCircle } from "lucide-react";
+import { UserCircle, Library } from "lucide-react";
 
 export async function UserMenu() {
   const session = await auth();
@@ -57,17 +57,26 @@ export async function UserMenu() {
       </div>
 
       {/* Avatar & Dropdown */}
-      <Link href="/profile" className="flex items-center gap-2 group">
-        {session.user.image ? (
-          <img 
-            src={session.user.image} 
-            alt={session.user.name || "User"} 
-            className="w-8 h-8 rounded-full border border-slate-700 group-hover:border-indigo-500 transition-colors"
-          />
-        ) : (
-          <UserCircle className="w-8 h-8 text-slate-400 group-hover:text-indigo-400 transition-colors" />
-        )}
-      </Link>
+      <div className="flex items-center gap-3">
+        <Link 
+          href="/tu-truyen" 
+          className="text-slate-400 hover:text-indigo-400 transition-colors p-2 rounded-full hover:bg-slate-800"
+          title="Tủ Truyện"
+        >
+          <Library className="w-5 h-5" />
+        </Link>
+        <Link href="/profile" className="flex items-center gap-2 group" title="Hồ Sơ">
+          {session.user.image ? (
+            <img 
+              src={session.user.image} 
+              alt={session.user.name || "User"} 
+              className="w-8 h-8 rounded-full border border-slate-700 group-hover:border-indigo-500 transition-colors"
+            />
+          ) : (
+            <UserCircle className="w-8 h-8 text-slate-400 group-hover:text-indigo-400 transition-colors" />
+          )}
+        </Link>
+      </div>
     </div>
   );
 }
