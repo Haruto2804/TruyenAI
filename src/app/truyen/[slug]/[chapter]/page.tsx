@@ -24,6 +24,7 @@ export default async function ChapterDetail({
     where: { slug: slug },
     include: {
       characters: true,
+      lores: true,
     },
   });
 
@@ -58,28 +59,50 @@ export default async function ChapterDetail({
   // Fetch previous and next chapters for navigation
   const prevChapter = await prisma.chapter.findUnique({
     where: { storyId_chapterNo: { storyId: story.id, chapterNo: chapterNo - 1 } },
+    select: { chapterNo: true, title: true }
   });
 
   const nextChapter = await prisma.chapter.findUnique({
     where: { storyId_chapterNo: { storyId: story.id, chapterNo: chapterNo + 1 } },
+    select: { chapterNo: true, title: true }
   });
 
   return (
     <div className="max-w-4xl mx-auto space-y-8">
-      {/* Chapter Header / Nav */}
-      <div className="flex flex-col items-center text-center space-y-4 pt-2">
-        <Link 
-          href={`/truyen/${story.slug}`}
-          className="inline-flex items-center gap-1.5 text-[#d4af37] hover:text-amber-300 text-xs sm:text-sm font-bold uppercase tracking-widest transition-colors py-1 px-3 rounded-full bg-[#d4af37]/10 border border-[#d4af37]/20"
-        >
-          {story.title}
-        </Link>
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white tracking-tight leading-tight max-w-2xl">
-          Chương {chapter.chapterNo}: {chapter.title}
-        </h1>
-        
-        {/* Top Navigation Bar */}
-        <div className="flex items-center gap-3 py-3 w-full justify-center">
+      {/* Background ambient lighting */}
+      <div className="relative">
+        <div className="absolute -top-10 left-1/3 w-80 h-80 bg-[#d4af37]/5 blur-[120px] rounded-full pointer-events-none" />
+      </div>
+
+      {/* Gamification: Track EXP on reading */}
+      <ExpTracker chapterId={chapter.id} />
+      
+      {/* Tracking: Lưu tiến độ đọc tiếp (Continue Reading) */}
+      <ProgressTracker storyId={story.id} chapterId={chapter.id} />
+
+      {/* Chapter Reader Header Nav */}
+      <div className="sticky top-20 z-40 bg-slate-950/80 backdrop-blur-xl border border-white/10 p-4 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-xl">
+        <div className="flex items-center gap-3">
+          <Link
+            href={`/truyen/${story.slug}`}
+            className="p-2 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white border border-white/5 transition-colors"
+            title="Trở về trang thông tin truyện"
+          >
+            <ArrowLeft className="w-5 h-5" />
+          </Link>
+          <div className="min-w-0">
+            <h1 className="text-base sm:text-lg font-bold text-slate-100 truncate flex items-center gap-2">
+              <span className="text-[#d4af37]">#{chapter.chapterNo}</span>
+              <span>{chapter.title}</span>
+            </h1>
+            <p className="text-xs text-slate-400 truncate">
+              {story.title}
+            </p>
+          </div>
+        </div>
+
+        {/* Quick Chapter Switcher Buttons */}
+        <div className="flex items-center gap-2 self-end sm:self-auto">
           <Link
             href={prevChapter ? `/truyen/${story.slug}/${prevChapter.chapterNo}` : '#'}
             className={`flex items-center justify-center h-10 w-10 sm:h-11 sm:w-11 rounded-xl border transition-all duration-200 ${
@@ -94,9 +117,10 @@ export default async function ChapterDetail({
 
           <Link
             href={`/truyen/${story.slug}`}
-            className="flex items-center justify-center h-10 sm:h-11 px-4 sm:px-6 rounded-xl border border-white/10 bg-white/5 text-slate-200 hover:bg-white/10 hover:border-[#d4af37]/40 hover:text-[#d4af37] text-xs sm:text-sm font-bold transition-all duration-200 gap-2"
+            className="flex items-center gap-1.5 px-3 h-10 sm:h-11 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-xs font-semibold text-slate-300 hover:text-white transition-colors"
           >
-            <Menu className="w-4 h-4 text-[#d4af37]" /> Mục Lục
+            <Menu className="w-4 h-4 text-[#d4af37]" />
+            <span className="hidden sm:inline">Mục Lục</span>
           </Link>
 
           <Link
@@ -113,14 +137,16 @@ export default async function ChapterDetail({
         </div>
       </div>
 
-      {/* Chapter Content Section with X-Ray Character Highlighter */}
-      <div className="py-4 sm:py-6 px-1 sm:px-2">
+      {/* Chapter Content Section with X-Ray Character & Lore Highlighter */}
+      <div className="py-2 sm:py-4 px-0 sm:px-2">
         {!isUnlocked ? (
           <UnlockButton chapterId={chapter.id} price={chapter.price} />
         ) : (
           <InteractiveReader
             content={chapter.content}
             characters={story.characters}
+            lores={story.lores}
+            storySlug={story.slug}
           />
         )}
       </div>

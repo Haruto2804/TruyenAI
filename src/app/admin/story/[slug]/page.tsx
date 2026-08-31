@@ -1,7 +1,7 @@
 import prisma from "@/lib/prisma";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, Plus, List as ListIcon, Edit, Users, Settings } from "lucide-react";
+import { ArrowLeft, Plus, List as ListIcon, Edit, Users, Settings, BookOpen } from "lucide-react";
 import { deleteChapter } from "@/app/admin/actions";
 import { DeleteButton } from "@/components/DeleteButton";
 
@@ -18,6 +18,9 @@ export default async function AdminStoryDetail({
         orderBy: { chapterNo: 'asc' }
       },
       characters: {
+        select: { id: true }
+      },
+      lores: {
         select: { id: true }
       }
     }
@@ -51,6 +54,14 @@ export default async function AdminStoryDetail({
           >
             <Users className="w-4 h-4 text-[#d4af37]" />
             <span>Nhân Vật ({story.characters.length})</span>
+          </Link>
+
+          <Link
+            href={`/admin/story/${story.slug}/lore`}
+            className="bg-white/5 hover:bg-white/10 text-cyan-300 border border-white/10 px-3.5 py-1.5 rounded-xl text-sm font-semibold transition-all flex items-center gap-1.5 shadow-sm"
+          >
+            <BookOpen className="w-4 h-4 text-cyan-400" />
+            <span>Chú Giải ({story.lores.length})</span>
           </Link>
 
           <Link

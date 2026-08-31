@@ -18,6 +18,7 @@ model Story {
   updatedAt DateTime  @updatedAt
   chapters  Chapter[]
   characters Character[]
+  lores     Lore[]
   bookmarks Bookmark[]
   readingProgresses ReadingProgress[]
   comments  Comment[]
@@ -39,6 +40,23 @@ model Character {
 
   @@index([storyId])
 }
+
+model Lore {
+  id          String   @id @default(cuid())
+  storyId     String
+  story       Story    @relation(fields: [storyId], references: [id], onDelete: Cascade)
+  
+  term        String   // Tên khái niệm / thuật ngữ (ví dụ: "Hắc Tử La Lan", "Ma Đồng Giải Cấu", "Vực Thẳm Hoang Vu")
+  category    String?  // Phân loại (ví dụ: "Độc Dược", "Bí Thuật", "Địa Danh", "Bảo Vật", "Thế Lực", "Cảnh Giới")
+  definition  String   // Lời chú giải chi tiết, dễ hiểu cho người đọc
+  aliases     String?  // Biệt danh / từ đồng nghĩa (cách nhau bởi dấu phẩy)
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([storyId])
+}
+
 
 model Chapter {
   id            String        @id @default(cuid())

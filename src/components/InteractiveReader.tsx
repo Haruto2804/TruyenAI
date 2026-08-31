@@ -1,7 +1,12 @@
 "use client";
 
 import { useState, useMemo, useEffect } from "react";
-import { User, X, Sparkles, BookOpen } from "lucide-react";
+import { 
+  User, X, Sparkles, BookOpen, Shield, Scroll, Tag, 
+  BookMarked, ShieldAlert, Flame, Compass, Gem, Layers,
+  Type, Sun, Moon, Coffee, Sliders, ChevronDown, Check,
+  Maximize2, Minimize2
+} from "lucide-react";
 
 export interface CharacterInfo {
   id: string;
@@ -12,56 +17,149 @@ export interface CharacterInfo {
   description: string | null;
 }
 
+export interface LoreInfo {
+  id: string;
+  term: string;
+  category: string | null;
+  definition: string;
+  aliases: string | null;
+}
+
 interface InteractiveReaderProps {
   content: string;
-  characters: CharacterInfo[];
+  characters?: CharacterInfo[];
+  lores?: LoreInfo[];
+  storySlug?: string;
 }
+
+type MatchedItem = 
+  | { type: "character"; data: CharacterInfo }
+  | { type: "lore"; data: LoreInfo };
+
+type ReadingTheme = "dark" | "sepia" | "oled";
+type FontFamily = "serif" | "sans";
 
 function escapeRegExp(string: string) {
   return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-export function InteractiveReader({ content, characters }: InteractiveReaderProps) {
-  const [selectedChar, setSelectedChar] = useState<CharacterInfo | null>(null);
+const CATEGORY_ICONS: Record<string, any> = {
+  "Độc Dược": ShieldAlert,
+  "Bí Thuật": Flame,
+  "Địa Danh": Compass,
+  "Bảo Vật": Gem,
+  "Thế Lực": Layers,
+  "Cảnh Giới": Sparkles,
+};
+
+export function InteractiveReader({
+  content,
+  characters = [],
+  lores = [],
+}: InteractiveReaderProps) {
+  // Popover State
+  const [selectedItem, setSelectedItem] = useState<MatchedItem | null>(null);
+
+  // Reader Customization State (Stored in localStorage)
+  const [fontSize, setFontSize] = useState<number>(19); // 16 to 24px
+  const [fontFamily, setFontFamily] = useState<FontFamily>("serif");
+  const [theme, setTheme] = useState<ReadingTheme>("dark");
+  const [lineHeight, setLineHeight] = useState<number>(2.2); // 1.8 to 2.5
+  const [showToolbar, setShowToolbar] = useState<boolean>(false);
+
+  // Load reader preferences from localStorage
+  useEffect(() => {
+    try {
+      const savedFontSize = localStorage.getItem("reader_fontSize");
+      const savedFontFamily = localStorage.getItem("reader_fontFamily") as FontFamily;
+      const savedTheme = localStorage.getItem("reader_theme") as ReadingTheme;
+      const savedLineHeight = localStorage.getItem("reader_lineHeight");
+
+      if (savedFontSize) setFontSize(Number(savedFontSize));
+      if (savedFontFamily) setFontFamily(savedFontFamily);
+      if (savedTheme) setTheme(savedTheme);
+      if (savedLineHeight) setLineHeight(Number(savedLineHeight));
+    } catch {
+      // Ignore localStorage errors
+    }
+  }, []);
+
+  const updateFontSize = (delta: number) => {
+    setFontSize((prev) => {
+      const next = Math.min(26, Math.max(15, prev + delta));
+      localStorage.setItem("reader_fontSize", String(next));
+      return next;
+    });
+  };
+
+  const updateTheme = (newTheme: ReadingTheme) => {
+    setTheme(newTheme);
+    localStorage.setItem("reader_theme", newTheme);
+  };
+
+  const updateFontFamily = (newFont: FontFamily) => {
+    setFontFamily(newFont);
+    localStorage.setItem("reader_fontFamily", newFont);
+  };
+
+  const updateLineHeight = (newLineHeight: number) => {
+    setLineHeight(newLineHeight);
+    localStorage.setItem("reader_lineHeight", String(newLineHeight));
+  };
 
   // Close on Escape key
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setSelectedChar(null);
+      if (e.key === "Escape") setSelectedItem(null);
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
-  // Build lookup dictionary & sorted regex patterns
+  // Build unified lookup dictionary for Characters and Lores
   const { termMap, regex } = useMemo(() => {
-    if (!characters || characters.length === 0) {
-      return { termMap: new Map<string, CharacterInfo>(), regex: null };
-    }
-
-    const map = new Map<string, CharacterInfo>();
+    const map = new Map<string, MatchedItem>();
     const termsSet = new Set<string>();
 
+    // 1. Process Characters
     characters.forEach((char) => {
       if (char.name && char.name.trim().length >= 2) {
         const cleanName = char.name.trim();
-        map.set(cleanName.toLowerCase(), char);
+        map.set(cleanName.toLowerCase(), { type: "character", data: char });
         termsSet.add(cleanName);
       }
 
       if (char.aliases) {
-        const aliases = char.aliases.split(",");
-        aliases.forEach((alias) => {
+        char.aliases.split(",").forEach((alias) => {
           const cleanAlias = alias.trim();
           if (cleanAlias.length >= 2) {
-            map.set(cleanAlias.toLowerCase(), char);
+            map.set(cleanAlias.toLowerCase(), { type: "character", data: char });
             termsSet.add(cleanAlias);
           }
         });
       }
     });
 
-    // Sort terms by length descending to match longest phrases first
+    // 2. Process Lores / Glossaries
+    lores.forEach((lore) => {
+      if (lore.term && lore.term.trim().length >= 2) {
+        const cleanTerm = lore.term.trim();
+        map.set(cleanTerm.toLowerCase(), { type: "lore", data: lore });
+        termsSet.add(cleanTerm);
+      }
+
+      if (lore.aliases) {
+        lore.aliases.split(",").forEach((alias) => {
+          const cleanAlias = alias.trim();
+          if (cleanAlias.length >= 2) {
+            map.set(cleanAlias.toLowerCase(), { type: "lore", data: lore });
+            termsSet.add(cleanAlias);
+          }
+        });
+      }
+    });
+
+    // Sort terms by length descending to match longest phrases first (e.g. "Caelen Von Ravenwood" before "Caelen")
     const sortedTerms = Array.from(termsSet).sort((a, b) => b.length - a.length);
 
     if (sortedTerms.length === 0) {
@@ -72,52 +170,178 @@ export function InteractiveReader({ content, characters }: InteractiveReaderProp
     const reg = new RegExp(pattern, "gi");
 
     return { termMap: map, regex: reg };
-  }, [characters]);
+  }, [characters, lores]);
 
-  // Render paragraphs with highlighted character mentions
+  // Render paragraphs with highlighted mentions
   const paragraphs = useMemo(() => {
     return content.split("\n").filter((p) => p.trim() !== "");
   }, [content]);
 
+  // Dynamic style themes for eye comfort
+  const themeStyles = {
+    dark: {
+      wrapper: "bg-slate-950/80 border-white/10 text-slate-100",
+      pColor: "text-slate-200/95",
+      accent: "#d4af37",
+    },
+    sepia: {
+      wrapper: "bg-[#181512] border-[#362e26] text-[#e8ded1]",
+      pColor: "text-[#ded1c0]",
+      accent: "#e5a93c",
+    },
+    oled: {
+      wrapper: "bg-black border-neutral-900 text-neutral-200",
+      pColor: "text-neutral-300",
+      accent: "#eab308",
+    },
+  }[theme];
+
   return (
-    <div className="relative">
+    <div className="space-y-6 select-text">
+      {/* Reader Customization Floating Toolbar (Mobile & Desktop) */}
+      <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-3 sm:p-4 transition-all">
+        <div className="flex flex-wrap items-center justify-between gap-3 text-xs sm:text-sm">
+          {/* Quick Info & Toggle */}
+          <div className="flex items-center gap-2 text-slate-300">
+            <Sliders className="w-4 h-4 text-[#d4af37]" />
+            <span className="font-semibold text-slate-200 hidden xs:inline">Tùy Chỉnh Đọc:</span>
+            <span className="text-[11px] sm:text-xs text-slate-400">
+              {fontFamily === "serif" ? "Serif (Tiểu Thuyết)" : "Sans-Serif (Hiện Đại)"} • {fontSize}px
+            </span>
+          </div>
+
+          {/* Quick Action Buttons */}
+          <div className="flex items-center gap-1.5 sm:gap-2">
+            {/* Font Size A- / A+ */}
+            <div className="flex items-center bg-black/40 border border-white/10 rounded-xl p-0.5">
+              <button
+                type="button"
+                onClick={() => updateFontSize(-1)}
+                className="px-2.5 py-1 text-xs font-bold text-slate-300 hover:text-white hover:bg-white/10 rounded-lg transition-colors"
+                title="Giảm cỡ chữ"
+              >
+                A-
+              </button>
+              <span className="px-1 text-[11px] font-mono text-[#d4af37]">{fontSize}</span>
+              <button
+                type="button"
+                onClick={() => updateFontSize(1)}
+                className="px-2.5 py-1 text-xs font-bold text-slate-300 hover:text-white hover:bg-white/10 rounded-lg transition-colors"
+                title="Tăng cỡ chữ"
+              >
+                A+
+              </button>
+            </div>
+
+            {/* Font Family Toggle */}
+            <button
+              type="button"
+              onClick={() => updateFontFamily(fontFamily === "serif" ? "sans" : "serif")}
+              className="px-3 py-1.5 rounded-xl bg-black/40 border border-white/10 text-slate-200 hover:border-[#d4af37]/40 text-xs font-semibold transition-all flex items-center gap-1"
+              title="Đổi kiểu chữ"
+            >
+              <Type className="w-3.5 h-3.5 text-[#d4af37]" />
+              <span className="hidden sm:inline">{fontFamily === "serif" ? "Serif" : "Sans"}</span>
+            </button>
+
+            {/* Theme Toggle Buttons */}
+            <div className="flex items-center bg-black/40 border border-white/10 rounded-xl p-1 gap-1">
+              <button
+                type="button"
+                onClick={() => updateTheme("dark")}
+                className={`p-1.5 rounded-lg transition-all ${
+                  theme === "dark" ? "bg-white/20 text-[#d4af37]" : "text-slate-400 hover:text-white"
+                }`}
+                title="Giao diện Deep Dark"
+              >
+                <Moon className="w-3.5 h-3.5" />
+              </button>
+              <button
+                type="button"
+                onClick={() => updateTheme("sepia")}
+                className={`p-1.5 rounded-lg transition-all ${
+                  theme === "sepia" ? "bg-amber-600/30 text-amber-300" : "text-slate-400 hover:text-white"
+                }`}
+                title="Giao diện Sepia ấm áp chống mỏi mắt"
+              >
+                <Coffee className="w-3.5 h-3.5" />
+              </button>
+              <button
+                type="button"
+                onClick={() => updateTheme("oled")}
+                className={`p-1.5 rounded-lg transition-all ${
+                  theme === "oled" ? "bg-white/20 text-yellow-300" : "text-slate-400 hover:text-white"
+                }`}
+                title="Giao diện AMOLED Black"
+              >
+                <Sun className="w-3.5 h-3.5" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Chapter Text Body */}
-      <div className="prose prose-invert prose-lg max-w-none text-slate-100 select-text">
+      <div
+        className={`rounded-3xl p-5 sm:p-8 md:p-12 border shadow-2xl transition-colors duration-300 ${themeStyles.wrapper} ${
+          fontFamily === "serif" ? "font-serif" : "font-sans"
+        }`}
+        style={{
+          fontSize: `${fontSize}px`,
+          lineHeight: lineHeight,
+        }}
+      >
         {paragraphs.map((paragraph, pIdx) => {
           if (!regex) {
             return (
               <p
                 key={pIdx}
-                className="mb-7 text-[18px] sm:text-[19px] md:text-[20px] text-slate-200/95 leading-[2.2] font-normal tracking-wide"
+                className={`mb-7 sm:mb-8 ${themeStyles.pColor} tracking-wide font-normal`}
               >
                 {paragraph}
               </p>
             );
           }
 
-          // Split paragraph by character names
+          // Split paragraph by character names and lore terms
           const parts = paragraph.split(regex);
 
           return (
             <p
               key={pIdx}
-              className="mb-7 text-[18px] sm:text-[19px] md:text-[20px] text-slate-200/95 leading-[2.2] font-normal tracking-wide"
+              className={`mb-7 sm:mb-8 ${themeStyles.pColor} tracking-wide font-normal`}
             >
               {parts.map((part, partIdx) => {
-                const matchedChar = termMap.get(part.toLowerCase());
+                const matched = termMap.get(part.toLowerCase());
 
-                if (matchedChar) {
-                  return (
-                    <button
-                      key={partIdx}
-                      type="button"
-                      onClick={() => setSelectedChar(matchedChar)}
-                      className="inline-flex items-center text-amber-200/95 font-medium underline decoration-dotted decoration-[#d4af37]/60 underline-offset-4 hover:decoration-solid hover:text-[#d4af37] hover:bg-[#d4af37]/15 px-1 py-0.5 rounded transition-all cursor-pointer select-none"
-                      title={`Xem thông tin: ${matchedChar.name}`}
-                    >
-                      {part}
-                    </button>
-                  );
+                if (matched) {
+                  if (matched.type === "character") {
+                    return (
+                      <button
+                        key={partIdx}
+                        type="button"
+                        onClick={() => setSelectedItem(matched)}
+                        className="inline-flex items-center text-amber-200/95 font-medium underline decoration-dotted decoration-[#d4af37]/70 underline-offset-[5px] hover:decoration-solid hover:text-[#d4af37] hover:bg-[#d4af37]/15 px-1 py-0.5 rounded-md transition-all cursor-pointer select-none"
+                        title={`Tra cứu nhân vật: ${matched.data.name}`}
+                      >
+                        {part}
+                      </button>
+                    );
+                  }
+
+                  if (matched.type === "lore") {
+                    return (
+                      <button
+                        key={partIdx}
+                        type="button"
+                        onClick={() => setSelectedItem(matched)}
+                        className="inline-flex items-center text-cyan-200/95 font-medium underline decoration-dotted decoration-cyan-400/70 underline-offset-[5px] hover:decoration-solid hover:text-cyan-300 hover:bg-cyan-500/15 px-1 py-0.5 rounded-md transition-all cursor-pointer select-none"
+                        title={`Tra cứu chú giải: ${matched.data.term}`}
+                      >
+                        {part}
+                      </button>
+                    );
+                  }
                 }
 
                 return part;
@@ -127,85 +351,158 @@ export function InteractiveReader({ content, characters }: InteractiveReaderProp
         })}
       </div>
 
-      {/* X-Ray Character Popover Modal */}
-      {selectedChar && (
+      {/* Responsive Mobile Bottom-Sheet / Desktop Modal */}
+      {selectedItem && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-md animate-in fade-in duration-200"
-          onClick={() => setSelectedChar(null)}
+          className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-black/80 backdrop-blur-md animate-in fade-in duration-200"
+          onClick={() => setSelectedItem(null)}
         >
+          {/* Modal Container */}
           <div
-            className="relative w-full max-w-md bg-[#0e0e11] border border-[#d4af37]/40 rounded-3xl p-6 sm:p-7 shadow-[0_20px_60px_rgba(0,0,0,0.8)] space-y-5 animate-in zoom-in-95 duration-200"
+            className="w-full sm:max-w-lg bg-gradient-to-b from-slate-900 via-slate-950 to-black border-t sm:border border-white/15 rounded-t-3xl sm:rounded-3xl p-6 sm:p-7 shadow-[0_-10px_40px_rgba(0,0,0,0.8)] sm:shadow-2xl space-y-4 max-h-[85vh] overflow-y-auto animate-in slide-in-from-bottom-5 duration-200"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Ambient gold glow */}
-            <div className="absolute -top-10 -left-10 w-40 h-40 bg-[#d4af37]/15 rounded-full blur-3xl pointer-events-none" />
+            {/* Mobile Drag Handle */}
+            <div className="w-12 h-1.5 bg-white/20 rounded-full mx-auto mb-2 sm:hidden" />
 
-            {/* Close Button */}
-            <button
-              onClick={() => setSelectedChar(null)}
-              className="absolute top-4 right-4 p-2 rounded-full bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white transition-colors border border-white/5"
-            >
-              <X className="w-4 h-4" />
-            </button>
+            {/* Character Dossier Popover */}
+            {selectedItem.type === "character" && (
+              <div className="space-y-4">
+                <div className="flex items-start justify-between gap-3 border-b border-white/10 pb-4">
+                  <div className="flex items-center gap-3.5">
+                    {/* Avatar */}
+                    <div className="w-16 h-20 rounded-xl overflow-hidden bg-slate-950 border border-[#d4af37]/30 shrink-0 shadow-lg relative">
+                      {selectedItem.data.avatarUrl ? (
+                        <img
+                          src={selectedItem.data.avatarUrl}
+                          alt={selectedItem.data.name}
+                          className="w-full h-full object-cover object-top"
+                        />
+                      ) : (
+                        <div className="w-full h-full flex items-center justify-center bg-slate-900 text-slate-500">
+                          <User className="w-8 h-8 text-[#d4af37]/40" />
+                        </div>
+                      )}
+                    </div>
 
-            {/* Character Header */}
-            <div className="flex gap-4 items-center">
-              <div className="w-20 h-24 sm:w-24 sm:h-28 rounded-2xl overflow-hidden bg-slate-950 border border-white/20 shrink-0 shadow-lg relative">
-                {selectedChar.avatarUrl ? (
-                  <img
-                    src={selectedChar.avatarUrl}
-                    alt={selectedChar.name}
-                    className="w-full h-full object-cover"
-                  />
-                ) : (
-                  <div className="w-full h-full flex items-center justify-center bg-slate-900 text-slate-600">
-                    <User className="w-10 h-10 text-[#d4af37]/50" />
+                    {/* Titles */}
+                    <div className="space-y-1">
+                      <div className="flex items-center gap-2">
+                        <span className="p-1 rounded-md bg-[#d4af37]/10 text-[#d4af37]">
+                          <Sparkles className="w-3.5 h-3.5" />
+                        </span>
+                        <span className="text-[11px] font-bold text-amber-200/80 uppercase tracking-wider">
+                          Hồ Sơ Nhân Vật
+                        </span>
+                      </div>
+                      <h3 className="text-lg sm:text-xl font-extrabold text-white leading-snug">
+                        {selectedItem.data.name}
+                      </h3>
+                      {selectedItem.data.role && (
+                        <span className="inline-block px-2 py-0.5 rounded-md text-[11px] font-bold bg-[#d4af37]/15 text-[#d4af37] border border-[#d4af37]/30">
+                          {selectedItem.data.role}
+                        </span>
+                      )}
+                    </div>
+                  </div>
+
+                  <button
+                    type="button"
+                    onClick={() => setSelectedItem(null)}
+                    className="p-2 rounded-xl bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white transition-colors"
+                  >
+                    <X className="w-5 h-5" />
+                  </button>
+                </div>
+
+                {selectedItem.data.aliases && (
+                  <div className="bg-white/5 border border-white/5 rounded-xl p-3 text-xs text-slate-300">
+                    <span className="text-slate-500 font-semibold">Biệt danh & Cách gọi:</span>{" "}
+                    <span className="text-amber-200/90 font-medium">{selectedItem.data.aliases}</span>
+                  </div>
+                )}
+
+                {selectedItem.data.description && (
+                  <div className="space-y-1.5">
+                    <div className="text-[11px] font-bold text-[#d4af37] uppercase tracking-wider flex items-center gap-1.5">
+                      <Scroll className="w-3.5 h-3.5" /> Tiểu sử & Tính cách
+                    </div>
+                    <p className="text-sm text-slate-200 leading-relaxed font-light whitespace-pre-wrap bg-black/40 border border-white/5 rounded-xl p-3.5 max-h-48 overflow-y-auto">
+                      {selectedItem.data.description}
+                    </p>
                   </div>
                 )}
               </div>
+            )}
 
-              <div className="space-y-1.5 flex-1 min-w-0">
-                <div className="flex items-center gap-1.5 text-xs text-[#d4af37] font-semibold">
-                  <Sparkles className="w-3.5 h-3.5" />
-                  <span>Tra Cứu Nhân Vật (X-Ray)</span>
+            {/* Lore / Glossary Popover */}
+            {selectedItem.type === "lore" && (
+              <div className="space-y-4">
+                <div className="flex items-start justify-between gap-3 border-b border-white/10 pb-4">
+                  <div className="flex items-center gap-3.5">
+                    <div className="p-3 rounded-2xl bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 shrink-0">
+                      {selectedItem.data.category && CATEGORY_ICONS[selectedItem.data.category] ? (
+                        (() => {
+                          const Icon = CATEGORY_ICONS[selectedItem.data.category];
+                          return <Icon className="w-6 h-6" />;
+                        })()
+                      ) : (
+                        <BookMarked className="w-6 h-6" />
+                      )}
+                    </div>
+
+                    <div className="space-y-1">
+                      <div className="flex items-center gap-2">
+                        <span className="text-[11px] font-bold text-cyan-300/80 uppercase tracking-wider">
+                          Chú Giải Khái Niệm
+                        </span>
+                        {selectedItem.data.category && (
+                          <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-cyan-500/15 text-cyan-300 border border-cyan-500/30">
+                            {selectedItem.data.category}
+                          </span>
+                        )}
+                      </div>
+                      <h3 className="text-lg sm:text-xl font-extrabold text-white leading-snug">
+                        {selectedItem.data.term}
+                      </h3>
+                    </div>
+                  </div>
+
+                  <button
+                    type="button"
+                    onClick={() => setSelectedItem(null)}
+                    className="p-2 rounded-xl bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white transition-colors"
+                  >
+                    <X className="w-5 h-5" />
+                  </button>
                 </div>
-                <h3 className="text-xl sm:text-2xl font-extrabold text-white truncate">
-                  {selectedChar.name}
-                </h3>
-                {selectedChar.role && (
-                  <span className="inline-block px-2.5 py-0.5 rounded-md text-xs font-bold bg-[#d4af37]/20 text-amber-200 border border-[#d4af37]/30">
-                    {selectedChar.role}
-                  </span>
+
+                {selectedItem.data.aliases && (
+                  <div className="bg-white/5 border border-white/5 rounded-xl p-3 text-xs text-slate-300">
+                    <span className="text-slate-500 font-semibold">Từ đồng nghĩa:</span>{" "}
+                    <span className="text-cyan-200/90 font-medium">{selectedItem.data.aliases}</span>
+                  </div>
                 )}
-              </div>
-            </div>
 
-            {/* Character Aliases */}
-            {selectedChar.aliases && (
-              <div className="bg-white/5 border border-white/5 rounded-xl px-3.5 py-2 text-xs text-slate-300">
-                <span className="text-slate-400 font-semibold">Tên gọi khác:</span>{" "}
-                <span className="text-amber-200/90">{selectedChar.aliases}</span>
+                <div className="space-y-1.5">
+                  <div className="text-[11px] font-bold text-cyan-400 uppercase tracking-wider flex items-center gap-1.5">
+                    <BookOpen className="w-3.5 h-3.5" /> Định nghĩa & Ý nghĩa
+                  </div>
+                  <p className="text-sm text-slate-200 leading-relaxed font-light whitespace-pre-wrap bg-black/40 border border-white/5 rounded-xl p-3.5 max-h-48 overflow-y-auto">
+                    {selectedItem.data.definition}
+                  </p>
+                </div>
               </div>
             )}
 
-            {/* Character Description */}
-            {selectedChar.description ? (
-              <div className="space-y-1.5">
-                <h4 className="text-xs font-bold uppercase tracking-wider text-slate-400">
-                  Tính cách & Thân phận:
-                </h4>
-                <p className="text-sm text-slate-200 leading-relaxed max-h-48 overflow-y-auto pr-1">
-                  {selectedChar.description}
-                </p>
-              </div>
-            ) : (
-              <p className="text-xs italic text-slate-500">Chưa có thông tin mô tả chi tiết.</p>
-            )}
-
-            {/* Footer Tip */}
-            <div className="pt-2 border-t border-white/5 flex items-center justify-between text-[11px] text-slate-500">
-              <span>Chạm ra ngoài để tiếp tục đọc</span>
-              <span className="font-mono text-[#d4af37]/80">Thiên Thư X-Ray</span>
+            <div className="pt-2 flex justify-end">
+              <button
+                type="button"
+                onClick={() => setSelectedItem(null)}
+                className="w-full sm:w-auto px-5 py-2 rounded-xl bg-white/10 hover:bg-white/15 text-slate-200 text-sm font-semibold transition-colors border border-white/10 text-center"
+              >
+                Đóng
+              </button>
             </div>
           </div>
         </div>

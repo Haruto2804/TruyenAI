@@ -276,4 +276,123 @@ export async function deleteCharacter(formData: FormData) {
   }
 }
 
+// -------------------------------------------------------------
+// LORE / GLOSSARY MANAGEMENT ACTIONS
+// -------------------------------------------------------------
+
+function revalidateAllLorePaths(storySlug: string) {
+  // Revalidate public story detail and all chapter readers
+  revalidatePath(`/truyen/${storySlug}`, "layout");
+  revalidatePath(`/truyen/${storySlug}`);
+  revalidatePath(`/truyen/${storySlug}/[chapter]`, "page");
+  
+  // Revalidate admin management pages
+  revalidatePath(`/admin/story/${storySlug}`, "layout");
+  revalidatePath(`/admin/story/${storySlug}`);
+  revalidatePath(`/admin/story/${storySlug}/lore`);
+  revalidatePath(`/admin/story/${storySlug}/lore/[id]/edit`, "page");
+  
+  // Revalidate global entrypoints
+  revalidatePath("/", "layout");
+  revalidatePath("/");
+  revalidatePath("/admin", "layout");
+  revalidatePath("/admin");
+}
+
+export async function createLore(formData: FormData) {
+  await requireAdmin();
+  const storyId = formData.get("storyId") as string;
+  const storySlug = formData.get("storySlug") as string;
+  const term = formData.get("term") as string;
+  const category = (formData.get("category") as string) || null;
+  const definition = formData.get("definition") as string;
+  const aliases = (formData.get("aliases") as string) || null;
+
+  const lore = await prisma.lore.create({
+    data: {
+      storyId,
+      term: term.trim(),
+      category: category ? category.trim() : null,
+      definition: definition.trim(),
+      aliases: aliases ? aliases.trim() : null,
+    },
+    include: {
+      story: { select: { slug: true } }
+    }
+  });
+
+  await prisma.story.update({
+    where: { id: storyId },
+    data: { updatedAt: new Date() }
+  });
+
+  const slug = lore.story?.slug || storySlug;
+  revalidateAllLorePaths(slug);
+  redirect(`/admin/story/${slug}/lore`);
+}
+
+export async function updateLore(formData: FormData) {
+  await requireAdmin();
+  const id = formData.get("id") as string;
+  const storySlug = formData.get("storySlug") as string;
+  const term = formData.get("term") as string;
+  const category = (formData.get("category") as string) || null;
+  const definition = formData.get("definition") as string;
+  const aliases = (formData.get("aliases") as string) || null;
+
+  const lore = await prisma.lore.update({
+    where: { id },
+    data: {
+      term: term.trim(),
+      category: category ? category.trim() : null,
+      definition: definition.trim(),
+      aliases: aliases ? aliases.trim() : null,
+    },
+    include: {
+      story: { select: { slug: true } }
+    }
+  });
+
+  await prisma.story.update({
+    where: { id: lore.storyId },
+    data: { updatedAt: new Date() }
+  });
+
+  const slug = lore.story?.slug || storySlug;
+  revalidateAllLorePaths(slug);
+  redirect(`/admin/story/${slug}/lore`);
+}
+
+export async function deleteLore(formData: FormData) {
+  await requireAdmin();
+  const id = formData.get("id") as string;
+  const storySlug = formData.get("storySlug") as string;
+
+  const lore = await prisma.lore.findUnique({
+    where: { id },
+    include: {
+      story: { select: { id: true, slug: true } }
+    }
+  });
+
+  if (lore) {
+    await prisma.lore.delete({
+      where: { id },
+    });
+
+    await prisma.story.update({
+      where: { id: lore.storyId },
+      data: { updatedAt: new Date() }
+    });
+
+    const slug = lore.story?.slug || storySlug;
+    revalidateAllLorePaths(slug);
+    redirect(`/admin/story/${slug}/lore`);
+  } else {
+    revalidateAllLorePaths(storySlug);
+    redirect(`/admin/story/${storySlug}/lore`);
+  }
+}
+
+
 

@@ -6,6 +6,7 @@ import { auth } from "@/auth";
 import { BookmarkButton } from "@/components/BookmarkButton";
 import { CommentSection } from "@/components/CommentSection";
 import { CharacterGallery } from "@/components/CharacterGallery";
+import { LoreGallery } from "@/components/LoreGallery";
 
 export default async function StoryDetail({
   params,
@@ -29,6 +30,9 @@ export default async function StoryDetail({
         }
       },
       characters: {
+        orderBy: { createdAt: 'asc' }
+      },
+      lores: {
         orderBy: { createdAt: 'asc' }
       }
     }
@@ -158,6 +162,9 @@ export default async function StoryDetail({
 
       {/* Character Gallery Section (if story has characters) */}
       <CharacterGallery characters={story.characters} />
+
+      {/* Lore & Concepts Glossary Section */}
+      <LoreGallery lores={story.lores} />
 
 
       {/* Chapters Grid / List Section */}
