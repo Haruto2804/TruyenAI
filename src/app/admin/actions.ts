@@ -184,6 +184,32 @@ export async function createCharacter(formData: FormData) {
   redirect(`/admin/story/${storySlug}/characters`);
 }
 
+export async function updateCharacter(formData: FormData) {
+  await requireAdmin();
+  const id = formData.get("id") as string;
+  const storySlug = formData.get("storySlug") as string;
+  const name = formData.get("name") as string;
+  const aliases = (formData.get("aliases") as string) || null;
+  const role = (formData.get("role") as string) || null;
+  const avatarUrl = (formData.get("avatarUrl") as string) || null;
+  const description = (formData.get("description") as string) || null;
+
+  await prisma.character.update({
+    where: { id },
+    data: {
+      name: name.trim(),
+      aliases: aliases ? aliases.trim() : null,
+      role: role ? role.trim() : null,
+      avatarUrl,
+      description: description ? description.trim() : null,
+    },
+  });
+
+  revalidatePath(`/truyen/${storySlug}`);
+  revalidatePath(`/admin/story/${storySlug}/characters`);
+  redirect(`/admin/story/${storySlug}/characters`);
+}
+
 export async function deleteCharacter(formData: FormData) {
   await requireAdmin();
   const id = formData.get("id") as string;
@@ -197,3 +223,4 @@ export async function deleteCharacter(formData: FormData) {
   revalidatePath(`/admin/story/${storySlug}/characters`);
   redirect(`/admin/story/${storySlug}/characters`);
 }
+
