@@ -61,10 +61,10 @@ export function InteractiveReader({
   const [selectedItem, setSelectedItem] = useState<MatchedItem | null>(null);
 
   // Reader Customization State (Stored in localStorage)
-  const [fontSize, setFontSize] = useState<number>(19); // 16 to 24px
+  const [fontSize, setFontSize] = useState<number>(21); // 16 to 28px
   const [fontFamily, setFontFamily] = useState<FontFamily>("serif");
   const [theme, setTheme] = useState<ReadingTheme>("dark");
-  const [lineHeight, setLineHeight] = useState<number>(2.2); // 1.8 to 2.5
+  const [lineHeight, setLineHeight] = useState<number>(2.15); // 1.8 to 2.5
   const [showToolbar, setShowToolbar] = useState<boolean>(false);
 
   // Load reader preferences from localStorage
@@ -86,7 +86,7 @@ export function InteractiveReader({
 
   const updateFontSize = (delta: number) => {
     setFontSize((prev) => {
-      const next = Math.min(26, Math.max(15, prev + delta));
+      const next = Math.min(28, Math.max(16, prev + delta));
       localStorage.setItem("reader_fontSize", String(next));
       return next;
     });
