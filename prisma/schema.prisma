@@ -17,9 +17,27 @@ model Story {
   createdAt DateTime  @default(now())
   updatedAt DateTime  @updatedAt
   chapters  Chapter[]
+  characters Character[]
   bookmarks Bookmark[]
   readingProgresses ReadingProgress[]
   comments  Comment[]
+}
+
+model Character {
+  id          String   @id @default(cuid())
+  storyId     String
+  story       Story    @relation(fields: [storyId], references: [id], onDelete: Cascade)
+  
+  name        String   // Tên nhân vật (ví dụ: "Lâm Phong")
+  aliases     String?  // Biệt danh / cách gọi khác (cách nhau bởi dấu phẩy)
+  role        String?  // Vai trò (ví dụ: "Nhân vật chính", "Chủ tịch", "Thánh nữ", "Phản diện")
+  avatarUrl   String?  // Ảnh đại diện nhân vật (Cloudinary)
+  description String?  // Mô tả tính cách, bối cảnh, cảnh giới
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([storyId])
 }
 
 model Chapter {

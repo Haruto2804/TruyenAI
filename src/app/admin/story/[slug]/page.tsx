@@ -1,7 +1,7 @@
 import prisma from "@/lib/prisma";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, Plus, List as ListIcon, Edit } from "lucide-react";
+import { ArrowLeft, Plus, List as ListIcon, Edit, Users, Settings } from "lucide-react";
 import { deleteChapter } from "@/app/admin/actions";
 import { DeleteButton } from "@/components/DeleteButton";
 
@@ -16,6 +16,9 @@ export default async function AdminStoryDetail({
     include: {
       chapters: {
         orderBy: { chapterNo: 'asc' }
+      },
+      characters: {
+        select: { id: true }
       }
     }
   });
@@ -31,23 +34,43 @@ export default async function AdminStoryDetail({
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center gap-4">
-        <Link href="/admin" className="text-slate-400 hover:text-white transition-colors">
-          <ArrowLeft className="w-5 h-5" />
-        </Link>
-        <h3 className="text-xl font-semibold text-white">
-          Truyện: <span className="text-indigo-400">{story.title}</span>
-        </h3>
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div className="flex items-center gap-4">
+          <Link href="/admin" className="text-slate-400 hover:text-white transition-colors">
+            <ArrowLeft className="w-5 h-5" />
+          </Link>
+          <h3 className="text-xl font-semibold text-white">
+            Truyện: <span className="text-[#d4af37]">{story.title}</span>
+          </h3>
+        </div>
+
+        <div className="flex items-center gap-3 flex-wrap">
+          <Link
+            href={`/admin/story/${story.slug}/characters`}
+            className="bg-white/5 hover:bg-white/10 text-amber-300 border border-white/10 px-3.5 py-1.5 rounded-xl text-sm font-semibold transition-all flex items-center gap-1.5 shadow-sm"
+          >
+            <Users className="w-4 h-4 text-[#d4af37]" />
+            <span>Nhân Vật ({story.characters.length})</span>
+          </Link>
+
+          <Link
+            href={`/admin/story/${story.slug}/edit`}
+            className="bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10 px-3.5 py-1.5 rounded-xl text-sm font-medium transition-all flex items-center gap-1.5"
+          >
+            <Settings className="w-4 h-4" />
+            <span>Sửa Truyện</span>
+          </Link>
+        </div>
       </div>
 
       <div className="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
         <div className="p-4 border-b border-slate-800 flex items-center justify-between">
           <h4 className="font-medium text-slate-200 flex items-center gap-2">
-            <ListIcon className="w-4 h-4 text-slate-400" /> Danh sách Chương
+            <ListIcon className="w-4 h-4 text-slate-400" /> Danh sách Chương ({story.chapters.length})
           </h4>
           <Link 
             href={`/admin/story/${story.slug}/chapter/new?next=${nextChapterNo}`}
-            className="bg-indigo-600 hover:bg-indigo-700 text-white px-3 py-1.5 rounded text-sm font-medium transition-colors flex items-center gap-1"
+            className="bg-gradient-to-r from-[#d4af37] to-amber-400 text-slate-950 font-bold px-4 py-1.5 rounded-xl text-sm transition-all flex items-center gap-1 hover:brightness-110 shadow-sm"
           >
             <Plus className="w-4 h-4" /> Đăng Chương Mới
           </Link>

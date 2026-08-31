@@ -153,3 +153,47 @@ export async function deleteChapter(formData: FormData) {
   revalidatePath(`/admin/story/${storySlug}`);
   redirect(`/admin/story/${storySlug}`);
 }
+
+// -------------------------------------------------------------
+// CHARACTER MANAGEMENT ACTIONS
+// -------------------------------------------------------------
+
+export async function createCharacter(formData: FormData) {
+  await requireAdmin();
+  const storyId = formData.get("storyId") as string;
+  const storySlug = formData.get("storySlug") as string;
+  const name = formData.get("name") as string;
+  const aliases = (formData.get("aliases") as string) || null;
+  const role = (formData.get("role") as string) || null;
+  const avatarUrl = (formData.get("avatarUrl") as string) || null;
+  const description = (formData.get("description") as string) || null;
+
+  await prisma.character.create({
+    data: {
+      storyId,
+      name: name.trim(),
+      aliases: aliases ? aliases.trim() : null,
+      role: role ? role.trim() : null,
+      avatarUrl,
+      description: description ? description.trim() : null,
+    },
+  });
+
+  revalidatePath(`/truyen/${storySlug}`);
+  revalidatePath(`/admin/story/${storySlug}/characters`);
+  redirect(`/admin/story/${storySlug}/characters`);
+}
+
+export async function deleteCharacter(formData: FormData) {
+  await requireAdmin();
+  const id = formData.get("id") as string;
+  const storySlug = formData.get("storySlug") as string;
+
+  await prisma.character.delete({
+    where: { id },
+  });
+
+  revalidatePath(`/truyen/${storySlug}`);
+  revalidatePath(`/admin/story/${storySlug}/characters`);
+  redirect(`/admin/story/${storySlug}/characters`);
+}

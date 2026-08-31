@@ -6,6 +6,7 @@ import { ExpTracker } from "@/components/ExpTracker";
 import { ProgressTracker } from "@/components/ProgressTracker";
 import { CommentSection } from "@/components/CommentSection";
 import { UnlockButton, DonateButton } from "@/components/EconomyButtons";
+import { InteractiveReader } from "@/components/InteractiveReader";
 import { auth } from "@/auth";
 
 export default async function ChapterDetail({
@@ -21,6 +22,9 @@ export default async function ChapterDetail({
 
   const story = await prisma.story.findUnique({
     where: { slug: slug },
+    include: {
+      characters: true,
+    },
   });
 
   if (!story) {
@@ -49,9 +53,7 @@ export default async function ChapterDetail({
   }
 
   // Nếu chương là VIP, kiểm tra xem đã được người dùng này mua chưa
-  // (hoặc nếu là Admin / Author thì mặc định cho xem) -> tạm thời chỉ xét mua
   const isUnlocked = chapter.isVip ? (chapter.unlockedBy.length > 0) : true;
-
 
   // Fetch previous and next chapters for navigation
   const prevChapter = await prisma.chapter.findUnique({
@@ -111,23 +113,15 @@ export default async function ChapterDetail({
         </div>
       </div>
 
-      {/* Chapter Content Section - 100% seamless pure black canvas */}
+      {/* Chapter Content Section with X-Ray Character Highlighter */}
       <div className="py-4 sm:py-6 px-1 sm:px-2">
         {!isUnlocked ? (
           <UnlockButton chapterId={chapter.id} price={chapter.price} />
         ) : (
-          <div 
-            className="prose prose-invert prose-lg max-w-none text-slate-100 select-text"
-          >
-            {chapter.content.split('\n').filter(p => p.trim() !== '').map((paragraph, idx) => (
-              <p 
-                key={idx} 
-                className="mb-7 text-[18px] sm:text-[19px] md:text-[20px] text-slate-200/95 leading-[2.2] font-normal tracking-wide"
-              >
-                {paragraph}
-              </p>
-            ))}
-          </div>
+          <InteractiveReader
+            content={chapter.content}
+            characters={story.characters}
+          />
         )}
       </div>
 
