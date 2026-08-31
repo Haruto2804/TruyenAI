@@ -1,6 +1,7 @@
 import { createStory } from "@/app/admin/actions";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { ImageUpload } from "@/components/ImageUpload";
 
 export default function NewStoryPage() {
   return (
@@ -14,6 +15,13 @@ export default function NewStoryPage() {
 
       <div className="bg-slate-900 border border-slate-800 rounded-xl p-6">
         <form action={createStory} className="space-y-6">
+          
+          {/* Cover Image Upload (Cloudinary) */}
+          <div className="space-y-2">
+            <label className="block text-sm font-medium text-slate-300">Ảnh Bìa Truyện</label>
+            <ImageUpload name="coverUrl" />
+          </div>
+
           <div className="space-y-2">
             <label htmlFor="title" className="block text-sm font-medium text-slate-300">Tên Truyện</label>
             <input 
@@ -21,7 +29,7 @@ export default function NewStoryPage() {
               id="title" 
               name="title" 
               required
-              className="w-full bg-slate-950 border border-slate-800 rounded-lg px-4 py-2.5 text-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-500/50 focus:border-indigo-500"
+              className="w-full bg-slate-950 border border-slate-800 rounded-lg px-4 py-2.5 text-slate-200 focus:outline-none focus:ring-2 focus:ring-[#d4af37]/50 focus:border-[#d4af37]"
               placeholder="VD: Phàm Nhân Tu Tiên"
             />
           </div>
@@ -32,7 +40,7 @@ export default function NewStoryPage() {
               type="text" 
               id="genre" 
               name="genre" 
-              className="w-full bg-slate-950 border border-slate-800 rounded-lg px-4 py-2.5 text-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-500/50 focus:border-indigo-500"
+              className="w-full bg-slate-950 border border-slate-800 rounded-lg px-4 py-2.5 text-slate-200 focus:outline-none focus:ring-2 focus:ring-[#d4af37]/50 focus:border-[#d4af37]"
               placeholder="VD: Tiên Hiệp"
             />
           </div>
@@ -43,7 +51,7 @@ export default function NewStoryPage() {
               id="summary" 
               name="summary" 
               rows={4}
-              className="w-full bg-slate-950 border border-slate-800 rounded-lg px-4 py-2.5 text-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-500/50 focus:border-indigo-500"
+              className="w-full bg-slate-950 border border-slate-800 rounded-lg px-4 py-2.5 text-slate-200 focus:outline-none focus:ring-2 focus:ring-[#d4af37]/50 focus:border-[#d4af37]"
               placeholder="Nhập tóm tắt truyện..."
             />
           </div>
@@ -51,9 +59,9 @@ export default function NewStoryPage() {
           <div className="pt-4 flex justify-end">
             <button 
               type="submit"
-              className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2.5 px-6 rounded-lg transition-colors"
+              className="bg-gradient-to-r from-[#d4af37] to-amber-400 text-slate-950 font-bold py-2.5 px-6 rounded-xl hover:brightness-110 transition-all shadow-[0_2px_15px_rgba(212,175,55,0.25)]"
             >
-              Tạo Truyện
+              Tạo Truyện Mới
             </button>
           </div>
         </form>

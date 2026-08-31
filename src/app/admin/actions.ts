@@ -8,6 +8,7 @@ export async function createStory(formData: FormData) {
   const title = formData.get("title") as string;
   const genre = formData.get("genre") as string;
   const summary = formData.get("summary") as string;
+  const coverUrl = (formData.get("coverUrl") as string) || null;
 
   // Simple slugify for Vietnamese
   const slug = title
@@ -24,6 +25,7 @@ export async function createStory(formData: FormData) {
       slug,
       genre,
       summary,
+      coverUrl,
     },
   });
 
@@ -65,6 +67,7 @@ export async function updateStory(formData: FormData) {
   const title = formData.get("title") as string;
   const genre = formData.get("genre") as string;
   const summary = formData.get("summary") as string;
+  const coverUrl = (formData.get("coverUrl") as string) || null;
 
   // We don't update the slug to avoid breaking existing links
   await prisma.story.update({
@@ -73,6 +76,7 @@ export async function updateStory(formData: FormData) {
       title,
       genre,
       summary,
+      coverUrl,
     },
   });
 
