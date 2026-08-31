@@ -89,6 +89,20 @@ export default async function ProfilePage() {
         </p>
         <PathSelector currentPath={path} />
       </div>
+
+      <div className="bg-slate-900 border border-slate-800 rounded-2xl p-8 space-y-6">
+        <h3 className="text-xl font-semibold text-white border-b border-slate-800 pb-4">Sơ đồ Phân cấp Tu luyện</h3>
+        <p className="text-slate-400 text-sm">
+          Bảng xếp hạng cảnh giới dành cho các bậc đại năng thiên kiêu trên con đường chinh phục đỉnh cao.
+        </p>
+        <div className="mt-4 overflow-hidden rounded-xl border border-slate-800 shadow-2xl">
+          <img 
+            src="/leveling-chart.jpg" 
+            alt="Sơ đồ Phân cấp Tu luyện" 
+            className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700"
+          />
+        </div>
+      </div>
     </div>
   );
 }
