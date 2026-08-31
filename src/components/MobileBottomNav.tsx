@@ -31,12 +31,6 @@ export function MobileBottomNav({ isAdmin = false }: MobileBottomNavProps) {
       isActive: pathname.startsWith("/tu-truyen"),
     },
     {
-      label: "Nạp Thẻ",
-      href: "/nap-the",
-      icon: Gem,
-      isActive: pathname.startsWith("/nap-the"),
-    },
-    {
       label: "Hồ Sơ",
       href: "/profile",
       icon: User,

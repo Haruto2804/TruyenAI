@@ -72,12 +72,6 @@ export async function UserMenu() {
         </div>
       </div>
 
-      {/* Economy / Linh Thạch */}
-      <Link href="/nap-the" className="flex items-center gap-1.5 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-[#d4af37]/50 px-3 py-1.5 rounded-full transition-colors" title="Nạp Linh Thạch">
-        <span className="text-sm font-bold text-amber-400">{linhThach}</span>
-        <span className="text-xs text-amber-500/80">💎</span>
-      </Link>
-
       {/* Avatar & Dropdown */}
       <div className="flex items-center gap-2 sm:gap-3">
         <Link 
