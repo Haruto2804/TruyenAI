@@ -152,19 +152,16 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
         })}
       </div>
 
-      {/* Lore Detail Modal (Responsive Bottom-Sheet on Mobile, Centered Dialog on Desktop) */}
+      {/* Lore Detail Modal (Always Centered Dialog on All Devices) */}
       {selectedLore && (
         <div
-          className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-6 bg-black/90 backdrop-blur-2xl animate-in fade-in duration-200"
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 md:p-8 bg-black/90 backdrop-blur-2xl animate-in fade-in duration-200"
           onClick={() => setSelectedLore(null)}
         >
           <div
-            className="relative w-full sm:max-w-xl md:max-w-2xl bg-gradient-to-b from-slate-900 via-slate-950 to-black border-t sm:border border-cyan-500/40 rounded-t-3xl sm:rounded-3xl p-6 sm:p-8 shadow-[0_-15px_60px_rgba(0,0,0,0.95)] sm:shadow-[0_20px_60px_rgba(0,0,0,0.95)] space-y-5 max-h-[88vh] overflow-y-auto animate-in slide-in-from-bottom-6 sm:zoom-in-95 duration-200"
+            className="relative w-full max-w-lg sm:max-w-xl md:max-w-2xl bg-gradient-to-b from-slate-900 via-slate-950 to-black border border-cyan-500/40 rounded-3xl p-6 sm:p-8 shadow-[0_20px_70px_rgba(0,0,0,0.95)] space-y-5 max-h-[85vh] overflow-y-auto animate-in zoom-in-95 duration-200"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Mobile Drag Bar */}
-            <div className="w-12 h-1.5 bg-white/25 rounded-full mx-auto -mt-1 sm:hidden shrink-0" />
-
             <div className="flex items-start justify-between border-b border-white/10 pb-4">
               <div className="flex items-center gap-3.5">
                 <div className="p-3 bg-cyan-500/15 rounded-2xl text-cyan-400 border border-cyan-500/30 shadow-[0_0_20px_rgba(6,182,212,0.25)] shrink-0">

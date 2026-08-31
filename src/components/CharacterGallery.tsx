@@ -233,11 +233,11 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
       </div>
 
       {/* ========================================================================= */}
-      {/* UNIVERSAL CHARACTER DOSSIER MODAL (PORTALED TO BODY) */}
+      {/* UNIVERSAL CHARACTER DOSSIER MODAL (PORTALED TO BODY - ALWAYS CENTERED) */}
       {/* ========================================================================= */}
       {mounted && selectedChar && !isFullscreenImage && createPortal(
         <div
-          className="fixed inset-0 z-50 flex items-end md:items-center justify-center p-0 md:p-6 bg-black/95 backdrop-blur-2xl animate-in fade-in duration-200"
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 md:p-8 bg-black/95 backdrop-blur-2xl animate-in fade-in duration-200"
           onClick={() => setSelectedIndex(null)}
         >
           {/* ========================================================================= */}
@@ -381,15 +381,12 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
           </div>
 
           {/* ========================================================================= */}
-          {/* COMPACT & ERGONOMIC MOBILE BOTTOM-SHEET (< md screens) */}
+          {/* CENTERED MOBILE MODAL VIEW (< md screens) */}
           {/* ========================================================================= */}
           <div
-            className="md:hidden relative w-full bg-gradient-to-b from-slate-900 via-slate-950 to-black border-t border-[#d4af37]/40 rounded-t-3xl p-5 shadow-[0_-15px_50px_rgba(0,0,0,0.95)] max-h-[88vh] overflow-y-auto flex flex-col space-y-4 animate-in slide-in-from-bottom-6 duration-200"
+            className="md:hidden relative w-full max-w-lg bg-gradient-to-b from-slate-900 via-slate-950 to-black border border-[#d4af37]/40 rounded-3xl p-5 sm:p-6 shadow-[0_20px_70px_rgba(0,0,0,0.95)] max-h-[85vh] overflow-y-auto flex flex-col space-y-4 animate-in zoom-in-95 duration-200"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Drag handle */}
-            <div className="w-12 h-1.5 bg-white/25 rounded-full mx-auto -mt-1 shrink-0" />
-
             {/* Mobile Hero Bar: Side-by-Side (Avatar + Name/Role) */}
             <div className="flex items-start justify-between gap-3.5 border-b border-white/10 pb-3.5">
               <div className="flex items-center gap-3.5 min-w-0">
