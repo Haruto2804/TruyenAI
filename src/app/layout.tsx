@@ -31,23 +31,37 @@ export default function RootLayout({
       lang="vi"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-slate-900 text-slate-50">
-        <header className="sticky top-0 z-50 w-full border-b border-slate-800 bg-slate-900/80 backdrop-blur">
-          <div className="container mx-auto px-4 h-14 flex items-center justify-between">
-            <Link href="/" className="flex items-center gap-2 text-brand hover:text-brand-hover transition-colors">
-              <BookOpen className="h-6 w-6" />
-              <span className="font-bold text-lg tracking-tight">Thiên Thư AI</span>
+      <body className="min-h-full flex flex-col bg-[#09090b] text-slate-100 selection:bg-[#d4af37]/30 selection:text-white">
+        
+        {/* Glow nền mờ tạo chiều sâu */}
+        <div className="pointer-events-none fixed inset-0 flex justify-center z-0">
+          <div className="h-[30rem] w-[50rem] rounded-full bg-[#d4af37]/5 blur-[120px] opacity-60" />
+        </div>
+
+        <header className="sticky top-0 z-50 w-full border-b border-white/5 bg-[#09090b]/70 backdrop-blur-xl shadow-sm">
+          <div className="container mx-auto px-4 h-16 flex items-center justify-between relative z-10">
+            <Link 
+              href="/" 
+              className="flex items-center gap-2 group transition-all duration-300 py-2 min-h-[44px] outline-none focus-visible:ring-2 focus-visible:ring-[#d4af37] rounded-lg"
+              aria-label="Trang chủ Thiên Thư AI"
+            >
+              <BookOpen className="h-6 w-6 text-[#d4af37] group-hover:scale-110 transition-transform duration-300" aria-hidden="true" />
+              <span className="font-extrabold text-xl tracking-tight bg-gradient-to-r from-[#d4af37] to-amber-200 bg-clip-text text-transparent drop-shadow-sm">
+                Thiên Thư AI
+              </span>
             </Link>
-            <UserMenu />
+            <div className="relative z-10 flex items-center min-h-[44px]">
+              <UserMenu />
+            </div>
           </div>
         </header>
 
-        <main className="flex-1 container mx-auto px-4 py-8">
+        <main className="flex-1 container mx-auto px-4 py-10 relative z-10">
           {children}
         </main>
 
-        <footer className="border-t border-slate-800 py-6 mt-auto">
-          <div className="container mx-auto px-4 text-center text-sm text-slate-400">
+        <footer className="border-t border-white/5 py-8 mt-auto relative z-10">
+          <div className="container mx-auto px-4 text-center text-sm text-slate-500 font-medium">
             &copy; {new Date().getFullYear()} Thiên Thư AI. Tự động hóa bởi Antigravity.
           </div>
         </footer>

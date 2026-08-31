@@ -1,6 +1,6 @@
 import Link from "next/link";
 import prisma from "@/lib/prisma";
-import { BookOpen } from "lucide-react";
+import { BookOpen, PackageOpen } from "lucide-react";
 
 export default async function Home() {
   const stories = await prisma.story.findMany({
@@ -13,46 +13,105 @@ export default async function Home() {
   });
 
   return (
-    <div className="space-y-8">
-      <section className="text-center py-12 space-y-4">
-        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-white">
-          Kho Tàng <span className="text-[#d4af37]">Kỳ Thư</span>
+    <div className="space-y-12">
+      {/* Hero Section */}
+      <section className="text-center py-16 space-y-6 relative">
+        {/* Glow effect behind title with design-spells pulse */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-32 bg-[#d4af37]/10 blur-[80px] rounded-full pointer-events-none animate-pulse" />
+        
+        <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight text-white relative">
+          Kho Tàng <span className="bg-gradient-to-r from-[#d4af37] via-amber-300 to-yellow-500 bg-clip-text text-transparent drop-shadow-sm">Kỳ Thư</span>
         </h1>
-        <p className="text-slate-400 max-w-2xl mx-auto text-lg">
+        <p className="text-slate-400 max-w-2xl mx-auto text-lg md:text-xl font-medium">
           Đọc truyện mượt mà, không quảng cáo, tối ưu 100% cho thiết bị di động.
         </p>
       </section>
 
+      {/* Main Content Section */}
       <section>
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-bold text-slate-100 flex items-center gap-2">
-            <BookOpen className="h-6 w-6 text-[#d4af37]" /> Mới Cập Nhật
+        <div className="flex items-center justify-between mb-8 border-b border-white/5 pb-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-100 flex items-center gap-3">
+            <div className="p-2 bg-[#d4af37]/10 rounded-lg">
+              <BookOpen className="h-6 w-6 text-[#d4af37]" strokeWidth={2.5} />
+            </div>
+            Mới Cập Nhật
           </h2>
         </div>
 
         {stories.length === 0 ? (
-          <div className="text-center py-12 bg-slate-800/50 rounded-xl border border-slate-700/50">
-            <p className="text-slate-400">Chưa có truyện nào được đăng tải.</p>
+          /* ux-feedback: Proper Empty State with ux-copy tone */
+          <div className="flex flex-col items-center justify-center py-20 px-4 text-center bg-white/5 backdrop-blur-md rounded-2xl border border-white/10">
+            <PackageOpen className="size-16 text-slate-500 mb-4 opacity-50" strokeWidth={1.5} />
+            <h3 className="text-xl font-bold text-slate-200 mb-2">Chưa có gì ở đây cả!</h3>
+            <p className="text-slate-400 font-medium max-w-sm mx-auto mb-6">
+              Tàng thư các hiện đang trống. Hãy thử khám phá các tác phẩm kinh điển hoặc quay lại sau nhé.
+            </p>
+            <button className="px-6 py-2.5 bg-white/10 hover:bg-white/15 text-slate-200 rounded-xl font-medium transition-colors border border-white/5 min-h-[44px]">
+              Khám phá ngẫu nhiên
+            </button>
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {stories.map((story) => (
-              <Link key={story.id} href={`/truyen/${story.slug}`}>
-                <div className="bg-slate-800/40 border border-slate-700/50 rounded-xl p-5 hover:bg-slate-800 transition-all hover:border-slate-600 group">
-                  <h3 className="font-bold text-lg text-slate-200 group-hover:text-[#d4af37] transition-colors line-clamp-1 mb-2">
-                    {story.title}
-                  </h3>
-                  <div className="flex items-center text-sm text-slate-400 mb-3 gap-3">
-                    <span className="bg-slate-900 px-2 py-1 rounded text-xs">
-                      {story.genre || 'Tiên Hiệp'}
-                    </span>
-                    <span>{story._count.chapters} chương</span>
+              <Link 
+                key={story.id} 
+                href={`/truyen/${story.slug}`} 
+                className="group block outline-none"
+                aria-label={`Đọc truyện ${story.title}`}
+              >
+                <div className="relative flex flex-col h-full overflow-hidden bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl transition-all duration-300 group-hover:-translate-y-1.5 group-hover:border-[#d4af37]/40 group-hover:shadow-[0_12px_35px_rgba(212,175,55,0.15)] group-focus-visible:ring-2 group-focus-visible:ring-[#d4af37]">
+                  
+                  {/* Cover Image Thumbnail Container */}
+                  <div className="relative aspect-[16/10] w-full overflow-hidden bg-slate-950/80 border-b border-white/5">
+                    {story.coverUrl ? (
+                      <img
+                        src={story.coverUrl}
+                        alt={story.title}
+                        className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                      />
+                    ) : (
+                      /* Stylized fantasy dark-gold placeholder */
+                      <div className="relative flex h-full w-full items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-amber-950/30">
+                        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(212,175,55,0.08)_0%,transparent_70%)]" />
+                        <div className="p-4 rounded-2xl bg-white/5 border border-white/10 shadow-inner group-hover:scale-110 transition-transform duration-300">
+                          <BookOpen className="h-10 w-10 text-[#d4af37]/70" strokeWidth={1.75} />
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Genre Badge */}
+                    <div className="absolute top-3 left-3">
+                      <span className="rounded-lg border border-white/10 bg-black/60 px-2.5 py-1 text-xs font-semibold text-amber-200 backdrop-blur-md shadow-sm">
+                        {story.genre || 'Tiên Hiệp'}
+                      </span>
+                    </div>
+
+                    {/* Chapter Count Badge */}
+                    <div className="absolute bottom-3 right-3">
+                      <span className="rounded-lg border border-white/10 bg-black/70 px-2.5 py-1 text-xs font-medium text-slate-300 backdrop-blur-md shadow-sm flex items-center gap-1.5">
+                        <span className="w-1.5 h-1.5 rounded-full bg-[#d4af37]" />
+                        {story._count.chapters} chương
+                      </span>
+                    </div>
+
+                    {/* Shimmer Light Reflection on Hover */}
+                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/[0.07] to-transparent opacity-0 group-hover:opacity-100 -translate-x-full group-hover:translate-x-full transition-all duration-1000 ease-in-out pointer-events-none" />
                   </div>
-                  {story.summary && (
-                    <p className="text-slate-400 text-sm line-clamp-2 leading-relaxed">
-                      {story.summary}
-                    </p>
-                  )}
+
+                  {/* Story Details */}
+                  <div className="flex flex-1 flex-col p-5">
+                    <h3 className="font-bold text-lg md:text-xl text-slate-100 group-hover:text-[#d4af37] transition-colors line-clamp-1 mb-2">
+                      {story.title}
+                    </h3>
+                    
+                    {story.summary ? (
+                      <p className="text-slate-400 text-sm line-clamp-2 leading-relaxed mt-auto">
+                        {story.summary}
+                      </p>
+                    ) : (
+                      <p className="text-slate-500 italic text-sm mt-auto">Chưa có tóm tắt.</p>
+                    )}
+                  </div>
                 </div>
               </Link>
             ))}
