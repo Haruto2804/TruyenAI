@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { 
   BookOpen, Clock, List, ChevronRight, Sparkles, BookMarked, 
-  MessageSquare, Feather, Palette, ShieldCheck, Crown 
+  MessageSquare, Feather, Users, Crown 
 } from "lucide-react";
 import { auth } from "@/auth";
 import { BookmarkButton } from "@/components/BookmarkButton";
@@ -12,7 +12,14 @@ import { CharacterGallery } from "@/components/CharacterGallery";
 import { LoreGallery } from "@/components/LoreGallery";
 import { StorySummary } from "@/components/StorySummary";
 
-function StorySpecsCard({ className = "" }: { className?: string }) {
+interface StorySpecsCardProps {
+  className?: string;
+  chapterCount: number;
+  characterCount: number;
+  loreCount: number;
+}
+
+function StorySpecsCard({ className = "", chapterCount, characterCount, loreCount }: StorySpecsCardProps) {
   return (
     <div className={`relative overflow-hidden bg-gradient-to-b from-slate-900/90 via-slate-950/95 to-black border border-[#d4af37]/30 hover:border-[#d4af37]/60 rounded-2xl sm:rounded-3xl p-4 sm:p-5 md:p-6 shadow-[0_15px_35px_rgba(0,0,0,0.7)] backdrop-blur-xl transition-all duration-300 group flex flex-col justify-between space-y-3.5 ${className}`}>
       {/* Subtle top-right golden aurora ambient */}
@@ -35,7 +42,7 @@ function StorySpecsCard({ className = "" }: { className?: string }) {
         </span>
       </div>
 
-      {/* 2x2 Feature Highlights Grid */}
+      {/* 2x2 Feature Highlights Grid (100% Real Database Stats) */}
       <div className="grid grid-cols-2 gap-2.5 sm:gap-3 text-left flex-1 items-stretch">
         {/* 1. Tình trạng */}
         <div className="p-2.5 sm:p-3 rounded-xl bg-white/[0.03] border border-white/5 hover:border-emerald-500/30 transition-all flex flex-col justify-between min-w-0">
@@ -49,30 +56,30 @@ function StorySpecsCard({ className = "" }: { className?: string }) {
           </div>
         </div>
 
-        {/* 2. Họa phẩm */}
+        {/* 2. Số chương (Từ DB) */}
         <div className="p-2.5 sm:p-3 rounded-xl bg-white/[0.03] border border-white/5 hover:border-amber-500/30 transition-all flex flex-col justify-between min-w-0">
-          <span className="text-[10px] text-slate-400 font-medium">Họa phẩm</span>
+          <span className="text-[10px] text-slate-400 font-medium">Quy mô</span>
           <div className="flex items-center gap-1.5 mt-1 min-w-0">
-            <Palette className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-            <span className="font-extrabold text-[11px] sm:text-xs text-slate-200 whitespace-nowrap">Manhwa 9:16</span>
+            <BookOpen className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+            <span className="font-extrabold text-[11px] sm:text-xs text-slate-200 whitespace-nowrap">{chapterCount} chương</span>
           </div>
         </div>
 
-        {/* 3. Tương tác X-Ray */}
+        {/* 3. Hồ sơ nhân vật (Từ DB) */}
         <div className="p-2.5 sm:p-3 rounded-xl bg-white/[0.03] border border-white/5 hover:border-cyan-500/30 transition-all flex flex-col justify-between min-w-0">
-          <span className="text-[10px] text-slate-400 font-medium">Đặc sắc</span>
+          <span className="text-[10px] text-slate-400 font-medium">Nhân vật</span>
           <div className="flex items-center gap-1.5 mt-1 min-w-0">
-            <Sparkles className="w-3.5 h-3.5 text-cyan-400 shrink-0" />
-            <span className="font-extrabold text-[11px] sm:text-xs text-cyan-300 whitespace-nowrap">X-Ray Tra Cứu</span>
+            <Users className="w-3.5 h-3.5 text-cyan-400 shrink-0" />
+            <span className="font-extrabold text-[11px] sm:text-xs text-cyan-300 whitespace-nowrap">{characterCount} nhân vật</span>
           </div>
         </div>
 
-        {/* 4. Bản quyền */}
+        {/* 4. Bách khoa tra cứu / Lore (Từ DB) */}
         <div className="p-2.5 sm:p-3 rounded-xl bg-white/[0.03] border border-white/5 hover:border-purple-500/30 transition-all flex flex-col justify-between min-w-0">
-          <span className="text-[10px] text-slate-400 font-medium">Bản quyền</span>
+          <span className="text-[10px] text-slate-400 font-medium">Bách khoa</span>
           <div className="flex items-center gap-1.5 mt-1 min-w-0">
-            <ShieldCheck className="w-3.5 h-3.5 text-purple-400 shrink-0" />
-            <span className="font-extrabold text-[11px] sm:text-xs text-purple-300 whitespace-nowrap">Độc Quyền AI</span>
+            <BookMarked className="w-3.5 h-3.5 text-purple-400 shrink-0" />
+            <span className="font-extrabold text-[11px] sm:text-xs text-purple-300 whitespace-nowrap">{loreCount} thuật ngữ</span>
           </div>
         </div>
       </div>
@@ -254,8 +261,13 @@ export default async function StoryDetail({
         {/* LOWER HERO ROW: 2 CONTAINERS NGANG HÀNG NHAU (Tác Giả & Tóm Tắt) */}
         {/* ========================================================================= */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 items-stretch pt-6 sm:pt-8 border-t border-white/10 mt-6 sm:mt-8">
-          {/* Container 1: Thẻ Tác Giả & Thông Số Đặc Sắc */}
-          <StorySpecsCard className="w-full h-full" />
+          {/* Container 1: Thẻ Tác Giả & Thông Số Đặc Sắc (100% Real DB Data) */}
+          <StorySpecsCard 
+            className="w-full h-full" 
+            chapterCount={story.chapters.length}
+            characterCount={story.characters.length}
+            loreCount={story.lores.length}
+          />
 
           {/* Container 2: Thẻ Tóm Tắt Nội Dung (Ngang hàng) */}
           {story.summary && (
