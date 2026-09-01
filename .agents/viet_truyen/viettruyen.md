@@ -66,6 +66,7 @@ Mỗi lần sáng tác chương mới hoặc phát triển cốt truyện, hệ 
 ### [SKILL 6] LOREKEEPER AGENT (BÁCH KHOA TOÀN THƯ & TỰ ĐỘNG PHÁT HIỆN CHÚ GIẢI)
 * **Nhiệm vụ:**
   - Tự động quét phân tích nội dung chương truyện để phát hiện các thuật ngữ, độc dược, bí thuật, địa danh, bảo vật, công pháp, cảnh giới mới mà người đọc cần tra cứu.
+  - **BẮT BUỘC:** Khi xuất hiện bất kỳ nhân vật mới, địa danh mới, hay khái niệm/đồ vật mới nào, phải GHI NGAY vào danh sách chú giải và hồ sơ nhân vật (`master_codex.md`). Tuyệt đối không được bỏ sót.
   - Phân loại danh mục (`Độc Dược`, `Bí Thuật`, `Địa Danh`, `Bảo Vật`, `Thế Lực`, `Cảnh Giới`...) và viết định nghĩa cô đọng, dễ hiểu.
   - **Tự động ghi vào `master_codex.md` và Database** để kích hoạt tính năng X-Ray Interactive Reader (người đọc chạm vào từ khóa là hiện bảng giải nghĩa tức thì).
 

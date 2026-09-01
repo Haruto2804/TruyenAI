@@ -65,8 +65,8 @@ export default async function ChapterDetail({
     notFound();
   }
 
-  // Nếu chương là VIP, kiểm tra xem đã được người dùng này mua chưa
-  const isUnlocked = chapter.isVip ? (chapter.unlockedBy.length > 0) : true;
+  // Bỏ tính năng khóa chương, đọc miễn phí toàn bộ
+  const isUnlocked = true;
 
   return (
     <div className="relative max-w-4xl mx-auto space-y-8 overflow-x-hidden">
@@ -147,16 +147,12 @@ export default async function ChapterDetail({
 
       {/* Chapter Content Section with X-Ray Character & Lore Highlighter */}
       <div className="py-2 sm:py-4 px-0 sm:px-2">
-        {!isUnlocked ? (
-          <UnlockButton chapterId={chapter.id} price={chapter.price} />
-        ) : (
-          <InteractiveReader
-            content={chapter.content}
-            characters={story.characters}
-            lores={story.lores}
-            storySlug={story.slug}
-          />
-        )}
+        <InteractiveReader
+          content={chapter.content}
+          characters={story.characters}
+          lores={story.lores}
+          storySlug={story.slug}
+        />
       </div>
 
 

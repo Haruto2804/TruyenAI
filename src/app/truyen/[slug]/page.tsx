@@ -348,11 +348,7 @@ export default async function StoryDetail({
                   <span className="text-xs sm:text-sm md:text-base font-semibold text-slate-200 group-hover:text-white transition-colors truncate">
                     {chapter.title}
                   </span>
-                  {chapter.isVip && (
-                    <span className="px-2 py-0.5 rounded-md text-[10px] sm:text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30 shrink-0">
-                      VIP ({chapter.price}💎)
-                    </span>
-                  )}
+
                 </div>
 
                 <div className="flex items-center gap-2 shrink-0">
