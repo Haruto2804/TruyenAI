@@ -5,7 +5,7 @@ import { ArrowLeft, ChevronLeft, ChevronRight, Menu } from "lucide-react";
 import { ExpTracker } from "@/components/ExpTracker";
 import { ProgressTracker } from "@/components/ProgressTracker";
 import { CommentSection } from "@/components/CommentSection";
-import { UnlockButton, DonateButton } from "@/components/EconomyButtons";
+import { UnlockButton } from "@/components/EconomyButtons";
 import { InteractiveReader } from "@/components/InteractiveReader";
 import { auth } from "@/auth";
 
@@ -157,8 +157,6 @@ export default async function ChapterDetail({
         )}
       </div>
 
-      {/* Tặng thưởng tác giả (chỉ hiện khi đã mở khóa hoặc chương free) */}
-      {isUnlocked && <DonateButton storyId={story.id} />}
 
       {/* Bottom Navigation Bar */}
       <div className="flex items-center gap-3 sm:gap-4 py-8 mt-4 w-full justify-center border-t border-white/5">

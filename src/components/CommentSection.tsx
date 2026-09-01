@@ -83,7 +83,7 @@ export function CommentSection({ storyId, chapterId }: { storyId: string, chapte
             </span>
           </div>
           
-          <div className="text-slate-200 leading-relaxed text-xs sm:text-sm bg-black/40 p-3 sm:p-3.5 rounded-xl border border-white/5 whitespace-pre-wrap">
+          <div className="text-slate-200 leading-relaxed text-xs sm:text-sm bg-black/40 p-3 sm:p-3.5 rounded-xl border border-white/5 whitespace-pre-wrap break-words [overflow-wrap:anywhere]">
             {c.isDeleted ? <span className="italic text-slate-500">Bình luận này đã bị xóa.</span> : c.content}
           </div>
 

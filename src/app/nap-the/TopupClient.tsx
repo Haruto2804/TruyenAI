@@ -49,7 +49,7 @@ export default function TopupClient({ userId, linhThach }: { userId: string, lin
             Nạp Linh Thạch Thần Tốc
           </h1>
           <p className="text-slate-400 text-xs sm:text-sm max-w-lg mx-auto">
-            Nạp linh thạch tự động qua quét mã VietQR để mở khóa chương VIP, tặng thưởng tác giả và nhận danh hiệu đặc quyền.
+            Nạp linh thạch tự động qua quét mã VietQR để mở khóa chương VIP và nhận danh hiệu đặc quyền.
           </p>
 
           <div className="mt-5 inline-flex items-center gap-2 bg-black/40 px-5 py-2.5 rounded-2xl border border-white/10 shadow-inner">
