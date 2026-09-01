@@ -8,7 +8,11 @@
     "start": "next start",
     "lint": "eslint",
     "make-admin": "node scripts/make-admin.js",
-    "sync:novel": "npx tsx scripts/auto_sync.ts"
+    "sync:novel": "npx tsx scripts/auto_sync.ts",
+    "test:security": "npx tsx scripts/security_audit.ts",
+    "test:perf": "npx tsx scripts/perf_audit.ts",
+    "test:load": "npx tsx scripts/load_test.ts",
+    "test:all": "npx tsx scripts/run_all_tests.ts"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.3",
