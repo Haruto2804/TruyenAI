@@ -1,63 +1,56 @@
 # HỒ SƠ TỔNG QUAN VÀ KÝ ỨC VĨNH CỬU: VẠN CỔ ĐỆ NHẤT THƯƠNG MINH
 
-> **Tên tiểu thuyết:** Vạn Cổ Đệ Nhất Thương Minh (The Eternal Monopoly: Empire of the God-Tier Tycoon)  
+> **Tên tiểu thuyết:** Vạn Cổ Đệ Nhất Thương Minh (The Eternal Monopoly: God of War & Wealth)  
 > **Slug:** `van-co-de-nhat-thuong-minh`  
 > **Tác giả:** Thiên Thư AI & Cố Trường Khanh  
-> **Thể loại:** Huyền Huyễn Tu Chân, Thương Chiến Mưu Lược, Song Cường, Hệ Thống Định Giá  
+> **Thể loại:** Xuyên Không, Tiên Hiệp Sát Phạt, Thương Chiến Mưu Lược, Càng Giàu Càng Mạnh, Song Cường  
 > **Trạng thái:** Đang tiến hành (Chương 1 - 5)  
-> **Mô tả ngắn:** Bị đối thủ hãm hại phá sản, mang trên lưng món nợ khổng lồ 10 vạn Linh Thạch và đan điền bị phong ấn. Cố Trường Khanh thức tỉnh "Thiên Cơ Định Giá Nhãn" nhìn thấu giá trị thực và xu hướng thị trường của vạn vật. Kết hợp cùng Thẩm Lạc Cẩm — tuyệt sắc đệ nhất tài nữ lưu vong mang độc Cửu U nhưng nắm giữ mạng lưới thương lộ 10 vạn dặm, cả hai bắt đầu từ một quán cầm đồ rách nát, từng bước nuốt chửng các đại thương hội, phát hành tiền tệ tín dụng và xây dựng đế chế tài phiệt thống trị Vạn Giới!
+> **Mô tả ngắn:** Một chuyên gia tài chính kiêm bậc thầy chiến thuật thời hiện đại xuyên không vào thân xác thế tử Cố gia bị gài bẫy nợ 10 vạn Linh Thạch, đan điền bị phế. Hắn thức tỉnh nghịch thiên **"Vạn Cổ Chiến Thần Giám"** (nhìn thấu sát chiêu, một đòn đoạt mạng) kết hợp cùng **"Thao Thiết Thôn Kim Quyết"** (Đốt tiền tăng tu vi, càng giàu lực chiến càng vô địch!). Kết hợp cùng Thẩm Lạc Cẩm — tuyệt sắc đệ nhất tài nữ lưu vong mang độc Cửu U nắm giữ mạng lưới thương lộ 10 vạn dặm, cả hai bắt đầu từ một quán cầm đồ rách nát: Hắn dùng nắm đấm và kiếm đạo đập tan mọi kẻ thù, nàng dùng đầu óc tài chính gom sạch thiên hạ tài phú, từng bước nuốt chửng các đại thương hội, phát hành tiền tệ tín dụng và xây dựng đế chế tài phiệt thống trị Vạn Giới!
 
 ---
 
 ## 🗺️ 1. THẾ GIỚI QUAN & BỐI CẢNH (WORLD SETTING)
 
-* **Thiên Nguyên Đại Lục:** Thế giới tu chân rộng lớn vô ngần, chia thành Đông Hoang, Tây Mạc, Nam Cương, Bắc Uyên và Trung Châu Thần Vực.
-* **Hắc Nham Thành:** Tòa thành cổ biên ải thuộc Đông Hoang, nằm giữa ngã ba ranh giới giữa rừng rậm Yêu Thú và các tuyến thương lộ buôn lậu. Nơi đây hỗn loạn, cá lớn nuốt cá bé, bị thao túng bởi phân hội của **Vạn Kim Thương Hội** và thế lực ngầm **Hắc Thị**.
-* **Thiên Cơ Lâu (Cố Gia Thương Điếm):** Quán cầm đồ rách nát ban đầu của Cố gia, nằm ở góc khuất phía tây Hắc Nham Thành, sau này trở thành trụ sở khởi nguồn của Đệ Nhất Thương Minh Vạn Cổ.
+* **Thiên Nguyên Đại Lục:** Thế giới tu chân rộng lớn vô ngần, nơi kẻ mạnh dùng nắm đấm định đoạt sinh tử, kẻ giàu dùng linh thạch thâu tóm tài nguyên.
+* **Hắc Nham Thành:** Tòa thành cổ biên ải Đông Hoang, nơi tập trung các dòng chảy buôn lậu khoáng thạch và dược liệu, bị lũng đoạn bởi phân hội của **Vạn Kim Thương Hội** và thế lực ngầm **Hắc Thị**.
+* **Thiên Cơ Lâu (Cố Gia Thương Điếm):** Khởi đầu từ một tiệm cầm đồ nợ nần ngập đầu, sau trở thành đế chế thương minh kiêm pháo đài sát thần bậc nhất thế giới tu chân.
 
 ---
 
-## 💰 2. HỆ THỐNG KINH TẾ & TIỀN TỆ (CURRENCY SCALE)
+## ⚡ 2. HỆ THỐNG CHIẾN ĐẤU & CÔNG PHÁP NGHỊCH THIÊN
+
+### 👑 Kim Thủ Chỉ Của Cố Trường Khanh:
+1. **Chiến Thần Đạo Nhãn (Chiến Đấu):** Nhìn thấu quỹ đạo chuyển động, điểm yếu giải phẫu cơ thể, sơ hở kinh mạch của đối phương trong 0.1 giây để tung đòn phản sát chí mạng một chiêu đoạt mạng.
+2. **Thao Thiết Thôn Kim Quyết (Càng Giàu Càng Vô Địch):** Công pháp độc nhất vô nhị cho phép đốt cháy linh thạch và tài phú thành năng lượng linh lực thuần khiết, đột phá cảnh giới không giới hạn, lực chiến tăng theo cấp số nhân theo số tiền sở hữu.
+
+---
+
+## 💰 3. HỆ THỐNG TIỀN TỆ LINH GIỚI
 
 * **100 Phế Linh Thạch (Đồng Vụn):** = 1 Hạ Phẩm Linh Thạch.
-* **100 Hạ Phẩm Linh Thạch:** = 1 Trung Phẩm Linh Thạch (Vốn liếng đủ mua một thanh phi kiếm bình dân).
+* **100 Hạ Phẩm Linh Thạch:** = 1 Trung Phẩm Linh Thạch.
 * **100 Trung Phẩm Linh Thạch:** = 1 Thượng Phẩm Linh Thạch (Tương đương 1 vạn Hạ Phẩm Linh Thạch).
 * **100 Thượng Phẩm Linh Thạch:** = 1 Cực Phẩm Linh Thạch.
-* **Thiên Cơ Linh Phiếu:** Tiền tệ tín dụng độc quyền sau này do Cố Trường Khanh và Thẩm Lạc Cẩm phát hành, được bảo chứng bằng linh quặng và uy tín tuyệt đối.
+* **Thiên Cơ Linh Phiếu:** Tín phiếu tiền tệ bảo chứng linh thạch đầu tiên do Cố gia phát hành.
 
 ---
 
-## ⚡ 3. HỆ THỐNG CẢNH GIỚI TU LUYỆN
-
-1. **Luyện Khí Kỳ (Tầng 1 - 9):** Luyện thể, ngưng tụ linh khí sơ khai.
-2. **Trúc Cơ Kỳ (Sơ - Trung - Hậu - Viên Mãn):** Đúc thành Linh Cơ, linh lực hóa lỏng, có thể ngự khí sát địch.
-3. **Kim Đan Kỳ (Nhất Chuyển đến Cửu Chuyển):** Kết thành Kim Đan bất hoại, thọ mệnh năm trăm năm.
-4. **Nguyên Anh Kỳ:** Linh hồn hóa anh, dời non lấp biển.
-5. **Hóa Thần Kỳ:** Thần thức thông thiên, cự đầu một cõi.
-
----
-
-## 👥 4. DANH SÁCH NHÂN VẬT CHÍNH (CHARACTER PROFILES)
+## 👥 4. THIẾT LẬP NHÂN VẬT CHÍNH (PROFILES)
 
 ### 1. Cố Trường Khanh (Nam Chính)
-* **Thân phận:** Thiếu chủ Cố Gia, chủ nhân Thiên Cơ Lâu.
-* **Tu vi hiện tại:** Đan điền bị phong ấn (khí tức tương đương Luyện Khí Tầng 1), nhưng nắm giữ **[Thiên Cơ Định Giá Nhãn]** và bước đầu kích hoạt bí thuật Thao Thiết Thôn Linh quyết.
-* **Vũ khí/Bảo vật:** Cổ Kiếm Tàn Xích (ẩn giấu Long Hồn Thượng Cổ).
-* **Trạng thái:** Tỉnh táo, ẩn nhẫn, quyết đoán, đang dẫn dắt thương chiến tại Hắc Nham Thành.
+* **Thân phận:** Chuyên gia tài chính kiêm võ sư hiện đại xuyên không / Thiếu chủ Cố Gia / Chủ nhân Thiên Cơ Lâu.
+* **Đặc điểm:** Tàn nhẫn với kẻ thù, lạnh lùng quyết đoán, đấm đá bạo lực đỉnh cao, dùng đầu óc kinh tế tư bản thời hiện đại vặt lông toàn bộ tu tiên giới.
+* **Vũ khí:** Xích Tiêu Long Kiếm (Cổ kiếm chứa Long Hồn hỏa diễm).
 
-### 2. Thẩm Lạc Cẩm (Nữ Chính - Bạch Ngọc Hồ Ly)
-* **Thân phận:** Nguyên Đích Nữ Đệ Nhất Tài Phiệt Trung Châu, Tổng Quân Sư Thiên Cơ Lâu.
-* **Tu vi hiện tại:** Trúc Cơ Viên Mãn (bị kịch độc Cửu U Băng Phách phong ấn 80% thực lực).
-* **Vật phẩm tiêu biểu:** Bàn tính Bạch Ngọc Cửu Cung.
-* **Trạng thái:** Tinh quái, mưu lược vô song, vừa được cứu mạng và cùng Cố Trường Khanh ký kết Khế Ước Vạn Cổ.
+### 2. Thẩm Lạc Cẩm (Nữ Chính)
+* **Thân phận:** Nguyên Đích Nữ Đệ Nhất Tài Phiệt Trung Châu / Bạch Ngọc Hồ Ly / Tổng Quân Sư Thiên Cơ Lâu.
+* **Đặc điểm:** Tuyệt sắc giai nhân với đôi mắt hồ ly ma mị, mưu trí sâu như biển, sử dụng Bàn Tính Bạch Ngọc Cửu Cung bố trận băng sát và điều khiển thương chiến.
 
 ### 3. Vương Đằng (Phản Diện Giai Đoạn 1)
-* **Thân phận:** Nhị thiếu gia Phân Hội Vạn Kim Thương Hội tại Hắc Nham Thành.
-* **Tu vi:** Luyện Khí Tầng 8.
-* **Tính cách:** Kiêu ngạo, tham lam, hiếu thắng, chuyên dùng thủ đoạn hãm hại các tiệm buôn nhỏ.
+* **Thân phận:** Nhị thiếu gia Vạn Kim Thương Hội, kiêu ngạo hống hách, bị Cố Trường Khanh đập gãy xương và gài bẫy phá sản.
 
-### 4. Thiết Sơn (Hộ Vệ Dự Bị)
-* **Thân phận:** Võ giả Thể Tu ngông cuồng tại Giác Đấu Trường Hắc Thị, mang ơn cứu mạng của Cố Trường Khanh.
+### 4. Vương Chấn Thiên (Cự Đầu Kim Đan Kỳ)
+* **Thân phận:** Phân Hội Trưởng Vạn Kim Thương Hội tại Hắc Nham Thành, tàn bạo, độc đoán.
 
 ---
 
@@ -65,12 +58,12 @@
 
 | Danh Mục | Tên Thuật Ngữ | Định Nghĩa Tra Cứu X-Ray |
 | :--- | :--- | :--- |
-| `🔮 Bí Thuật` | **Thiên Cơ Định Giá Nhãn** | Thần nhãn cổ đại cho phép người sở hữu nhìn thấu bản chất, giá trị thực, khiếm khuyết và xu hướng biến động giá của mọi vật phẩm trong trời đất. |
-| `🧪 Độc Dược` | **Cửu U Băng Phách Độc** | Loại hàn độc âm tà bậc nhất Trung Châu, thấm sâu vào tủy xương làm đông cứng linh lực, mỗi đêm trăng tròn đau đớn như bị ngàn lưỡi băng nghiền nát. |
-| `💎 Bảo Vật` | **Tàn Kiếm Xích Tiêu** | Thanh kiếm cổ gỉ sét mang hình dạng phế phẩm nhưng bên trong phong ấn một sợi Long Hồn Thượng Cổ chí dương. |
-| `💎 Bảo Vật` | **Bàn Tính Bạch Ngọc Cửu Cung** | Bảo vật gia truyền của Thẩm gia, có khả năng diễn toán biến động ngân lượng và dò tìm huyết mạch kinh tế của tông môn. |
-| `🛡️ Thế Lực` | **Vạn Kim Thương Hội** | Tập đoàn tài phiệt khổng lồ phủ sóng khắp Đông Hoang, nổi tiếng với phong cách kinh doanh tàn nhẫn, thôn tính đối thủ bằng cho vay nặng lãi và ám sát. |
-| `🏰 Địa Danh` | **Hắc Nham Hắc Thị** | Khu chợ đen ngầm nằm sâu dưới lòng Hắc Nham Thành, nơi diễn ra các giao dịch phi pháp, đồ trộm cướp và tàn tích thượng cổ không rõ nguồn gốc. |
-| `📜 Công Pháp` | **Thao Thiết Thôn Linh Quyết** | Công pháp nghịch thiên cho phép biến đổi linh lực từ việc tiêu hao tài phú và linh thạch thành tu vi nguyên chất. |
-| `🌿 Dược Liệu` | **Cửu Dương Huyết Linh Chi** | Linh chi sinh trưởng tại miệng núi lửa ngàn năm, mang hỏa tính cực hạn, là dược liệu chủ chốt áp chế Cửu U Hàn Độc. |
-| `📜 Khái Niệm` | **Thiên Cơ Linh Phiếu** | Tín phiếu nợ do Cố gia phát hành, mở đầu cho kỷ nguyên tiền tệ bảo chứng linh thạch đầu tiên tại Đông Hoang. |
+| `🔮 Bí Thuật` | **Chiến Thần Đạo Nhãn** | Thần nhãn sát phạt cho phép Cố Trường Khanh nhìn thấu toàn bộ quỹ đạo công kích, điểm yếu giải phẫu và sơ hở kinh mạch của đối thủ để tung đòn sát thủ. |
+| `📜 Công Pháp` | **Thao Thiết Thôn Kim Quyết** | Công pháp viễn cổ cho phép thiêu đốt linh thạch và tài phú thành chân nguyên tu vi cực hạn, càng tiêu nhiều tiền thì lực chiến càng cuồng bạo. |
+| `🧪 Độc Dược` | **Cửu U Băng Phách Độc** | Hàn độc âm tà chí cực của Trung Châu, phong ấn toàn bộ kinh mạch và đan điền của Thẩm Lạc Cẩm. |
+| `💎 Bảo Vật` | **Tàn Kiếm Xích Tiêu** | Cổ kiếm gỉ sét phong ấn Long Hồn Thượng Cổ chí dương của Hỏa Long Tông ba ngàn năm trước. |
+| `💎 Bảo Vật` | **Bàn Tính Bạch Ngọc Cửu Cung** | Bảo vật gia truyền của Thẩm gia, vừa là công cụ tính toán tài chính thần tốc vừa là pháp bảo trận pháp băng sát cự ly gần. |
+| `🛡️ Thế Lực` | **Vạn Kim Thương Hội** | Tập đoàn tài phiệt khổng lồ cai trị kinh tế Đông Hoang bằng bạo lực và thủ đoạn cho vay nặng lãi. |
+| `🏰 Địa Danh` | **Hắc Nham Hắc Thị** | Thành trì ngầm hỗn loạn dưới lòng đất, nơi tụ tập giác đấu trường đẫm máu và các phiên đấu giá phi pháp. |
+| `🌿 Dược Liệu` | **Cửu Dương Huyết Linh Chi** | Linh chi ngàn năm sinh trưởng trong lòng núi lửa, khắc tinh của Cửu U Hàn Độc. |
+| `📜 Khái Niệm` | **Thiên Cơ Linh Phiếu** | Tiền tệ tín dụng do Cố gia phát hành, mở ra cuộc cách mạng tài chính đè bẹp các đại thương hội cổ xưa. |
