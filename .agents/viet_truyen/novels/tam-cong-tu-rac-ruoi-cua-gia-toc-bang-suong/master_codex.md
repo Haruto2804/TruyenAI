@@ -234,6 +234,72 @@
 
 ---
 
+### 8. Đại Giáo Chủ Aldric
+* **Vai trò & Thân phận:** Đại Giáo Chủ Thần Điện Quang Minh / Phản diện chính Arc 2.
+* **Danh xưng & Biệt hiệu:** Đại Giáo Chủ, Aldric, Hiện Thân Quang Minh, Lão Quái Vật Thần Quyền.
+* **Cảnh giới & Tu vi:** Thiên Giai Sơ Kỳ (Hỏa hệ Quang Minh Thánh Thuật) → BỊ PHẾ BỎ MA HẠCH bởi Băng Sương Khóa Ma Chỉ của Caelen.
+* **Ảnh Avatar (9:16):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/aldric.jpg`
+
+* **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):**
+  - *Vóc dáng & Thể hình:* Cao 1m80, dáng người thanh mảnh, ngoại hình trẻ trung như trung niên ba mươi nhờ rửa tắm Thánh Thuỷ hàng ngày (tuổi thật: 72). Sau khi bị phế ma hạch, hiện nguyên hình già nua.
+  - *Mái tóc:* Bạch kim cắt gọn gàng chải ngược ra sau, sang trọng quý phái.
+  - *Đôi mắt & Ánh nhìn:* Đôi mắt vàng kim rực rỡ như hai mặt trời thu nhỏ, ánh nhìn từ bi nhân ái bên ngoài nhưng lạnh lẽo tàn nhẫn bên trong.
+  - *Trang phục:* Pháp bào trắng thuần khiết bằng lụa thiên tằm viền chỉ vàng ròng, thêu nổi biểu tượng Mặt Trời Đỉnh Thiên ở ngực trái.
+  - *Binh khí:* Tay trượng vàng ròng hình mặt trời, có thể biến hình thành ngọn thương ánh sáng dài 3m.
+
+* **🧠 Tính Cách & Chiều Sâu Tâm Lý:**
+  - *Bản chất:* Giả từ bi, thực chất tham lam quyền lực và tiền bạc. Duy trì hình tượng thánh nhân để thao túng đức tin hàng triệu người.
+  - *Kết cục:* Bị Caelen dùng Băng Sương Khóa Ma Chỉ phong ấn ma hạch, hiện nguyên hình già nua, bị bắt giữ vì tội phản quốc và cấu kết Hội Lưỡi Hái Hắc Ám.
+
+
+---
+
+### 9. Iris Flamel
+* **Vai trò & Thân phận:** Nhà giả kim thiên tài / Đồng minh khoa học của Caelen.
+* **Danh xưng & Biệt hiệu:** Iris, Nhà Giả Kim Điên Loạn, Iris Flamel.
+* **Cảnh giới & Tu vi:** Sơ Giai Trung Kỳ (Chuyên về Giả Kim Thuật, không chiến đấu).
+* **Ảnh Avatar (9:16):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/iris-flamel.jpg`
+
+* **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):**
+  - *Vóc dáng & Thể hình:* Cao 1m60, nhỏ con, gầy nhưng nhanh nhẹn. Tay luôn lấm lem muội than và dung dịch hóa học.
+  - *Mái tóc:* Ngắn ngang vai màu đồng đỏ (Copper Red) rối bù, cài lệch cặp kính bảo hộ dày cộp.
+  - *Đôi mắt & Ánh nhìn:* Đôi mắt đỏ thẫm như hồng ngọc (Ruby Red), cháy bừng ngọn lửa cuồng nhiệt của kẻ đam mê khoa học.
+  - *Ngũ quan & Thần thái:* Gương mặt lọ lem nhưng đường nét tinh xảo, mũi nhỏ hếch bướng bỉnh, miệng hay cười toe toét khi thí nghiệm thành công.
+  - *Trang phục:* Bộ đồ giả kim sư bằng da thô khoác ngoài áo sơ mi trắng xắn tay, thắt lưng đai da treo lủng lẳng hàng chục lọ dung dịch đủ màu sắc. Cặp kính bảo hộ dày cộp bám đầy vết muội than.
+  - *Dụng cụ:* Đũa ma pháp bằng đồng đen, sổ tay viết kín phương trình giả kim thuật chữ nhỏ li ti.
+
+* **🧠 Tính Cách & Chiều Sâu Tâm Lý:**
+  - *Bản chất:* Thiên tài giả kim bị Viện Giả Kim Hoàng Gia trục xuất vì nghiên cứu tổng hợp Thánh Thuỷ. Bướng bỉnh, thẳng thắn, đam mê khoa học đến mức điên cuồng. Không tin vào thần linh.
+  - *Động cơ:* Chứng minh Thánh Thuỷ không phải ân điển thần linh mà là sản phẩm hóa học.
+
+* **🕸️ Mạng Lưới Mối Quan Hệ:**
+  - *Caelen:* Nhà tài trợ và người bảo vệ, mang lại tự do nghiên cứu mà nàng luôn khao khát.
+
+
+---
+
+### 10. Hoàng Tử Soren Blackmere
+* **Vai trò & Thân phận:** Hoàng Tử Thứ Hai Vương quốc Hắc Nguyệt / Đồng minh chiến lược xuyên quốc gia.
+* **Danh xưng & Biệt hiệu:** Soren, Hoàng Tử Hắc Nguyệt, Soren Blackmere.
+* **Cảnh giới & Tu vi:** Cao Giai Đỉnh Phong (Ám Hắc hệ Kiếm Thuật).
+* **Ảnh Avatar (9:16):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/soren-blackmere.jpg`
+
+* **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):**
+  - *Vóc dáng & Thể hình:* Cao 1m85, thân hình mảnh nhưng rắn rỏi như thanh kiếm rút khỏi vỏ.
+  - *Mái tóc:* Đen dài buộc đuôi ngựa cao, để lộ vầng trán thanh tú.
+  - *Đôi mắt & Ánh nhìn:* Đôi mắt đen thẳm như hai hố thẳm không đáy, không cảm xúc, lạnh lẽo kỳ dị.
+  - *Trang phục:* Chiến bào đen viền bạc đặc trưng Hắc Nguyệt, thanh trường kiếm đen bóng đặt ngang đùi.
+
+* **🧠 Tính Cách & Chiều Sâu Tâm Lý:**
+  - *Bản chất:* Lạnh lùng, cô độc, cực kỳ thông minh. Giống Caelen ở điểm bị dồn vào chân tường nhưng sẵn sàng đốt cháy tất cả để lật ngược thế cờ.
+  - *Động cơ:* Chống lại sự xâm nhập của Thần Điện vào Hắc Nguyệt, tranh ngôi với Đại Hoàng Tử được Thần Điện hậu thuẫn.
+
+* **🕸️ Mạng Lưới Mối Quan Hệ:**
+  - *Caelen:* Đối tác chiến lược, không phải bạn bè — lợi ích chung chống Thần Điện.
+
+
+---
+
 ## 📜 3. LORE & GLOSSARY CODEX (BÁCH KHOA CHÚ GIẢI THUẬT NGỮ)
 
 ### 1. Hắc Tử La Lan
@@ -264,7 +330,7 @@
 ### 6. Băng Sương Long Hồn Quyết
 * **Phân loại:** `Bí Thuật`
 * **Từ đồng nghĩa:** Long Hồn Quyết, Tâm Pháp Băng Long.
-* **Định nghĩa:** Bí kíp công pháp thượng cổ phong ấn tại Tàng Thư Các Cổ của gia tộc Ravenwood. Cho phép người tu luyện dẫn dắt và dung hợp huyết mạch Thái Cổ Băng Long, gia tăng thể tích ma hạch và uy lực băng sương gấp nhiều lần.
+* **Định nghĩa:** Bí kíp công pháp thượng cổ phong ấn tại Tàng Thư Các Cổ của gia tộc Ravenwood. Cho phép người tu luyện dẫn dắt và dung hợp huyết mạch Thái Cổ Băng Long, gia tăng thể tích ma hạch và uy lực băng sương gấp nhiều lần. Trang cuối phong ấn bí mật về Kho Tàng Cổ Thần.
 
 ### 7. Hàn Băng Thần Tủy
 * **Phân loại:** `Bảo Vật`
@@ -274,37 +340,84 @@
 ### 8. Hội Lưỡi Hái Hắc Ám
 * **Phân loại:** `Thế Lực`
 * **Từ đồng nghĩa:** Dark Scythe, Tà Giáo Vực Thẳm.
-* **Định nghĩa:** Tổ chức sát thủ kiêm tà giáo hắc ám hùng mạnh hoạt động ngầm tại ranh giới Vực Thẳm Hoang Vu, chuyên buôn bán ma hạch cấm kỵ và cấm thuật tử linh.
+* **Định nghĩa:** Tổ chức sát thủ kiêm tà giáo hắc ám hùng mạnh hoạt động ngầm tại ranh giới Vực Thẳm Hoang Vu, chuyên buôn bán ma hạch cấm kỵ và cấm thuật tử linh. Bị phát hiện cấu kết với Thần Điện Quang Minh.
 
 ### 9. Hẻm Sói Băng
 * **Phân loại:** `Địa Danh`
 * **Từ đồng nghĩa:** Frostwolf Gorge, Hẻm Sói.
 * **Định nghĩa:** Hẻm núi độc đạo hiểm trở nối liền trung tâm Pháo đài Băng Sương với các mỏ khoáng thạch Băng Lam nơi biên ải Frostfang, địa hình vách đá dựng đứng và bão tuyết quanh năm.
 
+### 10. Thần Điện Quang Minh
+* **Phân loại:** `Thế Lực`
+* **Từ đồng nghĩa:** Holy Light Temple, Thánh Đường, Giáo Hội Quang Minh.
+* **Định nghĩa:** Tổ chức tôn giáo 500 năm tuổi ngự trị trên đỉnh Thánh Sơn, nắm giữ 1/3 GDP đế quốc thông qua thuế cúng dường, độc quyền Thánh Thuỷ Tịnh Hóa và hệ thống ngân hàng tín ngưỡng. Bị giải thể sau khi Đại Giáo Chủ Aldric tự ý ban bố Thánh Chiến và bị phát hiện cấu kết với Hội Lưỡi Hái Hắc Ám.
+
+### 11. Thánh Thuỷ Tịnh Hóa
+* **Phân loại:** `Bảo Vật / Sản Phẩm`
+* **Từ đồng nghĩa:** Holy Purification Water, Nước Thánh.
+* **Định nghĩa:** Dung dịch duy nhất có thể thanh tẩy chướng khí Vực Thẳm và trấn áp ma hóa tinh thần. Nguyên bản do Thần Điện độc quyền sản xuất từ máu tim Thánh Thú với giá 100 linh thạch/bình. Đã bị Iris Flamel tổng hợp thành công với giá 3 linh thạch/bình, công thức được công bố miễn phí.
+
+### 12. Tịnh Thuỷ Ravenwood
+* **Phân loại:** `Sản Phẩm`
+* **Từ đồng nghĩa:** Thánh Thuỷ thay thế, Tịnh Thuỷ.
+* **Định nghĩa:** Phiên bản tổng hợp của Thánh Thuỷ Tịnh Hóa do Iris Flamel phát triển, sử dụng Băng Sương Khoáng và Hồng Ngọc Thạch thay cho máu tim Thánh Thú. Hiệu quả ngang bản gốc, giá thành chỉ 3 linh thạch.
+
+### 13. Thánh Bài Phúc Âm
+* **Phân loại:** `Bảo Vật`
+* **Từ đồng nghĩa:** Holy Grace Card, Thánh Bài.
+* **Định nghĩa:** Thẻ bài vàng ròng do Thần Điện ban phát, miễn thuế cúng dường và cung cấp Thánh Thuỷ miễn phí. Cấp Kim là cấp cao nhất, 300 năm qua chỉ Hoàng gia được hưởng. Bên trong có ma trận theo dõi siêu nhỏ.
+
+### 14. Thánh Kỵ Sĩ
+* **Phân loại:** `Thế Lực`
+* **Từ đồng nghĩa:** Holy Knights, Kỵ Binh Quang Minh.
+* **Định nghĩa:** Đội quân riêng 3.000 người của Thần Điện Quang Minh, toàn bộ từ Trung Giai trở lên, mặc giáp bạc tinh khiết tỏa Thánh Quang, cưỡi chiến mã bọc giáp thánh.
+
+### 15. Đấu Trường Thiên Quang
+* **Phân loại:** `Địa Danh`
+* **Từ đồng nghĩa:** Arena of Celestial Light.
+* **Định nghĩa:** Kiến trúc vĩ đại nhất đại lục Erebia, sức chứa hơn 10 vạn người. Sân đấu hình tròn đường kính 200m lát Ma Ngọc Bàn Thạch chịu được phép thuật cấp Thiên Giai.
+
+### 16. Vạn Thương Ngân Hàng
+* **Phân loại:** `Thế Lực`
+* **Từ đồng nghĩa:** Ravenwood National Bank.
+* **Định nghĩa:** Ngân hàng do Caelen thành lập tại Kinh đô Solaria, dùng gói cứu trợ lãi suất thấp để thâu tóm quyền kiểm soát tài chính 25 lãnh địa và 5 tuyến đường giao thương.
+
+### 17. Kho Tàng Cổ Thần
+* **Phân loại:** `Địa Danh / Bí Ẩn`
+* **Từ đồng nghĩa:** Ancient Dragon Treasury, Di Tích Thủy Tổ.
+* **Định nghĩa:** Nơi Thủy Tổ Ravenwood phong ấn thực lực cuối cùng của Thái Cổ Băng Long. Chỉ mở được khi Huyết Mạch Băng Long thức tỉnh hoàn toàn. Được ghi chép ở trang cuối phong ấn của Băng Sương Long Hồn Quyết.
+
 ---
 
 ## 🧠 4. MEMORY MANAGER - TIẾN ĐỘ & TRẠNG THÁI (STATE TRACKING)
 
-### Trạng Thái Hiện Tại (Sau Chương 7):
+### Trạng Thái Hiện Tại (Sau Chương 22):
 * **Caelen:** 
-  - Khai mở Tàng Thư Các Cổ, hấp thu *Hàn Băng Thần Tủy* và tu luyện *Băng Sương Long Hồn Quyết*.
-  - Đột phá thành công từ Sơ Giai lên **Trung Giai Sơ Kỳ**, thanh tẩy 100% độc tố *Hắc Tử La Lan*.
-  - Dùng cận chiến và Ma Đồng trảm sát Boris Tai Đỏ tại Hẻm Sói Băng; đối kháng sát thủ Cao Giai Vane.
-  - Thi triển *Băng Sương Khóa Ma Chỉ* phế bỏ hoàn toàn ma hạch của Nhị Trưởng Lão Karlov ngay giữa Nghị Sự Điện.
-  - Chính thức tiếp quản quyền quản sự tài chính, quân lương hậu viện và quyền chỉ huy Phân khu Biên Ải phía Bắc của Gia tộc Ravenwood.
-  - Nhận mật thư từ Tam Công Chúa Valerie mời dự *Hội Nghị Ma Pháp Tam Quốc* tại Kinh Đô Solaria.
-* **Valerie:** 
-  - Đã về tới Kinh Đô Solaria, hoàn tất thủ tục hủy hôn ước và chuẩn bị cho Hội Nghị Ma Pháp Tam Quốc.
-  - Gửi lời thách đấu ngầm và mật thư chờ đợi Caelen tại Kinh Đô.
-* **Evelyn:** 
-  - Tận mắt chứng kiến đệ đệ Caelen trảm tướng phá địch; hoàn toàn xóa bỏ cái nhìn về "phế vật", tin tưởng và trao quyền lực cho Caelen.
-* **Karlov (Nhị Trưởng Lão):** 
-  - Bị phế bỏ hoàn toàn tu vi ma pháp, tước đoạt toàn bộ chức vị và gia sản, bị đày ải vĩnh viễn xuống Vực Thẳm Hoang Vu chịu khổ sai.
+  - Cảnh giới: **Trung Giai Trung Kỳ** (tiến bộ từ Trung Giai Sơ Kỳ sau 1 tháng chiến đấu liên tục).
+  - Thành lập Vạn Thương Ngân Hàng, thâu tóm quyền kiểm soát tài chính 25 lãnh địa quý tộc Kinh đô.
+  - Dùng Băng Sương Khóa Ma Chỉ phong ấn ma hạch Thiên Giai của Đại Giáo Chủ Aldric trước toàn quân.
+  - Công bố công thức Tịnh Thuỷ miễn phí, phá vỡ hoàn toàn độc quyền Thần Điện.
+  - Tìm ra bí mật trang cuối Băng Sương Long Hồn Quyết: Kho Tàng Cổ Thần.
+  - Liên minh kinh tế-quân sự với Hoàng Tử Soren Blackmere (Hắc Nguyệt).
+* **Evelyn:**
+  - Dẫn 2 vạn Thiết Kỵ Băng Sương hành quân tốc hành đến Kinh đô, phối hợp Hoàng Gia Vệ Binh vây hãm Thánh Kỵ Sĩ đoàn. Bị thương nhẹ vai trái trong cuộc đấu với Aldric Thiên Giai.
+* **Valerie:**
+  - Trở thành ứng cử viên Nữ Hoàng số 1 sau khi Tứ Hoàng Tử bị tước quyền. Ký sắc lệnh miễn thuế cho Tịnh Thuỷ Ravenwood. Bị cuốn hút bởi sự bí ẩn nguy hiểm của Caelen.
+* **Lilian:**
+  - Nâng cấp vai trò thành Trưởng mạng lưới tình báo Vạn Thương Ngân Hàng.
+* **Iris Flamel (MỚI):**
+  - Nhà giả kim thiên tài, phá vỡ công thức Thánh Thuỷ. Được ghi danh vào sách sử đại lục Erebia. Hiện đang nghiên cứu tại xưởng ngầm B7 Vạn Thương Ngân Hàng.
+* **Soren Blackmere (MỚI):**
+  - Hoàng Tử Thứ Hai Hắc Nguyệt, đối tác chiến lược xuyên quốc gia của Caelen. Nhận bằng chứng Aldric cấu kết Hội Lưỡi Hái. Chuẩn bị tranh ngôi với Đại Hoàng Tử.
+* **Aldric (MỚI → BỊ BẮT):**
+  - Bị Caelen phế ma hạch, bị bắt giữ vì tội phản quốc và cấu kết Hội Lưỡi Hái Hắc Ám. Thần Điện Quang Minh bị giải thể.
 * **Vane (Hội Lưỡi Hái Hắc Ám):**
-  - Bị chém đứt một cánh tay trái, dùng Huyết Độn tẩu thoát về cứ điểm Vực Thẳm Hoang Vu.
-* **Plot Hooks đang mở:** 
-  - Kế hoạch củng cố kinh tế, vũ trang Thiết Kỵ và chuẩn bị hành trình tiến về Kinh Đô Solaria tham gia Hội Nghị Ma Pháp Tam Quốc của Caelen.
-  - Sự trả thù trong bóng tối của Hội Lưỡi Hái Hắc Ám sau khi mất đi tuyến đường buôn lậu qua tay Karlov.
+  - Tái tổ chức tại cứ điểm Vực Thẳm. Được tiếp thêm ma hạch cấm kỵ, cảnh giới nâng lên **Thiên Giai**. Thủ lĩnh mới của Hội Lưỡi Hái. Mục tiêu: trả thù Ravenwood.
+* **Plot Hooks đang mở:**
+  - Hành trình tìm Kho Tàng Cổ Thần tại Vực Thẳm Hoang Vu để thức tỉnh hoàn toàn Huyết Mạch Băng Long.
+  - Vane Thiên Giai và Hội Lưỡi Hái Hắc Ám tái tổ chức, chuẩn bị trả thù.
+  - Soren tranh ngôi tại Hắc Nguyệt, cần sự hỗ trợ chiến lược của Caelen.
+  - Caelen cần đột phá lên Cao Giai → Thiên Giai để đối đầu Vane.
 
 ---
 
@@ -322,3 +435,13 @@
 - **Chương 10:** Dạ tiệc Hoàng Gia; Tứ Hoàng Tử sai sát thủ đóng giả kiếm khách thách đấu Caelen. Caelen dùng Ma Đồng phá nát vũ khí và phơi bày âm mưu ám sát giữa bá quan văn võ.
 - **Chương 11:** Cơn bão tài chính quét qua Kinh đô. Thương hội của Tứ Hoàng Tử sụp đổ, hàng vạn quý tộc phá sản. Caelen khai trương "Vạn Thương Ngân Hàng", thâu tóm tài sản quý tộc dưới danh nghĩa "cứu trợ".
 - **Chương 12:** Valerie bàng hoàng trước thủ đoạn lũng đoạn tàn nhẫn của Caelen. Tứ Hoàng Tử bị tước quyền, Caelen chính thức cắm rễ quyền lực tại trung tâm Đế quốc.
+- **Chương 13:** Đại Giáo Chủ Aldric đến gặp Caelen với Thánh Bài Cấp Kim (mồi nhử + gián điệp). Caelen từ chối và bắt đầu thu thập tình báo kinh tế về Thần Điện.
+- **Chương 14:** Caelen tuyển mộ nhà giả kim Iris Flamel — thiên tài bị trục xuất vì tổng hợp thành công Thánh Thuỷ. Aldric kích hoạt ma trận theo dõi trong Thánh Bài.
+- **Chương 15:** Hội Nghị Ma Pháp Tam Quốc. Thần Điện đề xuất tăng thuế cúng dường. Caelen công khai phản đối, tuyên bố Thánh Thuỷ có thể sản xuất hàng loạt, gieo hạt giống nghi ngờ.
+- **Chương 16:** Cuộc kiểm nghiệm công khai tại Đấu trường. Thánh Thuỷ thay thế thanh tẩy 95% hiệu quả nhưng giá rẻ 50 lần. Caelen vạch trần biên lợi nhuận 98% của Thần Điện trước 10 vạn khán giả.
+- **Chương 17:** Đội ám sát Hội Lưỡi Hái tấn công Vạn Thương Ngân Hàng ban đêm. Caelen và Evelyn tiêu diệt 4 sát thủ Cao Giai, thu được lệnh ám sát đóng ấn Thần Điện — bằng chứng cấu kết.
+- **Chương 18:** Caelen bí mật hội kiến Hoàng Tử Soren Blackmere, thiết lập liên minh kinh tế xuyên quốc gia chống Thần Điện. Trao bản sao bằng chứng ám sát.
+- **Chương 19:** Tịnh Thuỷ Ravenwood tràn ngập thị trường, doanh thu Thần Điện sụt 72%. Iris hoàn thiện phiên bản 3.0 ngang bản gốc, giá 3 linh thạch. Caelen quyết định công bố công thức miễn phí.
+- **Chương 20:** Aldric ban bố Thánh Chiến chống Ravenwood. Caelen phản đòn: gửi thư cho Valerie (phản quốc), Soren (bằng chứng), và Evelyn (2 vạn Thiết Kỵ).
+- **Chương 21:** Đối đầu trước cổng Kinh đô. Caelen biến phiên tòa thành sân khấu: trình 3 bằng chứng (Tịnh Thuỷ 3.0, lệnh ám sát, Thánh Chiến trái phép). Hoàng đế ra lệnh bắt Aldric.
+- **Chương 22:** Aldric kháng cự bằng sức mạnh Thiên Giai. Evelyn câu giờ, Caelen dùng Ma Đồng tìm tử huyệt ma hạch và Băng Sương Khóa Ma Chỉ phế Aldric. Thần Điện giải thể. Tin tình báo: Vane đã lên Thiên Giai. Caelen phát hiện bí mật Kho Tàng Cổ Thần.
