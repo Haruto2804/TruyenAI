@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
 import { 
-  Sparkles, User, X, ZoomIn, Shield, Tag, 
+  Sparkles, User, X, Shield, Tag, 
   ChevronRight, ChevronLeft, Maximize2, Eye, ChevronDown
 } from "lucide-react";
 import { getCharacterAvatarUrl } from "@/lib/images";
@@ -22,15 +22,10 @@ interface CharacterGalleryProps {
   storySlug?: string;
 }
 
-function getShortRole(role?: string | null): string {
+function getCardRole(role?: string | null): string {
   if (!role) return "";
   const parts = role.split(/[/–—]/);
-  const main = parts[0].trim();
-  if (main.includes("Tam Công Chúa")) return "Tam Công Chúa";
-  if (main.includes("Nhân vật chính")) return "Nhân vật chính";
-  if (main.includes("Hầu nữ")) return "Hầu nữ thân cận";
-  if (main.includes("Đại tiểu thư")) return "Đại tiểu thư";
-  return main.length > 16 ? main.slice(0, 16) + "..." : main;
+  return parts[0].trim();
 }
 
 function renderFormattedDescription(desc: string | null) {
@@ -40,15 +35,15 @@ function renderFormattedDescription(desc: string | null) {
   const paragraphs = desc.split(/\n\s*\n/);
 
   return (
-    <div className="bg-black/50 border border-white/10 rounded-2xl p-4 sm:p-5 space-y-3.5 shadow-inner">
+    <div className="bg-slate-950/80 border border-white/10 rounded-2xl p-4 sm:p-5 space-y-3 shadow-inner">
       {paragraphs.map((p, pIdx) => {
         const parts = p.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g);
         return (
-          <p key={pIdx} className="text-sm sm:text-base text-slate-100 leading-relaxed font-normal">
+          <p key={pIdx} className="text-xs sm:text-sm md:text-base text-slate-200 leading-relaxed font-normal">
             {parts.map((part, idx) => {
               if (part.startsWith("**") && part.endsWith("**")) {
                 return (
-                  <strong key={idx} className="font-extrabold text-[#d4af37]">
+                  <strong key={idx} className="font-extrabold text-amber-300">
                     {part.slice(2, -2)}
                   </strong>
                 );
@@ -146,33 +141,35 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
   }
 
   return (
-    <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-4 sm:p-7 shadow-2xl space-y-4 sm:space-y-6 w-full max-w-full overflow-hidden">
+    <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl sm:rounded-3xl p-4 sm:p-7 shadow-2xl space-y-4 sm:space-y-6 w-full max-w-full overflow-hidden">
       {/* Header Section */}
       <div className="flex items-center justify-between border-b border-white/10 pb-4 sm:pb-5">
-        <div className="flex items-center gap-3 sm:gap-3.5">
-          <div className="p-2 sm:p-2.5 rounded-2xl bg-[#d4af37]/15 text-[#d4af37] border border-[#d4af37]/30 shadow-inner">
+        <div className="flex items-center gap-3 sm:gap-3.5 min-w-0">
+          <div className="p-2 sm:p-2.5 rounded-2xl bg-[#d4af37]/15 text-[#d4af37] border border-[#d4af37]/30 shadow-[0_0_20px_rgba(212,175,55,0.2)] shrink-0">
             <Sparkles className="w-5 h-5 sm:w-6 sm:h-6" />
           </div>
-          <div>
-            <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-white tracking-tight flex items-center gap-2">
+          <div className="min-w-0">
+            <h2 className="text-lg sm:text-2xl md:text-3xl font-extrabold text-white tracking-tight flex items-center gap-2 truncate">
               <span>Hồ Sơ Nhân Vật</span>
-              <span className="text-sm sm:text-base font-semibold text-amber-400">({characters.length})</span>
+              <span className="text-xs sm:text-base font-bold text-amber-400">({characters.length})</span>
             </h2>
-            <p className="text-xs sm:text-sm md:text-base text-slate-300 font-normal mt-0.5">
+            <p className="text-xs sm:text-sm text-slate-300 font-normal mt-0.5 truncate">
               Chiêm ngưỡng chân dung minh họa 9:16 và khám phá hồ sơ nhân vật.
             </p>
           </div>
         </div>
 
-        <span className="text-xs sm:text-sm text-amber-200/90 font-semibold bg-white/5 px-3.5 py-1.5 rounded-full border border-white/10 shrink-0">
+        <span className="text-xs sm:text-sm text-amber-200/90 font-semibold bg-white/5 px-3 py-1.5 rounded-full border border-white/10 shrink-0 hidden xs:inline">
           Chạm để mở hồ sơ
         </span>
       </div>
 
       {/* Grid Danh Sách Nhân Vật (2 Cột Mobile, 4 Cột Desktop) */}
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-5 md:gap-6">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-3.5 sm:gap-5 md:gap-6">
         {visibleCharacters.map((char) => {
           const originalIndex = characters.findIndex((c) => c.id === char.id);
+          const shortRole = getCardRole(char.role);
+
           return (
             <div
               key={char.id}
@@ -188,59 +185,43 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
                       src={avatar}
                       alt={char.name}
                       className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
-                      loading="lazy"
                     />
                   ) : (
-                    <div className="w-full h-full flex flex-col items-center justify-center bg-slate-900 text-slate-500 p-4 text-center">
-                      <User className="w-12 h-12 text-[#d4af37]/40 mb-2" />
-                      <span className="text-sm font-medium">Chưa có ảnh</span>
+                    <div className="w-full h-full flex flex-col items-center justify-center bg-slate-900 text-slate-600 p-4 text-center">
+                      <User className="w-10 h-10 text-[#d4af37]/40 mb-1.5" />
+                      <span className="text-xs text-slate-400">Chưa có ảnh</span>
                     </div>
                   );
                 })()}
 
-                {/* Gradient che sáng để làm nổi bật thông tin */}
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/50 to-black/30 pointer-events-none" />
+                {/* Shimmer Overlay Gradient */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/30 to-transparent pointer-events-none" />
 
-                {/* Role Badge */}
-                {char.role && (
-                  <div className="absolute top-2.5 left-2.5 sm:top-3 sm:left-3 max-w-[calc(100%-16px)]">
-                    <span className="inline-flex items-center gap-1 px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg sm:rounded-xl text-xs sm:text-sm font-extrabold bg-black/85 backdrop-blur-md text-amber-300 border border-[#d4af37]/50 shadow-xl truncate">
-                      <Shield className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-[#d4af37] shrink-0" />
-                      <span className="truncate">{getShortRole(char.role)}</span>
+                {/* Role Badge Floating on Top Left */}
+                {shortRole && (
+                  <div className="absolute top-2.5 left-2.5 right-2.5 z-10">
+                    <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-lg text-[10px] sm:text-xs font-extrabold bg-black/80 backdrop-blur-md text-[#d4af37] border border-[#d4af37]/40 shadow-sm max-w-full">
+                      <Shield className="w-3 h-3 shrink-0" />
+                      <span className="truncate">{shortRole}</span>
                     </span>
                   </div>
                 )}
 
-                {/* Zoom Action Pill */}
-                <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                  <span className="p-2 rounded-xl bg-black/85 backdrop-blur-md text-[#d4af37] border border-white/20 flex items-center justify-center shadow-lg">
-                    <ZoomIn className="w-4 h-4" />
-                  </span>
-                </div>
+                {/* Bottom Character Info */}
+                <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 z-10 space-y-1">
+                  <h3 className="text-sm sm:text-base font-extrabold text-white tracking-tight leading-snug group-hover:text-amber-200 transition-colors line-clamp-2">
+                    {char.name}
+                  </h3>
 
-                {/* Bottom Card Content */}
-                <div className="absolute bottom-0 left-0 right-0 p-3.5 sm:p-5 space-y-1.5 sm:space-y-2 z-10">
-                  <div>
-                    <h3 className="font-extrabold text-base sm:text-lg md:text-xl text-white group-hover:text-[#d4af37] transition-colors leading-snug truncate drop-shadow-md">
-                      {char.name}
-                    </h3>
-
-                    {char.aliases && (
-                      <p className="text-xs sm:text-sm md:text-base text-amber-300 font-semibold truncate">
-                        {char.aliases}
-                      </p>
-                    )}
-                  </div>
-
-                  {char.description && (
-                    <p className="text-xs sm:text-sm md:text-base text-slate-200 line-clamp-2 sm:line-clamp-3 leading-relaxed font-normal drop-shadow">
-                      {char.description}
+                  {char.aliases && (
+                    <p className="text-[11px] sm:text-xs text-amber-300/80 font-medium line-clamp-1">
+                      {char.aliases}
                     </p>
                   )}
 
-                  <div className="flex items-center justify-between pt-2 border-t border-white/15 text-xs sm:text-sm font-extrabold text-[#d4af37] group-hover:text-amber-300 transition-colors">
-                    <span>Xem hồ sơ chi tiết</span>
-                    <ChevronRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
+                  <div className="flex items-center justify-between pt-1.5 border-t border-white/15 text-[11px] sm:text-xs font-extrabold text-[#d4af37] group-hover:text-amber-300 transition-colors">
+                    <span>Xem hồ sơ</span>
+                    <ChevronRight className="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform" />
                   </div>
                 </div>
               </div>
@@ -366,7 +347,7 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
                       {selectedChar.role}
                     </span>
                   )}
-                  <h3 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
+                  <h3 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-100 via-white to-amber-200 tracking-tight leading-tight font-serif">
                     {selectedChar.name}
                   </h3>
                 </div>
@@ -420,22 +401,22 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
           </div>
 
           {/* ========================================================================= */}
-          {/* MOBILE LUXURY CENTERED MODAL VIEW (< md screens) */}
+          {/* MOBILE LUXURY IMMERSIVE DOSSIER VIEW (< md screens) */}
           {/* ========================================================================= */}
           <div
-            className="md:hidden relative w-full max-w-lg bg-gradient-to-b from-slate-900 via-slate-950 to-black border-2 border-[#d4af37]/50 rounded-3xl p-4 sm:p-6 shadow-[0_0_60px_rgba(0,0,0,0.9)] max-h-[85vh] overflow-hidden flex flex-col animate-in zoom-in-95 duration-200 m-auto"
+            className="md:hidden relative w-full max-w-lg bg-gradient-to-b from-slate-900/95 via-slate-950 to-black border-2 border-[#d4af37]/50 rounded-3xl p-4 xs:p-5 shadow-[0_0_80px_rgba(0,0,0,0.95)] max-h-[88vh] overflow-hidden flex flex-col animate-in zoom-in-95 duration-200 m-auto"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Pull Bar Indicator */}
             <div className="w-12 h-1.5 rounded-full bg-white/25 mx-auto mb-3 shrink-0" />
 
-            {/* Mobile Hero Header: Side-by-Side Avatar + Details */}
-            <div className="flex items-start justify-between gap-3 border-b border-white/10 pb-3 shrink-0">
-              <div className="flex items-center gap-3 min-w-0">
-                {/* 9:16 Avatar Thumbnail with Tap-to-Zoom */}
+            {/* Mobile Hero Header: Large 9:16 Portrait Card + Details */}
+            <div className="flex items-start justify-between gap-3 border-b border-white/10 pb-4 shrink-0">
+              <div className="flex items-start gap-3 min-w-0 flex-1">
+                {/* 9:16 Avatar Thumbnail with Glowing Golden Border */}
                 <div
                   onClick={() => setIsFullscreenImage(true)}
-                  className="group relative w-16 xs:w-20 aspect-[9/16] rounded-2xl overflow-hidden bg-slate-950 border-2 border-[#d4af37]/60 shrink-0 shadow-xl cursor-pointer active:scale-95 transition-all"
+                  className="group relative w-20 xs:w-24 aspect-[9/16] rounded-2xl overflow-hidden bg-slate-950 border-2 border-[#d4af37] shrink-0 shadow-[0_10px_25px_rgba(212,175,55,0.3)] cursor-pointer active:scale-95 transition-all"
                   title="Chạm để xem ảnh toàn màn hình"
                 >
                   {(() => {
@@ -453,33 +434,37 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
                     );
                   })()}
                   <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                    <Maximize2 className="w-4 h-4 text-white" />
+                    <Maximize2 className="w-5 h-5 text-white" />
                   </div>
                 </div>
 
                 {/* Name, Role & Quick Actions */}
-                <div className="space-y-1 min-w-0">
+                <div className="space-y-1.5 min-w-0 flex-1">
                   {selectedChar.role && (
-                    <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-lg text-[11px] font-extrabold bg-[#d4af37]/15 text-[#d4af37] border border-[#d4af37]/30 truncate max-w-full">
+                    <div className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-lg text-[10px] xs:text-[11px] font-extrabold bg-[#d4af37]/20 text-[#d4af37] border border-[#d4af37]/40 shadow-sm max-w-full">
                       <Shield className="w-3 h-3 shrink-0" />
-                      <span className="truncate">{selectedChar.role}</span>
-                    </span>
+                      <span className="truncate">{getCardRole(selectedChar.role)}</span>
+                    </div>
                   )}
-                  <h3 className="text-lg xs:text-xl font-extrabold text-white tracking-tight leading-snug line-clamp-2">
+
+                  <h3 className="text-base xs:text-lg font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-100 via-white to-amber-200 tracking-tight leading-snug line-clamp-2 font-serif">
                     {selectedChar.name}
                   </h3>
+
                   {selectedChar.aliases && (
-                    <p className="text-xs text-amber-200/80 truncate font-medium">
-                      {selectedChar.aliases}
-                    </p>
+                    <div className="flex items-start gap-1 text-xs text-amber-200/90 font-medium line-clamp-2">
+                      <Tag className="w-3 h-3 text-[#d4af37] shrink-0 mt-0.5" />
+                      <span>{selectedChar.aliases}</span>
+                    </div>
                   )}
                   
                   <button
                     type="button"
                     onClick={() => setIsFullscreenImage(true)}
-                    className="inline-flex items-center gap-1 text-xs font-bold text-[#d4af37] hover:text-amber-300 pt-0.5 cursor-pointer"
+                    className="inline-flex items-center gap-1.5 text-xs font-bold text-[#d4af37] hover:text-amber-300 pt-1 cursor-pointer bg-[#d4af37]/10 hover:bg-[#d4af37]/20 px-2.5 py-1 rounded-lg border border-[#d4af37]/30 transition-all"
                   >
-                    <Maximize2 className="w-3 h-3" /> Phóng to ảnh 9:16
+                    <Eye className="w-3.5 h-3.5" />
+                    <span>Xem ảnh 9:16 HD</span>
                   </button>
                 </div>
               </div>
@@ -488,31 +473,26 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
               <button
                 type="button"
                 onClick={() => setSelectedIndex(null)}
-                className="p-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white border border-white/10 transition-colors shrink-0"
+                className="p-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white border border-white/10 transition-colors shrink-0 cursor-pointer"
+                title="Đóng"
+                aria-label="Đóng"
               >
                 <X className="w-5 h-5" />
               </button>
             </div>
 
             {/* Mobile Body Content (Scrollable) */}
-            <div className="space-y-3 flex-1 overflow-y-auto py-3 pr-0.5">
-              {selectedChar.aliases && (
-                <div className="bg-white/5 border border-white/10 rounded-2xl p-3 space-y-1">
-                  <div className="text-[11px] font-bold text-amber-200/80 uppercase tracking-wider flex items-center gap-1.5">
-                    <Tag className="w-3.5 h-3.5 text-[#d4af37]" /> Biệt danh & Danh xưng
-                  </div>
-                  <p className="text-sm text-slate-100 font-semibold">
-                    {selectedChar.aliases}
-                  </p>
-                </div>
-              )}
-
+            <div className="space-y-3 flex-1 overflow-y-auto py-3.5 pr-0.5">
+              <div className="text-xs font-extrabold uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
+                <Sparkles className="w-3.5 h-3.5" />
+                <span>Tiểu Sử & Đặc Điểm</span>
+              </div>
               {renderFormattedDescription(selectedChar.description)}
             </div>
 
             {/* Mobile Thumb Navigation (Switch Between Characters) */}
             <div className="pt-3 border-t border-white/10 flex items-center justify-between gap-2 shrink-0">
-              <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-0.5">
+              <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-0.5 min-w-0 flex-1">
                 {characters.map((c, i) => (
                   <button
                     key={c.id}
@@ -521,7 +501,7 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
                     className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 cursor-pointer ${
                       i === selectedIndex
                         ? "bg-[#d4af37] text-slate-950 font-extrabold shadow-sm"
-                        : "bg-white/5 text-slate-300 border border-white/5"
+                        : "bg-white/5 text-slate-300 border border-white/5 hover:bg-white/10"
                     }`}
                   >
                     {c.name.split(" ")[0]}
@@ -532,7 +512,7 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
               <button
                 type="button"
                 onClick={() => setSelectedIndex(null)}
-                className="px-4 py-1.5 rounded-xl bg-white/10 text-slate-200 text-xs font-semibold shrink-0 cursor-pointer"
+                className="px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-slate-200 text-xs font-semibold shrink-0 cursor-pointer border border-white/10 transition-colors"
               >
                 Đóng
               </button>
@@ -550,10 +530,10 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
         >
           {/* Top Bar inside Fullscreen Lightbox */}
           <div className="absolute top-4 left-4 right-4 z-20 flex items-center justify-between pointer-events-none max-w-5xl mx-auto">
-            <div className="bg-black/80 backdrop-blur-md px-4 py-2 rounded-2xl border border-white/20 pointer-events-auto shadow-xl">
+            <div className="bg-black/80 backdrop-blur-md px-4 py-2 rounded-2xl border border-[#d4af37]/40 pointer-events-auto shadow-xl">
               <h4 className="text-sm sm:text-base font-bold text-white flex items-center gap-2">
                 <Sparkles className="w-4 h-4 text-[#d4af37]" />
-                {selectedChar.name}
+                <span>{selectedChar.name}</span>
                 {selectedChar.role && (
                   <span className="text-xs text-amber-300 font-normal ml-1">
                     ({selectedChar.role})
@@ -565,7 +545,7 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
             <button
               type="button"
               onClick={() => setIsFullscreenImage(false)}
-              className="p-3 rounded-2xl bg-black/80 hover:bg-white/20 text-white border border-white/20 transition-colors pointer-events-auto shadow-2xl"
+              className="p-3 rounded-2xl bg-black/80 hover:bg-white/20 text-white border border-white/20 transition-colors pointer-events-auto shadow-2xl cursor-pointer"
               title="Quay lại hồ sơ (Esc)"
             >
               <X className="w-5 h-5" />
@@ -583,11 +563,12 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
                 <img
                   src={avatar}
                   alt={selectedChar.name}
-                  className="w-full h-full object-cover object-center select-none"
+                  className="w-full h-full object-cover object-center"
                 />
               ) : (
-                <div className="w-full h-full flex items-center justify-center bg-slate-950 text-slate-500">
-                  <User className="w-16 h-16 text-[#d4af37]/40" />
+                <div className="w-full h-full flex flex-col items-center justify-center bg-slate-900 text-slate-600 p-6 text-center">
+                  <User className="w-16 h-16 text-[#d4af37]/40 mb-2" />
+                  <span className="text-sm text-slate-400">Chưa có ảnh chân dung</span>
                 </div>
               );
             })()}

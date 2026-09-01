@@ -212,28 +212,28 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
           onClick={() => setSelectedLore(null)}
         >
           <div
-            className="relative w-full max-w-lg md:max-w-xl bg-gradient-to-b from-slate-900 via-slate-950 to-black border border-cyan-500/50 rounded-2xl sm:rounded-3xl p-5 sm:p-6 shadow-[0_0_80px_rgba(6,182,212,0.35)] space-y-4 max-h-[85vh] overflow-y-auto animate-in zoom-in-95 duration-200 m-auto"
+            className="relative w-full max-w-lg md:max-w-xl bg-gradient-to-b from-slate-900/95 via-slate-950 to-black border-2 border-cyan-500/40 rounded-2xl sm:rounded-3xl p-5 sm:p-7 shadow-[0_0_80px_rgba(6,182,212,0.3)] space-y-4 max-h-[85vh] overflow-y-auto animate-in zoom-in-95 duration-200 m-auto"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="flex items-start justify-between border-b border-white/10 pb-3 sm:pb-4 gap-2">
+            <div className="flex items-start justify-between border-b border-white/10 pb-3.5 sm:pb-4 gap-3">
               <div className="flex items-center gap-3 min-w-0">
-                <div className="p-2 sm:p-2.5 bg-cyan-500/15 rounded-xl text-cyan-400 border border-cyan-500/30 shadow-[0_0_20px_rgba(6,182,212,0.25)] shrink-0">
-                  <BookMarked className="w-5 h-5" />
+                <div className="p-2.5 sm:p-3 bg-cyan-500/15 rounded-2xl text-cyan-400 border border-cyan-500/40 shadow-[0_0_20px_rgba(6,182,212,0.25)] shrink-0">
+                  <BookMarked className="w-5 h-5 sm:w-6 sm:h-6" />
                 </div>
                 <div className="min-w-0">
                   <div className="flex items-center gap-2 flex-wrap">
-                    <h3 className="text-lg sm:text-xl font-extrabold text-white tracking-tight truncate">
+                    <h3 className="text-lg sm:text-xl md:text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-100 via-white to-cyan-200 tracking-tight truncate">
                       {selectedLore.term}
                     </h3>
                     {selectedLore.category && (
-                      <span className="px-2 py-0.5 rounded-md text-xs font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 shrink-0">
+                      <span className="px-2.5 py-0.5 rounded-lg text-xs font-extrabold bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 shadow-sm shrink-0">
                         {selectedLore.category}
                       </span>
                     )}
                   </div>
                   {selectedLore.aliases && (
-                    <p className="text-xs text-slate-400 mt-0.5 truncate">
-                      Từ đồng nghĩa: <span className="text-slate-100 font-semibold">{selectedLore.aliases}</span>
+                    <p className="text-xs text-slate-400 mt-1 truncate">
+                      Từ đồng nghĩa: <span className="text-slate-200 font-semibold">{selectedLore.aliases}</span>
                     </p>
                   )}
                 </div>
@@ -242,10 +242,10 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
               <button
                 type="button"
                 onClick={() => setSelectedLore(null)}
-                className="p-2 rounded-xl bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white border border-white/10 transition-colors shrink-0 cursor-pointer"
+                className="p-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white border border-white/10 transition-colors shrink-0 cursor-pointer"
                 title="Đóng (Esc)"
               >
-                <X className="w-4 h-4 sm:w-5 sm:h-5" />
+                <X className="w-5 h-5" />
               </button>
             </div>
 
@@ -253,7 +253,7 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
               <div className="text-xs font-extrabold text-cyan-400 uppercase tracking-wider flex items-center gap-1.5">
                 <Sparkles className="w-3.5 h-3.5" /> Định Nghĩa & Giải Thích Chi Tiết
               </div>
-              <div className="text-sm sm:text-base text-slate-100 leading-relaxed font-normal whitespace-pre-wrap bg-black/50 border border-white/10 rounded-xl sm:rounded-2xl p-4 sm:p-5 max-h-72 overflow-y-auto shadow-inner">
+              <div className="text-sm sm:text-base text-slate-200 leading-relaxed font-normal whitespace-pre-wrap bg-slate-950/90 border border-white/10 rounded-2xl p-4 sm:p-5 max-h-72 overflow-y-auto shadow-inner">
                 {selectedLore.definition}
               </div>
             </div>
@@ -262,7 +262,7 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
               <button
                 type="button"
                 onClick={() => setSelectedLore(null)}
-                className="w-full sm:w-auto px-6 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-slate-200 text-xs sm:text-sm font-semibold transition-colors border border-white/10 text-center cursor-pointer"
+                className="w-full sm:w-auto px-6 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-slate-200 hover:text-white text-xs sm:text-sm font-semibold transition-colors border border-white/10 text-center cursor-pointer"
               >
                 Đóng
               </button>
