@@ -67,3 +67,18 @@
 | `🏰 Địa Danh` | **Hắc Nham Hắc Thị** | Thành trì ngầm hỗn loạn dưới lòng đất, nơi tụ tập giác đấu trường đẫm máu và các phiên đấu giá phi pháp. |
 | `🌿 Dược Liệu` | **Cửu Dương Huyết Linh Chi** | Linh chi ngàn năm sinh trưởng trong lòng núi lửa, khắc tinh của Cửu U Hàn Độc. |
 | `📜 Khái Niệm` | **Thiên Cơ Linh Phiếu** | Tiền tệ tín dụng do Cố gia phát hành, mở ra cuộc cách mạng tài chính đè bẹp các đại thương hội cổ xưa. |
+
+---
+
+## 📜 6. NHẬT KÝ TIẾN TRÌNH CỐT TRUYỆN (CHAPTER ARC)
+
+- **Chương 1:** Đêm Mưa Tuyết Đòi Nợ, Quán Cầm Đồ Rách Và Mỹ Nhân Mang Độc
+- **Chương 2:** Thiên Cơ Định Giá Nhãn — 30 Đồng Phế Liệu Đổi Lấy Cổ Kiếm Chân Long
+- **Chương 3:** Khế Ước Vạn Cổ — Nữ Quân Sư Gảy Bàn Tính Thao Túng Chợ Đen
+- **Chương 4:** Đấu Giá Ngầm Trong Đêm — Cú Lừa Thế Kỷ Vả Mặt Nhị Thiếu Gia
+- **Chương 5:** Bão Tài Chính Bùng Nổ — Cứu Mạng Mỹ Nhân Và Đòn Khai Tử Tiệm Thuốc Họ Vương
+- **Chương 6:** Sát Thủ Trong Đêm — Huyết Trích Tử Và Ánh Lửa Xích Tiêu
+- **Chương 7:** Lũng Đoạn Hắc Thị — Bàn Tính Bạch Ngọc Và Cơn Sốt Linh Dược
+- **Chương 8:** Lôi Đài Sinh Tử — Đốt Vạn Linh Thạch, Quyền Toái Trúc Cơ
+- **Chương 9:** Đập Nát Kim Biển — Vương Chấn Thiên Quỳ Gối, Thâu Tóm Phân Hội
+- **Chương 10:** Kỷ Nguyên Linh Phiếu — Đồng Tiền Tín Dụng Đầu Tiên Của Tu Tiên Giới
