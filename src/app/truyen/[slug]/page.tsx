@@ -182,9 +182,18 @@ export default async function StoryDetail({
             {/* Story Title, Category & Meta */}
             <div className="flex-1 space-y-2 sm:space-y-4 text-left min-w-0">
               <div>
-                <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 sm:px-3.5 sm:py-1 rounded-full bg-[#d4af37]/15 border border-[#d4af37]/30 text-[#d4af37] text-[11px] sm:text-xs font-bold uppercase tracking-wider mb-1.5 sm:mb-3 shadow-sm">
-                  <Sparkles className="w-3 h-3 sm:w-4 sm:h-4" />
-                  {story.genre || 'Tiên Hiệp'}
+                <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-1.5 sm:mb-3">
+                  {(story.genre || 'Tiên Hiệp')
+                    .split(/[,/|]+/)
+                    .map(g => g.trim())
+                    .filter(Boolean)
+                    .slice(0, 3)
+                    .map((g, idx) => (
+                      <div key={idx} className="inline-flex items-center gap-1 px-2.5 py-0.5 sm:px-3.5 sm:py-1 rounded-full bg-[#d4af37]/15 border border-[#d4af37]/30 text-[#d4af37] text-[11px] sm:text-xs font-bold uppercase tracking-wider shadow-sm">
+                        {idx === 0 && <Sparkles className="w-3 h-3 sm:w-3.5 sm:h-3.5" />}
+                        {g}
+                      </div>
+                    ))}
                 </div>
                 <h1 className="text-lg xs:text-xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight line-clamp-3 sm:line-clamp-none">
                   {story.title}

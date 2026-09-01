@@ -1,6 +1,6 @@
 # MASTER CODEX: TA SINH RA LÀ PHẢN DIỆN
-**Tác phẩm:** TA SINH RA LÀ PHẢN DIỆN (I Am Born A Villain)
-**Thể loại:** Tiên Hiệp Game RPG, Xuyên Không, Hệ Thống Phản Diện, Trí Tuệ Đỉnh Cao, Dark Fantasy Đông Phương
+**Tác phẩm:** TA SINH RA LÀ PHẢN DIỆN
+**Thể loại:** Hệ Thống, Tiên Hiệp, Phản Diện
 **Tác giả:** Thiên Thư AI
 **Slug:** `ta-sinh-ra-la-phan-dien`
 

@@ -83,9 +83,9 @@ export default async function Home() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 pointer-events-none" />
 
                     {/* Genre Badge */}
-                    <div className="absolute top-2.5 left-2.5">
-                      <span className="rounded-lg border border-white/10 bg-black/80 px-2 sm:px-2.5 py-0.5 sm:py-1 text-[10px] sm:text-xs font-bold text-amber-200 backdrop-blur-md shadow-sm">
-                        {story.genre || 'Tiên Hiệp'}
+                    <div className="absolute top-2.5 left-2.5 max-w-[80%]">
+                      <span className="inline-block max-w-full truncate rounded-lg border border-white/10 bg-black/80 px-2 sm:px-2.5 py-0.5 sm:py-1 text-[10px] sm:text-xs font-bold text-amber-200 backdrop-blur-md shadow-sm">
+                        {(story.genre || 'Tiên Hiệp').split(/[,/|]+/)[0]?.trim() || 'Tiên Hiệp'}
                       </span>
                     </div>
 
