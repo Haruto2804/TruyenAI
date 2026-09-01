@@ -26,11 +26,11 @@ Caelen không đáp. Hắn chống một bàn tay xuống nền đá cẩm thạ
 
 Khoảnh khắc tầm mắt hắn chạm vào chén canh bạc đang nghi ngút khói, sâu trong đồng tử màu lam băng của Caelen đột nhiên xoay chuyển những vòng ma trận cổ ngữ rực rỡ.
 
-*Ma Đồng Giải Cấu* thức tỉnh!
+Ma Đồng Giải Cấu thức tỉnh!
 
 Dưới tầm nhìn thấu thị dòng chảy ma lực, đáy chén canh hiện rõ những sợi tơ ma thuật đen kịt đang cuộn xoáy ngấm ngầm.
 
-*Hắc Tử La Lan*. Liều lượng hôm nay đậm đặc gấp ba lần ngày thường. Kẻ hạ độc muốn hắn nếu không chết đột tử vì vỡ mạch mana thì cũng sẽ phát điên, mất hết lý trí ngay trước mặt các vị khách quý của kinh đô.
+Hắc Tử La Lan. Liều lượng hôm nay đậm đặc gấp ba lần ngày thường. Kẻ hạ độc muốn hắn nếu không chết đột tử vì vỡ mạch mana thì cũng sẽ phát điên, mất hết lý trí ngay trước mặt các vị khách quý của kinh đô.
 
 "Tam thiếu gia? Ngài ngơ ngác cái gì?" Lilian tiến thêm một bước, chiếc khay bạc khẽ rung nhẹ, giọng điệu lộ rõ vẻ mất kiên nhẫn. "Uống nhanh lên rồi còn khoác quân phục vào. Tam Công chúa của Đế quốc không có kiên nhẫn ngồi chờ một kẻ say xỉn đâu. Ngài muốn gia tộc Ravenwood mất hết thể diện hôm nay sao?"
 
@@ -40,7 +40,7 @@ Thế nhưng, Caelen không cự tuyệt, cũng chẳng hề nổi trận lôi �
 
 Hắn bình thản vươn tay ra, những ngón tay thon dài chạm nhẹ vào thành chén bạc. Trong mắt Lilian lóe lên một tia đắc ý thầm kín.
 
-*Xoảng!*
+Xoảng!
 
 Âm thanh chát chúa xé toạc không gian tĩnh lặng của tẩm điện.
 
@@ -52,7 +52,7 @@ Chữ "đấy" còn chưa kịp thốt ra khỏi cổ họng thì một bàn tay
 
 Tốc độ ra đòn nhanh đến mức xé toạc luồng không khí lạnh bằng một tiếng rít sắc lẹm.
 
-*Rầm!*
+Rầm!
 
 Caelen dồn lực đẩy mạnh Lilian vào cột giường gỗ sồi chạm khắc hình chim ưng. Lưng ả đập mạnh vào thân gỗ, phát ra một tiếng vang nghẹn ứ. Toàn bộ trọng lượng của Caelen dồn ép lên cánh tay, gân xanh nổi rõ trên mu bàn tay trắng muốt. Bàn tay hắn như một gọng kìm bằng sắt nguội khóa chặt hơi thở của ả hầu gái hai mang.
 
@@ -60,7 +60,7 @@ Caelen dồn lực đẩy mạnh Lilian vào cột giường gỗ sồi chạm k
 
 Caelen chỉ khẽ nghiêng đầu nửa tấc. Đòn phản xạ của một bậc thầy cận chiến kiếp trước khiến mũi kim độc sượt qua trong gang tấc. Bàn tay còn lại của hắn chộp lấy cổ tay Lilian, vặn ngược một góc chín mươi độ.
 
-*Rắc!*
+Rắc!
 
 Tiếng khớp xương trật ra khô khốc vang lên. Cây trâm bạc tẩm kịch độc rơi cắm phập xuống sàn gỗ.
 
@@ -82,7 +82,7 @@ Caelen tăng thêm nửa phần lực siết. Không khí trong lồng ngực Li
 
 Sát khí chân thực và tàn bạo bóp nghẹt mọi ý chí dối trá của Lilian. Ả biết, nếu ả còn chần chừ nửa giây, người đàn ông này sẽ bẻ gãy cổ ả thật sự.
 
-"Tôi nói! Tôi nói...!" Lilian nghẹn ngào trong nước mắt, giọng đứt quãng vì sợ hãi: "Tam Công chúa... nàng mang theo *Huyết Chiếu Hoàng Gia* đến để chính thức phế bỏ hôn ước!"
+"Tôi nói! Tôi nói...!" Lilian nghẹn ngào trong nước mắt, giọng đứt quãng vì sợ hãi: "Tam Công chúa... nàng mang theo Huyết Chiếu Hoàng Gia đến để chính thức phế bỏ hôn ước!"
 
 "Chỉ để từ hôn thôi sao?" Ánh mắt Caelen sắc lạnh như dao lam.
 
@@ -108,7 +108,7 @@ Lilian run rẩy quỳ rạp dưới chân Caelen, trán dập sát mặt sàn �
 
 Caelen bước qua vũng độc dược trên sàn, tiến thẳng về phía chiếc gương lớn bằng bạc. Hắn vận chuyển ý niệm, kích hoạt dòng huyết mạch thượng cổ Băng Sương đang ngủ sâu trong tế bào. Luồng hàn khí tinh khiết bùng nổ từ sâu trong ma hạch, đóng băng toàn bộ tàn dư độc tố Hắc Tử La Lan trong mạch máu, nghiền nát chúng thành hư vô.
 
-*Rắc... rắc...*
+Rắc... rắc...
 
 Khí thế quanh người hắn đột ngột biến chuyển. Sắc diện nhợt nhạt biến mất, thay vào đó là phong thái lạnh lùng, thâm trầm và nguy hiểm của một vương giả phương Bắc.
 

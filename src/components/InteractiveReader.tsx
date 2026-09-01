@@ -97,48 +97,10 @@ function renderInteractiveParagraph(
 ) {
   if (!rawText) return null;
 
-  // Step 1: Unwrap asterisks and underscores enclosing character/lore terms
-  // Example: "**Vane**" -> "Vane", "*Hắc Tử La Lan*" -> "Hắc Tử La Lan"
-  let processed = rawText;
-  if (regex) {
-    processed = processed.replace(/\*\*\*([^*]+)\*\*\*/g, (match, inner) =>
-      termMap.has(inner.trim().toLowerCase()) ? inner : match
-    );
-    processed = processed.replace(/\*\*([^*]+)\*\*/g, (match, inner) =>
-      termMap.has(inner.trim().toLowerCase()) ? inner : match
-    );
-    processed = processed.replace(/\*([^*]+)\*/g, (match, inner) =>
-      termMap.has(inner.trim().toLowerCase()) ? inner : match
-    );
-  }
+  // Completely strip all markdown asterisks (**, *, ***) from prose text
+  const cleanText = rawText.replace(/\*+/g, "");
 
-  // Step 2: Split by markdown bold (**...**) and italic (*...*)
-  const mdRegex = /(\*\*[^*]+\*\*|\*[^*]+\*)/g;
-  const mdChunks = processed.split(mdRegex);
-
-  return mdChunks.map((chunk, chunkIdx) => {
-    if (!chunk) return null;
-
-    if (chunk.startsWith("**") && chunk.endsWith("**") && chunk.length > 4) {
-      const boldContent = chunk.slice(2, -2);
-      return (
-        <strong key={chunkIdx} className="font-extrabold text-amber-300">
-          {renderInteractiveSegment(boldContent, termMap, regex, onSelectItem, `b-${chunkIdx}`)}
-        </strong>
-      );
-    }
-
-    if (chunk.startsWith("*") && chunk.endsWith("*") && chunk.length > 2) {
-      const italicContent = chunk.slice(1, -1);
-      return (
-        <em key={chunkIdx} className="italic text-amber-200/90 font-medium">
-          {renderInteractiveSegment(italicContent, termMap, regex, onSelectItem, `i-${chunkIdx}`)}
-        </em>
-      );
-    }
-
-    return renderInteractiveSegment(chunk, termMap, regex, onSelectItem, `c-${chunkIdx}`);
-  });
+  return renderInteractiveSegment(cleanText, termMap, regex, onSelectItem);
 }
 
 export function InteractiveReader({

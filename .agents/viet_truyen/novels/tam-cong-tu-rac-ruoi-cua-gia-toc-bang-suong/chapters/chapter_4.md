@@ -8,7 +8,7 @@ Trong góc phòng giam sâu nhất, Nhị Trưởng Lão Karlov bị trói chặ
 
 Karlov nghiến răng trút ra những tiếng rủa xả the thé qua kẽ răng run rẩy. Mỗi nhịp thở đều kéo theo cơn đau xé da rách thịt trên lưng. Nhưng điều khiến lão đau đớn và căm phẫn gấp vạn lần chính là sự nhục nhã khi bị tước bỏ thực quyền quản sự trước toàn thể quan khách kinh đô và gia tộc.
 
-*Xì... xì...*
+Xì... xì...
 
 Đột nhiên, ngọn đuốc ma pháp leo lét trên vách đá bùng lên một ngọn lửa màu tím sẫm ma quái rồi lịm tắt. Nhiệt độ trong phòng giam tụt dốc thê thảm, không gian xung quanh như bị một màn sương đen hắc ám bóp nghẹt.
 
@@ -20,9 +20,9 @@ Bóng đen khẽ ngẩng đầu. Dưới lớp mũ trùm đầu đen kịt là c
 
 "Nhị Trưởng Lão Karlov danh tiếng lẫy lừng của phương Bắc... nay lại thảm hại thế này sao?" Giọng nói của bóng đen khàn đục, âm u tựa như tiếng kim loại cọ xát trên nắp quan tài.
 
-"Ngươi... là sứ giả của **Hội Lưỡi Hái Hắc Ám**?!" Karlov nhận ra gia huy hình chiếc lưỡi hái máu thêu ẩn sau vạt áo choàng, trong mắt lão lóe lên tia hy vọng điên cuồng: "**Vane** đại nhân?!"
+"Ngươi... là sứ giả của Hội Lưỡi Hái Hắc Ám?!" Karlov nhận ra gia huy hình chiếc lưỡi hái máu thêu ẩn sau vạt áo choàng, trong mắt lão lóe lên tia hy vọng điên cuồng: "Vane đại nhân?!"
 
-Kẻ xuất hiện chính là **Vane** – Hắc Y Sứ Giả kiêm sát thủ cao cấp của Hội Lưỡi Hái Hắc Ám, một thế lực tà giáo hắc ám hùng mạnh chuyên hoạt động ngầm tại ranh giới Vực Thẳm Hoang Vu.
+Kẻ xuất hiện chính là Vane – Hắc Y Sứ Giả kiêm sát thủ cao cấp của Hội Lưỡi Hái Hắc Ám, một thế lực tà giáo hắc ám hùng mạnh chuyên hoạt động ngầm tại ranh giới Vực Thẳm Hoang Vu.
 
 "Tế phẩm và cấm thuật mà ngươi hứa hẹn với Hội để đổi lấy sự trợ giúp... xem ra đã thất bại hoàn toàn rồi." Vane bước tới gần, lưỡi dao găm trong tay khẽ xoay tròn, ánh mắt lạnh buốt nhìn chằm chằm vào Karlov: "Ngươi để một tên phế vật lật tẩy ngay trên đại điện. Hội chủ nhân rất không hài lòng."
 
@@ -36,11 +36,11 @@ Vane trầm ngâm trong giây lát. Lời nói của Karlov chạm đúng vào l
 
 "Ngươi muốn thế nào?" Vane lạnh lùng hỏi.
 
-Trong mắt Karlov bùng lên ngọn lửa độc địa và tàn nhẫn: "Ngày mai, Caelen theo thông lệ sẽ phải rời pháo đài đi tuần tra các mỏ khoáng thạch Băng Lam ở Biên Ải Frostfang để kiểm kê tài sản gia tộc. Lộ trình của hắn bắt buộc phải đi qua **Hẻm Sói Băng** – nơi địa hình hiểm trở và bão tuyết quanh năm!"
+Trong mắt Karlov bùng lên ngọn lửa độc địa và tàn nhẫn: "Ngày mai, Caelen theo thông lệ sẽ phải rời pháo đài đi tuần tra các mỏ khoáng thạch Băng Lam ở Biên Ải Frostfang để kiểm kê tài sản gia tộc. Lộ trình của hắn bắt buộc phải đi qua Hẻm Sói Băng – nơi địa hình hiểm trở và bão tuyết quanh năm!"
 
 Karlov run rẩy dùng ma lực tàn dư phun ra một giọt máu, ngưng tụ thành một tấm bản đồ địa hình thu nhỏ lơ lửng trước mặt Vane:
 
-"Ta đã bí mật liên lạc với băng cướp thảo khấu Biên Ải của **Boris Tai Đỏ**. Boris có hơn một trăm tên kỵ sĩ man di hung hãn và vũ khí ma pháp hạng nặng. Nếu Vane đại nhân cùng người của Hội Lưỡi Hái đích thân ra tay tương trợ, mai phục tại Hẻm Sói Băng... chắc chắn tên phế vật đó sẽ có đi mà không có về!"
+"Ta đã bí mật liên lạc với băng cướp thảo khấu Biên Ải của Boris Tai Đỏ. Boris có hơn một trăm tên kỵ sĩ man di hung hãn và vũ khí ma pháp hạng nặng. Nếu Vane đại nhân cùng người của Hội Lưỡi Hái đích thân ra tay tương trợ, mai phục tại Hẻm Sói Băng... chắc chắn tên phế vật đó sẽ có đi mà không có về!"
 
 Vane nhìn tấm bản đồ máu, khóe môi dưới lớp mặt nạ nhếch lên một nụ cười tàn nhẫn: "Boris Tai Đỏ sao? Một con chó săn thô bạo nhưng hữu dụng. Được, ta sẽ đích thân dẫn theo tiểu đội sát thủ Hắc Ám phối hợp cùng Boris."
 

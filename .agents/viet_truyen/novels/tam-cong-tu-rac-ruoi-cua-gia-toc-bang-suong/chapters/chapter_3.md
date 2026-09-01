@@ -4,7 +4,7 @@
 
 Bên ngoài cửa sổ vòm đá, bão tuyết gào thét từng cơn liên hồi, táp những hạt băng sắc nhọn vào vách tường dày cả mét của Pháo đài Băng Sương. Bên trong phòng ngủ, lò sưởi bằng đá hoa cương chỉ còn lại vài đốm than đỏ le lói, tỏa ra làn khói ấm thoang thoảng mùi gỗ thông khô.
 
-Caelen ngồi xếp bằng trên tấm đệm nhung đen giữa phòng. Hắn cởi bỏ chiếc áo khoác quân phục sang trọng, để lộ lồng ngực săn chắc in hằn những vệt đen mờ nhạt – dấu tích cuối cùng của kịch độc *Hắc Tử La Lan* đang dần bị ma lực băng hàn đông cứng và đào thải qua lỗ chân lông.
+Caelen ngồi xếp bằng trên tấm đệm nhung đen giữa phòng. Hắn cởi bỏ chiếc áo khoác quân phục sang trọng, để lộ lồng ngực săn chắc in hằn những vệt đen mờ nhạt – dấu tích cuối cùng của kịch độc Hắc Tử La Lan đang dần bị ma lực băng hàn đông cứng và đào thải qua lỗ chân lông.
 
 "Ưm..." 
 
@@ -34,15 +34,15 @@ Càng bước xuống những bậc thang đá xoắn ốc hun hút, nhiệt đ�
 
 Đi hết ba trăm bậc thang đá, trước mặt hai người hiện ra một cánh cổng vòm bằng hắc thạch khổng lồ cao hơn mười mét. Trên bề mặt cổng đá khắc chằng chịt hàng ngàn phù văn cổ ngữ lấp lánh ánh đỏ máu, tựa như những mạch máu sống đang đập phập phồng.
 
-"Đây là... *Huyết Linh Cấm Trận*." Lilian nuốt nước bọt, hàm răng va vào nhau lập cập vì lạnh và sợ hãi: "Nghe đồn năm xưa có một vị trưởng lão Trung Giai Đỉnh Phong cố ý phá trận, đã bị ma lực phản phệ thiêu đốt thành tro bụi trong chớp mắt..."
+"Đây là... Huyết Linh Cấm Trận." Lilian nuốt nước bọt, hàm răng va vào nhau lập cập vì lạnh và sợ hãi: "Nghe đồn năm xưa có một vị trưởng lão Trung Giai Đỉnh Phong cố ý phá trận, đã bị ma lực phản phệ thiêu đốt thành tro bụi trong chớp mắt..."
 
 Caelen không nói một lời. Hắn bước tới cách cánh cổng ba bước chân, ánh mắt thâm trầm ngưng tụ.
 
-*Xoạt!*
+Xoạt!
 
 Đáy mắt hắn đột ngột bùng nổ hai luồng lam quang chói lọi. Từng tầng ma trận cổ ngữ xoay chuyển cuồng bạo trong đồng tử.
 
-*Ma Đồng Giải Cấu* kích hoạt tối đa!
+Ma Đồng Giải Cấu kích hoạt tối đa!
 
 Trong tầm nhìn thấu thị của Caelen, thế giới vạn vật bị tước bỏ lớp vỏ bề ngoài. Cánh cổng đá khổng lồ biến thành một mạng lưới năng lượng chằng chịt với hàng triệu sợi tơ mana màu huyết sắc đan xen như mạng nhện. Nơi giao nhau của các luồng ma lực cuộn xoáy hung hãn, nhưng ở góc dưới bên trái, cách mặt đất ba thước, có một điểm nút năng lượng màu xám bạc đang nhấp nháy theo chu kỳ ba giây một lần.
 
@@ -52,7 +52,7 @@ Hắn giơ ngón trỏ tay phải lên. Ma lực băng hàn tinh thuần ngưng 
 
 Caelen bước tới, không hề do dự điểm thẳng mũi kim băng vào điểm nút xám bạc trên cánh cổng!
 
-*Keng!*
+Keng!
 
 Một âm thanh thanh thúy tựa tiếng thủy tinh vỡ vang vọng khắp hang ngầm.
 
@@ -66,21 +66,21 @@ Trên bệ đá, một quả cầu tinh thể băng lam lơ lửng giữa không
 
 "Đó là..." Lilian run rẩy thốt lên.
 
-"**Hàn Băng Thần Tủy**... kết tinh từ giọt máu tim của Thái Cổ Băng Long mà Thủy Tổ Ravenwood từng phong ấn." Ánh mắt Caelen rực sáng.
+"Hàn Băng Thần Tủy... kết tinh từ giọt máu tim của Thái Cổ Băng Long mà Thủy Tổ Ravenwood từng phong ấn." Ánh mắt Caelen rực sáng.
 
-Ngay bên cạnh bệ đá là một quyển trục da rồng màu bạc khắc bốn chữ cổ ngữ phương Bắc: **Băng Sương Long Hồn Quyết**.
+Ngay bên cạnh bệ đá là một quyển trục da rồng màu bạc khắc bốn chữ cổ ngữ phương Bắc: Băng Sương Long Hồn Quyết.
 
-Caelen bước tới, không chút chần chừ vươn tay chộp lấy giọt *Hàn Băng Thần Tủy*.
+Caelen bước tới, không chút chần chừ vươn tay chộp lấy giọt Hàn Băng Thần Tủy.
 
 Khoảnh khắc bàn tay hắn chạm vào khối tinh thể, một luồng năng lượng băng hàn cuồng bạo tựa như sóng thần gầm thét tràn thẳng vào lòng bàn tay, xộc thẳng vào kinh mạch và ma hạch của Caelen!
 
 "Ư... a!"
 
-Caelen nghiến chặt răng, toàn thân hắn lập tức bị bao phủ bởi một lớp băng tinh dày đặc. Mái tóc bạc ánh lam tro tung bay dữ dội trong luồng bão tố mana. Hắn không hề lùi bước, mà lập tức vận chuyển tâm pháp của *Băng Sương Long Hồn Quyết*.
+Caelen nghiến chặt răng, toàn thân hắn lập tức bị bao phủ bởi một lớp băng tinh dày đặc. Mái tóc bạc ánh lam tro tung bay dữ dội trong luồng bão tố mana. Hắn không hề lùi bước, mà lập tức vận chuyển tâm pháp của Băng Sương Long Hồn Quyết.
 
-Dưới sự dẫn dắt của *Ma Đồng Giải Cấu*, dòng năng lượng hỗn loạn của Băng Long bị phân rã thành hàng triệu hạt mana tinh khiết, điên cuồng tuôn chảy qua từng kinh mạch bị tổn thương, gột rửa toàn bộ tàn dư độc tố *Hắc Tử La Lan*, tái tạo và mở rộng thể tích ma hạch gấp ba lần!
+Dưới sự dẫn dắt của Ma Đồng Giải Cấu, dòng năng lượng hỗn loạn của Băng Long bị phân rã thành hàng triệu hạt mana tinh khiết, điên cuồng tuôn chảy qua từng kinh mạch bị tổn thương, gột rửa toàn bộ tàn dư độc tố Hắc Tử La Lan, tái tạo và mở rộng thể tích ma hạch gấp ba lần!
 
-*Ầm!*
+Ầm!
 
 Một tiếng nổ trầm đục vang lên từ sâu trong đan điền Caelen. Phía sau lưng hắn, hư ảnh một con cự long băng sương giương cánh gầm thét giữa bầu trời tuyết trắng thoáng hiện lên rồi chìm sâu vào huyết mạch.
 
@@ -88,7 +88,7 @@ Khí thế quanh người Caelen bùng nổ dữ dội!
 
 Sơ Giai Đỉnh Phong... đột phá!
 
-**Trung Giai Sơ Kỳ!**
+Trung Giai Sơ Kỳ!
 
 Caelen thở ra một hơi dài mang theo hàn khí buốt giá. Hắn mở mắt ra, ánh lam quang trong đồng tử sâu thẳm và sắc bén như hai lưỡi thần binh vừa rời vỏ. Toàn bộ cơ thể hắn tràn ngập sức mạnh bùng nổ, từng thớ cơ bắp và mạch mana đều chảy tràn dòng huyết mạch Băng Long thượng cổ.
 

@@ -20,11 +20,11 @@ Evelyn khoác trên mình bộ giáp Băng Thiết màu bạc sáng chói, đôi
 
 "Karlov," Evelyn lạnh lùng mở lời, từng chữ nặng tựa ngàn cân: "Caelen dù có phạm lỗi gì thì vẫn là Đệ tam công tử của gia tộc Ravenwood. Chưa đến lượt một kẻ quản sự như ông dùng từ 'khiêng' trước mặt khách quý."
 
-Karlov cười khẩy trong bụng, ngoài mặt vờ cúi đầu nhận lỗi nhưng trong mắt lại lóe lên tia độc địa. Lão biết rõ, chén canh Tuyết Liên tẩm đậm đặc *Hắc Tử La Lan* do Lilian mang tới lúc này ắt hẳn đã ngấm vào tim phổi Caelen. Hôm nay, tên phế vật đó nếu không co giật nôn mửa ra sàn thì cũng sẽ phát điên cắn xé quần áo, làm ô uế thanh danh của dòng chính trước mặt toàn thể sứ đoàn kinh đô!
+Karlov cười khẩy trong bụng, ngoài mặt vờ cúi đầu nhận lỗi nhưng trong mắt lại lóe lên tia độc địa. Lão biết rõ, chén canh Tuyết Liên tẩm đậm đặc Hắc Tử La Lan do Lilian mang tới lúc này ắt hẳn đã ngấm vào tim phổi Caelen. Hôm nay, tên phế vật đó nếu không co giật nôn mửa ra sàn thì cũng sẽ phát điên cắn xé quần áo, làm ô uế thanh danh của dòng chính trước mặt toàn thể sứ đoàn kinh đô!
 
 Đúng lúc đó, tiếng bước chân vững chãi, đều đặn vang lên từ hành lang đá sâu thẳm.
 
-*Cộp. Cộp. Cộp.*
+Cộp. Cộp. Cộp.
 
 Âm thanh bước chân không hề có lấy nửa điểm lảo đảo của kẻ say rượu, trái lại, từng nhịp gót giày da gõ xuống sàn đá cẩm thạch đều toát lên một tiết tấu trầm ổn, uy nghiêm đến nghẹt thở.
 
@@ -74,7 +74,7 @@ Không khí trong điện lập tức đông cứng lại. Evelyn đứng bật 
 
 "Đại tiểu thư!" Karlov không hề nao núng, chỉ tay về phía Valerie: "Đây là ý chỉ từ Kinh Đô! Tam Công Chúa không thể cưới một kẻ phế vật! Gia tộc ta phải đưa ra câu trả lời thỏa đáng cho Hoàng gia!"
 
-Valerie ngồi trên ghế cao, khẽ thở dài một tiếng. Nàng đứng dậy, tà váy xanh lục bảo khẽ lay động, tay nâng lên một cuộn giấy da hoàng gia phát ra ánh sáng vàng kim chói lọi – *Huyết Chiếu Hoàng Gia*.
+Valerie ngồi trên ghế cao, khẽ thở dài một tiếng. Nàng đứng dậy, tà váy xanh lục bảo khẽ lay động, tay nâng lên một cuộn giấy da hoàng gia phát ra ánh sáng vàng kim chói lọi – Huyết Chiếu Hoàng Gia.
 
 "Evelyn các hạ, xin hãy bình tĩnh." Valerie nhìn về phía Nữ Kiếm Vương, giọng nói uy nghiêm và dứt khoát:
 
@@ -94,13 +94,13 @@ Caelen nhìn chiếc khay bạc trước mặt.
 
 Trong khoảnh khắc, con ngươi lam băng của hắn khẽ lóe lên những vòng ma trận cổ ngữ xoay chuyển.
 
-*Ma Đồng Giải Cấu* kích hoạt!
+Ma Đồng Giải Cấu kích hoạt!
 
 Dưới đáy chiếc khay bạc, một ma trận trói buộc linh hồn màu đen kịt ẩn giấu dưới lớp nhung đỏ lập tức hiện rõ nguyên hình. Chỉ cần một giọt máu hay ma lực sơ giai chạm vào, khế ước cấm thuật này sẽ lập tức hút cạn sinh lực của người ký, biến kẻ đó thành một cái xác biết đi sau ba ngày trên đường ra tiền tuyến!
 
 Một nụ cười lạnh lùng nở trên môi Caelen.
 
-*Bốp!*
+Bốp!
 
 Caelen vung tay, một cái tát trời giáng mang theo luồng ma lực băng sương tinh khiết nện thẳng vào mặt tên thị vệ bưng khay!
 
@@ -132,7 +132,7 @@ Hắn không hề nổi giận, cũng chẳng có nửa điểm tự ti hay oán
 
 Đầu ngón trỏ của Caelen khẽ ngưng tụ một luồng hàn khí màu lam tinh khiết. Hắn không cần bút mực, trực tiếp dùng ngón tay khắc sâu từng nét cổ ngữ băng giá lên cuộn giấy da:
 
-*Caelen Von Ravenwood – Đồng thuận giải trừ hôn ước.*
+Caelen Von Ravenwood – Đồng thuận giải trừ hôn ước.
 
 Nét chữ sắc bén, dứt khoát, toát lên sự kiêu hãnh ngút ngàn của bậc đế vương phương Bắc!
 

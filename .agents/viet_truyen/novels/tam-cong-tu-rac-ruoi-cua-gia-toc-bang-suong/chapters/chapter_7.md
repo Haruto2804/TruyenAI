@@ -12,7 +12,7 @@ Karlov khẽ vuốt chòm râu bạc, giả vờ thở dài thảng thốt: "Ai 
 
 Vừa dứt lời, lão khẽ liếc nhìn quanh đại điện, chuẩn bị sẵn bài diễn văn đòi thu hồi toàn bộ quyền thừa kế của Caelen để chuyển giao cho con trai mình.
 
-*RẦM!*
+RẦM!
 
 Đột nhiên, cánh cổng gỗ sồi bọc thép dày nửa thước của Nghị Sự Điện bị đạp tung ra!
 
@@ -26,7 +26,7 @@ Và đi bên phải... chính là Caelen Von Ravenwood!
 
 Hắn khoác chiếc áo choàng lông thú đen tuyền, dáng đi thong dong bất phàm, thần thái lạnh lùng ngạo nghễ như một bậc đế vương bước vào lãnh địa của mình.
 
-*Bộp!*
+Bộp!
 
 Caelen vung tay ném một chiếc bao tải thô bằng vải bố lên chính giữa bàn hội nghị đá cẩm thạch. Chiếc bao bung ra, để lộ chiếc thủ cấp đẫm máu đóng băng của Boris Tai Đỏ với một bên tai đỏ au dị dạng!
 
@@ -38,7 +38,7 @@ Nụ cười trên gương mặt Karlov lập tức đông cứng lại. Sắc m
 
 "Không... không thể nào! Làm sao ngươi... làm sao ngươi còn sống?!"
 
-*Xoảng!*
+Xoảng!
 
 Caelen không buồn trả lời câu hỏi ngu ngốc đó. Hắn lạnh lùng rút chiếc lệnh bài chỉ huy bằng sắt đen ném thẳng vào trước mặt Karlov, phát ra tiếng va chạm chát chúa:
 
@@ -54,7 +54,7 @@ Bị dồn vào chân tường, vẻ đạo mạo giả tạo của Karlov hoàn
 
 "Lũ ngu xuẩn các ngươi thì biết cái gì?! Gia tộc Ravenwood dưới tay dòng chính đã suy tàn suốt trăm năm qua! Chỉ có cấu kết với Hội Lưỡi Hái Hắc Ám, ta mới có thể đưa gia tộc này xưng bá thiên hạ! Hôm nay các ngươi phải chết hết ở đây!"
 
-Karlov gầm lên, hai tay lão bấm quyết ma pháp tà ác, toàn thân bốc lên luồng khói đen nồng nặc mùi máu tanh của cấm thuật *Huyết Hồn Tự Bạo*, định kéo toàn bộ đại điện chôn cùng!
+Karlov gầm lên, hai tay lão bấm quyết ma pháp tà ác, toàn thân bốc lên luồng khói đen nồng nặc mùi máu tanh của cấm thuật Huyết Hồn Tự Bạo, định kéo toàn bộ đại điện chôn cùng!
 
 "Cấm thuật tự bạo! Ngăn hắn lại!" Các trưởng lão hoảng loạn lùi lại.
 
@@ -62,17 +62,17 @@ Evelyn vừa định tuốt đại kiếm Băng Phách thì một bàn tay thon 
 
 "Để ta."
 
-Caelen bước lên một bước. Đáy mắt hắn bùng nổ hai luồng lam quang rực rỡ, *Ma Đồng Giải Cấu* thấu suốt toàn bộ mạch vận chuyển ma lực đang sôi trào trong đan điền Karlov.
+Caelen bước lên một bước. Đáy mắt hắn bùng nổ hai luồng lam quang rực rỡ, Ma Đồng Giải Cấu thấu suốt toàn bộ mạch vận chuyển ma lực đang sôi trào trong đan điền Karlov.
 
-*Xoạt!*
+Xoạt!
 
 Thân ảnh Caelen nhanh tựa tia chớp xé rách không gian, xuất hiện ngay trước mặt Karlov chỉ trong một phần mười giây!
 
 Ngón trỏ tay phải của Caelen ngưng tụ hàn băng cổ ngữ tinh thuần, chuẩn xác điểm thẳng vào ba đại huyệt vị trên ngực và trán của Karlov:
 
-"**Băng Sương Khóa Ma Chỉ**!"
+"Băng Sương Khóa Ma Chỉ!"
 
-*Rắc! Rắc! Rắc!*
+Rắc! Rắc! Rắc!
 
 Ba đạo khí lưu Băng Long thượng cổ hung hãn đâm xuyên kinh mạch, đóng băng toàn bộ luồng ma lực hắc ám đang sôi trào, đồng thời nghiền nát ma hạch trong đan điền Karlov thành từng mảnh vụn!
 
@@ -106,7 +106,7 @@ Caelen đứng trên ban công đại điện, ngắm nhìn giang sơn tuyết t
 
 Caelen mở phong thư ra. Bên trong là nét chữ thanh tú, kiêu kỳ nhưng chứa đầy sự tôn trọng và thách thức của Valerie:
 
-*"Caelen, bản Huyết Chiếu từ hôn đã được Hoàng gia phê chuẩn. Nhưng một kẻ nguy hiểm như ngươi không thể mãi ẩn mình trong tuyết lạnh Bắc Cảnh. Ba tháng sau, tại Hoàng Thành Solaria sẽ diễn ra Hội Nghị Ma Pháp Tam Quốc và Lôi Đài Thần Vực. Ta chờ xem... con rồng băng phương Bắc có dám đến Kinh Đô đoạt lấy thiên hạ hay không."*
+"Caelen, bản Huyết Chiếu từ hôn đã được Hoàng gia phê chuẩn. Nhưng một kẻ nguy hiểm như ngươi không thể mãi ẩn mình trong tuyết lạnh Bắc Cảnh. Ba tháng sau, tại Hoàng Thành Solaria sẽ diễn ra Hội Nghị Ma Pháp Tam Quốc và Lôi Đài Thần Vực. Ta chờ xem... con rồng băng phương Bắc có dám đến Kinh Đô đoạt lấy thiên hạ hay không."
 
 Caelen khẽ mỉm cười, ngón tay châm lên một ngọn lửa băng lam thiêu rụi bức thư thành tro bụi trong gió tuyết.
 
