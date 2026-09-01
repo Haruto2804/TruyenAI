@@ -20,13 +20,13 @@ async function testNewCharacterImages() {
   await firstCard.click();
   await page.waitForTimeout(1000);
 
-  // Click Hắc (Vane) in the bottom switcher
-  const vaneBtn = page.locator("button:has-text('Hắc')").first();
-  if (await vaneBtn.isVisible()) {
-    await vaneBtn.click();
+  // Click Nhị (Karlov) in the bottom switcher
+  const karlovBtn = page.locator("button:has-text('Nhị')").first();
+  if (await karlovBtn.isVisible()) {
+    await karlovBtn.click();
     await page.waitForTimeout(800);
-    await page.screenshot({ path: path.join(process.cwd(), "test_screenshots", "vane_modal_new_art.png") });
-    console.log("Saved vane_modal_new_art.png");
+    await page.screenshot({ path: path.join(process.cwd(), "test_screenshots", "karlov_modal_fixed.png") });
+    console.log("Saved karlov_modal_fixed.png");
   }
 
   await browser.close();
