@@ -1,6 +1,6 @@
 # HỆ THỐNG VIẾT TIỂU THUYẾT ĐA TÁC TỬ (MULTI-AGENT NOVEL WRITING FRAMEWORK)
 
-Tài liệu này định nghĩa quy chuẩn vận hành, vai trò của 4 Agent, cấu trúc lưu trữ và quy tắc đồng bộ bắt buộc cho toàn bộ các bộ truyện được sáng tác trên hệ thống Thiên Thư AI.
+Tài liệu này định nghĩa quy chuẩn vận hành, vai trò của 6 Agent, cấu trúc lưu trữ và quy tắc đồng bộ tự động hóa 100% cho toàn bộ các bộ truyện được sáng tác trên hệ thống Thiên Thư AI.
 
 ---
 
@@ -12,25 +12,26 @@ Mọi bộ truyện mới khi khởi tạo BẮT BUỘC phải được tổ ch�
 .agents/viet_truyen/
 ├── viettruyen.md                                 # [Master Framework] Tài liệu quy chuẩn này
 └── novels/
-    └── <novel_slug>/                             # Thư mục riêng của từng bộ truyện (vd: dai-cong-tu-rac-ruoi-cua-gia-toc-bang-suong)
-        ├── master_codex.md                       # [Hồ Sơ Tổng & Bộ Nhớ Vĩnh Cửu] Lưu trữ 4 Skills, Bối cảnh, Nhân vật, Chú giải & Trạng thái
+    └── <novel_slug>/                             # Thư mục riêng của từng bộ truyện (vd: tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong)
+        ├── master_codex.md                       # [Hồ Sơ Tổng & Ký Ức Vĩnh Cửu] Bối cảnh, Nhân vật, Chú giải & Trạng thái
+        ├── characters.md                         # [Visual Dossier & Prompts 9:16] Phác thảo ngoại hình & Prompt tạo ảnh AI
         └── chapters/                             # Thư mục lưu trữ từng chương truyện độc lập
-            ├── chapter_1.md                      # Nội dung văn xuôi Chương 1
+            ├── chapter_1.md                      # Nội dung văn xuôi Chương 1 (đã làm sạch asterisks)
             ├── chapter_2.md                      # Nội dung văn xuôi Chương 2
             └── ...
 ```
 
 ---
 
-## 🧠 2. QUY TRÌNH 4 AGENT & ĐỐI CHIẾU DỮ LIỆU (THE 4-AGENT PIPELINE)
+## 🧠 2. QUY TRÌNH 6 AGENT TỰ ĐỘNG HÓA (THE 6-AGENT PIPELINE)
 
-Mỗi lần sáng tác chương mới hoặc phát triển cốt truyện, AI phải đóng vai lần lượt 4 Agent chuyên biệt:
+Mỗi lần sáng tác chương mới hoặc phát triển cốt truyện, hệ thống phối hợp 6 Agent chuyên trách:
 
 ### [SKILL 1] ARCHITECT AGENT (KIẾN TRÚC SƯ CỐT TRUYỆN)
 * **Nhiệm vụ:**
   - Đọc và đối chiếu `master_codex.md` trước khi lên kịch bản để đảm bảo tính nhất quán (Logic nhân quả, không mâu thuẫn tình tiết).
   - Phác thảo dàn ý chi tiết từng cảnh (Scene Beats) theo cấu trúc 3 hồi dưới định dạng chuẩn JSON.
-  - Xác định rõ: Nhân vật xuất hiện, Mục tiêu cảnh, Xung đột cốt lõi, Thông tin/Khái niệm mới được tiết lộ.
+  - Xác định rõ: Nhân vật xuất hiện, Mục tiêu cảnh, Xung đột cốt lõi, Khái niệm / Bí thuật / Độc dược mới được tiết lộ.
 
 ### [SKILL 2] DRAFTER AGENT (TIỂU THUYẾT GIA NGUYÊN TÁC)
 * **Nhiệm vụ:** Chuyển hóa Dàn ý Scene Beats thành văn xuôi văn học thượng thừa.
@@ -38,7 +39,7 @@ Mỗi lần sáng tác chương mới hoặc phát triển cốt truyện, AI ph
   1. **Show, Don't Tell:** Miêu tả hành động, biểu cảm, biến chuyển nội tâm; cấm tóm tắt cảm xúc suông.
   2. **Kích hoạt Ngũ Quan:** Mỗi phân cảnh phải lột tả ít nhất 3 giác quan (Ánh sáng/Thị giác, Âm thanh/Thính giác, Mùi hương/Khứu giác, Nhiệt độ/Xúc giác, Vị giác).
   3. **Hội thoại chân thực:** Ngắn gọn, có hồn, luôn xen kẽ hành động vi mô (micro-actions).
-  4. **Lọc bỏ AI Cliches:** Tuyệt đối cấm các từ ngữ sáo rỗng AI ("như một minh chứng cho", "đầy hứa hẹn", "bỗng nhiên", "một bản giao hưởng").
+  4. **Lọc bỏ AI Cliches & Asterisks:** Tuyệt đối cấm các từ ngữ sáo rỗng AI và không lưu trữ dấu sao `**` thừa trong văn bản chương.
   5. **Nhịp điệu biến hóa:** Dồn dập trong chiến đấu, sâu lắng tinh tế trong nội tâm.
 
 ### [SKILL 3] EDITOR AGENT (BIÊN TẬP VIÊN KIỂM DUYỆT)
@@ -47,44 +48,38 @@ Mỗi lần sáng tác chương mới hoặc phát triển cốt truyện, AI ph
   - `critique` (Nhận xét chi tiết về Nhất quán, Ngũ quan, Show Don't Tell, Nhịp điệu).
   - `action`: Trả về `"PASS"` (nếu score >= 8.5) hoặc `"REWRITE"` (nếu chưa đạt).
 
-### [SKILL 4] MEMORY MANAGER AGENT (NGƯỜI QUẢN LÝ KÝ ỨC & ĐỒNG BỘ)
-* **Nhiệm vụ:** Trích xuất siêu dữ liệu (Metadata) sau mỗi chương và thực thi **Giao Thức Đồng Bộ (Sync Protocol)**.
+### [SKILL 4] MEMORY MANAGER AGENT (QUẢN LÝ KÝ ỨC & TIẾN TRÌNH)
+* **Nhiệm vụ:** Trích xuất biến động trạng thái (tu vi, vết thương, ân oán, trang bị, manh mối) sau mỗi chương và ghi vào `master_codex.md`.
 
-### [SKILL 5] ILLUSTRATOR AGENT (HỌA SƯ NHÂN VẬT & MINH HỌA)
-* **Nhiệm vụ:** Đọc bối cảnh `master_codex.md`, trích xuất nhân dạng, sinh ảnh AI tỷ lệ 3:4 chân dung chất lượng cao.
-* **Quy tắc duyệt (Review Gate):** Luôn tạo bản xem trước (Preview) cho người dùng phê duyệt trước khi lưu và đồng bộ lên Database web.
-* **Chi tiết kỹ thuật:** Xem file skill riêng tại [SKILL.md](file:///c:/Users/ngohi/OneDrive/Documents/TruyenAI/.agents/skills/novel-character-illustrator/SKILL.md).
+### [SKILL 5] VISUAL DIRECTOR AGENT (ĐẠO DIỄN HÌNH ẢNH & PROMPT MASTER)
+* **Nhiệm vụ:**
+  - Khi xuất hiện nhân vật mới, tự động phác thảo diện mạo chi tiết từ đầu đến chân (Head-to-Toe Visual Dossier).
+  - Soạn sẵn Prompt tiếng Anh chuẩn studio (Midjourney v6 / FLUX.1 / SDXL, tỉ lệ dọc 9:16, Manhwa Artstyle, 8k resolution, cinematic lighting).
+  - **Tự động xuất / cập nhật vào file `characters.md`** của bộ truyện để tác giả/admin dễ dàng xem trực quan và copy đi tạo ảnh.
+* **Quy tắc nhận diện file ảnh thông minh (`tennhanvat.*`):**
+  - Hệ thống tự động phát hiện và nhận diện **BẤT KỲ ĐỊNH DẠNG ẢNH NÀO** (`.png`, `.jpg`, `.jpeg`, `.webp`, `.avif`, `.gif`) trong thư mục `public/characters/<novel_slug>/`.
+  - Tác giả chỉ cần thả file ảnh vào thư mục theo tên/slug nhân vật (ví dụ: `caelen.png`, `lilian.webp`, `karlov.jpg`) mà không cần can thiệp code!
+
+### [SKILL 6] LOREKEEPER AGENT (BÁCH KHOA TOÀN THƯ & TỰ ĐỘNG PHÁT HIỆN CHÚ GIẢI)
+* **Nhiệm vụ:**
+  - Tự động quét phân tích nội dung chương truyện để phát hiện các thuật ngữ, độc dược, bí thuật, địa danh, bảo vật, công pháp, cảnh giới mới mà người đọc cần tra cứu.
+  - Phân loại danh mục (`Độc Dược`, `Bí Thuật`, `Địa Danh`, `Bảo Vật`, `Thế Lực`, `Cảnh Giới`...) và viết định nghĩa cô đọng, dễ hiểu.
+  - **Tự động ghi vào `master_codex.md` và Database** để kích hoạt tính năng X-Ray Interactive Reader (người đọc chạm vào từ khóa là hiện bảng giải nghĩa tức thì).
 
 ---
 
+## ⚡ 3. GIAO THỨC ĐỒNG BỘ 1-LỆNH (AUTOMATED 1-COMMAND SYNC)
 
-## ⚡ 3. GIAO THỨC ĐỒNG BỘ BẮT BUỘC (MANDATORY SYNC PROTOCOL)
+Mọi thay đổi về truyện, chương mới, nhân vật mới, ảnh mới (mọi định dạng), chú giải mới đều được tự động hóa 100% bằng 1 câu lệnh duy nhất:
 
-Khi sáng tác bất kỳ chương mới nào:
+```bash
+npm run sync:novel
+```
 
-1. **Phát Hiện Nhân Vật Mới (New Characters):**
-   - Nếu trong chương xuất hiện nhân vật mới (dù là phụ hay phản diện ngắn hạn), phải lập tức trích xuất và lập **Hồ Sơ Nhân Vật Siêu Chi Tiết (Ultra-Detailed Dossier)** theo chuẩn:
-     - `Tên đầy đủ`, `Vai trò`, `Danh xưng & Biệt hiệu`, `Cảnh giới tu vi`.
-     - `Diện mạo & Ngoại hình (Head-to-Toe)`: Chiều cao, vóc dáng, màu da, mái tóc, đôi mắt ma nhãn, ngũ quan thần thái, trang phục quý tộc/chiến bào chi tiết từng đường kim mũi chỉ, trang sức phụ kiện.
-     - `Vũ khí, Bảo vật & Tuyệt kỹ ma pháp`.
-     - `Tính cách & Chiều sâu tâm lý` (bản chất, phong cách hành sự, tâm ma quá khứ).
-     - `Sở thích & Thói quen vi mô` (món ăn/rượu trà ưa chuộng, thói quen khi tính kế, điều ghét cay ghét đắng).
-     - `Mạng lưới quan hệ & Ân oán`.
-   - **Ghi ngay vào mục `## 2. Character Codex` trong file `master_codex.md`** của bộ truyện đó.
-   - Đồng bộ vào cơ sở dữ liệu (`prisma.character.upsert`).
-
-2. **Phát Hiện Khái Niệm / Thuật Ngữ / Chú Giải Mới (New Lore & Glossary):**
-   - Nếu xuất hiện thuật ngữ lạ, bí thuật, độc dược, địa danh, bảo vật, công pháp, cảnh giới mà người đọc có thể bỡ ngỡ:
-   - **Ghi ngay vào mục `## 3. Lore & Glossary Codex` trong file `master_codex.md`** kèm phân loại (`Độc Dược`, `Bí Thuật`, `Địa Danh`, `Bảo Vật`...) và lời giải thích ngắn gọn, dễ hiểu.
-   - Đồng bộ vào cơ sở dữ liệu (`prisma.lore.create`).
-
-3. **Cập Nhật Trạng Thái (State Updates):**
-   - Ghi lại các thay đổi quan trọng sau chương vào `master_codex.md`:
-     - *Status:* Thay đổi tu vi, vết thương, trạng thái sinh tử.
-     - *Inventory:* Đồ vật/vũ khí vừa nhận được hoặc bị phá hủy.
-     - *Relationships:* Biến chuyển quan hệ đồng minh, thù địch, nội gián.
-     - *Plot Hooks:* Các manh mối/bí mật chưa được giải quyết.
-
-4. **Tạo File Chương Riêng Biệt:**
-   - Lưu trữ bản văn xuôi hoàn chỉnh đã qua duyệt vào `.agents/viet_truyen/novels/<novel_slug>/chapters/chapter_<N>.md`.
-   - Đăng tải / Cập nhật chương lên cơ sở dữ liệu web (`prisma.chapter.upsert`).
+**Cơ chế thực thi của lệnh:**
+1. Quét toàn bộ danh sách truyện trong `.agents/viet_truyen/novels/`.
+2. Đồng bộ Story Info từ `master_codex.md`.
+3. Tự động scan thư mục ảnh `public/characters/<novel_slug>/` để gán đường dẫn Avatar với bất kỳ đuôi mở rộng nào (`.png`, `.jpg`, `.jpeg`, `.webp`, `.avif`).
+4. Tự động sinh / cập nhật file `characters.md` với đầy đủ Visual Dossier & AI Prompts 9:16.
+5. Tự động nạp toàn bộ Chú giải (Lores) vào Database.
+6. Tự động nạp toàn bộ Chương truyện (`chapters/chapter_*.md`), lọc sạch asterisks và lưu vào Database.

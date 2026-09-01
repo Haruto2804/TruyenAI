@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "make-admin": "node scripts/make-admin.js"
+    "make-admin": "node scripts/make-admin.js",
+    "sync:novel": "npx tsx scripts/auto_sync.ts"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.3",
