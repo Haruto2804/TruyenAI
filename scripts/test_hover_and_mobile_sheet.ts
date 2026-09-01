@@ -9,21 +9,21 @@ async function testHoverAndMobileSheet() {
     const context = await browser.newContext({ viewport: { width: 1440, height: 900 } });
     const page = await context.newPage();
 
-    console.log("Navigating to chapter reader on Desktop (1440px)...");
-    await page.goto("http://localhost:3000/truyen/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/1", { waitUntil: "networkidle" });
+    console.log("Navigating to chapter 5 on Desktop (1440px)...");
+    await page.goto("http://localhost:3000/truyen/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/5", { waitUntil: "networkidle" });
     await page.waitForTimeout(1000);
 
-    // Find first interactive character or lore button
-    const interactiveWord = page.locator("button:has-text('Caelen')").first();
+    // Find interactive word 'Boris Tai Đỏ'
+    const interactiveWord = page.locator("button:has-text('Boris Tai Đỏ')").first();
     await interactiveWord.scrollIntoViewIfNeeded();
     await page.waitForTimeout(500);
 
-    console.log("Hovering over interactive word 'Caelen' on PC...");
+    console.log("Hovering over interactive word 'Boris Tai Đỏ' on PC...");
     await interactiveWord.hover();
-    await page.waitForTimeout(500);
+    await page.waitForTimeout(600);
 
-    await page.screenshot({ path: path.join(process.cwd(), "test_screenshots", "pc_hover_tooltip_card.png") });
-    console.log("Saved pc_hover_tooltip_card.png");
+    await page.screenshot({ path: path.join(process.cwd(), "test_screenshots", "pc_hover_tooltip_boris_fixed.png") });
+    console.log("Saved pc_hover_tooltip_boris_fixed.png");
 
     await context.close();
   }

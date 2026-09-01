@@ -488,11 +488,11 @@ export function InteractiveReader({
         <div
           className="hidden md:block fixed z-50 pointer-events-none transform -translate-x-1/2 -translate-y-full pb-3 animate-in fade-in zoom-in-95 duration-150"
           style={{
-            left: `${Math.max(180, Math.min(typeof window !== "undefined" ? window.innerWidth - 180 : 1000, hoveredInfo.x))}px`,
-            top: `${hoveredInfo.y - 8}px`,
+            left: `${Math.max(200, Math.min(typeof window !== "undefined" ? window.innerWidth - 200 : 1000, hoveredInfo.x))}px`,
+            top: `${Math.max(10, hoveredInfo.y - 8)}px`,
           }}
         >
-          <div className="w-80 bg-gradient-to-b from-slate-900/98 via-slate-950/98 to-black border-2 border-[#d4af37]/60 rounded-2xl p-4 shadow-[0_20px_50px_rgba(0,0,0,0.95)] backdrop-blur-2xl space-y-3">
+          <div className="w-88 sm:w-96 max-w-[calc(100vw-2rem)] bg-gradient-to-b from-slate-900/98 via-slate-950/98 to-black border-2 border-[#d4af37]/60 rounded-2xl p-4 shadow-[0_20px_50px_rgba(0,0,0,0.95)] backdrop-blur-2xl space-y-3 overflow-hidden">
             {hoveredInfo.item.type === "character" ? (
               <div className="space-y-2.5">
                 <div className="flex items-center gap-3">
@@ -509,11 +509,13 @@ export function InteractiveReader({
                       </div>
                     )}
                   </div>
-                  <div className="min-w-0 space-y-1">
-                    <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-extrabold bg-[#d4af37]/15 text-[#d4af37] border border-[#d4af37]/30">
-                      <span>{getRoleEmoji(hoveredInfo.item.data.role)}</span>
-                      <span className="truncate">{hoveredInfo.item.data.role || "Nhân vật"}</span>
-                    </span>
+                  <div className="min-w-0 flex-1 space-y-1">
+                    <div className="flex">
+                      <span className="inline-flex items-center gap-1 max-w-full px-2 py-0.5 rounded-md text-[10px] font-extrabold bg-[#d4af37]/15 text-[#d4af37] border border-[#d4af37]/30">
+                        <span className="shrink-0">{getRoleEmoji(hoveredInfo.item.data.role)}</span>
+                        <span className="truncate">{hoveredInfo.item.data.role || "Nhân vật"}</span>
+                      </span>
+                    </div>
                     <h4 className="font-extrabold text-sm text-white truncate">
                       {hoveredInfo.item.data.name}
                     </h4>
@@ -525,20 +527,22 @@ export function InteractiveReader({
                   </div>
                 </div>
                 {hoveredInfo.item.data.description && (
-                  <p className="text-xs text-slate-300 line-clamp-3 leading-relaxed font-normal bg-black/40 p-2.5 rounded-xl border border-white/5">
-                    {hoveredInfo.item.data.description.replace(/\*+/g, "")}
-                  </p>
+                  <div className="bg-black/50 p-2.5 rounded-xl border border-white/5 overflow-hidden">
+                    <p className="text-xs text-slate-300 line-clamp-3 leading-relaxed font-normal">
+                      {hoveredInfo.item.data.description.replace(/\*+/g, "")}
+                    </p>
+                  </div>
                 )}
               </div>
             ) : (
               <div className="space-y-2.5">
                 <div className="flex items-center justify-between gap-2 border-b border-white/10 pb-2">
-                  <div className="flex items-center gap-2 min-w-0">
+                  <div className="flex items-center gap-2 min-w-0 flex-1">
                     <span className="text-base shrink-0">
                       {(hoveredInfo.item.data.category && CATEGORY_EMOJIS[hoveredInfo.item.data.category]) || CATEGORY_EMOJIS.default}
                     </span>
-                    <div className="min-w-0">
-                      <span className="text-[10px] font-bold text-cyan-400 uppercase tracking-wider block">
+                    <div className="min-w-0 flex-1">
+                      <span className="text-[10px] font-bold text-cyan-400 uppercase tracking-wider block truncate">
                         {hoveredInfo.item.data.category || "Thuật ngữ"}
                       </span>
                       <h4 className="font-extrabold text-sm text-white truncate">
@@ -547,9 +551,11 @@ export function InteractiveReader({
                     </div>
                   </div>
                 </div>
-                <p className="text-xs text-slate-200 line-clamp-4 leading-relaxed font-normal bg-black/40 p-2.5 rounded-xl border border-white/5">
-                  {hoveredInfo.item.data.definition.replace(/\*+/g, "")}
-                </p>
+                <div className="bg-black/50 p-2.5 rounded-xl border border-white/5 overflow-hidden">
+                  <p className="text-xs text-slate-200 line-clamp-4 leading-relaxed font-normal">
+                    {hoveredInfo.item.data.definition.replace(/\*+/g, "")}
+                  </p>
+                </div>
               </div>
             )}
             <div className="pt-1 border-t border-white/10 flex items-center justify-between text-[10px] text-slate-400 font-medium">
