@@ -6,6 +6,7 @@ import {
   Sparkles, User, X, ZoomIn, Shield, Tag, 
   ChevronRight, ChevronLeft, Maximize2, Eye, ChevronDown
 } from "lucide-react";
+import { getCharacterAvatarUrl } from "@/lib/images";
 
 export interface CharacterItem {
   id: string;
@@ -18,6 +19,7 @@ export interface CharacterItem {
 
 interface CharacterGalleryProps {
   characters: CharacterItem[];
+  storySlug?: string;
 }
 
 function getShortRole(role?: string | null): string {
@@ -67,7 +69,7 @@ function renderFormattedDescription(desc: string | null) {
   );
 }
 
-export function CharacterGallery({ characters }: CharacterGalleryProps) {
+export function CharacterGallery({ characters, storySlug }: CharacterGalleryProps) {
   const [mounted, setMounted] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [isFullscreenImage, setIsFullscreenImage] = useState(false);
@@ -179,19 +181,22 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
             >
               {/* Khung Tranh Chuẩn 9:16 */}
               <div className="relative aspect-[9/16] w-full overflow-hidden bg-slate-950">
-                {char.avatarUrl ? (
-                  <img
-                    src={char.avatarUrl}
-                    alt={char.name}
-                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
-                    loading="lazy"
-                  />
-                ) : (
-                  <div className="w-full h-full flex flex-col items-center justify-center bg-slate-900 text-slate-500 p-4 text-center">
-                    <User className="w-12 h-12 text-[#d4af37]/40 mb-2" />
-                    <span className="text-sm font-medium">Chưa có ảnh</span>
-                  </div>
-                )}
+                {(() => {
+                  const avatar = getCharacterAvatarUrl(char.avatarUrl, storySlug, char.name);
+                  return avatar ? (
+                    <img
+                      src={avatar}
+                      alt={char.name}
+                      className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex flex-col items-center justify-center bg-slate-900 text-slate-500 p-4 text-center">
+                      <User className="w-12 h-12 text-[#d4af37]/40 mb-2" />
+                      <span className="text-sm font-medium">Chưa có ảnh</span>
+                    </div>
+                  );
+                })()}
 
                 {/* Gradient che sáng để làm nổi bật thông tin */}
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/50 to-black/30 pointer-events-none" />
@@ -313,25 +318,28 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
                 onClick={() => setIsFullscreenImage(true)}
                 className="relative flex-1 w-full max-h-[64vh] flex items-center justify-center cursor-pointer my-auto"
               >
-                {selectedChar.avatarUrl ? (
-                  <div className="relative h-full aspect-[9/16] rounded-2xl overflow-hidden shadow-[0_10px_40px_rgba(0,0,0,0.8)] border-2 border-[#d4af37]/40 group-hover:border-[#d4af37] transition-all">
-                    <img
-                      src={selectedChar.avatarUrl}
-                      alt={selectedChar.name}
-                      className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                      <span className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#d4af37] text-slate-950 text-xs font-extrabold shadow-xl">
-                        <Maximize2 className="w-4 h-4" /> Phóng to HD
-                      </span>
+                {(() => {
+                  const avatar = getCharacterAvatarUrl(selectedChar.avatarUrl, storySlug, selectedChar.name);
+                  return avatar ? (
+                    <div className="relative h-full aspect-[9/16] rounded-2xl overflow-hidden shadow-[0_10px_40px_rgba(0,0,0,0.8)] border-2 border-[#d4af37]/40 group-hover:border-[#d4af37] transition-all">
+                      <img
+                        src={avatar}
+                        alt={selectedChar.name}
+                        className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                      />
+                      <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <span className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#d4af37] text-slate-950 text-xs font-extrabold shadow-xl">
+                          <Maximize2 className="w-4 h-4" /> Phóng to HD
+                        </span>
+                      </div>
                     </div>
-                  </div>
-                ) : (
-                  <div className="h-full aspect-[9/16] rounded-2xl bg-slate-900 border border-white/10 flex flex-col items-center justify-center p-6 text-center">
-                    <User className="w-16 h-16 text-[#d4af37]/40 mb-2" />
-                    <span className="text-xs text-slate-400">Chưa có ảnh chân dung</span>
-                  </div>
-                )}
+                  ) : (
+                    <div className="h-full aspect-[9/16] rounded-2xl bg-slate-900 border border-white/10 flex flex-col items-center justify-center p-6 text-center">
+                      <User className="w-16 h-16 text-[#d4af37]/40 mb-2" />
+                      <span className="text-xs text-slate-400">Chưa có ảnh chân dung</span>
+                    </div>
+                  );
+                })()}
               </div>
 
               <div className="pt-2 flex items-center gap-2 text-xs font-semibold text-slate-400 shrink-0">
@@ -430,17 +438,20 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
                   className="group relative w-16 xs:w-20 aspect-[9/16] rounded-2xl overflow-hidden bg-slate-950 border-2 border-[#d4af37]/60 shrink-0 shadow-xl cursor-pointer active:scale-95 transition-all"
                   title="Chạm để xem ảnh toàn màn hình"
                 >
-                  {selectedChar.avatarUrl ? (
-                    <img
-                      src={selectedChar.avatarUrl}
-                      alt={selectedChar.name}
-                      className="w-full h-full object-cover object-center"
-                    />
-                  ) : (
-                    <div className="w-full h-full flex items-center justify-center bg-slate-900 text-slate-600">
-                      <User className="w-6 h-6 text-[#d4af37]/40" />
-                    </div>
-                  )}
+                  {(() => {
+                    const avatar = getCharacterAvatarUrl(selectedChar.avatarUrl, storySlug, selectedChar.name);
+                    return avatar ? (
+                      <img
+                        src={avatar}
+                        alt={selectedChar.name}
+                        className="w-full h-full object-cover object-center"
+                      />
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center bg-slate-900 text-slate-600">
+                        <User className="w-6 h-6 text-[#d4af37]/40" />
+                      </div>
+                    );
+                  })()}
                   <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                     <Maximize2 className="w-4 h-4 text-white" />
                   </div>
@@ -566,17 +577,20 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
             className="relative h-full max-h-[85vh] aspect-[9/16] rounded-3xl overflow-hidden shadow-[0_0_80px_rgba(212,175,55,0.35)] border-2 border-[#d4af37]/60 flex items-center justify-center bg-slate-950"
             onClick={(e) => e.stopPropagation()}
           >
-            {selectedChar.avatarUrl ? (
-              <img
-                src={selectedChar.avatarUrl}
-                alt={selectedChar.name}
-                className="w-full h-full object-cover object-center select-none"
-              />
-            ) : (
-              <div className="w-full h-full flex items-center justify-center bg-slate-950 text-slate-500">
-                <User className="w-16 h-16 text-[#d4af37]/40" />
-              </div>
-            )}
+            {(() => {
+              const avatar = getCharacterAvatarUrl(selectedChar.avatarUrl, storySlug, selectedChar.name);
+              return avatar ? (
+                <img
+                  src={avatar}
+                  alt={selectedChar.name}
+                  className="w-full h-full object-cover object-center select-none"
+                />
+              ) : (
+                <div className="w-full h-full flex items-center justify-center bg-slate-950 text-slate-500">
+                  <User className="w-16 h-16 text-[#d4af37]/40" />
+                </div>
+              );
+            })()}
           </div>
         </div>,
         document.body

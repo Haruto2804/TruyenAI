@@ -3,6 +3,7 @@ import prisma from "@/lib/prisma";
 import { redirect } from "next/navigation";
 import Link from "next/link";
 import { Bookmark, History, ChevronRight, BookOpen, Sparkles, PackageOpen } from "lucide-react";
+import { getStoryCoverUrl } from "@/lib/images";
 
 export default async function LibraryPage() {
   const session = await auth();
@@ -92,15 +93,11 @@ export default async function LibraryPage() {
                   className="flex gap-3.5 sm:gap-4 p-3.5 rounded-2xl bg-black/40 border border-white/10 hover:border-[#d4af37]/40 transition-all group"
                 >
                   <div className="w-16 h-22 sm:w-18 sm:h-24 bg-slate-950 rounded-xl flex-shrink-0 flex items-center justify-center overflow-hidden border border-white/10 shadow-md">
-                    {bm.story.coverUrl ? (
-                      <img
-                        src={bm.story.coverUrl}
-                        alt={bm.story.title}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      />
-                    ) : (
-                      <BookOpen className="w-7 h-7 text-[#d4af37]/40" />
-                    )}
+                    <img
+                      src={getStoryCoverUrl(bm.story.coverUrl, bm.story.slug)}
+                      alt={bm.story.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
                   </div>
                   <div className="flex-1 min-w-0 flex flex-col justify-between">
                     <div>
@@ -165,15 +162,11 @@ export default async function LibraryPage() {
                   className="flex gap-3.5 sm:gap-4 p-3.5 rounded-2xl bg-black/40 border border-white/10 hover:border-cyan-500/40 transition-all group"
                 >
                   <div className="w-16 h-22 sm:w-18 sm:h-24 bg-slate-950 rounded-xl flex-shrink-0 flex items-center justify-center overflow-hidden border border-white/10 shadow-md">
-                    {hist.story.coverUrl ? (
-                      <img
-                        src={hist.story.coverUrl}
-                        alt={hist.story.title}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      />
-                    ) : (
-                      <BookOpen className="w-7 h-7 text-cyan-400/40" />
-                    )}
+                    <img
+                      src={getStoryCoverUrl(hist.story.coverUrl, hist.story.slug)}
+                      alt={hist.story.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
                   </div>
                   <div className="flex-1 min-w-0 flex flex-col justify-between">
                     <div>

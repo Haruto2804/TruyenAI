@@ -1,6 +1,7 @@
 import Link from "next/link";
 import prisma from "@/lib/prisma";
 import { BookOpen, PackageOpen } from "lucide-react";
+import { getStoryCoverUrl } from "@/lib/images";
 
 export default async function Home() {
   const stories = await prisma.story.findMany({
@@ -63,21 +64,11 @@ export default async function Home() {
                   
                   {/* Cover Image Thumbnail Container (Chuẩn tỉ lệ dọc 2:3 của bìa tiểu thuyết & manhwa) */}
                   <div className="relative aspect-[2/3] w-full overflow-hidden rounded-xl sm:rounded-2xl bg-slate-950 shadow-lg border border-white/10">
-                    {story.coverUrl ? (
-                      <img
-                        src={story.coverUrl}
-                        alt={story.title}
-                        className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
-                      />
-                    ) : (
-                      /* Stylized fantasy dark-gold placeholder */
-                      <div className="relative flex h-full w-full items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-amber-950/30">
-                        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(212,175,55,0.08)_0%,transparent_70%)]" />
-                        <div className="p-4 rounded-2xl bg-white/5 border border-white/10 shadow-inner group-hover:scale-110 transition-transform duration-300">
-                          <BookOpen className="h-10 w-10 text-[#d4af37]/70" strokeWidth={1.75} />
-                        </div>
-                      </div>
-                    )}
+                    <img
+                      src={getStoryCoverUrl(story.coverUrl, story.slug)}
+                      alt={story.title}
+                      className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                    />
 
                     {/* Gradient Overlay for bottom text clarity */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 pointer-events-none" />

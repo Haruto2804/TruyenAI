@@ -45,8 +45,9 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Upload to Cloudinary
-    const result = await uploadToCloudinary(buffer, "truyen-ai/covers");
+    // Upload to Cloudinary with custom or default folder
+    const targetFolder = (formData.get("folder") as string) || "truyen-ai/covers";
+    const result = await uploadToCloudinary(buffer, targetFolder);
 
     return NextResponse.json({
       success: true,

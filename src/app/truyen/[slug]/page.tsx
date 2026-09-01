@@ -11,6 +11,7 @@ import { CommentSection } from "@/components/CommentSection";
 import { CharacterGallery } from "@/components/CharacterGallery";
 import { LoreGallery } from "@/components/LoreGallery";
 import { StorySummary } from "@/components/StorySummary";
+import { getStoryCoverUrl } from "@/lib/images";
 
 interface StorySpecsCardProps {
   className?: string;
@@ -165,7 +166,7 @@ export default async function StoryDetail({
             {/* Story Cover Poster */}
             <div className="relative aspect-[2/3] w-24 xs:w-28 sm:w-56 md:w-64 lg:w-72 rounded-xl sm:rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.9)] border-2 border-[#d4af37]/40 hover:border-[#d4af37] group bg-slate-950 shrink-0 transition-all duration-300">
               <img
-                src={story.coverUrl || `/covers/${story.slug}.jpg`}
+                src={getStoryCoverUrl(story.coverUrl, story.slug)}
                 alt={story.title}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -310,7 +311,7 @@ export default async function StoryDetail({
       </div>
 
       {/* Character Gallery Section (if story has characters) */}
-      <CharacterGallery characters={story.characters} />
+      <CharacterGallery characters={story.characters} storySlug={story.slug} />
 
       {/* Lore & Concepts Glossary Section - Generous Spacing */}
       <div className="pt-6 sm:pt-10">

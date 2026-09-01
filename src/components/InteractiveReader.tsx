@@ -8,6 +8,7 @@ import {
   Type, Sun, Moon, Coffee, Sliders, ChevronDown, Check,
   Maximize2, Minimize2
 } from "lucide-react";
+import { getCharacterAvatarUrl } from "@/lib/images";
 
 export interface CharacterInfo {
   id: string;
@@ -137,6 +138,7 @@ export function InteractiveReader({
   content,
   characters = [],
   lores = [],
+  storySlug,
 }: InteractiveReaderProps) {
   // Popover State (Click/Tap to Pin)
   const [selectedItem, setSelectedItem] = useState<MatchedItem | null>(null);
@@ -511,17 +513,20 @@ export function InteractiveReader({
               <div className="space-y-2.5">
                 <div className="flex items-center gap-3">
                   <div className="w-12 aspect-[9/16] rounded-xl overflow-hidden bg-slate-950 border border-[#d4af37]/50 shrink-0 shadow-md">
-                    {hoveredInfo.item.data.avatarUrl ? (
-                      <img
-                        src={hoveredInfo.item.data.avatarUrl}
-                        alt={hoveredInfo.item.data.name}
-                        className="w-full h-full object-cover"
-                      />
-                    ) : (
-                      <div className="w-full h-full flex items-center justify-center bg-slate-900 text-[#d4af37]/60">
-                        <User className="w-5 h-5" />
-                      </div>
-                    )}
+                    {(() => {
+                      const avatar = getCharacterAvatarUrl(hoveredInfo.item.data.avatarUrl, storySlug, hoveredInfo.item.data.name);
+                      return avatar ? (
+                        <img
+                          src={avatar}
+                          alt={hoveredInfo.item.data.name}
+                          className="w-full h-full object-cover"
+                        />
+                      ) : (
+                        <div className="w-full h-full flex items-center justify-center bg-slate-900 text-[#d4af37]/60">
+                          <User className="w-5 h-5" />
+                        </div>
+                      );
+                    })()}
                   </div>
                   <div className="min-w-0 flex-1 space-y-1">
                     <div className="flex">
@@ -599,17 +604,20 @@ export function InteractiveReader({
                   <div className="flex items-center gap-3.5">
                     {/* Avatar 9:16 Portrait Canvas */}
                     <div className="w-20 aspect-[9/16] rounded-2xl overflow-hidden bg-slate-950 border-2 border-[#d4af37]/50 shrink-0 shadow-2xl relative">
-                      {selectedItem.data.avatarUrl ? (
-                        <img
-                          src={selectedItem.data.avatarUrl}
-                          alt={selectedItem.data.name}
-                          className="w-full h-full object-cover object-center"
-                        />
-                      ) : (
-                        <div className="w-full h-full flex items-center justify-center bg-slate-900 text-slate-500">
-                          <User className="w-8 h-8 text-[#d4af37]/40" />
-                        </div>
-                      )}
+                      {(() => {
+                        const avatar = getCharacterAvatarUrl(selectedItem.data.avatarUrl, storySlug, selectedItem.data.name);
+                        return avatar ? (
+                          <img
+                            src={avatar}
+                            alt={selectedItem.data.name}
+                            className="w-full h-full object-cover object-center"
+                          />
+                        ) : (
+                          <div className="w-full h-full flex items-center justify-center bg-slate-900 text-slate-500">
+                            <User className="w-8 h-8 text-[#d4af37]/40" />
+                          </div>
+                        );
+                      })()}
                     </div>
 
                     {/* Titles with Emojis */}

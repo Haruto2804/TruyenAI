@@ -17,6 +17,7 @@ export function ImageUpload({
   defaultValue,
   name = "coverUrl", 
   inputName,
+  folder,
   onChange 
 }: ImageUploadProps) {
   const initial = defaultValue || initialValue || "";
@@ -46,6 +47,9 @@ export function ImageUpload({
     try {
       const formData = new FormData();
       formData.append("file", file);
+      if (folder) {
+        formData.append("folder", folder.startsWith("truyen-ai/") ? folder : `truyen-ai/${folder}`);
+      }
 
       const res = await fetch("/api/upload", {
         method: "POST",

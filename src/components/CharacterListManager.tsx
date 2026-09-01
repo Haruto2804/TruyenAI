@@ -6,6 +6,7 @@ import { User, Edit2, Trash2, X, Sparkles, AlertCircle } from "lucide-react";
 import { ImageUpload } from "@/components/ImageUpload";
 import { DeleteButton } from "@/components/DeleteButton";
 import { updateCharacter, deleteCharacter } from "@/app/admin/actions";
+import { getCharacterAvatarUrl } from "@/lib/images";
 
 export interface CharacterItem {
   id: string;
@@ -48,18 +49,21 @@ export function CharacterListManager({
             >
               {/* Character Avatar - Enhanced Size */}
               <div className="w-24 sm:w-28 aspect-[3/4] rounded-xl overflow-hidden bg-slate-950 border border-white/15 shrink-0 relative">
-                {char.avatarUrl ? (
-                  <img
-                    src={char.avatarUrl}
-                    alt={char.name}
-                    className="w-full h-full object-cover object-top"
-                  />
-                ) : (
-                  <div className="w-full h-full flex flex-col items-center justify-center bg-slate-900 text-slate-600 p-2 text-center">
-                    <User className="w-8 h-8 text-[#d4af37]/40 mb-1" />
-                    <span className="text-[10px] text-slate-500">Chưa có ảnh</span>
-                  </div>
-                )}
+                {(() => {
+                  const avatar = getCharacterAvatarUrl(char.avatarUrl, storySlug, char.name);
+                  return avatar ? (
+                    <img
+                      src={avatar}
+                      alt={char.name}
+                      className="w-full h-full object-cover object-top"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex flex-col items-center justify-center bg-slate-900 text-slate-600 p-2 text-center">
+                      <User className="w-8 h-8 text-[#d4af37]/40 mb-1" />
+                      <span className="text-[10px] text-slate-500">Chưa có ảnh</span>
+                    </div>
+                  );
+                })()}
               </div>
 
               {/* Character Info */}
