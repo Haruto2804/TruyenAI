@@ -94,34 +94,36 @@ export default async function StoryDetail({
 }) {
   const { slug } = await params;
 
-  const story = await prisma.story.findUnique({
-    where: { slug: slug },
-    include: {
-      chapters: {
-        orderBy: { chapterNo: 'asc' },
-        select: { 
-          id: true, 
-          chapterNo: true, 
-          title: true, 
-          createdAt: true,
-          isVip: true,
-          price: true
+  const [session, story] = await Promise.all([
+    auth(),
+    prisma.story.findUnique({
+      where: { slug: slug },
+      include: {
+        chapters: {
+          orderBy: { chapterNo: 'asc' },
+          select: { 
+            id: true, 
+            chapterNo: true, 
+            title: true, 
+            createdAt: true,
+            isVip: true,
+            price: true
+          }
+        },
+        characters: {
+          orderBy: { createdAt: 'asc' }
+        },
+        lores: {
+          orderBy: { createdAt: 'asc' }
         }
-      },
-      characters: {
-        orderBy: { createdAt: 'asc' }
-      },
-      lores: {
-        orderBy: { createdAt: 'asc' }
       }
-    }
-  });
+    })
+  ]);
 
   if (!story) {
     notFound();
   }
 
-  const session = await auth();
   const userId = session?.user?.id;
 
   let isBookmarked = false;

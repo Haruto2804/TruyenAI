@@ -20,34 +20,46 @@ export default async function ChapterDetail({
     notFound();
   }
 
-  const story = await prisma.story.findUnique({
-    where: { slug: slug },
-    include: {
-      characters: true,
-      lores: true,
-    },
-  });
+  const [session, story] = await Promise.all([
+    auth(),
+    prisma.story.findUnique({
+      where: { slug: slug },
+      include: {
+        characters: true,
+        lores: true,
+      },
+    })
+  ]);
 
   if (!story) {
     notFound();
   }
 
-  const session = await auth();
   const userId = session?.user?.id;
 
-  const chapter = await prisma.chapter.findUnique({
-    where: {
-      storyId_chapterNo: {
-        storyId: story.id,
-        chapterNo: chapterNo,
+  const [chapter, prevChapter, nextChapter] = await Promise.all([
+    prisma.chapter.findUnique({
+      where: {
+        storyId_chapterNo: {
+          storyId: story.id,
+          chapterNo: chapterNo,
+        },
       },
-    },
-    include: {
-      unlockedBy: {
-        where: { userId: userId || "no-user" }
+      include: {
+        unlockedBy: {
+          where: { userId: userId || "no-user" }
+        }
       }
-    }
-  });
+    }),
+    prisma.chapter.findUnique({
+      where: { storyId_chapterNo: { storyId: story.id, chapterNo: chapterNo - 1 } },
+      select: { chapterNo: true, title: true }
+    }),
+    prisma.chapter.findUnique({
+      where: { storyId_chapterNo: { storyId: story.id, chapterNo: chapterNo + 1 } },
+      select: { chapterNo: true, title: true }
+    })
+  ]);
 
   if (!chapter) {
     notFound();
@@ -55,17 +67,6 @@ export default async function ChapterDetail({
 
   // Nếu chương là VIP, kiểm tra xem đã được người dùng này mua chưa
   const isUnlocked = chapter.isVip ? (chapter.unlockedBy.length > 0) : true;
-
-  // Fetch previous and next chapters for navigation
-  const prevChapter = await prisma.chapter.findUnique({
-    where: { storyId_chapterNo: { storyId: story.id, chapterNo: chapterNo - 1 } },
-    select: { chapterNo: true, title: true }
-  });
-
-  const nextChapter = await prisma.chapter.findUnique({
-    where: { storyId_chapterNo: { storyId: story.id, chapterNo: chapterNo + 1 } },
-    select: { chapterNo: true, title: true }
-  });
 
   return (
     <div className="max-w-4xl mx-auto space-y-8">
