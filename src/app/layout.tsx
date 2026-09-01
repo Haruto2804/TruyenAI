@@ -23,6 +23,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 1,
+  minimumScale: 1,
   userScalable: false,
   viewportFit: "cover",
 };
@@ -50,9 +51,46 @@ export default async function RootLayout({
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              document.addEventListener('gesturestart', function(e) { e.preventDefault(); }, { passive: false });
-              document.addEventListener('gesturechange', function(e) { e.preventDefault(); }, { passive: false });
-              document.addEventListener('gestureend', function(e) { e.preventDefault(); }, { passive: false });
+              (function() {
+                // 1. Chặn gesture zoom trên iOS WebKit (Safari, Chrome iOS, in-app iOS)
+                document.addEventListener('gesturestart', function(e) { e.preventDefault(); }, { passive: false });
+                document.addEventListener('gesturechange', function(e) { e.preventDefault(); }, { passive: false });
+                document.addEventListener('gestureend', function(e) { e.preventDefault(); }, { passive: false });
+
+                // 2. Chặn đa chạm (tua 2 ngón / pinch-zoom) trên MỌI trình duyệt di động (Android Chrome, Samsung Internet, Firefox, Zalo/FB...)
+                document.addEventListener('touchstart', function(e) {
+                  if (e.touches && e.touches.length > 1) {
+                    e.preventDefault();
+                  }
+                }, { passive: false });
+
+                document.addEventListener('touchmove', function(e) {
+                  if (e.touches && e.touches.length > 1) {
+                    e.preventDefault();
+                  }
+                }, { passive: false });
+
+                // 3. Chặn double-tap phóng to ngoài ý muốn (vẫn cho phép tương tác form)
+                var lastTouchEnd = 0;
+                document.addEventListener('touchend', function(e) {
+                  var now = Date.now();
+                  if (now - lastTouchEnd <= 300) {
+                    var target = e.target;
+                    var isFormInput = target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.tagName === 'SELECT');
+                    if (!isFormInput) {
+                      e.preventDefault();
+                    }
+                  }
+                  lastTouchEnd = now;
+                }, { passive: false });
+
+                // 4. Chặn pinch-zoom bằng trackpad / chuột trên iPad & tablet / laptop
+                document.addEventListener('wheel', function(e) {
+                  if (e.ctrlKey) {
+                    e.preventDefault();
+                  }
+                }, { passive: false });
+              })();
             `,
           }}
         />
