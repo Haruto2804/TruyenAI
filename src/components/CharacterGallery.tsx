@@ -146,7 +146,7 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
   }
 
   return (
-    <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-4 sm:p-7 shadow-2xl space-y-4 sm:space-y-6">
+    <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-4 sm:p-7 shadow-2xl space-y-4 sm:space-y-6 w-full max-w-full overflow-hidden">
       {/* Header Section */}
       <div className="flex items-center justify-between border-b border-white/10 pb-4 sm:pb-5">
         <div className="flex items-center gap-3 sm:gap-3.5">

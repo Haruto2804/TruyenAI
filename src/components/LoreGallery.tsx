@@ -87,18 +87,18 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
   };
 
   return (
-    <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl sm:rounded-3xl p-3.5 sm:p-6 shadow-2xl space-y-4 sm:space-y-5">
+    <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl sm:rounded-3xl p-3.5 sm:p-6 shadow-2xl space-y-4 sm:space-y-5 w-full max-w-full overflow-hidden">
       {/* Section Header */}
       <div className="flex items-center justify-between gap-3 border-b border-white/10 pb-3 sm:pb-4">
-        <div className="flex items-center gap-2.5 sm:gap-3">
+        <div className="flex items-center gap-2.5 sm:gap-3 min-w-0">
           <div className="p-2 sm:p-2.5 bg-cyan-500/15 rounded-xl sm:rounded-2xl text-cyan-400 border border-cyan-500/30 shadow-[0_0_20px_rgba(6,182,212,0.25)] shrink-0">
             <BookMarked className="w-4 h-4 sm:w-5 sm:h-5" />
           </div>
-          <div>
-            <h2 className="text-base sm:text-xl md:text-2xl font-extrabold text-slate-100 flex items-center gap-2">
+          <div className="min-w-0">
+            <h2 className="text-base sm:text-xl md:text-2xl font-extrabold text-slate-100 flex items-center gap-2 truncate">
               <span>Bách Khoa Chú Giải & Khái Niệm</span>
             </h2>
-            <p className="text-xs sm:text-sm text-slate-300 font-normal mt-0.5">
+            <p className="text-xs sm:text-sm text-slate-300 font-normal mt-0.5 line-clamp-2">
               Tra cứu thuật ngữ ma pháp, độc dược, bí cảnh và các khái niệm trong truyện.
             </p>
           </div>
@@ -111,7 +111,7 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
 
       {/* Category Filter Pills */}
       {categories.length > 0 && (
-        <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none">
+        <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none w-full max-w-full min-w-0">
           <button
             type="button"
             onClick={() => setActiveCategory("ALL")}

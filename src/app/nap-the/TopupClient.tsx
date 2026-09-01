@@ -34,10 +34,10 @@ export default function TopupClient({ userId, linhThach }: { userId: string, lin
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-2 sm:p-4 md:p-6 lg:p-8 space-y-6">
-      <div className="bg-slate-900/90 backdrop-blur-2xl border border-white/10 rounded-3xl overflow-hidden shadow-2xl">
+    <div className="w-full max-w-4xl mx-auto p-1 xs:p-2 sm:p-4 md:p-6 lg:p-8 space-y-4 sm:space-y-6 overflow-hidden">
+      <div className="bg-slate-900/90 backdrop-blur-2xl border border-white/10 rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
         {/* Header */}
-        <div className="bg-gradient-to-r from-amber-950/50 via-slate-900 to-amber-950/30 p-6 sm:p-8 text-center border-b border-white/10 relative overflow-hidden">
+        <div className="bg-gradient-to-r from-amber-950/50 via-slate-900 to-amber-950/30 p-4 sm:p-8 text-center border-b border-white/10 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-[#d4af37]/10 blur-3xl pointer-events-none" />
           
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#d4af37]/10 border border-[#d4af37]/20 text-[#d4af37] text-xs font-semibold uppercase tracking-wider mb-3">
@@ -45,22 +45,22 @@ export default function TopupClient({ userId, linhThach }: { userId: string, lin
             Tụ Linh Trận Tự Động 24/7
           </div>
 
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-200 to-yellow-400 mb-2">
+          <h1 className="text-xl sm:text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-200 to-yellow-400 mb-2">
             Nạp Linh Thạch Thần Tốc
           </h1>
           <p className="text-slate-400 text-xs sm:text-sm max-w-lg mx-auto">
             Nạp linh thạch tự động qua quét mã VietQR để mở khóa chương VIP và nhận danh hiệu đặc quyền.
           </p>
 
-          <div className="mt-5 inline-flex items-center gap-2 bg-black/40 px-5 py-2.5 rounded-2xl border border-white/10 shadow-inner">
+          <div className="mt-4 sm:mt-5 inline-flex items-center gap-2 bg-black/40 px-4 sm:px-5 py-2 sm:py-2.5 rounded-2xl border border-white/10 shadow-inner">
             <span className="text-slate-400 text-xs sm:text-sm">Số dư hiện tại:</span>
-            <span className="text-lg sm:text-xl font-extrabold text-amber-400 flex items-center gap-1">
+            <span className="text-base sm:text-xl font-extrabold text-amber-400 flex items-center gap-1">
               {linhThach.toLocaleString()} <Gem className="w-4 h-4 text-cyan-400" />
             </span>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 p-5 sm:p-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-8 p-3.5 xs:p-5 sm:p-8">
           {/* Cột 1: Bảng giá */}
           <div className="space-y-4">
             <h2 className="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
