@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Be_Vietnam_Pro, Literata } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
@@ -19,6 +19,14 @@ const literata = Literata({
   variable: "--font-serif",
 });
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+  viewportFit: "cover",
+};
+
 export const metadata: Metadata = {
   title: "Thiên Thư AI - Kho Tàng Kỳ Thư",
   description: "Kho Tàng Kỳ Thư Vô Tận Từ Trí Tuệ Nhân Tạo",
@@ -38,6 +46,17 @@ export default async function RootLayout({
       lang="vi"
       className={`${beVietnamPro.variable} ${literata.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              document.addEventListener('gesturestart', function(e) { e.preventDefault(); }, { passive: false });
+              document.addEventListener('gesturechange', function(e) { e.preventDefault(); }, { passive: false });
+              document.addEventListener('gestureend', function(e) { e.preventDefault(); }, { passive: false });
+            `,
+          }}
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-[#09090b] text-slate-100 font-sans selection:bg-[#d4af37]/30 selection:text-white">
 
         
