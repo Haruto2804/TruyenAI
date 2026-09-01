@@ -1,14 +1,14 @@
-# HỒ SƠ THIẾT KẾ NHÂN VẬT & PROMPT TẠO ẢNH 9:16
+# HỒ SƠ THIẾT KẾ NHÂN VẬT & PROMPT TẠO ẢNH 9:16 (CLOUDINARY CLOUD STORAGE)
 **Tác phẩm:** TAM CÔNG TỬ RÁC RƯỞI CỦA GIA TỘC BĂNG SƯƠNG
-**Thư mục chứa ảnh:** `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/`
-**Quy tắc file:** Hệ thống tự động nhận diện **BẤT KỲ ĐUÔI ẢNH NÀO** (`.png`, `.jpg`, `.jpeg`, `.webp`, `.avif`). Bạn chỉ cần đặt tên file theo tên nhân vật (ví dụ: `co-truong-khanh.png`, `tham-lac-cam.webp`) rồi chạy `npm run sync:novel` là website tự động cập nhật ngay lập tức!
+**Cloudinary Folder:** `truyen-ai/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/`
+**Quy tắc:** Mọi ảnh được tự động upload trực tiếp lên Cloudinary CDN toàn cầu. Bạn chỉ cần thả ảnh vào thư mục local rồi chạy `npm run sync:novel`, hệ thống sẽ tự động đẩy lên Cloudinary và lưu link HTTPS vĩnh viễn vào Database!
 
 ---
 
 ## 1. Caelen Von Ravenwood
 - **Vai trò:** Nhân vật chính / Đệ tam công tử Gia Tộc Ravenwood
 - **Biệt danh & Danh xưng:** Đống rác Bắc Cảnh, Công tử phế vật, Caelen
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/caelen-von-ravenwood.jpg`)
+- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/caelen-von-ravenwood.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Chiến lược gia sinh tồn kiêm sát thủ thời hiện đại chuyển sinh vào thân xác Đệ tam công tử bị đầu độc suốt 5 năm. Thức tỉnh Ma Đồng Giải Cấu nhìn thấu ma lực và kích hoạt Huyết Mạch Băng Sương Cổ Ngữ. Điềm tĩnh tuyệt đối, thâm trầm, mưu sâu kế độc.
@@ -25,7 +25,7 @@ masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1boy, 18 years old hand
 ## 2. Lilian
 - **Vai trò:** Hầu nữ thân cận / Gián điệp ngầm của Nhị Trưởng Lão
 - **Biệt danh & Danh xưng:** Ả hầu gái, Lilian
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/lilian.jpg`)
+- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/lilian.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Nữ quan thân cận được cài cắm bên cạnh Caelen từ năm 14 tuổi. Bề ngoài ngây thơ ngoan ngoãn nhưng bên trong vô cùng sắc sảo. Sau khi quy phục Caelen ở Chương 1, trở thành tai mắt đắc lực của hắn.
@@ -42,7 +42,7 @@ masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1girl, 19 years old stu
 ## 3. Evelyn Von Ravenwood
 - **Vai trò:** Đại tiểu thư / Quân đoàn trưởng Thiết Kỵ / Kiếm Vương Bắc Cảnh
 - **Biệt danh & Danh xưng:** Nữ Kiếm Vương, Evelyn, Tỷ tỷ Thiết Huyết
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/evelyn-von-ravenwood.jpg`)
+- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/evelyn-von-ravenwood.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Đại tiểu thư Gia tộc Ravenwood, Nữ Kiếm Vương phương Bắc chỉ huy Thiết Kỵ Băng Sương. Lạnh lùng, nghiêm nghị, sở hữu kiếm thuật Địa Giai Trung Kỳ và đại kiếm Băng Phách.
@@ -59,7 +59,7 @@ masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1girl, 22 years old maj
 ## 4. Valerie De Valois
 - **Vai trò:** Tam Công Chúa Đế Quốc Solaria / Vị hôn thê đối địch
 - **Biệt danh & Danh xưng:** Công Chúa Solaria, Phượng Hoàng Lửa Vàng, Valerie
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/valerie-de-valois.jpg`)
+- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/valerie-de-valois.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Tam Công Chúa kiêu ngạo, tàn nhẫn và đầy toan tính của Đế Quốc Solaria. Hỏa hệ Ma Pháp Sư Quang Minh đạt cảnh giới Cao Giai Đỉnh Phong mang theo Huyết Chiếu Hoàng Gia đến hủy hôn.
@@ -76,7 +76,7 @@ masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1girl, 20 years old hau
 ## 5. Nhị Trưởng Lão Karlov
 - **Vai trò:** Nhị Trưởng Lão Gia Tộc Ravenwood / Phản diện nội viện
 - **Biệt danh & Danh xưng:** Karlov, Nhị Trưởng Lão, Nhị Trưởng lão, Nhị Trưởng lão Karlov, Lão già giảo hoạt
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/nhi-truong-lao-karlov.jpg`)
+- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/nhi-truong-lao-karlov.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Nhị Trưởng Lão thâm hiểm, giảo hoạt nắm giữ quyền quản sự hậu viện và tài chính phân nhánh. Kẻ chủ mưu sai khiến Lilian hạ độc Caelen suốt 5 năm nhằm chiếm đoạt quyền thừa kế.
@@ -93,7 +93,7 @@ masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1man, 55 years old sche
 ## 6. Hắc Y Sứ Giả Vane
 - **Vai trò:** Sát thủ cấp cao / Sứ giả Hội Lưỡi Hái Hắc Ám
 - **Biệt danh & Danh xưng:** Vane, Hắc Y Sứ Giả, Sứ giả Vane, Sát thủ Hắc Ám, Tử Thần Vực Thẳm
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/hac-y-su-gia-vane.jpg`)
+- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/hac-y-su-gia-vane.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Sát thủ Cao Giai Sơ Kỳ tàn nhẫn mang mặt nạ kim loại đen thuộc Hội Lưỡi Hái Hắc Ám. Sở hữu ma pháp Ám Hắc và Tử Linh, chủy thủ tẩm độc Thực Cốt Chu Sa.
@@ -110,7 +110,7 @@ masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1man, mysterious hooded
 ## 7. Boris Tai Đỏ
 - **Vai trò:** Thủ lĩnh Thảo Khấu Biên Ải Frostfang
 - **Biệt danh & Danh xưng:** Boris, Boris Tai Đỏ, Boris Red-Ear, Tướng cướp man di
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/boris-tai-do.jpg`)
+- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/boris-tai-do.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Gã khổng lồ man di hung bạo cao hơn hai mét, thủ lĩnh hơn 100 thảo khấu. Cảnh giới Trung Giai Sơ Kỳ Thổ hệ, sử dụng đại rìu chiến thép đen hai lưỡi.

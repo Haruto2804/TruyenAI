@@ -1,11 +1,51 @@
+import { v2 as cloudinary } from "cloudinary";
 import { PrismaClient } from "@prisma/client";
 import fs from "fs";
 import path from "path";
 
+// Load .env manually for scripts
+const envPath = path.join(process.cwd(), ".env");
+if (fs.existsSync(envPath)) {
+  const envContent = fs.readFileSync(envPath, "utf-8");
+  envContent.split("\n").forEach((line) => {
+    const match = line.match(/^\s*([\w.-]+)\s*=\s*(.*)?\s*$/);
+    if (match) {
+      const key = match[1];
+      let value = match[2] || "";
+      if (value.startsWith('"') && value.endsWith('"')) value = value.slice(1, -1);
+      if (value.startsWith("'") && value.endsWith("'")) value = value.slice(1, -1);
+      process.env[key] = value.trim();
+    }
+  });
+}
+
+cloudinary.config({
+  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+  api_key: process.env.CLOUDINARY_API_KEY,
+  api_secret: process.env.CLOUDINARY_API_SECRET,
+  secure: true,
+});
+
 const prisma = new PrismaClient();
 
-// Helper: Find character avatar file with ANY image extension in public folder
-function findCharacterAvatar(novelSlug: string, charName: string, aliases: string | null): string | null {
+// Helper: Upload file to Cloudinary and return CDN URL
+async function uploadToCloud(filePath: string, folder: string, publicId?: string): Promise<string> {
+  try {
+    const result = await cloudinary.uploader.upload(filePath, {
+      folder,
+      public_id: publicId,
+      overwrite: true,
+      resource_type: "image",
+    });
+    return result.secure_url;
+  } catch (err: any) {
+    console.warn(`    ⚠️ Cloudinary upload fallback for ${filePath}: ${err.message}`);
+    return "";
+  }
+}
+
+// Helper: Find character avatar file and upload to Cloudinary
+async function findAndUploadCharacterAvatar(novelSlug: string, charName: string, aliases: string | null): Promise<string | null> {
   const charDir = path.join(process.cwd(), "public", "characters", novelSlug);
   if (!fs.existsSync(charDir)) {
     fs.mkdirSync(charDir, { recursive: true });
@@ -23,40 +63,76 @@ function findCharacterAvatar(novelSlug: string, charName: string, aliases: strin
   const stopWords = ["nhi", "truong", "lao", "hac", "su", "gia", "von", "de", "valois", "ravenwood", "thieu", "chu", "tong", "quan"];
   const coreTokens = nameClean.split(/[^a-z0-9]+/).filter(w => !stopWords.includes(w) && w.length >= 3);
 
+  let targetFile: string | null = null;
+  let targetSlug: string = fullSlug;
+
   // 1. Try exact full slug first
   for (const file of files) {
     const ext = path.extname(file).toLowerCase();
     if (!imageExtensions.includes(ext)) continue;
     const base = path.basename(file, ext).toLowerCase();
     if (base === fullSlug) {
-      return `/characters/${novelSlug}/${file}`;
+      targetFile = file;
+      targetSlug = base;
+      break;
     }
   }
 
   // 2. Try distinct core tokens
-  for (const file of files) {
-    const ext = path.extname(file).toLowerCase();
-    if (!imageExtensions.includes(ext)) continue;
-    const base = path.basename(file, ext).toLowerCase();
+  if (!targetFile) {
+    for (const file of files) {
+      const ext = path.extname(file).toLowerCase();
+      if (!imageExtensions.includes(ext)) continue;
+      const base = path.basename(file, ext).toLowerCase();
 
-    for (const token of coreTokens) {
-      if (base === token || base.startsWith(token + "-") || base.endsWith("-" + token) || base.startsWith(token + "_")) {
-        return `/characters/${novelSlug}/${file}`;
+      for (const token of coreTokens) {
+        if (base === token || base.startsWith(token + "-") || base.endsWith("-" + token) || base.startsWith(token + "_")) {
+          targetFile = file;
+          targetSlug = base;
+          break;
+        }
       }
+      if (targetFile) break;
     }
   }
 
+  if (targetFile) {
+    const localPath = path.join(charDir, targetFile);
+    if (process.env.CLOUDINARY_CLOUD_NAME) {
+      const cloudUrl = await uploadToCloud(localPath, `truyen-ai/characters/${novelSlug}`, targetSlug);
+      if (cloudUrl) return cloudUrl;
+    }
+    return `/characters/${novelSlug}/${targetFile}`;
+  }
+
   return null;
+}
+
+// Helper: Find story cover and upload to Cloudinary
+async function findAndUploadStoryCover(novelSlug: string): Promise<string> {
+  const coversDir = path.join(process.cwd(), "public", "covers");
+  const imageExtensions = [".png", ".jpg", ".jpeg", ".webp", ".avif"];
+  for (const ext of imageExtensions) {
+    const coverPath = path.join(coversDir, `${novelSlug}${ext}`);
+    if (fs.existsSync(coverPath)) {
+      if (process.env.CLOUDINARY_CLOUD_NAME) {
+        const cloudUrl = await uploadToCloud(coverPath, "truyen-ai/covers", novelSlug);
+        if (cloudUrl) return cloudUrl;
+      }
+      return `/covers/${novelSlug}${ext}`;
+    }
+  }
+  return `/covers/${novelSlug}.jpg`;
 }
 
 // Generate characters.md file with Visual Dossier & AI Prompts for User
 function generateCharactersMarkdown(novelSlug: string, novelTitle: string, characters: any[]) {
   const charactersMdPath = path.join(process.cwd(), ".agents", "viet_truyen", "novels", novelSlug, "characters.md");
   
-  let md = `# HỒ SƠ THIẾT KẾ NHÂN VẬT & PROMPT TẠO ẢNH 9:16\n`;
+  let md = `# HỒ SƠ THIẾT KẾ NHÂN VẬT & PROMPT TẠO ẢNH 9:16 (CLOUDINARY CLOUD STORAGE)\n`;
   md += `**Tác phẩm:** ${novelTitle}\n`;
-  md += `**Thư mục chứa ảnh:** \`public/characters/${novelSlug}/\`\n`;
-  md += `**Quy tắc file:** Hệ thống tự động nhận diện **BẤT KỲ ĐUÔI ẢNH NÀO** (\`.png\`, \`.jpg\`, \`.jpeg\`, \`.webp\`, \`.avif\`). Bạn chỉ cần đặt tên file theo tên nhân vật (ví dụ: \`co-truong-khanh.png\`, \`tham-lac-cam.webp\`) rồi chạy \`npm run sync:novel\` là website tự động cập nhật ngay lập tức!\n\n`;
+  md += `**Cloudinary Folder:** \`truyen-ai/characters/${novelSlug}/\`\n`;
+  md += `**Quy tắc:** Mọi ảnh được tự động upload trực tiếp lên Cloudinary CDN toàn cầu. Bạn chỉ cần thả ảnh vào thư mục local rồi chạy \`npm run sync:novel\`, hệ thống sẽ tự động đẩy lên Cloudinary và lưu link HTTPS vĩnh viễn vào Database!\n\n`;
   md += `---\n\n`;
 
   characters.forEach((char, idx) => {
@@ -130,18 +206,6 @@ function parseDynamicLores(codexContent: string): any[] {
   return lores;
 }
 
-// Helper: Find story cover with ANY image extension in public/covers folder
-function findStoryCover(novelSlug: string): string {
-  const coversDir = path.join(process.cwd(), "public", "covers");
-  const imageExtensions = [".png", ".jpg", ".jpeg", ".webp", ".avif"];
-  for (const ext of imageExtensions) {
-    if (fs.existsSync(path.join(coversDir, `${novelSlug}${ext}`))) {
-      return `/covers/${novelSlug}${ext}`;
-    }
-  }
-  return `/covers/${novelSlug}.jpg`;
-}
-
 async function syncNovel(novelSlug: string) {
   const novelDir = path.join(process.cwd(), ".agents", "viet_truyen", "novels", novelSlug);
   if (!fs.existsSync(novelDir)) {
@@ -187,7 +251,7 @@ async function syncNovel(novelSlug: string) {
     }
   }
 
-  const coverUrl = findStoryCover(novelSlug);
+  const coverUrl = await findAndUploadStoryCover(novelSlug);
 
   const story = await prisma.story.upsert({
     where: { slug: novelSlug },
@@ -320,15 +384,17 @@ async function syncNovel(novelSlug: string) {
 
   const defaultCharacters = NOVEL_CHARACTERS[novelSlug] || [];
 
-  // Auto-detect avatar image with ANY extension (.png, .jpg, .webp, .jpeg, .avif)
-  const charactersToSync = defaultCharacters.map(char => {
-    const detectedAvatar = findCharacterAvatar(novelSlug, char.name, char.aliases);
-    const slugName = char.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d").replace(/[^a-z0-9]+/g, "-");
-    return {
-      ...char,
-      avatarUrl: detectedAvatar || `/characters/${novelSlug}/${slugName}.jpg`
-    };
-  });
+  // Auto-detect avatar image and upload to Cloudinary CDN
+  const charactersToSync = await Promise.all(
+    defaultCharacters.map(async (char) => {
+      const detectedAvatar = await findAndUploadCharacterAvatar(novelSlug, char.name, char.aliases);
+      const slugName = char.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d").replace(/[^a-z0-9]+/g, "-");
+      return {
+        ...char,
+        avatarUrl: detectedAvatar || `/characters/${novelSlug}/${slugName}.jpg`
+      };
+    })
+  );
 
   // Re-sync Characters to DB
   await prisma.character.deleteMany({ where: { storyId: story.id } });

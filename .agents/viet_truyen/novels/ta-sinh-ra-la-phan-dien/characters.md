@@ -1,14 +1,14 @@
-# HỒ SƠ THIẾT KẾ NHÂN VẬT & PROMPT TẠO ẢNH 9:16
+# HỒ SƠ THIẾT KẾ NHÂN VẬT & PROMPT TẠO ẢNH 9:16 (CLOUDINARY CLOUD STORAGE)
 **Tác phẩm:** TA SINH RA LÀ PHẢN DIỆN
-**Thư mục chứa ảnh:** `public/characters/ta-sinh-ra-la-phan-dien/`
-**Quy tắc file:** Hệ thống tự động nhận diện **BẤT KỲ ĐUÔI ẢNH NÀO** (`.png`, `.jpg`, `.jpeg`, `.webp`, `.avif`). Bạn chỉ cần đặt tên file theo tên nhân vật (ví dụ: `co-truong-khanh.png`, `tham-lac-cam.webp`) rồi chạy `npm run sync:novel` là website tự động cập nhật ngay lập tức!
+**Cloudinary Folder:** `truyen-ai/characters/ta-sinh-ra-la-phan-dien/`
+**Quy tắc:** Mọi ảnh được tự động upload trực tiếp lên Cloudinary CDN toàn cầu. Bạn chỉ cần thả ảnh vào thư mục local rồi chạy `npm run sync:novel`, hệ thống sẽ tự động đẩy lên Cloudinary và lưu link HTTPS vĩnh viễn vào Database!
 
 ---
 
 ## 1. Ninh Huyền Dạ
 - **Vai trò:** Nhân vật chính / Thiếu Chủ Cổ Tộc Vô Cực / Boss Phản Diện Số Mệnh
 - **Biệt danh & Danh xưng:** Ninh Dạ, Vô Cực Thiếu Chủ, Tiên Tông Thần Tử, Ninh sư huynh
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/ta-sinh-ra-la-phan-dien/ninh-huyen-da.jpg`)
+- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/ta-sinh-ra-la-phan-dien/ninh-huyen-da.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Thiếu chủ thần tộc cổ xưa mang phong thái trích tiên tuyệt mỹ, bạch y thêu chỉ vàng mây bay lộng lẫy, mái tóc đen mượt mà xõa ngang vai, đôi mắt thâm sâu như trời đêm huyền bí chứa đựng nụ cười mỉm ôn hòa nhưng lạnh lùng thấu xương. Thân mang bội ngọc cổ khắc phù văn Thái Sơ, tay cầm quạt ngọc hoặc linh kiếm bạch kim.
@@ -25,7 +25,7 @@ masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1boy, 20 years old hand
 ## 2. Cố Thanh Tuyết
 - **Vai trò:** Đại sư tỷ Thái Sơ Tiên Tông / Thần Nữ Băng Tâm
 - **Biệt danh & Danh xưng:** Băng Tâm Kiếm Tiên, Thanh Tuyết sư tỷ, Nữ Thần Tuyết Sơn
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/ta-sinh-ra-la-phan-dien/co-thanh-tuyet.jpg`)
+- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/ta-sinh-ra-la-phan-dien/co-thanh-tuyet.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Đại sư tỷ thanh lãnh vô song của Tiên Tông, thân mang sương tuyết hà y màu lam nhạt, làn da trắng như tuyết đầu mùa, đôi mắt trong veo như ngọc bích tỏa ra hàn khí Băng Tâm. Cầm thanh trường kiếm cổ sương lam sắc bén, khí chất tiên tử thanh khiết bất khả xâm phạm.
@@ -42,7 +42,7 @@ masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1girl, 20 years old pee
 ## 3. Lâm Phàm
 - **Vai trò:** Khí Vận Chi Tử / Thiếu niên quật khởi từ bụi rậm
 - **Biệt danh & Danh xưng:** Lâm Phàm, Khí Vận Chi Tử, Kẻ Được Chọn
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/ta-sinh-ra-la-phan-dien/lam-pham.jpg`)
+- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/ta-sinh-ra-la-phan-dien/lam-pham.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Thiếu niên kiên nghị, áo vải thô màu đen, ánh mắt bướng bỉnh bất khuất mang theo chấp niệm sâu sắc. Trên ngón tay trỏ đeo một chiếc nhẫn sắt cổ rỉ sét chứa tàn hồn của Lạc Lão.
@@ -59,7 +59,7 @@ masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1boy, 17 years old dete
 ## 4. Dạ U
 - **Vai trò:** Thủ lĩnh Vô Cực Hắc Ám Ám Vệ / Ảnh Vệ trung thành
 - **Biệt danh & Danh xưng:** Dạ U, Ám Vệ Đội Trưởng, Bóng Ma Thần Tộc
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/ta-sinh-ra-la-phan-dien/da-u.jpg`)
+- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/ta-sinh-ra-la-phan-dien/da-u.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Ảnh vệ tuyệt đối trung thành giấu mặt sau chiếc mặt nạ bạc điêu khắc hoa văn rồng đen, mặc hắc y bó sát thêu phù văn ẩn thân. Luôn ẩn mình trong bóng tối sau lưng Ninh Huyền Dạ.
@@ -76,7 +76,7 @@ masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1man, shadowy assassin 
 ## 5. Lạc Lão
 - **Vai trò:** Tàn hồn Luyện Đan Tông Sư Viễn Cổ / Lão tổ trong nhẫn
 - **Biệt danh & Danh xưng:** Lạc Thiên Thu, Lão tổ Lạc Lão, Lão quỷ trong nhẫn
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/ta-sinh-ra-la-phan-dien/lac-lao.jpg`)
+- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/ta-sinh-ra-la-phan-dien/lac-lao.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Linh hồn thể trong suốt mờ ảo của danh sư luyện đan thời Thượng Cổ, râu tóc bạc phơ, ánh mắt tràn ngập vẻ thông thái nhưng thận trọng thực dụng. Từng là danh sư vạn người kính ngưỡng bị kẻ thù ám toán phải ký thác vào Hắc Diễm Cổ Giới.
