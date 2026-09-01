@@ -1,125 +1,81 @@
-# CHƯƠNG 5: BÃO TUYẾT BIÊN ẢI - TRẢM TƯỚNG HẺM SÓI BĂNG
+---
+title: "Chương 5: Bão Tuyết Biên Ải — Trảm Tướng Hẻm Sói Băng"
+---
 
-Gió tuyết phương Bắc gầm rít như tiếng thú dữ gào thét giữa hoang nguyên vô tận.
+Tiếng cười khả ố của Boris Tai Đỏ vang dội vách núi, kéo theo tràng cười hô hố của đám thảo khấu xung quanh. Một tên "công tử phế vật" nức tiếng nhu nhược giờ lại dám đứng trước mặt chúng giáo huấn về quy tắc kinh doanh. 
 
-Từng đợt gió xoáy mang theo hàng vạn mảnh băng tuyết sắc lẹm táp ràn rạt vào những vách đá sừng sững cao hàng trăm mét của Hẻm Sói Băng – con đường độc đạo hiểm trở nối liền trung tâm Pháo đài Băng Sương với các mỏ khoáng thạch Băng Lam nơi biên ải Frostfang.
+"Nói nhảm cái gì vậy, tiểu bạch kiểm?" Boris nhổ toẹt một bãi nước bọt lẫn máu xuống nền tuyết. Hắn giơ cao thanh đại rìu, chỉ thẳng vào mặt Caelen. "Lão Karlov trả ta ba rương linh thạch để đổi lấy cái đầu của ngươi. Đừng trách gia gia độc ác, kiếp sau hãy nhớ đừng làm vướng chân người khác!"
 
-Một cỗ xe ngựa bằng gỗ sồi đen viền bạc chậm rãi tiến vào khe núi, theo sau chỉ có khoảng mười kỵ sĩ hộ vệ trẻ tuổi của gia tộc Ravenwood cưỡi trên lưng những con Tuyết Mã bờm trắng dày dặn. 
+Dứt lời, Boris gầm lên một tiếng như sấm rền. Lớp cơ bắp cuồn cuộn dưới áo giáp xích bành trướng, mana Thổ hệ hệ bùng nổ, nhuộm vàng thanh đại rìu. Hắn dậm mạnh một chân xuống đất, mượn lực đẩy thân hình đồ sộ lao tới như một chiếc xe bọc thép mất phanh. 
 
-Bên trong khoang xe ấm cúng, Caelen tựa lưng vào lớp đệm da thú, ngón tay thon dài thong thả gõ từng nhịp đều đặn lên chuôi dao găm bạc giấu nơi cổ tay áo. Qua lớp rèm nhung khẽ lay động, ánh mắt lam băng của hắn quét qua từng mỏm đá nhô ra dọc sườn hẻm núi.
+*Bạo Thạch Tuyệt Trảm!*
 
-"Tam thiếu gia, phía trước địa hình thắt lại như cổ chai... không khí có mùi lưu huỳnh và dầu hỏa ma pháp rất nồng." Lilian ngồi đối diện, đôi mắt hổ phách căng thẳng nhìn qua khe cửa sổ, hai bàn tay siết chặt vạt áo đến trắng bệch.
+Lưỡi rìu xé gió bổ thẳng xuống vị trí Caelen đang đứng. Lực đạo kinh hoàng đến mức không gian xung quanh như bị nén lại, bông tuyết vỡ nát trước khi kịp chạm đất. Nếu là Caelen của một tuần trước, đòn này thừa sức chẻ hắn làm đôi cùng với cả cỗ xe ngựa phía sau.
 
-"Họ đến rồi." Caelen khẽ nhếch môi, giọng điệu bình thản đến lạnh người.
+Nhưng hiện tại, hắn đã là Trung Giai Sơ Kỳ, và mang trong mình tư duy của một sát thủ.
 
-Vút! Vút! Vút!
+Đôi đồng tử màu lam thẳm của Caelen xoay tròn. **Ma Đồng Giải Cấu** khởi động đến mức tối đa. Thời gian xung quanh hắn dường như chậm lại. 
 
-Đúng lúc đó, từ trên vách đá hai bên hẻm núi, hàng chục mũi tên nỏ bọc hỏa diễm ma pháp đỏ rực xé toạc màn bão tuyết, lao vút xuống như mưa sao băng!
+Quỹ đạo của thanh rìu, dòng chảy mana Thổ hệ thô kệch đang cuồn cuộn từ đan điền của Boris truyền qua hai cánh tay, độ căng của từng thớ cơ... tất cả đều hiển thị rành rọt như một bản thiết kế 3D bị lột trần trong đầu Caelen. 
 
-Ầm! Ầm!
+*Mana tập trung quá nhiều vào phần trên, dẫn đến trọng tâm cơ thể bị mất cân bằng trầm trọng. Khớp vai phải có dấu hiệu viêm loét do vết thương cũ, dòng chảy mana bị đứt đoạn.* 
 
-Những tảng đá lớn tẩm dầu cháy bùng bùng bị đẩy từ trên đỉnh dốc rơi ầm ầm xuống, chặn đứng hoàn toàn cả lối vào lẫn đường lui của đoàn xe. Đội kỵ sĩ hộ vệ gia tộc lập tức rối loạn, tiếng Tuyết Mã hí vang thất thanh giữa tiếng nổ rền vang của ma pháp.
+Caelen khẽ nhếch mép. Quá nhiều lỗ hổng. Quá dễ đoán. Hắn không chọn cách cứng đối cứng để so kè sức mạnh bạo lực. Sát thủ không đọ sức, sát thủ tìm tử huyệt.
 
-"Bảo vệ Tam thiếu gia! Có mai phục!" Đội trưởng kỵ sĩ hét lớn, tuốt kiếm định dàn trận hình phòng thủ.
+Vào khoảnh khắc lưỡi rìu chỉ còn cách đỉnh đầu một tấc, Caelen khẽ lách người sang phải với tốc độ tàn ảnh, mượn chính luồng gió cuốn từ đòn chém của Boris để đẩy nhanh tốc độ. Thanh đại rìu cắm phập xuống đất, tạo thành một hố sâu hoắm, đất đá và tuyết lạnh bắn tung tóe.
 
-Nhưng chưa kịp ổn định đội hình, tiếng tù và bằng xương thú trầm đục đã vang lên xé toạc màn sương tuyết. Từ các hang đá và khe nứt hai bên sườn núi, hơn một trăm tên thảo khấu man di phương Bắc trong trang phục giáp da rách rưới, cầm búa chiến và đại đao gào thét xông ra như bầy lang sói đói mồi.
+Boris trượt đà, gầm lên định rút rìu xoay người chém ngang. 
 
-Dẫn đầu đám cướp là một gã khổng lồ cao hơn hai mét, bờ vai vạm vỡ như gấu xám phương Bắc, khuôn mặt đầy những vết sẹo chém ghê rợn và một bên tai phải dị dạng đỏ au như máu bầm. 
+Nhưng Caelen đã ở ngay sát sườn hắn. 
 
-Hắn chính là Boris Tai Đỏ – thủ lĩnh khét tiếng của lũ thảo khấu Biên Ải Frostfang!
+"Chậm quá." Một thanh âm lạnh lẽo vang lên sát mang tai Boris. 
 
-Boris vác trên vai cây đại rìu chiến hai lưỡi bằng thép đen sứt mẻ đầy vết máu khô, ngửa đầu cười sặc sụa, giọng nói ồm ồm vang vọng khắp hẻm núi:
+Từ trong tay áo, một thanh đoản kiếm Băng Sương trượt ra, nằm gọn trong tay Caelen. Hàn khí từ Băng Sương Long Hồn Quyết lập tức truyền vào thân kiếm, khiến nó tỏa ra luồng khí lạnh thấu xương. 
 
-"Hahaha! Nhị Trưởng Lão Karlov quả nhiên không lừa ta! Một chiếc xe ngựa xa hoa, vài tên kỵ sĩ ranh con... và tên phế vật Caelen nổi danh khắp thiên hạ!"
+Phập! 
 
-Boris bước tới trước cỗ xe, nhổ một bãi nước bọt đục ngầu xuống nền tuyết trắng, vung đại rìu chỉ thẳng vào cửa xe:
+Không một chút động tác thừa. Lưỡi kiếm đâm chuẩn xác vào vùng hõm dưới nách phải của Boris — điểm giao thoa của ba kinh mạch Thổ hệ đang bị đứt đoạn. 
 
-"Thằng nhãi rác rưởi Caelen! Tự mình lăn ra đây dập đầu nhận tội, ông đây sẽ cho ngươi chết toàn thây! Bằng không, ta sẽ lột da ngươi làm thảm trải chân cho bầy chó sói!"
+Boris rú lên đau đớn, bản năng sinh tồn trỗi dậy, hắn buông rìu, vung nắm đấm trái to bằng cái lu về phía Caelen. Nhưng Caelen đã xoay cổ tay. Hàn khí kinh khủng từ lưỡi kiếm lập tức tiêm thẳng vào mạch máu, nháy mắt đóng băng hoàn toàn phần thân trên bên phải của tên tướng cướp. Cánh tay trái của Boris khựng lại giữa không trung, không thể nhúc nhích.
 
-Cánh cửa xe ngựa chậm rãi mở ra.
+"Một khi dòng tiền bị đóng băng, doanh nghiệp sẽ phá sản. Dòng chảy mana cũng vậy." 
 
-Dưới ánh nhìn hung tợn của hơn trăm tên thảo khấu, Caelen ung dung bước xuống bậc xe. Mái tóc bạc ánh lam tro của hắn bay nhẹ trong gió tuyết, toàn thân khoác bộ quân phục Midnight Black thẳng tắp, không hề có lấy nửa phần sợ hãi hay nao núng.
+Caelen nhàn nhạt nói, chân khẽ lướt về phía sau, rút mạnh thanh đoản kiếm ra. Máu đỏ chưa kịp phun ra khỏi vết thương đã bị đóng băng thành những dải băng nhọn hoắt.
 
-"Một trăm ba mươi hai tên thảo khấu, ba mươi tên trang bị nỏ ma pháp Sơ Giai, và một tên Trung Giai Sơ Kỳ cầm đầu." Caelen nhìn quanh một lượt, giọng nói trầm thấp rõ ràng vang lên giữa tiếng gió rít: "Karlov quả thật rất hào phóng khi chuẩn bị cho ta nhiều bia tập bắn thế này."
+Boris loạng choạng lùi lại, đôi mắt mở trừng trừng đầy kinh hãi, cảm nhận cái lạnh tử thần đang gặm nhấm trái tim mình. Gã khổng lồ cao hai mét, mang tu vi Trung Giai Sơ Kỳ, lại bị một tên công tử yếu ớt hạ gục chỉ bằng một đường kiếm đơn giản đến khó tin. 
 
-Boris Tai Đỏ thoáng sững sờ trước thái độ bình thản đến quái dị của Caelen, nhưng sau đó cơn giận dữ bùng lên dữ dội:
+Đám thảo khấu xung quanh há hốc mồm, vũ khí trên tay run lẩy bẩy. Bọn chúng chưa kịp hiểu chuyện gì vừa xảy ra thì thủ lĩnh của chúng đã bị đóng băng một nửa người.
 
-"Mẹ kiếp! Một tên công tử phế vật sắp chết đến nơi còn dám ra vẻ quý tộc trước mặt ta?! Lên hết cho ta! Băm nát nó ra thành trăm mảnh!"
+Caelen không cho Boris cơ hội trăn trối. Hắn lướt tới như một bóng ma tuyết. Ánh chớp lam nhạt lóe lên. 
 
-Gào!
+Đầu của Boris Tai Đỏ lìa khỏi cổ, văng lăn lóc trên tuyết trắng. Vết cắt gọn gàng, trơn tru, không rỏ một giọt máu nào vì đã bị khí lạnh niêm phong tuyệt đối. 
 
-Hàng chục tên thảo khấu hung hãn giơ đao kiếm gầm thét lao về phía Caelen như sóng triều!
+Cái chết diễn ra quá nhanh, quá nghệ thuật.
 
-Caelen không hề lùi lại nửa bước. Đáy mắt hắn đột ngột bùng nổ lam quang chói lọi, ma trận cổ ngữ xoay chuyển cuồng bạo.
+"Tiếp theo." Caelen quay lại, vẩy nhẹ đoản kiếm để làm sạch lớp băng dính trên lưỡi, ánh mắt tĩnh lặng như mặt hồ nước chết nhìn về phía mười bốn tên thảo khấu còn lại. 
 
-Ma Đồng Giải Cấu!
+Bọn cướp hoảng loạn, không hẹn mà cùng vứt vũ khí, quỳ rạp xuống tuyết dập đầu xin tha. Bọn chúng là cướp, chuyên lấy thịt đè người, nhưng đối diện với một ác ma giết người không chớp mắt thế này, dũng khí của chúng đã tiêu tán sạch sẽ.
 
-Trong tầm mắt hắn, toàn bộ tốc độ di chuyển, quỹ đạo vung đao và điểm hở ma lực trên cơ thể từng tên cướp đều bị làm chậm lại gấp mười lần.
+"Đừng giết chúng ta! Tam thiếu chủ tha mạng! Chúng ta chỉ làm theo lệnh của thủ lĩnh!" Một tên gầy gò khóc lóc thảm thiết.
 
-Xoạt!
+Caelen từ từ bước tới. Hắn không giết chúng ngay. Hắn là một nhà tư bản, hắn biết vắt kiệt giá trị của những kẻ thất bại. 
 
-Thân ảnh Caelen biến mất tại chỗ, chỉ để lại một vệt tàn ảnh lam băng mờ ảo giữa màn tuyết trắng.
+"Mười chiếc xe thồ đằng sau vách đá kia, chứa cái gì?" Caelen dùng mũi kiếm hất cằm tên thảo khấu lên, chất giọng lạnh nhạt nhưng đầy uy áp. Dưới Ma Đồng, hắn đã sớm nhìn thấu mười cỗ xe bị phù phép tàng hình được giấu sau khe núi. 
 
-Tên cướp chạy đầu tiên còn chưa kịp chớp mắt thì một bàn tay mang găng da đen đã xuất hiện ngay trước yết hầu của hắn.
+"Dạ... dạ... là quặng ma thạch Băng Lam... chuẩn bị giao cho Hắc Y Sứ Giả của Hội Lưỡi Hái Hắc Ám vào đêm nay..." Tên thảo khấu run lẩy bẩy khai sạch.
 
-Rắc!
+Caelen mỉm cười. Một nụ cười hài lòng. Bằng chứng vật chất đã nằm trong tay. Lô hàng buôn lậu khổng lồ này chính là lưỡi dao kết liễu hoàn hảo nhất dành cho Nhị Trưởng Lão Karlov. 
 
-Caelen một tay bẻ gãy cổ họng kẻ địch, tay kia mượn lực xoay người, đoạt lấy thanh đoản kiếm của hắn rồi vung ra một đường kiếm hình bán nguyệt hoàn mỹ.
+"Lilian!" Caelen gọi với lại.
 
-Phập! Phập! Phập!
+Cửa xe ngựa rụt rè mở ra. Lilian bước xuống, đôi mắt hổ phách mở to ngỡ ngàng nhìn xác Boris không đầu trên tuyết, rồi nhìn về bóng lưng thẳng tắp của Caelen. Sự khiếp sợ xen lẫn kính sợ bao trùm lấy nàng. Kẻ này... sự lột xác của hắn quá mức kinh hoàng. 
 
-Ba đạo kiếm khí màu lam băng sắc bén xé toạc không khí, chuẩn xác cắt đứt động mạch cổ của ba tên cướp phía sau. Máu tươi chưa kịp bắn ra đã bị hàn khí cực độ đông cứng thành những hạt băng đỏ thẫm rơi lách cách xuống nền tuyết!
+"Dạ... thưa thiếu chủ." Nàng khom người, giọng run run.
 
-"Cái gì?!" Đám thảo khấu phía sau kinh hãi khựng lại.
+"Thu thập toàn bộ sổ sách giao dịch, kiểm kê mười xe quặng ma thạch. Trói đám cặn bã này lại, chúng sẽ là nhân chứng sống." Caelen ra lệnh, sau đó nhét đoản kiếm vào lại ống tay áo. 
 
-Di chuyển chuẩn xác như bóng ma, ra đòn đoạt mạng không một động tác thừa, tàn nhẫn và dứt khoát đến mức rợn người! Đây là tên công tử bột chỉ biết nghiện rượu và đồi bại trong truyền thuyết sao?!
+Hắn ngẩng đầu nhìn về màn bão tuyết đang ngày càng dày đặc phía xa. Ma Đồng Giải Cấu vẫn chưa tắt, bởi vì trong tầm nhìn của hắn, một luồng mana hắc ám, đặc quánh như mực đang cuồn cuộn lao tới từ phía chân trời. Một luồng sát khí khác hẳn với đám thảo khấu ô hợp này.
 
-Caelen không cho chúng thời gian suy nghĩ. Hắn vận chuyển Băng Sương Long Hồn Quyết, ma lực Trung Giai Sơ Kỳ bùng nổ toàn diện. Từng bước chân hắn lướt trên mặt tuyết tựa như một vũ điệu tử thần. Mỗi lần đoản kiếm vung lên là một sinh mạng ngã xuống, tiếng xương gãy và tiếng rên rỉ nghẹn ngào vang vọng khắp hẻm núi.
+Hội Lưỡi Hái Hắc Ám. Kẻ nhận hàng đã đến. 
 
-Chỉ trong chưa đầy ba phút, hơn ba mươi tên thảo khấu tinh nhuệ đã nằm bất động trên nền băng giá!
-
-"Lũ vô dụng! Tránh hết ra!"
-
-Boris Tai Đỏ gầm lên như sấm sét. Hắn không thể ngồi nhìn thêm được nữa. Toàn thân gã khổng lồ bốc lên luồng đấu khí màu vàng đất cuồng bạo của Thổ hệ Ma Pháp, hai tay nâng cây đại rìu chiến nặng hàng trăm cân, dậm mạnh chân xuống nền đá khiến mặt đất nứt toác, lao thẳng về phía Caelen như một cỗ xe tăng bọc thép!
-
-"Chết đi cho ta! Bạo Thạch Tuyệt Trảm!"
-
-Lưỡi rìu khổng lồ mang theo uy lực xé toạc hư không, cuộn theo luồng cuồng phong đất đá bổ thẳng xuống đỉnh đầu Caelen!
-
-Đội kỵ sĩ hộ vệ phía xa hoảng hốt thét lên: "Thiếu gia cẩn thận!"
-
-Thế nhưng, Caelen không hề né tránh.
-
-Hắn đứng sừng sững tại chỗ, khóe môi nhếch lên một nụ cười giễu cợt. Trong con mắt Ma Đồng Giải Cấu, điểm nối ma lực giữa chuôi rìu và ngực của Boris hiện lên một chấm đỏ rực yếu ớt – điểm tụ lực chưa hoàn thiện của chiêu thức!
-
-Khoảnh khắc lưỡi rìu chỉ còn cách trán Caelen đúng một tấc, Caelen khẽ nghiêng người nửa phân. Lưỡi rìu sượt qua vai áo hắn bổ thẳng xuống mặt đất, chém nứt tảng đá cẩm thạch thành hai nửa.
-
-Ngay khoảnh khắc Boris bị hụt lực, Caelen vươn tay trái ra, ngón trỏ và ngón giữa ngưng tụ hàn băng sắc nhọn, chuẩn xác đâm thẳng vào tử huyệt dưới nách phải của gã khổng lồ!
-
-Ầm!
-
-Một luồng hàn khí Băng Long thượng cổ hung hãn truyền thẳng vào cơ thể Boris.
-
-"A a a...!"
-
-Boris thét lên một tiếng đau đớn thấu trời. Toàn bộ đấu khí Thổ hệ trong người hắn lập tức bị đông cứng và tan rã trong tích tắc. Lớp băng lam dày đặc từ nách phải nhanh chóng lan tỏa khắp cơ thể gã khổng lồ, bao phủ từ cánh tay đến lồng ngực và khuôn mặt hung tợn của hắn.
-
-Caelen rút dao găm bạc nơi cổ tay phải ra, lạnh lùng vung ngang một nhát.
-
-Keng!
-
-Thủ cấp của Boris Tai Đỏ – kẻ xưng hùng xưng bá nơi biên ải suốt mười năm qua – rớt thẳng xuống nền tuyết trắng, đôi mắt mở trừng trừng chết không nhắm mắt!
-
-Toàn bộ hẻm núi rơi vào sự tĩnh lặng tuyệt đối.
-
-Những tên thảo khấu còn sống sót nhìn thấy cảnh tượng kinh hoàng này, hàm răng va vào nhau lập cập, vũ khí trong tay rơi loảng xoảng xuống đất:
-
-"Quái vật... hắn là ác ma phương Bắc... chạy mau!"
-
-Đám tàn quân vỡ trận, tranh nhau quẳng gươm vứt giáo tháo chạy thục mạng vào bão tuyết.
-
-Caelen đứng giữa chiến trường đẫm máu, tà áo đen không hề dính lấy một giọt máu bẩn. Hắn cúi người nhặt lấy lệnh bài chỉ huy bằng sắt đen rơi ra từ thắt lưng của Boris – trên đó khắc rõ gia huy phân nhánh của Nhị Trưởng Lão Karlov.
-
-"Một bằng chứng hoàn hảo." Caelen khẽ lẩm bẩm.
-
-Thế nhưng, đúng khoảnh khắc hắn vừa cất lệnh bài vào túi áo, một luồng sát khí âm u, buốt lạnh gấp vạn lần bão tuyết đột ngột giáng xuống từ trên đỉnh đầu hắn!
+"Có vẻ như, buổi nghiệm thu hàng hóa hôm nay sẽ phải đón thêm một vị khách không mời." Caelen khẽ lẩm bẩm, ngón tay lại vô thức xoay nhẹ chiếc nhẫn đầu ưng trên ngón trỏ. Đáy mắt hắn ánh lên sự hưng phấn của một kẻ thợ săn đang đứng đợi con mồi sa lưới.

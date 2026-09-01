@@ -1,155 +1,97 @@
-# CHƯƠNG 2: BẢN HỢP ĐỒNG TRÊN BÀN CỜ QUYỀN LỰC
+---
+title: "Chương 2: Bản Hợp Đồng Trên Bàn Cờ Quyền Lực"
+---
 
-Cánh cửa gỗ sồi ngàn năm bọc sắt nguội của Đại Điện Băng Sương khẽ kẽo kẹt mở ra, mang theo luồng gió tuyết rít gào bên ngoài ùa vào sảnh đường rộng lớn.
+Đại sảnh gia tộc Ravenwood ngập tràn ánh sáng lạnh lẽo hắt qua những ô cửa kính màu chạm trổ hoa văn Băng Sương Huyết Ưng. Hôm nay, bầu không khí ở pháo đài Frostford vốn đã lạnh giá, nay lại càng thêm ngột ngạt bởi sự xuất hiện của một vị khách không mời.
 
-Ánh đuốc ma pháp màu lam nhạt bập bùng trên những cột đá hoa cương chạm khắc hình chim ưng tuyết, rọi chiếu lên khuôn mặt của hàng chục quý tộc Bắc Cảnh đang tề tựu đông đủ. Không khí trong đại điện ngột ngạt và căng thẳng tựa như dây cung kéo căng tới cực hạn.
+Tam Công Chúa Đế Quốc Solaria — Valerie De Valois.
 
-Tại vị trí chủ tọa dành cho khách quý phương Nam, Tam Công Chúa Valerie De Valois ngồi đó như một vầng thái dương chói lòa giữa miền băng giá hoang vu. 
+Nàng ngồi trên chiếc ghế dành cho khách danh dự, lưng thẳng tắp kiêu kỳ. Mái tóc vàng kim óng ả đổ xuống như một thác nước rực rỡ, tương phản gay gắt với sắc lam lạnh lẽo của đại sảnh. Bộ váy dạ hội lục bảo thêu chỉ vàng bó sát lấy những đường cong hoàn mỹ, toát lên khí thế áp đảo của bậc vương giả. Nàng giống như một con phượng hoàng lửa hạ phàm giữa vùng đất băng tuyết cằn cỗi.
 
-Nàng khoác trên mình bộ dạ phục hoàng gia bằng gấm lụa xanh lục bảo, từng đường thêu chỉ vàng kim lấp lánh ôm trọn những đường cong hoàn mỹ. Mái tóc vàng óng ả buông lơi qua bờ vai trắng muốt, đôi hoa tai thạch anh tím khẽ đung đưa theo từng nhịp thở. Đôi mắt phượng màu tím thạch anh của nàng sắc sảo, lạnh lùng phóng tầm mắt xuống dãy bàn tiệc, bàn tay thon dài gõ nhẹ từng nhịp có tiết tấu lên chiếc trượng ma pháp bằng vàng ròng đặt bên mép bàn.
+Đứng cạnh nàng là hai kỵ sĩ Hoàng gia mặc giáp vàng chóe, tay lăm lăm vũ khí, cảnh giác nhìn chằm chằm vào người phụ nữ đang ngồi trên chiếc ghế gia chủ đối diện. 
 
-"Đã nửa canh giờ trôi qua rồi, Nhị Trưởng Lão." Giọng Valerie cất lên, trong trẻo tựa tiếng chuông bạc nhưng lại mang theo uy áp sắc lạnh của kẻ sinh ra nơi đỉnh cao quyền lực: "Chẳng lẽ gia tộc Ravenwood lại xem thường sắc chỉ của Hoàng thất Solaria đến mức để một vị Công chúa phải ngồi chờ một kẻ say khướt?"
+Đó là Evelyn Von Ravenwood, Nữ Kiếm Vương phương Bắc, Đại tỷ của Caelen. Nàng mặc bộ giáp Băng Thiết sáng loáng, mái tóc bạc ánh lam hất ngược ra sau, đôi mắt sắc như dao găm trừng trừng nhìn cuộn giấy màu đỏ sẫm đặt trên bàn. 
 
-Ngồi ở dãy bàn bên phải, Nhị Trưởng Lão Karlov – một lão già râu tóc hoa râm với đôi mắt ti hí giảo hoạt – lập tức đứng bật dậy, khom lưng nở nụ cười xun xoe:
+*Huyết Chiếu Hoàng Gia.*
 
-"Xin Điện hạ thứ tội! Tên nghiệt súc Caelen từ sau khi ma hạch bị nghẽn mạch đã hoàn toàn sa đọa, suốt ngày chỉ biết vùi đầu vào men rượu. Lão phu đã sai người đi 'khiêng' nó tới đây để Điện hạ đích thân trị tội!"
+Sắc lệnh tối cao đóng dấu máu của Hoàng đế. Nội dung vô cùng đơn giản: Hủy bỏ hôn ước giữa Tam Công Chúa Valerie và Đệ Tam Công Tử Caelen Von Ravenwood.
 
-Nói đoạn, Karlov khẽ liếc sang chiếc ghế danh dự đối diện, nơi Evelyn Von Ravenwood – Nữ Kiếm Vương phương Bắc, Đại tiểu thư gia tộc Ravenwood – đang ngồi trầm mặc.
+"Công chúa điện hạ, ý của bệ hạ là như thế nào?" Giọng nói của Evelyn vang lên, lạnh buốt như tuyết lở. "Hôn ước này là do chính tiên đế Solaria hứa hẹn với phụ thân ta để đổi lấy sự cống hiến máu xương của gia tộc Băng Sương nơi tiền tuyến Vực Thẳm. Giờ ngài mang Huyết Chiếu đến từ hôn, coi danh dự của Ravenwood là cỏ rác sao?"
 
-Evelyn khoác trên mình bộ giáp Băng Thiết màu bạc sáng chói, đôi mắt lam băng sắc như lưỡi gươm vừa tuốt vỏ không hề chớp lấy một lần. Bàn tay nàng đặt hờ trên chuôi thanh Đại kiếm Băng Phách dựng thẳng bên hông ghế, tỏa ra từng đợt hàn khí buốt giá khiến ly rượu vang trước mặt nàng đóng thành một lớp băng mỏng.
+Valerie khẽ nâng cằm, ánh mắt tím thạch anh kiêu ngạo quét qua Evelyn. "Kiếm Vương các hạ, xin đừng hiểu lầm. Bệ hạ luôn ghi nhận công lao của gia tộc Ravenwood. Nhưng danh dự của Hoàng gia cũng không thể bị bôi nhọ bởi một kẻ suốt ngày chìm đắm trong tửu sắc. Một tên phế vật đến ma hạch cũng bị tắc nghẽn, lấy tư cách gì để trở thành Phò mã Đế quốc?"
 
-"Karlov," Evelyn lạnh lùng mở lời, từng chữ nặng tựa ngàn cân: "Caelen dù có phạm lỗi gì thì vẫn là Đệ tam công tử của gia tộc Ravenwood. Chưa đến lượt một kẻ quản sự như ông dùng từ 'khiêng' trước mặt khách quý."
+Lời nói sắc như dao, đâm thẳng vào điểm yếu lớn nhất của Evelyn. Nàng cắn chặt răng, tay vô thức nắm lấy chuôi thanh Đại kiếm Băng Phách. Nàng hận. Nàng hận Caelen tại sao lại biến thành một đống rác rưởi không thể cứu vãn, để hôm nay gia tộc phải hứng chịu nỗi nhục nhã ê chề này.
 
-Karlov cười khẩy trong bụng, ngoài mặt vờ cúi đầu nhận lỗi nhưng trong mắt lại lóe lên tia độc địa. Lão biết rõ, chén canh Tuyết Liên tẩm đậm đặc Hắc Tử La Lan do Lilian mang tới lúc này ắt hẳn đã ngấm vào tim phổi Caelen. Hôm nay, tên phế vật đó nếu không co giật nôn mửa ra sàn thì cũng sẽ phát điên cắn xé quần áo, làm ô uế thanh danh của dòng chính trước mặt toàn thể sứ đoàn kinh đô!
+"Khụ, khụ... Điện hạ nói rất đúng." Nhị Trưởng Lão Karlov đứng một bên, khuôn mặt già nua giả vờ mang nét đau xót, chắp tay khom lưng. "Tam thiếu chủ quả thực không xứng với cành vàng lá ngọc như ngài. Đáng tiếc... gia môn bất hạnh..."
 
-Đúng lúc đó, tiếng bước chân vững chãi, đều đặn vang lên từ hành lang đá sâu thẳm.
+Evelyn trừng mắt nhìn Karlov. Tên cáo già này chỉ chực chờ cơ hội hạ bệ uy tín của dòng chính để đưa phe phái của lão lên.
 
-Cộp. Cộp. Cộp.
+"Nếu đã hiểu, xin mời Tam thiếu chủ ra mặt tiếp chỉ, để chúng ta kết thúc chuyện này một cách nhẹ nhàng." Valerie mỉm cười nhạt, lấy trong túi không gian ra một chiếc rương gỗ nhỏ tinh xảo. "Tất nhiên, Hoàng gia sẽ không để Ravenwood thiệt thòi. Trong rương này là mười vạn Thượng Phẩm Linh Thạch và một nhánh Hỏa Liên Hoa ngàn năm. Coi như phí bồi thường danh dự."
 
-Âm thanh bước chân không hề có lấy nửa điểm lảo đảo của kẻ say rượu, trái lại, từng nhịp gót giày da gõ xuống sàn đá cẩm thạch đều toát lên một tiết tấu trầm ổn, uy nghiêm đến nghẹt thở.
+Sự sỉ nhục bằng tiền bạc. 
 
-Mọi ánh mắt trong đại điện lập tức đồng loạt dồn về phía cửa lớn.
+Evelyn tức giận đến mức ma hạch Địa Giai Trung Kỳ trong người bắt đầu bạo phát hàn khí. Một trận chiến có nguy cơ nổ ra ngay giữa đại sảnh.
 
-Một bóng hình cao ráo, thon dài bước qua làn khói sương mờ ảo của đại sảnh.
+Nhưng ngay lúc đó, tiếng vỗ tay chậm rãi và nhịp nhàng vang lên từ phía cầu thang. 
 
-Caelen Von Ravenwood xuất hiện.
+*Bốp. Bốp. Bốp.*
 
-Hắn vận bộ quân phục quý tộc Midnight Black may đo ôm sát thân hình chuẩn mực, từng đường ve áo thêu nổi phù hiệu Huyết Ưng bằng chỉ bạc tinh xảo sáng lấp lánh dưới ánh đuốc. Cầu vai tua rua bạc vương giả buông lơi sang hai bên ngực áo, chiếc nhẫn bạc chạm khắc Đầu Ưng nơi ngón trỏ tay trái ánh lên tia hàn quang sắc lạnh. 
+"Công chúa điện hạ ra giá quả thực rất hào phóng. Nhưng ta nghĩ, ngài đang đánh giá quá thấp cái giá của 'danh dự' rồi."
 
-Mái tóc bạc ánh lam tro bồng bềnh tự nhiên khẽ lay động theo từng bước đi, để lộ vầng trán cao thanh tú và sống mũi thẳng tắp. Đôi mắt màu lam băng sâu thẳm phẳng lặng như mặt hồ ngàn năm đóng băng, thấu thị từng ngóc ngách tâm can của những kẻ đang hiện diện trong sảnh đường.
+Mọi ánh mắt dồn về phía cầu thang. Caelen bước xuống. Không còn bộ dạng rệu rã, say xỉn và hôi hám. Hắn đã tắm rửa sạch sẽ, khoác lên mình bộ quân phục quý tộc đen tuyền, áo choàng viền lông thú hờ hững trên vai. Mái tóc bạc lam vuốt gọn, nụ cười nửa miệng đầy tà khí trên môi, toát lên phong thái của một bậc kiêu hùng tàn nhẫn. 
 
-Toàn bộ đại điện rơi vào một khoảng lặng chết chóc.
+Valerie sững sờ. Đôi mắt tím thạch anh khẽ chớp. Đây... đây là tên phế vật nghiện ngập trong báo cáo của tình báo Hoàng gia sao? Khí chất này, sự điềm tĩnh này, hoàn toàn không giống một kẻ vừa bị từ hôn và làm nhục trước mặt toàn gia tộc. 
 
-Nụ cười trên khóe môi Karlov lập tức đông cứng lại. Con ngươi lão trợn trừng, hai bàn tay giấu dưới tay áo run rẩy kịch liệt.
+Evelyn cũng mở to mắt ngạc nhiên. Caelen điềm nhiên đi qua mặt tỷ tỷ, bước tới chiếc bàn đặt Huyết Chiếu Hoàng Gia. Hắn không vội quỳ xuống tiếp chỉ như lẽ thường, mà kéo một chiếc ghế, ngồi phịch xuống đối diện Valerie.
 
-'Không thể nào! Hắn... hắn không hề say? Độc Hắc Tử La Lan đâu?!'
+"Cáo lỗi vì sự chậm trễ. Ta vừa phải giải quyết chút chuyện nội bộ." Caelen liếc nhìn Nhị Trưởng Lão Karlov. Kẻ đang đứng tái mặt, mồ hôi vã ra như tắm khi nhận ra Caelen vẫn còn tỉnh táo. Lilian đâu? Thuốc giải đâu? Sao hắn lại tỉnh táo thế này?
 
-Ngay cả Evelyn cũng khẽ nhíu mày, đáy mắt lam băng ánh lên một tia kinh ngạc tột cùng. Đã bao nhiêu năm rồi nàng chưa từng nhìn thấy đứa em trai này đứng thẳng lưng với phong thái vương giả ngút trời như thế?
+Caelen thu ánh mắt lại, chống cằm nhìn Valerie. 
 
-Trên ngai vàng danh dự, đôi mắt tím thạch anh của Valerie khẽ co rút lại. Nàng bất giác ngồi thẳng lưng, ánh nhìn kiêu hãnh chăm chú quan sát từng cử động của Caelen. Đây là tên "đống rác phương Bắc" mà kinh đô vẫn đồn đại sao? Khí chất thâm trầm, sắc lạnh và nguy hiểm này... ngay cả các Hoàng huynh ở kinh thành cũng khó lòng bì kịp!
+"Mười vạn Thượng Phẩm Linh Thạch và một nhánh Hỏa Liên Hoa. Đối với một Tán tu thì là gia tài kếch xù, nhưng đối với danh dự của một Công tước trấn thủ Biên Ải, nó còn rẻ rúng hơn cả một bãi nước bọt." 
 
-"Đại tỷ, Nhị Trưởng lão, và... vị hôn thê cao quý phương Nam." 
+"Ngươi to gan!" Một kỵ sĩ Hoàng gia tức giận quát lớn, toan rút gươm. Nhưng Valerie khẽ giơ tay ngăn lại, ánh mắt đánh giá Caelen thêm một lần nữa. Nàng là một nữ chính trị gia, nàng ngửi thấy mùi của sự giao dịch.
 
-Caelen cất tiếng, giọng nói trầm ấm, rõ ràng vang vọng khắp vòm đá đại điện:
+"Vậy, Tam thiếu chủ muốn gì? Ngươi không thể từ chối Huyết Chiếu, đó là mệnh lệnh." Valerie lạnh lùng nói.
 
-"Caelen đến muộn, khiến chư vị phải mất công chờ đợi."
+"Ta đương nhiên không từ chối. Hôn nhân chính trị vốn dĩ là một bản hợp đồng tồi. Cả ngài và ta đều biết rõ điều đó." Caelen nhếch môi, ngón tay xoay xoay chiếc nhẫn bạc đầu ưng. Dưới con mắt Ma Đồng Giải Cấu, hắn đã nhìn thấu cấu trúc ma lực Hỏa hệ đang rực cháy đầy tham vọng trong cơ thể vị Công chúa này. 
 
-Hắn bước thẳng tới trung tâm đại điện, khẽ nghiêng người hành một lễ quý tộc tiêu chuẩn không tì vết, khóe môi nhếch lên một nụ cười nửa miệng đầy thâm ý nhìn thẳng vào Valerie.
+Nàng ta là một kẻ khao khát quyền lực tột độ. Nàng ta từ hôn để dọn đường cho việc tranh đoạt ngai vàng, không muốn vướng bận vào một tên phế vật. 
 
-Bị ánh mắt lam băng của Caelen nhìn thẳng, Valerie khẽ nheo mắt lại. Nàng nhanh chóng lấy lại vẻ cao ngạo của một nàng công chúa hoàng gia, ngón tay thon thả gõ nhẹ lên mặt bàn:
+Vậy thì, hắn sẽ đàm phán bằng ngôn ngữ của quyền lực. 
 
-"Tam công tử quả nhiên khiến người ta phải bất ngờ. Khí chất này... hoàn toàn khác xa với những báo cáo tệ hại mà ta nhận được tại Hoàng Cung."
+"Nhưng nếu tin tức Đế quốc ruồng bỏ gia tộc Băng Sương lan ra, tinh thần binh sĩ tại Biên Ải sẽ giảm sút. Thậm chí... nếu Ravenwood thả lỏng hàng phòng ngự để một vài đợt ma thú từ Vực Thẳm tràn vào Kinh đô... ngài đoán xem uy tín của Hoàng gia sẽ ra sao trong đợt tranh cử vương vị sắp tới?" Caelen nhàn nhạt thả ra một quả bom.
 
-"Lời đồn kinh đô thường được thêu dệt bởi những kẻ rảnh rỗi hoặc những kẻ mang dã tâm." Caelen thản nhiên đáp, ánh mắt lướt qua gương mặt đang tái mét của Karlov: "Điện hạ là người thông tuệ, ắt hẳn hiểu rõ mắt thấy mới là chân thực."
+Evelyn giật nảy mình. "Caelen! Ngươi đang nói càn gì vậy? Gia tộc ta thề chết bảo vệ..."
 
-Nhận thấy tình thế đang trượt khỏi tầm kiểm soát, Karlov nghiến răng, bước vội ra khỏi dãy bàn, lớn tiếng quát:
+"Tỷ tỷ, ngài cứ im lặng xem kịch." Caelen khẽ ngắt lời, ánh mắt sắc lẹm lướt qua khiến Evelyn khựng lại, cảm nhận được một luồng uy áp đáng sợ chưa từng có từ đệ đệ.
 
-"Hỗn xược! Caelen, ngươi đừng có ở đây giả thần giả quỷ! Năm năm qua ngươi đắm chìm trong trụy lạc, ma hạch phế bỏ, làm hoen ố gia phong Ravenwood là sự thật rành rành! Hôm nay Tam Công Chúa đích thân mang Huyết Chiếu đến phế bỏ hôn ước, ngươi còn không mau quỳ xuống nhận tội, tự nguyện ký vào văn thư đày ải ra Tiền Tuyến Hắc Vực để chuộc lại thể diện cho gia tộc?!"
+Valerie nheo mắt, sát khí bùng lên trong đôi đồng tử màu tím. "Ngươi dám uy hiếp ta?"
 
-Vừa dứt lời, Karlov vung tay ra hiệu. Một tên thị vệ thân tín lập tức bưng ra chiếc khay bạc, bên trên đặt sẵn một cuộn da cừu phong kín ma pháp – bản văn thư nhận tội thông đồng Dị Giáo và tự nguyện đi đày.
+"Ta đang đưa ra một đề xuất làm ăn, thưa điện hạ." Caelen cười. Hắn vươn tay cầm lấy Huyết Chiếu, nhưng không mở ra. "Ta đồng ý xé bỏ tờ giấy hôn thú rẻ tiền này. Cứ coi như ta là kẻ trăng hoa, ruồng bỏ công chúa. Ngài sẽ giữ được hình tượng nạn nhân cao thượng, đồng thời thoát khỏi ta. Nhưng đổi lại..."
 
-Không khí trong điện lập tức đông cứng lại. Evelyn đứng bật dậy, sát khí từ thanh đại kiếm Băng Phách bùng nổ:
+Hắn lấy từ trong áo ra một cuộn giấy da cừu trắng tinh, đẩy về phía Valerie.
 
-"Karlov! Ai cho phép ông tự ý định đoạt số phận của người kế vị dòng chính?!"
+"Thứ nhất: Quyền khai thác ba mỏ Hỏa Lưu Tinh ở ranh giới Nam-Bắc sẽ thuộc về Ravenwood trong mười năm. Thứ hai: Đế quốc phải miễn thuế nhập khẩu vũ khí cho Thiết Kỵ Băng Sương. Thứ ba: Ngài sẽ đích thân đóng dấu Hoàng gia bảo chứng cho Vạn Thương Ngân Hàng — một tổ chức tài chính mà ta sắp thành lập."
 
-"Đại tiểu thư!" Karlov không hề nao núng, chỉ tay về phía Valerie: "Đây là ý chỉ từ Kinh Đô! Tam Công Chúa không thể cưới một kẻ phế vật! Gia tộc ta phải đưa ra câu trả lời thỏa đáng cho Hoàng gia!"
+Cả đại sảnh im phăng phắc. Mọi người đều há hốc mồm. Đây không phải là từ hôn, đây là trấn lột!
 
-Valerie ngồi trên ghế cao, khẽ thở dài một tiếng. Nàng đứng dậy, tà váy xanh lục bảo khẽ lay động, tay nâng lên một cuộn giấy da hoàng gia phát ra ánh sáng vàng kim chói lọi – Huyết Chiếu Hoàng Gia.
+"Mộng tưởng hão huyền! Ngươi lấy tư cách gì để đàm phán những điều khoản hoang đường này?" Valerie cười lạnh, đập tay xuống bàn.
 
-"Evelyn các hạ, xin hãy bình tĩnh." Valerie nhìn về phía Nữ Kiếm Vương, giọng nói uy nghiêm và dứt khoát:
+"Lấy tư cách ta là kẻ nắm giữ bí mật lớn nhất của ngài." Caelen nhổm người lên, khẽ ghé sát vào mặt Valerie, giọng nói trầm bổng, ma mị chỉ đủ cho hai người nghe. "Công chúa điện hạ... cấu trúc Hỏa hệ của ngài rất hoàn hảo, nhưng tại sao ở gốc ma hạch lại có một khe nứt nhỏ rỉ ra tử khí? Ngài đã lén lút tu luyện Cấm thuật Quang Minh để tranh đoạt hoàng vị, phải không? Nếu tin tức này tuồn đến tai Đại Hoàng Tử..."
 
-"Bản cung đến đây hôm nay không phải để can thiệp vào nội bộ gia tộc Ravenwood. Mục đích duy nhất của ta... là hủy bỏ cuộc hôn nhân này."
+Đồng tử Valerie đột ngột co rút. Toàn thân nàng cứng đờ. Bí mật động trời này, nàng đã dùng vô số pháp bảo che đậy, tại sao một tên phế vật phương Bắc lại nhìn thấu chỉ trong một cái liếc mắt?
 
-Nàng quay sang Caelen, đôi mắt tím thạch anh ánh lên ngọn lửa tham vọng kiêu hãnh không hề che giấu:
+Nàng nhìn sâu vào đôi mắt màu lam băng của Caelen, cảm thấy một luồng ớn lạnh chạy dọc sống lưng. Kẻ trước mặt nàng không phải là một công tử nghiện ngập. Gã là một ác quỷ đội lốt người, một con quái vật nhện độc đang nhả tơ giăng bẫy toàn bộ đại cục.
 
-"Caelen, ta là Tam Công Chúa của Đế Quốc Solaria. Tương lai của ta là đỉnh cao quyền lực của đại lục này, là củng cố vương quyền và chinh phạt các thế lực suy tàn. Ta không ghét bỏ ngươi vì tư thù cá nhân, nhưng ta tuyệt đối không cho phép thanh danh và cuộc đời của mình bị trói buộc với một kẻ bất tài làm trò cười cho thiên hạ. Ta cần một cuộc chia tay chính trị sòng phẳng và dứt khoát. Hôn ước này... bắt buộc phải chấm dứt!"
+"Thế nào, điện hạ?" Caelen ngồi lại xuống ghế, mỉm cười ôn nhã, tay chìa ra một cây bút lông ngỗng chấm mực máu. "Mọi cuộc từ hôn đều có giá của nó. Ngài mua tự do chính trị, còn ta... ta lấy nền móng cho đế chế tư bản của mình. Chữ ký của ngài đáng giá hơn rất nhiều so với mớ linh thạch cỏn con kia."
 
-Lời nói của Valerie đanh thép, thẳng thắn và tràn ngập sự kiêu hãnh thực dụng của một nữ chính trị gia kiệt xuất. Nàng muốn từ hôn vì danh dự và đại nghiệp của chính mình, chứ không hề mang ác ý hèn hạ muốn dồn ai vào chỗ chết.
+Valerie hít sâu một hơi, bầu ngực kiêu hãnh phập phồng kịch liệt. Nàng thua. Nàng đã thua ngay từ giây phút bước chân vào đại sảnh này. Nhưng nàng cũng nhận ra, kẻ này... là một đồng minh cực kỳ giá trị, hoặc một kẻ thù nguy hiểm đến cùng cực.
 
-Nhưng Nhị Trưởng Lão Karlov thì khác. Lão muốn mượn thanh gươm từ hôn của Valerie để chém đứt mạng sống của Caelen!
+Không chút do dự, nàng cầm bút, ký cái rẹt vào bản hợp đồng, đóng dấu ấn máu Hoàng gia lên đó.
 
-"Nghe rõ chưa Caelen?!" Karlov đắc ý gầm lên, đẩy chiếc khay bạc chứa văn thư nhận tội tới trước mặt Caelen: "Ấn dấu tay ma lực vào đây! Ký nhận tội và rời khỏi pháo đài ngay trong đêm!"
+"Ngươi khá lắm, Caelen Von Ravenwood." Valerie đứng dậy, ánh mắt phức tạp nhìn hắn. "Ta bắt đầu tò mò xem ngươi có thể sống sót được bao lâu với những trò chơi nguy hiểm này."
 
-Caelen nhìn chiếc khay bạc trước mặt.
+"Đủ lâu để thu nợ từ cả Đế quốc này, điện hạ." Caelen cười. 
 
-Trong khoảnh khắc, con ngươi lam băng của hắn khẽ lóe lên những vòng ma trận cổ ngữ xoay chuyển.
-
-Ma Đồng Giải Cấu kích hoạt!
-
-Dưới đáy chiếc khay bạc, một ma trận trói buộc linh hồn màu đen kịt ẩn giấu dưới lớp nhung đỏ lập tức hiện rõ nguyên hình. Chỉ cần một giọt máu hay ma lực sơ giai chạm vào, khế ước cấm thuật này sẽ lập tức hút cạn sinh lực của người ký, biến kẻ đó thành một cái xác biết đi sau ba ngày trên đường ra tiền tuyến!
-
-Một nụ cười lạnh lùng nở trên môi Caelen.
-
-Bốp!
-
-Caelen vung tay, một cái tát trời giáng mang theo luồng ma lực băng sương tinh khiết nện thẳng vào mặt tên thị vệ bưng khay!
-
-Chiếc khay bạc bay vút lên không trung rồi rơi choảng xuống sàn đá. Tấm vải nhung đỏ bung ra, làm lộ toàn bộ ma trận huyết sắc tà ác đang phát ra những luồng khói đen tanh tưởi dưới chân Karlov!
-
-"A... ma trận này là..." Giới quý tộc xung quanh lập tức xôn xao kinh hãi lùi lại.
-
-Sắc mặt Karlov cắt không còn một giọt máu.
-
-"Nhị Trưởng Lão," Caelen bước tới một bước, áp sát Karlov, ánh mắt sắc như lưỡi dao cạo găm thẳng vào đáy mắt lão già: "Dùng Cấm Thuật Huyết Hồn của Vực Thẳm Hoang Vu trên đại điện gia tộc... lại còn to gan mượn danh nghĩa Tam Công Chúa để che đậy mưu đồ phản nghịch dòng chính. Ông nghĩ... thanh kiếm Băng Phách của Đại tỷ ta không chém đứt được cái đầu già nua này sao?"
-
-"Ngươi... ngươi ngậm máu phun người!" Karlov run rẩy lùi lại, mồ hôi lạnh vã ra như tắm.
-
-Evelyn nhìn thấy ma trận tà ác trên sàn, sát khí trong mắt bùng nổ dữ dội. Thanh đại kiếm Băng Phách trong tay nàng phát ra tiếng rít chói tai, lưỡi kiếm lam băng hạ xuống chỉ cách cổ họng Karlov đúng một tấc!
-
-"Karlov, sau yến tiệc hôm nay, tự mình đến Hầm Băng chịu phạt một trăm roi Thiết Kỷ." Evelyn gằn từng chữ: "Dám bước ra khỏi phủ nửa bước, ta chém!"
-
-Toàn bộ đại điện câm như hến. Uy thế của Nữ Kiếm Vương áp đảo tất cả.
-
-Giữa sự hỗn loạn đó, Caelen ung dung quay người, bước từng bước khoan thai về phía bậc thềm ngai vàng, nơi Valerie đang đứng sững sờ với cuộn Huyết Chiếu trên tay.
-
-Khoảng cách giữa hai người thu hẹp lại chỉ còn nửa bước. Mùi hương hoa hồng hoàng gia ngào ngạt từ người Valerie phả vào cánh mũi Caelen, hòa quyện với hàn khí băng tuyết trầm ấm toát ra từ quân phục của hắn.
-
-Valerie mở to đôi mắt tím, tim nàng bất giác đập nhanh hơn một nhịp khi nhìn thẳng vào gương mặt góc cạnh tuyệt mỹ nhưng đầy nguy hiểm của Caelen ở cự ly gần như thế này.
-
-"Điện hạ muốn từ hôn?" Caelen khẽ mỉm cười.
-
-Hắn không hề nổi giận, cũng chẳng có nửa điểm tự ti hay oán trách. Hắn vươn tay ra, nhẹ nhàng đón lấy cuộn Huyết Chiếu Hoàng Gia từ tay Valerie.
-
-Đầu ngón trỏ của Caelen khẽ ngưng tụ một luồng hàn khí màu lam tinh khiết. Hắn không cần bút mực, trực tiếp dùng ngón tay khắc sâu từng nét cổ ngữ băng giá lên cuộn giấy da:
-
-Caelen Von Ravenwood – Đồng thuận giải trừ hôn ước.
-
-Nét chữ sắc bén, dứt khoát, toát lên sự kiêu hãnh ngút ngàn của bậc đế vương phương Bắc!
-
-Trao trả cuộn Huyết Chiếu lại vào tay nàng công chúa đang ngơ ngác, Caelen khẽ ghé sát tai nàng, thì thầm bằng một chất giọng trầm thấp chỉ đủ hai người nghe:
-
-"Một nữ nhân mang tham vọng bước lên ngai vàng đế chế... thì đừng bao giờ để lũ chuột cống mượn thanh kiếm của mình."
-
-Toàn thân Valerie khẽ run lên. Nàng kinh ngạc nhìn người đàn ông trước mặt.
-
-Hắn nhìn thấu toàn bộ! Không chỉ nhìn thấu dã tâm chính trị của nàng, mà còn nhìn thấu cả ván cờ bẩn thỉu của Karlov!
-
-Caelen khẽ xoay chiếc nhẫn bạc nơi ngón trỏ, xoay người bước đi, để lại một bóng lưng ngạo nghễ giữa muôn vàn ánh đuốc ma pháp:
-
-"Hôn ước đã giải. Từ hôm nay, đường ai nấy đi... Nhưng Điện hạ hãy nhớ kỹ lời ta, bàn cờ Erebia này... rồi sẽ có một ngày chúng ta tái ngộ trên đỉnh phong."
-
-Valerie đứng chết lặng trên thềm đá, hai tay siết chặt cuộn Huyết Chiếu còn vương hơi lạnh buốt giá. Đôi mắt phượng màu tím thạch anh nhìn theo bóng lưng của Đệ tam công tử, sâu trong đáy mắt ánh lên một ngọn lửa kinh ngạc và rung động chưa từng có trong đời.
-
-Một kẻ phế vật?
-
-Không. Đây là một con rồng phương Bắc đang ngấm ngầm thức tỉnh từ trong bão tuyết!
+Trận chiến từ hôn không cần dùng máu, nhưng lại đoạt được một khối tài sản trị giá hàng trăm vạn linh thạch, cùng một công cụ tài chính kinh điển: Uy tín Hoàng gia. Sự quật khởi của Tam Công Tử Rác Rưởi... chính thức bắt đầu.

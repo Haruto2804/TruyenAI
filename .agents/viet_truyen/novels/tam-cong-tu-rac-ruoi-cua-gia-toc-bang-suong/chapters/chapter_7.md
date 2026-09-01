@@ -1,115 +1,91 @@
-# CHƯƠNG 7: ĐẠI ĐIỆN THANH TRỪNG - BƯỚC LÊN VŨ ĐÀI QUYỀN LỰC
+---
+title: "Chương 7: Đại Điện Thanh Trừng — Bước Lên Vũ Đài Quyền Lực"
+---
 
-Nghị Sự Điện của Pháo đài Băng Sương đêm nay rực sáng ánh đèn chùm pha lê ma pháp.
+Nghị Sự Điện của gia tộc Ravenwood được xây dựng bằng những tảng đá nham thạch đen khổng lồ, không gian rộng lớn đến mức có thể chứa hàng ngàn người nhưng lúc này lại chìm trong một sự tĩnh lặng đáng sợ. Không khí căng như dây đàn. 
 
-Trên chiếc bàn tròn bằng đá cẩm thạch trắng khổng lồ, các trưởng lão đại diện cho các phân nhánh của gia tộc Ravenwood đang ngồi tề tựu đông đủ. Không khí trong đại sảnh ngột ngạt và căng thẳng đến nghẹt thở.
+Hơn mười vị quản sự, trưởng lão của phân nhánh Bắc Cảnh đang ngồi quanh chiếc bàn tròn khảm ngọc lam, ánh mắt ai nấy đều bồn chồn đổ dồn về phía cánh cửa lớn đóng kín. 
 
-Nhị Trưởng Lão Karlov – sau khi uống đan dược phục hồi thương thế – đang ngồi ở chiếc ghế bọc nhung bên cánh phải. Dù vết thương trên lưng vẫn còn nhức nhối, nhưng khóe môi lão không giấu nổi một nụ cười đắc ý hiểm độc. Theo tính toán của lão, giờ này tại Hẻm Sói Băng, Boris Tai Đỏ và Hắc Y Sứ Giả Vane ắt hẳn đã băm vằn xác tên phế vật Caelen thành trăm mảnh!
+Ở ghế chủ tọa phụ, Nhị Trưởng Lão Karlov liên tục xoay chuỗi hạt bạc quanh cổ tay. Trán lão rịn mồ hôi. Lão đã mất liên lạc với Boris Tai Đỏ và Hắc Y Sứ Giả từ đêm qua. Đáng lẽ lúc này, tin tức về cái chết do "tai nạn ma thú" của Tam thiếu chủ đã phải truyền về. Tại sao mọi thứ lại im ắng thế này?
 
-"Đã nửa đêm rồi, Đại tiểu thư cho gọi chúng ta tới đây gấp gáp như vậy rốt cuộc là có chuyện gì?" Một vị Tam Trưởng Lão tóc bạc lên tiếng hỏi.
+"Bẩm báo!" Một tên lính gác hớt hải chạy vào, cắt ngang sự tĩnh mịch. "Đại tiểu thư Evelyn và Tam thiếu chủ... đã trở về từ Hẻm Sói Băng!"
 
-Karlov khẽ vuốt chòm râu bạc, giả vờ thở dài thảng thốt: "Ai dà... ta nghe nói Tam thiếu gia Caelen sáng nay tự ý dẫn theo hộ vệ đi tuần tra Hẻm Sói Băng giữa bão tuyết lớn. Nơi đó thảo khấu hoành hành, ma thú hung tợn... e rằng lành ít dữ nhiều. Đúng là tuổi trẻ bồng bột, tự rước họa vào thân!"
+Karlov giật nảy mình. *Caelen còn sống? Hắn đã đi cùng Evelyn? Tại sao con tiện nhân Lilian không báo cho ta biết kịch bản đã thay đổi?* 
 
-Vừa dứt lời, lão khẽ liếc nhìn quanh đại điện, chuẩn bị sẵn bài diễn văn đòi thu hồi toàn bộ quyền thừa kế của Caelen để chuyển giao cho con trai mình.
+Sự lo lắng chưa kịp định hình thì cánh cửa khổng lồ của Nghị Sự Điện bị đẩy tung ra bằng một lực đạo kinh hồn, va đập mạnh vào tường đá.
 
-RẦM!
+Evelyn mặc giáp bạc, bước đi uy dũng như một vị thần chiến tranh giáng thế. Nàng lướt qua hàng ngũ trưởng lão, không nói một lời, tiến thẳng lên đài cao, ném mạnh một chiếc bao tải lớn xuống giữa bàn nghị sự. 
 
-Đột nhiên, cánh cổng gỗ sồi bọc thép dày nửa thước của Nghị Sự Điện bị đạp tung ra!
+Máu tươi từ trong bao tải rỉ ra, thấm đỏ cả một góc khăn trải bàn bằng lụa trắng.
 
-Gió tuyết gầm thét ùa vào sảnh lớn, làm chao đảo những ngọn nến pha lê.
+"Mở ra." Evelyn ra lệnh ngắn gọn. 
 
-Hai bóng người thẳng tắp từng bước tiến vào trong ánh nhìn sững sờ của toàn thể các trưởng lão.
+Một tên vệ binh run rẩy tiến lên tháo dây buộc. Cái đầu của Boris Tai Đỏ, đôi mắt vẫn trừng trừng kinh hãi, lăn lóc ra ngoài. Tiếng xì xầm hoảng sợ lập tức bùng nổ khắp đại điện.
 
-Đi bên trái là Đại tiểu thư Evelyn Von Ravenwood trong bộ giáp bạc oai phong lẫm liệt, thanh đại kiếm Băng Phách còn vương lại vài vệt máu đen chưa kịp tan. 
+Karlov đứng phắt dậy, mặt cắt không còn một giọt máu. "Kiếm Vương các hạ! Việc này... việc này là sao? Tên thảo khấu Boris sao lại..."
 
-Và đi bên phải... chính là Caelen Von Ravenwood!
+"Nhị Trưởng Lão, ngài có vẻ rất ngạc nhiên nhỉ?" 
 
-Hắn khoác chiếc áo choàng lông thú đen tuyền, dáng đi thong dong bất phàm, thần thái lạnh lùng ngạo nghễ như một bậc đế vương bước vào lãnh địa của mình.
+Một giọng nói điềm đạm, pha chút mỉa mai lười biếng vang lên từ phía cửa. Caelen thong thả bước vào. Hôm nay hắn mặc bộ quân phục đen tuyền, áo choàng lông sói vắt hờ trên vai, phong thái nhã nhặn, ưu dung nhưng lại tỏa ra áp lực lạnh lẽo vô hình. Phía sau hắn là Lilian, bưng một khay chứa đầy sổ sách và những thỏi ma thạch Băng Lam nguyên khối.
 
-Bộp!
+Caelen bước tới bàn nghị sự, ngón tay thon dài gõ nhẹ lên mặt bàn gỗ sồi. Hắn không nhìn Karlov bằng sự giận dữ, mà nhìn bằng con mắt của một kẻ thợ săn đang thưởng thức sự hoảng loạn của con mồi.
 
-Caelen vung tay ném một chiếc bao tải thô bằng vải bố lên chính giữa bàn hội nghị đá cẩm thạch. Chiếc bao bung ra, để lộ chiếc thủ cấp đẫm máu đóng băng của Boris Tai Đỏ với một bên tai đỏ au dị dạng!
+"Trong suốt năm năm qua, nhánh Bắc Cảnh đã báo cáo thất thoát ba mươi phần trăm sản lượng quặng ma thạch do ma thú tập kích." Caelen liếc nhìn khay ma thạch Lilian vừa đặt xuống. "Nhưng thật kỳ lạ, những 'con ma thú' này lại biết đóng gói quặng thành từng rương ngay ngắn, dán niêm phong ma pháp, và vận chuyển qua Hẻm Sói Băng để giao cho Hội Lưỡi Hái Hắc Ám. Các ngài thấy đấy, trí tuệ của ma thú phương Bắc quả thật đáng kinh ngạc."
 
-"Đó là... Boris Tai Đỏ?! Tướng cướp hung tàn nhất Biên Ải?!" 
+Lời nói mỉa mai của Caelen như một nhát dao rạch toạc bức màn che đậy. Các trưởng lão khác tái mặt, xì xào bàn tán. 
 
-Các trưởng lão kinh hãi đứng bật dậy, đồng loạt hít vào một ngụm khí lạnh!
+"Tam thiếu chủ! Ngài đừng có ngậm máu phun người!" Karlov đập bàn, cố lấy lại khí thế. Lão vận ma lực Thổ hệ, uy áp Trung Giai Đỉnh Phong bùng phát, định dùng áp lực để trấn áp tên phế vật trước mặt. "Ngươi có bằng chứng gì chứng minh ta liên quan đến việc này? Chỉ dựa vào cái đầu của một tên thảo khấu sao? Ta là Nhị Trưởng Lão, quản lý toàn bộ hậu viện, ngươi không có quyền..."
 
-Nụ cười trên gương mặt Karlov lập tức đông cứng lại. Sắc mặt lão từ hồng hào chuyển sang tái mét như tro tàn, con ngươi đục ngầu trợn trừng như muốn nứt ra:
+"Bằng chứng?" Caelen khẽ cười. Hắn rút từ trong ngực áo ra cuốn sổ kế toán mật của Karlov, ném thẳng xuống bàn. "Đây là sổ cái chi thu ngầm của ngài, được mã hóa bằng ma pháp Thổ hệ. Chữ ký ma thuật trên từng trang giấy không thể làm giả. Cùng với lời khai của đám tàn dư thảo khấu và... lời thú tội của hầu nữ Lilian, người đã làm tay trong cho ngài suốt năm năm qua."
 
-"Không... không thể nào! Làm sao ngươi... làm sao ngươi còn sống?!"
+Karlov nhìn cuốn sổ, rồi trố mắt nhìn Lilian. Ánh mắt tuyệt vọng và sợ hãi của ả hầu gái đã trả lời tất cả. Lão bị phản bội. Lão đã mất tất cả.
 
-Xoảng!
+"Caelen... đồ súc sinh!" Karlov gầm lên điên cuồng. Biết không thể chối cãi, cũng không mong đợi sự khoan hồng từ Evelyn, lão quyết định liều mạng. 
 
-Caelen không buồn trả lời câu hỏi ngu ngốc đó. Hắn lạnh lùng rút chiếc lệnh bài chỉ huy bằng sắt đen ném thẳng vào trước mặt Karlov, phát ra tiếng va chạm chát chúa:
+"Thổ Tráo - Bạo Nham Kích!"
 
-"Nhị Trưởng Lão, ông có nhận ra gia huy khắc trên chiếc lệnh bài này không?"
+Karlov hai tay kết ấn, ma lực cuồn cuộn ngưng tụ thành hàng chục tảng đá nhọn hoắt, bắn thẳng về phía Caelen với tốc độ xé gió. Lão muốn giết chết kẻ thù lớn nhất trước khi bỏ trốn.
 
-Toàn bộ đại điện đổ dồn ánh mắt vào chiếc lệnh bài.
+Evelyn cau mày, định rút kiếm cản lại.
 
-"Gia huy phân nhánh của Nhị Trưởng Lão!"
+"Đừng nhúng tay vào, tỷ tỷ." Caelen khẽ nói. Giọng hắn phẳng lặng nhưng không cho phép phản bác. 
 
-"Karlov... ông dám cấu kết với thảo khấu Biên Ải để mưu sát người kế vị dòng chính?!" Các vị trưởng lão khác phẫn nộ gầm lên.
+Hắn bước lên một bước, đối diện với đòn tấn công bạo liệt của Karlov. Đôi đồng tử lam thẳm sáng rực rỡ dưới lớp tóc bạc. **Ma Đồng Giải Cấu** khởi động toàn diện.
 
-Bị dồn vào chân tường, vẻ đạo mạo giả tạo của Karlov hoàn toàn sụp đổ. Đôi mắt lão đỏ ngầu điên loạn, gân xanh nổi chằng chịt trên trán:
+Hàng chục tảng nham thạch lao tới, trong mắt Caelen trở nên chậm chạp. Hắn nhìn thấu từng hạt mana cấu tạo nên đất đá, nhận ra điểm yếu duy nhất trong cấu trúc phòng ngự mà Karlov đang giăng ra. 
 
-"Lũ ngu xuẩn các ngươi thì biết cái gì?! Gia tộc Ravenwood dưới tay dòng chính đã suy tàn suốt trăm năm qua! Chỉ có cấu kết với Hội Lưỡi Hái Hắc Ám, ta mới có thể đưa gia tộc này xưng bá thiên hạ! Hôm nay các ngươi phải chết hết ở đây!"
+Caelen giơ bàn tay phải lên. Một luồng hàn khí tinh khiết, cổ xưa từ Băng Sương Long Hồn Quyết bùng nổ, quấn quanh ngón trỏ và ngón giữa của hắn. Hắn lướt đi trong những kẽ hở siêu nhỏ của đợt tấn công nham thạch, biến thành một bóng ma tuyết.
 
-Karlov gầm lên, hai tay lão bấm quyết ma pháp tà ác, toàn thân bốc lên luồng khói đen nồng nặc mùi máu tanh của cấm thuật Huyết Hồn Tự Bạo, định kéo toàn bộ đại điện chôn cùng!
+Chỉ trong một cái chớp mắt, Caelen đã xuyên qua lớp phòng ngự kiên cố của Karlov, xuất hiện ngay sát sườn lão. 
 
-"Cấm thuật tự bạo! Ngăn hắn lại!" Các trưởng lão hoảng loạn lùi lại.
+"Quá chậm, thưa Trưởng Lão." Caelen mỉm cười lạnh lùng. 
 
-Evelyn vừa định tuốt đại kiếm Băng Phách thì một bàn tay thon dài đã khẽ đặt lên vai nàng.
+Hai ngón tay của Caelen đâm thẳng vào đan điền của Karlov.
 
-"Để ta."
+**Băng Sương Khóa Ma Chỉ!**
 
-Caelen bước lên một bước. Đáy mắt hắn bùng nổ hai luồng lam quang rực rỡ, Ma Đồng Giải Cấu thấu suốt toàn bộ mạch vận chuyển ma lực đang sôi trào trong đan điền Karlov.
+"Á aaaa!" Karlov rú lên một tiếng đau đớn thấu tận tâm can. 
 
-Xoạt!
+Hàn khí kinh hoàng tiêm thẳng vào ma hạch của lão. Caelen không dùng sức mạnh bạo lực để phá hủy, mà hắn dùng một cấu trúc mana tinh vi hơn để khóa chết, đóng băng vĩnh viễn dòng chảy ma lực của Karlov. Tiếng rạn nứt vang lên rõ mồn một trong không gian tĩnh lặng. Ma hạch Trung Giai Đỉnh Phong của Karlov vỡ vụn thành từng mảnh nhỏ, không thể phục hồi.
 
-Thân ảnh Caelen nhanh tựa tia chớp xé rách không gian, xuất hiện ngay trước mặt Karlov chỉ trong một phần mười giây!
+Karlov đổ gục xuống sàn đá nham thạch, co giật liên hồi, đôi mắt trắng dã vì sốc và đau đớn. Một cao thủ ma pháp uy phong lẫm liệt, nay chính thức trở thành một phế nhân, tàn tạ hệt như những gì lão đã gieo rắc lên Caelen suốt năm năm qua.
 
-Ngón trỏ tay phải của Caelen ngưng tụ hàn băng cổ ngữ tinh thuần, chuẩn xác điểm thẳng vào ba đại huyệt vị trên ngực và trán của Karlov:
+Caelen rút tay về, thản nhiên lấy chiếc khăn lụa trắng từ túi áo ngực, cẩn thận lau sạch bụi bẩn trên ngón tay. 
 
-"Băng Sương Khóa Ma Chỉ!"
+Cả đại điện nín thở. Đám trưởng lão quản sự kinh hãi tột độ, mồ hôi lạnh chảy dài trên trán. Đây là Caelen phế vật nghiện rượu sao? Kẻ vừa phế bỏ Nhị Trưởng Lão chỉ bằng một đòn, phát ra uy áp không kém gì một sát thủ lão luyện... kẻ này rốt cuộc là quái vật phương nào?
 
-Rắc! Rắc! Rắc!
+Evelyn khoanh tay đứng nhìn, khóe môi khẽ nhếch lên một nụ cười hài lòng, xen lẫn một chút kiêu ngạo. *Đệ đệ của nàng, huyết mạch Ravenwood, cuối cùng đã thức tỉnh.*
 
-Ba đạo khí lưu Băng Long thượng cổ hung hãn đâm xuyên kinh mạch, đóng băng toàn bộ luồng ma lực hắc ám đang sôi trào, đồng thời nghiền nát ma hạch trong đan điền Karlov thành từng mảnh vụn!
+Caelen ném chiếc khăn tay dơ bẩn lên người Karlov đang co giật dưới đất, rồi quay người đối mặt với toàn bộ hội đồng trưởng lão. Hắn bước lên bục cao, chống hai tay lên bàn nghị sự, phóng tầm mắt sắc bén bao trùm cả đại điện.
 
-"A a a... ma hạch của ta... tu vi của ta...!"
+"Từ giờ phút này," giọng nói của Caelen vang vọng, trầm ấm nhưng mang tính sát thương tuyệt đối, "quyền quản lý tài chính hậu viện, toàn bộ hệ thống kho bãi, và quyền chỉ huy Phân khu Biên Ải phía Bắc của gia tộc... sẽ do ta trực tiếp tiếp quản."
 
-Karlov ngã quỵ xuống sàn đá, hai tay ôm lấy lồng ngực nôn ra một ngụm máu đen đặc, toàn bộ khí thế ma pháp tan biến sạch sẽ, biến thành một phế nhân già nua tàn tạ trong chớp mắt!
+Không một ai dám lên tiếng phản đối. Sự im lặng là bản cam kết khuất phục tốt nhất.
 
-Toàn thể đại điện im phăng phắc.
+Caelen đứng thẳng lưng. Trò chơi sinh tồn giai đoạn đầu đã kết thúc thắng lợi. Hắn đã dọn dẹp sạch sẽ những chiếc gai trong nội bộ gia tộc, nắm giữ quyền tự chủ kinh tế và quân sự. Giờ đây, hắn đã có đủ vốn liếng để tham gia vào ván bài lớn hơn. 
 
-Chỉ bằng một chiêu điểm chỉ... phế bỏ một vị trưởng lão Trung Giai Đỉnh Phong!
+Một tờ mật thư từ Tam Công Chúa Valerie đang nằm gọn trong túi ngực hắn. Một lời mời tham dự Hội Nghị Ma Pháp Tam Quốc tại Kinh Đô Solaria. Nơi những con cá mập thực sự đang đợi sẵn. 
 
-Đây là thủ đoạn của "tên phế vật rác rưởi" sao?! Ánh mắt của tất cả các trưởng lão nhìn Caelen lúc này đã hoàn toàn chuyển từ coi thường sang kính sợ và tôn sùng tột độ!
+Caelen mỉm cười. Một nụ cười tự tin và ngạo mạn.
 
-Evelyn bước tới, ánh mắt lạnh như băng nhìn Karlov đang quằn quại dưới đất, cất giọng đanh thép tuyên bố:
-
-"Nhị Trưởng Lão Karlov phạm tội phản nghịch gia tộc, cấu kết tà giáo mưu sát thiếu chủ. Phế bỏ toàn bộ chức vị trưởng lão, tịch thu toàn bộ gia sản phân nhánh, vĩnh viễn đày ải xuống Vực Thẳm Hoang Vu chịu khổ sai cho đến chết!"
-
-Nàng quay sang nhìn Caelen, trước mặt toàn thể gia tộc, Evelyn giơ cao thanh kiếm Băng Phách:
-
-"Từ hôm nay, toàn bộ quyền quản sự tài chính, quân lương hậu viện và quyền chỉ huy Phân khu Biên Ải phía Bắc... chính thức chuyển giao cho Đệ Tam Thiếu Chủ – Caelen Von Ravenwood!"
-
-"Chúng tôi tuân lệnh!" Toàn thể các trưởng lão và kỵ sĩ đồng loạt quỳ gối cúi đầu thần phục!
-
-...
-
-Rạng sáng hôm sau, bão tuyết dần tan biến, ánh bình minh vàng nhạt trải dài trên đỉnh các ngọn tháp băng của Pháo đài Băng Sương.
-
-Caelen đứng trên ban công đại điện, ngắm nhìn giang sơn tuyết trắng bao la ngút ngàn. Lilian bước tới từ phía sau, hai tay dâng lên một phong thư bằng lụa tím niêm phong bằng sáp vàng hình Mặt Trời Hoàng Gia.
-
-"Tam thiếu gia, chim ưng ma pháp từ Kinh Đô vừa chuyển tới một bức mật thư của Tam Công Chúa Valerie."
-
-Caelen mở phong thư ra. Bên trong là nét chữ thanh tú, kiêu kỳ nhưng chứa đầy sự tôn trọng và thách thức của Valerie:
-
-"Caelen, bản Huyết Chiếu từ hôn đã được Hoàng gia phê chuẩn. Nhưng một kẻ nguy hiểm như ngươi không thể mãi ẩn mình trong tuyết lạnh Bắc Cảnh. Ba tháng sau, tại Hoàng Thành Solaria sẽ diễn ra Hội Nghị Ma Pháp Tam Quốc và Lôi Đài Thần Vực. Ta chờ xem... con rồng băng phương Bắc có dám đến Kinh Đô đoạt lấy thiên hạ hay không."
-
-Caelen khẽ mỉm cười, ngón tay châm lên một ngọn lửa băng lam thiêu rụi bức thư thành tro bụi trong gió tuyết.
-
-Hắn nhìn về hướng Kinh Đô Solaria xa xôi, ánh mắt lam băng sắc lạnh tựa thần binh:
-
-"Kinh Đô Solaria sao? Rất nhanh thôi... ta sẽ đến."
+"Kinh đô Solaria... hãy chuẩn bị đón nhận cơn bão tuyết tài chính lớn nhất lịch sử của các ngươi đi."
