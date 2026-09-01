@@ -82,7 +82,6 @@ function renderInteractiveSegment(
     const matched = termMap.get(part.toLowerCase());
     if (matched) {
       if (matched.type === "character") {
-        const emoji = getRoleEmoji(matched.data.role);
         return (
           <button
             key={`${keyPrefix}-${partIdx}`}
@@ -93,13 +92,11 @@ function renderInteractiveSegment(
             className="inline font-semibold text-amber-200 underline decoration-dotted decoration-[#d4af37]/90 underline-offset-[4px] hover:decoration-solid hover:text-[#d4af37] hover:bg-[#d4af37]/20 px-0.5 rounded transition-all cursor-pointer select-none"
             title={`Tra cứu nhân vật: ${matched.data.name}`}
           >
-            <span className="mr-0.5 text-xs inline-block transform scale-90">{emoji}</span>
             {part}
           </button>
         );
       }
       if (matched.type === "lore") {
-        const emoji = (matched.data.category && CATEGORY_EMOJIS[matched.data.category]) || CATEGORY_EMOJIS.default;
         return (
           <button
             key={`${keyPrefix}-${partIdx}`}
@@ -110,7 +107,6 @@ function renderInteractiveSegment(
             className="inline font-semibold text-cyan-200 underline decoration-dotted decoration-cyan-400/90 underline-offset-[4px] hover:decoration-solid hover:text-cyan-300 hover:bg-cyan-500/20 px-0.5 rounded transition-all cursor-pointer select-none"
             title={`Tra cứu chú giải: ${matched.data.term}`}
           >
-            <span className="mr-0.5 text-xs inline-block transform scale-90">{emoji}</span>
             {part}
           </button>
         );
