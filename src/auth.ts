@@ -6,6 +6,8 @@ import prisma from "./lib/prisma";
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
   adapter: PrismaAdapter(prisma),
+  secret: process.env.AUTH_SECRET || process.env.NEXTAUTH_SECRET || "truyen-ai-super-secret-key-for-authjs-session-encryption-32chars",
+  trustHost: true,
   providers: [
     GitHub,
     Google({
