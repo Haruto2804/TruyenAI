@@ -43,14 +43,103 @@ function escapeRegExp(string: string) {
   return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-const CATEGORY_ICONS: Record<string, any> = {
-  "Độc Dược": ShieldAlert,
-  "Bí Thuật": Flame,
-  "Địa Danh": Compass,
-  "Bảo Vật": Gem,
-  "Thế Lực": Layers,
-  "Cảnh Giới": Sparkles,
-};
+function renderInteractiveSegment(
+  text: string,
+  termMap: Map<string, MatchedItem>,
+  regex: RegExp | null,
+  onSelectItem: (item: MatchedItem) => void,
+  keyPrefix: number | string = 0
+) {
+  if (!regex) return text;
+
+  const parts = text.split(regex);
+  if (parts.length <= 1) return text;
+
+  return parts.map((part, partIdx) => {
+    const matched = termMap.get(part.toLowerCase());
+    if (matched) {
+      if (matched.type === "character") {
+        return (
+          <button
+            key={`${keyPrefix}-${partIdx}`}
+            type="button"
+            onClick={() => onSelectItem(matched)}
+            className="inline font-semibold text-amber-200 underline decoration-dotted decoration-[#d4af37]/90 underline-offset-[4px] hover:decoration-solid hover:text-[#d4af37] hover:bg-[#d4af37]/20 px-0.5 rounded transition-all cursor-pointer select-none"
+            title={`Tra cứu nhân vật: ${matched.data.name}`}
+          >
+            {part}
+          </button>
+        );
+      }
+      if (matched.type === "lore") {
+        return (
+          <button
+            key={`${keyPrefix}-${partIdx}`}
+            type="button"
+            onClick={() => onSelectItem(matched)}
+            className="inline font-semibold text-cyan-200 underline decoration-dotted decoration-cyan-400/90 underline-offset-[4px] hover:decoration-solid hover:text-cyan-300 hover:bg-cyan-500/20 px-0.5 rounded transition-all cursor-pointer select-none"
+            title={`Tra cứu chú giải: ${matched.data.term}`}
+          >
+            {part}
+          </button>
+        );
+      }
+    }
+    return part;
+  });
+}
+
+function renderInteractiveParagraph(
+  rawText: string,
+  termMap: Map<string, MatchedItem>,
+  regex: RegExp | null,
+  onSelectItem: (item: MatchedItem) => void
+) {
+  if (!rawText) return null;
+
+  // Step 1: Unwrap asterisks and underscores enclosing character/lore terms
+  // Example: "**Vane**" -> "Vane", "*Hắc Tử La Lan*" -> "Hắc Tử La Lan"
+  let processed = rawText;
+  if (regex) {
+    processed = processed.replace(/\*\*\*([^*]+)\*\*\*/g, (match, inner) =>
+      termMap.has(inner.trim().toLowerCase()) ? inner : match
+    );
+    processed = processed.replace(/\*\*([^*]+)\*\*/g, (match, inner) =>
+      termMap.has(inner.trim().toLowerCase()) ? inner : match
+    );
+    processed = processed.replace(/\*([^*]+)\*/g, (match, inner) =>
+      termMap.has(inner.trim().toLowerCase()) ? inner : match
+    );
+  }
+
+  // Step 2: Split by markdown bold (**...**) and italic (*...*)
+  const mdRegex = /(\*\*[^*]+\*\*|\*[^*]+\*)/g;
+  const mdChunks = processed.split(mdRegex);
+
+  return mdChunks.map((chunk, chunkIdx) => {
+    if (!chunk) return null;
+
+    if (chunk.startsWith("**") && chunk.endsWith("**") && chunk.length > 4) {
+      const boldContent = chunk.slice(2, -2);
+      return (
+        <strong key={chunkIdx} className="font-extrabold text-amber-300">
+          {renderInteractiveSegment(boldContent, termMap, regex, onSelectItem, `b-${chunkIdx}`)}
+        </strong>
+      );
+    }
+
+    if (chunk.startsWith("*") && chunk.endsWith("*") && chunk.length > 2) {
+      const italicContent = chunk.slice(1, -1);
+      return (
+        <em key={chunkIdx} className="italic text-amber-200/90 font-medium">
+          {renderInteractiveSegment(italicContent, termMap, regex, onSelectItem, `i-${chunkIdx}`)}
+        </em>
+      );
+    }
+
+    return renderInteractiveSegment(chunk, termMap, regex, onSelectItem, `c-${chunkIdx}`);
+  });
+}
 
 export function InteractiveReader({
   content,
@@ -292,65 +381,14 @@ export function InteractiveReader({
           lineHeight: lineHeight,
         }}
       >
-        {paragraphs.map((paragraph, pIdx) => {
-          if (!regex) {
-            return (
-              <p
-                key={pIdx}
-                className={`mb-7 sm:mb-8 ${themeStyles.pColor} tracking-wide font-normal`}
-              >
-                {paragraph}
-              </p>
-            );
-          }
-
-          // Split paragraph by character names and lore terms
-          const parts = paragraph.split(regex);
-
-          return (
-            <p
-              key={pIdx}
-              className={`mb-7 sm:mb-8 ${themeStyles.pColor} tracking-wide font-normal`}
-            >
-              {parts.map((part, partIdx) => {
-                const matched = termMap.get(part.toLowerCase());
-
-                if (matched) {
-                  if (matched.type === "character") {
-                    return (
-                      <button
-                        key={partIdx}
-                        type="button"
-                        onClick={() => setSelectedItem(matched)}
-                        className="inline font-medium text-amber-200 underline decoration-dotted decoration-[#d4af37]/80 underline-offset-[4px] hover:decoration-solid hover:text-[#d4af37] hover:bg-[#d4af37]/20 px-0.5 rounded transition-all cursor-pointer select-none"
-                        title={`Tra cứu nhân vật: ${matched.data.name}`}
-                      >
-                        {part}
-                      </button>
-                    );
-                  }
-
-                  if (matched.type === "lore") {
-                    return (
-                      <button
-                        key={partIdx}
-                        type="button"
-                        onClick={() => setSelectedItem(matched)}
-                        className="inline font-medium text-cyan-200 underline decoration-dotted decoration-cyan-400/80 underline-offset-[4px] hover:decoration-solid hover:text-cyan-300 hover:bg-cyan-500/20 px-0.5 rounded transition-all cursor-pointer select-none"
-                        title={`Tra cứu chú giải: ${matched.data.term}`}
-                      >
-                        {part}
-                      </button>
-                    );
-                  }
-
-                }
-
-                return part;
-              })}
-            </p>
-          );
-        })}
+        {paragraphs.map((paragraph, pIdx) => (
+          <p
+            key={pIdx}
+            className={`mb-7 sm:mb-8 ${themeStyles.pColor} tracking-wide font-normal`}
+          >
+            {renderInteractiveParagraph(paragraph, termMap, regex, setSelectedItem)}
+          </p>
+        ))}
       </div>
 
       {/* Responsive Split-Screen: Desktop Side Dossier Panel (Bên Phải) / Mobile Bottom-Sheet */}
