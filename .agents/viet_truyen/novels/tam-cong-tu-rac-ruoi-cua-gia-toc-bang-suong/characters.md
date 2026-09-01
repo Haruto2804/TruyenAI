@@ -1,7 +1,7 @@
 # HỒ SƠ THIẾT KẾ NHÂN VẬT & PROMPT TẠO ẢNH 9:16
 **Tác phẩm:** TAM CÔNG TỬ RÁC RƯỞI CỦA GIA TỘC BĂNG SƯƠNG
 **Thư mục chứa ảnh:** `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/`
-**Quy tắc file:** Hệ thống tự động nhận diện **BẤT KỲ ĐUÔI ẢNH NÀO** (`.png`, `.jpg`, `.jpeg`, `.webp`, `.avif`). Bạn chỉ cần đặt tên file theo tên nhân vật (ví dụ: `caelen.png`, `lilian.webp`, `evelyn.jpg`) rồi chạy `npm run sync:novel` là website tự động cập nhật ngay lập tức!
+**Quy tắc file:** Hệ thống tự động nhận diện **BẤT KỲ ĐUÔI ẢNH NÀO** (`.png`, `.jpg`, `.jpeg`, `.webp`, `.avif`). Bạn chỉ cần đặt tên file theo tên nhân vật (ví dụ: `co-truong-khanh.png`, `tham-lac-cam.webp`) rồi chạy `npm run sync:novel` là website tự động cập nhật ngay lập tức!
 
 ---
 

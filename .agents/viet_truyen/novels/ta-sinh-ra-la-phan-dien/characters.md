@@ -1,7 +1,7 @@
 # HỒ SƠ THIẾT KẾ NHÂN VẬT & PROMPT TẠO ẢNH 9:16
 **Tác phẩm:** TA SINH RA LÀ PHẢN DIỆN
 **Thư mục chứa ảnh:** `public/characters/ta-sinh-ra-la-phan-dien/`
-**Quy tắc file:** Hệ thống tự động nhận diện **BẤT KỲ ĐUÔI ẢNH NÀO** (`.png`, `.jpg`, `.jpeg`, `.webp`, `.avif`). Bạn chỉ cần đặt tên file theo tên nhân vật (ví dụ: `caelen.png`, `lilian.webp`, `evelyn.jpg`) rồi chạy `npm run sync:novel` là website tự động cập nhật ngay lập tức!
+**Quy tắc file:** Hệ thống tự động nhận diện **BẤT KỲ ĐUÔI ẢNH NÀO** (`.png`, `.jpg`, `.jpeg`, `.webp`, `.avif`). Bạn chỉ cần đặt tên file theo tên nhân vật (ví dụ: `co-truong-khanh.png`, `tham-lac-cam.webp`) rồi chạy `npm run sync:novel` là website tự động cập nhật ngay lập tức!
 
 ---
 
@@ -40,16 +40,16 @@ masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1girl, 20 years old pee
 ---
 
 ## 3. Lâm Phàm
-- **Vai trò:** Khí Vận Chi Tử Màn 1 / Thiếu niên phế vật báo thù
-- **Biệt danh & Danh xưng:** Lâm thiếu gia, Đứa con của lửa, Kẻ báo thù
+- **Vai trò:** Khí Vận Chi Tử / Thiếu niên quật khởi từ bụi rậm
+- **Biệt danh & Danh xưng:** Lâm Phàm, Khí Vận Chi Tử, Kẻ Được Chọn
 - **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/ta-sinh-ra-la-phan-dien/lam-pham.jpg`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Thiếu niên thiếu kiên nhẫn mang xuất thân bần hàn, trang phục vải thô xám đen rách rưới có miếng lót da thú, trên ngón tay đeo chiếc nhẫn sắt đen cổ xưa tỏa hắc hỏa lượn lờ. Ánh mắt cuồng nhiệt, hằn học luôn khao khát chứng minh bản thân và nghịch thiên cải mệnh.
+Thiếu niên kiên nghị, áo vải thô màu đen, ánh mắt bướng bỉnh bất khuất mang theo chấp niệm sâu sắc. Trên ngón tay trỏ đeo một chiếc nhẫn sắt cổ rỉ sét chứa tàn hồn của Lạc Lão.
 
 ### 🎨 AI Image Generation Prompt (Midjourney v6 / FLUX.1 / SDXL 9:16):
 ```text
-masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1boy, 18 years old fierce underdog protagonist, messy dark brown hair, glowing fiery crimson eyes filled with rage and defiance, rugged handsome face with light battle scratch, wearing simple charcoal grey martial arts tunic with leather straps, right hand clenched wearing an ancient rusty black ring swirling with dark demonic purple flames, ruined temple training ground background, intense dramatic lighting --ar 9:16 --v 6.0
+masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1boy, 17 years old determined protagonist youth, spiky messy black hair, fierce glowing golden eyes full of defiance, wearing ragged black and dark red linen warrior clothes with cloth bandages on forearms, worn rusty iron ring on right pointer finger, clenching fist with blazing red flame aura, rocky wasteland duel arena background, gritty anime fantasy --ar 9:16 --v 6.0
 ```
 
 > **💡 Hướng dẫn lưu file:** Sau khi sinh ảnh xong, lưu file vào: `public/characters/ta-sinh-ra-la-phan-dien/lam-pham.png` (hoặc `.jpg`, `.webp`).
@@ -57,16 +57,16 @@ masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1boy, 18 years old fier
 ---
 
 ## 4. Dạ U
-- **Vai trò:** Hộ đạo giả bóng tối / Cửu Vĩ U Hồ Thượng Cổ
-- **Biệt danh & Danh xưng:** U Cơ, Hắc Hồ Thần Tướng, Nữ Vương Hắc Ám
+- **Vai trò:** Thủ lĩnh Vô Cực Hắc Ám Ám Vệ / Ảnh Vệ trung thành
+- **Biệt danh & Danh xưng:** Dạ U, Ám Vệ Đội Trưởng, Bóng Ma Thần Tộc
 - **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/ta-sinh-ra-la-phan-dien/da-u.jpg`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Nữ nhân yêu tộc ma mị quyến rũ, khoác lên mình lụa đen huyền bí tẩm hắc khí, đôi mắt tím yêu dị và mái tóc đen dài rủ bóng. Phía sau ẩn hiện chín đuôi hồ ly mờ ảo, khí tức Phong Hầu Cảnh áp chế vạn vật.
+Ảnh vệ tuyệt đối trung thành giấu mặt sau chiếc mặt nạ bạc điêu khắc hoa văn rồng đen, mặc hắc y bó sát thêu phù văn ẩn thân. Luôn ẩn mình trong bóng tối sau lưng Ninh Huyền Dạ.
 
 ### 🎨 AI Image Generation Prompt (Midjourney v6 / FLUX.1 / SDXL 9:16):
 ```text
-masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1girl, 23 years old sultry shadow nine-tailed fox empress, voluptuous figure, long midnight black hair, seductive glowing amethyst purple eyes, wearing a daring dark violet and black translucent silk gown with gold ornaments, nine ethereal spectral fox tails fanning out behind her, shadowy dimension void background with floating purple flames, mysterious alluring atmosphere --ar 9:16 --v 6.0
+masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1man, shadowy assassin shadow guard, silver dragon half-mask covering upper face, glowing cold dark eyes, sleek black stealth shinobi attire with dark silver plates, holding a curved jet-black shadow blade, merging into the dark misty shadows behind a palace pillar --ar 9:16 --v 6.0
 ```
 
 > **💡 Hướng dẫn lưu file:** Sau khi sinh ảnh xong, lưu file vào: `public/characters/ta-sinh-ra-la-phan-dien/da-u.png` (hoặc `.jpg`, `.webp`).
@@ -74,8 +74,8 @@ masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1girl, 23 years old sul
 ---
 
 ## 5. Lạc Lão
-- **Vai trò:** Tàn hồn Lão tổ trong nhẫn / Kim Thủ Chỉ của Lâm Phàm
-- **Biệt danh & Danh xưng:** Lạc Thiên Thu, Lạc tiền bối, Hóa Thần Dược Tôn, Hồn Cổ Viễn Cổ
+- **Vai trò:** Tàn hồn Luyện Đan Tông Sư Viễn Cổ / Lão tổ trong nhẫn
+- **Biệt danh & Danh xưng:** Lạc Thiên Thu, Lão tổ Lạc Lão, Lão quỷ trong nhẫn
 - **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/ta-sinh-ra-la-phan-dien/lac-lao.jpg`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):

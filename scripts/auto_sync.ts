@@ -19,8 +19,8 @@ function findCharacterAvatar(novelSlug: string, charName: string, aliases: strin
   const nameClean = charName.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d");
   const fullSlug = nameClean.replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
-  // Distinct core name tokens (e.g. "caelen", "evelyn", "lilian", "karlov", "vane", "boris", "valerie")
-  const stopWords = ["nhi", "truong", "lao", "hac", "su", "gia", "von", "de", "valois", "ravenwood"];
+  // Distinct core name tokens
+  const stopWords = ["nhi", "truong", "lao", "hac", "su", "gia", "von", "de", "valois", "ravenwood", "thieu", "chu", "tong", "quan"];
   const coreTokens = nameClean.split(/[^a-z0-9]+/).filter(w => !stopWords.includes(w) && w.length >= 3);
 
   // 1. Try exact full slug first
@@ -33,7 +33,7 @@ function findCharacterAvatar(novelSlug: string, charName: string, aliases: strin
     }
   }
 
-  // 2. Try distinct core tokens (e.g. file is "evelyn.png" or "caelen.webp" or "karlov.jpg")
+  // 2. Try distinct core tokens
   for (const file of files) {
     const ext = path.extname(file).toLowerCase();
     if (!imageExtensions.includes(ext)) continue;
@@ -56,12 +56,14 @@ function generateCharactersMarkdown(novelSlug: string, novelTitle: string, chara
   let md = `# HỒ SƠ THIẾT KẾ NHÂN VẬT & PROMPT TẠO ẢNH 9:16\n`;
   md += `**Tác phẩm:** ${novelTitle}\n`;
   md += `**Thư mục chứa ảnh:** \`public/characters/${novelSlug}/\`\n`;
-  md += `**Quy tắc file:** Hệ thống tự động nhận diện **BẤT KỲ ĐUÔI ẢNH NÀO** (\`.png\`, \`.jpg\`, \`.jpeg\`, \`.webp\`, \`.avif\`). Bạn chỉ cần đặt tên file theo tên nhân vật (ví dụ: \`caelen.png\`, \`lilian.webp\`, \`evelyn.jpg\`) rồi chạy \`npm run sync:novel\` là website tự động cập nhật ngay lập tức!\n\n`;
+  md += `**Quy tắc file:** Hệ thống tự động nhận diện **BẤT KỲ ĐUÔI ẢNH NÀO** (\`.png\`, \`.jpg\`, \`.jpeg\`, \`.webp\`, \`.avif\`). Bạn chỉ cần đặt tên file theo tên nhân vật (ví dụ: \`co-truong-khanh.png\`, \`tham-lac-cam.webp\`) rồi chạy \`npm run sync:novel\` là website tự động cập nhật ngay lập tức!\n\n`;
   md += `---\n\n`;
 
   characters.forEach((char, idx) => {
     const slugName = char.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d").replace(/[^a-z0-9]+/g, "-");
-    const avatarStatus = char.avatarUrl ? `✅ Đã có ảnh (\`${char.avatarUrl}\`)` : `⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào \`public/characters/${novelSlug}/${slugName}.png\`)`;
+    const avatarStatus = char.avatarUrl && fs.existsSync(path.join(process.cwd(), "public", char.avatarUrl))
+      ? `✅ Đã có ảnh (\`${char.avatarUrl}\`)`
+      : `⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào \`public/characters/${novelSlug}/${slugName}.png\`)`;
 
     md += `## ${idx + 1}. ${char.name}\n`;
     md += `- **Vai trò:** ${char.role || "Chưa xác định"}\n`;
@@ -84,12 +86,48 @@ function generateCharactersMarkdown(novelSlug: string, novelTitle: string, chara
 }
 
 function generateDefaultPrompt(name: string, role: string | null, description: string | null): string {
-  const isFemale = (role && (role.includes("tiểu thư") || role.includes("Công Chúa") || role.includes("Hầu nữ") || role.includes("Nữ"))) ||
+  const isFemale = (role && (role.includes("tiểu thư") || role.includes("Công Chúa") || role.includes("Hầu nữ") || role.includes("Nữ") || role.includes("Hồ Ly"))) ||
                    (description && (description.includes("nàng") || description.includes("Nữ") || description.includes("xinh đẹp")));
   
-  const genderTerm = isFemale ? "1girl, beautiful young noblewoman" : "1boy, handsome young nobleman";
+  const genderTerm = isFemale ? "1girl, breathtaking beautiful young noblewoman" : "1boy, handsome young nobleman";
   
-  return `masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, cinematic dramatic lighting, 9:16 portrait vertical composition, ${genderTerm}, noble aristocrat, detailed facial features, expressive eyes, intricate royal fantasy clothing, soft volumetric lighting, frost magic particles floating, blurred fantasy castle interior background, Unreal Engine 5 render, highly detailed anime illustration --ar 9:16 --v 6.0 --style raw`;
+  return `masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, cinematic dramatic lighting, 9:16 portrait vertical composition, ${genderTerm}, noble aristocrat, detailed facial features, expressive eyes, intricate fantasy clothing, soft volumetric lighting, floating magical particles, high contrast, 8k resolution, Unreal Engine 5 render, highly detailed anime illustration --ar 9:16 --v 6.0`;
+}
+
+// Dynamic parser for Lores markdown table in master_codex.md
+function parseDynamicLores(codexContent: string): any[] {
+  const lores: any[] = [];
+  const lines = codexContent.split("\n");
+  let inLoreTable = false;
+
+  for (const line of lines) {
+    if (line.includes("DANH MỤC CHÚ GIẢI THUẬT NGỮ") || line.includes("DANH MỤC THUẬT NGỮ")) {
+      inLoreTable = true;
+      continue;
+    }
+    if (inLoreTable && line.startsWith("## ")) {
+      inLoreTable = false;
+      break;
+    }
+    if (inLoreTable && line.startsWith("|") && !line.includes("---") && !line.includes("Danh Mục")) {
+      const parts = line.split("|").map(p => p.trim()).filter(Boolean);
+      if (parts.length >= 3) {
+        const category = parts[0].replace(/[`🔮🧪💎🏰🛡️⚡📜🌿✨🗡️]/g, "").trim();
+        const term = parts[1].replace(/\*\*/g, "").trim();
+        const definition = parts[2].trim();
+        if (term && definition) {
+          lores.push({
+            term,
+            category: category || "Khái Niệm",
+            aliases: term,
+            definition
+          });
+        }
+      }
+    }
+  }
+
+  return lores;
 }
 
 async function syncNovel(novelSlug: string) {
@@ -111,17 +149,30 @@ async function syncNovel(novelSlug: string) {
 
   const codexContent = fs.readFileSync(codexPath, "utf-8");
 
-  // 1. Parse Story Info
-  const titleMatch = codexContent.match(/# MASTER CODEX: (.*)/);
-  const title = titleMatch ? titleMatch[1].trim() : novelSlug;
-  const genreMatch = codexContent.match(/\*\*Thể loại:\*\* (.*)/);
-  const genre = genreMatch ? genreMatch[1].trim() : (novelSlug === "ta-sinh-ra-la-phan-dien" ? "Tiên Hiệp Game RPG, Hệ Thống Phản Diện" : "Fantasy Tây Phương");
+  // 1. Parse Story Info Dynamically
+  const titleMatch = codexContent.match(/>\s*\*\*Tên tiểu thuyết:\*\*\s*(.*)/i) ||
+                     codexContent.match(/#\s*(?:HỒ SƠ TỔNG QUAN.*?:\s*|MASTER CODEX:\s*)(.*)/i) ||
+                     codexContent.match(/^#\s*(.*)/m);
+  let title = titleMatch ? titleMatch[1].trim() : novelSlug;
+  if (title.includes("(") && title.includes(")")) {
+    title = title.replace(/\s*\([^)]*\)/g, "").trim();
+  }
 
-  let summary = "";
-  if (novelSlug === "ta-sinh-ra-la-phan-dien") {
-    summary = `Bối cảnh diễn ra trong thế giới của tựa game RPG độ khó ác mộng mang tên 《Cửu Giới Tru Tiên Lục》.\n\nNinh Huyền Dạ – đích tử của Cổ Tộc Vô Cực tại Thượng Giới, đồng thời là Chân Truyền của Thái Sơ Tiên Tông, thức tỉnh trong thân xác Boss Phản Diện Màn Đầu mang số mệnh làm đá lót đường cho Khí Vận Chi Tử.\n\nKích hoạt Hệ Thống Nghịch Thiên Cải Mệnh Phản Diện, nhìn thấu điểm Khí Vận và kịch bản cuộc đời của mọi NPC. Đối diện với Khí Vận Chi Tử mang theo tàn hồn lão tổ tới cửa chất vấn, Ninh Huyền Dạ bắt đầu giăng bẫy tước đoạt cơ duyên, biến toàn bộ thiên kiêu thành quân cờ trên bàn cờ của mình...`;
-  } else {
-    summary = `Đại Lục Erebia – một thế giới ma pháp cổ điển đang bước vào thời kỳ suy tàn của các đại gia tộc huyết thống trước sự trỗi dậy của Thần Điện Quang Minh.\n\nCaelen Von Ravenwood – Đệ tam công tử của gia tộc Công tước Băng Sương khét tiếng phương Bắc, kẻ bị cả kinh đô khinh miệt là "Đống rác của Bắc Cảnh", một kẻ nghiện rượu, đồi bại và bất tài. Không ai biết rằng, hắn thực chất đã bị đầu độc bằng kịch độc "Hắc Tử La Lan" làm nghẽn kinh mạch suốt năm năm qua.\n\nKhi một linh hồn chiến thuật gia kiêm sát thủ thời hiện đại nhập xác, Ma Đồng Giải Cấu thức tỉnh, nhìn thấu mọi mạch chảy mana và điểm yếu ma pháp. Đối diện với vị hôn thê Công chúa kiêu ngạo mang Huyết Chiếu đến phế hôn và âm mưu đày hắn làm vật tế thần nơi Vực Thẳm Hoang Vu, "tên phế vật" bắt đầu mỉm cười...`;
+  const genreMatch = codexContent.match(/>\s*\*\*Thể loại:\*\*\s*(.*)/i) ||
+                     codexContent.match(/\*\*Thể loại:\*\*\s*(.*)/i);
+  const genre = genreMatch ? genreMatch[1].trim() : (novelSlug === "ta-sinh-ra-la-phan-dien" ? "Tiên Hiệp Game RPG, Hệ Thống Phản Diện" : "Huyền Huyễn, Tiên Hiệp");
+
+  const summaryMatch = codexContent.match(/>\s*\*\*Mô tả ngắn:\*\*\s*(.*)/i) ||
+                       codexContent.match(/\*\*Mô tả:\*\*\s*(.*)/i);
+  let summary = summaryMatch ? summaryMatch[1].trim() : "";
+  if (!summary) {
+    if (novelSlug === "ta-sinh-ra-la-phan-dien") {
+      summary = `Bối cảnh diễn ra trong thế giới của tựa game RPG độ khó ác mộng mang tên 《Cửu Giới Tru Tiên Lục》.\n\nNinh Huyền Dạ – đích tử của Cổ Tộc Vô Cực tại Thượng Giới, đồng thời là Chân Truyền của Thái Sơ Tiên Tông, thức tỉnh trong thân xác Boss Phản Diện Màn Đầu mang số mệnh làm đá lót đường cho Khí Vận Chi Tử.\n\nKích hoạt Hệ Thống Nghịch Thiên Cải Mệnh Phản Diện, nhìn thấu điểm Khí Vận và kịch bản cuộc đời của mọi NPC. Đối diện với Khí Vận Chi Tử mang theo tàn hồn lão tổ tới cửa chất vấn, Ninh Huyền Dạ bắt đầu giăng bẫy tước đoạt cơ duyên, biến toàn bộ thiên kiêu thành quân cờ trên bàn cờ của mình...`;
+    } else if (novelSlug === "tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong") {
+      summary = `Đại Lục Erebia – một thế giới ma pháp cổ điển đang bước vào thời kỳ suy tàn của các đại gia tộc huyết thống trước sự trỗi dậy của Thần Điện Quang Minh.\n\nCaelen Von Ravenwood – Đệ tam công tử của gia tộc Công tước Băng Sương khét tiếng phương Bắc, kẻ bị cả kinh đô khinh miệt là "Đống rác của Bắc Cảnh", một kẻ nghiện rượu, đồi bại và bất tài. Không ai biết rằng, hắn thực chất đã bị đầu độc bằng kịch độc "Hắc Tử La Lan" làm nghẽn kinh mạch suốt năm năm qua.\n\nKhi một linh hồn chiến thuật gia kiêm sát thủ thời hiện đại nhập xác, Ma Đồng Giải Cấu thức tỉnh, nhìn thấu mọi mạch chảy mana và điểm yếu ma pháp. Đối diện với vị hôn thê Công chúa kiêu ngạo mang Huyết Chiếu đến phế hôn và âm mưu đày hắn làm vật tế thần nơi Vực Thẳm Hoang Vu, "tên phế vật" bắt đầu mỉm cười...`;
+    } else {
+      summary = `Bị đối thủ hãm hại phá sản, mang trên lưng món nợ khổng lồ 10 vạn Linh Thạch và đan điền bị phong ấn. Cố Trường Khanh thức tỉnh "Thiên Cơ Định Giá Nhãn" nhìn thấu giá trị thực và xu hướng thị trường của vạn vật.\n\nKết hợp cùng Thẩm Lạc Cẩm — tuyệt sắc đệ nhất tài nữ lưu vong mang độc Cửu U nhưng nắm giữ mạng lưới thương lộ 10 vạn dặm, cả hai bắt đầu từ một quán cầm đồ rách nát, từng bước nuốt chửng các đại thương hội, phát hành tiền tệ tín dụng và xây dựng đế chế tài phiệt thống trị Vạn Giới!`;
+    }
   }
 
   const story = await prisma.story.upsert({
@@ -131,8 +182,38 @@ async function syncNovel(novelSlug: string) {
   });
   console.log(`Story ID: ${story.id} (${story.title})`);
 
-  // 2. Defined Character Prompts & Dossiers (Pre-configured for maximum visual fidelity)
+  // 2. Defined Character Prompts & Dossiers
   const NOVEL_CHARACTERS: Record<string, any[]> = {
+    "van-co-de-nhat-thuong-minh": [
+      {
+        name: "Cố Trường Khanh",
+        role: "Nhân vật chính / Thiếu chủ Cố Gia / Chủ nhân Thiên Cơ Lâu",
+        aliases: "Cố thiếu gia, Chủ nhân Thiên Cơ Lâu, Cố công tử, Trường Khanh",
+        description: `20 tuổi, vóc người cao gầy đĩnh đạc, gương mặt góc cạnh tuấn tú lạnh lùng. Mái tóc đen tuyền buộc lỏng phía sau, đôi mắt đen nhánh như đá hắc diệu thạch, ẩn sâu bên trong đồng tử là những ký tự số hoàng kim lấp lánh khi kích hoạt Thiên Cơ Nhãn. Thường mặc trường bào xám tro sờn cũ nhưng phẳng phiu sạch sẽ. Điềm tĩnh tuyệt đối, ẩn nhẫn, quyết đoán khi ra tay.`,
+        visualPrompt: `masterpiece, best quality, manhwa art style, 1boy, Gu Changqing, 20 years old, handsome sharp face, deep obsidian black eyes with glowing golden runic numerals inside iris, long jet-black hair tied in low ponytail, elegant charcoal-grey silk robe with subtle faded golden embroidery, holding a glowing ancient brass coin between slender fingers, calm enigmatic smirk, confident calculating aura, atmospheric snow particles, dark tavern background, high contrast, cinematic lighting, 8k resolution, vertical 9:16 portrait`
+      },
+      {
+        name: "Thẩm Lạc Cẩm",
+        role: "Nữ chính / Bạch Ngọc Hồ Ly / Nguyên Đích Nữ Tài Phiệt Trung Châu",
+        aliases: "Bạch Ngọc Hồ Ly, Lạc Cẩm cô nương, Thẩm tiểu thư, Lạc Cẩm",
+        description: `19 tuổi, dung mạo khuynh quốc khuynh thành mang vẻ đẹp ma mị và thông tuệ. Làn da trắng như tuyết, đôi mắt hồ ly màu xanh ngọc bích viền kim tuyến liếc nhìn thấu tâm can. Bờ môi đỏ mọng phảng phất hàn khí tím nhạt do trúng Cửu U Băng Phách Độc. Mặc y phục gấm đỏ thẫm thêu hạc bạc, tay cầm bàn tính bằng bạch ngọc tinh xảo. Kiêu sa, quyến rũ và mưu trí sâu như biển.`,
+        visualPrompt: `masterpiece, best quality, manhwa art style, 1girl, Shen Luojin, 19 years old, breathtaking fox-like beauty, pale porcelain skin, captivating emerald-green eyes with subtle gold flecks, delicate crimson hanfu dress with embroidered silver cranes and fur trim, holding an ornate glowing white jade abacus, icy violet mist swirling around her fingertips, dangerously intelligent seductive smile, falling snowflakes, luxury fantasy interior, highly detailed, dramatic lighting, 8k resolution, vertical 9:16 portrait`
+      },
+      {
+        name: "Vương Đằng",
+        role: "Nhị thiếu gia Vạn Kim Thương Hội / Phản diện giai đoạn 1",
+        aliases: "Vương nhị thiếu, Vương thiếu gia, Vương Đằng",
+        description: `22 tuổi, dáng người hơi đẫy đà, mặc áo gấm dát vàng phô trương, trên mười ngón tay đeo đầy nhẫn ngọc linh thạch phát sáng. Gương mặt mang nét ngạo mạn, mắt hẹp dài đầy vẻ khinh khỉnh và thâm độc.`,
+        visualPrompt: `masterpiece, manhwa art style, 1boy, Wang Deng, 22 years old, arrogant wealthy merchant young master, wearing opulent gold-trimmed green silk robes with jade pendants, fingers adorned with glowing magic gemstone rings, haughty sneering expression, holding a golden folding fan, lavish black market auction background, volumetric lighting, 8k resolution, vertical 9:16 portrait`
+      },
+      {
+        name: "Vương Chấn Thiên",
+        role: "Phân Hội Trưởng Vạn Kim Thương Hội tại Hắc Nham Thành / Cự đầu Kim Đan Kỳ",
+        aliases: "Vương hội trưởng, Lão tặc họ Vương, Vương Chấn Thiên",
+        description: `Lão giả mặc hoàng kim mãng bào, râu tóc dựng ngược, trên người tỏa ra uy áp Kim Đan Kỳ sơ kỳ cuồn cuộn như biển lửa. Tàn nhẫn, độc đoán, sẵn sàng tàn sát đối thủ để độc chiếm thương lộ.`,
+        visualPrompt: `masterpiece, manhwa art style, 1man, 58 years old ruthless tycoon grandmaster, golden dragon-embroidered robes, flaming golden aura, fierce glowing eyes, towering powerful presence, mountain palace background, dramatic cinematic lighting, 8k resolution, vertical 9:16 portrait`
+      }
+    ],
     "tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong": [
       {
         name: "Caelen Von Ravenwood",
@@ -201,22 +282,22 @@ async function syncNovel(novelSlug: string) {
       },
       {
         name: "Lâm Phàm",
-        role: "Khí Vận Chi Tử Màn 1 / Thiếu niên phế vật báo thù",
-        aliases: "Lâm thiếu gia, Đứa con của lửa, Kẻ báo thù",
-        description: `Thiếu niên thiếu kiên nhẫn mang xuất thân bần hàn, trang phục vải thô xám đen rách rưới có miếng lót da thú, trên ngón tay đeo chiếc nhẫn sắt đen cổ xưa tỏa hắc hỏa lượn lờ. Ánh mắt cuồng nhiệt, hằn học luôn khao khát chứng minh bản thân và nghịch thiên cải mệnh.`,
-        visualPrompt: `masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1boy, 18 years old fierce underdog protagonist, messy dark brown hair, glowing fiery crimson eyes filled with rage and defiance, rugged handsome face with light battle scratch, wearing simple charcoal grey martial arts tunic with leather straps, right hand clenched wearing an ancient rusty black ring swirling with dark demonic purple flames, ruined temple training ground background, intense dramatic lighting --ar 9:16 --v 6.0`
+        role: "Khí Vận Chi Tử / Thiếu niên quật khởi từ bụi rậm",
+        aliases: "Lâm Phàm, Khí Vận Chi Tử, Kẻ Được Chọn",
+        description: `Thiếu niên kiên nghị, áo vải thô màu đen, ánh mắt bướng bỉnh bất khuất mang theo chấp niệm sâu sắc. Trên ngón tay trỏ đeo một chiếc nhẫn sắt cổ rỉ sét chứa tàn hồn của Lạc Lão.`,
+        visualPrompt: `masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1boy, 17 years old determined protagonist youth, spiky messy black hair, fierce glowing golden eyes full of defiance, wearing ragged black and dark red linen warrior clothes with cloth bandages on forearms, worn rusty iron ring on right pointer finger, clenching fist with blazing red flame aura, rocky wasteland duel arena background, gritty anime fantasy --ar 9:16 --v 6.0`
       },
       {
         name: "Dạ U",
-        role: "Hộ đạo giả bóng tối / Cửu Vĩ U Hồ Thượng Cổ",
-        aliases: "U Cơ, Hắc Hồ Thần Tướng, Nữ Vương Hắc Ám",
-        description: `Nữ nhân yêu tộc ma mị quyến rũ, khoác lên mình lụa đen huyền bí tẩm hắc khí, đôi mắt tím yêu dị và mái tóc đen dài rủ bóng. Phía sau ẩn hiện chín đuôi hồ ly mờ ảo, khí tức Phong Hầu Cảnh áp chế vạn vật.`,
-        visualPrompt: `masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1girl, 23 years old sultry shadow nine-tailed fox empress, voluptuous figure, long midnight black hair, seductive glowing amethyst purple eyes, wearing a daring dark violet and black translucent silk gown with gold ornaments, nine ethereal spectral fox tails fanning out behind her, shadowy dimension void background with floating purple flames, mysterious alluring atmosphere --ar 9:16 --v 6.0`
+        role: "Thủ lĩnh Vô Cực Hắc Ám Ám Vệ / Ảnh Vệ trung thành",
+        aliases: "Dạ U, Ám Vệ Đội Trưởng, Bóng Ma Thần Tộc",
+        description: `Ảnh vệ tuyệt đối trung thành giấu mặt sau chiếc mặt nạ bạc điêu khắc hoa văn rồng đen, mặc hắc y bó sát thêu phù văn ẩn thân. Luôn ẩn mình trong bóng tối sau lưng Ninh Huyền Dạ.`,
+        visualPrompt: `masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1man, shadowy assassin shadow guard, silver dragon half-mask covering upper face, glowing cold dark eyes, sleek black stealth shinobi attire with dark silver plates, holding a curved jet-black shadow blade, merging into the dark misty shadows behind a palace pillar --ar 9:16 --v 6.0`
       },
       {
         name: "Lạc Lão",
-        role: "Tàn hồn Lão tổ trong nhẫn / Kim Thủ Chỉ của Lâm Phàm",
-        aliases: "Lạc Thiên Thu, Lạc tiền bối, Hóa Thần Dược Tôn, Hồn Cổ Viễn Cổ",
+        role: "Tàn hồn Luyện Đan Tông Sư Viễn Cổ / Lão tổ trong nhẫn",
+        aliases: "Lạc Thiên Thu, Lão tổ Lạc Lão, Lão quỷ trong nhẫn",
         description: `Linh hồn thể trong suốt mờ ảo của danh sư luyện đan thời Thượng Cổ, râu tóc bạc phơ, ánh mắt tràn ngập vẻ thông thái nhưng thận trọng thực dụng. Từng là danh sư vạn người kính ngưỡng bị kẻ thù ám toán phải ký thác vào Hắc Diễm Cổ Giới.`,
         visualPrompt: `masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1old man, translucent spiritual ethereal apparition of an ancient grandmaster sage, long flowing white beard and hair, glowing celestial cyan eyes filled with ancient wisdom and caution, translucent glowing robes fading into mist, floating in the air above an ancient ring, alchemy furnace spiritual aura background --ar 9:16 --v 6.0`
       }
@@ -228,9 +309,10 @@ async function syncNovel(novelSlug: string) {
   // Auto-detect avatar image with ANY extension (.png, .jpg, .webp, .jpeg, .avif)
   const charactersToSync = defaultCharacters.map(char => {
     const detectedAvatar = findCharacterAvatar(novelSlug, char.name, char.aliases);
+    const slugName = char.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d").replace(/[^a-z0-9]+/g, "-");
     return {
       ...char,
-      avatarUrl: detectedAvatar || `/characters/${novelSlug}/${char.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d").replace(/[^a-z0-9]+/g, "-")}.jpg`
+      avatarUrl: detectedAvatar || `/characters/${novelSlug}/${slugName}.jpg`
     };
   });
 
@@ -253,8 +335,58 @@ async function syncNovel(novelSlug: string) {
   // Generate / Update characters.md dossier for the user
   generateCharactersMarkdown(novelSlug, story.title, charactersToSync);
 
-  // 3. Sync Lores from master_codex.md
+  // 3. Sync Lores from master_codex.md (both dynamic table and predefined)
   const NOVEL_LORES: Record<string, any[]> = {
+    "van-co-de-nhat-thuong-minh": [
+      {
+        term: "Thiên Cơ Định Giá Nhãn",
+        category: "Bí Thuật",
+        aliases: "Định Giá Nhãn, Thiên Cơ Thần Nhãn",
+        definition: "Thần nhãn cổ đại cho phép người sở hữu nhìn thấu bản chất, giá trị thực, khiếm khuyết và xu hướng biến động giá của mọi vật phẩm trong trời đất."
+      },
+      {
+        term: "Cửu U Băng Phách Độc",
+        category: "Độc Dược",
+        aliases: "Cửu U Hàn Độc, Băng Phách Độc",
+        definition: "Loại hàn độc âm tà bậc nhất Trung Châu, thấm sâu vào tủy xương làm đông cứng linh lực, mỗi đêm trăng tròn đau đớn như bị ngàn lưỡi băng nghiền nát."
+      },
+      {
+        term: "Tàn Kiếm Xích Tiêu",
+        category: "Bảo Vật",
+        aliases: "Xích Tiêu Kiếm, Xích Tiêu Long Kiếm",
+        definition: "Thanh kiếm cổ gỉ sét mang hình dạng phế phẩm nhưng bên trong phong ấn một sợi Long Hồn Thượng Cổ chí dương của Hỏa Long Tông thất truyền ba ngàn năm trước."
+      },
+      {
+        term: "Bàn Tính Bạch Ngọc Cửu Cung",
+        category: "Bảo Vật",
+        aliases: "Bạch Ngọc Bàn Tính, Bàn tính Thẩm gia",
+        definition: "Bảo vật gia truyền của Thẩm gia, có khả năng diễn toán biến động ngân lượng và dò tìm huyết mạch kinh tế của tông môn."
+      },
+      {
+        term: "Vạn Kim Thương Hội",
+        category: "Thế Lực",
+        aliases: "Vạn Kim Hội, Vạn Kim",
+        definition: "Tập đoàn tài phiệt khổng lồ phủ sóng khắp Đông Hoang, nổi tiếng với phong cách kinh doanh tàn nhẫn, thôn tính đối thủ bằng cho vay nặng lãi và ám sát."
+      },
+      {
+        term: "Hắc Nham Hắc Thị",
+        category: "Địa Danh",
+        aliases: "Hắc Thị, Chợ đen ngầm",
+        definition: "Khu chợ đen ngầm nằm sâu dưới lòng Hắc Nham Thành, nơi diễn ra các giao dịch phi pháp, đồ trộm cướp và tàn tích thượng cổ không rõ nguồn gốc."
+      },
+      {
+        term: "Cửu Dương Huyết Linh Chi",
+        category: "Dược Liệu",
+        aliases: "Huyết Linh Chi, Cửu Dương Linh Chi",
+        definition: "Linh chi sinh trưởng tại miệng núi lửa ngàn năm, mang hỏa tính cực hạn, là dược liệu chủ chốt áp chế Cửu U Hàn Độc và khai thông kinh mạch."
+      },
+      {
+        term: "Thiên Cơ Linh Phiếu",
+        category: "Khái Niệm",
+        aliases: "Linh Phiếu, Tín Phiếu Thiên Cơ",
+        definition: "Tín phiếu nợ do Cố gia phát hành, mở đầu cho kỷ nguyên tiền tệ bảo chứng linh thạch đầu tiên tại Đông Hoang."
+      }
+    ],
     "tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong": [
       {
         term: "Hắc Tử La Lan",
@@ -363,14 +495,29 @@ async function syncNovel(novelSlug: string) {
     ]
   };
 
-  const defaultLores = NOVEL_LORES[novelSlug] || [];
+  const dynamicLores = parseDynamicLores(codexContent);
+  const presetLores = NOVEL_LORES[novelSlug] || [];
+  
+  // Merge and deduplicate by term
+  const loresMap = new Map<string, any>();
+  presetLores.forEach(l => loresMap.set(l.term.toLowerCase(), l));
+  dynamicLores.forEach(l => {
+    if (!loresMap.has(l.term.toLowerCase())) {
+      loresMap.set(l.term.toLowerCase(), l);
+    }
+  });
+
+  const finalLores = Array.from(loresMap.values());
 
   await prisma.lore.deleteMany({ where: { storyId: story.id } });
-  for (const lore of defaultLores) {
+  for (const lore of finalLores) {
     await prisma.lore.create({
       data: {
         storyId: story.id,
-        ...lore
+        term: lore.term,
+        category: lore.category,
+        aliases: lore.aliases || lore.term,
+        definition: lore.definition
       }
     });
     console.log(`[Lore Auto-Sync] ${lore.term} (${lore.category}) -> DB OK`);
