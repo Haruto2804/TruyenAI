@@ -61,9 +61,16 @@ Khi một linh hồn chiến thuật gia kiêm sát thủ thời hiện đại n
     {
       name: "Valerie De Valois",
       role: "Tam Công chúa / Vị hôn thê đối địch",
-      aliases: "Công chúa Solaria",
+      aliases: "Công chúa Solaria, Valerie, Phượng Hoàng Lửa Vàng",
       description: "Tam Công chúa kiêu ngạo của Đế quốc Solaria. Mang Huyết Chiếu đến Bắc Cảnh để hủy hôn và gài bẫy đày Caelen ra tiền tuyến chịu tội thay.",
-      avatarUrl: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=300&auto=format&fit=crop"
+      avatarUrl: "/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/valerie-de-valois.jpg"
+    },
+    {
+      name: "Nhị Trưởng Lão Karlov",
+      role: "Nhị Trưởng Lão Gia Tộc Ravenwood / Phản diện nội tộc",
+      aliases: "Karlov, Nhị Trưởng Lão, Nhị Trưởng lão, Nhị Trưởng lão Karlov, Lão già giảo hoạt",
+      description: "Nhị Trưởng Lão thâm hiểm, giảo hoạt nắm giữ quyền quản sự hậu viện và tài chính phân nhánh của Gia tộc Ravenwood. Kẻ chủ mưu sai khiến hầu nữ Lilian định kỳ hạ độc Caelen bằng Hắc Tử La Lan suốt 5 năm.",
+      avatarUrl: "/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/karlov.jpg"
     }
   ];
 

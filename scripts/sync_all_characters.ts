@@ -45,6 +45,15 @@ Bên ngoài lạnh lùng, nghiêm nghị và thất vọng tột cùng trước 
       description: `Tam Công Chúa kiêu ngạo, tàn nhẫn và đầy toan tính của Đế Quốc Solaria, Hỏa hệ Ma Pháp Sư Quang Minh đạt cảnh giới Cao Giai Đỉnh Phong.
 
 Mang theo *Huyết Chiếu Hoàng Gia* đến Bắc Cảnh để công khai hủy bỏ hôn ước và lập mưu đày Caelen ra Tiền Tuyến Hắc Vực làm vật tế thần, nhằm tạo cớ cho Thần Điện Quang Minh can thiệp và thôn tính quyền lực phương Bắc.`
+    },
+    {
+      name: "Nhị Trưởng Lão Karlov",
+      role: "Nhị Trưởng Lão Gia Tộc Ravenwood / Phản diện nội viện",
+      aliases: "Karlov, Nhị Trưởng Lão, Nhị Trưởng lão, Nhị Trưởng lão Karlov, Lão già giảo hoạt",
+      avatarUrl: "/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/karlov.jpg",
+      description: `Nhị Trưởng Lão thâm hiểm, giảo hoạt nắm giữ quyền quản sự hậu viện và tài chính phân nhánh của Gia tộc Ravenwood.
+
+Kẻ chủ mưu sai khiến nữ hầu Lilian định kỳ hạ độc Caelen bằng *Hắc Tử La Lan* suốt 5 năm nhằm triệt hạ tư cách thừa kế của dòng chính. Trong Chương 2, lão mưu toan dùng Cấm Thuật Huyết Hồn và văn thư nhận tội để đày ải Caelen ra tiền tuyến hòng chiếm đoạt quyền thừa kế Bắc Cảnh, nhưng đã bị Caelen cùng Đại tỷ Evelyn vạch trần và trừng phạt đích đáng.`
     }
   ];
 
@@ -52,7 +61,11 @@ Mang theo *Huyết Chiếu Hoàng Gia* đến Bắc Cảnh để công khai hủ
     const found = await prisma.character.findFirst({
       where: {
         storyId: story.id,
-        name: { contains: char.name.split(" ")[0] }
+        OR: [
+          { name: { contains: char.name.split(" ")[0] } },
+          { name: { contains: "Karlov" } },
+          { aliases: { contains: char.name.split(" ")[0] } }
+        ]
       }
     });
 
@@ -60,6 +73,7 @@ Mang theo *Huyết Chiếu Hoàng Gia* đến Bắc Cảnh để công khai hủ
       await prisma.character.update({
         where: { id: found.id },
         data: { 
+          name: char.name,
           role: char.role,
           aliases: char.aliases,
           avatarUrl: char.avatarUrl,
@@ -67,6 +81,18 @@ Mang theo *Huyết Chiếu Hoàng Gia* đến Bắc Cảnh để công khai hủ
         }
       });
       console.log(`Updated ${char.name} summary -> DB OK`);
+    } else {
+      await prisma.character.create({
+        data: {
+          storyId: story.id,
+          name: char.name,
+          role: char.role,
+          aliases: char.aliases,
+          avatarUrl: char.avatarUrl,
+          description: char.description
+        }
+      });
+      console.log(`Created ${char.name} -> DB OK`);
     }
   }
 }

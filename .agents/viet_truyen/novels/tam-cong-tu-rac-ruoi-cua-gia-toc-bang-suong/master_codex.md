@@ -158,6 +158,41 @@
 
 ---
 
+### 5. Nhị Trưởng Lão Karlov
+* **Vai trò & Thân phận:** Nhị Trưởng Lão Gia Tộc Ravenwood / Quản sự Hậu Viện & Tài Chính Phân Nhánh / Phản diện nội tộc.
+* **Danh xưng & Biệt hiệu:** Nhị Trưởng Lão, Karlov, Nhị Trưởng lão Karlov, Lão già giảo hoạt.
+* **Cảnh giới & Tu vi:** Trung Giai Đỉnh Phong (Chuyên về Thổ hệ Ma Pháp và Cấm Thuật Huyết Hồn phong ấn).
+* **Ảnh Avatar (9:16):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/karlov.jpg`
+
+* **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):**
+  - *Vóc dáng & Thể hình:* Cao 1m72, dáng người hơi còng nhưng cử chỉ linh hoạt giảo hoạt, làn da nhăn nheo điểm đồi mồi của kẻ gần 60 tuổi nhưng toát lên vẻ thâm hiểm khôn lường.
+  - *Mái tóc & Râu:* Mái tóc xám bạc vuốt ngược ra sau, chòm râu bạc cắt tỉa tỉ mỉ bao quanh cằm vuông vức.
+  - *Đôi mắt & Ánh nhìn:* Đôi mắt ti hí màu hổ phách đục ngầu, ánh nhìn lấm lét, giảo hoạt luôn tính toán thiệt hơn và chớp lấy thời cơ hãm hại người khác.
+  - *Ngũ quan & Thần thái:* Nụ cười xun xoe giả tạo ngoài mặt nhưng trong lòng luôn ấp ủ mưu mô độc địa, khóe môi luôn nhếch lên vẻ cay độc khi nắm thóp đối phương.
+  - *Trang phục & Y phục:* Áo choàng quý tộc dài màu lam thẫm (Dark Navy) và xám tro sang trọng, cổ áo viền lông thú đen dày dặn chống rét, thân áo thêu chìm hoa văn quạ đen và phù hiệu phân nhánh gia tộc bằng chỉ bạc.
+  - *Phụ kiện:* Tay cầm cây quyền trượng đầu quạ nạm bạc đen, ngón tay đeo nhiều nhẫn ma pháp phong ấn chứa độc dược và cấm thuật.
+
+* **⚔️ Vũ Khí, Bảo Vật & Tuyệt Kỹ:**
+  - *Bảo vật:* Quyền trượng Quạ Đen Cổ Ngữ; Trận bàn *Cấm Thuật Huyết Hồn*.
+  - *Kỹ năng:* Thao túng tài chính, cài cắm gián điệp nội viện, điều chế ma trận huyết sắc.
+
+* **🧠 Tính Cách & Chiều Sâu Tâm Lý:**
+  - *Bản chất:* Tham lam, thâm hiểm, đố kỵ với dòng chính của Công tước. Luôn ôm dã tâm đưa con cháu phân nhánh của mình lên nắm trọn quyền cai trị Bắc Cảnh.
+  - *Động cơ:* Nhận thấy Caelen là kẻ kế vị dòng chính yếu nhất, lão bí mật cho Lilian hạ độc suốt 5 năm để biến Caelen thành phế nhân, sau đó mượn cớ Tam Công Chúa từ hôn để ép Caelen nhận tội phản quốc, tước quyền thừa kế.
+
+* **❤️ Sở Thích & Thói Quen Vi Mô:**
+  - *Sở thích:* Đếm sổ sách tiền tệ phân nhánh, sưu tầm các trận đồ cấm thuật hắc ám.
+  - *Điều căm ghét:* Sự uy nghiêm của Nữ Kiếm Vương Evelyn; sự bất phục từ kẻ dưới quyền.
+  - *Thói quen:* Xoa chuỗi hạt bạc quanh cổ tay khi đang bày mưu tính kế; chắp tay khom lưng xun xoe khi đối diện kẻ mạnh hơn mình.
+
+* **🕸️ Mạng Lưới Mối Quan Hệ:**
+  - *Caelen:* Cái gai trong mắt cần nhổ bỏ $\rightarrow$ Bị Caelen vạch trần mưu mô và đảo ngược thế cờ.
+  - *Lilian:* Quân cờ tay sai dùng để hạ độc $\rightarrow$ Bị Caelen cướp mất quyền kiểm soát.
+  - *Evelyn:* Kẻ cai trị chí công vô tư mà lão luôn khiếp sợ trước lưỡi kiếm Băng Phách.
+
+
+---
+
 ## 📜 3. LORE & GLOSSARY CODEX (BÁCH KHOA CHÚ GIẢI THUẬT NGỮ)
 
 ### 1. Hắc Tử La Lan
