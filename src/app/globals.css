@@ -22,8 +22,10 @@
   html,
   body {
     max-width: 100vw;
+    width: 100%;
     overflow-x: hidden;
-    touch-action: pan-x pan-y;
+    touch-action: manipulation;
+    overscroll-behavior-x: none;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
   }

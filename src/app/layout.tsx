@@ -52,25 +52,24 @@ export default async function RootLayout({
           dangerouslySetInnerHTML={{
             __html: `
               (function() {
-                // 1. Chặn gesture zoom trên iOS WebKit (Safari, Chrome iOS, in-app iOS)
-                document.addEventListener('gesturestart', function(e) { e.preventDefault(); }, { passive: false });
-                document.addEventListener('gesturechange', function(e) { e.preventDefault(); }, { passive: false });
-                document.addEventListener('gestureend', function(e) { e.preventDefault(); }, { passive: false });
+                // 1. Chặn triệt để gesture zoom trên iOS WebKit (Safari, Chrome iOS, in-app iOS)
+                var preventGesture = function(e) { e.preventDefault(); };
+                ['gesturestart', 'gesturechange', 'gestureend'].forEach(function(evt) {
+                  document.addEventListener(evt, preventGesture, { passive: false, capture: true });
+                  window.addEventListener(evt, preventGesture, { passive: false, capture: true });
+                });
 
-                // 2. Chặn đa chạm (tua 2 ngón / pinch-zoom) trên MỌI trình duyệt di động (Android Chrome, Samsung Internet, Firefox, Zalo/FB...)
-                document.addEventListener('touchstart', function(e) {
+                // 2. Chặn đa chạm (pinch-in thu nhỏ / pinch-out phóng to) trên MỌI trình duyệt di động
+                var preventMultiTouch = function(e) {
                   if (e.touches && e.touches.length > 1) {
                     e.preventDefault();
                   }
-                }, { passive: false });
+                };
+                document.addEventListener('touchstart', preventMultiTouch, { passive: false, capture: true });
+                document.addEventListener('touchmove', preventMultiTouch, { passive: false, capture: true });
+                window.addEventListener('touchmove', preventMultiTouch, { passive: false, capture: true });
 
-                document.addEventListener('touchmove', function(e) {
-                  if (e.touches && e.touches.length > 1) {
-                    e.preventDefault();
-                  }
-                }, { passive: false });
-
-                // 3. Chặn double-tap phóng to ngoài ý muốn (vẫn cho phép tương tác form)
+                // 3. Chặn double-tap phóng to / thu nhỏ ngoài ý muốn
                 var lastTouchEnd = 0;
                 document.addEventListener('touchend', function(e) {
                   var now = Date.now();
@@ -84,12 +83,12 @@ export default async function RootLayout({
                   lastTouchEnd = now;
                 }, { passive: false });
 
-                // 4. Chặn pinch-zoom bằng trackpad / chuột trên iPad & tablet / laptop
-                document.addEventListener('wheel', function(e) {
+                // 4. Chặn Ctrl + Wheel (Pinch trackpad / chuột) trên tablet/laptop
+                window.addEventListener('wheel', function(e) {
                   if (e.ctrlKey) {
                     e.preventDefault();
                   }
-                }, { passive: false });
+                }, { passive: false, capture: true });
               })();
             `,
           }}
