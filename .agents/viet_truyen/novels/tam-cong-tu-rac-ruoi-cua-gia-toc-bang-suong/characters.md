@@ -76,7 +76,7 @@ masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1girl, 20 years old hau
 ## 5. Nhị Trưởng Lão Karlov
 - **Vai trò:** Nhị Trưởng Lão Gia Tộc Ravenwood / Phản diện nội viện
 - **Biệt danh & Danh xưng:** Karlov, Nhị Trưởng Lão, Nhị Trưởng lão, Nhị Trưởng lão Karlov, Lão già giảo hoạt
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/karlov.jpeg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/nhi-truong-lao-karlov.jpg`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Nhị Trưởng Lão thâm hiểm, giảo hoạt nắm giữ quyền quản sự hậu viện và tài chính phân nhánh. Kẻ chủ mưu sai khiến Lilian hạ độc Caelen suốt 5 năm nhằm chiếm đoạt quyền thừa kế.
@@ -93,7 +93,7 @@ masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1man, 55 years old sche
 ## 6. Hắc Y Sứ Giả Vane
 - **Vai trò:** Sát thủ cấp cao / Sứ giả Hội Lưỡi Hái Hắc Ám
 - **Biệt danh & Danh xưng:** Vane, Hắc Y Sứ Giả, Sứ giả Vane, Sát thủ Hắc Ám, Tử Thần Vực Thẳm
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/vane.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/hac-y-su-gia-vane.jpg`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Sát thủ Cao Giai Sơ Kỳ tàn nhẫn mang mặt nạ kim loại đen thuộc Hội Lưỡi Hái Hắc Ám. Sở hữu ma pháp Ám Hắc và Tử Linh, chủy thủ tẩm độc Thực Cốt Chu Sa.
@@ -110,7 +110,7 @@ masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1man, mysterious hooded
 ## 7. Boris Tai Đỏ
 - **Vai trò:** Thủ lĩnh Thảo Khấu Biên Ải Frostfang
 - **Biệt danh & Danh xưng:** Boris, Boris Tai Đỏ, Boris Red-Ear, Tướng cướp man di
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/boris.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/boris-tai-do.jpg`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Gã khổng lồ man di hung bạo cao hơn hai mét, thủ lĩnh hơn 100 thảo khấu. Cảnh giới Trung Giai Sơ Kỳ Thổ hệ, sử dụng đại rìu chiến thép đen hai lưỡi.
