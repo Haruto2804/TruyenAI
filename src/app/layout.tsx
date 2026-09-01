@@ -48,6 +48,10 @@ export default async function RootLayout({
       className={`${beVietnamPro.variable} ${literata.variable} h-full antialiased`}
     >
       <head>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, shrink-to-fit=no, viewport-fit=cover"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -85,10 +89,22 @@ export default async function RootLayout({
 
                 // 4. Chặn Ctrl + Wheel (Pinch trackpad / chuột) trên tablet/laptop
                 window.addEventListener('wheel', function(e) {
-                  if (e.ctrlKey) {
+                  if (e.ctrlKey || e.metaKey) {
                     e.preventDefault();
                   }
                 }, { passive: false, capture: true });
+
+                // 5. Tự động phục hồi tỷ lệ 1.0 nếu Visual Viewport bị zoom out
+                if (window.visualViewport) {
+                  window.visualViewport.addEventListener('resize', function() {
+                    if (window.visualViewport.scale < 1) {
+                      var meta = document.querySelector('meta[name="viewport"]');
+                      if (meta) {
+                        meta.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, shrink-to-fit=no, viewport-fit=cover');
+                      }
+                    }
+                  });
+                }
               })();
             `,
           }}

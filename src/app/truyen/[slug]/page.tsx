@@ -23,7 +23,9 @@ function StorySpecsCard({ className = "", chapterCount, characterCount, loreCoun
   return (
     <div className={`relative overflow-hidden bg-gradient-to-b from-slate-900/90 via-slate-950/95 to-black border border-[#d4af37]/30 hover:border-[#d4af37]/60 rounded-2xl sm:rounded-3xl p-4 sm:p-5 md:p-6 shadow-[0_15px_35px_rgba(0,0,0,0.7)] backdrop-blur-xl transition-all duration-300 group flex flex-col justify-between space-y-3.5 ${className}`}>
       {/* Subtle top-right golden aurora ambient */}
-      <div className="absolute -top-10 -right-10 w-28 h-28 bg-[#d4af37]/10 rounded-full blur-2xl pointer-events-none group-hover:bg-[#d4af37]/20 transition-all duration-500" />
+      <div className="pointer-events-none absolute inset-0 overflow-hidden rounded-2xl sm:rounded-3xl">
+        <div className="absolute -top-10 -right-10 w-28 h-28 bg-[#d4af37]/10 rounded-full blur-2xl group-hover:bg-[#d4af37]/20 transition-all duration-500" />
+      </div>
 
       {/* Author & Studio Header */}
       <div className="flex items-center justify-between gap-2 border-b border-white/10 pb-3 shrink-0">
@@ -145,10 +147,10 @@ export default async function StoryDetail({
   }
 
   return (
-    <div className="max-w-5xl mx-auto space-y-6 sm:space-y-10 pb-28 md:pb-12 overflow-x-hidden">
+    <div className="relative max-w-5xl mx-auto space-y-6 sm:space-y-10 pb-28 md:pb-12 overflow-x-hidden">
       {/* Background ambient lighting for page */}
-      <div className="relative overflow-hidden pointer-events-none">
-        <div className="absolute -top-10 left-1/4 w-96 h-96 bg-[#d4af37]/10 blur-[130px] rounded-full" />
+      <div className="pointer-events-none absolute inset-0 overflow-hidden -z-10 w-full h-full">
+        <div className="absolute -top-10 left-1/4 w-72 sm:w-96 h-72 sm:h-96 bg-[#d4af37]/10 blur-[130px] rounded-full max-w-full" />
       </div>
 
       {/* Story Header Hero Card */}

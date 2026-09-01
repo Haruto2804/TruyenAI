@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo, useEffect } from "react";
+import { createPortal } from "react-dom";
 import { 
   User, X, Sparkles, BookOpen, Shield, Scroll, Tag, 
   BookMarked, ShieldAlert, Flame, Compass, Gem, Layers,
@@ -165,6 +166,23 @@ export function InteractiveReader({
   const [theme, setTheme] = useState<ReadingTheme>("dark");
   const [lineHeight, setLineHeight] = useState<number>(2.2); // 1.8 to 2.5
   const [showToolbar, setShowToolbar] = useState<boolean>(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Lock body scroll when pinned modal is open
+  useEffect(() => {
+    if (selectedItem) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [selectedItem]);
 
   // Load reader preferences from localStorage
   useEffect(() => {
@@ -562,21 +580,18 @@ export function InteractiveReader({
       )}
 
       {/* ========================================================================= */}
-      {/* 2. CLICKED PINNED MODAL (MOBILE MINI BOTTOM-SHEET / DESKTOP SIDE PANEL) */}
+      {/* 2. CLICKED PINNED MODAL (UNIVERSALLY CENTERED IN FULL VIEWPORT) */}
       {/* ========================================================================= */}
-      {selectedItem && (
+      {mounted && selectedItem && createPortal(
         <div
-          className="fixed inset-0 md:inset-auto md:top-20 md:right-6 md:w-[420px] md:max-w-[calc(100vw-3rem)] z-50 flex items-end md:block p-0 bg-black/70 md:bg-transparent backdrop-blur-md md:backdrop-blur-none animate-in fade-in duration-200"
+          className="fixed inset-0 top-0 left-0 w-screen h-screen z-[9999] flex items-center justify-center p-3.5 sm:p-6 md:p-8 bg-black/90 backdrop-blur-2xl animate-in fade-in duration-200"
           onClick={() => setSelectedItem(null)}
         >
-          {/* Modal / Bottom-Sheet Container */}
+          {/* Modal / Dialog Container */}
           <div
-            className="w-full bg-gradient-to-b from-slate-900 via-slate-950 to-black border-t-2 md:border-2 border-[#d4af37]/50 rounded-t-3xl md:rounded-3xl p-5 sm:p-6 shadow-[0_-15px_50px_rgba(0,0,0,0.9)] md:shadow-[0_15px_50px_rgba(0,0,0,0.9)] space-y-4 max-h-[85vh] md:max-h-[calc(100vh-6.5rem)] overflow-y-auto animate-in slide-in-from-bottom-5 md:slide-in-from-right-6 duration-200"
+            className="relative w-full max-w-lg md:max-w-xl bg-gradient-to-b from-slate-900 via-slate-950 to-black border-2 border-[#d4af37]/50 rounded-3xl p-5 sm:p-7 shadow-[0_0_80px_rgba(212,175,55,0.35)] space-y-4 max-h-[85vh] overflow-y-auto animate-in zoom-in-95 duration-200 m-auto"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Mobile Drag Handle */}
-            <div className="w-12 h-1.5 bg-white/25 rounded-full mx-auto mb-2 md:hidden" />
-
             {/* Character Dossier Popover */}
             {selectedItem.type === "character" && (
               <div className="space-y-4">
@@ -622,7 +637,8 @@ export function InteractiveReader({
                   <button
                     type="button"
                     onClick={() => setSelectedItem(null)}
-                    className="p-2 rounded-xl bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white transition-colors"
+                    className="p-2 rounded-xl bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white transition-colors cursor-pointer"
+                    title="Đóng (Esc)"
                   >
                     <X className="w-5 h-5" />
                   </button>
@@ -640,7 +656,7 @@ export function InteractiveReader({
                     <div className="text-[11px] font-bold text-[#d4af37] uppercase tracking-wider flex items-center gap-1.5">
                       <Scroll className="w-3.5 h-3.5" /> Tiểu sử & Tính cách
                     </div>
-                    <p className="text-sm text-slate-200 leading-relaxed font-light whitespace-pre-wrap bg-black/40 border border-white/5 rounded-xl p-3.5 max-h-48 overflow-y-auto">
+                    <p className="text-sm sm:text-base text-slate-200 leading-relaxed font-light whitespace-pre-wrap bg-black/40 border border-white/5 rounded-xl p-3.5 max-h-56 overflow-y-auto">
                       {selectedItem.data.description.replace(/\*+/g, "")}
                     </p>
                   </div>
@@ -677,7 +693,8 @@ export function InteractiveReader({
                   <button
                     type="button"
                     onClick={() => setSelectedItem(null)}
-                    className="p-2 rounded-xl bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white transition-colors"
+                    className="p-2 rounded-xl bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white transition-colors cursor-pointer"
+                    title="Đóng (Esc)"
                   >
                     <X className="w-5 h-5" />
                   </button>
@@ -694,7 +711,7 @@ export function InteractiveReader({
                   <div className="text-[11px] font-bold text-cyan-400 uppercase tracking-wider flex items-center gap-1.5">
                     <BookOpen className="w-3.5 h-3.5" /> Định nghĩa & Ý nghĩa
                   </div>
-                  <p className="text-sm text-slate-200 leading-relaxed font-light whitespace-pre-wrap bg-black/40 border border-white/5 rounded-xl p-3.5 max-h-48 overflow-y-auto">
+                  <p className="text-sm sm:text-base text-slate-200 leading-relaxed font-light whitespace-pre-wrap bg-black/40 border border-white/5 rounded-xl p-3.5 max-h-56 overflow-y-auto">
                     {selectedItem.data.definition.replace(/\*+/g, "")}
                   </p>
                 </div>
@@ -711,7 +728,8 @@ export function InteractiveReader({
               </button>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );

@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import { BookMarked, Edit2, Trash2, X, Sparkles, Tag, ShieldAlert, Compass, Gem, Flame, Layers } from "lucide-react";
 import { DeleteButton } from "@/components/DeleteButton";
 import { updateLore, deleteLore } from "@/app/admin/actions";
@@ -30,6 +31,11 @@ const CATEGORY_ICONS: Record<string, any> = {
 
 export function LoreListManager({ lores, storySlug }: LoreListManagerProps) {
   const [editingLore, setEditingLore] = useState<LoreItem | null>(null);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
     <div>
@@ -101,9 +107,9 @@ export function LoreListManager({ lores, storySlug }: LoreListManagerProps) {
       )}
 
       {/* Edit Lore Modal */}
-      {editingLore && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-in fade-in duration-200">
-          <div className="relative w-full max-w-xl bg-slate-900 border border-white/15 rounded-3xl p-6 sm:p-8 shadow-2xl space-y-6 max-h-[90vh] overflow-y-auto">
+      {mounted && editingLore && createPortal(
+        <div className="fixed inset-0 top-0 left-0 w-screen h-screen z-[9999] flex items-center justify-center p-4 bg-black/85 backdrop-blur-md animate-in fade-in duration-200">
+          <div className="relative w-full max-w-xl bg-slate-900 border border-white/15 rounded-3xl p-6 sm:p-8 shadow-2xl space-y-6 max-h-[90vh] overflow-y-auto m-auto">
             {/* Modal Header */}
             <div className="flex items-center justify-between border-b border-white/10 pb-4">
               <div className="flex items-center gap-3">
@@ -210,7 +216,8 @@ export function LoreListManager({ lores, storySlug }: LoreListManagerProps) {
               </div>
             </form>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );

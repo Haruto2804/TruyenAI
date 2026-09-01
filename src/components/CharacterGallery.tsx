@@ -267,7 +267,7 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
       {/* ========================================================================= */}
       {mounted && selectedChar && !isFullscreenImage && createPortal(
         <div
-          className="fixed inset-0 top-0 left-0 w-screen h-screen z-[9999] flex items-end sm:items-center justify-center p-0 sm:p-6 md:p-8 bg-black/90 backdrop-blur-2xl animate-in fade-in duration-200"
+          className="fixed inset-0 top-0 left-0 w-screen h-screen z-[9999] flex items-center justify-center p-3 sm:p-6 md:p-8 bg-black/90 backdrop-blur-2xl animate-in fade-in duration-200"
           onClick={() => setSelectedIndex(null)}
         >
           {/* ========================================================================= */}
@@ -412,10 +412,10 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
           </div>
 
           {/* ========================================================================= */}
-          {/* MOBILE LUXURY BOTTOM SHEET / MODAL VIEW (< md screens) */}
+          {/* MOBILE LUXURY CENTERED MODAL VIEW (< md screens) */}
           {/* ========================================================================= */}
           <div
-            className="md:hidden relative w-full max-w-lg bg-gradient-to-b from-slate-900 via-slate-950 to-black border-t-2 sm:border-2 border-[#d4af37]/50 rounded-t-3xl sm:rounded-3xl p-4 sm:p-6 shadow-[0_-10px_60px_rgba(0,0,0,0.9)] max-h-[88vh] overflow-hidden flex flex-col animate-in slide-in-from-bottom-5 duration-200 m-auto"
+            className="md:hidden relative w-full max-w-lg bg-gradient-to-b from-slate-900 via-slate-950 to-black border-2 border-[#d4af37]/50 rounded-3xl p-4 sm:p-6 shadow-[0_0_60px_rgba(0,0,0,0.9)] max-h-[85vh] overflow-hidden flex flex-col animate-in zoom-in-95 duration-200 m-auto"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Pull Bar Indicator */}

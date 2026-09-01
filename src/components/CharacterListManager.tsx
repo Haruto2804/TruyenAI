@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import { User, Edit2, Trash2, X, Sparkles, AlertCircle } from "lucide-react";
 import { ImageUpload } from "@/components/ImageUpload";
 import { DeleteButton } from "@/components/DeleteButton";
@@ -26,6 +27,11 @@ export function CharacterListManager({
   storySlug,
 }: CharacterListManagerProps) {
   const [editingChar, setEditingChar] = useState<CharacterItem | null>(null);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
     <div>
@@ -110,9 +116,9 @@ export function CharacterListManager({
       )}
 
       {/* Edit Character Modal */}
-      {editingChar && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-in fade-in duration-200">
-          <div className="relative w-full max-w-2xl bg-slate-900 border border-white/15 rounded-3xl p-6 sm:p-8 shadow-2xl space-y-6 max-h-[90vh] overflow-y-auto">
+      {mounted && editingChar && createPortal(
+        <div className="fixed inset-0 top-0 left-0 w-screen h-screen z-[9999] flex items-center justify-center p-4 bg-black/85 backdrop-blur-md animate-in fade-in duration-200">
+          <div className="relative w-full max-w-2xl bg-slate-900 border border-white/15 rounded-3xl p-6 sm:p-8 shadow-2xl space-y-6 max-h-[90vh] overflow-y-auto m-auto">
             {/* Modal Header */}
             <div className="flex items-center justify-between border-b border-white/10 pb-4">
               <div className="flex items-center gap-3">
@@ -143,17 +149,6 @@ export function CharacterListManager({
               <input type="hidden" name="id" value={editingChar.id} />
               <input type="hidden" name="storySlug" value={storySlug} />
 
-              {/* Character Avatar Upload */}
-              <div className="space-y-2">
-                <label className="block text-sm font-medium text-slate-300">
-                  Ảnh Chân Dung / Avatar Nhân Vật
-                </label>
-                <ImageUpload
-                  name="avatarUrl"
-                  initialValue={editingChar.avatarUrl || ""}
-                />
-              </div>
-
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <label className="block text-sm font-medium text-slate-300">
@@ -171,13 +166,13 @@ export function CharacterListManager({
 
                 <div className="space-y-2">
                   <label className="block text-sm font-medium text-slate-300">
-                    Vai Trò / Thân Phận
+                    Vai Trò / Danh Phận
                   </label>
                   <input
                     type="text"
                     name="role"
                     defaultValue={editingChar.role || ""}
-                    placeholder="VD: Nhân vật chính / Đệ tam công tử"
+                    placeholder="VD: Nhân vật chính / Tam công tử"
                     className="w-full bg-slate-950/80 border border-white/10 rounded-xl px-4 py-2.5 text-slate-200 placeholder-slate-500 focus:outline-none focus:border-[#d4af37]/60 text-sm"
                   />
                 </div>
@@ -185,27 +180,35 @@ export function CharacterListManager({
 
               <div className="space-y-2">
                 <label className="block text-sm font-medium text-slate-300">
-                  Biệt Danh / Tên Gọi Khác (Cách nhau bằng dấu phẩy)
+                  Biệt Danh / Cách Gọi (Phân cách bằng dấu phẩy)
                 </label>
                 <input
                   type="text"
                   name="aliases"
                   defaultValue={editingChar.aliases || ""}
-                  placeholder="VD: Đống rác Bắc Cảnh, Công tử phế vật"
+                  placeholder="VD: Đống rác Bắc Cảnh, Công tử phế vật, Caelen"
                   className="w-full bg-slate-950/80 border border-white/10 rounded-xl px-4 py-2.5 text-slate-200 placeholder-slate-500 focus:outline-none focus:border-[#d4af37]/60 text-sm"
                 />
-                <p className="text-[11px] text-slate-500">
-                  Hệ thống sẽ tự động quét cả tên chính và các biệt danh này khi độc giả đọc chương truyện.
-                </p>
               </div>
 
               <div className="space-y-2">
                 <label className="block text-sm font-medium text-slate-300">
-                  Mô Tả Tính Cách / Tiểu Sử Ngắn
+                  Ảnh Chân Dung / Avatar
+                </label>
+                <ImageUpload
+                  defaultValue={editingChar.avatarUrl}
+                  inputName="avatarUrl"
+                  folder="characters"
+                />
+              </div>
+
+              <div className="space-y-2">
+                <label className="block text-sm font-medium text-slate-300">
+                  Tiểu Sử & Mô Tả Tính Cách
                 </label>
                 <textarea
                   name="description"
-                  rows={3}
+                  rows={4}
                   defaultValue={editingChar.description || ""}
                   placeholder="VD: Chiến thuật gia hiện đại chuyển sinh..."
                   className="w-full bg-slate-950/80 border border-white/10 rounded-xl p-3.5 text-slate-200 placeholder-slate-500 focus:outline-none focus:border-[#d4af37]/60 text-sm resize-none"
@@ -229,7 +232,8 @@ export function CharacterListManager({
               </div>
             </form>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );
