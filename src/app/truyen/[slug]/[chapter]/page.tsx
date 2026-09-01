@@ -81,58 +81,64 @@ export default async function ChapterDetail({
       <ProgressTracker storyId={story.id} chapterId={chapter.id} />
 
       {/* Chapter Reader Header Nav */}
-      <div className="sticky top-20 z-40 bg-slate-950/80 backdrop-blur-xl border border-white/10 p-4 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-xl">
-        <div className="flex items-center gap-3">
+      <div className="sticky top-20 z-40 bg-slate-950/85 backdrop-blur-xl border border-white/10 p-2.5 sm:p-4 rounded-2xl flex items-center justify-between gap-2 sm:gap-4 shadow-2xl transition-all">
+        {/* Left: Back Button & Title Info */}
+        <div className="flex items-center gap-2 sm:gap-3 flex-1 min-w-0">
           <Link
             href={`/truyen/${story.slug}`}
-            className="p-2 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white border border-white/5 transition-colors"
+            className="p-2 sm:p-2.5 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white border border-white/10 hover:border-[#d4af37]/40 transition-colors shrink-0 flex items-center justify-center"
             title="Trở về trang thông tin truyện"
           >
-            <ArrowLeft className="w-5 h-5" />
+            <ArrowLeft className="w-4 h-4 sm:w-5 sm:h-5" />
           </Link>
-          <div className="min-w-0">
-            <h1 className="text-base sm:text-lg font-bold text-slate-100 truncate flex items-center gap-2">
-              <span className="text-[#d4af37]">#{chapter.chapterNo}</span>
-              <span>{chapter.title}</span>
+          <div className="flex-1 min-w-0">
+            <h1 className="text-sm sm:text-base md:text-lg font-bold text-slate-100 flex items-center gap-1.5 sm:gap-2 min-w-0">
+              <span className="text-[#d4af37] font-extrabold shrink-0">#{chapter.chapterNo}</span>
+              <span className="truncate min-w-0 flex-1 block" title={chapter.title}>
+                {chapter.title}
+              </span>
             </h1>
-            <p className="text-xs text-slate-400 truncate">
+            <p className="text-[11px] sm:text-xs text-slate-400 truncate" title={story.title}>
               {story.title}
             </p>
           </div>
         </div>
 
-        {/* Quick Chapter Switcher Buttons */}
-        <div className="flex items-center gap-2 self-end sm:self-auto">
+        {/* Quick Chapter Switcher Buttons (Always Fixed & Never Squashed) */}
+        <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
           <Link
             href={prevChapter ? `/truyen/${story.slug}/${prevChapter.chapterNo}` : '#'}
-            className={`flex items-center justify-center h-10 w-10 sm:h-11 sm:w-11 rounded-xl border transition-all duration-200 ${
+            className={`flex items-center justify-center h-9 w-9 sm:h-10 sm:w-10 md:h-11 md:w-11 rounded-xl border transition-all duration-200 shrink-0 ${
               prevChapter 
                 ? 'border-white/10 bg-white/5 text-slate-200 hover:bg-white/10 hover:border-[#d4af37]/40 hover:text-[#d4af37]' 
                 : 'border-white/5 bg-white/[0.02] text-slate-600 cursor-not-allowed pointer-events-none opacity-40'
             }`}
+            title={prevChapter ? `Chương trước (#${prevChapter.chapterNo})` : "Không có chương trước"}
             aria-label="Chương trước"
           >
-            <ChevronLeft className="w-5 h-5" />
+            <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5" />
           </Link>
 
           <Link
             href={`/truyen/${story.slug}`}
-            className="flex items-center gap-1.5 px-3 h-10 sm:h-11 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-xs font-semibold text-slate-300 hover:text-white transition-colors"
+            className="flex items-center gap-1.5 px-2.5 sm:px-3.5 h-9 sm:h-10 md:h-11 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 hover:border-[#d4af37]/40 text-xs font-semibold text-slate-200 hover:text-[#d4af37] transition-colors shrink-0"
+            title="Xem toàn bộ mục lục chương"
           >
-            <Menu className="w-4 h-4 text-[#d4af37]" />
+            <Menu className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#d4af37]" />
             <span className="hidden sm:inline">Mục Lục</span>
           </Link>
 
           <Link
             href={nextChapter ? `/truyen/${story.slug}/${nextChapter.chapterNo}` : '#'}
-            className={`flex items-center justify-center h-10 w-10 sm:h-11 sm:w-11 rounded-xl border transition-all duration-200 ${
+            className={`flex items-center justify-center h-9 w-9 sm:h-10 sm:w-10 md:h-11 md:w-11 rounded-xl border transition-all duration-200 shrink-0 ${
               nextChapter 
                 ? 'border-white/10 bg-white/5 text-slate-200 hover:bg-white/10 hover:border-[#d4af37]/40 hover:text-[#d4af37]' 
                 : 'border-white/5 bg-white/[0.02] text-slate-600 cursor-not-allowed pointer-events-none opacity-40'
             }`}
+            title={nextChapter ? `Chương tiếp theo (#${nextChapter.chapterNo})` : "Không có chương tiếp"}
             aria-label="Chương sau"
           >
-            <ChevronRight className="w-5 h-5" />
+            <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
           </Link>
         </div>
       </div>
