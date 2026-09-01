@@ -69,10 +69,10 @@ export default async function ChapterDetail({
   const isUnlocked = chapter.isVip ? (chapter.unlockedBy.length > 0) : true;
 
   return (
-    <div className="max-w-4xl mx-auto space-y-8">
+    <div className="max-w-4xl mx-auto space-y-8 overflow-x-hidden">
       {/* Background ambient lighting */}
-      <div className="relative">
-        <div className="absolute -top-10 left-1/3 w-80 h-80 bg-[#d4af37]/5 blur-[120px] rounded-full pointer-events-none" />
+      <div className="relative overflow-hidden pointer-events-none">
+        <div className="absolute -top-10 left-1/3 w-80 h-80 bg-[#d4af37]/5 blur-[120px] rounded-full" />
       </div>
 
       {/* Gamification: Track EXP on reading */}

@@ -145,10 +145,10 @@ export default async function StoryDetail({
   }
 
   return (
-    <div className="max-w-5xl mx-auto space-y-6 sm:space-y-10 pb-28 md:pb-12">
+    <div className="max-w-5xl mx-auto space-y-6 sm:space-y-10 pb-28 md:pb-12 overflow-x-hidden">
       {/* Background ambient lighting for page */}
-      <div className="relative">
-        <div className="absolute -top-10 left-1/4 w-96 h-96 bg-[#d4af37]/10 blur-[130px] rounded-full pointer-events-none" />
+      <div className="relative overflow-hidden pointer-events-none">
+        <div className="absolute -top-10 left-1/4 w-96 h-96 bg-[#d4af37]/10 blur-[130px] rounded-full" />
       </div>
 
       {/* Story Header Hero Card */}

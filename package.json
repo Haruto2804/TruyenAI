@@ -11,7 +11,7 @@
     "sync:novel": "npx tsx scripts/auto_sync.ts",
     "test:security": "npx tsx scripts/security_audit.ts",
     "test:perf": "npx tsx scripts/perf_audit.ts",
-    "test:load": "npx tsx scripts/load_test.ts",
+    "test:matrix": "npx tsx scripts/visual_matrix_simulator.ts",
     "test:all": "npx tsx scripts/run_all_tests.ts"
   },
   "dependencies": {
