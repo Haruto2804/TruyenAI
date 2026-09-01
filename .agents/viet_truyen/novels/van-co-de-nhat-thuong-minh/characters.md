@@ -8,7 +8,7 @@
 ## 1. Cố Trường Khanh
 - **Vai trò:** Nhân vật chính / Thiếu chủ Cố Gia / Chủ nhân Thiên Cơ Lâu
 - **Biệt danh & Danh xưng:** Cố thiếu gia, Chủ nhân Thiên Cơ Lâu, Cố công tử, Trường Khanh
-- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/van-co-de-nhat-thuong-minh/co-truong-khanh.png`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/van-co-de-nhat-thuong-minh/co-truong-khanh.jpg`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 20 tuổi, vóc người cao gầy đĩnh đạc, gương mặt góc cạnh tuấn tú lạnh lùng. Mái tóc đen tuyền buộc lỏng phía sau, đôi mắt đen nhánh như đá hắc diệu thạch, ẩn sâu bên trong đồng tử là những ký tự số hoàng kim lấp lánh khi kích hoạt Thiên Cơ Nhãn. Thường mặc trường bào xám tro sờn cũ nhưng phẳng phiu sạch sẽ. Điềm tĩnh tuyệt đối, ẩn nhẫn, quyết đoán khi ra tay.
@@ -25,7 +25,7 @@ masterpiece, best quality, manhwa art style, 1boy, Gu Changqing, 20 years old, h
 ## 2. Thẩm Lạc Cẩm
 - **Vai trò:** Nữ chính / Bạch Ngọc Hồ Ly / Nguyên Đích Nữ Tài Phiệt Trung Châu
 - **Biệt danh & Danh xưng:** Bạch Ngọc Hồ Ly, Lạc Cẩm cô nương, Thẩm tiểu thư, Lạc Cẩm
-- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/van-co-de-nhat-thuong-minh/tham-lac-cam.png`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/van-co-de-nhat-thuong-minh/tham-lac-cam.jpg`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 19 tuổi, dung mạo khuynh quốc khuynh thành mang vẻ đẹp ma mị và thông tuệ. Làn da trắng như tuyết, đôi mắt hồ ly màu xanh ngọc bích viền kim tuyến liếc nhìn thấu tâm can. Bờ môi đỏ mọng phảng phất hàn khí tím nhạt do trúng Cửu U Băng Phách Độc. Mặc y phục gấm đỏ thẫm thêu hạc bạc, tay cầm bàn tính bằng bạch ngọc tinh xảo. Kiêu sa, quyến rũ và mưu trí sâu như biển.
@@ -42,7 +42,7 @@ masterpiece, best quality, manhwa art style, 1girl, Shen Luojin, 19 years old, b
 ## 3. Vương Đằng
 - **Vai trò:** Nhị thiếu gia Vạn Kim Thương Hội / Phản diện giai đoạn 1
 - **Biệt danh & Danh xưng:** Vương nhị thiếu, Vương thiếu gia, Vương Đằng
-- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/van-co-de-nhat-thuong-minh/vuong-dang.png`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/van-co-de-nhat-thuong-minh/vuong-dang.jpg`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 22 tuổi, dáng người hơi đẫy đà, mặc áo gấm dát vàng phô trương, trên mười ngón tay đeo đầy nhẫn ngọc linh thạch phát sáng. Gương mặt mang nét ngạo mạn, mắt hẹp dài đầy vẻ khinh khỉnh và thâm độc.
@@ -59,7 +59,7 @@ masterpiece, manhwa art style, 1boy, Wang Deng, 22 years old, arrogant wealthy m
 ## 4. Vương Chấn Thiên
 - **Vai trò:** Phân Hội Trưởng Vạn Kim Thương Hội tại Hắc Nham Thành / Cự đầu Kim Đan Kỳ
 - **Biệt danh & Danh xưng:** Vương hội trưởng, Lão tặc họ Vương, Vương Chấn Thiên
-- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/van-co-de-nhat-thuong-minh/vuong-chan-thien.png`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/van-co-de-nhat-thuong-minh/vuong-chan-thien.jpg`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Lão giả mặc hoàng kim mãng bào, râu tóc dựng ngược, trên người tỏa ra uy áp Kim Đan Kỳ sơ kỳ cuồn cuộn như biển lửa. Tàn nhẫn, độc đoán, sẵn sàng tàn sát đối thủ để độc chiếm thương lộ.
