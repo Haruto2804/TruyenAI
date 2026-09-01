@@ -39,6 +39,27 @@ type MatchedItem =
 type ReadingTheme = "dark" | "sepia" | "oled";
 type FontFamily = "serif" | "sans";
 
+const CATEGORY_EMOJIS: Record<string, string> = {
+  "Độc Dược": "🧪",
+  "Bí Thuật": "🔮",
+  "Địa Danh": "🏰",
+  "Bảo Vật": "💎",
+  "Thế Lực": "🛡️",
+  "Cảnh Giới": "⚡",
+  "Công Pháp": "📜",
+  "default": "📖"
+};
+
+function getRoleEmoji(role?: string | null): string {
+  if (!role) return "👤";
+  if (role.includes("Nhân vật chính")) return "👑";
+  if (role.includes("Công chúa") || role.includes("Công Chúa")) return "👸";
+  if (role.includes("Kiếm") || role.includes("Chiến")) return "⚔️";
+  if (role.includes("Hầu nữ")) return "🥀";
+  if (role.includes("Sát thủ") || role.includes("Ám")) return "🗡️";
+  return "🛡️";
+}
+
 function escapeRegExp(string: string) {
   return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
@@ -48,6 +69,8 @@ function renderInteractiveSegment(
   termMap: Map<string, MatchedItem>,
   regex: RegExp | null,
   onSelectItem: (item: MatchedItem) => void,
+  onHoverItem: (item: MatchedItem, rect: DOMRect) => void,
+  onLeaveHover: () => void,
   keyPrefix: number | string = 0
 ) {
   if (!regex) return text;
@@ -59,27 +82,35 @@ function renderInteractiveSegment(
     const matched = termMap.get(part.toLowerCase());
     if (matched) {
       if (matched.type === "character") {
+        const emoji = getRoleEmoji(matched.data.role);
         return (
           <button
             key={`${keyPrefix}-${partIdx}`}
             type="button"
             onClick={() => onSelectItem(matched)}
+            onMouseEnter={(e) => onHoverItem(matched, e.currentTarget.getBoundingClientRect())}
+            onMouseLeave={onLeaveHover}
             className="inline font-semibold text-amber-200 underline decoration-dotted decoration-[#d4af37]/90 underline-offset-[4px] hover:decoration-solid hover:text-[#d4af37] hover:bg-[#d4af37]/20 px-0.5 rounded transition-all cursor-pointer select-none"
             title={`Tra cứu nhân vật: ${matched.data.name}`}
           >
+            <span className="mr-0.5 text-xs inline-block transform scale-90">{emoji}</span>
             {part}
           </button>
         );
       }
       if (matched.type === "lore") {
+        const emoji = (matched.data.category && CATEGORY_EMOJIS[matched.data.category]) || CATEGORY_EMOJIS.default;
         return (
           <button
             key={`${keyPrefix}-${partIdx}`}
             type="button"
             onClick={() => onSelectItem(matched)}
+            onMouseEnter={(e) => onHoverItem(matched, e.currentTarget.getBoundingClientRect())}
+            onMouseLeave={onLeaveHover}
             className="inline font-semibold text-cyan-200 underline decoration-dotted decoration-cyan-400/90 underline-offset-[4px] hover:decoration-solid hover:text-cyan-300 hover:bg-cyan-500/20 px-0.5 rounded transition-all cursor-pointer select-none"
             title={`Tra cứu chú giải: ${matched.data.term}`}
           >
+            <span className="mr-0.5 text-xs inline-block transform scale-90">{emoji}</span>
             {part}
           </button>
         );
@@ -93,14 +124,16 @@ function renderInteractiveParagraph(
   rawText: string,
   termMap: Map<string, MatchedItem>,
   regex: RegExp | null,
-  onSelectItem: (item: MatchedItem) => void
+  onSelectItem: (item: MatchedItem) => void,
+  onHoverItem: (item: MatchedItem, rect: DOMRect) => void,
+  onLeaveHover: () => void
 ) {
   if (!rawText) return null;
 
   // Completely strip all markdown asterisks (**, *, ***) from prose text
   const cleanText = rawText.replace(/\*+/g, "");
 
-  return renderInteractiveSegment(cleanText, termMap, regex, onSelectItem);
+  return renderInteractiveSegment(cleanText, termMap, regex, onSelectItem, onHoverItem, onLeaveHover);
 }
 
 export function InteractiveReader({
@@ -108,8 +141,27 @@ export function InteractiveReader({
   characters = [],
   lores = [],
 }: InteractiveReaderProps) {
-  // Popover State
+  // Popover State (Click/Tap to Pin)
   const [selectedItem, setSelectedItem] = useState<MatchedItem | null>(null);
+
+  // PC Hover Tooltip State
+  const [hoveredInfo, setHoveredInfo] = useState<{
+    item: MatchedItem;
+    x: number;
+    y: number;
+  } | null>(null);
+
+  const handleHoverItem = (item: MatchedItem, rect: DOMRect) => {
+    setHoveredInfo({
+      item,
+      x: rect.left + rect.width / 2,
+      y: rect.top,
+    });
+  };
+
+  const handleLeaveHover = () => {
+    setHoveredInfo(null);
+  };
 
   // Reader Customization State (Stored in localStorage)
   const [fontSize, setFontSize] = useState<number>(23); // 16 to 34px
@@ -161,7 +213,10 @@ export function InteractiveReader({
   // Close on Escape key
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setSelectedItem(null);
+      if (e.key === "Escape") {
+        setSelectedItem(null);
+        setHoveredInfo(null);
+      }
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
@@ -210,128 +265,201 @@ export function InteractiveReader({
       }
     });
 
-    // Sort terms by length descending to match longest phrases first (e.g. "Caelen Von Ravenwood" before "Caelen")
-    const sortedTerms = Array.from(termsSet).sort((a, b) => b.length - a.length);
-
-    if (sortedTerms.length === 0) {
+    if (termsSet.size === 0) {
       return { termMap: map, regex: null };
     }
 
-    const pattern = `(${sortedTerms.map(escapeRegExp).join("|")})`;
-    const reg = new RegExp(pattern, "gi");
+    // Sort terms descending by length so longer phrases match before substrings
+    const sortedTerms = Array.from(termsSet).sort((a, b) => b.length - a.length);
+    const escapedTerms = sortedTerms.map((t) => escapeRegExp(t));
+    const combinedRegex = new RegExp(`(${escapedTerms.join("|")})`, "gi");
 
-    return { termMap: map, regex: reg };
+    return { termMap: map, regex: combinedRegex };
   }, [characters, lores]);
 
-  // Render paragraphs with highlighted mentions
+  // Split chapter content by double newline
   const paragraphs = useMemo(() => {
-    return content.split("\n").filter((p) => p.trim() !== "");
+    return content.split(/\n\s*\n/).filter(Boolean);
   }, [content]);
 
-  // Dynamic style themes for eye comfort
+  // Theme styling definitions
   const themeStyles = {
     dark: {
-      wrapper: "bg-slate-950/80 border-white/10 text-slate-100",
-      pColor: "text-slate-200/95",
-      accent: "#d4af37",
+      wrapper: "bg-slate-950/80 border-white/10 text-slate-200",
+      pColor: "text-slate-200",
+      activeThemeBtn: "bg-[#d4af37] text-slate-950 font-bold",
+      inactiveThemeBtn: "bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white border-white/5",
     },
     sepia: {
-      wrapper: "bg-[#181512] border-[#362e26] text-[#e8ded1]",
-      pColor: "text-[#ded1c0]",
-      accent: "#e5a93c",
+      wrapper: "bg-[#181410] border-amber-900/30 text-[#e6d7be]",
+      pColor: "text-[#e6d7be]",
+      activeThemeBtn: "bg-amber-600 text-white font-bold",
+      inactiveThemeBtn: "bg-white/5 hover:bg-white/10 text-amber-300/60 hover:text-amber-200 border-white/5",
     },
     oled: {
-      wrapper: "bg-black border-neutral-900 text-neutral-200",
+      wrapper: "bg-black border-neutral-900 text-neutral-300",
       pColor: "text-neutral-300",
-      accent: "#eab308",
+      activeThemeBtn: "bg-white text-black font-bold",
+      inactiveThemeBtn: "bg-neutral-900 hover:bg-neutral-800 text-neutral-500 hover:text-neutral-200 border-neutral-800",
     },
   }[theme];
 
   return (
-    <div className="space-y-6 select-text">
-      {/* Reader Customization Floating Toolbar (Mobile & Desktop) */}
-      <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-2.5 sm:p-3.5 transition-all">
-        <div className="flex items-center justify-between gap-2 overflow-x-auto scrollbar-none text-xs sm:text-sm">
-          {/* Quick Font Info */}
-          <div className="flex items-center gap-2 text-slate-300 shrink-0">
-            <div className="p-1.5 rounded-lg bg-[#d4af37]/15 text-[#d4af37]">
-              <Sliders className="w-3.5 h-3.5" />
-            </div>
-            <span className="text-[11px] sm:text-xs text-slate-300 font-medium whitespace-nowrap">
-              {fontFamily === "serif" ? "Literata Serif" : "Modern Sans"} • {fontSize}px
-            </span>
-          </div>
+    <div className="relative space-y-6">
+      {/* Floating Reader Settings Toolbar */}
+      <div className="sticky top-20 z-40 flex items-center justify-end pointer-events-none">
+        <div className="pointer-events-auto bg-slate-950/90 backdrop-blur-xl border border-[#d4af37]/40 shadow-[0_10px_30px_rgba(0,0,0,0.8)] rounded-2xl p-2 flex items-center gap-2">
+          {/* Quick Toggle Settings Button */}
+          <button
+            type="button"
+            onClick={() => setShowToolbar(!showToolbar)}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/5 hover:bg-[#d4af37] text-slate-300 hover:text-slate-950 text-xs font-bold border border-white/10 hover:border-[#d4af37] transition-all cursor-pointer"
+            title="Tùy chỉnh font chữ, cỡ chữ, giao diện đọc"
+          >
+            <Sliders className="w-3.5 h-3.5" />
+            <span className="hidden sm:inline">Tùy Chỉnh Đọc</span>
+            <ChevronDown className={`w-3 h-3 transition-transform ${showToolbar ? "rotate-180" : ""}`} />
+          </button>
+        </div>
+      </div>
 
-          {/* Quick Action Controls */}
-          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
-            {/* Font Size A- / A+ */}
-            <div className="flex items-center bg-black/40 border border-white/10 rounded-xl p-0.5 shadow-inner">
-              <button
-                type="button"
-                onClick={() => updateFontSize(-1)}
-                className="px-2 py-1 text-xs font-bold text-slate-300 hover:text-white hover:bg-white/10 rounded-lg transition-colors min-h-[32px] min-w-[32px] flex items-center justify-center cursor-pointer active:scale-95"
-                title="Giảm cỡ chữ"
-              >
-                A-
-              </button>
-              <span className="px-1.5 text-xs font-mono text-[#d4af37] font-bold">{fontSize}</span>
-              <button
-                type="button"
-                onClick={() => updateFontSize(1)}
-                className="px-2 py-1 text-xs font-bold text-slate-300 hover:text-white hover:bg-white/10 rounded-lg transition-colors min-h-[32px] min-w-[32px] flex items-center justify-center cursor-pointer active:scale-95"
-                title="Tăng cỡ chữ"
-              >
-                A+
-              </button>
-            </div>
-
-            {/* Font Family Toggle */}
+      {/* Expanded Reader Toolbar */}
+      {showToolbar && (
+        <div className="bg-gradient-to-b from-slate-900/95 via-slate-950/95 to-black border-2 border-[#d4af37]/40 rounded-3xl p-5 sm:p-6 shadow-[0_15px_45px_rgba(0,0,0,0.9)] backdrop-blur-2xl space-y-5 animate-in slide-in-from-top-2 duration-200">
+          <div className="flex items-center justify-between border-b border-white/10 pb-3">
+            <h4 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-[#d4af37] flex items-center gap-2">
+              <Sliders className="w-4 h-4" />
+              <span>Cài Đặt Trải Nghiệm Đọc</span>
+            </h4>
             <button
               type="button"
-              onClick={() => updateFontFamily(fontFamily === "serif" ? "sans" : "serif")}
-              className="px-2.5 sm:px-3 py-1.5 rounded-xl bg-black/40 border border-white/10 text-slate-200 hover:border-[#d4af37]/40 text-xs font-semibold transition-all flex items-center gap-1 min-h-[32px] cursor-pointer active:scale-95"
-              title="Đổi kiểu chữ (Serif / Sans)"
+              onClick={() => setShowToolbar(false)}
+              className="p-1 rounded-lg text-slate-400 hover:text-white transition-colors"
             >
-              <Type className="w-3.5 h-3.5 text-[#d4af37]" />
-              <span className="text-[11px] sm:text-xs">{fontFamily === "serif" ? "Serif" : "Sans"}</span>
+              <X className="w-4 h-4" />
             </button>
+          </div>
 
-            {/* Theme Toggle Buttons */}
-            <div className="flex items-center bg-black/40 border border-white/10 rounded-xl p-0.5 gap-0.5 shadow-inner">
-              <button
-                type="button"
-                onClick={() => updateTheme("dark")}
-                className={`p-1.5 rounded-lg transition-all min-h-[30px] min-w-[30px] flex items-center justify-center cursor-pointer ${
-                  theme === "dark" ? "bg-white/20 text-[#d4af37]" : "text-slate-400 hover:text-white"
-                }`}
-                title="Giao diện Deep Dark"
-              >
-                <Moon className="w-3.5 h-3.5" />
-              </button>
-              <button
-                type="button"
-                onClick={() => updateTheme("sepia")}
-                className={`p-1.5 rounded-lg transition-all min-h-[30px] min-w-[30px] flex items-center justify-center cursor-pointer ${
-                  theme === "sepia" ? "bg-amber-600/30 text-amber-300" : "text-slate-400 hover:text-white"
-                }`}
-                title="Giao diện Sepia ấm áp chống mỏi mắt"
-              >
-                <Coffee className="w-3.5 h-3.5" />
-              </button>
-              <button
-                type="button"
-                onClick={() => updateTheme("oled")}
-                className={`p-1.5 rounded-lg transition-all min-h-[30px] min-w-[30px] flex items-center justify-center cursor-pointer ${
-                  theme === "oled" ? "bg-white/20 text-yellow-300" : "text-slate-400 hover:text-white"
-                }`}
-                title="Giao diện AMOLED Black"
-              >
-                <Sun className="w-3.5 h-3.5" />
-              </button>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+            {/* 1. Font Size */}
+            <div className="space-y-2">
+              <span className="text-xs font-semibold text-slate-400">Cỡ chữ ({fontSize}px)</span>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => updateFontSize(-2)}
+                  className="flex-1 py-1.5 rounded-xl bg-white/5 hover:bg-white/15 text-slate-200 text-xs font-extrabold border border-white/10 cursor-pointer"
+                >
+                  A-
+                </button>
+                <button
+                  type="button"
+                  onClick={() => updateFontSize(2)}
+                  className="flex-1 py-1.5 rounded-xl bg-white/5 hover:bg-white/15 text-slate-200 text-xs font-extrabold border border-white/10 cursor-pointer"
+                >
+                  A+
+                </button>
+              </div>
+            </div>
+
+            {/* 2. Line Height */}
+            <div className="space-y-2">
+              <span className="text-xs font-semibold text-slate-400">Giãn dòng ({lineHeight})</span>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => updateLineHeight(1.8)}
+                  className={`flex-1 py-1.5 rounded-xl text-xs font-bold border cursor-pointer ${
+                    lineHeight === 1.8 ? "bg-[#d4af37] text-slate-950 border-[#d4af37]" : "bg-white/5 text-slate-300 border-white/10"
+                  }`}
+                >
+                  Gọn
+                </button>
+                <button
+                  type="button"
+                  onClick={() => updateLineHeight(2.2)}
+                  className={`flex-1 py-1.5 rounded-xl text-xs font-bold border cursor-pointer ${
+                    lineHeight === 2.2 ? "bg-[#d4af37] text-slate-950 border-[#d4af37]" : "bg-white/5 text-slate-300 border-white/10"
+                  }`}
+                >
+                  Vừa
+                </button>
+                <button
+                  type="button"
+                  onClick={() => updateLineHeight(2.5)}
+                  className={`flex-1 py-1.5 rounded-xl text-xs font-bold border cursor-pointer ${
+                    lineHeight === 2.5 ? "bg-[#d4af37] text-slate-950 border-[#d4af37]" : "bg-white/5 text-slate-300 border-white/10"
+                  }`}
+                >
+                  Thoáng
+                </button>
+              </div>
+            </div>
+
+            {/* 3. Font Family */}
+            <div className="space-y-2">
+              <span className="text-xs font-semibold text-slate-400">Kiểu chữ</span>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => updateFontFamily("serif")}
+                  className={`flex-1 py-1.5 rounded-xl text-xs font-serif font-bold border cursor-pointer ${
+                    fontFamily === "serif" ? "bg-[#d4af37] text-slate-950 border-[#d4af37]" : "bg-white/5 text-slate-300 border-white/10"
+                  }`}
+                >
+                  Có chân
+                </button>
+                <button
+                  type="button"
+                  onClick={() => updateFontFamily("sans")}
+                  className={`flex-1 py-1.5 rounded-xl text-xs font-sans font-bold border cursor-pointer ${
+                    fontFamily === "sans" ? "bg-[#d4af37] text-slate-950 border-[#d4af37]" : "bg-white/5 text-slate-300 border-white/10"
+                  }`}
+                >
+                  Không chân
+                </button>
+              </div>
+            </div>
+
+            {/* 4. Theme Selection */}
+            <div className="space-y-2">
+              <span className="text-xs font-semibold text-slate-400">Giao diện màu</span>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => updateTheme("dark")}
+                  className={`flex-1 py-1.5 rounded-xl text-xs font-bold border flex items-center justify-center gap-1 cursor-pointer ${
+                    theme === "dark" ? "bg-[#d4af37] text-slate-950 border-[#d4af37]" : "bg-white/5 text-slate-300 border-white/10"
+                  }`}
+                  title="Giao diện Dark Night"
+                >
+                  <Moon className="w-3.5 h-3.5" />
+                </button>
+                <button
+                  type="button"
+                  onClick={() => updateTheme("sepia")}
+                  className={`flex-1 py-1.5 rounded-xl text-xs font-bold border flex items-center justify-center gap-1 cursor-pointer ${
+                    theme === "sepia" ? "bg-amber-600 text-white border-amber-500" : "bg-white/5 text-slate-300 border-white/10"
+                  }`}
+                  title="Giao diện Giấy Cũ Sepia"
+                >
+                  <Coffee className="w-3.5 h-3.5" />
+                </button>
+                <button
+                  type="button"
+                  onClick={() => updateTheme("oled")}
+                  className={`flex-1 py-1.5 rounded-xl text-xs font-bold border flex items-center justify-center gap-1 cursor-pointer ${
+                    theme === "oled" ? "bg-white text-slate-950 border-white" : "bg-white/5 text-slate-300 border-white/10"
+                  }`}
+                  title="Giao diện AMOLED Black"
+                >
+                  <Sun className="w-3.5 h-3.5" />
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      )}
 
       {/* Chapter Text Body */}
       <div
@@ -348,25 +476,104 @@ export function InteractiveReader({
             key={pIdx}
             className={`mb-7 sm:mb-8 ${themeStyles.pColor} tracking-wide font-normal`}
           >
-            {renderInteractiveParagraph(paragraph, termMap, regex, setSelectedItem)}
+            {renderInteractiveParagraph(paragraph, termMap, regex, setSelectedItem, handleHoverItem, handleLeaveHover)}
           </p>
         ))}
       </div>
 
-      {/* Responsive Split-Screen: Desktop Side Dossier Panel (Bên Phải) / Mobile Bottom-Sheet */}
+      {/* ========================================================================= */}
+      {/* 1. PC FLOATING HOVER CARD (TOOLTIP PREVIEW ON DESKTOP) */}
+      {/* ========================================================================= */}
+      {hoveredInfo && !selectedItem && (
+        <div
+          className="hidden md:block fixed z-50 pointer-events-none transform -translate-x-1/2 -translate-y-full pb-3 animate-in fade-in zoom-in-95 duration-150"
+          style={{
+            left: `${Math.max(180, Math.min(typeof window !== "undefined" ? window.innerWidth - 180 : 1000, hoveredInfo.x))}px`,
+            top: `${hoveredInfo.y - 8}px`,
+          }}
+        >
+          <div className="w-80 bg-gradient-to-b from-slate-900/98 via-slate-950/98 to-black border-2 border-[#d4af37]/60 rounded-2xl p-4 shadow-[0_20px_50px_rgba(0,0,0,0.95)] backdrop-blur-2xl space-y-3">
+            {hoveredInfo.item.type === "character" ? (
+              <div className="space-y-2.5">
+                <div className="flex items-center gap-3">
+                  <div className="w-12 aspect-[9/16] rounded-xl overflow-hidden bg-slate-950 border border-[#d4af37]/50 shrink-0 shadow-md">
+                    {hoveredInfo.item.data.avatarUrl ? (
+                      <img
+                        src={hoveredInfo.item.data.avatarUrl}
+                        alt={hoveredInfo.item.data.name}
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center bg-slate-900 text-[#d4af37]/60">
+                        <User className="w-5 h-5" />
+                      </div>
+                    )}
+                  </div>
+                  <div className="min-w-0 space-y-1">
+                    <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-extrabold bg-[#d4af37]/15 text-[#d4af37] border border-[#d4af37]/30">
+                      <span>{getRoleEmoji(hoveredInfo.item.data.role)}</span>
+                      <span className="truncate">{hoveredInfo.item.data.role || "Nhân vật"}</span>
+                    </span>
+                    <h4 className="font-extrabold text-sm text-white truncate">
+                      {hoveredInfo.item.data.name}
+                    </h4>
+                    {hoveredInfo.item.data.aliases && (
+                      <p className="text-[11px] text-amber-200/80 truncate font-medium">
+                        {hoveredInfo.item.data.aliases}
+                      </p>
+                    )}
+                  </div>
+                </div>
+                {hoveredInfo.item.data.description && (
+                  <p className="text-xs text-slate-300 line-clamp-3 leading-relaxed font-normal bg-black/40 p-2.5 rounded-xl border border-white/5">
+                    {hoveredInfo.item.data.description.replace(/\*+/g, "")}
+                  </p>
+                )}
+              </div>
+            ) : (
+              <div className="space-y-2.5">
+                <div className="flex items-center justify-between gap-2 border-b border-white/10 pb-2">
+                  <div className="flex items-center gap-2 min-w-0">
+                    <span className="text-base shrink-0">
+                      {(hoveredInfo.item.data.category && CATEGORY_EMOJIS[hoveredInfo.item.data.category]) || CATEGORY_EMOJIS.default}
+                    </span>
+                    <div className="min-w-0">
+                      <span className="text-[10px] font-bold text-cyan-400 uppercase tracking-wider block">
+                        {hoveredInfo.item.data.category || "Thuật ngữ"}
+                      </span>
+                      <h4 className="font-extrabold text-sm text-white truncate">
+                        {hoveredInfo.item.data.term}
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+                <p className="text-xs text-slate-200 line-clamp-4 leading-relaxed font-normal bg-black/40 p-2.5 rounded-xl border border-white/5">
+                  {hoveredInfo.item.data.definition.replace(/\*+/g, "")}
+                </p>
+              </div>
+            )}
+            <div className="pt-1 border-t border-white/10 flex items-center justify-between text-[10px] text-slate-400 font-medium">
+              <span>💡 Bấm để ghim / xem chi tiết</span>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ========================================================================= */}
+      {/* 2. CLICKED PINNED MODAL (MOBILE MINI BOTTOM-SHEET / DESKTOP SIDE PANEL) */}
+      {/* ========================================================================= */}
       {selectedItem && (
         <div
           className="fixed inset-0 md:inset-auto md:top-20 md:right-6 md:w-[420px] md:max-w-[calc(100vw-3rem)] z-50 flex items-end md:block p-0 bg-black/70 md:bg-transparent backdrop-blur-md md:backdrop-blur-none animate-in fade-in duration-200"
           onClick={() => setSelectedItem(null)}
         >
-          {/* Modal / Side-Panel Container */}
+          {/* Modal / Bottom-Sheet Container */}
           <div
-            className="w-full bg-gradient-to-b from-slate-900 via-slate-950 to-black border-t md:border border-[#d4af37]/40 rounded-t-3xl md:rounded-3xl p-5 sm:p-6 shadow-[0_-10px_40px_rgba(0,0,0,0.8)] md:shadow-[0_15px_50px_rgba(0,0,0,0.9)] space-y-4 max-h-[85vh] md:max-h-[calc(100vh-6.5rem)] overflow-y-auto animate-in slide-in-from-bottom-5 md:slide-in-from-right-6 duration-200"
+            className="w-full bg-gradient-to-b from-slate-900 via-slate-950 to-black border-t-2 md:border-2 border-[#d4af37]/50 rounded-t-3xl md:rounded-3xl p-5 sm:p-6 shadow-[0_-15px_50px_rgba(0,0,0,0.9)] md:shadow-[0_15px_50px_rgba(0,0,0,0.9)] space-y-4 max-h-[85vh] md:max-h-[calc(100vh-6.5rem)] overflow-y-auto animate-in slide-in-from-bottom-5 md:slide-in-from-right-6 duration-200"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Mobile Drag Handle */}
-            <div className="w-12 h-1.5 bg-white/20 rounded-full mx-auto mb-2 md:hidden" />
-
+            <div className="w-12 h-1.5 bg-white/25 rounded-full mx-auto mb-2 md:hidden" />
 
             {/* Character Dossier Popover */}
             {selectedItem.type === "character" && (
@@ -374,7 +581,7 @@ export function InteractiveReader({
                 <div className="flex items-start justify-between gap-3 border-b border-white/10 pb-4">
                   <div className="flex items-center gap-3.5">
                     {/* Avatar 9:16 Portrait Canvas */}
-                    <div className="w-20 aspect-[9/16] rounded-2xl overflow-hidden bg-slate-950 border border-[#d4af37]/40 shrink-0 shadow-2xl relative">
+                    <div className="w-20 aspect-[9/16] rounded-2xl overflow-hidden bg-slate-950 border-2 border-[#d4af37]/50 shrink-0 shadow-2xl relative">
                       {selectedItem.data.avatarUrl ? (
                         <img
                           src={selectedItem.data.avatarUrl}
@@ -388,8 +595,8 @@ export function InteractiveReader({
                       )}
                     </div>
 
-                    {/* Titles */}
-                    <div className="space-y-1">
+                    {/* Titles with Emojis */}
+                    <div className="space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="p-1 rounded-md bg-[#d4af37]/10 text-[#d4af37]">
                           <Sparkles className="w-3.5 h-3.5" />
@@ -402,8 +609,9 @@ export function InteractiveReader({
                         {selectedItem.data.name}
                       </h3>
                       {selectedItem.data.role && (
-                        <span className="inline-block px-2 py-0.5 rounded-md text-[11px] font-bold bg-[#d4af37]/15 text-[#d4af37] border border-[#d4af37]/30">
-                          {selectedItem.data.role}
+                        <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-lg text-xs font-bold bg-[#d4af37]/15 text-[#d4af37] border border-[#d4af37]/30">
+                          <span>{getRoleEmoji(selectedItem.data.role)}</span>
+                          <span>{selectedItem.data.role}</span>
                         </span>
                       )}
                     </div>
@@ -431,27 +639,20 @@ export function InteractiveReader({
                       <Scroll className="w-3.5 h-3.5" /> Tiểu sử & Tính cách
                     </div>
                     <p className="text-sm text-slate-200 leading-relaxed font-light whitespace-pre-wrap bg-black/40 border border-white/5 rounded-xl p-3.5 max-h-48 overflow-y-auto">
-                      {selectedItem.data.description}
+                      {selectedItem.data.description.replace(/\*+/g, "")}
                     </p>
                   </div>
                 )}
               </div>
             )}
 
-            {/* Lore / Glossary Popover */}
+            {/* Lore / Glossary Popover with Emojis */}
             {selectedItem.type === "lore" && (
               <div className="space-y-4">
                 <div className="flex items-start justify-between gap-3 border-b border-white/10 pb-4">
                   <div className="flex items-center gap-3.5">
-                    <div className="p-3 rounded-2xl bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 shrink-0">
-                      {selectedItem.data.category && CATEGORY_ICONS[selectedItem.data.category] ? (
-                        (() => {
-                          const Icon = CATEGORY_ICONS[selectedItem.data.category];
-                          return <Icon className="w-6 h-6" />;
-                        })()
-                      ) : (
-                        <BookMarked className="w-6 h-6" />
-                      )}
+                    <div className="p-3 rounded-2xl bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 shrink-0 text-xl flex items-center justify-center">
+                      {(selectedItem.data.category && CATEGORY_EMOJIS[selectedItem.data.category]) || CATEGORY_EMOJIS.default}
                     </div>
 
                     <div className="space-y-1">
@@ -492,7 +693,7 @@ export function InteractiveReader({
                     <BookOpen className="w-3.5 h-3.5" /> Định nghĩa & Ý nghĩa
                   </div>
                   <p className="text-sm text-slate-200 leading-relaxed font-light whitespace-pre-wrap bg-black/40 border border-white/5 rounded-xl p-3.5 max-h-48 overflow-y-auto">
-                    {selectedItem.data.definition}
+                    {selectedItem.data.definition.replace(/\*+/g, "")}
                   </p>
                 </div>
               </div>
@@ -502,7 +703,7 @@ export function InteractiveReader({
               <button
                 type="button"
                 onClick={() => setSelectedItem(null)}
-                className="w-full sm:w-auto px-5 py-2 rounded-xl bg-white/10 hover:bg-white/15 text-slate-200 text-sm font-semibold transition-colors border border-white/10 text-center"
+                className="w-full sm:w-auto px-6 py-2.5 rounded-xl bg-white/10 hover:bg-white/15 text-slate-200 text-sm font-semibold transition-colors border border-white/10 text-center cursor-pointer"
               >
                 Đóng
               </button>
