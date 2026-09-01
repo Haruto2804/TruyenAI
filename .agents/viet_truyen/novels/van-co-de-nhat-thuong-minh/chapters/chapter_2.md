@@ -1,88 +1,125 @@
-# Chương 2: Thiên Cơ Định Giá Nhãn, 30 Đồng Phế Liệu Đổi Lấy Cổ Kiếm Chân Long
+# Chương 2: Thiên Cơ Định Giá Nhãn — 30 Đồng Phế Liệu Đổi Lấy Cổ Kiếm Chân Long
 
-Mùi máu tanh nồng nặc bốc lên trong không khí lạnh giá, quyện với hơi tuyết tan tạo thành một thứ tử khí đặc quánh.
+Mùi máu chưa khô vẫn vương vấn trong không khí mật thất, hòa lẫn với mùi đất ẩm và hơi lạnh từ nền đá hoa cương phả lên. Cố Trường Khanh đặt Thẩm Lạc Cẩm xuống chiếc giường đá duy nhất trong căn phòng, lưng áo nàng ướt đẫm — một nửa là máu, một nửa là mồ hôi lạnh.
 
-Đám người Triệu Báo tháo chạy thục mạng như ong vỡ tổ, tiếng vó ngựa hỗn loạn dần dần chìm vào bóng đêm vô tận ngoài con hẻm nhỏ.
+Hắn tháo lớp áo choàng ngoài phủ lên người nàng, rồi quay sang lục lọi chiếc tủ dược liệu cũ kỹ trong góc phòng. Ba khối Phế Linh Thạch vàng nhạt nằm lẫn giữa đống giẻ rách — loại linh thạch phẩm chất thấp nhất, đến tu sĩ Luyện Khí tầng một cũng chê không thèm dùng. Bên cạnh là một gốc thảo dược khô quắt, thân rễ đỏ sẫm như than hồng.
 
-Cố Trường Khanh không hề thả lỏng cảnh giác. Hắn vứt thanh sắt dính máu, quay sang bế xốc thân hình mềm mại của Thẩm Lạc Cẩm lên, sải bước tiến thẳng vào mật thất ngầm phía sau gian kho.
+Dương Viêm Thảo cấp một. Thuốc rẻ tiền nhất trong các loại thảo dược dương tính, chỉ đủ giữ mạng cho người trúng hàn độc khoảng nửa canh giờ. Nhưng đối với một chuyên gia quản lý rủi ro, nửa canh giờ là quá đủ để lập kế hoạch.
 
-Đặt nàng lên chiếc giường đá hoa cương, Cố Trường Khanh lấy từ trong góc phòng ra ba khối Phế Linh Thạch cùng một gốc thảo dược màu đỏ rực như than hồng.
+Hắn dùng lực bóp nát thân thảo dược, ép ra từng giọt nước cốt sệt đặc màu đỏ sẫm rỏ vào miệng Thẩm Lạc Cẩm. Nàng nuốt một cách khó nhọc, cổ họng co bóp yếu ớt, từng giọt nước cốt chạy dọc khóe môi nhợt nhạt.
 
-Dương Viêm Thảo cấp một.
+Rồi hắn làm một điều mà bản thân cũng không hiểu tại sao lại biết cách làm.
 
-Hắn dùng lực bóp nát thân thảo dược, ép ra từng giọt nước cốt màu đỏ thẫm đổ vào miệng nàng, sau đó kích hoạt Thao Thiết Thôn Kim Quyết!
+Hai bàn tay áp lên ba khối Phế Linh Thạch. Thứ bản năng mới thức tỉnh — Thao Thiết Thôn Kim Quyết — cuộn trào từ đan điền bị phong ấn như một con thú đói được thả xích. Hắn không cần vận chuyển linh lực, không cần khẩu quyết. Chỉ cần muốn — và ba khối linh thạch trong tay lập tức nóng rực lên.
 
-Xèo xèo!
+Xèo xèo.
 
-Ba khối Phế Linh Thạch trong lòng bàn tay hắn trong nháy mắt bị thiêu đốt thành tro bụi, hóa thành một luồng nhiệt khí chí dương thuần khiết rót thẳng vào lưng Thẩm Lạc Cẩm, giúp nàng tạm thời áp chế hàn độc đang cuộn trào.
+Phế Linh Thạch vỡ vụn thành bột mịn, tan biến giữa các ngón tay hắn như đường gặp nước sôi. Một luồng nhiệt khí thuần khiết — nhỏ bé, yếu ớt, nhưng nóng như lõi kim loại nung chảy — chạy dọc cánh tay, xuyên qua lòng bàn tay, truyền thẳng vào lưng Thẩm Lạc Cẩm.
 
 Ưm...
 
-Thẩm Lạc Cẩm khẽ rên một tiếng, làn da trắng nõn ửng hồng, lớp sương băng tím ngắt nơi khóe môi dần dần tan rã. Nàng mở bừng đôi mắt hồ ly, nhìn chằm chằm vào sườn mặt góc cạnh của Cố Trường Khanh, thì thào:
+Nàng rên khẽ. Làn da trắng nõn trên bờ vai ửng hồng, lớp sương băng tím ngắt nơi khóe môi dần thu hẹp. Chưa hết hẳn, nhưng đã đủ để nàng mở bừng đôi mắt.
 
-Đốt cháy linh thạch thành tu vi thuần khiết... Môn công pháp này của ngươi quá mức bá đạo! Ngươi rốt cuộc là ai?
+Đôi mắt hồ ly xanh biếc nhìn chằm chằm vào sườn mặt Cố Trường Khanh, tia nhìn sắc lẹm như lưỡi dao cạo:
 
-Một kẻ đến từ thế giới khác, và là đối tác kinh doanh duy nhất của nàng.
+Đốt linh thạch thành nhiệt lượng thuần túy truyền thẳng vào kinh mạch người khác... Cách dùng linh thạch của ngươi, ta chưa từng thấy bao giờ.
 
-Cố Trường Khanh thu hồi bàn tay, lạnh nhạt đáp. Hắn xoay người bước đến đống phế liệu linh khí cũ nát của gia tộc chất đống nơi góc mật thất.
+Cố Trường Khanh rút tay về, thản nhiên đáp:
 
-Chiến Thần Đạo Nhãn trong mắt hắn quét qua hàng trăm món phế phẩm rỉ sét:
+Ba khối Phế Linh Thạch mua mạng một Trúc Cơ Viên Mãn, tỷ suất lợi nhuận khá ổn.
 
-Vật phẩm: Giáp ngực vỡ - Giá trị: Hai đồng vụn.
-Vật phẩm: Pháp trượng gãy - Giá trị: Năm đồng vụn.
-Vật phẩm: Tàn kiếm rỉ sét vô danh - Giá trị: Ba mươi đồng vụn. Ẩn giấu: Long Hồn Thượng Cổ Xích Tiêu phong ấn tầng chín! Giá trị thực tế khi giải phong ấn: MƯỜI VẠN TRUNG PHẨM LINH THẠCH!
+Thẩm Lạc Cẩm im lặng nhìn hắn một lúc lâu, rồi bật cười khẽ. Tiếng cười trong trẻo nhưng mang theo vị chua chát:
 
-Đồng tử Cố Trường Khanh co rút mãnh liệt. Hắn lập tức vươn tay chộp lấy thanh đoản kiếm rỉ sét dài chừng hai thước nằm dưới đáy đống sắt vụn. Lưỡi kiếm loang lổ vết ố đỏ như máu khô, chuôi kiếm quấn dây gai thô ráp.
+Ngươi cứu ta vì tính toán lợi nhuận?
 
-Rắc! Rắc!
+Tôi cứu mọi người vì tính toán lợi nhuận.
 
-Đột nhiên, một tiếng ngói vỡ cực khẽ vang lên từ nóc mật thất.
+Hắn không nói thêm. Quay người bước đến đống phế liệu của gia tộc chất đống nơi góc mật thất — hàng trăm món đồ gỉ sét, vỡ nát, bám đầy bụi bặm. Đôi mắt mới thức tỉnh của hắn lướt qua từng món, và thông tin tự động hiện ra trong đầu như bản báo cáo tài chính:
 
-Cẩn thận! Có sát thủ Trúc Cơ!
+Giáp ngực vỡ. Giá trị còn lại: hai đồng vụn. Pháp trượng gãy. Giá trị: năm đồng vụn. Bình gốm nứt. Giá trị: ba đồng vụn. Hắn lật qua từng món, mỗi lần lắc đầu, và Thẩm Lạc Cẩm nằm trên giường đá quan sát hắn với vẻ tò mò ngày một tăng.
 
-Thẩm Lạc Cẩm biến sắc hét lên.
+Rồi tay hắn dừng lại.
 
-Ngay khoảnh khắc đó, trần đá của mật thất nổ tung thành ngàn vạn mảnh vụn! Một đạo kiếm quang màu đen tuyền mang theo kình phong Trúc Cơ Kỳ xé rách hư không, chém thẳng xuống đỉnh đầu Cố Trường Khanh!
+Dưới đáy đống sắt vụn, nằm lẫn giữa xích sắt gỉ và móng ngựa cũ, là một thanh đoản kiếm ngắn chừng hai thước. Lưỡi kiếm loang lổ vết ố nâu đỏ, chuôi kiếm quấn dây gai thô ráp đã sờn mục. Bất cứ ai nhìn vào cũng chỉ thấy một mảnh sắt vụn không đáng ba mươi đồng.
 
-Đó là một hắc y nhân đeo mặt nạ quỷ dữ, tu vi Trúc Cơ sơ kỳ cuồn cuộn tỏa ra linh áp bức người khiến không khí xung quanh như đông cứng lại!
+Nhưng đôi mắt Cố Trường Khanh nhìn thấy thứ khác.
 
-Tên phế vật Cố gia và con tiện nhân họ Thẩm, chết đi!
+Sâu bên trong lớp gỉ sét, một vệt quang mang đỏ rực cuộn trào yếu ớt như hơi thở của một con thú ngủ đông. Nó bị phong ấn chín tầng, nhưng ngay cả khi phong ấn đã đè nén hàng ngàn năm, luồng năng lượng rò rỉ từ bên trong vẫn mạnh hơn bất cứ thứ gì trong cả đống phế liệu cộng lại.
 
-Chiến Thần Đạo Nhãn trong mắt Cố Trường Khanh xoay chuyển điên cuồng:
+Long Hồn. Một linh hồn rồng lửa thượng cổ đang ngủ say trong thanh kiếm rỉ sét.
 
-Đối thủ: Hắc Y Tử Sĩ Trúc Cơ Sơ Kỳ
-Sơ hở chết người: Đòn chém từ trên cao để lộ khe hở giáp ngực ba tấc dưới xương quai xanh bên trái trong 0.2 giây!
+Tay Cố Trường Khanh siết chặt chuôi kiếm. Kim loại lạnh buốt chạm vào lòng bàn tay, và một thoáng rung động cực nhẹ truyền lên — như tiếng gừ gừ của mãnh thú nhận ra chủ nhân.
 
-Cố Trường Khanh cắn rách đầu ngón tay, nhỏ ba giọt máu tươi lên rãnh kiếm rỉ sét trong tay, hét lớn:
+Ngay lúc đó, một tiếng động cực khẽ vang lên từ phía trên.
 
-Xích Tiêu! Khai phong cho ta!
+Rắc.
 
-Răng rắc!
+Ngói vỡ. Trên nóc mật thất.
 
-Lớp rỉ sét bên ngoài thanh đoản kiếm lập tức nứt toác từng mảng. Một tiếng long ngâm trầm hùng kinh thiên động địa bùng nổ, ánh sáng đỏ rực như dung nham núi lửa quét ngang mật thất!
+Cẩn thận!
 
-Cố Trường Khanh không hề né tránh mũi kiếm đen tuyền của tên sát thủ, thân hình hắn trượt ngang nửa bước trên nền đá, thanh Xích Tiêu Kiếm trong tay vung lên một đường vòng cung rực lửa, đâm thẳng vào khe hở ba tấc dưới xương quai xanh của đối phương!
+Thẩm Lạc Cẩm hét lên, giọng sắc lạnh cắt đứt bóng tối. Nàng đã nhận ra trước cả Cố Trường Khanh — thứ đang núp trên nóc quán cầm đồ không phải chuột hay chim đêm.
 
-Xoẹt!
+Trần đá mật thất nổ tung.
 
-Kiếm khí rực lửa bén ngót chém đứt ngọt xớt giáp hộ thân bằng huyền thiết của tên sát thủ, xuyên thẳng qua lồng ngực hắn!
+Ngàn vạn mảnh đá bay tứ tán như mưa rào. Một đạo kiếm quang đen tuyền xuyên thủng mái nhà, mang theo luồng linh áp mạnh đến mức không khí xung quanh đặc quánh lại như nước — kiếm khí Trúc Cơ Kỳ, áp đảo tuyệt đối so với bất kỳ kẻ nào Cố Trường Khanh vừa đối mặt.
 
-Phốc!
+Hắc y nhân đeo mặt nạ quỷ dữ lao xuống, tốc độ nhanh đến mức chỉ thấy một vệt đen lướt qua. Kiếm đen trong tay chém xuống đỉnh đầu Cố Trường Khanh với toàn bộ uy lực của tu sĩ Trúc Cơ sơ kỳ.
 
-Máu tươi kèm theo tạng phủ cháy xém phun ra như suối. Tên sát thủ Trúc Cơ trợn trừng đôi mắt lồi ra sau chiếc mặt nạ quỷ, không thể tin nổi một kẻ đan điền bị phế lại có thể dùng một kiếm chém gục mình:
+Phế vật Cố gia và con tiện nhân họ Thẩm — chết đi!
 
-Ngươi... thanh kiếm này...
+Chiến Thần Đạo Nhãn trong mắt Cố Trường Khanh xoay chuyển điên cuồng. Quỹ đạo kiếm đen hiện ra rõ mồn một — và cùng với nó, một sơ hở duy nhất: đòn chém từ trên cao để lộ khe hở giáp ngực ba tấc dưới xương quai xanh bên trái. Khe hở chỉ tồn tại trong hai phần mười giây.
 
-Phập!
+Hai phần mười giây.
 
-Cố Trường Khanh xoay ngược chuôi kiếm, chém đứt đầu tên sát thủ rơi lông lốc xuống đất!
+Trong thế giới giao dịch cao tần, hai phần mười giây là cả một vĩnh hằng.
 
-Hắn lục lọi trên thi thể tên sát thủ, tìm thấy một túi trữ vật chứa năm trăm khối Hạ Phẩm Linh Thạch cùng một tấm Hắc Thị Thần Bí Lệnh bằng đồng đen.
+Cố Trường Khanh cắn rách đầu ngón tay, ba giọt máu nóng hổi nhỏ lên rãnh kiếm gỉ sét.
 
-Thao Thiết Thôn Kim Quyết, luyện hóa!
+Và thanh tàn kiếm run lên.
 
-Cố Trường Khanh áp tay vào túi trữ vật, toàn bộ năm trăm khối linh thạch lập tức bốc cháy ngùn ngụt, biến thành năng lượng cuồn cuộn tràn vào đan điền, phá tan đạo phong ấn thứ nhất của hắn, đưa tu vi trực tiếp bộc phát lên Luyện Khí tầng ba!
+Lớp rỉ sét bên ngoài nứt toác từng mảng lớn, bong ra rơi lả tả xuống đất. Từ bên trong, một thứ ánh sáng đỏ rực như dung nham phún trào — nóng đến mức lông tóc trên mặt Cố Trường Khanh cong cháy, da tay phồng rộp, nhưng hắn không buông.
 
-Thẩm Lạc Cẩm ngồi trên giường đá nhìn toàn bộ cảnh tượng đó, đôi mắt hồ ly ánh lên tia sáng kinh diễm tột cùng:
+Tiếng long ngâm trầm hùng vang lên.
 
-Đốt tiền tăng tu vi, một kiếm trảm Trúc Cơ... Cố công tử, xem ra cuộc chơi của chúng ta đêm nay tại Hắc Thị sẽ vô cùng thú vị!
+Không phải tiếng kêu vang động trời đất mà tiểu thuyết hay miêu tả. Chỉ là một tiếng gầm trầm thấp như sấm xa, nặng trĩu, rung chuyển từ trong lồng ngực ra ngoài — nhưng đủ khiến gã sát thủ hắc y đang lao tới chợt chùn tay nửa nhịp.
+
+Nửa nhịp đó quyết định tất cả.
+
+Cố Trường Khanh không né tránh mũi kiếm đen. Thân hình hắn trượt ngang nửa bước trên nền đá, thấp người xuống, và thanh Xích Tiêu rực lửa trong tay đâm thẳng lên — xuyên qua khe hở ba tấc dưới xương quai xanh.
+
+Xoẹt.
+
+Kiếm khí long hỏa chém đứt ngọt xớt lớp giáp huyền thiết, xuyên thủng lồng ngực gã sát thủ từ dưới lên trên. Máu tươi kèm theo mùi khét lẹt của tạng phủ bị thiêu cháy phun ra ướt đẫm vai áo Cố Trường Khanh.
+
+Gã hắc y nhân trợn trừng đôi mắt sau chiếc mặt nạ quỷ, hai tay buông thõng, kiếm đen rơi loảng xoảng xuống nền đá. Hắn nhìn xuống lưỡi kiếm đang cắm xuyên ngực mình, giọng nói sủi bọt máu:
+
+Thanh kiếm này... là Xích Tiêu...
+
+Cố Trường Khanh xoay ngược chuôi kiếm, rút lưỡi kiếm ra. Xác gã sát thủ đổ vật xuống đất, máu chảy thành vũng loang rộng trên nền đá lạnh.
+
+Hắn lục lọi thi thể. Một túi trữ vật — bên trong chứa năm trăm khối Hạ Phẩm Linh Thạch sắp xếp ngay ngắn, cùng một tấm lệnh bài đồng đen khắc hình mặt quỷ.
+
+Năm trăm khối linh thạch.
+
+Thao Thiết Thôn Kim Quyết trong đan điền gầm gừ đòi ăn.
+
+Cố Trường Khanh không do dự. Hắn áp tay lên túi trữ vật.
+
+Lần này hắn đã biết cảm giác đó sẽ đến — luồng nhiệt cuồng bạo từ đan điền bùng phát, nuốt chửng năm trăm khối linh thạch trong nháy mắt. Linh lực thuần khiết tràn ngập kinh mạch như dòng sông vỡ đê, đập tan đạo phong ấn thứ nhất nơi đan điền.
+
+Răng rắc.
+
+Phong ấn vỡ. Tu vi nhảy vọt — Luyện Khí tầng một, tầng hai, tầng ba. Dừng lại.
+
+Cố Trường Khanh thở ra một hơi dài nóng hổi, hơi thở ngưng tụ thành sương trắng trong không khí lạnh giá. Toàn thân hắn ướt đẫm mồ hôi, cơ bắp co giật nhẹ, nhưng cảm giác rõ ràng — mạnh hơn. Nhanh hơn. Sắc bén hơn.
+
+Thẩm Lạc Cẩm ngồi trên giường đá, ôm gối nhìn toàn bộ diễn biến từ đầu đến cuối. Đôi mắt hồ ly xanh biếc không bỏ sót một chi tiết nào — từ cách hắn đọc sơ hở đối thủ, đến cách hắn dùng máu kích hoạt cổ kiếm, đến cách hắn đốt sạch năm trăm khối linh thạch không chút tiếc nuối để đổi lấy tu vi.
+
+Đốt tiền tăng tu vi. Một kiếm trảm Trúc Cơ.
+
+Nàng khẽ nghiêng đầu, mái tóc đen dài rủ xuống vai, nụ cười ma mị nở trên khóe môi vẫn còn vương vết máu khô:
+
+Cố công tử, nàng nhẹ nhàng gảy một hạt ngọc trên bàn tính bạch ngọc, tiếng ngọc va chạm thanh thúy vang lên trong mật thất yên tĩnh, xem ra cuộc chơi đêm nay tại Hắc Thị... sẽ rất đáng đồng tiền bát gạo.
+
+Nơi ngón tay nàng dừng lại trên bàn tính, hạt ngọc thứ chín đang phát ra một thứ quang mang lạnh lẽo — cùng tần số với luồng hàn khí tím ngắt vẫn đang âm thầm ăn mòn kinh mạch nàng từ bên trong.

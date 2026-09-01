@@ -1,90 +1,131 @@
-# Chương 3: Khế Ước Vạn Cổ, Nữ Quân Sư Gảy Bàn Tính Thao Túng Chợ Đen
+# Chương 3: Khế Ước Vạn Cổ — Nữ Quân Sư Gảy Bàn Tính Thao Túng Chợ Đen
 
-Ánh lửa đỏ rực phát ra từ thân kiếm Xích Tiêu chiếu rọi lên vách đá mật thất, hắt lên khuôn mặt hai người những cái bóng nhảy múa chập chờn. 
+Ánh lửa long hỏa từ thanh Xích Tiêu đã tắt, nhưng hơi nóng vẫn vương vấn trên vách đá mật thất, khiến những giọt nước ngưng tụ bốc hơi thành làn sương mỏng. Mùi máu khô từ xác tên sát thủ Trúc Cơ nơi góc phòng bắt đầu chuyển sang mùi tanh ôi — cái mùi quen thuộc mà Cố Trường Khanh đã ngửi quá nhiều lần trong chiến trường kiếp trước.
 
-Cố Trường Khanh dùng chân đá thi thể tên sát thủ Trúc Cơ vào góc khuất, sau đó cắm thanh tàn kiếm xuống đất, rút chiếc khăn tay lau sạch vết máu trên tay áo.
+Hắn dùng chân đẩy xác vào góc khuất, lấy tấm vải thô phủ lên, rồi ngồi xuống chiếc ghế gỗ đối diện giường đá.
 
-Linh lực từ năm trăm khối linh thạch vừa bị thiêu đốt đang cuộn trào trong kinh mạch, dung hợp với kinh nghiệm thực chiến của một võ sư kiếp trước, khiến mỗi cử động của hắn đều toát ra khí tức sát phạt lẫm liệt.
+Giữa hai người là chiếc bàn cũ kỹ, trên đặt tấm lệnh bài đồng đen dính máu và chiếc bàn tính bạch ngọc nứt vỡ.
 
-Thẩm Lạc Cẩm từ trên giường đá chậm rãi bước xuống, ngón tay ngọc ngà vuốt ve tấm lệnh bài bằng đồng đen:
+Nói đi. Cố Trường Khanh mở lời trước, giọng nói bình thản như đang chủ trì cuộc họp ban giám đốc. Hắc Thị là gì, Vương Đằng mang bao nhiêu tiền đến đó đêm nay, và nàng định lừa hắn bằng cách nào.
 
-Lệnh bài cấp Thiên của Hắc Thị. Kẻ muốn lấy mạng ta không chỉ có Vạn Kim Thương Hội, mà còn có cả thế lực bóng tối sau lưng Hắc Thị cấu kết.
+Thẩm Lạc Cẩm ngồi dậy trên giường đá, chậm rãi vuốt mái tóc rối bời sang một bên vai. Hàn độc vẫn chưa dứt hẳn — ngón tay nàng hơi run khi chạm vào bàn tính — nhưng đôi mắt hồ ly đã hoàn toàn tỉnh táo, sắc lẹm, và lạnh lùng.
 
-Đêm nay bọn chúng sẽ phải trả giá bằng cả vốn lẫn lời.
+Hắc Nham Hắc Thị là thành ngầm dưới lòng đất sâu trăm trượng, nơi tụ tập giác đấu trường đẫm máu và các phiên đấu giá phi pháp. Nàng đặt bàn tính lên bàn, mười ngón tay lướt qua các hạt ngọc, tiếng lách cách giòn giã vang lên trong không gian yên tĩnh. Vương Đằng, Nhị thiếu gia Vạn Kim Thương Hội, kẹt ở Luyện Khí tầng tám suốt ba năm. Hắn đang phát cuồng tìm Trúc Cơ Đan để tranh đoạt vị trí Chưởng Đàn Phân Hội trước mặt phụ thân.
 
-Cố Trường Khanh ngồi xuống chiếc ghế gỗ đối diện nàng, thản nhiên nói:
+Nàng ngước nhìn Cố Trường Khanh, khóe môi nhếch lên thành một đường cong sắc lạnh:
 
-Nói kế hoạch tài chính của nàng đi. Ta cần biết cách nuốt trọn số tiền năm vạn linh thạch mà Vương Đằng mang đến Hắc Thị đêm nay.
+Đêm nay, Hắc Thị sẽ đem ra đấu giá một viên cổ đan tên Uẩn Linh Thần Đan. Vương Đằng đã chuẩn bị năm vạn linh thạch để mua bằng được.
 
-Thẩm Lạc Cẩm mỉm cười. Nụ cười của nàng mang theo vẻ quyến rũ ma mị chết người nhưng lại lạnh buốt như băng tuyết ngàn năm. Nàng đặt chiếc bàn tính bằng bạch ngọc lên bàn, mười đầu ngón tay thon thả khẽ lướt qua các hạt tính.
+Và viên đan đó?
 
-Lách cách! Lách cách!
+Đã biến chất. Nàng gảy nhẹ một hạt tính, tiếng ngọc rơi gọn lỏn. Chu sa tẩm bên ngoài vẫn phát kim quang, nhưng bên trong đan lõi đã bị ẩm khí ăn mòn thành kịch độc phá hủy kinh mạch. Bất kỳ ai nuốt vào, tu vi sẽ tụt dốc không phanh.
 
-Tiếng ngọc va chạm thanh thúy giòn giã vang lên trong mật thất yên tĩnh.
+Cố Trường Khanh im lặng một lúc. Ngón tay gõ nhẹ lên mặt bàn — thói quen cũ từ kiếp trước, mỗi khi hắn đang tính toán quy mô vị thế giao dịch.
 
-Tại Hắc Nham Thành này, tài phú nhìn thì nhiều, nhưng thực chất chỉ lưu chuyển qua ba huyết mạch chính: Dược liệu tu luyện, Vũ khí pháp bảo và Đấu giá chợ đen ngầm.
+Chiến thuật đẩy giá FOMO. Hắn lên tiếng, dùng đúng thuật ngữ mà Thẩm Lạc Cẩm không thể hiểu — nhưng nàng không cần hiểu. Nàng chỉ cần hiểu kết quả. Ta sẽ đẩy giá lên bằng cách giả vờ tranh mua, ép hắn vung hết vốn liếng ôm trọn món phế phẩm. Nhưng ngoài ra, ta cần biết phiên đấu giá có món nào đáng giá thật không.
 
-Thẩm Lạc Cẩm vừa gảy bàn tính, đôi mắt vừa ánh lên những tia sáng tính toán sắc bén:
+Thẩm Lạc Cẩm gảy bàn tính liên hồi, tiếng ngọc va chạm nhanh dần như tiếng mưa rào:
 
-Vương Đằng kẹt ở Luyện Khí tầng tám suốt ba năm qua, hiện đang phát điên tìm kiếm Trúc Cơ Đan để tranh đoạt vị trí Chưởng Đàn Phân Hội. Đêm nay, Hắc Thị sẽ đem ra đấu giá một viên Tàn Phế Cổ Đan mang danh xưng là Uẩn Linh Thần Đan do thợ đào quặng tìm thấy trong di tích cổ. Vương Đằng đã chuẩn bị sẵn năm vạn linh thạch để ôm trọn món hàng này.
+Món thứ sáu, một khúc gỗ cháy đen xì, chủ sở hữu là thợ đào quặng mù chữ. Nàng dừng tay, đôi mắt ánh lên tia sáng nguy hiểm. Ta không dám chắc một trăm phần trăm, nhưng hình dáng, trọng lượng và vị trí tìm thấy trùng khớp với Cửu Dương Huyết Linh Chi — linh chi ngàn năm mọc trong lòng núi lửa. Nếu đúng, đó là khắc tinh duy nhất của Cửu U Băng Phách Độc trong người ta.
 
-Nàng ngước nhìn Cố Trường Khanh, khóe môi nhếch lên thành một đường cong nguy hiểm:
+Hai người nhìn nhau. Không cần nói thêm lời nào, cả hai đều hiểu — đêm nay không chỉ là kiếm tiền, mà là cứu mạng.
 
-Viên đan đó thực chất đã biến chất thành kịch độc ăn mòn kinh mạch. Chúng ta sẽ áp dụng chiến thuật FOMO đẩy giá lên đỉnh điểm để hắn nuốt trọn đống phế phẩm đó! Nhưng để bước vào được phòng đấu giá Thiên Tự, chúng ta phải vượt qua Đấu Trường Ngầm Hắc Thị.
+Cố Trường Khanh đặt bút lông xuống tờ giấy trắng trải trên bàn:
 
-Cố Trường Khanh đặt bút lông xuống một tờ giấy trắng:
+Lập khế ước. Lợi nhuận chia đôi. Ta phụ trách hàng hóa và giết người, nàng phụ trách tài chính và mưu kế. Bên nào phản bội, kẻ đó tự chịu hậu quả.
 
-Lập khế ước. Tên gọi: Khế Ước Vạn Cổ. Lợi nhuận chia đôi, ta phụ trách hàng hóa và trảm sát kẻ địch, nàng phụ trách bố cục tài chính và vận hành thương minh. Bất kỳ bên nào phản bội, trời tru đất diệt.
+Thẩm Lạc Cẩm không hề do dự. Nàng cắn đầu ngón tay út, một giọt máu đỏ tươi rỏ xuống góc tờ giấy, nở ra thành hình bông hồ ly chín đuôi — dấu ấn huyết mạch gia truyền.
 
-Thẩm Lạc Cẩm không chút do dự, cắn đầu ngón tay ấn một dấu vân tay đỏ tươi như máu xuống góc tờ giấy:
+Thành giao.
 
-Thành giao!
+Cố Trường Khanh nhìn giọt máu nở thành hình thù kỳ dị, khóe mày nhíu nhẹ nhưng không hỏi. Hắn gấp tờ khế ước cất vào ngực áo, đứng dậy:
 
-...
+Xuất phát.
 
-Giờ Hợi, dưới lòng đất sâu trăm trượng.
+---
 
-Khung cảnh Hắc Nham Hắc Thị hiện ra như một vương quốc tội ác ngầm. Khói lửa mịt mù, tiếng gào rú man dại của đám yêu thú bị xích sắt trói chặt hòa cùng tiếng hò reo khát máu từ Giác Đấu Trường Ngầm vọng lại rền vang như sấm.
+Giờ Hợi. Dưới lòng đất sâu trăm trượng.
 
-Cố Trường Khanh khoác áo choàng đen tuyền, tay cầm thanh Xích Tiêu quấn vải thô. Đi bên cạnh hắn, Thẩm Lạc Cẩm che mặt bằng lụa đỏ son, dáng đi uyển chuyển nhưng mỗi bước chân đều ẩn chứa sát cơ.
+Cầu thang xoắn ốc bằng đá đen dẫn xuống Hắc Nham Hắc Thị hẹp đến mức chỉ đủ một người đi, hai bên vách đá ướt nhẫy rỉ ra thứ nước vàng đục có mùi lưu huỳnh hăng hắc. Càng xuống sâu, không khí càng nóng bức, ẩm thấp, và ngột ngạt — như chui vào bụng một con thú khổng lồ.
 
-Đứng lại! Hai con chuột nhắt từ đâu tới, muốn đi qua hành lang này phải nộp phí năm trăm linh thạch!
+Rồi cầu thang kết thúc, và Hắc Thị mở ra trước mắt.
 
-Ba tên võ giả khổng lồ mình trần xăm trổ hình mãng xà hung hãn bước ra chắn ngang lối đi độc đạo dẫn vào lầu đấu giá. Tên đầu lĩnh là một gã Cuồng Thể Tu Luyện Khí tầng chín, trên tay cầm đôi chùy sắt nặng ngàn cân gõ vào nhau tóe lửa:
+Không phải một hang động. Mà là cả một thành phố ngầm.
 
-Hoặc là để con ả áo đỏ này lại cho các huynh đệ vui vẻ một đêm, ta cho ngươi toàn thây rời đi!
+Hàng trăm gian hàng bằng đá đen nằm san sát hai bên lối đi rộng bốn trượng, đèn dầu cá voi treo lủng lẳng tỏa ra thứ ánh sáng vàng đục nhờ nhờ. Tiếng rao bán, tiếng mặc cả, tiếng chửi bới, tiếng xích sắt kéo lê trên nền đá — tất cả hòa thành một bản giao hưởng hỗn loạn chói tai. Mùi mồ hôi, mùi rượu chua, mùi thuốc nổ và mùi máu tươi quyện vào nhau thành một thứ bầu không khí đặc quánh.
 
-Ha ha ha!
+Và phía xa, vọng lại từ sâu bên trong lòng núi — tiếng gào rú man dại của yêu thú bị xích sắt trói chặt, hòa cùng tiếng hò reo khát máu từ Giác Đấu Trường Ngầm rền vang như sấm.
 
-Đám côn đồ xung quanh cười ầm lên đầy dâm tục.
+Cố Trường Khanh khoác áo choàng đen, tay trái nắm chuôi Xích Tiêu quấn vải thô giấu trong vạt áo. Thẩm Lạc Cẩm đi bên cạnh, mặt che lụa đỏ son, dáng đi uyển chuyển nhưng mỗi bước chân đều tính toán — nàng luôn giữ khoảng cách đúng nửa bước sau hắn, vừa đủ để phản ứng nếu có biến.
 
-Ánh mắt Cố Trường Khanh lạnh lẽo như băng tuyết ngàn năm.
+Hắn nhận ra điều đó. Và hắn đánh giá cao.
 
-Chiến Thần Đạo Nhãn quét qua:
+Đứng lại!
 
-Mục tiêu: Cuồng Thể Tu Luyện Khí tầng chín
-Điểm yếu: Khớp gối chân phải từng bị thương tật, tụ lực chậm 0.3 giây khi vung chùy!
+Ba gã võ giả khổng lồ mình trần xăm trổ mãng xà bước ra chắn ngang lối đi dẫn vào lầu đấu giá. Tên đầu lĩnh cao hơn Cố Trường Khanh cả cái đầu, cơ bắp cuồn cuộn như đá tảng, hai tay cầm đôi chùy sắt gõ vào nhau tóe lửa:
 
-Giết!
+Muốn đi qua, nộp năm trăm linh thạch. Hoặc...
 
-Gã thể tu gầm lên, hai cây chùy sắt khổng lồ xé gió nện thẳng xuống đầu Cố Trường Khanh như thiên thạch rơi!
+Gã liếm môi, đôi mắt trâu đờ đẫn quét sang Thẩm Lạc Cẩm:
 
-Vút!
+Để con ả áo đỏ lại cho huynh đệ ta vui một đêm. Cho ngươi toàn thây rời đi.
 
-Cố Trường Khanh không lùi nửa bước, thân hình hắn như một tia chớp đỏ lướt qua dưới khe hở hai thanh chùy. Mũi kiếm Xích Tiêu quét ngang mặt đất, chém đứt gân kheo chân phải của gã khổng lồ!
+Đám lâu la xung quanh cười ầm lên. Tiếng cười vang dội trong hành lang đá hẹp, chát chúa đến nhức tai.
 
-Răng rắc!
+Thẩm Lạc Cẩm đứng yên, không nói, không nhúc nhích. Chỉ có ngón tay trỏ khẽ khàng lướt lên hạt ngọc thứ nhất trên bàn tính giấu trong tay áo.
 
-Gã thể tu rú lên thảm thiết, quỳ sụp xuống đất. Cố Trường Khanh thuận thế tung một cú đá sấm sét trúng thẳng vào cằm hắn, đánh bay thân hình nặng ba trăm cân của gã đập nát bức tường đá phía sau!
+Cố Trường Khanh cũng không nói.
 
-Hai tên lâu la bên cạnh hoảng hốt rút đao xông tới thì Thẩm Lạc Cẩm đã phất tay áo đỏ.
+Hắn bước tới. Một bước. Hai bước.
 
-Vút! Vút!
+Đôi mắt hắn quét qua gã thể tu khổng lồ — và thông tin tự động chạy: khớp gối chân phải hơi vẹo, sẹo cũ nơi xương bánh chè, tụ lực chậm khi vung chùy. Thương tật cũ. Điểm chết.
 
-Hai đạo hàn băng châm phát ra từ bàn tính bạch ngọc bắn xuyên qua hai bên vai của chúng, đóng băng toàn bộ khớp xương khiến hai tên ngã vật ra sàn la hét đau đớn trong làn sương lạnh.
+Gã thể tu gầm lên, hai cây chùy sắt nện thẳng xuống đầu Cố Trường Khanh như hai quả tạ rơi tự do.
 
-Toàn bộ hành lang trong nháy mắt rơi vào im lặng như tờ. Đám côn đồ xung quanh sợ hãi lùi dạt ra hai bên, không một kẻ nào dám thở mạnh.
+Nền đá dưới chân rung chuyển. Sức gió từ đôi chùy ép không khí thành sóng xung kích, thổi tung vạt áo Cố Trường Khanh ra phía sau.
 
-Cố Trường Khanh giẫm chân lên đầu gã thể tu đang quằn quại, rút tấm Hắc Thị Thần Bí Lệnh dính máu giơ lên trước mặt tên quản sự đang run lẩy bẩy:
+Hắn không lùi.
 
-Bây giờ... chúng ta đã đủ tư cách lên lầu ba Nhã Gian chưa?
+Thân hình lách sang phải đúng một khoảng tóc — đôi chùy sắt nện xuống cách vai hắn không đầy ba tấc, đập nát nền đá thành hố sâu nửa thước. Mảnh đá bắn tung tóe cứa rách má hắn, máu rỉ ra một đường mỏng.
+
+Trong khoảnh khắc gã thể tu dồn hết trọng tâm xuống đôi chùy — Cố Trường Khanh rút Xích Tiêu.
+
+Không hoa mỹ. Không kiếm quang rực rỡ. Chỉ là một đường kiếm ngắn gọn, quét ngang mặt đất, chém đứt gân kheo chân phải — đúng vào khớp gối bị thương tật.
+
+Phập.
+
+Gã khổng lồ rú lên thảm thiết, quỳ sụp xuống đất bằng đầu gối còn lại. Chưa kịp hiểu chuyện gì xảy ra thì mũi giày Cố Trường Khanh đã tung lên đúng vào cằm gã — tiếng xương hàm vỡ nghe rõ ràng, giòn tan, đầu gã bật ngửa ra sau, thân hình nặng ba trăm cân lật nhào đập nát bức tường đá phía sau.
+
+Hai tên lâu la rút đao xông tới.
+
+Vút. Vút.
+
+Hai đạo hàn khí xanh biếc bay ra từ tay áo đỏ của Thẩm Lạc Cẩm — hai hạt ngọc bàn tính xuyên thủng vai phải của cả hai tên, đóng băng toàn bộ khớp xương quanh vết thương. Đao rơi loảng xoảng, hai gã ôm vai lăn lộn trên nền đá, miệng gào không ra tiếng vì lạnh.
+
+Hành lang rơi vào im lặng tuyệt đối.
+
+Đám côn đồ xung quanh lùi dạt ra hai bên, không ai dám thở mạnh. Cả chục đôi mắt nhìn hai thân ảnh — một đen, một đỏ — bước qua đống thân xác quằn quại trên sàn, thản nhiên như bước qua vũng nước mưa.
+
+Cố Trường Khanh giẫm chân lên ngực gã thể tu đang nằm bất động, rút tấm lệnh bài đồng đen dính máu giơ lên trước mặt tên quản sự đang run lẩy bẩy bên cửa lầu đấu giá:
+
+Bây giờ, chúng ta đủ tư cách lên lầu ba Nhã Gian chưa?
+
+Tên quản sự nuốt nước bọt, gật đầu liên tục, lùi sang một bên nhường lối.
+
+Thẩm Lạc Cẩm lướt qua bên cạnh Cố Trường Khanh, giọng nói nhỏ đến mức chỉ hai người nghe thấy:
+
+Lúc nãy ngươi bị mảnh đá cứa rách má. Vết thương nông, nhưng sẽ để sẹo nếu không bôi thuốc.
+
+Không cần.
+
+Sẹo trên mặt đàn ông có giá của nó. Nàng phẩy tay áo đỏ, uyển chuyển bước lên cầu thang xoắn ốc dẫn đến tầng ba. Ít nhất nó chứng minh rằng ngươi biết cách nhận đòn mà không chết.
+
+Cố Trường Khanh lặng lẽ đi theo, lưỡi kiếm Xích Tiêu còn nhỏ từng giọt máu tí tách xuống bậc đá.
+
+Phía trên, lầu ba Nhã Gian đang chờ đợi. Và ngay tại nhã gian số một đối diện, rèm ngọc được vén cao đầy ngạo mạn — Vương Đằng, Nhị thiếu gia Vạn Kim Thương Hội, đang phe phẩy quạt vàng, mười ngón tay lấp lánh nhẫn linh thạch, cười nói huyên thuyên với đám nịnh bợ xung quanh.
+
+Năm vạn linh thạch tiền mặt cộng hạn mức tín dụng hai vạn.
+
+Thẩm Lạc Cẩm gảy nhẹ bàn tính, tiếng ngọc va chạm chỉ đủ để Cố Trường Khanh nghe thấy:
+
+Con mồi đã vào bẫy.
