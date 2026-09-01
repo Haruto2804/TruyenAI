@@ -33,19 +33,22 @@ Mỗi lần sáng tác chương mới hoặc phát triển cốt truyện, hệ 
   - Phác thảo dàn ý chi tiết từng cảnh (Scene Beats) theo cấu trúc 3 hồi dưới định dạng chuẩn JSON.
   - Xác định rõ: Nhân vật xuất hiện, Mục tiêu cảnh, Xung đột cốt lõi, Khái niệm / Bí thuật / Độc dược mới được tiết lộ.
 
-### [SKILL 2] DRAFTER AGENT (TIỂU THUYẾT GIA NGUYÊN TÁC)
-* **Nhiệm vụ:** Chuyển hóa Dàn ý Scene Beats thành văn xuôi văn học thượng thừa.
+### [SKILL 2] DRAFTER AGENT (TIỂU THUYẾT GIA NGUYÊN TÁC - CHUẨN VĂN PHONG TRUYENFULL)
+* **Nhiệm vụ:** Chuyển hóa Dàn ý Scene Beats thành văn xuôi văn học thượng thừa đạt chuẩn 1.800 – 2.500 chữ/chương.
 * **Quy tắc vàng (Strict Constraints):**
-  1. **Show, Don't Tell:** Miêu tả hành động, biểu cảm, biến chuyển nội tâm; cấm tóm tắt cảm xúc suông.
-  2. **Kích hoạt Ngũ Quan:** Mỗi phân cảnh phải lột tả ít nhất 3 giác quan (Ánh sáng/Thị giác, Âm thanh/Thính giác, Mùi hương/Khứu giác, Nhiệt độ/Xúc giác, Vị giác).
-  3. **Hội thoại chân thực:** Ngắn gọn, có hồn, luôn xen kẽ hành động vi mô (micro-actions).
-  4. **Lọc bỏ AI Cliches & Asterisks:** Tuyệt đối cấm các từ ngữ sáo rỗng AI và không lưu trữ dấu sao `**` thừa trong văn bản chương.
-  5. **Nhịp điệu biến hóa:** Dồn dập trong chiến đấu, sâu lắng tinh tế trong nội tâm.
+  1. **Quy tắc Pacing "3 Nhịp" (3-Beat Pacing):**
+     * *Nhịp 1 (Không khí):* Khởi đầu bằng cảm giác môi trường, nhiệt độ, giác quan (mùi tanh bùn đất, gió rít, hàn khí thấu xương).
+     * *Nhịp 2 (Nút thắt):* Suy nghĩ nội tâm, phát hiện bất thường, tâm niệm xoay chuyển.
+     * *Nhịp 3 (Bùng nổ):* Hành động dứt khoát, câu thoại chốt hạ, đồng tử co rút, kình khí bộc phát.
+  2. **Show, Don't Tell & Kích hoạt Ngũ Quan:** Miêu tả hành động, biểu cảm, biến chuyển nội tâm; cấm tóm tắt cảm xúc suông. Mỗi phân cảnh lột tả ít nhất 3 giác quan.
+  3. **Hội thoại chân thực & Vi hành động:** Ngắn gọn, có hồn, phản ánh đúng uy áp và cảnh giới; xen kẽ hành vi vi mô (micro-actions: khẽ nhíu mày, gõ nhẹ đốc kiếm...).
+  4. **Quy tắc Cliffhanger Hook (3 Câu Cuối):** Luôn kết thúc bằng một biến cố đột ngột, tiếng bước chân lạ ngoài cửa hoặc phát hiện đảo lộn kế hoạch để thôi thúc độc giả bấm đọc tiếp.
+  5. **Lọc bỏ AI Cliches & Asterisks:** Tuyệt đối cấm các từ ngữ sáo rỗng AI và không lưu trữ dấu sao `**` thừa trong văn bản chương.
 
 ### [SKILL 3] EDITOR AGENT (BIÊN TẬP VIÊN KIỂM DUYỆT)
 * **Nhiệm vụ:** Rà soát bản nháp, đối chiếu với `master_codex.md`, chấm điểm theo định dạng JSON:
-  - `score` (Thang điểm 10).
-  - `critique` (Nhận xét chi tiết về Nhất quán, Ngũ quan, Show Don't Tell, Nhịp điệu).
+  - `score` (Thang điểm 10, yêu cầu >= 8.5 để PASS).
+  - `critique` (Nhận xét chi tiết về Nhất quán, Ngũ quan, Show Don't Tell, Pacing 3 Nhịp, Cliffhanger).
   - `action`: Trả về `"PASS"` (nếu score >= 8.5) hoặc `"REWRITE"` (nếu chưa đạt).
 
 ### [SKILL 4] MEMORY MANAGER AGENT (QUẢN LÝ KÝ ỨC & TIẾN TRÌNH)
