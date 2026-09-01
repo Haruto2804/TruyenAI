@@ -1,7 +1,10 @@
 import prisma from "@/lib/prisma";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { BookOpen, Clock, List, ChevronRight, Sparkles, BookMarked, MessageSquare } from "lucide-react";
+import { 
+  BookOpen, Clock, List, ChevronRight, Sparkles, BookMarked, 
+  MessageSquare, Feather, Palette, ShieldCheck, Crown 
+} from "lucide-react";
 import { auth } from "@/auth";
 import { BookmarkButton } from "@/components/BookmarkButton";
 import { CommentSection } from "@/components/CommentSection";
@@ -98,25 +101,74 @@ export default async function StoryDetail({
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-50 pointer-events-none" />
             </div>
 
-            {/* Quick Specs / Attributes Panel (Fills the empty space below cover on Desktop) */}
-            <div className="bg-black/45 border border-white/10 rounded-2xl sm:rounded-3xl p-4 sm:p-5 space-y-3 text-xs sm:text-sm shadow-inner">
-              <div className="flex items-center justify-between border-b border-white/5 pb-2.5">
-                <span className="text-slate-400 font-medium">Tác giả</span>
-                <span className="font-bold text-[#d4af37]">Thiên Thư AI</span>
-              </div>
-              <div className="flex items-center justify-between border-b border-white/5 pb-2.5">
-                <span className="text-slate-400 font-medium">Tình trạng</span>
-                <span className="font-bold text-emerald-400 flex items-center gap-1.5">
-                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" /> Đang phát hành
+            {/* Quick Specs / Luxury Attributes Card (Below Story Cover) */}
+            <div className="relative overflow-hidden bg-gradient-to-b from-slate-900/90 via-slate-950/95 to-black border border-[#d4af37]/30 hover:border-[#d4af37]/60 rounded-2xl sm:rounded-3xl p-3.5 sm:p-4 md:p-5 shadow-[0_15px_35px_rgba(0,0,0,0.7)] backdrop-blur-xl transition-all duration-300 group space-y-3 sm:space-y-3.5">
+              {/* Subtle top-right golden aurora ambient */}
+              <div className="absolute -top-10 -right-10 w-28 h-28 bg-[#d4af37]/10 rounded-full blur-2xl pointer-events-none group-hover:bg-[#d4af37]/20 transition-all duration-500" />
+
+              {/* Author & Studio Header */}
+              <div className="flex items-center justify-between gap-2 border-b border-white/10 pb-2.5 sm:pb-3">
+                <div className="flex items-center gap-2 sm:gap-2.5 min-w-0">
+                  <div className="p-1.5 sm:p-2 rounded-xl bg-gradient-to-br from-[#d4af37]/20 to-amber-500/10 text-[#d4af37] border border-[#d4af37]/30 shadow-inner shrink-0">
+                    <Feather className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                  </div>
+                  <div className="min-w-0">
+                    <p className="text-[10px] text-slate-400 font-medium uppercase tracking-wider">Tác giả</p>
+                    <p className="font-extrabold text-xs sm:text-sm md:text-base text-slate-100 truncate">Thiên Thư AI</p>
+                  </div>
+                </div>
+                <span className="inline-flex items-center gap-1 px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg text-[10px] sm:text-xs font-bold bg-[#d4af37]/15 text-[#d4af37] border border-[#d4af37]/30 shadow-sm shrink-0">
+                  <Crown className="w-3 h-3 text-[#d4af37]" />
+                  <span>Chính Hãng</span>
                 </span>
               </div>
-              <div className="flex items-center justify-between border-b border-white/5 pb-2.5">
-                <span className="text-slate-400 font-medium">Họa phẩm</span>
-                <span className="font-bold text-slate-200">Manhwa 9:16 HD</span>
+
+              {/* 2x2 Feature Highlights Grid */}
+              <div className="grid grid-cols-2 gap-2 sm:gap-2.5 text-left">
+                {/* 1. Tình trạng */}
+                <div className="p-2 sm:p-2.5 rounded-xl bg-white/[0.03] border border-white/5 hover:border-emerald-500/30 transition-all flex flex-col justify-between">
+                  <span className="text-[10px] text-slate-400 font-medium">Tình trạng</span>
+                  <div className="flex items-center gap-1.5 mt-1">
+                    <span className="relative flex h-2 w-2 shrink-0">
+                      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+                      <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
+                    </span>
+                    <span className="font-extrabold text-[11px] sm:text-xs text-emerald-400">Đang ra</span>
+                  </div>
+                </div>
+
+                {/* 2. Họa phẩm */}
+                <div className="p-2 sm:p-2.5 rounded-xl bg-white/[0.03] border border-white/5 hover:border-amber-500/30 transition-all flex flex-col justify-between">
+                  <span className="text-[10px] text-slate-400 font-medium">Họa phẩm</span>
+                  <div className="flex items-center gap-1.5 mt-1 min-w-0">
+                    <Palette className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-amber-400 shrink-0" />
+                    <span className="font-extrabold text-[11px] sm:text-xs text-slate-200 truncate">Manhwa 9:16</span>
+                  </div>
+                </div>
+
+                {/* 3. Tương tác X-Ray */}
+                <div className="p-2 sm:p-2.5 rounded-xl bg-white/[0.03] border border-white/5 hover:border-cyan-500/30 transition-all flex flex-col justify-between">
+                  <span className="text-[10px] text-slate-400 font-medium">Đặc sắc</span>
+                  <div className="flex items-center gap-1.5 mt-1 min-w-0">
+                    <Sparkles className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-cyan-400 shrink-0" />
+                    <span className="font-extrabold text-[11px] sm:text-xs text-cyan-300 truncate">X-Ray Tra Cứu</span>
+                  </div>
+                </div>
+
+                {/* 4. Bản quyền */}
+                <div className="p-2 sm:p-2.5 rounded-xl bg-white/[0.03] border border-white/5 hover:border-purple-500/30 transition-all flex flex-col justify-between">
+                  <span className="text-[10px] text-slate-400 font-medium">Bản quyền</span>
+                  <div className="flex items-center gap-1.5 mt-1 min-w-0">
+                    <ShieldCheck className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-purple-400 shrink-0" />
+                    <span className="font-extrabold text-[11px] sm:text-xs text-purple-300 truncate">Độc Quyền AI</span>
+                  </div>
+                </div>
               </div>
-              <div className="flex items-center justify-between">
-                <span className="text-slate-400 font-medium">Đặc sắc</span>
-                <span className="font-bold text-amber-300">Đại Tác Tử AI</span>
+
+              {/* Bottom Feature Tagline */}
+              <div className="pt-2 border-t border-white/10 flex items-center justify-center gap-1.5 text-[10px] sm:text-[11px] text-slate-300 font-medium text-center">
+                <span className="text-[#d4af37] font-bold">★</span>
+                <span>Chạm tra cứu nhân vật & bách khoa</span>
               </div>
             </div>
           </div>
