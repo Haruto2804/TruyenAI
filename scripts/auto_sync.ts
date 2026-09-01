@@ -130,6 +130,18 @@ function parseDynamicLores(codexContent: string): any[] {
   return lores;
 }
 
+// Helper: Find story cover with ANY image extension in public/covers folder
+function findStoryCover(novelSlug: string): string {
+  const coversDir = path.join(process.cwd(), "public", "covers");
+  const imageExtensions = [".png", ".jpg", ".jpeg", ".webp", ".avif"];
+  for (const ext of imageExtensions) {
+    if (fs.existsSync(path.join(coversDir, `${novelSlug}${ext}`))) {
+      return `/covers/${novelSlug}${ext}`;
+    }
+  }
+  return `/covers/${novelSlug}.jpg`;
+}
+
 async function syncNovel(novelSlug: string) {
   const novelDir = path.join(process.cwd(), ".agents", "viet_truyen", "novels", novelSlug);
   if (!fs.existsSync(novelDir)) {
@@ -175,12 +187,14 @@ async function syncNovel(novelSlug: string) {
     }
   }
 
+  const coverUrl = findStoryCover(novelSlug);
+
   const story = await prisma.story.upsert({
     where: { slug: novelSlug },
-    update: { title, genre, summary },
-    create: { title, slug: novelSlug, genre, summary, coverUrl: `/covers/${novelSlug}.jpg` }
+    update: { title, genre, summary, coverUrl },
+    create: { title, slug: novelSlug, genre, summary, coverUrl }
   });
-  console.log(`Story ID: ${story.id} (${story.title})`);
+  console.log(`Story ID: ${story.id} (${story.title}) -> Cover: ${coverUrl}`);
 
   // 2. Defined Character Prompts & Dossiers
   const NOVEL_CHARACTERS: Record<string, any[]> = {

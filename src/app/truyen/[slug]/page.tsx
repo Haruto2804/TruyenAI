@@ -162,22 +162,11 @@ export default async function StoryDetail({
           <div className="flex flex-row gap-3.5 xs:gap-4 sm:contents items-start">
             {/* Story Cover Poster */}
             <div className="relative aspect-[2/3] w-24 xs:w-28 sm:w-56 md:w-64 lg:w-72 rounded-2xl sm:rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.9)] border-2 border-[#d4af37]/40 hover:border-[#d4af37] group bg-slate-950 shrink-0 transition-all duration-300">
-              {story.coverUrl ? (
-                <img
-                  src={story.coverUrl}
-                  alt={story.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              ) : (
-                <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-amber-950/40 p-4 text-center">
-                  <div className="p-3 sm:p-4 rounded-2xl bg-white/5 border border-white/10 mb-2 sm:mb-3 shadow-inner">
-                    <BookOpen className="w-8 h-8 sm:w-10 sm:h-10 text-[#d4af37]" />
-                  </div>
-                  <span className="text-xs font-semibold text-amber-200/80 uppercase tracking-widest">
-                    {story.genre || 'Tiên Hiệp'}
-                  </span>
-                </div>
-              )}
+              <img
+                src={story.coverUrl || `/covers/${story.slug}.jpg`}
+                alt={story.title}
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-50 pointer-events-none" />
             </div>
 
@@ -216,21 +205,30 @@ export default async function StoryDetail({
 
               {/* Action Buttons Desktop: Inside right column */}
               {story.chapters.length > 0 && (
-                <div className="hidden sm:flex pt-2 sm:pt-3 flex-row items-center gap-3">
+                <div className="hidden sm:flex pt-2 sm:pt-3 flex-wrap items-center gap-3">
                   {lastReadChapter ? (
-                    <Link 
-                      href={`/truyen/${story.slug}/${lastReadChapter.chapterNo}`}
-                      className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 sm:h-13 min-h-[48px] px-6 sm:px-8 rounded-2xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 text-sm sm:text-base cursor-pointer"
-                    >
-                      Đọc tiếp #{lastReadChapter.chapterNo}
-                      <ChevronRight className="w-4 h-4" />
-                    </Link>
+                    <>
+                      <Link 
+                        href={`/truyen/${story.slug}/${lastReadChapter.chapterNo}`}
+                        className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 sm:h-13 min-h-[48px] px-6 sm:px-8 rounded-2xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 text-sm sm:text-base cursor-pointer whitespace-nowrap"
+                      >
+                        Đọc Tiếp #{lastReadChapter.chapterNo}
+                        <ChevronRight className="w-4 h-4" />
+                      </Link>
+                      <Link
+                        href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
+                        className="inline-flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 text-slate-200 hover:text-white border border-white/10 hover:border-white/25 font-bold h-12 sm:h-13 min-h-[48px] px-5 sm:px-6 rounded-2xl transition-all active:scale-98 text-sm sm:text-base cursor-pointer whitespace-nowrap"
+                      >
+                        Đọc Từ Đầu
+                      </Link>
+                    </>
                   ) : (
                     <Link 
                       href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
-                      className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 sm:h-13 min-h-[48px] px-6 sm:px-8 rounded-2xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 text-sm sm:text-base cursor-pointer"
+                      className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 sm:h-13 min-h-[48px] px-6 sm:px-8 rounded-2xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 text-sm sm:text-base cursor-pointer whitespace-nowrap"
                     >
-                      Đọc Từ Đầu (Chương 1)
+                      Đọc Từ Đầu
+                      <ChevronRight className="w-4 h-4" />
                     </Link>
                   )}
                   
@@ -244,21 +242,31 @@ export default async function StoryDetail({
 
           {/* Action Buttons Mobile: Full-width underneath on mobile */}
           {story.chapters.length > 0 && (
-            <div className="flex sm:hidden items-center gap-2 pt-1">
+            <div className="flex sm:hidden items-center gap-2 pt-2 w-full">
               {lastReadChapter ? (
-                <Link 
-                  href={`/truyen/${story.slug}/${lastReadChapter.chapterNo}`}
-                  className="flex-1 inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 px-4 rounded-xl shadow-[0_4px_20px_rgba(212,175,55,0.35)] transition-all text-sm cursor-pointer"
-                >
-                  Đọc tiếp #{lastReadChapter.chapterNo}
-                  <ChevronRight className="w-4 h-4" />
-                </Link>
+                <>
+                  <Link 
+                    href={`/truyen/${story.slug}/${lastReadChapter.chapterNo}`}
+                    className="flex-1 inline-flex items-center justify-center gap-1.5 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 px-3.5 rounded-xl shadow-[0_4px_20px_rgba(212,175,55,0.35)] transition-all text-xs xs:text-sm cursor-pointer whitespace-nowrap min-w-0"
+                  >
+                    <span className="truncate">Đọc Tiếp #{lastReadChapter.chapterNo}</span>
+                    <ChevronRight className="w-3.5 h-3.5 shrink-0" />
+                  </Link>
+                  <Link 
+                    href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
+                    className="inline-flex items-center justify-center bg-white/5 border border-white/10 hover:bg-white/10 text-slate-200 font-bold h-12 px-3 rounded-xl transition-all text-xs xs:text-sm cursor-pointer whitespace-nowrap shrink-0"
+                    title="Đọc từ chương 1"
+                  >
+                    Đọc Từ Đầu
+                  </Link>
+                </>
               ) : (
                 <Link 
                   href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
-                  className="flex-1 inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 px-4 rounded-xl shadow-[0_4px_20px_rgba(212,175,55,0.35)] transition-all text-sm cursor-pointer"
+                  className="flex-1 inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 px-4 rounded-xl shadow-[0_4px_20px_rgba(212,175,55,0.35)] transition-all text-sm cursor-pointer whitespace-nowrap min-w-0"
                 >
-                  Đọc Từ Đầu (Chương 1)
+                  <span className="truncate">Đọc Từ Đầu</span>
+                  <ChevronRight className="w-4 h-4 shrink-0" />
                 </Link>
               )}
               <div className="shrink-0">
