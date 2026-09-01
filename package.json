@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "prisma generate && next build",
     "start": "next start",
-    "lint": "eslint",
+    "lint": "next lint",
     "make-admin": "node scripts/make-admin.js",
     "sync:novel": "npx tsx scripts/auto_sync.ts",
     "test:security": "npx tsx scripts/security_audit.ts",
@@ -30,10 +30,16 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
+    "eslint": "^10",
     "eslint-config-next": "16.3.3",
     "prisma": "^5.22.0",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "allowScripts": {
+    "@prisma/client@5.22.0": true,
+    "@prisma/engines@5.22.0": true,
+    "prisma@5.22.0": true,
+    "unrs-resolver@1.12.2": true
   }
 }
