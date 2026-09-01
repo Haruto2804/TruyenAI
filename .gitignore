@@ -52,3 +52,7 @@ playwright-report/
 test-results/
 test_artifacts/
 test_screenshots/
+
+# scratch & temporary test scripts
+scratch/
+scratch_*
