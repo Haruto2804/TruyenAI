@@ -4,18 +4,29 @@ import { useState, useRef } from "react";
 import { Upload, X, Image as ImageIcon, Loader2, Link as LinkIcon, Check } from "lucide-react";
 
 interface ImageUploadProps {
-  initialValue?: string;
+  initialValue?: string | null;
+  defaultValue?: string | null;
   name?: string;
+  inputName?: string;
+  folder?: string;
   onChange?: (url: string) => void;
 }
 
-export function ImageUpload({ initialValue = "", name = "coverUrl", onChange }: ImageUploadProps) {
-  const [url, setUrl] = useState<string>(initialValue);
+export function ImageUpload({ 
+  initialValue = "", 
+  defaultValue,
+  name = "coverUrl", 
+  inputName,
+  onChange 
+}: ImageUploadProps) {
+  const initial = defaultValue || initialValue || "";
+  const fieldName = inputName || name;
+  const [url, setUrl] = useState<string>(initial);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>("");
   const [dragActive, setDragActive] = useState<boolean>(false);
   const [activeTab, setActiveTab] = useState<"file" | "url">("file");
-  const [directUrl, setDirectUrl] = useState<string>(initialValue);
+  const [directUrl, setDirectUrl] = useState<string>(initial);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const handleFile = async (file: File) => {
@@ -93,7 +104,7 @@ export function ImageUpload({ initialValue = "", name = "coverUrl", onChange }: 
   return (
     <div className="space-y-3">
       {/* Hidden input to pass value into Server Actions Form */}
-      <input type="hidden" name={name} value={url} />
+      <input type="hidden" name={fieldName} value={url} />
 
       {/* Tabs */}
       <div className="flex items-center gap-2 border-b border-white/5 pb-2">

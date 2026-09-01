@@ -584,7 +584,7 @@ export function InteractiveReader({
       {/* ========================================================================= */}
       {mounted && selectedItem && createPortal(
         <div
-          className="fixed inset-0 top-0 left-0 w-screen h-screen z-[9999] flex items-center justify-center p-3.5 sm:p-6 md:p-8 bg-black/90 backdrop-blur-2xl animate-in fade-in duration-200"
+          className="fixed inset-0 top-0 left-0 w-full h-full z-[9999] flex items-center justify-center p-3 sm:p-6 md:p-8 bg-black/90 backdrop-blur-2xl animate-in fade-in duration-200"
           onClick={() => setSelectedItem(null)}
         >
           {/* Modal / Dialog Container */}

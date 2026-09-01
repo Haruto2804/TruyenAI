@@ -147,23 +147,23 @@ export default async function StoryDetail({
   }
 
   return (
-    <div className="relative max-w-5xl mx-auto space-y-6 sm:space-y-10 pb-28 md:pb-12 overflow-x-hidden">
+    <div className="relative max-w-5xl mx-auto space-y-5 sm:space-y-8 pb-28 md:pb-12 overflow-x-hidden w-full">
       {/* Background ambient lighting for page */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden -z-10 w-full h-full">
         <div className="absolute -top-10 left-1/4 w-72 sm:w-96 h-72 sm:h-96 bg-[#d4af37]/10 blur-[130px] rounded-full max-w-full" />
       </div>
 
       {/* Story Header Hero Card */}
-      <div className="relative overflow-hidden bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-4 sm:p-8 md:p-10 shadow-2xl transition-all">
+      <div className="relative overflow-hidden bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl sm:rounded-3xl p-3.5 xs:p-4.5 sm:p-8 md:p-10 shadow-2xl transition-all">
         
         {/* ========================================================================= */}
         {/* UPPER HERO ROW: Cover Poster + Title, Meta & Action Buttons */}
         {/* ========================================================================= */}
-        <div className="space-y-4 sm:space-y-0 sm:flex sm:flex-row sm:gap-8 lg:gap-10 sm:items-start">
+        <div className="space-y-3.5 sm:space-y-0 sm:flex sm:flex-row sm:gap-8 lg:gap-10 sm:items-start">
           {/* Top Header Group: Side-by-side on mobile, left-column on desktop */}
-          <div className="flex flex-row gap-3.5 xs:gap-4 sm:contents items-start">
+          <div className="flex flex-row gap-3 xs:gap-4 sm:contents items-start">
             {/* Story Cover Poster */}
-            <div className="relative aspect-[2/3] w-24 xs:w-28 sm:w-56 md:w-64 lg:w-72 rounded-2xl sm:rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.9)] border-2 border-[#d4af37]/40 hover:border-[#d4af37] group bg-slate-950 shrink-0 transition-all duration-300">
+            <div className="relative aspect-[2/3] w-24 xs:w-28 sm:w-56 md:w-64 lg:w-72 rounded-xl sm:rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.9)] border-2 border-[#d4af37]/40 hover:border-[#d4af37] group bg-slate-950 shrink-0 transition-all duration-300">
               <img
                 src={story.coverUrl || `/covers/${story.slug}.jpg`}
                 alt={story.title}
@@ -173,53 +173,53 @@ export default async function StoryDetail({
             </div>
 
             {/* Story Title, Category & Meta */}
-            <div className="flex-1 space-y-2 sm:space-y-4 text-left min-w-0">
+            <div className="flex-1 space-y-2 sm:space-y-3 text-left min-w-0">
               <div>
-                <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-1.5 sm:mb-3">
+                <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-1.5 sm:mb-2.5">
                   {(story.genre || 'Tiên Hiệp')
                     .split(/[,/|]+/)
                     .map(g => g.trim())
                     .filter(Boolean)
                     .slice(0, 3)
                     .map((g, idx) => (
-                      <div key={idx} className="inline-flex items-center gap-1 px-2.5 py-0.5 sm:px-3.5 sm:py-1 rounded-full bg-[#d4af37]/15 border border-[#d4af37]/30 text-[#d4af37] text-[11px] sm:text-xs font-bold uppercase tracking-wider shadow-sm">
+                      <div key={idx} className="inline-flex items-center gap-1 px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-full bg-[#d4af37]/15 border border-[#d4af37]/30 text-[#d4af37] text-[10px] sm:text-xs font-bold uppercase tracking-wider shadow-sm">
                         {idx === 0 && <Sparkles className="w-3 h-3 sm:w-3.5 sm:h-3.5" />}
                         {g}
                       </div>
                     ))}
                 </div>
-                <h1 className="text-lg xs:text-xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight line-clamp-3 sm:line-clamp-none">
+                <h1 className="text-base xs:text-lg sm:text-2xl md:text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-snug line-clamp-3 sm:line-clamp-none">
                   {story.title}
                 </h1>
               </div>
 
               {/* Badges / Meta row */}
-              <div className="flex flex-wrap items-center justify-start gap-2 sm:gap-3 text-xs sm:text-sm text-slate-300">
-                <div className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-xl shadow-sm">
-                  <List className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#d4af37]" />
+              <div className="flex flex-wrap items-center justify-start gap-1.5 sm:gap-2.5 text-xs sm:text-sm text-slate-300">
+                <div className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-2 py-0.5 sm:px-3 sm:py-1 rounded-xl shadow-sm">
+                  <List className="w-3.5 h-3.5 text-[#d4af37]" />
                   <span className="font-bold text-slate-100">{story.chapters.length}</span> chương
                 </div>
-                <div className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-xl text-slate-400 shadow-sm">
-                  <Clock className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-slate-400" />
+                <div className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-2 py-0.5 sm:px-3 sm:py-1 rounded-xl text-slate-400 shadow-sm">
+                  <Clock className="w-3.5 h-3.5 text-slate-400" />
                   <span>{story.updatedAt.toLocaleDateString('vi-VN')}</span>
                 </div>
               </div>
 
               {/* Action Buttons Desktop: Inside right column */}
               {story.chapters.length > 0 && (
-                <div className="hidden sm:flex pt-2 sm:pt-3 flex-wrap items-center gap-3">
+                <div className="hidden sm:flex pt-2 sm:pt-3 flex-wrap items-center gap-2.5">
                   {lastReadChapter ? (
                     <>
                       <Link 
                         href={`/truyen/${story.slug}/${lastReadChapter.chapterNo}`}
-                        className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 sm:h-13 min-h-[48px] px-6 sm:px-8 rounded-2xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 text-sm sm:text-base cursor-pointer whitespace-nowrap"
+                        className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-11 sm:h-12 px-5 sm:px-7 rounded-xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 text-xs sm:text-sm cursor-pointer whitespace-nowrap min-w-0 max-w-xs"
                       >
-                        Đọc Tiếp #{lastReadChapter.chapterNo}
-                        <ChevronRight className="w-4 h-4" />
+                        <span className="truncate">Đọc Tiếp #{lastReadChapter.chapterNo}</span>
+                        <ChevronRight className="w-4 h-4 shrink-0" />
                       </Link>
                       <Link
                         href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
-                        className="inline-flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 text-slate-200 hover:text-white border border-white/10 hover:border-white/25 font-bold h-12 sm:h-13 min-h-[48px] px-5 sm:px-6 rounded-2xl transition-all active:scale-98 text-sm sm:text-base cursor-pointer whitespace-nowrap"
+                        className="inline-flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 text-slate-200 hover:text-white border border-white/10 hover:border-white/25 font-bold h-11 sm:h-12 px-4 sm:px-5 rounded-xl transition-all active:scale-98 text-xs sm:text-sm cursor-pointer whitespace-nowrap"
                       >
                         Đọc Từ Đầu
                       </Link>
@@ -227,10 +227,10 @@ export default async function StoryDetail({
                   ) : (
                     <Link 
                       href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
-                      className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 sm:h-13 min-h-[48px] px-6 sm:px-8 rounded-2xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 text-sm sm:text-base cursor-pointer whitespace-nowrap"
+                      className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-11 sm:h-12 px-6 sm:px-7 rounded-xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 text-xs sm:text-sm cursor-pointer whitespace-nowrap"
                     >
-                      Đọc Từ Đầu
-                      <ChevronRight className="w-4 h-4" />
+                      <span>Đọc Từ Đầu</span>
+                      <ChevronRight className="w-4 h-4 shrink-0" />
                     </Link>
                   )}
                   
@@ -242,38 +242,50 @@ export default async function StoryDetail({
             </div>
           </div>
 
-          {/* Action Buttons Mobile: Full-width underneath on mobile */}
+          {/* Action Buttons Mobile: Clean 2-Tier Full-Width Layout */}
           {story.chapters.length > 0 && (
-            <div className="flex sm:hidden items-center gap-2 pt-2 w-full">
+            <div className="flex flex-col sm:hidden gap-2 pt-1.5 w-full">
               {lastReadChapter ? (
                 <>
+                  {/* Primary: Full-width Continue Reading button with truncate protection */}
                   <Link 
                     href={`/truyen/${story.slug}/${lastReadChapter.chapterNo}`}
-                    className="flex-1 inline-flex items-center justify-center gap-1.5 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 px-3.5 rounded-xl shadow-[0_4px_20px_rgba(212,175,55,0.35)] transition-all text-xs xs:text-sm cursor-pointer whitespace-nowrap min-w-0"
+                    className="w-full inline-flex items-center justify-center gap-1.5 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 px-3.5 rounded-xl shadow-[0_4px_20px_rgba(212,175,55,0.35)] transition-all text-xs xs:text-sm cursor-pointer min-w-0"
                   >
-                    <span className="truncate">Đọc Tiếp #{lastReadChapter.chapterNo}</span>
-                    <ChevronRight className="w-3.5 h-3.5 shrink-0" />
+                    <span className="truncate flex-1 text-center">
+                      Đọc Tiếp #{lastReadChapter.chapterNo}{lastReadChapter.title ? `: ${lastReadChapter.title}` : ''}
+                    </span>
+                    <ChevronRight className="w-4 h-4 shrink-0" />
                   </Link>
-                  <Link 
-                    href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
-                    className="inline-flex items-center justify-center bg-white/5 border border-white/10 hover:bg-white/10 text-slate-200 font-bold h-12 px-3 rounded-xl transition-all text-xs xs:text-sm cursor-pointer whitespace-nowrap shrink-0"
-                    title="Đọc từ chương 1"
-                  >
-                    Đọc Từ Đầu
-                  </Link>
+
+                  {/* Secondary: Read from Start (50%) + Bookmark (50%) */}
+                  <div className="flex items-center gap-2 w-full">
+                    <Link 
+                      href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
+                      className="flex-1 inline-flex items-center justify-center bg-white/5 border border-white/10 hover:bg-white/10 text-slate-200 font-bold h-11 px-3 rounded-xl transition-all text-xs cursor-pointer whitespace-nowrap min-w-0"
+                      title="Đọc từ chương 1"
+                    >
+                      Đọc Từ Đầu
+                    </Link>
+                    <div className="flex-1 min-w-0">
+                      <BookmarkButton storyId={story.id} initialBookmarked={isBookmarked} className="w-full h-11" />
+                    </div>
+                  </div>
                 </>
               ) : (
-                <Link 
-                  href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
-                  className="flex-1 inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 px-4 rounded-xl shadow-[0_4px_20px_rgba(212,175,55,0.35)] transition-all text-sm cursor-pointer whitespace-nowrap min-w-0"
-                >
-                  <span className="truncate">Đọc Từ Đầu</span>
-                  <ChevronRight className="w-4 h-4 shrink-0" />
-                </Link>
+                <div className="flex items-center gap-2 w-full">
+                  <Link 
+                    href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
+                    className="flex-1 inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 px-4 rounded-xl shadow-[0_4px_20px_rgba(212,175,55,0.35)] transition-all text-sm cursor-pointer whitespace-nowrap min-w-0"
+                  >
+                    <span className="truncate">Đọc Từ Đầu</span>
+                    <ChevronRight className="w-4 h-4 shrink-0" />
+                  </Link>
+                  <div className="shrink-0">
+                    <BookmarkButton storyId={story.id} initialBookmarked={isBookmarked} />
+                  </div>
+                </div>
               )}
-              <div className="shrink-0">
-                <BookmarkButton storyId={story.id} initialBookmarked={isBookmarked} />
-              </div>
             </div>
           )}
         </div>
@@ -306,10 +318,10 @@ export default async function StoryDetail({
       </div>
 
       {/* Chapters Grid / List Section */}
-      <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl overflow-hidden shadow-xl">
-        <div className="p-5 sm:p-7 border-b border-white/5 flex items-center justify-between">
-          <h2 className="text-xl sm:text-2xl font-extrabold text-white flex items-center gap-2.5">
-            <List className="w-6 h-6 text-[#d4af37]" /> Danh Sách Chương
+      <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl">
+        <div className="p-4 sm:p-6 border-b border-white/5 flex items-center justify-between">
+          <h2 className="text-lg sm:text-xl font-extrabold text-white flex items-center gap-2 sm:gap-2.5">
+            <List className="w-5 h-5 text-[#d4af37]" /> Danh Sách Chương
           </h2>
           <span className="text-xs sm:text-sm text-slate-400 font-medium">
             {story.chapters.length} chương đã phát hành
@@ -317,7 +329,7 @@ export default async function StoryDetail({
         </div>
 
         {story.chapters.length === 0 ? (
-          <div className="p-8 text-center text-slate-500 text-base">
+          <div className="p-8 text-center text-slate-500 text-sm">
             Truyện chưa có chương nào được đăng tải.
           </div>
         ) : (
@@ -326,27 +338,27 @@ export default async function StoryDetail({
               <Link
                 key={chapter.id}
                 href={`/truyen/${story.slug}/${chapter.chapterNo}`}
-                className="flex items-center justify-between p-4 sm:p-5 hover:bg-white/5 transition-colors group min-h-[52px]"
+                className="flex items-center justify-between p-3.5 sm:p-4 hover:bg-white/5 transition-colors group min-h-[48px]"
               >
-                <div className="flex items-center gap-3 sm:gap-4 min-w-0">
-                  <span className="font-mono text-sm sm:text-base font-extrabold text-[#d4af37] shrink-0">
+                <div className="flex items-center gap-2.5 sm:gap-3.5 min-w-0">
+                  <span className="font-mono text-xs sm:text-sm font-extrabold text-[#d4af37] shrink-0">
                     #{chapter.chapterNo}
                   </span>
-                  <span className="text-sm sm:text-base md:text-lg font-semibold text-slate-200 group-hover:text-white transition-colors truncate">
+                  <span className="text-xs sm:text-sm md:text-base font-semibold text-slate-200 group-hover:text-white transition-colors truncate">
                     {chapter.title}
                   </span>
                   {chapter.isVip && (
-                    <span className="px-2.5 py-0.5 rounded-lg text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30 shrink-0">
+                    <span className="px-2 py-0.5 rounded-md text-[10px] sm:text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30 shrink-0">
                       VIP ({chapter.price}💎)
                     </span>
                   )}
                 </div>
 
-                <div className="flex items-center gap-2.5 shrink-0">
-                  <span className="text-xs sm:text-sm text-slate-400 hidden xs:inline">
+                <div className="flex items-center gap-2 shrink-0">
+                  <span className="text-[11px] sm:text-xs text-slate-400 hidden xs:inline">
                     {chapter.createdAt.toLocaleDateString('vi-VN')}
                   </span>
-                  <ChevronRight className="w-5 h-5 text-slate-500 group-hover:text-[#d4af37] group-hover:translate-x-1 transition-all" />
+                  <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-slate-500 group-hover:text-[#d4af37] group-hover:translate-x-1 transition-all" />
                 </div>
               </Link>
             ))}

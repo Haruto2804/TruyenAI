@@ -13,26 +13,26 @@ export default async function Home() {
   });
 
   return (
-    <div className="space-y-10 sm:space-y-12 pb-28 sm:pb-12">
+    <div className="space-y-8 sm:space-y-12 pb-28 sm:pb-12">
       {/* Hero Section */}
-      <section className="text-center py-16 space-y-6 relative">
+      <section className="text-center py-8 sm:py-16 space-y-3 sm:space-y-6 relative">
         {/* Glow effect behind title with design-spells pulse */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-32 bg-[#d4af37]/10 blur-[80px] rounded-full pointer-events-none animate-pulse" />
         
-        <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight text-white relative">
+        <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white relative">
           Kho Tàng <span className="bg-gradient-to-r from-[#d4af37] via-amber-300 to-yellow-500 bg-clip-text text-transparent drop-shadow-sm">Kỳ Thư</span>
         </h1>
-        <p className="text-slate-400 max-w-2xl mx-auto text-lg md:text-xl font-medium">
+        <p className="text-slate-400 max-w-2xl mx-auto text-sm sm:text-lg md:text-xl font-medium px-2">
           Đọc truyện mượt mà, không quảng cáo, tối ưu 100% cho thiết bị di động.
         </p>
       </section>
 
       {/* Main Content Section */}
       <section>
-        <div className="flex items-center justify-between mb-8 border-b border-white/5 pb-4">
-          <h2 className="text-2xl md:text-3xl font-bold text-slate-100 flex items-center gap-3">
-            <div className="p-2 bg-[#d4af37]/10 rounded-lg">
-              <BookOpen className="h-6 w-6 text-[#d4af37]" strokeWidth={2.5} />
+        <div className="flex items-center justify-between mb-6 sm:mb-8 border-b border-white/5 pb-3 sm:pb-4">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-100 flex items-center gap-2.5 sm:gap-3">
+            <div className="p-1.5 sm:p-2 bg-[#d4af37]/10 rounded-lg">
+              <BookOpen className="h-5 w-5 sm:h-6 sm:w-6 text-[#d4af37]" strokeWidth={2.5} />
             </div>
             Mới Cập Nhật
           </h2>
@@ -51,7 +51,7 @@ export default async function Home() {
             </button>
           </div>
         ) : (
-          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
             {stories.map((story) => (
               <Link 
                 key={story.id} 
@@ -59,7 +59,7 @@ export default async function Home() {
                 className="group block outline-none"
                 aria-label={`Đọc truyện ${story.title}`}
               >
-                <div className="relative flex flex-col h-full overflow-hidden bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl sm:rounded-3xl p-2.5 sm:p-3 transition-all duration-300 group-hover:-translate-y-1.5 group-hover:border-[#d4af37]/60 group-hover:shadow-[0_15px_40px_rgba(212,175,55,0.2)] group-focus-visible:ring-2 group-focus-visible:ring-[#d4af37]">
+                <div className="relative flex flex-col h-full overflow-hidden bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl sm:rounded-3xl p-2 xs:p-2.5 sm:p-3 transition-all duration-300 group-hover:-translate-y-1.5 group-hover:border-[#d4af37]/60 group-hover:shadow-[0_15px_40px_rgba(212,175,55,0.2)] group-focus-visible:ring-2 group-focus-visible:ring-[#d4af37]">
                   
                   {/* Cover Image Thumbnail Container (Chuẩn tỉ lệ dọc 2:3 của bìa tiểu thuyết & manhwa) */}
                   <div className="relative aspect-[2/3] w-full overflow-hidden rounded-xl sm:rounded-2xl bg-slate-950 shadow-lg border border-white/10">

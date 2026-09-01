@@ -32,17 +32,17 @@ function getShortRole(role?: string | null): string {
 }
 
 function renderFormattedDescription(desc: string | null) {
-  if (!desc) return <p className="text-sm sm:text-base text-slate-500 italic py-4">Chưa có tóm tắt cho nhân vật này.</p>;
+  if (!desc) return <p className="text-sm text-slate-500 italic py-3">Chưa có tóm tắt cho nhân vật này.</p>;
 
   // Split by double newline for paragraphs
   const paragraphs = desc.split(/\n\s*\n/);
 
   return (
-    <div className="bg-black/50 border border-white/10 rounded-2xl sm:rounded-3xl p-4 sm:p-6 space-y-4 shadow-inner">
+    <div className="bg-black/50 border border-white/10 rounded-2xl p-4 sm:p-5 space-y-3.5 shadow-inner">
       {paragraphs.map((p, pIdx) => {
         const parts = p.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g);
         return (
-          <p key={pIdx} className="text-sm sm:text-base md:text-lg lg:text-xl text-slate-100 leading-relaxed sm:leading-loose font-normal">
+          <p key={pIdx} className="text-sm sm:text-base text-slate-100 leading-relaxed font-normal">
             {parts.map((part, idx) => {
               if (part.startsWith("**") && part.endsWith("**")) {
                 return (
@@ -267,7 +267,7 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
       {/* ========================================================================= */}
       {mounted && selectedChar && !isFullscreenImage && createPortal(
         <div
-          className="fixed inset-0 top-0 left-0 w-screen h-screen z-[9999] flex items-center justify-center p-3 sm:p-6 md:p-8 bg-black/90 backdrop-blur-2xl animate-in fade-in duration-200"
+          className="fixed inset-0 top-0 left-0 w-full h-full z-[9999] flex items-center justify-center p-3 sm:p-6 md:p-8 bg-black/90 backdrop-blur-2xl animate-in fade-in duration-200"
           onClick={() => setSelectedIndex(null)}
         >
           {/* ========================================================================= */}
@@ -534,7 +534,7 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
       {/* FULLSCREEN IMMERSIVE LIGHTBOX (PORTALED TO BODY) */}
       {mounted && selectedChar && isFullscreenImage && createPortal(
         <div
-          className="fixed inset-0 top-0 left-0 w-screen h-screen z-[99999] flex items-center justify-center bg-black/95 backdrop-blur-2xl p-4 sm:p-8 animate-in fade-in duration-200"
+          className="fixed inset-0 top-0 left-0 w-full h-full z-[99999] flex items-center justify-center bg-black/95 backdrop-blur-2xl p-4 sm:p-8 animate-in fade-in duration-200"
           onClick={() => setIsFullscreenImage(false)}
         >
           {/* Top Bar inside Fullscreen Lightbox */}
