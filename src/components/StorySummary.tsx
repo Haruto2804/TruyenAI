@@ -5,16 +5,17 @@ import { ChevronDown, ChevronUp, BookOpen, Sparkles } from "lucide-react";
 
 interface StorySummaryProps {
   summary: string;
+  className?: string;
 }
 
-export function StorySummary({ summary }: StorySummaryProps) {
+export function StorySummary({ summary, className = "" }: StorySummaryProps) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   // Split paragraphs
   const paragraphs = summary.split(/\n\s*\n/).filter(Boolean);
 
   return (
-    <div className="relative bg-black/40 border border-white/10 rounded-2xl sm:rounded-3xl p-5 sm:p-7 text-left space-y-3 shadow-inner transition-all duration-300">
+    <div className={`relative bg-black/40 border border-white/10 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-7 text-left space-y-3 shadow-inner transition-all duration-300 ${className}`}>
       <div className="flex items-center justify-between">
         <h3 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-[#d4af37] flex items-center gap-2">
           <BookOpen className="w-4 h-4 text-[#d4af37]" />

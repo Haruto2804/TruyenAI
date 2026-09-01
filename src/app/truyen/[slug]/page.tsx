@@ -151,53 +151,88 @@ export default async function StoryDetail({
       {/* Story Header Hero Card */}
       <div className="relative overflow-hidden bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-4 sm:p-8 md:p-10 shadow-2xl transition-all">
         
-        {/* MOBILE LAYOUT (< sm) */}
-        <div className="flex flex-col gap-4 sm:hidden">
-          {/* Top Row: Side-by-side Cover + Details */}
-          <div className="flex gap-3.5 xs:gap-4 items-start">
-            {/* Poster Cover */}
-            <div className="relative aspect-[2/3] w-28 xs:w-32 rounded-2xl overflow-hidden shadow-2xl border-2 border-[#d4af37]/40 bg-slate-950 shrink-0">
+        {/* ========================================================================= */}
+        {/* UPPER HERO ROW: Cover Poster + Title, Meta & Action Buttons */}
+        {/* ========================================================================= */}
+        <div className="space-y-4 sm:space-y-0 sm:flex sm:flex-row sm:gap-8 lg:gap-10 sm:items-start">
+          {/* Top Header Group: Side-by-side on mobile, left-column on desktop */}
+          <div className="flex flex-row gap-3.5 xs:gap-4 sm:contents items-start">
+            {/* Story Cover Poster */}
+            <div className="relative aspect-[2/3] w-24 xs:w-28 sm:w-56 md:w-64 lg:w-72 rounded-2xl sm:rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.9)] border-2 border-[#d4af37]/40 hover:border-[#d4af37] group bg-slate-950 shrink-0 transition-all duration-300">
               {story.coverUrl ? (
                 <img
                   src={story.coverUrl}
                   alt={story.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               ) : (
-                <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-amber-950/40 p-2 text-center">
-                  <BookOpen className="w-6 h-6 text-[#d4af37] mb-1" />
-                  <span className="text-[10px] font-semibold text-amber-200/80 uppercase">
+                <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-amber-950/40 p-4 text-center">
+                  <div className="p-3 sm:p-4 rounded-2xl bg-white/5 border border-white/10 mb-2 sm:mb-3 shadow-inner">
+                    <BookOpen className="w-8 h-8 sm:w-10 sm:h-10 text-[#d4af37]" />
+                  </div>
+                  <span className="text-xs font-semibold text-amber-200/80 uppercase tracking-widest">
                     {story.genre || 'Tiên Hiệp'}
                   </span>
                 </div>
               )}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-50 pointer-events-none" />
             </div>
 
-            {/* Title & Metadata */}
-            <div className="flex-1 min-w-0 space-y-2 text-left">
-              <div className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#d4af37]/15 border border-[#d4af37]/30 text-[#d4af37] text-[11px] font-bold uppercase tracking-wider">
-                <Sparkles className="w-3 h-3" />
-                {story.genre || 'Tiên Hiệp'}
+            {/* Story Title, Category & Meta */}
+            <div className="flex-1 space-y-2 sm:space-y-4 text-left min-w-0">
+              <div>
+                <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 sm:px-3.5 sm:py-1 rounded-full bg-[#d4af37]/15 border border-[#d4af37]/30 text-[#d4af37] text-[11px] sm:text-xs font-bold uppercase tracking-wider mb-1.5 sm:mb-3 shadow-sm">
+                  <Sparkles className="w-3 h-3 sm:w-4 sm:h-4" />
+                  {story.genre || 'Tiên Hiệp'}
+                </div>
+                <h1 className="text-lg xs:text-xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight line-clamp-3 sm:line-clamp-none">
+                  {story.title}
+                </h1>
               </div>
-              <h1 className="text-xl xs:text-2xl font-black text-white leading-tight tracking-tight line-clamp-3">
-                {story.title}
-              </h1>
-              <div className="flex flex-wrap items-center gap-2 text-xs text-slate-300 pt-0.5">
-                <div className="flex items-center gap-1 bg-white/5 border border-white/10 px-2 py-0.5 rounded-lg">
-                  <List className="w-3 h-3 text-[#d4af37]" />
+
+              {/* Badges / Meta row */}
+              <div className="flex flex-wrap items-center justify-start gap-2 sm:gap-3 text-xs sm:text-sm text-slate-300">
+                <div className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-xl shadow-sm">
+                  <List className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#d4af37]" />
                   <span className="font-bold text-slate-100">{story.chapters.length}</span> chương
                 </div>
-                <div className="flex items-center gap-1 bg-white/5 border border-white/10 px-2 py-0.5 rounded-lg text-slate-400">
-                  <Clock className="w-3 h-3 text-slate-400" />
+                <div className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-xl text-slate-400 shadow-sm">
+                  <Clock className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-slate-400" />
                   <span>{story.updatedAt.toLocaleDateString('vi-VN')}</span>
                 </div>
               </div>
+
+              {/* Action Buttons Desktop: Inside right column */}
+              {story.chapters.length > 0 && (
+                <div className="hidden sm:flex pt-2 sm:pt-3 flex-row items-center gap-3">
+                  {lastReadChapter ? (
+                    <Link 
+                      href={`/truyen/${story.slug}/${lastReadChapter.chapterNo}`}
+                      className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 sm:h-13 min-h-[48px] px-6 sm:px-8 rounded-2xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 text-sm sm:text-base cursor-pointer"
+                    >
+                      Đọc tiếp #{lastReadChapter.chapterNo}
+                      <ChevronRight className="w-4 h-4" />
+                    </Link>
+                  ) : (
+                    <Link 
+                      href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
+                      className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 sm:h-13 min-h-[48px] px-6 sm:px-8 rounded-2xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 text-sm sm:text-base cursor-pointer"
+                    >
+                      Đọc Từ Đầu (Chương 1)
+                    </Link>
+                  )}
+                  
+                  <div>
+                    <BookmarkButton storyId={story.id} initialBookmarked={isBookmarked} />
+                  </div>
+                </div>
+              )}
             </div>
           </div>
 
-          {/* Action Buttons: Full width on Mobile */}
+          {/* Action Buttons Mobile: Full-width underneath on mobile */}
           {story.chapters.length > 0 && (
-            <div className="flex items-center gap-2 pt-1">
+            <div className="flex sm:hidden items-center gap-2 pt-1">
               {lastReadChapter ? (
                 <Link 
                   href={`/truyen/${story.slug}/${lastReadChapter.chapterNo}`}
@@ -219,102 +254,19 @@ export default async function StoryDetail({
               </div>
             </div>
           )}
-
-          {/* Specs Card: Full width on Mobile */}
-          <StorySpecsCard className="w-full" />
-
-          {/* Summary Box */}
-          {story.summary && (
-            <StorySummary summary={story.summary} />
-          )}
         </div>
 
-        {/* DESKTOP LAYOUT (>= sm) */}
-        <div className="hidden sm:flex sm:flex-row gap-6 sm:gap-8 lg:gap-10 items-stretch">
-          {/* Left Column: Story Cover Poster ONLY (Clean 2:3 aspect ratio matching right column height) */}
-          <div className="w-60 sm:w-68 md:w-76 lg:w-84 shrink-0 flex flex-col justify-start">
-            {/* Story Cover Poster */}
-            <div className="relative aspect-[2/3] w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.9)] border-2 border-[#d4af37]/40 hover:border-[#d4af37] group bg-slate-950 transition-all duration-300">
-              {story.coverUrl ? (
-                <img
-                  src={story.coverUrl}
-                  alt={story.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              ) : (
-                <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-amber-950/40 p-4 text-center">
-                  <div className="p-3 sm:p-4 rounded-2xl bg-white/5 border border-white/10 mb-2 sm:mb-3 shadow-inner">
-                    <BookOpen className="w-8 h-8 sm:w-10 sm:h-10 text-[#d4af37]" />
-                  </div>
-                  <span className="text-xs font-semibold text-amber-200/80 uppercase tracking-widest">
-                    {story.genre || 'Tiên Hiệp'}
-                  </span>
-                </div>
-              )}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-50 pointer-events-none" />
-            </div>
-          </div>
+        {/* ========================================================================= */}
+        {/* LOWER HERO ROW: 2 CONTAINERS NGANG HÀNG NHAU (Tác Giả & Tóm Tắt) */}
+        {/* ========================================================================= */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 items-stretch pt-6 sm:pt-8 border-t border-white/10 mt-6 sm:mt-8">
+          {/* Container 1: Thẻ Tác Giả & Thông Số Đặc Sắc */}
+          <StorySpecsCard className="w-full h-full" />
 
-          {/* Right Column: Story Info Details, Specs Card, Action Buttons & Expandable Summary */}
-          <div className="flex-1 flex flex-col justify-between space-y-4 sm:space-y-5 text-left w-full">
-            <div className="space-y-3 sm:space-y-4">
-              <div>
-                <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#d4af37]/15 border border-[#d4af37]/30 text-[#d4af37] text-xs sm:text-sm font-bold uppercase tracking-wider mb-2.5 sm:mb-3 shadow-sm">
-                  <Sparkles className="w-4 h-4" />
-                  {story.genre || 'Tiên Hiệp'}
-                </div>
-                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
-                  {story.title}
-                </h1>
-              </div>
-
-              {/* Badges / Meta row */}
-              <div className="flex flex-wrap items-center justify-start gap-3 text-xs sm:text-sm text-slate-300">
-                <div className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-3 py-1.5 rounded-xl shadow-sm">
-                  <List className="w-4 h-4 text-[#d4af37]" />
-                  <span className="font-bold text-slate-100">{story.chapters.length}</span> chương
-                </div>
-                <div className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-3 py-1.5 rounded-xl text-slate-400 shadow-sm">
-                  <Clock className="w-4 h-4 text-slate-400" />
-                  <span>{story.updatedAt.toLocaleDateString('vi-VN')}</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Quick Specs / Luxury Attributes Card (Seamlessly Integrated in Right Column) */}
-            <StorySpecsCard className="w-full" />
-
-            {/* Action Buttons */}
-            {story.chapters.length > 0 && (
-              <div className="pt-0.5 flex flex-row items-center gap-3">
-                {lastReadChapter ? (
-                  <Link 
-                    href={`/truyen/${story.slug}/${lastReadChapter.chapterNo}`}
-                    className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 sm:h-13 min-h-[48px] px-7 rounded-2xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 text-sm sm:text-base cursor-pointer"
-                  >
-                    Đọc tiếp #{lastReadChapter.chapterNo}
-                    <ChevronRight className="w-4 h-4" />
-                  </Link>
-                ) : (
-                  <Link 
-                    href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
-                    className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 sm:h-13 min-h-[48px] px-7 rounded-2xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 text-sm sm:text-base cursor-pointer"
-                  >
-                    Đọc Từ Đầu (Chương 1)
-                  </Link>
-                )}
-                
-                <div>
-                  <BookmarkButton storyId={story.id} initialBookmarked={isBookmarked} />
-                </div>
-              </div>
-            )}
-
-            {/* Story Summary with Interactive Expand / Collapse */}
-            {story.summary && (
-              <StorySummary summary={story.summary} />
-            )}
-          </div>
+          {/* Container 2: Thẻ Tóm Tắt Nội Dung (Ngang hàng) */}
+          {story.summary && (
+            <StorySummary summary={story.summary} className="w-full h-full" />
+          )}
         </div>
       </div>
 
