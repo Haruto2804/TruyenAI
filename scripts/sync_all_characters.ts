@@ -75,43 +75,22 @@ Cấu kết với Karlov phục kích Caelen tại Hẻm Sói Băng nhưng đã 
     }
   ];
 
+  // Clean re-sync all 7 characters in exact order
+  console.log("Cleaning and re-syncing all 7 characters for story:", story.title);
+  await prisma.character.deleteMany({ where: { storyId: story.id } });
+
   for (const char of characters) {
-    const found = await prisma.character.findFirst({
-      where: {
+    await prisma.character.create({
+      data: {
         storyId: story.id,
-        OR: [
-          { name: char.name },
-          { name: { contains: char.name.split(" ").pop() || char.name } },
-          { aliases: { contains: char.name.split(" ").pop() || char.name } }
-        ]
+        name: char.name,
+        role: char.role,
+        aliases: char.aliases,
+        avatarUrl: char.avatarUrl,
+        description: char.description
       }
     });
-
-    if (found) {
-      await prisma.character.update({
-        where: { id: found.id },
-        data: { 
-          name: char.name,
-          role: char.role,
-          aliases: char.aliases,
-          avatarUrl: char.avatarUrl,
-          description: char.description
-        }
-      });
-      console.log(`Updated ${char.name} summary -> DB OK`);
-    } else {
-      await prisma.character.create({
-        data: {
-          storyId: story.id,
-          name: char.name,
-          role: char.role,
-          aliases: char.aliases,
-          avatarUrl: char.avatarUrl,
-          description: char.description
-        }
-      });
-      console.log(`Created ${char.name} -> DB OK`);
-    }
+    console.log(`Created [${char.name}] with role [${char.role}] -> DB OK`);
   }
 }
 

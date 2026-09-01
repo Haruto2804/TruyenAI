@@ -2,7 +2,10 @@
 
 import { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
-import { BookMarked, Sparkles, X, ShieldAlert, Flame, Compass, Gem, Layers, Tag, ChevronRight } from "lucide-react";
+import { 
+  BookMarked, Sparkles, X, ShieldAlert, Flame, 
+  Compass, Gem, Layers, Tag, ChevronRight, ChevronDown 
+} from "lucide-react";
 
 export interface LoreItem {
   id: string;
@@ -29,10 +32,16 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
   const [mounted, setMounted] = useState(false);
   const [selectedLore, setSelectedLore] = useState<LoreItem | null>(null);
   const [activeCategory, setActiveCategory] = useState<string>("ALL");
+  const [visibleCount, setVisibleCount] = useState<number>(4);
 
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  // Reset pagination when category changes
+  useEffect(() => {
+    setVisibleCount(4);
+  }, [activeCategory]);
 
   // Lock body scroll when modal is open
   useEffect(() => {
@@ -68,6 +77,14 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
     activeCategory === "ALL"
       ? lores
       : lores.filter((l) => l.category === activeCategory);
+
+  const visibleLores = filteredLores.slice(0, visibleCount);
+  const hasMore = visibleCount < filteredLores.length;
+  const remainingCount = filteredLores.length - visibleCount;
+
+  const handleLoadMore = () => {
+    setVisibleCount((prev) => prev + 4);
+  };
 
   return (
     <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-4 sm:p-7 shadow-2xl space-y-4 sm:space-y-6">
@@ -130,7 +147,7 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
 
       {/* Lore Cards Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
-        {filteredLores.map((lore) => {
+        {visibleLores.map((lore) => {
           const Icon = (lore.category && CATEGORY_ICONS[lore.category]) || BookMarked;
           return (
             <div
@@ -169,6 +186,24 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
           );
         })}
       </div>
+
+      {/* Load More Button for Lores */}
+      {hasMore && (
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-3 sm:pt-4 border-t border-white/10">
+          <p className="text-xs sm:text-sm text-slate-400 font-medium">
+            Đang hiển thị <span className="text-cyan-400 font-bold">{visibleLores.length}</span> / {filteredLores.length} chú giải
+          </p>
+          <button
+            type="button"
+            onClick={handleLoadMore}
+            className="w-full sm:w-auto px-6 py-2.5 sm:py-3 rounded-2xl bg-gradient-to-r from-cyan-500/15 via-cyan-500/25 to-blue-500/15 hover:from-cyan-500/25 hover:to-blue-500/25 text-cyan-200 hover:text-white border border-cyan-500/40 hover:border-cyan-400 font-bold text-xs sm:text-sm md:text-base shadow-lg shadow-black/40 transition-all flex items-center justify-center gap-2 cursor-pointer active:scale-98 group"
+          >
+            <BookMarked className="w-4 h-4 text-cyan-400 group-hover:rotate-12 transition-transform" />
+            <span>Xem thêm chú giải (còn {remainingCount} chú giải)</span>
+            <ChevronDown className="w-4 h-4 text-cyan-400 group-hover:translate-y-0.5 transition-transform" />
+          </button>
+        </div>
+      )}
 
       {/* Lore Detail Modal (Always Centered in Full Viewport - Portaled to Body) */}
       {mounted && selectedLore && createPortal(

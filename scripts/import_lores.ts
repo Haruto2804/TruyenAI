@@ -69,25 +69,17 @@ async function main() {
     }
   ];
 
-  console.log("Upserting lores...");
-  for (const lore of lores) {
-    const existing = await prisma.lore.findFirst({
-      where: { storyId: story.id, term: lore.term }
-    });
+  console.log("Cleaning and re-syncing lores for story:", story.title);
+  await prisma.lore.deleteMany({ where: { storyId: story.id } });
 
-    if (existing) {
-      await prisma.lore.update({
-        where: { id: existing.id },
-        data: lore
-      });
-    } else {
-      await prisma.lore.create({
-        data: {
-          storyId: story.id,
-          ...lore
-        }
-      });
-    }
+  for (const lore of lores) {
+    await prisma.lore.create({
+      data: {
+        storyId: story.id,
+        ...lore
+      }
+    });
+    console.log(`Created lore [${lore.term}] (${lore.category}) -> DB OK`);
   }
 
   console.log(`Đã nạp thành công ${lores.length} chú giải khái niệm cho truyện!`);
