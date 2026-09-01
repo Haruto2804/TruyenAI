@@ -306,3 +306,19 @@
   - Kế hoạch củng cố kinh tế, vũ trang Thiết Kỵ và chuẩn bị hành trình tiến về Kinh Đô Solaria tham gia Hội Nghị Ma Pháp Tam Quốc của Caelen.
   - Sự trả thù trong bóng tối của Hội Lưỡi Hái Hắc Ám sau khi mất đi tuyến đường buôn lậu qua tay Karlov.
 
+---
+
+## 📜 5. NHẬT KÝ TIẾN TRÌNH CỐT TRUYỆN (CHAPTER ARC)
+
+- **Chương 1:** Caelen tỉnh giấc, dùng kỹ năng sát thủ và nhãn quan hiện đại khống chế hầu nữ Lilian, lật ngược thế cờ bị hạ độc.
+- **Chương 2:** Tam Công Chúa Valerie đến từ hôn; Caelen dùng tư duy đàm phán chính trị để biến tờ Huyết Chiếu thành bản hợp đồng kinh tế khổng lồ.
+- **Chương 3:** Xâm nhập Tàng Thư Các Cổ, dùng Ma Đồng "hack" hệ thống bảo mật, hấp thu Hàn Băng Thần Tủy, thanh tẩy 100% độc tố và đột phá Trung Giai Sơ Kỳ.
+- **Chương 4:** Chuyến đi thanh tra Hẻm Sói Băng bị phục kích; Caelen tương kế tựu kế để bắt quả tang đường dây buôn lậu quặng của Nhị Trưởng Lão Karlov.
+- **Chương 5:** Bão tuyết Hẻm Sói Băng; Caelen dùng Ma Đồng nhìn thấu tử huyệt và trảm tướng Boris Tai Đỏ chỉ bằng một đường kiếm.
+- **Chương 6:** Đụng độ Hắc Y Sứ Giả Vane; Caelen chống đỡ đòn ám sát Cao Giai, câu giờ để Evelyn xuất hiện chém đứt tay kẻ địch. Chị em chính thức liên minh.
+- **Chương 7:** Đại điện thanh trừng; Caelen phơi bày tội ác của Karlov, dùng Băng Sương Khóa Ma Chỉ phế bỏ lão, chính thức nắm trọn tài chính và quân sự phương Bắc.
+- **Chương 8:** Hành trình đến Kinh đô Solaria. Caelen thu mua một xưởng ma khí nợ nần trên đường đi, biến nó thành xưởng sản xuất vũ khí giá rẻ bằng cách cải tiến quy trình rèn nhờ Ma Đồng Giải Cấu.
+- **Chương 9:** Tiến vào Kinh đô, chạm trán Tứ Hoàng Tử - kẻ chống lưng cho Hội Lưỡi Hái Hắc Ám. Tứ Hoàng Tử ép Caelen nhượng mỏ ma thạch; Caelen đáp trả bằng chiến dịch bán khống cổ phần thương hội của hắn.
+- **Chương 10:** Dạ tiệc Hoàng Gia; Tứ Hoàng Tử sai sát thủ đóng giả kiếm khách thách đấu Caelen. Caelen dùng Ma Đồng phá nát vũ khí và phơi bày âm mưu ám sát giữa bá quan văn võ.
+- **Chương 11:** Cơn bão tài chính quét qua Kinh đô. Thương hội của Tứ Hoàng Tử sụp đổ, hàng vạn quý tộc phá sản. Caelen khai trương "Vạn Thương Ngân Hàng", thâu tóm tài sản quý tộc dưới danh nghĩa "cứu trợ".
+- **Chương 12:** Valerie bàng hoàng trước thủ đoạn lũng đoạn tàn nhẫn của Caelen. Tứ Hoàng Tử bị tước quyền, Caelen chính thức cắm rễ quyền lực tại trung tâm Đế quốc.
