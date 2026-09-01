@@ -12,6 +12,80 @@ import { CharacterGallery } from "@/components/CharacterGallery";
 import { LoreGallery } from "@/components/LoreGallery";
 import { StorySummary } from "@/components/StorySummary";
 
+function StorySpecsCard({ className = "" }: { className?: string }) {
+  return (
+    <div className={`relative overflow-hidden bg-gradient-to-b from-slate-900/90 via-slate-950/95 to-black border border-[#d4af37]/30 hover:border-[#d4af37]/60 rounded-2xl sm:rounded-3xl p-3.5 sm:p-4 md:p-5 shadow-[0_15px_35px_rgba(0,0,0,0.7)] backdrop-blur-xl transition-all duration-300 group space-y-3 sm:space-y-3.5 ${className}`}>
+      {/* Subtle top-right golden aurora ambient */}
+      <div className="absolute -top-10 -right-10 w-28 h-28 bg-[#d4af37]/10 rounded-full blur-2xl pointer-events-none group-hover:bg-[#d4af37]/20 transition-all duration-500" />
+
+      {/* Author & Studio Header */}
+      <div className="flex items-center justify-between gap-2 border-b border-white/10 pb-2.5 sm:pb-3">
+        <div className="flex items-center gap-2 sm:gap-2.5 min-w-0">
+          <div className="p-1.5 sm:p-2 rounded-xl bg-gradient-to-br from-[#d4af37]/20 to-amber-500/10 text-[#d4af37] border border-[#d4af37]/30 shadow-inner shrink-0">
+            <Feather className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+          </div>
+          <div className="min-w-0">
+            <p className="text-[10px] text-slate-400 font-medium uppercase tracking-wider">Tác giả</p>
+            <p className="font-extrabold text-xs sm:text-sm md:text-base text-slate-100 truncate">Thiên Thư AI</p>
+          </div>
+        </div>
+        <span className="inline-flex items-center gap-1 px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg text-[10px] sm:text-xs font-bold bg-[#d4af37]/15 text-[#d4af37] border border-[#d4af37]/30 shadow-sm shrink-0">
+          <Crown className="w-3 h-3 text-[#d4af37]" />
+          <span>Chính Hãng</span>
+        </span>
+      </div>
+
+      {/* 2x2 Feature Highlights Grid */}
+      <div className="grid grid-cols-2 gap-2 sm:gap-2.5 text-left">
+        {/* 1. Tình trạng */}
+        <div className="p-2 sm:p-2.5 rounded-xl bg-white/[0.03] border border-white/5 hover:border-emerald-500/30 transition-all flex flex-col justify-between min-w-0">
+          <span className="text-[10px] text-slate-400 font-medium">Tình trạng</span>
+          <div className="flex items-center gap-1.5 mt-1 min-w-0">
+            <span className="relative flex h-2 w-2 shrink-0">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
+            </span>
+            <span className="font-extrabold text-[11px] sm:text-xs text-emerald-400 whitespace-nowrap">Đang ra</span>
+          </div>
+        </div>
+
+        {/* 2. Họa phẩm */}
+        <div className="p-2 sm:p-2.5 rounded-xl bg-white/[0.03] border border-white/5 hover:border-amber-500/30 transition-all flex flex-col justify-between min-w-0">
+          <span className="text-[10px] text-slate-400 font-medium">Họa phẩm</span>
+          <div className="flex items-center gap-1.5 mt-1 min-w-0">
+            <Palette className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+            <span className="font-extrabold text-[11px] sm:text-xs text-slate-200 whitespace-nowrap">Manhwa 9:16</span>
+          </div>
+        </div>
+
+        {/* 3. Tương tác X-Ray */}
+        <div className="p-2 sm:p-2.5 rounded-xl bg-white/[0.03] border border-white/5 hover:border-cyan-500/30 transition-all flex flex-col justify-between min-w-0">
+          <span className="text-[10px] text-slate-400 font-medium">Đặc sắc</span>
+          <div className="flex items-center gap-1.5 mt-1 min-w-0">
+            <Sparkles className="w-3.5 h-3.5 text-cyan-400 shrink-0" />
+            <span className="font-extrabold text-[11px] sm:text-xs text-cyan-300 whitespace-nowrap">X-Ray Tra Cứu</span>
+          </div>
+        </div>
+
+        {/* 4. Bản quyền */}
+        <div className="p-2 sm:p-2.5 rounded-xl bg-white/[0.03] border border-white/5 hover:border-purple-500/30 transition-all flex flex-col justify-between min-w-0">
+          <span className="text-[10px] text-slate-400 font-medium">Bản quyền</span>
+          <div className="flex items-center gap-1.5 mt-1 min-w-0">
+            <ShieldCheck className="w-3.5 h-3.5 text-purple-400 shrink-0" />
+            <span className="font-extrabold text-[11px] sm:text-xs text-purple-300 whitespace-nowrap">Độc Quyền AI</span>
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom Feature Tagline */}
+      <div className="pt-2 border-t border-white/10 flex items-center justify-center gap-1.5 text-[10px] sm:text-xs text-slate-300 font-medium text-center">
+        <span className="text-[#d4af37] font-bold">★</span>
+        <span>Chạm tra cứu nhân vật & bách khoa toàn thư</span>
+      </div>
+    </div>
+  );
+}
+
 export default async function StoryDetail({
   params,
 }: {
@@ -75,11 +149,90 @@ export default async function StoryDetail({
       </div>
 
       {/* Story Header Hero Card */}
-      <div className="relative overflow-hidden bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-5 sm:p-8 md:p-10 shadow-2xl transition-all">
-        <div className="flex flex-col sm:flex-row gap-6 sm:gap-8 lg:gap-10 items-center sm:items-start">
-          
+      <div className="relative overflow-hidden bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-4 sm:p-8 md:p-10 shadow-2xl transition-all">
+        
+        {/* MOBILE LAYOUT (< sm) */}
+        <div className="flex flex-col gap-4 sm:hidden">
+          {/* Top Row: Side-by-side Cover + Details */}
+          <div className="flex gap-3.5 xs:gap-4 items-start">
+            {/* Poster Cover */}
+            <div className="relative aspect-[2/3] w-28 xs:w-32 rounded-2xl overflow-hidden shadow-2xl border-2 border-[#d4af37]/40 bg-slate-950 shrink-0">
+              {story.coverUrl ? (
+                <img
+                  src={story.coverUrl}
+                  alt={story.title}
+                  className="w-full h-full object-cover"
+                />
+              ) : (
+                <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-amber-950/40 p-2 text-center">
+                  <BookOpen className="w-6 h-6 text-[#d4af37] mb-1" />
+                  <span className="text-[10px] font-semibold text-amber-200/80 uppercase">
+                    {story.genre || 'Tiên Hiệp'}
+                  </span>
+                </div>
+              )}
+            </div>
+
+            {/* Title & Metadata */}
+            <div className="flex-1 min-w-0 space-y-2 text-left">
+              <div className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#d4af37]/15 border border-[#d4af37]/30 text-[#d4af37] text-[11px] font-bold uppercase tracking-wider">
+                <Sparkles className="w-3 h-3" />
+                {story.genre || 'Tiên Hiệp'}
+              </div>
+              <h1 className="text-xl xs:text-2xl font-black text-white leading-tight tracking-tight line-clamp-3">
+                {story.title}
+              </h1>
+              <div className="flex flex-wrap items-center gap-2 text-xs text-slate-300 pt-0.5">
+                <div className="flex items-center gap-1 bg-white/5 border border-white/10 px-2 py-0.5 rounded-lg">
+                  <List className="w-3 h-3 text-[#d4af37]" />
+                  <span className="font-bold text-slate-100">{story.chapters.length}</span> chương
+                </div>
+                <div className="flex items-center gap-1 bg-white/5 border border-white/10 px-2 py-0.5 rounded-lg text-slate-400">
+                  <Clock className="w-3 h-3 text-slate-400" />
+                  <span>{story.updatedAt.toLocaleDateString('vi-VN')}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Action Buttons: Full width on Mobile */}
+          {story.chapters.length > 0 && (
+            <div className="flex items-center gap-2 pt-1">
+              {lastReadChapter ? (
+                <Link 
+                  href={`/truyen/${story.slug}/${lastReadChapter.chapterNo}`}
+                  className="flex-1 inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 px-4 rounded-xl shadow-[0_4px_20px_rgba(212,175,55,0.35)] transition-all text-sm cursor-pointer"
+                >
+                  Đọc tiếp #{lastReadChapter.chapterNo}
+                  <ChevronRight className="w-4 h-4" />
+                </Link>
+              ) : (
+                <Link 
+                  href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
+                  className="flex-1 inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 px-4 rounded-xl shadow-[0_4px_20px_rgba(212,175,55,0.35)] transition-all text-sm cursor-pointer"
+                >
+                  Đọc Từ Đầu (Chương 1)
+                </Link>
+              )}
+              <div className="shrink-0">
+                <BookmarkButton storyId={story.id} initialBookmarked={isBookmarked} />
+              </div>
+            </div>
+          )}
+
+          {/* Specs Card: Full width on Mobile */}
+          <StorySpecsCard className="w-full" />
+
+          {/* Summary Box */}
+          {story.summary && (
+            <StorySummary summary={story.summary} />
+          )}
+        </div>
+
+        {/* DESKTOP LAYOUT (>= sm) */}
+        <div className="hidden sm:flex sm:flex-row gap-6 sm:gap-8 lg:gap-10 items-start">
           {/* Left Column: Story Cover Poster + Quick Specs Panel */}
-          <div className="w-48 xs:w-56 sm:w-64 md:w-72 lg:w-80 flex flex-col gap-4 shrink-0">
+          <div className="w-56 sm:w-64 md:w-72 lg:w-80 flex flex-col gap-4 shrink-0">
             {/* Story Cover Poster */}
             <div className="relative aspect-[2/3] w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.9)] border-2 border-[#d4af37]/40 hover:border-[#d4af37] group bg-slate-950 transition-all duration-300">
               {story.coverUrl ? (
@@ -102,79 +255,11 @@ export default async function StoryDetail({
             </div>
 
             {/* Quick Specs / Luxury Attributes Card (Below Story Cover) */}
-            <div className="relative overflow-hidden bg-gradient-to-b from-slate-900/90 via-slate-950/95 to-black border border-[#d4af37]/30 hover:border-[#d4af37]/60 rounded-2xl sm:rounded-3xl p-3.5 sm:p-4 md:p-5 shadow-[0_15px_35px_rgba(0,0,0,0.7)] backdrop-blur-xl transition-all duration-300 group space-y-3 sm:space-y-3.5">
-              {/* Subtle top-right golden aurora ambient */}
-              <div className="absolute -top-10 -right-10 w-28 h-28 bg-[#d4af37]/10 rounded-full blur-2xl pointer-events-none group-hover:bg-[#d4af37]/20 transition-all duration-500" />
-
-              {/* Author & Studio Header */}
-              <div className="flex items-center justify-between gap-2 border-b border-white/10 pb-2.5 sm:pb-3">
-                <div className="flex items-center gap-2 sm:gap-2.5 min-w-0">
-                  <div className="p-1.5 sm:p-2 rounded-xl bg-gradient-to-br from-[#d4af37]/20 to-amber-500/10 text-[#d4af37] border border-[#d4af37]/30 shadow-inner shrink-0">
-                    <Feather className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-                  </div>
-                  <div className="min-w-0">
-                    <p className="text-[10px] text-slate-400 font-medium uppercase tracking-wider">Tác giả</p>
-                    <p className="font-extrabold text-xs sm:text-sm md:text-base text-slate-100 truncate">Thiên Thư AI</p>
-                  </div>
-                </div>
-                <span className="inline-flex items-center gap-1 px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg text-[10px] sm:text-xs font-bold bg-[#d4af37]/15 text-[#d4af37] border border-[#d4af37]/30 shadow-sm shrink-0">
-                  <Crown className="w-3 h-3 text-[#d4af37]" />
-                  <span>Chính Hãng</span>
-                </span>
-              </div>
-
-              {/* 2x2 Feature Highlights Grid */}
-              <div className="grid grid-cols-2 gap-2 sm:gap-2.5 text-left">
-                {/* 1. Tình trạng */}
-                <div className="p-2 sm:p-2.5 rounded-xl bg-white/[0.03] border border-white/5 hover:border-emerald-500/30 transition-all flex flex-col justify-between">
-                  <span className="text-[10px] text-slate-400 font-medium">Tình trạng</span>
-                  <div className="flex items-center gap-1.5 mt-1">
-                    <span className="relative flex h-2 w-2 shrink-0">
-                      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
-                      <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
-                    </span>
-                    <span className="font-extrabold text-[11px] sm:text-xs text-emerald-400">Đang ra</span>
-                  </div>
-                </div>
-
-                {/* 2. Họa phẩm */}
-                <div className="p-2 sm:p-2.5 rounded-xl bg-white/[0.03] border border-white/5 hover:border-amber-500/30 transition-all flex flex-col justify-between">
-                  <span className="text-[10px] text-slate-400 font-medium">Họa phẩm</span>
-                  <div className="flex items-center gap-1.5 mt-1 min-w-0">
-                    <Palette className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-amber-400 shrink-0" />
-                    <span className="font-extrabold text-[11px] sm:text-xs text-slate-200 truncate">Manhwa 9:16</span>
-                  </div>
-                </div>
-
-                {/* 3. Tương tác X-Ray */}
-                <div className="p-2 sm:p-2.5 rounded-xl bg-white/[0.03] border border-white/5 hover:border-cyan-500/30 transition-all flex flex-col justify-between">
-                  <span className="text-[10px] text-slate-400 font-medium">Đặc sắc</span>
-                  <div className="flex items-center gap-1.5 mt-1 min-w-0">
-                    <Sparkles className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-cyan-400 shrink-0" />
-                    <span className="font-extrabold text-[11px] sm:text-xs text-cyan-300 truncate">X-Ray Tra Cứu</span>
-                  </div>
-                </div>
-
-                {/* 4. Bản quyền */}
-                <div className="p-2 sm:p-2.5 rounded-xl bg-white/[0.03] border border-white/5 hover:border-purple-500/30 transition-all flex flex-col justify-between">
-                  <span className="text-[10px] text-slate-400 font-medium">Bản quyền</span>
-                  <div className="flex items-center gap-1.5 mt-1 min-w-0">
-                    <ShieldCheck className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-purple-400 shrink-0" />
-                    <span className="font-extrabold text-[11px] sm:text-xs text-purple-300 truncate">Độc Quyền AI</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Bottom Feature Tagline */}
-              <div className="pt-2 border-t border-white/10 flex items-center justify-center gap-1.5 text-[10px] sm:text-[11px] text-slate-300 font-medium text-center">
-                <span className="text-[#d4af37] font-bold">★</span>
-                <span>Chạm tra cứu nhân vật & bách khoa</span>
-              </div>
-            </div>
+            <StorySpecsCard className="w-full" />
           </div>
 
           {/* Right Column: Story Info Details & Expandable Summary */}
-          <div className="flex-1 space-y-4 sm:space-y-5 text-center sm:text-left w-full">
+          <div className="flex-1 space-y-4 sm:space-y-5 text-left w-full">
             <div>
               <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#d4af37]/15 border border-[#d4af37]/30 text-[#d4af37] text-xs sm:text-sm font-bold uppercase tracking-wider mb-2.5 sm:mb-3.5 shadow-sm">
                 <Sparkles className="w-4 h-4" />
@@ -186,7 +271,7 @@ export default async function StoryDetail({
             </div>
 
             {/* Badges / Meta row */}
-            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-3 sm:gap-4 text-sm sm:text-base text-slate-300">
+            <div className="flex flex-wrap items-center justify-start gap-3 sm:gap-4 text-sm sm:text-base text-slate-300">
               <div className="flex items-center gap-2 bg-white/5 border border-white/10 px-3.5 py-1.5 rounded-xl shadow-sm">
                 <List className="w-4 h-4 text-[#d4af37]" />
                 <span className="font-bold text-slate-100">{story.chapters.length}</span> chương
@@ -197,13 +282,13 @@ export default async function StoryDetail({
               </div>
             </div>
 
-            {/* Action Buttons: Above summary for easy access */}
+            {/* Action Buttons */}
             {story.chapters.length > 0 && (
-              <div className="pt-1 flex flex-col xs:flex-row items-center gap-3">
+              <div className="pt-1 flex flex-row items-center gap-3">
                 {lastReadChapter ? (
                   <Link 
                     href={`/truyen/${story.slug}/${lastReadChapter.chapterNo}`}
-                    className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-13 sm:h-14 min-h-[52px] px-8 rounded-2xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 w-full xs:w-auto text-base sm:text-lg cursor-pointer"
+                    className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-13 sm:h-14 min-h-[52px] px-8 rounded-2xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 text-base sm:text-lg cursor-pointer"
                   >
                     Đọc tiếp #{lastReadChapter.chapterNo}
                     <ChevronRight className="w-5 h-5" />
@@ -211,13 +296,13 @@ export default async function StoryDetail({
                 ) : (
                   <Link 
                     href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
-                    className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-13 sm:h-14 min-h-[52px] px-8 rounded-2xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 w-full xs:w-auto text-base sm:text-lg cursor-pointer"
+                    className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-13 sm:h-14 min-h-[52px] px-8 rounded-2xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 text-base sm:text-lg cursor-pointer"
                   >
                     Đọc Từ Đầu (Chương 1)
                   </Link>
                 )}
                 
-                <div className="w-full xs:w-auto">
+                <div>
                   <BookmarkButton storyId={story.id} initialBookmarked={isBookmarked} />
                 </div>
               </div>

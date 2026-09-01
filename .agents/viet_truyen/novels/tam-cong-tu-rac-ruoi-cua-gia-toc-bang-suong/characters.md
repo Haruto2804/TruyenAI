@@ -76,7 +76,7 @@ masterpiece, ultra-detailed 8k, manhwa webtoon artstyle, 1girl, 20 years old hau
 ## 5. Nhị Trưởng Lão Karlov
 - **Vai trò:** Nhị Trưởng Lão Gia Tộc Ravenwood / Phản diện nội viện
 - **Biệt danh & Danh xưng:** Karlov, Nhị Trưởng Lão, Nhị Trưởng lão, Nhị Trưởng lão Karlov, Lão già giảo hoạt
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/karlov.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/karlov.jpeg`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Nhị Trưởng Lão thâm hiểm, giảo hoạt nắm giữ quyền quản sự hậu viện và tài chính phân nhánh. Kẻ chủ mưu sai khiến Lilian hạ độc Caelen suốt 5 năm nhằm chiếm đoạt quyền thừa kế.
