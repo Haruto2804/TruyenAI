@@ -193,6 +193,47 @@
 
 ---
 
+### 6. Hắc Y Sứ Giả Vane
+* **Vai trò & Thân phận:** Sát thủ cấp cao / Sứ giả bóng tối của Hội Lưỡi Hái Hắc Ám.
+* **Danh xưng & Biệt hiệu:** Hắc Y Sứ Giả, Vane, Sát thủ Hắc Ám, Tử Thần Vực Thẳm.
+* **Cảnh giới & Tu vi:** Cao Giai Sơ Kỳ (Chuyên về Ám Hắc Ma Pháp, Tử Linh Thuật và Cận Chiến Ám Sát).
+* **Ảnh Avatar (9:16):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/vane.jpg`
+
+* **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):**
+  - *Vóc dáng & Thể hình:* Cao 1m82, thân hình thon gọn săn chắc như loài báo săn mồi, bước đi không phát ra bất kỳ tiếng động nào.
+  - *Mặt nạ & Ánh nhìn:* Nửa dưới khuôn mặt che kín bằng mặt nạ kim loại đen bóng, mũ trùm đầu phủ kín chỉ để lộ đôi mắt màu tím phát sáng u lãnh mang theo sát khí đặc quánh.
+  - *Trang phục & Ám giáp:* Áo choàng sát thủ đen tuyền thêu nổi các phù văn màu tím ma quái, đai da đen vắt chéo chứa đầy độc dược và ám khí tẩm kịch độc.
+  - *Binh khí bản mệnh:* Chủy thủ uốn cong bốc làn khói đen kịt tẩm *Thực Cốt Chu Sa*.
+
+* **⚔️ Vũ Khí, Bảo Vật & Tuyệt Kỹ:**
+  - *Tuyệt kỹ:* *Hắc Ám Phệ Hồn Trận*, *U Hồn Tử Kiếm*, *Huyết Độn Cấm Thuật*.
+
+* **🧠 Tính Cách & Chiều Sâu Tâm Lý:**
+  - Lạnh lùng, tàn nhẫn, hành sự tuyệt đối theo lợi ích của Hội Lưỡi Hái Hắc Ám. Bị Caelen chặn đứng đòn ám sát và bị Nữ Kiếm Vương Evelyn chém đứt cánh tay trái, buộc phải dùng Huyết Độn đào tẩu.
+
+
+---
+
+### 7. Boris Tai Đỏ
+* **Vai trò & Thân phận:** Thủ lĩnh băng cướp thảo khấu Biên Ải Frostfang.
+* **Danh xưng & Biệt hiệu:** Boris Tai Đỏ, Boris Red-Ear, Tướng cướp man di.
+* **Cảnh giới & Tu vi:** Trung Giai Sơ Kỳ (Thổ hệ Ma Pháp kết hợp Cận Chiến Cuồng Bạo).
+* **Ảnh Avatar (9:16):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/boris.jpg`
+
+* **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):**
+  - *Vóc dáng & Thể hình:* Cao 2m05, cơ bắp cuồn cuộn như gấu xám phương Bắc, bờ ngực vạm vỡ khoác giáp xích sắt thô ráp lót lông sói xám.
+  - *Khuôn mặt & Dị tướng:* Khuôn mặt chằng chịt vết chém, hàm răng ố vàng khấp khểnh, một bên tai phải dị dạng sưng tấy màu đỏ bầm máu (nguồn gốc biệt danh Tai Đỏ).
+  - *Binh khí bản mệnh:* Đại rìu chiến hai lưỡi bằng thép đen sứt mẻ đầy vết máu khô.
+
+* **⚔️ Vũ Khí, Bảo Vật & Tuyệt Kỹ:**
+  - *Tuyệt kỹ:* *Bạo Thạch Tuyệt Trảm*.
+
+* **🧠 Kết Cục:**
+  - Bị Caelen dùng *Ma Đồng Giải Cấu* nhìn thấu tử huyệt dưới nách phải, phong ấn bằng hàn băng và chém bay đầu tại Hẻm Sói Băng ở Chương 5.
+
+
+---
+
 ## 📜 3. LORE & GLOSSARY CODEX (BÁCH KHOA CHÚ GIẢI THUẬT NGỮ)
 
 ### 1. Hắc Tử La Lan
@@ -220,23 +261,48 @@
 * **Từ đồng nghĩa:** Huyết Chiếu Solaria, Huyết Chiếu.
 * **Định nghĩa:** Sắc lệnh tối cao đóng dấu bằng giọt máu thần thánh của Hoàng đế Solaria, mang hiệu lực pháp lý và uy áp hoàng quyền tuyệt đối trên toàn cương thổ đế quốc.
 
+### 6. Băng Sương Long Hồn Quyết
+* **Phân loại:** `Bí Thuật`
+* **Từ đồng nghĩa:** Long Hồn Quyết, Tâm Pháp Băng Long.
+* **Định nghĩa:** Bí kíp công pháp thượng cổ phong ấn tại Tàng Thư Các Cổ của gia tộc Ravenwood. Cho phép người tu luyện dẫn dắt và dung hợp huyết mạch Thái Cổ Băng Long, gia tăng thể tích ma hạch và uy lực băng sương gấp nhiều lần.
+
+### 7. Hàn Băng Thần Tủy
+* **Phân loại:** `Bảo Vật`
+* **Từ đồng nghĩa:** Giọt Máu Băng Long, Thần Tủy.
+* **Định nghĩa:** Kết tinh từ giọt máu tim nguyên thủy của Thái Cổ Băng Long do Thủy Tổ Ravenwood phong ấn. Chứa đựng nguồn năng lượng hàn băng thuần khiết giúp Caelen thanh tẩy hoàn toàn độc tố và đột phá lên Trung Giai Sơ Kỳ.
+
+### 8. Hội Lưỡi Hái Hắc Ám
+* **Phân loại:** `Thế Lực`
+* **Từ đồng nghĩa:** Dark Scythe, Tà Giáo Vực Thẳm.
+* **Định nghĩa:** Tổ chức sát thủ kiêm tà giáo hắc ám hùng mạnh hoạt động ngầm tại ranh giới Vực Thẳm Hoang Vu, chuyên buôn bán ma hạch cấm kỵ và cấm thuật tử linh.
+
+### 9. Hẻm Sói Băng
+* **Phân loại:** `Địa Danh`
+* **Từ đồng nghĩa:** Frostwolf Gorge, Hẻm Sói.
+* **Định nghĩa:** Hẻm núi độc đạo hiểm trở nối liền trung tâm Pháo đài Băng Sương với các mỏ khoáng thạch Băng Lam nơi biên ải Frostfang, địa hình vách đá dựng đứng và bão tuyết quanh năm.
+
 ---
 
 ## 🧠 4. MEMORY MANAGER - TIẾN ĐỘ & TRẠNG THÁI (STATE TRACKING)
 
-### Trạng Thái Hiện Tại (Sau Chương 2):
+### Trạng Thái Hiện Tại (Sau Chương 7):
 * **Caelen:** 
-  - Đã xuất hiện hoành tráng chấn động Đại Điện Băng Sương.
-  - Dùng *Ma Đồng Giải Cấu* vạch trần ma trận Huyết Hồn cấm thuật của Karlov.
-  - Dùng ngón tay ngưng tụ Băng Sương Cổ Ngữ ký tên đồng thuận từ hôn dứt khoát trên Huyết Chiếu Hoàng Gia.
-  - Khiến Tam Công Chúa Valerie chấn động sâu sắc trước tầm nhìn và khí chất vương giả.
+  - Khai mở Tàng Thư Các Cổ, hấp thu *Hàn Băng Thần Tủy* và tu luyện *Băng Sương Long Hồn Quyết*.
+  - Đột phá thành công từ Sơ Giai lên **Trung Giai Sơ Kỳ**, thanh tẩy 100% độc tố *Hắc Tử La Lan*.
+  - Dùng cận chiến và Ma Đồng trảm sát Boris Tai Đỏ tại Hẻm Sói Băng; đối kháng sát thủ Cao Giai Vane.
+  - Thi triển *Băng Sương Khóa Ma Chỉ* phế bỏ hoàn toàn ma hạch của Nhị Trưởng Lão Karlov ngay giữa Nghị Sự Điện.
+  - Chính thức tiếp quản quyền quản sự tài chính, quân lương hậu viện và quyền chỉ huy Phân khu Biên Ải phía Bắc của Gia tộc Ravenwood.
+  - Nhận mật thư từ Tam Công Chúa Valerie mời dự *Hội Nghị Ma Pháp Tam Quốc* tại Kinh Đô Solaria.
 * **Valerie:** 
-  - Đã hoàn thành mục đích giải trừ hôn ước để bảo vệ tham vọng ngai vàng.
-  - Bị sốc và rung động mạnh mẽ trước sự nguy hiểm, thâm trầm và bản lĩnh của Caelen; bắt đầu xem Caelen là một đối thủ / biến số chính trị tầm cỡ trên bàn cờ đại lục.
+  - Đã về tới Kinh Đô Solaria, hoàn tất thủ tục hủy hôn ước và chuẩn bị cho Hội Nghị Ma Pháp Tam Quốc.
+  - Gửi lời thách đấu ngầm và mật thư chờ đợi Caelen tại Kinh Đô.
 * **Evelyn:** 
-  - Dùng kiếm Băng Phách răn đe và phán phạt 100 roi Thiết Kỷ đối với Karlov tại Hầm Băng; bắt đầu nhìn đứa em trai bằng con mắt khác.
+  - Tận mắt chứng kiến đệ đệ Caelen trảm tướng phá địch; hoàn toàn xóa bỏ cái nhìn về "phế vật", tin tưởng và trao quyền lực cho Caelen.
 * **Karlov (Nhị Trưởng Lão):** 
-  - Bị lật tẩy mưu đồ mượn tay hoàng thất hãm hại người kế vị dòng chính; bị giam lỏng chờ thọ phạt. Lão sẽ tìm cách cấu kết với các thế lực đen tối hơn ngoài biên ải.
+  - Bị phế bỏ hoàn toàn tu vi ma pháp, tước đoạt toàn bộ chức vị và gia sản, bị đày ải vĩnh viễn xuống Vực Thẳm Hoang Vu chịu khổ sai.
+* **Vane (Hội Lưỡi Hái Hắc Ám):**
+  - Bị chém đứt một cánh tay trái, dùng Huyết Độn tẩu thoát về cứ điểm Vực Thẳm Hoang Vu.
 * **Plot Hooks đang mở:** 
-  - Hành trình đột phá ma hạch và khai mở trọn vẹn Huyết Mạch Băng Sương Cổ Ngữ của Caelen tại Vực Thẳm Hoang Vu / Tàng Thư Các Cổ.
-  - Phản ứng của Hoàng Cung Kinh Đô khi Valerie mang bản Huyết Chiếu có chữ ký Băng Sương trở về.
+  - Kế hoạch củng cố kinh tế, vũ trang Thiết Kỵ và chuẩn bị hành trình tiến về Kinh Đô Solaria tham gia Hội Nghị Ma Pháp Tam Quốc của Caelen.
+  - Sự trả thù trong bóng tối của Hội Lưỡi Hái Hắc Ám sau khi mất đi tuyến đường buôn lậu qua tay Karlov.
+

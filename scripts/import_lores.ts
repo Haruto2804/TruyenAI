@@ -42,6 +42,30 @@ async function main() {
       category: "Bảo Vật",
       aliases: "Huyết Chiếu Solaria, Huyết Chiếu",
       definition: "Sắc lệnh tối cao đóng dấu bằng giọt máu thần thánh của Hoàng đế Solaria, mang hiệu lực pháp lý và uy áp hoàng quyền tuyệt đối trên toàn cương thổ đế quốc."
+    },
+    {
+      term: "Băng Sương Long Hồn Quyết",
+      category: "Bí Thuật",
+      aliases: "Long Hồn Quyết, Tâm Pháp Băng Long",
+      definition: "Bí kíp công pháp thượng cổ phong ấn tại Tàng Thư Các Cổ của gia tộc Ravenwood. Cho phép người tu luyện dẫn dắt và dung hợp huyết mạch Thái Cổ Băng Long, gia tăng thể tích ma hạch và uy lực băng sương gấp nhiều lần."
+    },
+    {
+      term: "Hàn Băng Thần Tủy",
+      category: "Bảo Vật",
+      aliases: "Giọt Máu Băng Long, Thần Tủy",
+      definition: "Kết tinh từ giọt máu tim nguyên thủy của Thái Cổ Băng Long do Thủy Tổ Ravenwood phong ấn. Chứa đựng nguồn năng lượng hàn băng thuần khiết giúp Caelen thanh tẩy hoàn toàn độc tố và đột phá lên Trung Giai Sơ Kỳ."
+    },
+    {
+      term: "Hội Lưỡi Hái Hắc Ám",
+      category: "Thế Lực",
+      aliases: "Dark Scythe, Tà Giáo Vực Thẳm",
+      definition: "Tổ chức sát thủ kiêm tà giáo hắc ám hùng mạnh hoạt động ngầm tại ranh giới Vực Thẳm Hoang Vu, chuyên buôn bán ma hạch cấm kỵ và cấm thuật tử linh."
+    },
+    {
+      term: "Hẻm Sói Băng",
+      category: "Địa Danh",
+      aliases: "Frostwolf Gorge, Hẻm Sói",
+      definition: "Hẻm núi độc đạo hiểm trở nối liền trung tâm Pháo đài Băng Sương với các mỏ khoáng thạch Băng Lam nơi biên ải Frostfang, địa hình vách đá dựng đứng và bão tuyết quanh năm."
     }
   ];
 

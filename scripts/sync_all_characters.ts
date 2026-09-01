@@ -54,6 +54,24 @@ Mang theo *Huyết Chiếu Hoàng Gia* đến Bắc Cảnh để công khai hủ
       description: `Nhị Trưởng Lão thâm hiểm, giảo hoạt nắm giữ quyền quản sự hậu viện và tài chính phân nhánh của Gia tộc Ravenwood.
 
 Kẻ chủ mưu sai khiến nữ hầu Lilian định kỳ hạ độc Caelen bằng *Hắc Tử La Lan* suốt 5 năm nhằm triệt hạ tư cách thừa kế của dòng chính. Trong Chương 2, lão mưu toan dùng Cấm Thuật Huyết Hồn và văn thư nhận tội để đày ải Caelen ra tiền tuyến hòng chiếm đoạt quyền thừa kế Bắc Cảnh, nhưng đã bị Caelen cùng Đại tỷ Evelyn vạch trần và trừng phạt đích đáng.`
+    },
+    {
+      name: "Hắc Y Sứ Giả Vane",
+      role: "Sát thủ cấp cao / Sứ giả Hội Lưỡi Hái Hắc Ám",
+      aliases: "Vane, Hắc Y Sứ Giả, Sứ giả Vane, Sát thủ Hắc Ám, Tử Thần Vực Thẳm",
+      avatarUrl: "/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/vane.jpg",
+      description: `Sát thủ Cao Giai Sơ Kỳ tàn nhẫn, mang mặt nạ kim loại đen thuộc Hội Lưỡi Hái Hắc Ám. Sở hữu ma pháp Ám Hắc và Tử Linh, vũ khí tẩm kịch độc Thực Cốt Chu Sa.
+
+Nhận lời ủy thác của Karlov để ám toán Caelen tại Hẻm Sói Băng nhưng bị Caelen chặn đứng và bị Nữ Kiếm Vương Evelyn chém đứt một cánh tay trái, buộc phải thi triển cấm thuật Huyết Độn tháo chạy.`
+    },
+    {
+      name: "Boris Tai Đỏ",
+      role: "Thủ lĩnh Thảo Khấu Biên Ải Frostfang",
+      aliases: "Boris, Boris Tai Đỏ, Boris Red-Ear, Tướng cướp man di",
+      avatarUrl: "/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/boris.jpg",
+      description: `Gã khổng lồ man di hung bạo cao hơn hai mét, thủ lĩnh của hơn một trăm thảo khấu Biên Ải Frostfang. Đạt cảnh giới Trung Giai Sơ Kỳ Thổ hệ, sử dụng đại rìu chiến thép đen hai lưỡi.
+
+Cấu kết với Karlov phục kích Caelen tại Hẻm Sói Băng nhưng đã bị Caelen nhìn thấu điểm hở ma lực và chém đầu tại chỗ ở Chương 5.`
     }
   ];
 
@@ -62,9 +80,9 @@ Kẻ chủ mưu sai khiến nữ hầu Lilian định kỳ hạ độc Caelen b�
       where: {
         storyId: story.id,
         OR: [
-          { name: { contains: char.name.split(" ")[0] } },
-          { name: { contains: "Karlov" } },
-          { aliases: { contains: char.name.split(" ")[0] } }
+          { name: char.name },
+          { name: { contains: char.name.split(" ").pop() || char.name } },
+          { aliases: { contains: char.name.split(" ").pop() || char.name } }
         ]
       }
     });
