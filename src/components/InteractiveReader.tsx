@@ -479,7 +479,7 @@ export function InteractiveReader({
 
       {/* Chapter Text Body */}
       <div
-        className={`rounded-3xl p-5 sm:p-8 md:p-12 border shadow-2xl transition-colors duration-300 ${themeStyles.wrapper} ${
+        className={`prose max-w-none rounded-3xl p-5 sm:p-8 md:p-12 border shadow-2xl transition-colors duration-300 ${themeStyles.wrapper} ${
           fontFamily === "serif" ? "font-serif" : "font-sans"
         }`}
         style={{

@@ -39,7 +39,7 @@ test.describe('Admin Studio Flow', () => {
     await expect(page.getByText(chapterTitle)).toBeVisible();
 
     // --- TEST EDIT CHAPTER ---
-    await page.getByRole('link', { name: 'Sửa' }).click();
+    await page.getByRole('link', { name: 'Sửa chương' }).click();
     await expect(page).toHaveURL(/\/admin\/story\/.+\/chapter\/.+\/edit/);
     
     const updatedChapterTitle = chapterTitle + ' (Đã sửa)';

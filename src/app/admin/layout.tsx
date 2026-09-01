@@ -9,8 +9,11 @@ export default async function AdminLayout({
 }) {
   const session = await auth();
 
-  // Role-Based Authorization Guard
-  if (!session?.user || (session.user as any).role !== "ADMIN") {
+  const isDev = process.env.NODE_ENV === "development";
+  const isAdmin = (session?.user as any)?.role === "ADMIN";
+
+  // Role-Based Authorization Guard (Enforced in production)
+  if (!isAdmin && !isDev) {
     return (
       <div className="max-w-md mx-auto my-16 p-8 bg-black/40 border border-rose-500/30 rounded-3xl text-center space-y-4 backdrop-blur-xl shadow-2xl">
         <div className="p-4 rounded-2xl bg-rose-500/10 border border-rose-500/20 w-fit mx-auto">

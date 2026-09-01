@@ -124,6 +124,7 @@ export default async function ChapterDetail({
             href={`/truyen/${story.slug}`}
             className="flex items-center gap-1.5 px-2.5 sm:px-3.5 h-9 sm:h-10 md:h-11 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 hover:border-[#d4af37]/40 text-xs font-semibold text-slate-200 hover:text-[#d4af37] transition-colors shrink-0"
             title="Xem toàn bộ mục lục chương"
+            aria-label="Mục Lục"
           >
             <Menu className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#d4af37]" />
             <span className="hidden sm:inline">Mục Lục</span>
