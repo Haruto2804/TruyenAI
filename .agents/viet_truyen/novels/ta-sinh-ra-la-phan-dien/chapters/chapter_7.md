@@ -1,52 +1,55 @@
-# GẶP NHAU DƯỚI HẦM MỘ CỔ - TUYỆT VỌNG CỦA KẺ ĐƯỢC CHỌN
+# Tuyệt Vọng
 
-Sâu trong Ma Chu Động, mùi tanh hôi của máu độc và mạng nhện giăng kín như tơ vương khắp bốn bề.
+Sâu thẳm trong lòng Ma Chu Động, không gian nồng nặc mùi tanh hôi của máu mủ thối rữa. Những lớp màng nhện trắng toát, nhớp nháp và dai dẳng giăng kín bốn bề vách đá, tạo thành một mê cung u ám không lối thoát.
 
-Rầm!
+*Rầm!*
 
-Một tiếng nổ kinh thiên động địa vang lên. Con quái thú Hắc Giáp Bát Nhãn Ma Chu khổng lồ dài hơn ba trượng ngã gục xuống vũng máu đen ngòm, tám cái chân nhọn hoắt co giật dữ dội rồi tắt thở hoàn toàn.
+Một tiếng nổ kinh thiên động địa vang lên, làm rung chuyển cả hang động ngầm. Con yêu thú Hắc Giáp Bát Nhãn Ma Chu khổng lồ, to như một tòa nhà nhỏ với lớp giáp đen bóng như sắt nguội, ầm ầm ngã gục. Nó giãy giụa trong vũng máu đen ngòm đang trào ra từ phần đầu bị vỡ nát. Tám cái chân đầy lông lá nhọn hoắt co giật dữ dội, cào nát cả nền đá trước khi cứng đờ và tắt thở hoàn toàn.
 
-Lâm Phàm toàn thân đẫm máu, quỳ sụp xuống đất thở dốc, cánh tay phải run rẩy không cầm nổi thanh kiếm.
+Lâm Phàm đổ gục xuống đất. Toàn thân hắn đẫm máu. Máu của hắn hòa lẫn với máu đen của yêu thú. Hắn há miệng thở dốc, không khí lọt vào phổi nghe khò khè như bễ rèn rách. Cánh tay phải cầm kiếm run lên bần bật, các cơ bắp co rút vì kiệt sức.
 
-Trong chiếc nhẫn đen, ánh sáng linh hồn của Lạc Lão mờ nhạt đến mức gần như sắp tan biến:
+Trong chiếc nhẫn đen, ánh sáng linh hồn của Lạc Lão mờ nhạt đến mức tưởng chừng một cơn gió cũng có thể thổi tắt:
 
-Phàm nhi... Lão phu đã dùng cạn kiệt hồn lực để đánh vỡ giáp đầu của con ma thú này... Giờ đây hồn phách vi sư sắp rơi vào trạng thái ngủ say... Mau hái lấy Cửu Diệp Huyết Chi phía sau tảng đá...
+"Phàm nhi... Khụ... Lão phu đã đốt cháy toàn bộ hồn lực còn sót lại để phá vỡ tầng phòng ngự của nó... Giờ hồn phách vi sư sẽ phải rơi vào trạng thái ngủ say sâu... Mau... tiến lên phía sau tảng đá... hái lấy Cửu Diệp Huyết Chi..."
 
-Lâm Phàm mừng đến rơi nước mắt. Hắn lê lết từng bước chân nặng nề vượt qua xác con yêu thú, vươn bàn tay run rẩy về phía nhành thảo dược đỏ rực rỡ đang mọc trên vách đá.
+Giọng nói yếu ớt của lão tổ tắt lịm, chiếc nhẫn cũng chìm vào sự im lìm xám xịt. 
 
-Cuối cùng... Cơ duyên này thuộc về ta! Ninh Huyền Dạ, ngày tàn của ngươi sắp đến...
+Lâm Phàm nhếch mép cười. Nụ cười méo mó, xen lẫn nước mắt và máu. Hắn chống kiếm đứng dậy, lê lết từng bước chân nặng nề, rướn người vượt qua cái xác khổng lồ của con ma nhện. Trước mặt hắn, lấp ló sau phiến đá tảng, một gốc thảo dược màu đỏ rực như máu đang tỏa ra những luồng linh khí tinh thuần. 
 
-Xoẹt!
+"Cuối cùng... cũng là của ta! Cơ duyên này là của ta!" Hắn vươn bàn tay run rẩy, những ngón tay sưng vù, rớm máu chạm dần về phía Cửu Diệp Huyết Chi. Đôi mắt hắn ánh lên sự điên cuồng. "Ninh Huyền Dạ, rửa sạch cổ chờ đi, ngày tàn của ngươi sắp đến rồi..."
 
-Một dải kiếm khí sương lam tuyệt mỹ đột ngột xé rách không gian, chuẩn xác cắm phập xuống trước mũi giày của Lâm Phàm chỉ nửa tấc, phong tỏa hoàn toàn lối tiếp cận thảo dược bằng một bức tường băng vạn trượng!
+*Xoẹt!*
 
-Lâm Phàm giật nảy mình lùi lại, ngẩng phắt đầu lên.
+Không khí đột ngột bị xé rách bởi một tiếng rít bén nhọn. Một dải kiếm khí sương lam tuyệt mỹ, lạnh lẽo đến thấu xương từ trên không trung cắm phập xuống đất.
 
-Từ trong làn sương mù mờ ảo của hang động, Cố Thanh Tuyết cùng các đệ tử Tiên Tông chậm rãi bước ra, phía sau là Ninh Huyền Dạ trong bộ bạch y không tì vết, phong thái thong dong tự tại như đang dạo chơi hoa viên.
+Ngay sát trước mũi giày của Lâm Phàm, lớp đá cứng rắn bị chẻ làm đôi. Một bức tường băng vạn trượng mọc lên sừng sững, phong tỏa hoàn toàn lối tiếp cận gốc thánh dược, tỏa ra hàn khí tàn nhẫn đẩy hắn văng lùi lại vài bước.
 
-Thanh Tuyết! Muội tới cứu ta sao?! Lâm Phàm mừng rỡ thốt lên.
+Lâm Phàm giật nảy mình, ngẩng phắt đầu lên.
 
-Nhưng đáp lại sự vui mừng của hắn chỉ là ánh mắt lạnh lùng thấu xương của Cố Thanh Tuyết:
+Từ trong làn sương mù mờ ảo đang tản ra nơi cửa hang, Cố Thanh Tuyết cùng các đệ tử Tiên Tông chậm rãi bước ra. Phía sau nàng là Ninh Huyền Dạ, trong bộ bạch y không tì vết, phong thái thong dong, nhàn nhã như đang dạo bước trong một ngự hoa viên.
 
-Lâm Phàm, ngươi cấu kết với tà ma sát hại yêu thú canh giữ cấm địa, còn toan cướp đoạt thánh dược hộ tông của Tiên Tông, ngươi còn gì để chối cãi?
+"Thanh Tuyết! Muội... muội dẫn người tới cứu ta sao?!" Lâm Phàm mừng rỡ thốt lên, tưởng rằng chân tình của hắn cuối cùng đã làm lay động nàng.
 
-Lâm Phàm sững sờ: Cái gì mà thánh dược hộ tông? Đây là cơ duyên vô chủ trong bí cảnh...
+Nhưng đáp lại niềm hy vọng nhỏ nhoi ấy, chỉ là một ánh nhìn sắc như dao cạo, lạnh lùng, chán ghét đến tận cùng của Cố Thanh Tuyết.
 
-Lâm sư đệ. Ninh Huyền Dạ khẽ bước lên, giọng nói đầy sự xót xa và thất vọng: Cửu Diệp Huyết Chi này vốn là vật phẩm Chưởng giáo gieo trồng trăm năm trước để dành cho Đại sư tỷ chữa trị Băng Tâm Đạo Thể. Bản đồ và lệnh bài phong ấn đều do Chưởng giáo giao cho ta quản lý. Ngươi trộm lệnh bài bí mật đột nhập vào đây, suýt chút nữa khiến tà linh trong động bùng phát hủy hoại bí cảnh, ngươi thật sự khiến toàn thể đồng môn quá đỗi thất vọng.
+"Lâm Phàm." Nàng gằn từng chữ, hàn khí từ thanh Băng Phách tỏa ra bức người. "Ngươi cấu kết với tà ma sát hại thánh thú canh giữ cấm địa, nay lại toan cướp đoạt thánh dược hộ tông của Thái Sơ Tiên Tông! Ngươi... còn gì để giảo biện?"
 
-Không! Không phải như vậy! Lâm Phàm gào thét điên cuồng: Đây là do lão tổ trong nhẫn chỉ đường cho ta! Hắn đang gài bẫy ta!
+Lâm Phàm sững sờ như bị sét đánh ngang tai: "Cái gì... Cái gì thánh dược hộ tông? Yêu thú? Đây rõ ràng là cơ duyên vô chủ trong bí cảnh mà!"
 
-Lời nói vừa thốt ra, toàn thể các đệ tử Tiên Tông đều lắc đầu ngán ngẩm:
+"Lâm sư đệ." Ninh Huyền Dạ khẽ bước tới trước một bước. Giọng hắn trầm buồn, mang theo sự tiếc hận sâu sắc: "Cửu Diệp Huyết Chi này vốn là thánh vật do đích thân Chưởng giáo gieo trồng từ trăm năm trước, cẩn thận dùng cấm địa nuôi dưỡng, chỉ chờ ngày trưởng thành để Đại sư tỷ chữa trị Băng Tâm Đạo Thể. Lệnh bài phong ấn và bản đồ trận pháp đều do Chưởng giáo tin tưởng giao cho ta bảo quản."
 
-Hắn lại lôi tà linh trong nhẫn ra làm bình phong!
-Thật là hết thuốc chữa, uổng công Ninh sư huynh lo lắng chạy vào cứu hắn!
-Một kẻ đê tiện chỉ biết đổ lỗi cho người khác!
+Hắn dừng lại một nhịp, ánh mắt lộ vẻ thất vọng tột độ nhìn Lâm Phàm: "Không ngờ, ngươi lại đánh cắp lệnh bài, bí mật lẩn trốn vào đây, tàn sát yêu thú hộ trận, suýt chút nữa khiến tà linh trong động bùng phát hủy hoại toàn bộ bí cảnh... Ngươi, thực sự khiến toàn thể đồng môn và sư trưởng quá đỗi thất vọng."
 
-Đinh! Khí Vận Chi Tử Lâm Phàm bị bóc tách toàn bộ tính chính danh của cơ duyên.
-Độ tín nhiệm trong mắt đồng môn và nữ chính hoàn toàn về 0.
-Khí Vận Trị của Lâm Phàm giảm 400 điểm (Còn lại 600 điểm - Mất đi Khí Vận Quang Hoàn bảo hộ cấp cao).
-Túc chủ nhận được 400 Điểm Nghịch Mệnh và 200 Khí Vận Trị!
+"Không! Không phải như vậy!" Đầu Lâm Phàm ong lên. Sự uất ức như muốn phá nát lồng ngực hắn. Hắn điên cuồng gào thét, chỉ tay vào chiếc nhẫn. "Ta không trộm lệnh bài! Đây là do Lạc Lão... là lão tổ trong nhẫn của ta chỉ đường! Là hắn gài bẫy ta! Ninh Huyền Dạ, ngươi đang vu oan cho ta!"
 
-Lâm Phàm quỳ gục trên nền đá lạnh buốt, đầu óc trống rỗng. Mọi công sức, mọi sự liều mạng đổ máu của hắn trong suốt mấy ngày qua, cuối cùng lại biến thành một trò hề hoàn hảo để làm nổi bật sự quang minh chính đại của Ninh Huyền Dạ.
+Lời thanh minh của hắn rơi vào không trung, chỉ đổi lấy những tiếng xì xào, lắc đầu ngán ngẩm từ đám đệ tử Tiên Tông.
 
-Hắn ngước nhìn Ninh Huyền Dạ. Trong đôi mắt sâu thẳm của vị Thiếu chủ Thượng Giới kia, hắn nhìn thấy một vòng xoáy ma quỷ đen ngòm đang lặng lẽ xoay tròn, như muốn nuốt chửng toàn bộ linh hồn và vận mệnh của hắn.
+"Lại giở trò cũ! Lại lôi cái cớ tà linh trong nhẫn ra làm bình phong!"
+"Thật là hết thuốc chữa! Uổng công Ninh sư huynh tốt bụng, còn hớt hải lo lắng chạy vào cứu hắn."
+"Vừa trộm cắp, vừa tàn nhẫn, lại hèn hạ đổ lỗi. Hắn không đáng làm đệ tử Tiên Tông!"
+
+Từng lời phán xét như những mũi đinh đóng chặt Lâm Phàm vào chiếc thập tự giá tội lỗi. Hắn quỳ gục trên nền đá ẩm ướt, đầu óc trống rỗng. Chút thể diện cuối cùng, sự trong sạch cuối cùng, đều bị đập nát không thương tiếc.
+
+Mọi công sức, mọi sự liều mạng đổ máu của hắn, vượt qua ranh giới sinh tử, cuối cùng lại biến thành một vở kịch dọn sẵn để tôn lên sự quang minh lẫm liệt của Ninh Huyền Dạ. 
+
+Hắn từ từ ngước đôi mắt đỏ vằn tia máu lên nhìn Ninh Huyền Dạ. Dưới ánh hào quang của một vị thánh nhân thương xót đồng môn, trong đáy mắt sâu thẳm của Ninh Huyền Dạ... Lâm Phàm nhìn thấy một vực thẳm đen ngòm, đang không ngừng xoay tròn, tĩnh lặng nhai nuốt từng mảnh linh hồn và hy vọng cuối cùng của hắn.

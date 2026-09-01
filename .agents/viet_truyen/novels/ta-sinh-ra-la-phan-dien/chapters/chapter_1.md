@@ -1,55 +1,33 @@
-# XUYÊN KHÔNG THÀNH BOSS MÀN ĐẦU - BẢN XEM TRƯỚC CÁI CHẾT
+# Xuyên Không Thành Phản Diện Màn Đầu
 
 Hương đàn hương thanh khiết thoang thoảng quẩn quanh trong không gian tĩnh mịch, hòa cùng luồng linh khí dày đặc tựa sương mai thấm đẫm vào từng lỗ chân lông.
 
 Ninh Huyền Dạ chậm rãi mở mắt.
 
-Trước mắt hắn không còn là màn hình máy tính quen thuộc với giao diện kết thúc của tựa game Cửu Giới Tru Tiên Lục, mà là một gian tẩm điện bằng bạch ngọc nguy nga tráng lệ. Những cột trụ chạm khắc rồng vàng uốn lượn trong mây, từng viên dạ minh châu to bằng nắm tay đính trên vòm trần tỏa ra ánh sáng dịu nhẹ soi rọi tấm thảm nhung dệt từ lông tơ của linh thú Thượng Cổ.
+Trần nhà chạm khắc rồng vàng uốn lượn trong mây, từng viên dạ minh châu to bằng nắm tay đính trên vòm trần tỏa ra ánh sáng dịu nhẹ soi rọi tấm thảm nhung dệt từ lông tơ của linh thú. Không còn là căn phòng trọ chật hẹp, không còn tiếng quạt tản nhiệt của dàn máy tính rú lên từng hồi. Hắn dang hai bàn tay, nhìn chăm chú vào những ngón tay thon dài, trắng nõn không tì vết, các khớp xương cân đối hoàn mỹ như được điêu khắc từ khối băng ngọc. Trên ngón trỏ tay phải là một chiếc nhẫn ngọc bích khắc chìm ba chữ cổ: Cổ Tộc Vô Cực.
 
-Hắn cúi đầu nhìn bàn tay mình. Những ngón tay thon dài, trắng nõn không tì vết, các khớp xương cân đối hoàn mỹ như được điêu khắc từ khối băng ngọc ngàn năm. Trên ngón trỏ tay phải là một chiếc nhẫn ngọc bích khắc chìm ba chữ cổ: Cổ Tộc Vô Cực.
+Một luồng ký ức khổng lồ, lạnh lẽo và tàn nhẫn như thác lũ đột ngột xé toạc thức hải, ép hắn phải tiếp nhận. 
 
-Một luồng ký ức khổng lồ như thác lũ đột ngột tràn vào thức hải.
+Ninh Huyền Dạ – đích tử duy nhất của Vô Cực Cổ Tộc tại Thượng Giới. Thân mang Thái Sơ Đạo Cốt, tu vi Kim Đan Cảnh Đỉnh Phong khi vừa tròn hai mươi tuổi. Hiện tại, hắn đang giáng lâm Hạ Giới, nhận chức vị Tuyệt Thế Chân Truyền tại Thái Sơ Tiên Tông. Thân phận này, tư chất này, tài nguyên này... hoàn hảo đến mức khiến người ta phải nghẹt thở.
 
-Ninh Huyền Dạ – đích tử duy nhất của Vô Cực Cổ Tộc tại Thượng Giới, thân mang Thái Sơ Đạo Cốt, tu vi Kim Đan Cảnh Đỉnh Phong khi vừa tròn hai mươi tuổi. Hiện tại, hắn đang tạm thời giáng lâm Hạ Giới, nhận chức vị Tuyệt Thế Chân Truyền tại Thái Sơ Tiên Tông để rèn luyện tâm tính.
+Nhưng trong lồng ngực hắn, nhịp tim lại đập liên hồi, dồn dập và đầy bất an. 
 
-Nhưng trong tâm trí của một game thủ kỳ cựu từng phá đảo trò chơi ở độ khó Ác Mộng, Ninh Huyền Dạ biết rất rõ số phận bi thảm của nhân vật này.
+Là một kẻ từng nghiền ngẫm vô số bộ tiểu thuyết tu tiên, Ninh Huyền Dạ nhận ra ngay lập tức số phận nghiệt ngã đang bủa vây lấy mình. Hắn không phải là kẻ được trời cao ưu ái. Hắn là hòn đá tảng khổng lồ, dát vàng đính ngọc, sinh ra chỉ để làm nền cho một bước giẫm đạp của kẻ khác. Một tên "phản diện" màn đầu, kiêu ngạo, thiển cận và ngu ngốc.
 
-Hắn không phải là nhân vật chính. Hắn chính là Boss Phản Diện Màn Đầu – kẻ lót đường hào nhoáng nhất để Khí Vận Chi Tử dẫm lên bước vào đỉnh cao danh vọng.
+Hắn nhắm mắt lại, lục lọi trong mớ ký ức hỗn độn. Ba ngày nữa. Chỉ đúng ba ngày nữa, tại Đại Điện Tiên Tông, một thiếu niên phế vật tên Lâm Phàm sẽ xông vào đòi lại công đạo cho hôn ước bị hủy bỏ. Theo kịch bản, hắn sẽ nổi giận, sai người đánh đập Lâm Phàm, để rồi đánh thức một tàn hồn cường giả vô thượng trú ngụ trong chiếc nhẫn của tên tiểu tử kia. Từ đó, hắn từng bước đánh mất cơ duyên, bị cướp đi vị hôn thê, bị tước đoạt Thái Sơ Đạo Cốt, và kết thúc bằng việc bị ngọn lửa hắc ám thiêu rụi đến không còn một mảnh vụn linh hồn.
 
-Theo đúng kịch bản game, chỉ ba ngày nữa, tại Đại Điện Tiên Tông, một thiếu niên phế vật tên là Lâm Phàm sẽ xông vào đòi lại công đạo cho hôn ước bị hủy bỏ. Ninh Huyền Dạ vì ngạo mạn sẽ khinh thường đối phương, liên tục phái thủ hạ đến làm bao cát tăng kinh nghiệm cho Lâm Phàm, để rồi từng bước bị đối phương bóc tách cơ duyên, cướp đoạt vị hôn thê, đào tẩu Thái Sơ Đạo Cốt và cuối cùng bị thiêu rụi thành tro tàn dưới Hắc Viêm Thần Hỏa.
+Hơi thở của Ninh Huyền Dạ dần trở nên đều đặn. Hắn mở bừng mắt, đôi đồng tử đen láy sâu thẳm như giếng cổ ngàn năm không chút gợn sóng. Sự hoảng loạn ban đầu đã biến mất, nhường chỗ cho một sự tĩnh lặng đến đáng sợ.
 
-Khóe môi Ninh Huyền Dạ khẽ nhếch lên, tạo thành một đường cong lạnh lẽo.
+"Thiên Đạo muốn ta làm đá lót đường?" Khóe môi hắn nhếch lên, tạo thành một đường cong sắc lẹm. 
 
-Muốn biến ta thành đá lót đường sao?
+Hắn hiểu thế giới này. Hắn không thể trực tiếp dùng lực lượng nghiền nát Lâm Phàm lúc này. Kẻ được xưng là 'Khí Vận Chi Tử' luôn được một thứ quy tắc vô hình che chở. Nếu hắn ra sát thủ, chắc chắn sẽ có sấm sét giáng xuống, hoặc tàn hồn kia sẽ thiêu đốt bản nguyên để cứu mạng Lâm Phàm, thậm chí đẩy tên phế vật đó vào một sơn động chứa đầy kỳ ngộ. 
 
-Một âm thanh máy móc trong trẻo bất chợt vang lên sâu trong tâm trí hắn.
+Muốn giết một kẻ được trời xanh ưu ái, không thể dùng đao. Phải dùng độc. Phải tước đoạt từng cơ duyên, bẻ gãy từng chỗ dựa, biến những người xung quanh hắn thành lưỡi dao đâm ngược lại hắn. Phải lột sạch lớp hào quang bảo vệ kia, ép hắn xuống vũng bùn lầy nhơ nhuốc nhất, cho đến khi chính Thiên Đạo cũng cảm thấy ghê tởm mà ruồng bỏ.
 
-Đinh! Phát hiện túc chủ đã dung hợp hoàn mỹ linh hồn và thân xác.
+Bên ngoài tẩm điện, tiếng bước chân nhẹ nhàng dẫm lên bậc thềm ngọc vang lên, xé toạc bầu không khí tĩnh mịch. Một giọng nói cung kính của thị nữ truyền vào:
 
-Hệ Thống Nghịch Thiên Cải Mệnh Phản Diện chính thức kích hoạt.
+"Bẩm Thiếu Chủ, ngoài sơn môn có đệ tử ngoại môn tên là Lâm Phàm, tự xưng mang theo tín vật gia tộc, một mực đòi diện kiến Đại sư tỷ Cố Thanh Tuyết và người."
 
-Một bảng giao diện màu vàng kim cổ xưa hiện lên trước tầm mắt hắn.
+Ninh Huyền Dạ đứng dậy. Tà áo bạch y khẽ lay động, phác họa dáng vẻ siêu phàm thoát tục. Hắn đưa tay vuốt lại dải lụa thêu chỉ vàng trên tay áo, thong thả bước về phía cửa. 
 
-Túc chủ: Ninh Huyền Dạ.
-Thân phận: Thiếu Chủ Cổ Tộc Vô Cực / Chân Truyền Thái Sơ Tiên Tông.
-Tu vi: Kim Đan Cảnh Đỉnh Phong (Thực lực tiềm ẩn: Nguyên Anh Cảnh Sơ Kỳ).
-Thể chất: Thái Sơ Đạo Cốt (Chưa hoàn toàn thức tỉnh).
-Khí Vận Trị: 500 (Kim Sắc Phản Diện).
-Điểm Nghịch Mệnh: 0.
-Mục tiêu cảnh báo: Lâm Phàm (Khí Vận Chi Tử Màn 1 - Điểm Khí Vận: 2500 - Khí Vận Quang Hoàn cấp 3).
-
-Ninh Huyền Dạ đưa tay khẽ vuốt ve dải lụa thêu chỉ vàng trên tay áo, ánh mắt thâm trầm như biển sâu không một gợn sóng.
-
-Hắn hiểu rất rõ cơ chế vận hành của thế giới này. Khí Vận Chi Tử được Thiên Đạo che chở, nếu hắn dùng vũ lực trực tiếp giết chết Lâm Phàm ngay lúc này, chắc chắn sẽ kích hoạt Thiên Đạo Phản Phệ – trời giáng sấm sét hoặc tàn hồn cường giả trong nhẫn sẽ liều mạng bộc phát đưa Lâm Phàm trốn thoát, thậm chí còn khiến điểm khí vận của đối phương bùng nổ mạnh mẽ hơn.
-
-Cách duy nhất để triệt hạ một nhân vật chính, là tước đoạt từng phần cơ duyên, nghiền nát từng điểm tựa tinh thần, biến những người bên cạnh đối phương thành quân cờ của mình, khiến Khí Vận Trị tụt dần về con số 0.
-
-Đến lúc đó, Thiên Đạo cũng sẽ từ bỏ kẻ phế vật này.
-
-Bên ngoài tẩm điện, tiếng bước chân nhẹ nhàng dẫm lên bậc thềm ngọc vang lên, kèm theo giọng nói cung kính của thị nữ:
-
-Bẩm Thiếu Chủ, ngoài sơn môn có đệ tử ngoại môn tên là Lâm Phàm, tự xưng mang theo tín vật gia tộc, một mực đòi diện kiến Đại sư tỷ Cố Thanh Tuyết và người.
-
-Ninh Huyền Dạ đứng dậy, tà áo bạch y khẽ lay động theo làn gió sớm. Hắn khẽ mỉm cười, đôi mắt đen lóe lên một tia sáng thâm sâu khó lường.
-
-Kịch bản bắt đầu rồi sao? Tốt lắm, để ta xem một kẻ mang khí vận ngút trời sẽ giãy giụa thế nào trên bàn cờ của ta.
+"Lâm Phàm..." Hắn lẩm bẩm, thanh âm nhẹ bẫng nhưng lạnh thấu xương. "Trò chơi bắt đầu rồi. Để ta xem, cái mệnh của ngươi cứng đến mức nào."

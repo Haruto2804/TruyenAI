@@ -1,57 +1,57 @@
-# THU HOẠCH MÀN ĐẦU - BƯỚC CHÂN RỜI KHỎI TÂN THỦ THÔN
+# Bước Khỏi Tân Thủ Thôn
 
-Tiếng gió rít qua khe đá tạo nên những âm thanh thê lương u tịch.
+Tiếng gió rít qua những khe nứt không gian trong Ma Chu Động, tạo nên những thanh âm thê lương, u tịch như tiếng khóc than của oan hồn.
 
-Lâm Phàm nằm trên nền đá lạnh, ánh mắt dại đi vì tuyệt vọng tột cùng. Hắn đã mất tất cả: tu vi, linh căn, thánh dược, dị hỏa, danh dự, sư phụ và người con gái hắn từng thầm thương trộm nhớ.
+Lâm Phàm nằm sõng soài trên nền đá vấy máu. Ánh mắt hắn trống rỗng, vô hồn, chết lặng trong sự tuyệt vọng tận cùng. Hắn đã mất tất cả. Tu vi, linh căn, thánh dược, dị hỏa, danh dự, vị ân sư mà hắn hết lòng kính trọng, và cả người con gái mà hắn ngày đêm thầm thương trộm nhớ. Không còn lại bất cứ thứ gì, ngoài một thân xác tàn tạ, mục nát, chờ đón tử thần.
 
-Hắn nhìn Ninh Huyền Dạ đang cầm thanh trường kiếm cổ sáng loáng từ từ bước tới, cất giọng khàn đặc đầy căm hận:
+Hắn khó nhọc đảo tròng mắt đục ngầu, nhìn Ninh Huyền Dạ. Vị Thiếu chủ cao quý kia đang cầm thanh trường kiếm cổ sáng loáng, từng bước, từng bước khoan thai tiến lại gần. 
 
-Ninh Huyền Dạ... Rốt cuộc... rốt cuộc ngươi là ai? Tại sao ngươi biết trước mọi thứ...
+Sự thắc mắc cuối cùng bùng lên như ngọn đèn cạn dầu. Lâm Phàm cất giọng khàn đặc, khô khốc như rễ cây mục, chứa đầy sự không cam tâm và phẫn hận:
 
-Ninh Huyền Dạ dừng bước trước mặt Lâm Phàm, ánh mắt bình thản như nhìn một hạt bụi vô danh rơi rụng bên lề đường:
+"Ninh Huyền Dạ... Rốt cuộc... ngươi là cái thứ quái vật gì? Tại sao... tại sao ngươi lại biết trước mọi thứ... Tại sao ngươi lại cướp hết của ta..."
 
-Ngươi không cần biết ta là ai. Ngươi chỉ cần nhớ một điều: trong trò chơi này, kẻ tự cho mình là nhân vật chính nghịch thiên cải mệnh, thường là những kẻ chết sớm nhất.
+Ninh Huyền Dạ dừng bước. Hắn rũ rèm mi, ánh mắt từ trên cao nhìn xuống bình thản và lạnh lùng, hệt như đang nhìn một hạt bụi vô danh vướng bận bên lề đường:
 
-Xoẹt!
+"Ngươi không cần biết ta là ai. Ngươi chỉ cần mang theo một sự thật này xuống cõi âm: Trong trò chơi của số phận, những kẻ ếch ngồi đáy giếng tự huyễn hoặc bản thân là trung tâm của vũ trụ, ảo tưởng đòi nghịch thiên cải mệnh... luôn là những kẻ chết tức tưởi nhất."
 
-Một đường kiếm quang sắc lẹm xé toạc màn đêm. Đầu của Lâm Phàm lìa khỏi cổ, đôi mắt mở trừng trừng không kịp nhắm lại, máu tươi nhuộm đỏ phiến đá đen.
+*Xoẹt!*
 
-Một luồng linh hỏa màu tím đen bùng lên từ đầu ngón tay Ninh Huyền Dạ, thiêu rụi toàn bộ thi thể của Lâm Phàm thành tro bụi trong tích tắc, không để lại bất kỳ một dấu vết hay nghiệp chướng nào trên cõi đời.
+Một đường kiếm quang sắc lẹm, lạnh buốt xé toạc bầu không khí u ám. 
 
-Đinh! Khí Vận Chi Tử Màn 1 (Lâm Phàm) đã bị tiêu diệt hoàn toàn.
-Khí Vận Phản Phệ: 0% (Thiên Đạo hoàn toàn không phát giác).
-Túc chủ nhận được Phần Thưởng Đại Thắng Màn Đầu:
-1. Rương Thần Cổ Tộc Cấp Chí Tôn.
-2. Thức tỉnh kỹ năng: Khí Vận Chi Nhãn Cấp 2 (Nhìn thấu kịch bản của thiên kiêu Thượng Giới).
-3. 2000 Điểm Nghịch Mệnh (Tổng tích lũy: 4750 Điểm).
-4. Khí Vận Trị tăng 500 điểm (Tổng: 1350 điểm - Đạt cấp Tử Kim Phản Diện).
+Đầu của Lâm Phàm lìa khỏi cổ, lăn lông lốc trên nền đá đen. Đôi mắt hắn vẫn mở trừng trừng, hằn học những tia vằn đỏ, không kịp nhắm lại trước khi ý thức tắt lịm. Máu tươi ứa ra, tanh tưởi và nguội lạnh.
 
-Ninh Huyền Dạ hít một hơi thật sâu, cảm nhận sức mạnh cuồn cuộn của Đạo Cốt song sinh và cảnh giới Nguyên Anh Cảnh sơ khởi đang lưu chuyển mãnh liệt trong huyết mạch.
+Ninh Huyền Dạ thu kiếm. Một đốm lửa Hắc Viêm màu tím đen bùng lên từ đầu ngón tay hắn, nhẹ nhàng búng ra. Ngọn lửa bá đạo lập tức bao trùm lấy thi thể Lâm Phàm, thiêu rụi từ huyết nhục đến xương cốt thành tro bụi chỉ trong một cái chớp mắt. Gió lùa qua, cuốn trôi những hạt tro tàn vào khoảng không vô tận. 
 
-Hắn vung tay thu chiếc nhẫn Hắc Diễm Cổ Giới vào tay áo, sau đó thản nhiên quay người bước ra khỏi hang động ngầm.
+Không để lại một dấu vết, không để lại một tia nghiệp chướng, cũng không còn bất kỳ hậu họa nào. Khí vận của thế giới không hề nổi lên nửa điểm chấn động, phảng phất như một con kiến vừa bị người ta vô tình giẫm chết.
 
-Bên ngoài cửa động, ánh bình minh đầu tiên của ngày mới đang chiếu rọi rực rỡ qua những tán cây cổ thụ, xua tan màn sương mù u ám của Cổ Thần Bí Cảnh.
+Ninh Huyền Dạ hít một hơi thật sâu. Hắn nhắm mắt lại, cảm nhận luồng sức mạnh cuồn cuộn của Đạo Cốt song sinh đang sục sôi. Cảnh giới Nguyên Anh Cảnh như một dòng sông lớn lưu chuyển mãnh liệt trong từng huyết mạch, tràn trề sinh lực và cường hãn.
 
-Cố Thanh Tuyết cùng các đệ tử Tiên Tông đang đứng đợi sẵn. Khi nhìn thấy bóng áo trắng của Ninh Huyền Dạ xuất hiện trong ánh nắng ban mai với nụ cười ôn hòa, Cố Thanh Tuyết vội vã chạy tới đón, ánh mắt không giấu nổi sự quan tâm lo lắng:
+Hắn vung tay áo, thu hồi chiếc nhẫn Hắc Diễm Cổ Giới, rồi quay người thản nhiên bước ra khỏi hang động ngầm nhơ nhuốc. 
 
-Ninh sư huynh! Huynh không sao chứ? Tên phản đồ Lâm Phàm đâu rồi?
+Bên ngoài cửa động, ánh bình minh đầu tiên của ngày mới đang phá vỡ tầng mây, rọi những vạt nắng rực rỡ xuyên qua lớp sương mù u ám của Cổ Thần Bí Cảnh. 
 
-Ninh Huyền Dạ thở dài một tiếng đầy tiếc thương:
+Cố Thanh Tuyết cùng các đệ tử Tiên Tông đang đứng đợi cách đó không xa. Vừa thấy bóng bạch y của Ninh Huyền Dạ ung dung bước ra dưới ánh ban mai với nụ cười nhàn nhạt quen thuộc, sự căng thẳng trên gương mặt Cố Thanh Tuyết lập tức giãn ra. Nàng vội vã tiến lên, ánh mắt lấp lánh sự lo lắng không thèm che giấu:
 
-Lâm sư đệ vì tẩu hỏa nhập ma quá nặng, trong lúc điên loạn đã nhảy xuống vực sâu không đáy của bí cảnh, bị loạn lưu không gian cuốn đi mất tích rồi. Ta đã cố hết sức cứu giúp nhưng không kịp...
+"Ninh sư huynh! Huynh bình an vô sự chứ? Tên phản đồ Lâm Phàm kia đâu rồi?"
 
-Cố Thanh Tuyết nhẹ nhàng vỗ về cánh tay hắn, giọng nói dịu dàng:
+Ninh Huyền Dạ khẽ khựng lại, đôi mày hơi nhíu, thở dài một tiếng u buồn:
 
-Đó là số mệnh do hắn tự chuốc lấy, huynh đã làm hết lòng vì đệ tử tông môn rồi, đừng tự trách mình nữa.
+"Lâm sư đệ tẩu hỏa nhập ma quá nặng, trong lúc thần trí điên loạn đã trượt chân ngã xuống vực sâu không đáy của Ma Chu Động. Loạn lưu không gian bên dưới quá hung hiểm, đã cuốn đệ ấy đi mất tích rồi. Ta... ta đã dốc hết sức cứu vớt, nhưng thật sự bất lực..."
 
-Đúng lúc này, từ trên tầng mây chín tầng trời xa xôi, một đạo thần quang màu vàng kim rực rỡ đột ngột chiếu thẳng xuống đỉnh đầu Ninh Huyền Dạ.
+"Huynh đừng tự trách mình nữa." Cố Thanh Tuyết nhẹ nhàng bước tới, vô thức vỗ về cánh tay hắn, giọng nói dịu dàng hiếm thấy. "Đó là nghiệt báo do chính hắn tự chuốc lấy. Huynh đã tận tâm tận lực vì đồng môn, hắn không biết điểm dừng, chết cũng không đáng tiếc."
 
-Một cỗ chiến xa bằng ngọc bích kéo bởi chín con giao long Thượng Cổ phá vỡ hư không giáng lâm, mang theo thánh chỉ phát ra âm thanh uy nghiêm của Vô Cực Cổ Tộc:
+Đúng lúc đó, từ nơi chín tầng trời cao xa xăm, bầu không trung bỗng nhiên rung chuyển dữ dội. 
 
-Phụng thiên mệnh Vô Cực Lão Tổ, Thiếu Chủ Ninh Huyền Dạ đã hoàn thành lịch luyện hạ giới, nay triệu hồi trở về Thượng Giới để tiếp quản Thần Tử Thần Điện!
+Tầng mây bị xé toạc. Một đạo thần quang màu vàng kim rực rỡ, chói lòa như một vầng mặt trời thứ hai, mạnh mẽ xuyên thấu không gian, chiếu rọi thẳng xuống đỉnh đầu Ninh Huyền Dạ. Uy áp bàng bạc, khủng khiếp đến mức không thể thở nổi lan tỏa khắp thập phương bát hướng.
 
-Tiếng sấm rền vang khắp đại lục, hàng ngàn đệ tử và Trưởng lão Thái Sơ Tiên Tông đồng loạt quỳ rạp xuống đất bái tiễn trong sự kính sợ tột cùng.
+Một cỗ chiến xa khổng lồ đúc bằng bảo ngọc, được kéo bởi chín con giao long Thượng Cổ uy vũ, gầm thét phá vỡ hư không giáng lâm. Một âm thanh uy nghiêm, trầm hùng mang sức mạnh hủy diệt cuồn cuộn vang vọng, như lệnh bài của thiên địa giáng xuống trần thế:
 
-Ninh Huyền Dạ đứng thẳng lưng trên bậc thềm ngọc, đưa mắt nhìn lên cánh cổng không gian dẫn tới Thượng Giới bao la vô tận.
+"Phụng thiên mệnh Vô Cực Lão Tổ! Thiếu Chủ Ninh Huyền Dạ đã hoàn thành kỳ lịch luyện tại Hạ Giới, viên mãn đạo tâm. Nay triệu hồi trở về Thượng Giới, lập tức tiếp quản Thần Tử Điện!"
 
-Tân thủ thôn đã dọn dẹp sạch sẽ. Bàn cờ thực sự của Cửu Thiên Vực ngập tràn các Thần Tử, Thánh Nữ và những Khí Vận Chi Tử cấp Thần Đế... giờ mới chính thức mở ra!
+Tiếng sấm rền vang liên hồi. Dưới uy áp của Thượng Giới, hàng ngàn đệ tử, và cả các vị Trưởng lão cao cấp của Thái Sơ Tiên Tông, đều run rẩy, đồng loạt quỳ rạp xuống đất bái tiễn trong sự kính sợ tột cùng.
+
+Ninh Huyền Dạ đứng thẳng lưng, tà áo bay phấp phới trong gió. Hắn chậm rãi bước lên bậc thềm ngọc của chiến xa, quay đầu đưa mắt nhìn xuống Hạ Giới nhỏ bé lần cuối. 
+
+Tân thủ thôn rách nát này, cuối cùng cũng dọn dẹp xong. Bàn cờ thực sự của Cửu Thiên Vực... nơi ngập tràn những kẻ được xưng tụng là Thần Tử, Thánh Nữ, hay những Khí Vận Chi Tử mang mệnh cách Thần Đế... 
+
+Bây giờ... mới chính thức bắt đầu.

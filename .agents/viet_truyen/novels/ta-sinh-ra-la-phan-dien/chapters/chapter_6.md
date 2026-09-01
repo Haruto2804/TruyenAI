@@ -1,49 +1,53 @@
-# CỔ THẦN BÍ CẢNH KHỞI ĐỘNG - BẪY RẬP NƠI VỰC SÂU
+# Bẫy Rập Nơi Vực Sâu
 
-Sau vụ việc chấn động tại Thí Luyện Đài, Lâm Phàm bị tước đoạt toàn bộ đãi ngộ đệ tử, bị giam lỏng tại xó hẻo lánh của hậu sơn. Tuy nhiên, nhờ thân phận mang nửa huyết mạch của khai sơn tổ sư Lâm gia năm xưa, Chưởng giáo quyết định cho hắn một cơ hội cuối cùng để chuộc tội: tiến vào Cổ Thần Bí Cảnh tìm kiếm thảo dược trị thương.
+Sau vụ việc chấn động tại Thí Luyện Đài, danh tiếng của Lâm Phàm triệt để tan thành mây khói. Hắn bị tước đoạt toàn bộ đãi ngộ đệ tử nội môn, bị giam lỏng tại một xó hẻo lánh ẩm thấp của hậu sơn. Tuy nhiên, nể tình dòng máu của khai sơn tổ sư Lâm gia năm xưa đang chảy trong người hắn, Chưởng giáo quyết định mở lượng khoan hồng, cho hắn một cơ hội cuối cùng để lập công chuộc tội: tiến vào Cổ Thần Bí Cảnh tìm kiếm thảo dược trị thương cho tông môn.
 
-Đối với Lâm Phàm, đây là chiếc phao cứu sinh cuối cùng. Nhưng đối với Ninh Huyền Dạ, đây chính là tử địa đã được giăng sẵn bẫy rập.
+Đối với kẻ đang ngập ngụa trong tuyệt vọng như Lâm Phàm, đây là chiếc phao cứu sinh duy nhất. Nhưng đối với Ninh Huyền Dạ, đây chẳng qua chỉ là một cái bẫy đã được giăng sẵn lưới, chờ con mồi tự mình lao đầu vào bế tắc.
 
-Cổ Thần Bí Cảnh là một tiểu thế giới cổ xưa hình thành từ thi hài của một vị Ma Tôn Viễn Cổ rơi xuống hạ giới. Nơi đây linh khí cuồng bạo, yêu thú hoành hành, khắp nơi đều là khe nứt không gian và chướng khí độc hại.
+Cổ Thần Bí Cảnh là một tiểu thế giới tàn khuyết, được đồn đại là hình thành từ thi hài của một vị Ma Tôn Viễn Cổ bỏ mạng nơi hạ giới. Nơi đây linh khí cuồng bạo xé rách kinh mạch, yêu thú khát máu hoành hành, khắp nơi là những khe nứt không gian vô hình và chướng khí độc hại có thể hòa tan huyết nhục trong nháy mắt.
 
-Trong một thung lũng sương mù dày đặc cách cổng truyền tống mười dặm, Ninh Huyền Dạ đang đứng trên đỉnh một cây cổ thụ khổng lồ. Bên cạnh hắn, một bóng dáng uyển chuyển ma mị trong làn áo lụa tím đen xuất hiện từ trong bóng tối không gian.
+Tại một thung lũng sương mù dày đặc cách cổng truyền tống mười dặm, Ninh Huyền Dạ đang chắp tay đứng trên đỉnh một cây cổ thụ khổng lồ. Gió lạnh luồn qua những tán lá xào xạc. Phía sau hắn, một dải bóng tối bỗng nhiên vặn vẹo. Một bóng dáng uyển chuyển, ma mị trong làn lụa tím đen dần ngưng tụ từ hư không.
 
-Đó là Dạ U, thủ lĩnh hộ vệ bóng tối của Vô Cực Cổ Tộc, người mang huyết mạch Cửu Vĩ U Hồ đạt cảnh giới Phong Hầu Cảnh. Nàng khẽ quỳ một gối xuống trước mặt Ninh Huyền Dạ, giọng nói yêu kiều quyến rũ:
+Đó là Dạ U, thống lĩnh đội hộ vệ bóng tối của Vô Cực Cổ Tộc. Một sát thủ mang huyết mạch Cửu Vĩ U Hồ, tu vi đã đạt ngưỡng Phong Hầu Cảnh. Nàng khẽ quỳ một gối trên cành cây, cúi đầu cung kính, thanh âm yêu kiều mang theo sự mị hoặc chết người:
 
-Thuộc hạ Dạ U, bái kiến Thiếu Chủ. Toàn bộ cấm chế và đường đi trong Cổ Thần Bí Cảnh đã được bố trí theo đúng chỉ thị của người.
+"Thuộc hạ Dạ U, bái kiến Thiếu Chủ. Toàn bộ cấm chế và lộ tuyến trong Cổ Thần Bí Cảnh đã được dọn dẹp và bố trí theo đúng chỉ thị của ngài."
 
-Ninh Huyền Dạ khẽ gật đầu, ánh mắt hướng về phía con đường mòn dưới chân núi:
+Ninh Huyền Dạ không quay đầu lại. Hắn khẽ gật đầu, ánh mắt lạnh nhạt nhìn xuống con đường mòn ngập ngụa chướng khí dưới chân núi:
 
-Đã dẫn dắt Lâm Phàm đi theo con đường nào rồi?
+"Lâm Phàm hiện đang ở đâu?"
 
-Dạ U khẽ mỉm cười, đôi mắt tím yêu dị lóe lên tia sáng ranh mãnh:
+Dạ U khẽ ngẩng đầu, đôi mắt tím yêu dị lóe lên tia sáng ranh mãnh:
 
-Thuộc hạ đã dùng một chút mùi hương của Cửu Diệp Huyết Chi để kích thích tàn hồn trong chiếc nhẫn của hắn. Hiện tại, lão già kia đang đắc ý dẫn dắt Lâm Phàm tiến thẳng vào Ma Chu Động – nơi trú ngụ của Hắc Giáp Bát Nhãn Ma Chu cấp bốn.
+"Thuộc hạ đã dùng một giọt dịch chiết của Cửu Diệp Huyết Chi để kích thích sự nhạy bén của tàn hồn trong chiếc nhẫn. Hiện tại, lão già kia đang hớn hở dẫn dắt Lâm Phàm tiến thẳng vào Ma Chu Động – sào huyệt của một đầu Hắc Giáp Bát Nhãn Ma Chu cấp bốn."
 
-Tốt lắm. Ninh Huyền Dạ thản nhiên nói: Cứ để hắn tiêu hao hết linh hồn lực của lão tàn hồn kia để chiến đấu với Ma Chu. Đến khi hắn tưởng rằng đã giết được yêu thú và chạm tay vào thánh dược, đó mới là lúc chúng ta ra tay thu lưới.
+"Tốt." Ninh Huyền Dạ thản nhiên đáp, giọng nói phảng phất hàn khí. "Cứ để hắn dốc cạn sức lực, ép lão tàn hồn kia phải thiêu đốt bản nguyên để chiến đấu với Ma Chu. Chờ đến khi hắn kiệt quệ, tưởng chừng như đã với tay tới kỳ ngộ... đó mới là lúc chúng ta thu lưới."
 
-Cùng lúc đó, dưới chân thung lũng, Lâm Phàm đang thở hồng hộc, toàn thân đầy những vết cào rách rưới do cành cây và đá nhọn.
+***
 
-Lạc Lão, người chắc chắn phía trước có Cửu Diệp Huyết Chi chứ? Lâm Phàm vừa gạt mồ hôi vừa hỏi, trong mắt tràn ngập khát vọng phục thù.
+Cùng lúc đó, dưới đáy thung lũng tối tăm, Lâm Phàm đang thở hồng hộc. Toàn thân hắn ướt sũng mồ hôi và máu tươi. Tấm áo vải bị gai nhọn và cành cây khô cào rách tươm, để lộ ra những vết thương nham nhở. 
 
-Tàn hồn Lạc Lão trong nhẫn tỏa ra ánh sáng mờ nhạt, giọng nói có phần suy yếu sau khi bị Hạo Nhiên Kính làm tổn thương:
+"Lạc Lão... Người chắc chắn... phía trước có Cửu Diệp Huyết Chi chứ?" Lâm Phàm vừa gạt vệt máu rỉ trên trán vừa thì thào hỏi. Đôi mắt đỏ ngầu của hắn tràn ngập khát vọng phục thù đến điên cuồng. Hắn cần sức mạnh. Hắn cần rửa nhục!
 
-Chắc chắn 100%! Khí tức huyết chi nồng đậm như thế này, nếu ngươi luyện hóa được, chẳng những đan điền được tái tạo hoàn mỹ mà còn có thể mượn hỏa độc ngưng tụ thành Chân Hỏa Trúc Cơ! Lão phu sẽ dốc hết linh hồn lực còn lại để hộ pháp cho ngươi một trận này!
+Chiếc nhẫn đen trên ngón tay lóe lên một tia sáng yếu ớt. Giọng nói của Lạc Lão truyền vào não hải, mang theo sự mệt mỏi rõ rệt sau lần bị Hạo Nhiên Kính đả thương:
 
-Lâm Phàm mừng rỡ khôn xiết, vội vã lao thẳng vào cửa hang động u tối phía trước.
+"Chắc chắn. Khí tức huyết chi nồng đậm như thế này không thể sai được! Chỉ cần hái được nó, chẳng những đan điền của ngươi được tái tạo, mà vi sư còn có thể giúp ngươi mượn hỏa độc ngưng tụ thành Chân Hỏa Trúc Cơ. Chịu đựng đi! Vi sư sẽ dốc hết linh hồn lực còn lại để hộ pháp cho ngươi!"
 
-Hắn không hề hay biết rằng, ngay từ khoảnh khắc bước chân vào Cổ Thần Bí Cảnh, mỗi một bước đi, mỗi một hơi thở của hắn đều nằm trọn trong lòng bàn tay của Ninh Huyền Dạ.
+Nghe được những lời này, cơ thể rã rời của Lâm Phàm như được bơm thêm sinh lực. Hắn cắn răng, nắm chặt thanh kiếm mẻ, vội vã lao thẳng vào cửa hang động u tối phía trước, mang theo hy vọng lật ngược thế cờ.
 
-Bên ngoài cửa hang, Cố Thanh Tuyết cùng một tiểu đội đệ tử tinh anh của Tiên Tông cũng vừa lúc tuần tra đi tới theo sự gợi ý tình cờ của Ninh Huyền Dạ lúc trước.
+Hắn không hề hay biết rằng, ngay từ khoảnh khắc bước chân vào Cổ Thần Bí Cảnh, mỗi bước chân hắn đạp xuống, mỗi hơi thở hắn hít vào, đều là sự xắp đặt hoàn hảo nằm gọn trong lòng bàn tay Ninh Huyền Dạ.
 
-Cố Thanh Tuyết nhìn dấu chân vội vã dẫn vào Ma Chu Động, khẽ nhíu mày:
+Phía bên ngoài cửa hang, sương mù từ từ tản ra. Cố Thanh Tuyết cùng một tiểu đội đệ tử tinh anh của Tiên Tông cũng vừa vặn tuần tra đi tới, nhờ sự "tình cờ" gợi ý của Ninh Huyền Dạ về một lộ trình an toàn từ trước. 
 
-Khí tức yêu khí nồng nặc như vậy, là ai dám liều mạng xông vào tổ Ma Chu cấp bốn?
+Nàng khẽ nhíu đôi mày kiếm, nhìn những dấu chân hỗn loạn in trên nền bùn ẩm ướt dẫn thẳng vào Ma Chu Động. Cảm nhận được sát khí và yêu khí tột cùng tanh tưởi bốc ra từ trong hang, Cố Thanh Tuyết lạnh lùng lên tiếng:
 
-Ninh Huyền Dạ từ trên cành cây nhẹ nhàng đáp xuống bên cạnh nàng, tà áo bạch y không vướng một hạt bụi, cất giọng thở dài đầy vẻ ưu tư:
+"Yêu khí cấp bốn nồng nặc như vậy. Kẻ nào lại mất trí đi nộp mạng cho Hắc Giáp Bát Nhãn Ma Chu?"
 
-Hình như là Lâm sư đệ... E rằng đệ ấy vì muốn nhanh chóng chứng minh bản thân mà rơi vào ma chướng, bất chấp nguy hiểm xông vào hiểm địa. Chúng ta mau vào xem sao, kẻo đệ ấy gặp chuyện bất trắc.
+Một bóng trắng phiêu dật từ trên cao nhẹ nhàng đáp xuống bên cạnh nàng, mũi giày không vương một hạt bụi. Ninh Huyền Dạ khẽ nhíu mày, nét mặt toát lên vẻ ưu tư và xót xa:
 
-Cố Thanh Tuyết nhìn Ninh Huyền Dạ đầy vẻ cảm phục: Ninh sư huynh luôn lấy đức báo oán, nghĩ cho đồng môn như vậy, thật khiến Thanh Tuyết hổ thẹn.
+"Nhìn dấu chân và khí tức... e rằng là Lâm sư đệ. Đệ ấy vì muốn lập công chuộc tội, chứng minh bản thân nên đã bất chấp nguy hiểm xông vào hiểm địa. Chúng ta mau vào xem sao, lỡ đệ ấy xảy ra chuyện bất trắc..."
 
-Nói xong, nàng rút kiếm Băng Phách, cùng Ninh Huyền Dạ sải bước tiến vào hang động.
+Cố Thanh Tuyết quay sang nhìn hắn, ánh mắt ánh lên sự nể phục sâu sắc.
+
+"Ninh sư huynh luôn lấy đức báo oán, bụng dạ bao dung quảng đại, luôn lo nghĩ cho đồng môn. Thanh Tuyết thật sự vô cùng hổ thẹn." 
+
+Nói rồi, nàng rút thanh kiếm Băng Phách khỏi vỏ, mũi kiếm tỏa ra hàn khí bức người, sải bước cùng Ninh Huyền Dạ tiến vào hang động tăm tối.

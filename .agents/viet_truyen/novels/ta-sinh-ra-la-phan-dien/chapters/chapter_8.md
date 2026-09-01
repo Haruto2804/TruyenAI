@@ -1,51 +1,45 @@
-# BÓC TÁCH KHÍ VẬN KIM THÂN - ĐẠO CỐT THỨ HAI THỨC TỈNH
+# Đoạt Đạo Cốt
 
-Sau khi thu hồi Cửu Diệp Huyết Chi và giao Lâm Phàm cho các đệ tử áp giải về cấm địa nhốt tạm thời, Ninh Huyền Dạ viện cớ cần ở lại củng cố trận pháp phong ấn của bí cảnh, ra lệnh cho mọi người rút lui trước.
+Sau khi thu hồi Cửu Diệp Huyết Chi và giao Lâm Phàm cho các đệ tử áp giải về cấm địa nhốt tạm thời, Ninh Huyền Dạ trầm giọng thông báo cần ở lại củng cố trận pháp phong ấn, ngăn ngừa ma khí rò rỉ, ra lệnh cho mọi người hộ tống Cố Thanh Tuyết rút lui trước. Không một ai mảy may nghi ngờ sự cống hiến quên mình của vị Thiếu chủ Thượng Giới.
 
-Trong tẩm điện ngầm hoang phế dưới đáy Ma Chu Động, không gian rơi vào sự tĩnh lặng tuyệt đối.
+Khi bóng dáng người cuối cùng khuất sau cửa hang, tẩm điện ngầm hoang phế dưới đáy Ma Chu Động rơi vào một sự tĩnh lặng tuyệt đối.
 
-Ninh Huyền Dạ ngồi xếp bằng trên một phiến đá đen. Phía trước mặt hắn, Lâm Phàm đang bị trói chặt bởi những sợi xích ma pháp được đúc từ Huyền Thiết ngàn năm, hai mắt vô thần, miệng liên tục lẩm bẩm những lời nguyền rủa trong tuyệt vọng.
+Ninh Huyền Dạ ngồi vắt chéo chân trên một phiến đá đen bóng. Phía trước mặt hắn, Lâm Phàm đang bị trói chặt bởi những sợi xích đúc từ Huyền Thiết ngàn năm, ghim sâu vào tứ chi. Đôi mắt Lâm Phàm vẩn đục vô thần, khóe miệng rỉ máu liên tục lẩm bẩm những lời nguyền rủa vô nghĩa trong tuyệt vọng tận cùng.
 
-Ninh Huyền Dạ không thèm bận tâm đến những lời chửi rủa vô nghĩa đó. Hắn khẽ vung tay, một màn chắn không gian màu tím sẫm của Dạ U lập tức phong tỏa toàn bộ hang động, ngăn cách mọi sự dò xét của thần thức từ thế giới bên ngoài.
+Ninh Huyền Dạ không thèm bận tâm. Hắn khẽ vung tay. Một màn chắn không gian màu tím sẫm từ hư không bung ra, được Dạ U âm thầm triển khai, lập tức phong tỏa toàn bộ hang động, triệt để cắt đứt mọi sự dò xét của thần thức từ thế giới bên ngoài.
 
-Hệ thống, kích hoạt kỹ năng tước đoạt: Thôn Phệ Khí Vận Kim Thân.
+Khí Vận Chi Tử đã mất đi tính chính danh, mất đi chỗ dựa, bị cô lập hoàn toàn. Khí vận phòng hộ đã rách nát đến không thể rách hơn. Giờ là lúc bóc tách thành quả.
 
-Đinh! Khí Vận Trị của mục tiêu hiện tại là 600 điểm (Dưới ngưỡng an toàn của Thiên Đạo).
-Cho phép tiến hành cưỡng chế bóc tách căn cốt và dị hỏa bản nguyên!
+Ninh Huyền Dạ nhắm mắt lại. Tâm niệm khẽ động, cấm thuật tước đoạt trong Thôn Thiên Ma Điển bùng phát.
 
-Vù!
+*Vù!*
 
-Một bàn tay khổng lồ màu xám đen hư ảo đột ngột thò ra từ hư không sau lưng Ninh Huyền Dạ, trực tiếp găm thẳng vào lồng ngực của Lâm Phàm!
+Không khí trong hang động đột ngột vặn vẹo. Một bàn tay khổng lồ, hư ảo màu xám đen thò ra từ khoảng không sẫm tối sau lưng Ninh Huyền Dạ, lao vút tới, hung hãn cắm phập thẳng vào lồng ngực của Lâm Phàm!
 
-Á á á!
+"Á á á!!!"
 
-Một tiếng thét xé lòng vang lên khắp hang động ngầm. Lâm Phàm quằn quại đau đớn dữ dội khi cảm nhận rõ ràng từng sợi mạch máu, từng tấc linh căn và ngọn lửa Hắc Viêm sâu trong đan điền của mình đang bị một lực hút khủng khiếp nghiền nát và rút cạn ra ngoài từng chút một.
+Một tiếng thét xé lòng, the thé man rợ vang vọng khắp bốn bức vách. Cơ thể Lâm Phàm cong lên như con tôm bị nướng chín, các cơ bắp quằn quại co rút liên hồi. Hắn cảm nhận rõ ràng từng thớ thịt, từng sợi mạch máu, và cả gốc rễ linh căn sâu trong đan điền đang bị một lực hút bạo ngược xé toạc, sống sượng rút cạn ra ngoài.
 
-Một ngọn lửa màu đen kịt pha lẫn sắc tím huyền bí từ từ bị kéo ra khỏi lồng ngực Lâm Phàm, ngưng tụ thành một đóa hoa sen lửa ma quỷ xoay tròn trên không trung.
+Sâu thẳm trong vùng bụng Lâm Phàm, một ngọn lửa màu đen kịt pha lẫn sắc tím huyền bí rên rỉ, bị lôi tuột ra khỏi cơ thể. Ngọn lửa trôi nổi giữa không trung, dần ngưng tụ thành một đóa sen lửa ma mị, tỏa ra khí tức Hắc Viêm cường hãn. Đó chính là bản nguyên Hắc Viêm Thần Thể, thứ lẽ ra sẽ đưa Lâm Phàm lên đỉnh cao vinh quang. 
 
-Đó là bản nguyên Hắc Viêm Thần Thể mà Lâm Phàm phải trải qua chín lần cửu tử nhất sinh trong kịch bản game mới thức tỉnh được.
+Ninh Huyền Dạ khẽ há miệng, hít một hơi sâu. 
 
-Ninh Huyền Dạ há miệng hút một hơi. Đóa hoa sen lửa lập tức bay thẳng vào miệng hắn, chảy xuôi xuống đan điền, dung hợp hoàn mỹ với Thái Sơ Đạo Cốt trong lồng ngực.
+Đóa sen lửa bị kéo tuột đi, bay thẳng vào miệng hắn, trôi tuột xuống cổ họng, tiến thẳng vào đan điền. Hỏa lực bá đạo lập tức bùng nổ, nhưng chưa kịp phá phách thì Thái Sơ Đạo Cốt trong lồng ngực hắn đã tỏa sáng rực rỡ, dung hợp và thuần hóa ngọn lửa cuồng bạo ấy thành linh lực tinh khiết nhất.
 
-Răng rắc!
+*Răng rắc!*
 
-Một tiếng nứt giòn tan vang lên sâu trong khung xương của Ninh Huyền Dạ.
+Một tiếng nứt thanh thúy vang lên sâu trong khung xương của Ninh Huyền Dạ. 
 
-Thái Sơ Đạo Cốt thứ hai trong cơ thể hắn bắt đầu thức tỉnh! Từng tia sáng màu vàng kim và tím sẫm đan xen vào nhau, chiếu sáng rực rỡ cả hang động ngầm. Khí tức của hắn từ Kim Đan Cảnh Đỉnh Phong điên cuồng bùng nổ, phá vỡ bình cảnh, trực tiếp bước một chân vào Nguyên Anh Cảnh Trung Kỳ!
+Đạo cốt thứ hai trong cơ thể hắn bắt đầu thức tỉnh. Từng tia sáng màu vàng kim của Thái Sơ hòa quyện cùng sắc tím sẫm của Hắc Viêm, chiếu sáng rực rỡ cả tầng hầm ngầm. Khí tức của hắn điên cuồng trèo dốc, dễ dàng xé rách lớp màng mỏng manh của bình cảnh Kim Đan Đỉnh Phong, cắm phập một cước vào ngưỡng cửa Nguyên Anh Cảnh!
 
-Uy áp của Thần Ma viễn cổ lan tỏa khiến Dạ U đứng cạnh cũng phải run rẩy quỳ rạp xuống đất bái phục:
+Luồng uy áp của Thần Ma viễn cổ vô tình tràn ra ngoài, nặng nề đến mức khiến Dạ U đang đứng canh gác bên cạnh cũng phải khẽ rùng mình, quỳ rạp xuống đất bái phục:
 
-Chúc mừng Thiếu Chủ thức tỉnh Đạo Cốt song sinh, tiến giai Nguyên Anh Cảnh!
+"Chúc mừng Thiếu Chủ thức tỉnh Đạo Cốt song sinh, tiến giai Nguyên Anh!"
 
-Đinh! Túc chủ đã bóc tách thành công Hắc Viêm Thần Thể của Khí Vận Chi Tử.
-Tu vi đột phá: Bán Bộ Nguyên Anh Cảnh.
-Khí Vận Trị của Lâm Phàm giảm 400 điểm (Còn lại 200 điểm - Khí Vận Kim Thân vỡ nát).
-Túc chủ nhận được 600 Điểm Nghịch Mệnh và 300 Khí Vận Trị!
+Cách đó không xa, Lâm Phàm nằm sõng soài trên mặt đất. Cơ thể hắn hiện tại chẳng khác gì một cái xác khô, vũng bùn nhão nát bét. Toàn bộ linh lực, căn cốt và khí huyết đã bị hút cạn sạch. Làn da hắn nhăn nheo, xám xịt như một lão già gần đất xa trời, đôi mắt đục ngầu vô thần nhìn trân trân lên trần hang.
 
-Lúc này, Lâm Phàm nằm sõng soài trên mặt đất như một vũng bùn nhão, toàn bộ linh lực và khí huyết bị hút cạn, làn da nhăn nheo già nua như một lão già tám mươi tuổi, đôi mắt đục ngầu không còn một tia thần sắc.
+Ninh Huyền Dạ chậm rãi mở mắt, hơi thở phả ra mang theo nhiệt độ thiêu đốt không khí. Hắn từ từ đứng dậy, đưa đôi đồng tử đen sâu không thấy đáy nhìn vào chiếc nhẫn sắt rỉ sét lăn lóc trên nền đá, ngay cạnh bàn tay nhăn nheo của Lâm Phàm.
 
-Ninh Huyền Dạ chậm rãi đứng dậy, đưa mắt nhìn vào chiếc nhẫn sắt đen rơi lăn lóc trên nền đá cạnh bàn tay Lâm Phàm.
+Khóe môi hắn khẽ cong lên một đường tàn nhẫn, giọng nói nhàn nhạt, hờ hững vang lên giữa không gian tĩnh mịch:
 
-Hắn khẽ mỉm cười, cất giọng nhàn nhạt:
-
-Lạc Thiên Thu tiền bối, ngài còn định trốn trong chiếc nhẫn rỉ sét đó đến bao giờ nữa?
+"Lạc Thiên Thu tiền bối. Ngài còn định giả chết trong cái lồng sắt đó đến bao giờ nữa?"
