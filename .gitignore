@@ -47,6 +47,8 @@ next-env.d.ts
 *.sqlite3
 prisma/*.db
 
-# playwright
+# playwright & test artifacts
 playwright-report/
 test-results/
+test_artifacts/
+test_screenshots/
