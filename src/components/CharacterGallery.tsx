@@ -263,25 +263,25 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
       )}
 
       {/* ========================================================================= */}
-      {/* UNIVERSAL CHARACTER DOSSIER MODAL (PORTALED TO BODY - ALWAYS CENTERED IN FULL VIEWPORT) */}
+      {/* UNIVERSAL CHARACTER DOSSIER MODAL (PORTALED TO BODY) */}
       {/* ========================================================================= */}
       {mounted && selectedChar && !isFullscreenImage && createPortal(
         <div
-          className="fixed inset-0 top-0 left-0 w-screen h-screen z-[9999] flex items-center justify-center p-4 sm:p-6 md:p-8 bg-black/90 backdrop-blur-2xl animate-in fade-in duration-200"
+          className="fixed inset-0 top-0 left-0 w-screen h-screen z-[9999] flex items-end sm:items-center justify-center p-0 sm:p-6 md:p-8 bg-black/90 backdrop-blur-2xl animate-in fade-in duration-200"
           onClick={() => setSelectedIndex(null)}
         >
           {/* ========================================================================= */}
           {/* DESKTOP SPLIT-SCREEN VIEW (>= md screens) */}
           {/* ========================================================================= */}
           <div
-            className="hidden md:flex relative w-full md:max-w-5xl lg:max-w-6xl h-[84vh] bg-gradient-to-br from-slate-900 via-slate-950 to-black border-2 border-[#d4af37]/50 rounded-3xl shadow-[0_0_90px_rgba(212,175,55,0.25)] overflow-hidden animate-in zoom-in-95 duration-200 m-auto"
+            className="hidden md:flex relative w-full md:max-w-5xl lg:max-w-6xl h-[86vh] bg-gradient-to-br from-slate-900 via-slate-950 to-black border-2 border-[#d4af37]/50 rounded-3xl shadow-[0_0_90px_rgba(212,175,55,0.25)] overflow-hidden animate-in zoom-in-95 duration-200 m-auto"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Close Button Desktop */}
             <button
               type="button"
               onClick={() => setSelectedIndex(null)}
-              className="absolute top-4 right-4 z-30 p-2.5 rounded-2xl bg-black/60 hover:bg-white/20 text-slate-300 hover:text-white border border-white/15 backdrop-blur-md transition-colors shadow-xl"
+              className="absolute top-4 right-4 z-30 p-2.5 rounded-2xl bg-black/60 hover:bg-[#d4af37] text-slate-300 hover:text-slate-950 border border-white/15 backdrop-blur-md transition-all shadow-xl cursor-pointer"
               title="Đóng (Esc)"
               aria-label="Đóng"
             >
@@ -290,10 +290,11 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
 
             {/* Cột 1 (Desktop Trái): Chân dung 9:16 */}
             <div className="w-5/12 lg:w-9/20 h-full bg-black/60 border-r border-white/10 p-5 flex flex-col items-center justify-between relative shrink-0 group overflow-hidden">
+              {/* Prev / Next Arrows */}
               <button
                 type="button"
                 onClick={handlePrev}
-                className="absolute left-3 top-1/2 -translate-y-1/2 z-20 p-2.5 rounded-2xl bg-black/80 hover:bg-[#d4af37] text-white hover:text-slate-950 border border-white/20 transition-all shadow-xl items-center justify-center cursor-pointer"
+                className="absolute left-3 top-1/2 -translate-y-1/2 z-20 p-3 rounded-2xl bg-black/80 hover:bg-[#d4af37] text-white hover:text-slate-950 border border-white/20 transition-all shadow-xl items-center justify-center cursor-pointer active:scale-95"
                 title="Nhân vật trước (Mũi tên trái)"
               >
                 <ChevronLeft className="w-5 h-5" />
@@ -302,7 +303,7 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
               <button
                 type="button"
                 onClick={handleNext}
-                className="absolute right-3 top-1/2 -translate-y-1/2 z-20 p-2.5 rounded-2xl bg-black/80 hover:bg-[#d4af37] text-white hover:text-slate-950 border border-white/20 transition-all shadow-xl items-center justify-center cursor-pointer"
+                className="absolute right-3 top-1/2 -translate-y-1/2 z-20 p-3 rounded-2xl bg-black/80 hover:bg-[#d4af37] text-white hover:text-slate-950 border border-white/20 transition-all shadow-xl items-center justify-center cursor-pointer active:scale-95"
                 title="Nhân vật tiếp theo (Mũi tên phải)"
               >
                 <ChevronRight className="w-5 h-5" />
@@ -310,18 +311,18 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
 
               <div 
                 onClick={() => setIsFullscreenImage(true)}
-                className="relative flex-1 w-full max-h-[62vh] flex items-center justify-center cursor-pointer my-auto"
+                className="relative flex-1 w-full max-h-[64vh] flex items-center justify-center cursor-pointer my-auto"
               >
                 {selectedChar.avatarUrl ? (
-                  <div className="relative h-full aspect-[9/16] rounded-2xl overflow-hidden shadow-[0_10px_40px_rgba(0,0,0,0.8)] border border-[#d4af37]/40 group-hover:border-[#d4af37] transition-all">
+                  <div className="relative h-full aspect-[9/16] rounded-2xl overflow-hidden shadow-[0_10px_40px_rgba(0,0,0,0.8)] border-2 border-[#d4af37]/40 group-hover:border-[#d4af37] transition-all">
                     <img
                       src={selectedChar.avatarUrl}
                       alt={selectedChar.name}
-                      className="w-full h-full object-cover object-center group-hover:scale-103 transition-transform duration-500"
+                      className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                      <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#d4af37] text-slate-950 text-xs font-extrabold shadow-xl">
-                        <Maximize2 className="w-3.5 h-3.5" /> Phóng to HD
+                      <span className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#d4af37] text-slate-950 text-xs font-extrabold shadow-xl">
+                        <Maximize2 className="w-4 h-4" /> Phóng to HD
                       </span>
                     </div>
                   </div>
@@ -333,15 +334,15 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
                 )}
               </div>
 
-              <div className="pt-2 flex items-center gap-2 text-[11px] font-semibold text-slate-400 shrink-0">
-                <span>{selectedIndex! + 1} / {characters.length} nhân vật</span>
+              <div className="pt-2 flex items-center gap-2 text-xs font-semibold text-slate-400 shrink-0">
+                <span className="text-slate-300 font-bold">{selectedIndex! + 1} / {characters.length} nhân vật</span>
                 <span className="text-slate-600">•</span>
                 <button
                   type="button"
                   onClick={() => setIsFullscreenImage(true)}
                   className="text-amber-300 hover:text-white flex items-center gap-1 transition-colors cursor-pointer"
                 >
-                  <Maximize2 className="w-3 h-3" /> Xem ảnh gốc
+                  <Maximize2 className="w-3.5 h-3.5" /> Xem ảnh gốc 9:16
                 </button>
               </div>
             </div>
@@ -388,13 +389,13 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
                       key={c.id}
                       type="button"
                       onClick={() => setSelectedIndex(i)}
-                      className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all shrink-0 cursor-pointer ${
+                      className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all shrink-0 cursor-pointer flex items-center gap-1.5 ${
                         i === selectedIndex
                           ? "bg-[#d4af37] text-slate-950 shadow-md shadow-[#d4af37]/20 font-extrabold scale-105"
                           : "bg-white/5 text-slate-300 hover:bg-white/10 hover:text-white border border-white/5"
                       }`}
                     >
-                      {c.name.split(" ")[0]}
+                      <span>{c.name.split(" ")[0]}</span>
                     </button>
                   ))}
                 </div>
@@ -411,19 +412,22 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
           </div>
 
           {/* ========================================================================= */}
-          {/* CENTERED MOBILE MODAL VIEW (< md screens) */}
+          {/* MOBILE LUXURY BOTTOM SHEET / MODAL VIEW (< md screens) */}
           {/* ========================================================================= */}
           <div
-            className="md:hidden relative w-full max-w-lg bg-gradient-to-b from-slate-900 via-slate-950 to-black border-2 border-[#d4af37]/50 rounded-3xl p-5 sm:p-6 shadow-[0_0_90px_rgba(212,175,55,0.25)] max-h-[85vh] overflow-y-auto flex flex-col space-y-4 animate-in zoom-in-95 duration-200 m-auto"
+            className="md:hidden relative w-full max-w-lg bg-gradient-to-b from-slate-900 via-slate-950 to-black border-t-2 sm:border-2 border-[#d4af37]/50 rounded-t-3xl sm:rounded-3xl p-4 sm:p-6 shadow-[0_-10px_60px_rgba(0,0,0,0.9)] max-h-[88vh] overflow-hidden flex flex-col animate-in slide-in-from-bottom-5 duration-200 m-auto"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Mobile Hero Bar: Side-by-Side (Avatar + Name/Role) */}
-            <div className="flex items-start justify-between gap-3.5 border-b border-white/10 pb-3.5">
-              <div className="flex items-center gap-3.5 min-w-0">
-                {/* 9:16 Mini Avatar with Tap-to-Zoom */}
+            {/* Pull Bar Indicator */}
+            <div className="w-12 h-1.5 rounded-full bg-white/25 mx-auto mb-3 shrink-0" />
+
+            {/* Mobile Hero Header: Side-by-Side Avatar + Details */}
+            <div className="flex items-start justify-between gap-3 border-b border-white/10 pb-3 shrink-0">
+              <div className="flex items-center gap-3 min-w-0">
+                {/* 9:16 Avatar Thumbnail with Tap-to-Zoom */}
                 <div
                   onClick={() => setIsFullscreenImage(true)}
-                  className="group relative w-18 aspect-[9/16] rounded-2xl overflow-hidden bg-slate-950 border-2 border-[#d4af37]/60 shrink-0 shadow-lg cursor-pointer active:scale-95 transition-all"
+                  className="group relative w-16 xs:w-20 aspect-[9/16] rounded-2xl overflow-hidden bg-slate-950 border-2 border-[#d4af37]/60 shrink-0 shadow-xl cursor-pointer active:scale-95 transition-all"
                   title="Chạm để xem ảnh toàn màn hình"
                 >
                   {selectedChar.avatarUrl ? (
@@ -442,19 +446,19 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
                   </div>
                 </div>
 
-                {/* Name, Role & Quick Expand */}
-                <div className="space-y-1.5 min-w-0">
+                {/* Name, Role & Quick Actions */}
+                <div className="space-y-1 min-w-0">
                   {selectedChar.role && (
-                    <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-lg text-xs font-extrabold bg-[#d4af37]/15 text-amber-300 border border-[#d4af37]/30 truncate max-w-full">
-                      <Shield className="w-3 h-3 shrink-0 text-[#d4af37]" />
+                    <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-lg text-[11px] font-extrabold bg-[#d4af37]/15 text-[#d4af37] border border-[#d4af37]/30 truncate max-w-full">
+                      <Shield className="w-3 h-3 shrink-0" />
                       <span className="truncate">{selectedChar.role}</span>
                     </span>
                   )}
-                  <h3 className="text-xl font-extrabold text-white tracking-tight truncate leading-tight">
+                  <h3 className="text-lg xs:text-xl font-extrabold text-white tracking-tight leading-snug line-clamp-2">
                     {selectedChar.name}
                   </h3>
                   {selectedChar.aliases && (
-                    <p className="text-xs sm:text-sm text-amber-200/90 truncate font-medium">
+                    <p className="text-xs text-amber-200/80 truncate font-medium">
                       {selectedChar.aliases}
                     </p>
                   )}
@@ -462,9 +466,9 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
                   <button
                     type="button"
                     onClick={() => setIsFullscreenImage(true)}
-                    className="text-xs font-bold text-[#d4af37] hover:text-amber-300 flex items-center gap-1.5 pt-0.5 cursor-pointer"
+                    className="inline-flex items-center gap-1 text-xs font-bold text-[#d4af37] hover:text-amber-300 pt-0.5 cursor-pointer"
                   >
-                    <Eye className="w-3.5 h-3.5" /> Xem ảnh 9:16 HD
+                    <Maximize2 className="w-3 h-3" /> Phóng to ảnh 9:16
                   </button>
                 </div>
               </div>
@@ -479,14 +483,14 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
               </button>
             </div>
 
-            {/* Mobile Body Content */}
-            <div className="space-y-3.5 flex-1 overflow-y-auto max-h-[50vh] pr-0.5">
+            {/* Mobile Body Content (Scrollable) */}
+            <div className="space-y-3 flex-1 overflow-y-auto py-3 pr-0.5">
               {selectedChar.aliases && (
-                <div className="bg-white/5 border border-white/10 rounded-2xl p-3.5 space-y-1">
-                  <div className="text-xs font-bold text-amber-200/80 uppercase tracking-wider flex items-center gap-1.5">
-                    <Tag className="w-3.5 h-3.5 text-[#d4af37]" /> Danh Xưng & Biệt Hiệu
+                <div className="bg-white/5 border border-white/10 rounded-2xl p-3 space-y-1">
+                  <div className="text-[11px] font-bold text-amber-200/80 uppercase tracking-wider flex items-center gap-1.5">
+                    <Tag className="w-3.5 h-3.5 text-[#d4af37]" /> Biệt danh & Danh xưng
                   </div>
-                  <p className="text-sm sm:text-base text-slate-100 font-semibold">
+                  <p className="text-sm text-slate-100 font-semibold">
                     {selectedChar.aliases}
                   </p>
                 </div>
@@ -496,16 +500,16 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
             </div>
 
             {/* Mobile Thumb Navigation (Switch Between Characters) */}
-            <div className="pt-3 border-t border-white/10 flex items-center justify-between gap-2.5 shrink-0">
-              <div className="flex items-center gap-2 overflow-x-auto scrollbar-none py-0.5">
+            <div className="pt-3 border-t border-white/10 flex items-center justify-between gap-2 shrink-0">
+              <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-0.5">
                 {characters.map((c, i) => (
                   <button
                     key={c.id}
                     type="button"
                     onClick={() => setSelectedIndex(i)}
-                    className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 ${
+                    className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 cursor-pointer ${
                       i === selectedIndex
-                        ? "bg-[#d4af37] text-slate-950 shadow-md font-extrabold"
+                        ? "bg-[#d4af37] text-slate-950 font-extrabold shadow-sm"
                         : "bg-white/5 text-slate-300 border border-white/5"
                     }`}
                   >
@@ -517,7 +521,7 @@ export function CharacterGallery({ characters }: CharacterGalleryProps) {
               <button
                 type="button"
                 onClick={() => setSelectedIndex(null)}
-                className="px-5 py-2 rounded-xl bg-white/10 text-slate-200 text-xs sm:text-sm font-semibold shrink-0"
+                className="px-4 py-1.5 rounded-xl bg-white/10 text-slate-200 text-xs font-semibold shrink-0 cursor-pointer"
               >
                 Đóng
               </button>
