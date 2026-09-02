@@ -58,7 +58,7 @@ Rắc! Rắc!
 
 Nếu là kẻ khác, có lẽ đã hóa thành một tảng băng khô từ lâu. Nhưng Caelen lại vận dụng khả năng kiểm soát hơi thở và tĩnh tâm của một sát thủ, chia nhỏ dòng năng lượng, định tuyến nó qua từng kinh mạch một cách chính xác tuyệt đối như lập trình lại toàn bộ hệ thống mạch máu.
 
-Một tiếng rít kinh hoàng vang lên từ đáy đan điền. Hắc Tử La Lan — thứ kịch độc mạn tính tra tấn hắn suốt năm năm — cuối cùng cũng bị hàn khí của Băng Long nghiền nát thành cặn bã, theo đường mồ hôi đen kịt bài tiết ra ngoài.
+Một tiếng rít kinh hoàng vang lên từ đáy đan điền. Hắc Tử La Lan — thứ kịch độc mạn tính tra tấn hắn suốt năm năm — tạm thời bị hàn khí của Băng Long áp chế và bức ra một phần cặn bã, theo đường mồ hôi đen kịt bài tiết ra ngoài. Dù chưa thể nhổ tận gốc, nhưng lượng kịch độc còn lại đã bị phong bế chặt chẽ sâu trong tâm mạch, không còn đe dọa trực tiếp đến tính mạng.
 
 Ầm! 
 
@@ -66,7 +66,7 @@ Một luồng khí thế bùng nổ từ cơ thể Caelen, quét sạch lớp b�
 
 Trung Giai Sơ Kỳ!
 
-Chỉ trong một đêm, vượt qua hai đại cảnh giới, thanh tẩy hoàn toàn kịch độc, và nắm giữ công pháp thượng cổ cường đại nhất gia tộc.
+Chỉ trong một đêm, vượt qua hai đại cảnh giới, áp chế thành công kịch độc, và nắm giữ công pháp thượng cổ cường đại nhất gia tộc.
 
 Caelen từ từ mở mắt, thở ra một luồng sương trắng lạnh buốt. Cơ thể hắn hiện tại tràn đầy sức mạnh bùng nổ. Làn da tái nhợt vì độc tố giờ đây trắng sáng, săn chắc, phảng phất hàn khí uy nghiêm của rồng.
 

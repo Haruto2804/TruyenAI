@@ -10,6 +10,8 @@ Nhưng điều khiến lão bận tâm hơn cả, chính là biến cố ngày h
 
 Tên phế vật Caelen không những không sụp đổ sau khi bị từ hôn, mà còn xoay ngược tình thế, ký kết được một bản hợp đồng kinh tế và chính trị khổng lồ với Tam Công Chúa. Sự tự tin, khí chất bức người và ánh mắt sắc lẹm của hắn lúc đó khiến Karlov cảm thấy bất an tột độ. Lão đã tra hỏi Lilian, nhưng ả hầu gái vẫn một mực khẳng định rằng Tam thiếu chủ chỉ đang cố gắng gồng mình diễn kịch, và chất độc Hắc Tử La Lan vẫn đang phát huy tác dụng.
 
+Karlov không hề hay biết rằng, ấn ký Huyết Băng Phù đã đồng bộ sinh mệnh của Lilian với Caelen. Ngay đêm hôm trước, khi Caelen dùng hàn khí áp chế và bức ra một phần độc tố, Lilian cũng đã đau đớn nôn ra một búng máu đen ngòm. Mạng sống của nàng từ nay chính thức phụ thuộc vào việc Caelen có thể tìm được cách nhổ tận gốc kịch độc Hắc Tử La Lan hay không. Sự khống chế tuyệt đối này càng khiến Lilian thêm sợ hãi và trung thành với vị chủ nhân mới, nên mới nhất quyết nói dối Karlov để bảo vệ Caelen.
+
 "Diễn kịch? Một kẻ nát rượu có thể diễn đạt đến mức ép bức Công chúa Solaria sao?" Karlov lẩm bẩm, ném mạnh cuốn sổ nợ xuống bàn. "Không thể để chuyện này kéo dài thêm. Nếu để hắn tiếp tục xây dựng cái Vạn Thương Ngân Hàng quái quỷ gì đó và củng cố quyền lực, toàn bộ kế hoạch thâu tóm nhánh Bắc Cảnh của ta sẽ đổ sông đổ biển."
 
 Lão với tay lấy một mảnh giấy da quạ, nhanh chóng viết vài dòng mật mã, sau đó cuộn lại, nhét vào ống chân một con quạ đưa thư mắt đỏ. Con quạ cất cánh lao vào cơn bão tuyết mịt mù, hướng về phía Hẻm Sói Băng.

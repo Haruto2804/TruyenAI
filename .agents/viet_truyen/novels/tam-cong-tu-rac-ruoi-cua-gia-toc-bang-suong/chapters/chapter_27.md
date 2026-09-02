@@ -45,6 +45,8 @@ Tàn hồn khựng lại giữa không trung, ánh mắt rỗng tuếch lộ ra 
 
 Theo tiếng gầm của Caelen, thể tích ma hạch trong cơ thể hắn bành trướng dữ dội. Những nút thắt ma lực do độc tố gây ra bị nghiền nát hoàn toàn. Năng lượng từ Hàn Băng Thần Tủy như thác đổ, đẩy tu vi của hắn vượt qua giới hạn của Trung Giai Trung Kỳ, xông thẳng lên Trung Giai Cao Kỳ, rồi tiếp tục củng cố vững chắc ở ranh giới Trung Giai Đỉnh Phong mới chịu dừng lại.
 
+Cùng lúc đó, cách xa hàng ngàn dặm tại pháo đài Frostford, Lilian đang dọn dẹp trong phòng bỗng ngã quỵ xuống. Nàng ôm lấy ngực trái, thở hổn hển khi cảm nhận được ấn ký Huyết Băng Phù nóng rực lên rồi vỡ vụn thành những hạt ánh sáng lam nhạt. Hắc Tử La Lan trong máu nàng đã bị thanh tẩy triệt để. Dù ấn ký sinh tử không còn, nhưng sự run rẩy xen lẫn sùng bái sức mạnh vĩ đại của vị chủ nhân phương xa đã khắc sâu vào linh hồn nàng mãi mãi.
+
 Cùng lúc đó, vì nguồn năng lượng từ Thần Tủy bị Caelen hấp thụ, trận đồ phòng ngự cung cấp sức mạnh cho lũ Thủ Vệ lập tức tắt ngấm. Bốn con golem khổng lồ đang chuẩn bị giáng đòn chí mạng xuống nhóm của Evelyn bỗng nhiên đứng khựng lại, đôi mắt đỏ ngầu vụt tắt, rồi sụp đổ thành những đống đá vô tri.
 
 Tàn hồn Gác Đền cũng dần mờ nhạt đi do mất đi nguồn năng lượng duy trì. Hắn nhìn Caelen lơ lửng trên không trung, được bao bọc bởi ánh sáng xanh thẳm của Băng Long, ánh mắt từ khiếp sợ chuyển sang một sự kính úy sâu sắc.
