@@ -421,7 +421,7 @@ async function syncNovel(novelSlug: string) {
       const slugName = char.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d").replace(/[^a-z0-9]+/g, "-");
       return {
         ...char,
-        avatarUrl: detectedAvatar || `/characters/${novelSlug}/${slugName}.jpg`
+        avatarUrl: detectedAvatar || `/characters/default-avatar.jpeg`
       };
     })
   );
