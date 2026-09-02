@@ -32,21 +32,21 @@ Tàng Thư Các Cổ mang một mùi hương đặc trưng của giấy da mục
 
 Tại trung tâm của hầm ngầm, một bệ đá cẩm thạch tỏa ra ánh sáng lam nhạt lạnh lẽo. Trôi nổi phía trên bệ đá là một tinh thể hình giọt nước, bên trong như có bão tuyết vần vũ, phát ra tiếng gầm gừ trầm thấp của loài rồng.
 
-*Hàn Băng Thần Tủy.* 
+*Mảnh Vỡ Hàn Băng Thần Tủy.* 
 
 Kết tinh máu tim nguyên thủy của Thái Cổ Băng Long, bảo vật trấn gia của Ravenwood.
 
 Bên cạnh nó là một cuộn cổ thư bìa da rồng đen bóng: *Băng Sương Long Hồn Quyết*.
 
-Caelen bước tới. Dưới Ma Đồng Giải Cấu, hắn không chỉ thấy sự rực rỡ của Thần Tủy, mà còn nhìn thấu một tầng rào cản Huyết mạch nguyên thủy hình thành từ chính khí tức của Thái Cổ Băng Long bao bọc chặt lấy bệ đá. 
+Caelen bước tới. Dưới Ma Đồng Giải Cấu, hắn không chỉ thấy sự rực rỡ của Mảnh Vỡ Thần Tủy, mà còn nhìn thấu một tầng rào cản Huyết mạch nguyên thủy hình thành từ chính khí tức của Thái Cổ Băng Long bao bọc chặt lấy bệ đá. 
 
 Đây chính là lý do Nhị Trưởng Lão Karlov mưu mô xảo quyệt lại không tự mình đoạt lấy bảo vật. Lão chỉ thuộc phân gia, huyết mạch không đủ thuần khiết. Nếu tự ý vươn tay, rào cản sẽ bạo phát và nghiền nát lão ngay lập tức. Lão bắt buộc phải chờ đợi Caelen — người duy nhất còn sót lại mang huyết mạch thuần khiết — chủ động lấy ra hoặc hấp thụ một nửa, rồi mới có thể "thu hoạch" thông qua việc rút cạn máu của hắn. Vì không thể ăn trộm, Karlov chỉ đành gia cố thêm hàng vạn sợi xích mana đỏ rực bên ngoài rào cản nguyên thủy để ngăn kẻ khác phỗng tay trên.
 
 Nhưng phong ấn của Karlov càng phức tạp, đối với Caelen lại càng giống như một bài toán có sẵn đáp án. Hắn không cần phá vỡ toàn bộ phong ấn. Hắn chỉ cần tìm ra điểm mù của nó, luồn lách qua các lớp bảo vệ và hút lấy năng lượng lõi. 
 
-Caelen ngồi khoanh chân trước bệ đá, hai tay chắp thành ấn chú, ngón trỏ khẽ chạm vào viên Hàn Băng Thần Tủy. 
+Caelen ngồi khoanh chân trước bệ đá, hai tay chắp thành ấn chú, ngón trỏ khẽ chạm vào Mảnh Vỡ Hàn Băng Thần Tủy. 
 
-Một cơn đau xé rách linh hồn ập đến. Hàn khí từ Thần Tủy cuồn cuộn chảy thẳng vào kinh mạch của hắn, sắc lạnh như ngàn vạn mũi kim đâm chọc. Độc tố Hắc Tử La Lan còn sót lại trong cơ thể Caelen lập tức trỗi dậy, định cắn nuốt luồng năng lượng ngoại lai. Cuộc chiến giữa kịch độc và thần tủy biến cơ thể hắn thành một chiến trường tàn khốc. 
+Một cơn đau xé rách linh hồn ập đến. Hàn khí từ Mảnh Vỡ Thần Tủy cuồn cuộn chảy thẳng vào kinh mạch của hắn, sắc lạnh như ngàn vạn mũi kim đâm chọc. Độc tố Hắc Tử La Lan còn sót lại trong cơ thể Caelen lập tức trỗi dậy, định cắn nuốt luồng năng lượng ngoại lai. Cuộc chiến giữa kịch độc và mảnh vỡ thần tủy biến cơ thể hắn thành một chiến trường tàn khốc. 
 
 Máu tươi rịn ra từ khóe môi, làn da Caelen bắt đầu xuất hiện những vệt nứt nẻ đóng băng, nhưng ánh mắt hắn vẫn kiên định đến đáng sợ. 
 
