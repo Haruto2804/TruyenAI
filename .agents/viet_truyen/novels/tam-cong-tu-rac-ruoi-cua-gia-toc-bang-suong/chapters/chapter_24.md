@@ -62,6 +62,6 @@ Nhưng điều khiến Caelen chú ý không phải là bọn quái vật. Ma Đ
 
 Một tràng cười khùng khục vang lên, vọng lại từ bốn phương tám hướng, nghe như tiếng móng tay cào vào quan tài gỗ.
 
-"Nhạy bén lắm, Tam Công Tử..." Giọng nói khàn đục mang theo ác ý tận cùng, "Sứ giả Vane gửi lời hỏi thăm ngài... từ dưới cõi chết."
+"Nhạy bén lắm, Tam Công Tử..." Giọng nói khàn đục mang theo ác ý tận cùng, "Tân Thủ lĩnh Vane gửi lời hỏi thăm ngài... và hứa sẽ sớm trả lại món nợ đứt tay."
 
 Từ trong màn sương, một cái bóng đen với chiếc áo choàng rách rưới từ từ bước ra. Lưỡi hái trên tay hắn vẫn còn nhỏ những giọt máu đen ngòm xuống nền tuyết trắng. Tên sát thủ được cử đến để săn lùng Caelen, đã xuất hiện sớm hơn hắn dự tính.
