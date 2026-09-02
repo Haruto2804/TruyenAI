@@ -4,7 +4,7 @@ Mưa ở Ashford không rơi — nó bò. Từng hạt nước cựa quậy tron
 
 Maren Engel đứng trước tòa nhà Khoa Tâm lý, Đại học Ashford, ngón tay trỏ và ngón giữa kẹp điếu thuốc đã ướt nhẹp. Cô rít một hơi cuối cùng — khói trắng hòa vào sương mù, không phân biệt nổi đâu là thuốc, đâu là hơi thở — rồi dụi mẩu thuốc vào thành bê tông.
 
-Bên kia dải băng cảnh sát vàng nhạt, hai nhân viên pháp y đang khiêng cáng ra. Tấm vải trắng phủ kín thi thể, nhưng mưa đã thấm qua, in lên đường viền mờ nhạt của một khuôn mặt bên dưới.
+Bên kia dải băng cảnh sát vàng nhạt, hai viên cảnh sát tuần tra đang lúng túng khiêng một chiếc cáng ra ngoài. Tấm vải trắng phủ kín thi thể, nhưng mưa đã thấm qua, in lên đường viền mờ nhạt của một khuôn mặt bên dưới.
 
 *Daniel Voss. 63 tuổi. Giáo sư Tâm lý Hình sự. Chết trong phòng làm việc, cửa khóa trái từ bên trong.*
 
@@ -16,9 +16,9 @@ Giọng Thanh tra Lindqvist cất lên từ bậc thềm tòa nhà. Ông ta đ�
 
 Maren bước tới. Một viên cảnh sát trẻ giơ tay định chặn lại, nhưng Lindqvist hất hàm ra hiệu cho cậu ta lùi xuống.
 
-Maren dừng bước dưới hiên, rút một điếu thuốc mới chưa châm lửa, gõ nhẹ đầu lọc xuống hộp sắt. "Bức ảnh ông ngủ với cô thực tập sinh ở nhà nghỉ ngoại ô vẫn còn nằm trong két sắt của tôi."
+Maren dừng bước dưới hiên, rút một điếu thuốc mới chưa châm lửa, gõ nhẹ đầu lọc xuống hộp sắt. "CSI chưa tới mà ông đã cho người dời xác đi? Định dọn dẹp hiện trường hòng khép góc à, Thanh tra? Bức ảnh ông ngủ với cô thực tập sinh ở nhà nghỉ ngoại ô vẫn còn nằm trong két sắt của tôi đấy. Năm phút."
 
-Lindqvist nghiến răng, cơ hàm giật lên một cái. "Đội Pháp y kẹt xe vì tai nạn liên hoàn trên cao tốc do bão. Cô có đúng năm phút, Engel," ông ta gầm gừ, khoanh tay và mắt nhìn đi chỗ khác. "Đột tử. Tim ngừng đập. Không dấu vết ngoại lực. Không chất độc. Cửa khóa trong. Cửa sổ cũng khóa trong."
+Lindqvist nghiến răng, cơ hàm giật lên một cái. "Đội khám nghiệm kẹt xe vì tai nạn liên hoàn trên cao tốc do bão. Bác sĩ pháp y bảo tôi cứ chuyển xác về nhà xác trước vì đằng nào cũng là đột tử," ông ta gầm gừ, khoanh tay và mắt nhìn đi chỗ khác. "Tim ngừng đập. Không dấu vết ngoại lực. Không chất độc. Cửa khóa trong. Cửa sổ cũng khóa trong. Cô có đúng năm phút, Engel."
 
 "Ông ấy ngồi hay nằm khi được phát hiện?"
 

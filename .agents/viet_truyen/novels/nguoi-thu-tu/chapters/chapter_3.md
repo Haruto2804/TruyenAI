@@ -8,7 +8,7 @@ Chỉ có một khách duy nhất. Ngồi ở góc xa nhất, lưng áp vào tư
 
 Erik Solvang.
 
-Sáng nay, Maren đã phải ném 500 đô la cho một tay môi giới chợ đen để mua lại bản sao kê điện thoại bàn nhà Voss. Suốt hai mươi năm, mỗi tháng đúng một lần, Voss chỉ gọi đi một số duy nhất không đăng ký. Lần theo địa chỉ trạm phát sóng cuối cùng của dãy số đó, cô tìm ra cái tên này — liên lạc khẩn cấp duy nhất của Giáo sư Voss.
+Sáng nay, Maren đã phải ném 500 đô la cho một tay môi giới chợ đen để mua lại bản sao kê điện thoại bàn nhà Voss. Suốt hai mươi năm, mỗi tháng đúng một lần, Voss chỉ gọi đi một số máy bàn cố định duy nhất chưa từng thay đổi. Lần theo địa chỉ thanh toán cước đăng ký của dãy số đó, cô tìm ra cái tên này — liên lạc khẩn cấp duy nhất của Giáo sư Voss.
 
 Nhưng cô cũng nhận ra ông ta vì một lý do khác: mười lăm năm trước, Solvang là Thanh tra lừng danh nhất Ashford, người phá vụ án Đồ Tể Dockside. Bây giờ ông ta ngồi đây, già hơn, gầy hơn, chiếc áo da cũ sờn rách ở khuỷu tay, đôi mắt nâu sẫm đục mờ đáy.
 

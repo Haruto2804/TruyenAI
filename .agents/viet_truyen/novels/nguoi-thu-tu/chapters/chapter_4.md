@@ -100,7 +100,7 @@ Yuki gật đầu. "Tôi sẽ gửi cho cô. Nhưng..." Cô ngập ngừng, vẽ
 
 "Của ai?"
 
-"Của không ai cả." Yuki cắn môi, ngón tay vặn chặt vào nhau. "Hệ thống ghi nhận hai lần quẹt thẻ hợp lệ để mở cửa lúc 21:30 và 23:05. Nhưng khi tôi bấm vào xem tên người quẹt, hồ sơ người dùng báo lỗi *Null* — Trống không. Giống như hệ thống vẫn nhớ chiếc thẻ đó có quyền truy cập, nhưng toàn bộ danh tính của người sở hữu thẻ đã bị ai đó tẩy trắng khỏi máy chủ."
+"Của không ai cả." Yuki cắn môi, ngón tay vặn chặt vào nhau. "Hệ thống ghi nhận hai lần quẹt thẻ hợp lệ để mở cửa lúc 21:30 và 23:05. Nhưng khi tôi bấm vào xem tên người quẹt, hồ sơ người dùng báo lỗi. Giống như hệ thống vẫn nhớ chiếc thẻ đó có quyền truy cập, nhưng toàn bộ danh tính của người sở hữu thẻ đã bị ai đó xóa khỏi khỏi máy chủ."
 
 *Hai người không tồn tại trong cơ sở dữ liệu.*
 

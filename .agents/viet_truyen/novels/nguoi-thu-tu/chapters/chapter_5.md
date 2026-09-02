@@ -14,9 +14,9 @@ B2. Phòng kỹ thuật — hệ thống điều hòa, ống nước, tủ đi�
 
 Cuối hành lang B2, một cánh cửa sắt nặng nề. Không có ký hiệu, không có bảng tên. Phía trước cửa, sàn bê tông trông khác — mới hơn, phẳng hơn, màu xám nhạt hơn so với phần còn lại. Đây là nơi bê tông được đổ để bịt lối xuống B3.
 
-Nhưng Maren đã chuẩn bị. Cô dùng đèn pin soi dọc theo mép bê tông. Ở góc phải, sát tường, có một khe nứt đủ lớn để một người gầy chui lọt. Nhưng nó hoàn toàn không phải vết nứt tự nhiên do lún nền. 
+Nhưng Maren đã chuẩn bị. Cô dùng đèn pin soi dọc theo mép bê tông. Ở góc phải, sát tường, có một khe hở đủ lớn để một người gầy chui lọt. Nhưng nó hoàn toàn không phải vết nứt do lực cơ học tác động. 
 
-Maren rọi đèn sát vào: có những vết mẻ lớn cưa nham nhở ở rìa, và bụi bê tông dưới sàn vẫn còn trắng muốt, chưa hề bám bụi bẩn. Ai đó — hoặc thứ gì đó — đã dùng công cụ hạng nặng như búa tạ và xà beng để phá vỡ lớp bê tông cốt thép này từ bên trong *vài ngày trước*. Ai đó đã tự giải thoát khỏi B3.
+Maren rọi đèn sát vào: không có mảnh vỡ hay vết đập nát nào. Lớp bê tông cốt thép dày hai mươi phân ở góc này đã hoàn toàn mủn ra thành một đống cát mịn màu xám tro, đổ tràn xuống những bậc thang bên dưới. Giống như vật chất ở vị trí này đã "quên" mất cách liên kết với nhau. Ai đó — hoặc thứ gì đó — đã tự giải thoát khỏi B3 *vài ngày trước* mà không cần đến búa tạ và không tạo ra một tiếng động nào.
 
 Maren tháo áo khoác, nhét vào ba lô, rồi luồn người qua khe nứt.
 
