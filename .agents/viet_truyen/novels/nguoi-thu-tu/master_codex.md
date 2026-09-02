@@ -76,6 +76,12 @@
 * **Ngoại hình:** Mái tóc màu tro bết dính, gương mặt hốc hác gầy guộc, đôi mắt sâu thẳm. Mặc chiếc áo blouse trắng phòng thí nghiệm đã ố cũ.
 * **Tính cách:** Khép kín, trầm mặc, gắn liền với các công trình nghiên cứu học thuật cũ.
 
+### 8. Charlie
+* **Vai trò:** Điều độ viên Sở Cảnh sát Ashford (Nguồn tin nội bộ của Maren)
+* **Tuổi:** Khoảng 30
+* **Ngoại hình:** Luôn trực ca đêm tại phòng điều phối tổng đài, giọng nói qua điện thoại luôn dè dặt và cảnh giác.
+* **Tính cách:** Kín tiếng, cẩn trọng, thạo tin tức điều hành nội bộ của sở cảnh sát.
+
 ---
 
 ## 📜 3. LORE & GLOSSARY CODEX (BÁCH KHOA CHÚ GIẢI)

@@ -109,5 +109,19 @@
 
 ---
 
+## 8. Charlie
+- **Vai trò:** Điều độ viên Sở Cảnh sát Ashford (Nguồn tin nội bộ của Maren)
+- **Biệt danh & Danh xưng:** Không có
+- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (`public/characters/nguoi-thu-tu/charlie.jpg`)
+
+### 🎭 Tóm tắt diện mạo & Đặc điểm:
+**Tuổi:** Khoảng 30
+
+**Ngoại hình:** Luôn trực ca đêm tại phòng điều phối tổng đài, giọng nói qua điện thoại luôn dè dặt và cảnh giác.
+
+**Tính cách:** Kín tiếng, cẩn trọng, thạo tin tức điều hành nội bộ của sở cảnh sát.
+
+---
+
 ---
 
