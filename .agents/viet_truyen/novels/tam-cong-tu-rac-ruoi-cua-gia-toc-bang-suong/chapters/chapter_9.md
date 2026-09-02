@@ -40,7 +40,7 @@ Caelen ngẩng lên, mỉm cười rạng rỡ. "Điện hạ đã có lòng, Ca
 
 Edward cau mày. "Ngươi có ý gì?"
 
-"Trong suốt nửa tháng hành trình đến Kinh đô, ta đã thế chấp toàn bộ quyền khai thác mỏ ma thạch Băng Lam cho các ngân hàng địa phương để lấy tiền mặt." Caelen nhún vai. "Và ta đã dùng toàn bộ số tiền đó... để bán khống cổ phần của Thương Hội Kim Sư trên thị trường giao dịch ma pháp."
+"Trong suốt nửa tháng hành trình đến Kinh đô, ta đã giao cho Lilian dùng con dấu mỏ quặng thu được từ xác Karlov, bí mật thế chấp toàn bộ quyền khai thác mỏ ma thạch Băng Lam cho Vạn Thương Ngân Hàng để lấy tiền mặt. Và ta đã dùng toàn bộ số tiền đó làm vốn đối ứng... để bán khống cổ phần của Thương Hội Kim Sư trên thị trường giao dịch ma pháp."
 
 Cả khán phòng bỗng chốc im bặt. Đám quý tộc ngơ ngác không hiểu từ "bán khống" là gì, nhưng linh cảm của Tứ Hoàng Tử cho thấy một sự nguy hiểm chết người.
 

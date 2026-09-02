@@ -76,7 +76,7 @@ Tiếng xì xầm bùng nổ dữ dội. Sử dụng Độc Thạch Cốt là t�
 
 Vừa lúc đó, một tên tùy tùng hớt hải chạy vào sảnh, ngã quỵ trước mặt Tứ Hoàng Tử. 
 
-"Điện... Điện hạ! Nguy to rồi! Xưởng Vũ Khí Raven vừa tung ra lô hàng thế hệ hai, giá chỉ bằng một phần ba Kim Sư. Các đối tác quân sự đã đồng loạt hủy hợp đồng với chúng ta! Cổ phiếu của Kim Sư... đã sập sàn rồi!"
+"Điện... Điện hạ! Nguy to rồi! Caelen đã bí mật mua lại xưởng ngầm bỏ hoang Mộ Khí Môn từ tháng trước! Hắn dùng Golem Nham Thạch của Iris Flamel để tự động hóa toàn bộ việc rèn đúc, không cần đến một tên thợ rèn nào nên chúng ta hoàn toàn không nghe được tin tức gì! Xưởng Vũ Khí Raven vừa tung ra lô hàng thế hệ hai, giá chỉ bằng một phần ba Kim Sư. Các đối tác quân sự đã đồng loạt hủy hợp đồng với chúng ta! Cổ phiếu của Kim Sư... đã sập sàn rồi!"
 
 Lời báo cáo như một nhát búa tạ giáng xuống đầu Edward. Lão lảo đảo ngã gục xuống ghế. Quả bóng đầu cơ đã nổ. Bán khống thành công. 
 

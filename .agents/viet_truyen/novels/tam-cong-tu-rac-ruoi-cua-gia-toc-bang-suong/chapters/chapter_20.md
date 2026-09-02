@@ -40,7 +40,7 @@ Thánh Chiến — lệnh tổng động viên tôn giáo tối cao. Trong lịc
 
 "Đại Giáo Chủ, Thánh Chiến là biện pháp cuối cùng!" Giáo Sĩ già hoảng hốt. "Nếu ban bố mà không có lý do chính đáng, dư luận sẽ..."
 
-"Lý do?" Aldric cắt ngang, giọng nhẹ như lông hồng. "Caelen Von Ravenwood — kẻ đã công khai phỉ báng ân điển Quang Minh Thần, đầu độc đức tin bá tánh bằng thuốc tổng hợp giả mạo, và cấu kết với Vương quốc Hắc Nguyệt ngoại bang để xâm phạm thần quyền thiêng liêng. Đó không phải là lý do đủ chính đáng sao?"
+"Lý do?" Aldric cắt ngang, giọng nhẹ như lông hồng. Lão phẩy tay, một Thánh Kỵ Sĩ bước vào, mang theo một bình Tịnh Thuỷ dán nhãn Ravenwood. "Sáng nay, hàng trăm bá tánh uống Tịnh Thuỷ này đã hộc máu chết gục giữa phố Kinh đô. Caelen Von Ravenwood - kẻ đã đầu độc con chiên bằng Hắc Ma Thuật tàng giấu trong Tịnh Thuỷ, và cấu kết với Vương quốc Hắc Nguyệt ngoại bang để xâm phạm thần quyền thiêng liêng. Đã đủ lý do để thanh tẩy dị giáo chưa?"
 
 Lão bước tới bàn tế đàn, rút ra một cuộn chiếu chỉ bằng da cừu trắng bọc vàng. Ấn tín Quang Minh Tối Cao lóe sáng.
 
@@ -74,7 +74,7 @@ Caelen đứng dậy, chậm rãi đi tới tấm bảng chiến lược. Hắn 
 
 Lilian ghi nhanh, tay run nhưng mắt sáng rỡ.
 
-"Và thư thứ ba." Caelen quay lại, đôi mắt lam thẳm lạnh lẽo như hồ băng trong đêm đông. "Gửi cho tỷ tỷ Evelyn. Nội dung: 'Hai vạn Thiết Kỵ. Hành quân tốc hành. Đích đến: cửa ngõ phía Bắc Kinh đô. Thời gian: bảy ngày.'"
+"Và thư thứ ba." Caelen quay lại, đôi mắt lam thẳm lạnh lẽo như hồ băng trong đêm đông. "Gửi cùng với Mật Chỉ 'Cần Vương' mà Tam Công Chúa Valerie đã bí mật đóng dấu cho ta hôm qua, chuyển hỏa tốc cho tỷ tỷ Evelyn. Nội dung: 'Phụng mệnh Hoàng gia tiêu diệt phản tặc Thần Điện. Hai vạn Thiết Kỵ. Hành quân tốc hành. Đích đến: cửa ngõ phía Bắc Kinh đô. Thời gian: bảy ngày.'"
 
 Iris nuốt nước bọt. "Ngươi muốn đánh trả bằng quân sự?"
 

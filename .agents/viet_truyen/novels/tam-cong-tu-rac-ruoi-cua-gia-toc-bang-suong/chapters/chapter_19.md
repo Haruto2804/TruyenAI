@@ -63,13 +63,13 @@ Hắn nhìn lên trần nhà, như thể nhìn xuyên qua hàng tầng bê tông
 
 Iris nghe xong, đôi mắt đỏ thẫm lấp lánh. "Ngươi muốn biểu diễn lại? Lần này, không còn kẽ hở?"
 
-"Không còn kẽ hở." Caelen gật đầu. "Và lần này, ta sẽ không chỉ phá giá. Ta sẽ công bố toàn bộ công thức, miễn phí, cho bất kỳ ai muốn sản xuất."
+"Không còn kẽ hở." Caelen gật đầu. "Và lần này, ta sẽ không chỉ phá giá. Ta sẽ sản xuất hàng loạt 'Lõi Lọc Khí Ma Trận Băng Sương' được kích hoạt bằng một giọt máu của ta, rồi cho thuê miễn phí cho bất kỳ xưởng nào muốn sản xuất. Họ chỉ cần bơm nước qua lõi lọc là tạo ra Tịnh Thuỷ."
 
 Lilian và Iris đồng loạt sững người.
 
-"Thiếu chủ... nếu công bố công thức, Vạn Thương Ngân Hàng sẽ mất độc quyền Tịnh Thuỷ!" Lilian vội nói.
+"Thiếu chủ... nếu cho thuê lõi lọc miễn phí, Vạn Thương Ngân Hàng sẽ mất lợi nhuận khổng lồ từ việc độc quyền bán Tịnh Thuỷ?!" Lilian vội nói.
 
-"Đúng." Caelen quay lại, ánh mắt sắc lạnh. "Nhưng khi hàng trăm xưởng sản xuất trên khắp đại lục đều có thể làm ra Thánh Thuỷ với giá ba linh thạch, thì Thần Điện sẽ mất hoàn toàn lý do tồn tại của trụ cột kinh tế quan trọng nhất. Ta không cần độc quyền Tịnh Thuỷ. Ta cần Thần Điện sụp đổ."
+"Đúng." Caelen quay lại, ánh mắt sắc lạnh. "Nhưng khi hàng trăm xưởng sản xuất trên khắp đại lục đều có thể tự làm ra Thánh Thuỷ với giá ba linh thạch, thì Thần Điện sẽ mất hoàn toàn lý do tồn tại của trụ cột kinh tế quan trọng nhất. Cốt lõi ma pháp vẫn nằm trong tay ta. Ta không cần độc quyền bán lõi Tịnh Thuỷ. Ta cần Thần Điện sụp đổ."
 
 Hắn cầm bình thủy tinh phiên bản 3.0, giơ lên trước ánh đèn. Ánh sáng vàng kim chiếu qua dung dịch, phản chiếu lên gương mặt hắn — nửa sáng, nửa tối.
 

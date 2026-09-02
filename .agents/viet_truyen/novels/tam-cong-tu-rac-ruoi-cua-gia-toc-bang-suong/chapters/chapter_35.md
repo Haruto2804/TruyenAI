@@ -12,7 +12,7 @@ Hoàng đế Aurelius ngồi trên ngai vàng rèn từ xương rồng, chậm r
 
 "Bệ hạ, nhưng sự trỗi dậy của Gia tộc Ravenwood cũng là một mối đe dọa," Cục trưởng tình báo ngập ngừng cảnh báo. "Caelen không chỉ thâu tóm Vạn Thương Ngân Hàng, thiết lập quyền kiểm soát kinh tế, mà giờ còn phục hồi địa mạch phương Bắc. Nếu để chúng tiếp tục bành trướng..."
 
-"Không, cứ để thằng ranh đó làm," Aurelius vung tay, ngắt lời. "Kẻ địch của kẻ địch là một con cờ tốt. Truyền chỉ, nhân danh Hoàng gia, phong Caelen làm Đặc Phái Viên Giám Sát Bắc Cảnh. Thưởng cho hắn 100 vạn kim tệ. Hãy để hắn và Thần Điện cắn xé nhau đến kiệt sức đi."
+"Không, cứ để thằng ranh đó làm," Aurelius vung tay, ngắt lời. "Kẻ địch của kẻ địch là một con cờ tốt. Truyền chỉ, nhân danh Hoàng gia, tước quyền chỉ huy quân đội của Evelyn, phong Caelen làm Tổng Tư Lệnh quân đội phương Bắc và Đặc Phái Viên Giám Sát. Thưởng cho hắn 100 vạn kim tệ. Sự ưu ái đột ngột này sẽ làm nội bộ Ravenwood chia rẽ. Hãy để Caelen, Evelyn và Thần Điện cắn xé nhau đến kiệt sức đi."
 
 ***
 
