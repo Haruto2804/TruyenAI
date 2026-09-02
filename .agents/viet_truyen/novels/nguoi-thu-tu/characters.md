@@ -1,8 +1,8 @@
-# HỒ SƠ THIẾT KẾ NHÂN VẬT & PROMPT TẠO ẢNH 9:16 (CLOUDINARY CLOUD STORAGE)
+# HỒ SƠ DIỆN MẠO NHÂN VẬT (VISUAL DOSSIER)
 **Tác phẩm:** Người Thứ Tư (The Fourth One)
 **Thể loại:** Psychological Thriller / Neo-Noir
-**Cloudinary Folder:** `truyen-ai/characters/nguoi-thu-tu/`
-**Quy tắc:** Mọi ảnh được tự động upload trực tiếp lên Cloudinary CDN toàn cầu. Bạn chỉ cần thả ảnh vào thư mục `public/characters/nguoi-thu-tu/<slug>.png` rồi chạy `npm run sync:novel`, hệ thống sẽ tự động đẩy lên Cloudinary và lưu link HTTPS vĩnh viễn vào Database!
+**Thư mục lưu ảnh:** `public/characters/nguoi-thu-tu/`
+**Quy tắc:** Bạn chỉ cần lưu ảnh đại diện của nhân vật vào `public/characters/nguoi-thu-tu/<ten-nhan-vat>.png` (hoặc `.jpg`, `.webp`) rồi chạy `npm run sync:novel`. Hệ thống sẽ tự động đồng bộ lên Database và CDN!
 
 ---
 
@@ -12,12 +12,7 @@
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (`public/characters/nguoi-thu-tu/maren-engel.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Nữ, 34 tuổi. Cao 1m72, thân hình gầy gò, xương quai xanh lộ rõ. Mái tóc nâu sẫm cắt ngắn ngang vai luôn ướt đẫm sương mù và nước mưa. Đôi mắt xám xanh sắc lạnh như dao cạo, quầng thâm dưới mắt vì mất ngủ kinh niên. Gương mặt góc cạnh không trang điểm, đôi môi mỏng nhạt màu. Luôn mặc chiếc áo khoác trench coat đen cũ sờn kéo cao cổ, quần jeans bạc màu, giày boot da nâu dính bùn. Đầu ngón tay trỏ và ngón giữa hơi ố vàng vì khói thuốc.
-
-### 🎨 AI Image Generation Prompt (FLUX.1 / Midjourney v6 / SDXL 9:16):
-```text
-masterpiece, photorealistic 8k, raw cinematic neo-noir film still, 9:16 vertical portrait, 34-year-old female investigative reporter, sharp angular face, piercing grey-blue eyes, short disheveled wet dark brown hair, exhausted intense expression, worn black trench coat with popped collar, holding a vintage metal notepad, rainy dark foggy alley in Ashford Scandinavia at night, flickering amber streetlights, shallow depth of field, 35mm photograph, gritty atmospheric texture, highly detailed, dramatic chiaroscuro lighting --ar 9:16 --v 6.0
-```
+Nữ, 34 tuổi. Cao 1m72, thân hình gầy gò, xương quai xanh lộ rõ. Mái tóc nâu sẫm cắt ngắn ngang vai luôn ướt đẫm sương mù và nước mưa. Đôi mắt xám xanh sắc lạnh như dao cạo, quầng thâm dưới mắt vì mất ngủ kinh niên. Gương mặt góc cạnh không trang điểm, đôi môi mỏng nhạt màu. Luôn mặc chiếc áo khoác trench coat đen cũ sờn kéo cao cổ, quần jeans bạc màu, giày boot da nâu dính bùn. Đầu ngón tay trỏ và ngón giữa hơi ố vàng vì khói thuốc lá.
 
 ---
 
@@ -29,11 +24,6 @@ masterpiece, photorealistic 8k, raw cinematic neo-noir film still, 9:16 vertical
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Nam, 58 tuổi. Cao 1m80, khung xương to bè nhưng dáng người bắt đầu hơi còng. Mái tóc muối tiêu cắt ngắn kiểu nhà binh, khuôn mặt khắc khổ chằng chịt nếp nhăn của sương gió. Đôi mắt nâu sẫm trũng sâu, mệt mỏi và u uất. Mặc áo len cổ lọ xám dày dặn, khoác ngoài áo jacket da màu nâu sẫm sờn rách ở khuỷu tay. Bàn tay phải có triệu chứng run nhẹ do Parkinson sớm, ngón áp út đeo chiếc nhẫn cưới bạc cũ mà ông thường vô thức xoay tròn.
 
-### 🎨 AI Image Generation Prompt (FLUX.1 / Midjourney v6 / SDXL 9:16):
-```text
-masterpiece, photorealistic 8k, cinematic neo-noir portrait, 9:16 vertical composition, 58-year-old retired rugged detective, weathered wrinkled face, tired sunken dark brown eyes, short salt-and-pepper buzzcut, heavy stubble, thick grey turtleneck sweater, worn vintage brown leather jacket, sitting alone in a dim rustic dive bar, holding a glass of amber scotch whisky with trembling fingers, rain streaking down the tavern window behind him, cinematic low-key lighting, moody atmospheric shadows, realistic skin texture --ar 9:16 --v 6.0
-```
-
 ---
 
 ## 3. Yuki Tanaka (Nhân vật chính / POV Arc 3)
@@ -43,11 +33,6 @@ masterpiece, photorealistic 8k, cinematic neo-noir portrait, 9:16 vertical compo
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Nữ, 27 tuổi. Cao 1m63, vóc người mảnh khảnh nhỏ nhắn. Mái tóc đen dài thường buộc đuôi ngựa lỏng lẻo bằng sợi dây thun đen, mái thưa lòa xòa trước trán. Đôi mắt nâu đen to tròn nhưng sâu thẳm, đồng tử mở to như luôn cảnh giác. Làn da trắng xanh xao vì thiếu ánh nắng và thức đêm nghiên cứu. Đeo cặp kính gọng tròn kim loại mỏng. Mặc áo hoodie oversize xám tro trùm kín bàn tay, mang ba lô vải bố nặng trĩu tài liệu, tay luôn ôm cuốn sổ tay ghi chép đầy ký hiệu xoắn ốc bí ẩn.
-
-### 🎨 AI Image Generation Prompt (FLUX.1 / Midjourney v6 / SDXL 9:16):
-```text
-masterpiece, photorealistic 8k, cinematic moody portrait, 9:16 vertical composition, 27-year-old Japanese female PhD researcher, delicate pale features, dark brown eyes with anxious intelligent gaze, thin round wire-rimmed glasses, long black hair in a messy loose ponytail, oversized heather grey hoodie, holding a thick notebook filled with complex cryptic diagrams, dimly lit university archives surrounded by towering bookstacks and glowing laptop screens, soft cool rim lighting, film grain --ar 9:16 --v 6.0
-```
 
 ---
 
@@ -59,11 +44,6 @@ masterpiece, photorealistic 8k, cinematic moody portrait, 9:16 vertical composit
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Nam, 63 tuổi. Cao 1m78, phong thái học thức uyên bác nhưng toát ra vẻ lạnh lùng khó gần. Mái tóc bạc trắng chải ngược mượt mà ra sau, râu quai nón cắt tỉa gọn gàng cũng bạc trắng. Đôi mắt màu xanh lá nhạt sắc như dao mổ, đeo kính gọng vàng mỏng không viền. Luôn mặc âu phục vest len màu than chì, sơ mi trắng hồ cứng không cà vạt. Tay trái luôn cầm chiếc đồng hồ quả quýt bằng bạc cổ.
 
-### 🎨 AI Image Generation Prompt (FLUX.1 / Midjourney v6 / SDXL 9:16):
-```text
-masterpiece, photorealistic 8k, dark psychological thriller portrait, 9:16 vertical composition, 63-year-old distinguished academic professor, sharp icy pale green eyes, slicked-back silver white hair, neat white beard, elegant gold-rimmed spectacles, tailored charcoal tweed three-piece suit, standing in a shadowy high-ceiling university library with rain against stained glass windows, holding a vintage silver pocket watch, subtle enigmatic cold smile, dramatic chiaroscuro Rembrandt lighting, photorealistic --ar 9:16 --v 6.0
-```
-
 ---
 
 ## 5. Nils (Nhân vật phụ then chốt)
@@ -73,11 +53,6 @@ masterpiece, photorealistic 8k, dark psychological thriller portrait, 9:16 verti
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Nam, 60 tuổi. Thân hình hộ pháp, vai rộng như vách đá, đầu trọc lốc bóng lưỡng. Khuôn mặt to bè, thô kệch như được nặn ra từ khối đất sét ướt chưa gọt giũa. Miệng luôn mím chặt vì bị câm bẩm sinh, nhưng ánh mắt nhỏ, đen láy và sắc bén tột độ. Mặc áo thun ba lỗ xám bẩn bọc trong chiếc tạp dề da thuộc nâu thô ráp. Cổ luôn đeo sợi dây chuyền gắn miếng bảng phấn nhỏ bằng đá phiến và viên phấn trắng để giao tiếp.
-
-### 🎨 AI Image Generation Prompt (FLUX.1 / Midjourney v6 / SDXL 9:16):
-```text
-masterpiece, photorealistic 8k, gritty neo-noir cinematic still, 9:16 vertical portrait, 60-year-old massive bald mute former sailor tavern keeper, broad heavy weathered face, intense piercing small dark eyes, worn leather apron over a dark canvas shirt, standing behind a wet mahogany bar wiping beer mugs, small slate chalkboard hanging from his neck, steamy rustic waterfront tavern background, amber lantern light, smoke and moisture in the air, hyper-realistic --ar 9:16 --v 6.0
-```
 
 ---
 
@@ -89,11 +64,6 @@ masterpiece, photorealistic 8k, gritty neo-noir cinematic still, 9:16 vertical p
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
 Nam, 52 tuổi. Thân hình to béo, ục ịch. Khuôn mặt phì nộn luôn đỏ ửng vì huyết áp cao và thời tiết buốt giá, cơ hàm hay giật giật khi nhai nuốt trong lúc căng thẳng. Đôi mắt sưng húp, lờ đờ vì quá ngán ngẩm công việc bàn giấy. Mặc đồng phục cảnh sát Ashford màu lam đen bên trong chiếc áo mưa cảnh sát màu vàng phản quang ướt sũng nước, đội mũ kết lệch sang một bên.
 
-### 🎨 AI Image Generation Prompt (FLUX.1 / Midjourney v6 / SDXL 9:16):
-```text
-masterpiece, photorealistic 8k, neo-noir police drama film still, 9:16 vertical portrait, 52-year-old tired overweight cynical police inspector, puffy red face, heavy jowls, cynical exhausted expression, wet navy blue police uniform under a dripping yellow high-visibility rain poncho, peaked police cap, standing at a nighttime crime scene with yellow police tape, flashing blue emergency lights in the rain and heavy mist, realistic film photography --ar 9:16 --v 6.0
-```
-
 ---
 
 ## 7. Helmut Brandt (Nhân vật phụ then chốt / Nạn nhân thực sự)
@@ -102,9 +72,4 @@ masterpiece, photorealistic 8k, neo-noir police drama film still, 9:16 vertical 
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (`public/characters/nguoi-thu-tu/helmut-brandt.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Nam, khoảng 45 tuổi. Ngoại hình có cảm giác mờ ảo, chập chờn như một thực thể đang bị xóa bỏ khỏi thực tại. Mái tóc màu tro bết dính, gương mặt hốc hác, đôi mắt rực lên nỗi tuyệt vọng và khao khát được nhớ lại. Mặc chiếc áo blouse trắng phòng thí nghiệm đã ố vàng và rách nát sau 20 năm lẩn khuất dưới tầng hầm B3. Quanh cơ thể có hiệu ứng biến dạng quang học (optical aberration) nhẹ.
-
-### 🎨 AI Image Generation Prompt (FLUX.1 / Midjourney v6 / SDXL 9:16):
-```text
-masterpiece, photorealistic 8k, eerie psychological supernatural thriller portrait, 9:16 vertical composition, 45-year-old mysterious man fading from reality, gaunt hollow face, desperate haunted eyes, messy ash-grey hair, tattered yellowed vintage laboratory coat, ethereal glitching smoke effect around his silhouette, standing in a sterile white underground concrete lab with flickering lights, subtle digital decay and motion blur, eerie cinematic lighting, unsettling mood --ar 9:16 --v 6.0
-```
+Nam, khoảng 45 tuổi. Ngoại hình có cảm giác mờ ảo, chập chờn như một thực thể đang bị xóa bỏ khỏi thực tại. Mái tóc màu tro bết dính, gương mặt hốc hác, đôi mắt rực lên nỗi tuyệt vọng và khao khát được nhớ lại. Mặc chiếc áo blouse trắng phòng thí nghiệm đã ố vàng và rách nát sau 20 năm lẩn khuất dưới tầng hầm B3. Quanh cơ thể có hiệu ứng biến dạng quang học nhẹ.

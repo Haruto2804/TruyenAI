@@ -125,21 +125,21 @@ async function findAndUploadStoryCover(novelSlug: string): Promise<string> {
   return `/covers/${novelSlug}.jpg`;
 }
 
-// Generate characters.md file with Visual Dossier & AI Prompts for User
+// Generate characters.md file with Visual Dossier for User
 function generateCharactersMarkdown(novelSlug: string, novelTitle: string, characters: any[]) {
   const charactersMdPath = path.join(process.cwd(), ".agents", "viet_truyen", "novels", novelSlug, "characters.md");
   
-  let md = `# HỒ SƠ THIẾT KẾ NHÂN VẬT & PROMPT TẠO ẢNH 9:16 (CLOUDINARY CLOUD STORAGE)\n`;
+  let md = `# HỒ SƠ DIỆN MẠO NHÂN VẬT (VISUAL DOSSIER)\n`;
   md += `**Tác phẩm:** ${novelTitle}\n`;
-  md += `**Cloudinary Folder:** \`truyen-ai/characters/${novelSlug}/\`\n`;
-  md += `**Quy tắc:** Mọi ảnh được tự động upload trực tiếp lên Cloudinary CDN toàn cầu. Bạn chỉ cần thả ảnh vào thư mục local rồi chạy \`npm run sync:novel\`, hệ thống sẽ tự động đẩy lên Cloudinary và lưu link HTTPS vĩnh viễn vào Database!\n\n`;
+  md += `**Thư mục lưu ảnh:** \`public/characters/${novelSlug}/\`\n`;
+  md += `**Quy tắc:** Bạn chỉ cần lưu ảnh đại diện của nhân vật vào \`public/characters/${novelSlug}/<ten-nhan-vat>.png\` (hoặc \`.jpg\`, \`.webp\`) rồi chạy \`npm run sync:novel\`. Hệ thống sẽ tự động đồng bộ lên Database và CDN!\n\n`;
   md += `---\n\n`;
 
   characters.forEach((char, idx) => {
     const slugName = char.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d").replace(/[^a-z0-9]+/g, "-");
     const avatarStatus = char.avatarUrl && fs.existsSync(path.join(process.cwd(), "public", char.avatarUrl))
       ? `✅ Đã có ảnh (\`${char.avatarUrl}\`)`
-      : `⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào \`public/characters/${novelSlug}/${slugName}.png\`)`;
+      : `⚠️ Chưa có ảnh (\`public/characters/${novelSlug}/${slugName}.png\`)`;
 
     md += `## ${idx + 1}. ${char.name}\n`;
     md += `- **Vai trò:** ${char.role || "Chưa xác định"}\n`;
@@ -148,26 +148,11 @@ function generateCharactersMarkdown(novelSlug: string, novelTitle: string, chara
     
     md += `### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):\n`;
     md += `${char.description || "Chưa có mô tả chi tiết."}\n\n`;
-
-    md += `### 🎨 AI Image Generation Prompt (Midjourney v6 / FLUX.1 / SDXL 9:16):\n`;
-    md += `\`\`\`text\n`;
-    md += `${char.visualPrompt || generateDefaultPrompt(char.name, char.role, char.description)}\n`;
-    md += `\`\`\`\n\n`;
-    md += `> **💡 Hướng dẫn lưu file:** Sau khi sinh ảnh xong, lưu file vào: \`public/characters/${novelSlug}/${slugName}.png\` (hoặc \`.jpg\`, \`.webp\`).\n\n`;
     md += `---\n\n`;
   });
 
   fs.writeFileSync(charactersMdPath, md, "utf-8");
-  console.log(`Saved Character Prompts Dossier -> ${charactersMdPath}`);
-}
-
-function generateDefaultPrompt(name: string, role: string | null, description: string | null): string {
-  const isFemale = (role && (role.includes("tiểu thư") || role.includes("Công Chúa") || role.includes("Hầu nữ") || role.includes("Nữ") || role.includes("Hồ Ly"))) ||
-                   (description && (description.includes("nàng") || description.includes("Nữ") || description.includes("xinh đẹp")));
-  
-  const genderTerm = isFemale ? "1girl, breathtaking beautiful young noblewoman" : "1boy, handsome young nobleman";
-  
-  return `masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, cinematic dramatic lighting, 9:16 portrait vertical composition, ${genderTerm}, noble aristocrat, detailed facial features, expressive eyes, intricate fantasy clothing, soft volumetric lighting, floating magical particles, high contrast, 8k resolution, Unreal Engine 5 render, highly detailed anime illustration --ar 9:16 --v 6.0`;
+  console.log(`Saved Character Dossier -> ${charactersMdPath}`);
 }
 
 function parseDynamicCharacters(codexContent: string): any[] {
