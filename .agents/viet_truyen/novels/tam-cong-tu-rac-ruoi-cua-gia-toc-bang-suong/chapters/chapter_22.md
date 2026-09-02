@@ -74,7 +74,7 @@ Buổi chiều cùng ngày.
 
 Tại Đấu trường Thiên Quang, trước mặt hàng trăm đại thần và đại sứ các nước, Hoàng đế Solaria tuyên bố:
 
-"Thần Điện Quang Minh bị giải thể. Toàn bộ tài sản tịch thu sung công quỹ. Thuế cúng dường bãi bỏ vĩnh viễn. Thánh Thuỷ Tịnh Hóa sẽ được sản xuất tự do theo công thức mở do Gia tộc Ravenwood công bố."
+"Thần Điện Quang Minh bị liệt vào danh sách phản quốc. Toàn bộ tài sản tại Kinh đô bị tịch thu sung công quỹ. Phế truất mọi đặc quyền tôn giáo. Thuế cúng dường bãi bỏ vĩnh viễn. Thánh Thuỷ Tịnh Hóa sẽ được sản xuất tự do theo công thức mở do Gia tộc Ravenwood công bố."
 
 Đám đông reo hò như sấm. Tiếng khóc vui mừng vang lên từ những người dân thường đã cúng dường cả đời.
 

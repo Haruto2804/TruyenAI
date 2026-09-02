@@ -22,13 +22,13 @@ Valerie hơi nhíu mày, định nói thêm thì một giọng cười nham nh�
 
 Tứ Hoàng Tử Edward bước tới, theo sau là một gã thanh niên cao ngạo, mang thanh kiếm dài bọc vỏ bằng da giao long. 
 
-"Tam Công Chúa, đừng làm phiền vị khách quý của chúng ta chứ." Edward mỉm cười đầy ác ý, rồi quay sang Caelen. "Tam thiếu chủ Ravenwood, nghe danh đã lâu, quả nhiên tuổi trẻ tài cao. Để góp vui cho đêm nay, thủ hạ của ta, Tử tước Gareth — Đệ nhất kiếm khách trẻ tuổi của Hoàng gia, rất muốn được giao lưu kiếm thuật với một người mang dòng máu Kiếm Vương như ngươi."
+"Tam Công Chúa, đừng làm phiền vị khách quý của chúng ta chứ." Edward mỉm cười đầy ác ý, rồi quay sang Caelen. "Tam thiếu chủ Ravenwood, nghe danh đã lâu, quả nhiên tuổi trẻ tài cao. Để góp vui cho đêm nay, thủ hạ của ta, Tử tước Galahad — Đệ nhất kiếm khách trẻ tuổi của Hoàng gia, rất muốn được giao lưu kiếm thuật với một người mang dòng máu Kiếm Vương như ngươi."
 
-Đám đông lập tức dạt ra, tạo thành một vòng tròn. Gareth bước lên một bước, rút kiếm ra khỏi vỏ. Một tiếng "keng" thanh thúy vang lên. Ánh sáng từ lưỡi kiếm tỏa ra hàn khí bức người, ma lực Phong hệ cuồn cuộn bao bọc. Một cao thủ Trung Giai Đỉnh Phong.
+Đám đông lập tức dạt ra, tạo thành một vòng tròn. Galahad bước lên một bước, rút kiếm ra khỏi vỏ. Một tiếng "keng" thanh thúy vang lên. Ánh sáng từ lưỡi kiếm tỏa ra hàn khí bức người, ma lực Phong hệ cuồn cuộn bao bọc. Một cao thủ Trung Giai Đỉnh Phong.
 
-"Chỉ là luận bàn vui vẻ thôi, nếu Tam thiếu chủ sợ... có thể xin hàng." Gareth mỉm cười xảo quyệt. 
+"Chỉ là luận bàn vui vẻ thôi, nếu Tam thiếu chủ sợ... có thể xin hàng." Galahad mỉm cười xảo quyệt. 
 
-Luận bàn? Caelen thừa biết đây là một vụ ám sát công khai. Thanh kiếm của Gareth không phải kiếm thường, mũi kiếm ánh lên một màu xanh lục nhạt — màu của Độc Thạch Cốt, loại kịch độc chỉ cần xước da là mất mạng.
+Luận bàn? Caelen thừa biết đây là một vụ ám sát công khai. Thanh kiếm của Galahad không phải kiếm thường, mũi kiếm ánh lên một màu xanh lục nhạt — màu của Độc Thạch Cốt, loại kịch độc chỉ cần xước da là mất mạng.
 
 "Sợ? Trong từ điển của ta không có từ đó, nhưng có từ 'lãng phí thời gian'." Caelen đặt ly rượu xuống bàn, chậm rãi vuốt ống tay áo. 
 
@@ -36,11 +36,11 @@ Hắn bước ra giữa vòng tròn, không hề rút đoản kiếm. Đôi mắ
 
 "Bắt đầu đi."
 
-Gareth gầm lên, vận ma lực Phong hệ đến cực hạn. *Phong Quyển Cuồng Sát!* Thân hình gã lao tới như một cơn lốc, lưỡi kiếm độc chém ra vô số ảo ảnh, nhắm thẳng vào các tử huyệt trên người Caelen. Tốc độ cực nhanh, bít kín mọi đường lui. 
+Galahad gầm lên, vận ma lực Phong hệ đến cực hạn. *Phong Quyển Cuồng Sát!* Thân hình gã lao tới như một cơn lốc, lưỡi kiếm độc chém ra vô số ảo ảnh, nhắm thẳng vào các tử huyệt trên người Caelen. Tốc độ cực nhanh, bít kín mọi đường lui. 
 
 Đám quý tộc ồ lên kinh hãi, không ít kẻ che mắt.
 
-Nhưng trong mắt Caelen, thế giới như đứng khựng lại. **Ma Đồng Giải Cấu** hoạt động hết công suất. Tốc độ gió, góc độ vung kiếm, cấu trúc phân tử của thanh kiếm bọc Phong hệ, và cả sự phân bổ ma lực của Gareth... tất cả đều hiện ra như những bản vẽ kỹ thuật trong đầu hắn. 
+Nhưng trong mắt Caelen, thế giới như đứng khựng lại. **Ma Đồng Giải Cấu** hoạt động hết công suất. Tốc độ gió, góc độ vung kiếm, cấu trúc phân tử của thanh kiếm bọc Phong hệ, và cả sự phân bổ ma lực của Galahad... tất cả đều hiện ra như những bản vẽ kỹ thuật trong đầu hắn. 
 
 *Chất lượng thép quá kém. Lõi kiếm có một vết nứt vi mô do rèn vội để tẩm độc. Dòng mana Phong hệ tập trung ở mũi kiếm, nhưng lại bỏ ngỏ điểm yếu ở phần thân.*
 
@@ -54,7 +54,7 @@ Cơn lốc Phong hệ đột ngột tắt ngấm. Mũi kiếm chứa kịch đ�
 
 "Thanh kiếm tốt, nhưng quy trình rèn lỗi, lại còn bị nung quá lửa để tẩm Độc Thạch Cốt." Caelen nhàn nhạt cất lời, giọng nói rõ ràng vang vọng khắp đại sảnh. "Dùng kịch độc cấm kỵ trong Dạ tiệc Hoàng gia... Điện hạ Edward quả thực chơi rất bẩn."
 
-Gareth tái mặt, cố sức rút kiếm ra nhưng luồng hàn khí từ ngón tay Caelen đã đóng băng toàn bộ cấu trúc thép. 
+Galahad tái mặt, cố sức rút kiếm ra nhưng luồng hàn khí từ ngón tay Caelen đã đóng băng toàn bộ cấu trúc thép. 
 
 "Phá!" 
 
@@ -64,9 +64,9 @@ Rắc... Xoảng!
 
 Thanh kiếm danh giá vỡ vụn thành trăm mảnh, rơi lảng xoảng xuống sàn nhà bằng ngọc cẩm thạch. Kịch độc màu xanh lục từ lõi kiếm chảy ra xèo xèo, bốc khói ăn mòn mặt sàn, phơi bày chứng cứ ám sát rành rành trước hàng trăm con mắt của giới quý tộc.
 
-Gareth lảo đảo lùi lại, ôm lấy cánh tay phải đang tê dại vì hàn khí phản phệ.
+Galahad lảo đảo lùi lại, ôm lấy cánh tay phải đang tê dại vì hàn khí phản phệ.
 
-Caelen không dừng lại, lướt tới vung chân đá thẳng vào ngực Gareth. Tên kiếm khách hộc máu, bay ngược ra sau, đâm sầm vào bàn tiệc của Tứ Hoàng Tử.
+Caelen không dừng lại, lướt tới vung chân đá thẳng vào ngực Galahad. Tên kiếm khách hộc máu, bay ngược ra sau, đâm sầm vào bàn tiệc của Tứ Hoàng Tử.
 
 Tiếng xì xầm bùng nổ dữ dội. Sử dụng Độc Thạch Cốt là tội tử hình ở đế quốc. Sự kiêu ngạo của Tứ Hoàng Tử đã biến thành sự ngu xuẩn không thể bào chữa.
 
