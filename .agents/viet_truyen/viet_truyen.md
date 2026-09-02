@@ -208,9 +208,14 @@ Mỗi lần sáng tác chương mới hoặc phát triển cốt truyện, hệ 
 
 * **Nhiệm vụ:**
   - **Chạy song song (Parallel Execution):** Thực thi cùng lúc với Memory Manager và Lorekeeper.
-  - Khi xuất hiện nhân vật mới, tự động phác thảo diện mạo và tóm tắt thông tin nhân vật.
+  - **Tiêu chuẩn lựa chọn nhân vật đưa vào `characters.md` để tạo ảnh:**
+    1. **Nhân vật chính & Trọng tâm cốt truyện (Main Characters / POV / Antagonists):** BẮT BUỘC 100% phải tạo ảnh và lập hồ sơ Visual Prompt 9:16.
+    2. **Nhân vật phụ then chốt (Key Supporting Characters):** Là những nhân vật có vai trò nút thắt, nắm giữ manh mối/bí mật quan trọng, xuất hiện lặp lại hoặc có diện mạo mang tính biểu tượng (VD: *Nils — chủ quán bar câm miễn nhiễm Lethe*, *Thanh tra Lindqvist*, *Helmut Brandt*, *Mẹ của Maren*). BẮT BUỘC đưa vào `characters.md` để soạn Prompt và tạo ảnh phục vụ tính năng Modal X-Ray Reader trên Web.
+    3. **Nhân vật quần chúng / Lướt qua (Passerby NPCs):** Những nhân vật chỉ xuất hiện 1 cảnh làm nền hoặc qua điện thoại (VD: *Charlie — điều độ viên*, *Cảnh sát trực cổng*, *Bồi bàn*) -> **KHÔNG** đưa vào `characters.md` và không tốn tài nguyên tạo ảnh, chỉ ghi chú giải khái niệm nếu cần.
+  - **Quy chuẩn Visual Prompt theo thể loại (Genre-Adaptive Prompts):**
+    - *Tiên hiệp / Huyền huyễn:* Manhwa Webtoon Artstyle, glowing spiritual particles, vibrant colors, 8k resolution, Unreal Engine 5 render.
+    - *Trinh thám / Neo-Noir / Tâm lý:* Semi-realistic Cinematic Neo-Noir, moody dramatic lighting, muted tones, rain and fog atmosphere, photorealistic film grain, 8k resolution.
   - **TUYỆT ĐỐI KHÔNG** sử dụng cụm từ "Tiểu sử & Tính cách" trong mô tả. Chỉ viết tóm tắt ngắn gọn.
-  - Soạn sẵn Prompt tiếng Anh chuẩn studio (Midjourney v6 / FLUX.1 / SDXL, tỉ lệ dọc 9:16, Manhwa Artstyle, 8k resolution, cinematic lighting).
   - **Tự động xuất / cập nhật vào file `characters.md`** của bộ truyện.
 * **Quy tắc nhận diện file ảnh thông minh (`tennhanvat.*`):**
   - Hệ thống tự động phát hiện **BẤT KỲ ĐỊNH DẠNG ẢNH NÀO** (`.png`, `.jpg`, `.jpeg`, `.webp`, `.avif`, `.gif`) trong thư mục `public/characters/<novel_slug>/`.
