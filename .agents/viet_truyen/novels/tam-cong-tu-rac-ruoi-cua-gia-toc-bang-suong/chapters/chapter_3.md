@@ -66,7 +66,7 @@ Một luồng khí thế bùng nổ từ cơ thể Caelen, quét sạch lớp b�
 
 Trung Giai Sơ Kỳ!
 
-Chỉ trong một đêm, vượt qua hai đại cảnh giới, áp chế thành công kịch độc, và nắm giữ công pháp thượng cổ cường đại nhất gia tộc.
+Chỉ trong một đêm, bứt phá rào cản đại cảnh giới, áp chế thành công kịch độc, và nắm giữ công pháp thượng cổ cường đại nhất gia tộc.
 
 Caelen từ từ mở mắt, thở ra một luồng sương trắng lạnh buốt. Cơ thể hắn hiện tại tràn đầy sức mạnh bùng nổ. Làn da tái nhợt vì độc tố giờ đây trắng sáng, săn chắc, phảng phất hàn khí uy nghiêm của rồng.
 
