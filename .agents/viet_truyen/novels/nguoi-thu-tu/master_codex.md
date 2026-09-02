@@ -82,6 +82,11 @@
 * **Ngoại hình:** Luôn trực ca đêm tại phòng điều phối tổng đài, giọng nói qua điện thoại luôn dè dặt và cảnh giác.
 * **Tính cách:** Kín tiếng, cẩn trọng, thạo tin tức điều hành nội bộ của sở cảnh sát.
 
+### 9. Sarah Solvang
+* **Vai trò:** Vợ quá cố (người vợ không tồn tại) của Erik Solvang, cựu nạn nhân hoặc nghiên cứu viên tại B3.
+* **Ngoại hình:** Erik không còn nhớ rõ khuôn mặt hay màu mắt do ảnh hưởng của Hiệu ứng Lethe. 
+* **Tính cách:** Chưa rõ, nhưng có liên kết mật thiết với Dự án Lethe.
+
 ---
 
 ## 📜 3. LORE & GLOSSARY CODEX (BÁCH KHOA CHÚ GIẢI)
@@ -142,25 +147,34 @@
 * **Phân loại:** `Manh mối`
 * **Định nghĩa:** Dòng chữ viết bằng bút dạ đen trong phòng làm việc tại biệt thự của Voss: "TÔI ĐANG QUÊN TÔI LÀ AI. Lethe hoạt động. Nhưng nó không dừng lại." Chứng tỏ Voss cũng bị ảnh hưởng bởi Lethe.
 
+### 15. Mẫu vật số Không (Subject Zero)
+* **Phân loại:** `Nhân vật / Sự kiện`
+* **Định nghĩa:** Thí nghiệm đầu tiên của Dự án Lethe. Đứa trẻ duy nhất sống sót và mang trong mình khả năng bóp méo nhận thức của những người xung quanh. Theo cuốn sổ cũ của Erik, Maren Engel chính là Mẫu vật số Không.
+
+### 16. Cuốn sổ tay năm 2004 của Erik
+* **Phân loại:** `Đạo cụ / Manh mối`
+* **Định nghĩa:** Cuốn sổ tay bìa da đen được giấu dưới sàn nhà của Erik. Chứa những ghi chép của chính ông về sự lây lan của Lethe trong sở cảnh sát, việc Sarah bị bắt xuống B3, và lời cảnh báo cuối cùng: "Đừng tin Maren Engel. Cô ta không phải con người."
+
 ---
 
 ## 🧠 4. MEMORY MANAGER — TIẾN ĐỘ & TRẠNG THÁI
 
-### Trạng Thái Hiện Tại (Sau Arc 1 - Hết Chương 6):
-* **Vụ án:** Maren nhận ra cái xác có thể không phải là Voss, và Voss từng biết cô lúc 5 tuổi. Cô phát hiện mẹ mình có liên quan đến Dự án Lethe. Cô đột nhập hầm B3 và thấy phòng thí nghiệm vẫn được sử dụng.
-* **Maren Engel:** Vừa kết nối các manh mối: mẹ cô bị "xóa", bức ảnh lúc 5 tuổi với Voss, và bóng người đeo kính gọng vàng trong hầm B3. Đã gọi cho Erik hẹn gặp.
-* **Erik Solvang:** Bị Maren đánh thức lúc 4 giờ sáng, nghe tin B3 vẫn hoạt động và đang trên đường đến Đại học Ashford. Đã thừa nhận mình có "6 tháng khoảng trống ký ức" liên quan đến Lethe 20 năm trước.
-* **Yuki Tanaka:** Đã cung cấp log thẻ từ cho Maren (thấy 2 người vô danh vào phòng Voss đêm án mạng) và danh sách nhân sự (lộ tên Helmut Brandt). Đã kể về "Xóa tồn tại có chọn lọc".
-* **Daniel Voss:** "Chết" (thực tế: bóng người Maren nhìn thấy trong phòng quan sát ở B3 có thể chính là ông ta).
+### Trạng Thái Hiện Tại (Sau Arc 2 - Hết Chương 11):
+* **Vụ án:** Dự án Lethe được xác định không chỉ xóa hồ sơ vật lý mà là một "virus nhận thức" lây truyền qua lời nói/sự xác nhận tập thể. 
+* **Maren Engel:** Vừa cùng Erik xuống B3, tìm thấy Phong bì Đen có dấu sáp chữ 'S'. Bị Erik phát hiện thân phận thật có thể là "Mẫu vật số Không" không phải con người.
+* **Erik Solvang:** Bị chấn động khi phát hiện vợ mình (Sarah) không chết vì tai nạn mà bị đưa xuống B3 và bị xóa khỏi ký ức toàn thành phố. Đã tìm lại được cuốn sổ tay ghi chép năm 2004 của chính mình và biết được Maren là kẻ nguy hiểm.
+* **Yuki Tanaka:** (Chưa xuất hiện trong Arc 2)
+* **Nils:** Được xác nhận miễn nhiễm với Lethe vì bị câm/ngừng giao tiếp bằng lời nói 20 năm qua. Là người nắm giữ sự thật và định hướng Erik tìm cuốn sổ.
 
 ### Plot Hooks đang mở:
-* Ai gửi 3 Phong bì Đen? (Voss gửi trước khi "chết"? Hay một người đã bị "xóa" đang cố tái xuất?)
+* Ai gửi 3 Phong bì Đen? (Chiếc thứ 4 có chữ S - Sarah gửi?)
 * Xác chết trong phòng Voss thực sự là ai?
-* Nils (chủ quán bar) tại sao miễn nhiễm với Hiệu ứng Lethe?
-* 3 cuốn sổ tay mất tích đang ở đâu?
+* 3 cuốn sổ tay mất tích của Voss đang ở đâu?
 * Yuki có mối liên hệ gì với Dự án Lethe?
-* **MỚI:** Bóng người đeo kính gọng vàng ở B3 là ai? Voss hay một tạo ảnh tàn dư?
-* **MỚI:** Mẹ của Maren đóng vai trò gì trong Dự án Lethe? Giọng nói trong đầu Maren là mẹ cô, hay là ảo giác?
+* Bóng người đeo kính gọng vàng ở B3 là ai? Voss hay một tạo ảnh tàn dư?
+* Mẹ của Maren đóng vai trò gì trong Dự án Lethe? 
+* **MỚI:** Maren thực sự là "Mẫu vật số Không"? Chuyện gì đã xảy ra với cô bé 14 tuổi năm 2004? Khả năng của Maren là gì?
+* **MỚI:** Sarah Solvang còn sống hay đã chết ở B3?
 
 ---
 
@@ -172,4 +186,11 @@
   * **C3:** Gặp Erik Solvang, biết về khoảng trống 6 tháng và tầng hầm B3. Lời cảnh báo từ Nils.
   * **C4:** Gặp Yuki, biết về hiện tượng "Xóa tồn tại có chọn lọc" và Helmut Brandt.
   * **C5:** Đột nhập hầm B3, phát hiện phòng thí nghiệm còn hoạt động, chụp được bóng người đeo kính gọng vàng.
-  * **C6:** Maren tìm thấy bức ảnh Polaroid của cô và Voss lúc 5 tuổi, kết luận mẹ cô bị "xóa" bởi Dự án Lethe. Đánh thức Erik. Hết Arc 1.
+  * **C6:** Maren tìm thấy bức ảnh Polaroid của cô và Voss lúc 5 tuổi, kết luận mẹ cô bị "xóa" bởi Dự án Lethe. Đánh thức Erik. Háº¿t Arc 1.
+  
+* **Arc 2 (POV Erik): Chương 7 - 11**
+  * **C7:** Erik hội ngộ Maren tại B3. Hồi tưởng về 6 tháng mất ký ức 20 năm trước.
+  * **C8:** Khám phá phòng B3, Erik tìm thấy dấu giày lạ và Phong bì Đen thứ 4 với dấu sáp chữ 'S' (Sarah - vợ ông).
+  * **C9:** Trở lại đồn cảnh sát, Erik bàng hoàng phát hiện toàn bộ hồ sơ và ký ức của mọi người về Sarah đã bị xóa khỏi thực tại. Lindqvist cho rằng Erik bị hoang tưởng.
+  * **C10:** Gặp Nils. Nils tiết lộ Hiệu ứng Lethe lây qua lời nói tập thể, và xác nhận Sarah chưa từng chết mà bị đưa xuống B3. Nhắc nhở tìm cuốn sổ.
+  * **C11:** Erik tìm được cuốn sổ tay cũ giấu dưới sàn nhà. Đọc được nét chữ của chính mình từ 2004, cảnh báo rằng Maren là Mẫu vật số Không và không phải con người. Hết Arc 2.

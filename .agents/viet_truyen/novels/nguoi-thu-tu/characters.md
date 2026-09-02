@@ -123,5 +123,17 @@
 
 ---
 
+## 9. Sarah Solvang
+- **Vai trò:** Vợ quá cố (người vợ không tồn tại) của Erik Solvang, cựu nạn nhân hoặc nghiên cứu viên tại B3.
+- **Biệt danh & Danh xưng:** Không có
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788325803/truyen-ai/characters/nguoi-thu-tu/erik-solvang.jpg`)
+
+### 🎭 Tóm tắt diện mạo & Đặc điểm:
+**Ngoại hình:** Erik không còn nhớ rõ khuôn mặt hay màu mắt do ảnh hưởng của Hiệu ứng Lethe.
+
+**Tính cách:** Chưa rõ, nhưng có liên kết mật thiết với Dự án Lethe.
+
+---
+
 ---
 

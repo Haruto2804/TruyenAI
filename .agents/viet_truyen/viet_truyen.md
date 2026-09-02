@@ -238,6 +238,7 @@ Mỗi lần sáng tác chương mới hoặc phát triển cốt truyện, hệ 
 * **Nhiệm vụ:**
   - Đảm bảo toàn bộ chương truyện được phát hành.
   - **TUYỆT ĐỐI KHÔNG DÙNG TÍNH NĂNG VIP:** Toàn bộ truyện phải được đọc miễn phí 100% (`isVip: false`, `price: 0`). Không được tạo tường thu phí.
+  - **Ảnh mặc định:** Nhân vật nào chưa có ảnh minh họa (avatar) thì tự động hiển thị ảnh mặc định.
 
 ---
 
