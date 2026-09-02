@@ -36,10 +36,8 @@ Hồ sơ vụ án Đồ Tể Dockside biến mất khỏi kho lưu trữ của S
 
 Chiếc Ford Victoria rẽ qua ngã tư cuối cùng, cổng đá rêu phong của Đại học Ashford hiện ra dưới ánh đèn vàng vọt. 
 
-Erik tấp xe vào lề. Ở phía trước, dưới hiên của Khoa Tâm lý học, Maren Engel đang đứng khoanh tay. Chiếc áo măng tô màu rêu ướt đẫm bám sát vào vai cô. Cô không che ô. Dưới ánh đèn nhấp nháy, cô trông giống một bóng ma hơn là một nhà báo.
+Erik tấp xe vào lề. Ở phía trước, dưới hiên của Khoa Tâm lý học, Maren Engel đang đứng. Chiếc áo măng tô màu rêu ướt đẫm bám sát vào vai cô. Cô không che ô. Dưới ánh đèn nhấp nháy, cô trông giống một bóng ma hơn là một nhà báo. Cô đang áp chặt trước ngực một vật gì đó hình chữ nhật.
 
-Nhưng thứ khiến Erik chú ý không phải là Maren. Mà là bức ảnh cô đang cầm trên tay. Từ khoảng cách hai mươi mét, Erik vẫn có thể nhận ra viền trắng đặc trưng của một tấm ảnh Polaroid cũ. 
-
-Ông ta đẩy cửa xe bước xuống, mưa lập tức tạt vào mặt, lạnh buốt. Bàn tay phải của ông ta vô thức chạm vào báng súng dưới nách áo khoác. 
+Ông ta đẩy cửa xe bước xuống, mưa lập tức tạt vào mặt, lạnh buốt. Khi tiến lại gần hơn qua làn nước mờ mịt, Erik nhận ra thứ cô đang giữ khư khư trên tay — viền trắng đặc trưng của một tấm ảnh Polaroid cũ rích. Bàn tay phải của ông ta vô thức chạm vào báng súng dưới nách áo khoác.
 
 Mười lăm năm trốn chạy đã kết thúc. Cái hố đen dưới tầng hầm B3 kia, và bức ảnh Polaroid đó... chúng đang gọi ông ta về.
