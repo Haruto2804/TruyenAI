@@ -78,21 +78,24 @@ async function findAndUploadCharacterAvatar(novelSlug: string, charName: string,
     }
   }
 
-  // 2. Try distinct core tokens
+  // 2. Try distinct core tokens (stricter matching)
   if (!targetFile) {
     for (const file of files) {
       const ext = path.extname(file).toLowerCase();
       if (!imageExtensions.includes(ext)) continue;
       const base = path.basename(file, ext).toLowerCase();
 
-      for (const token of coreTokens) {
-        if (base === token || base.startsWith(token + "-") || base.endsWith("-" + token) || base.startsWith(token + "_")) {
-          targetFile = file;
-          targetSlug = base;
-          break;
-        }
+      const baseTokens = base.split(/[^a-z0-9]+/).filter(w => w.length > 0);
+      const slugTokens = fullSlug.split("-").filter(w => w.length > 0);
+      
+      const isFileInChar = baseTokens.length > 0 && baseTokens.every(t => slugTokens.includes(t));
+      const isCharInFile = slugTokens.length > 0 && slugTokens.every(t => baseTokens.includes(t));
+
+      if (isFileInChar || isCharInFile) {
+        targetFile = file;
+        targetSlug = base;
+        break;
       }
-      if (targetFile) break;
     }
   }
 

@@ -390,7 +390,7 @@
 ## 9. Iris Flamel
 - **Vai trò:** Nhà giả kim thiên tài / Đồng minh khoa học của Caelen.
 - **Biệt danh & Danh xưng:** Iris, Nhà Giả Kim Điên Loạn, Iris Flamel.
-- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (`public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/iris-flamel.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/default-avatar.jpeg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Cảnh giới & Tu vi:** Sơ Giai Trung Kỳ (Chuyên về Giả Kim Thuật, không chiến đấu).

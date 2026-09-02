@@ -66,7 +66,7 @@
 ## 6. Tiêu Thần
 - **Vai trò:** Khí Vận Chi Tử Màn 2 / Kẻ sở hữu Hệ thống Thương Nhân
 - **Biệt danh & Danh xưng:** Thương Thần, Kỳ Tài Tài Chính
-- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (`public/characters/ta-sinh-ra-la-phan-dien/tieu-than.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/default-avatar.jpeg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Cảnh giới:** Kim Đan Cảnh Sơ Kỳ
