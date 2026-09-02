@@ -70,7 +70,7 @@ Aldric ngẩng đầu, nhìn Caelen. Lần đầu tiên, lão nhìn thấy rõ k
 
 Buổi chiều cùng ngày.
 
-Đại Giáo Chủ Aldric bị Hoàng Gia Vệ Binh áp giải về Kinh đô trong cũi sắt. Ba ngàn Thánh Kỵ Sĩ hạ vũ khí đầu hàng. Thánh Sơn bị phong tỏa. Toàn bộ tài sản Thần Điện Quang Minh bị niêm phong.
+Đại Giáo Chủ Aldric bị Hoàng Gia Vệ Binh áp giải về Kinh đô trong cũi sắt. Đội quân Thánh Kỵ Sĩ viễn chinh hạ vũ khí đầu hàng. Tuy nhiên, các Hồng y còn lại đã kịp lùi về Thánh Sơn, kích hoạt Đại Trận Phòng Ngự ánh sáng, tử thủ bên trong. Thánh Sơn bị phong tỏa nhưng chưa thể công phá. Toàn bộ tài sản ngoại vi của Thần Điện Quang Minh bị niêm phong.
 
 Tại Đấu trường Thiên Quang, trước mặt hàng trăm đại thần và đại sứ các nước, Hoàng đế Solaria tuyên bố:
 
