@@ -166,18 +166,18 @@ function parseDynamicCharacters(codexContent: string): any[] {
 
   const lines = codexContent.split("\n");
   for (const line of lines) {
-    if (line.includes("2. CHARACTER CODEX") || line.includes("HỒ SƠ NHÂN VẬT")) {
+    if (line.includes("2. CHARACTER CODEX") || line.includes("HỒ SƠ NHÂN VẬT") || line.includes("THIẾT LẬP NHÂN VẬT") || line.includes("DÀN NHÂN VẬT")) {
       inCharSection = true;
       continue;
     }
-    if (inCharSection && line.startsWith("## ") && !line.includes("CHARACTER") && !line.includes("NHÂN VẬT")) {
+    if (inCharSection && line.startsWith("## ") && !line.includes("CHARACTER") && !line.includes("NHÂN VẬT") && !line.match(/^##\s+\d+\.\s+/)) {
       inCharSection = false;
       if (currentChar) { chars.push(currentChar); currentChar = null; }
       break;
     }
 
     if (inCharSection) {
-      if (line.startsWith("### ")) {
+      if (line.startsWith("### ") || line.match(/^##\s+\d+\.\s+/)) {
         if (currentChar) {
           chars.push(currentChar);
           currentChar = null;
@@ -187,8 +187,8 @@ function parseDynamicCharacters(codexContent: string): any[] {
           continue;
         }
 
-        const match = line.match(/^###\s+(?:\d+\.\s+)?(.+?)(?:\s*\([^)]*\))?$/);
-        const name = match ? match[1].trim() : line.replace("###", "").trim();
+        const match = line.match(/^(?:###|##)\s+(?:\d+\.\s+)?(.+?)(?:\s*\([^)]*\))?$/);
+        const name = match ? match[1].trim() : line.replace(/^(?:###|##)/, "").trim();
         currentChar = {
           name,
           role: "",

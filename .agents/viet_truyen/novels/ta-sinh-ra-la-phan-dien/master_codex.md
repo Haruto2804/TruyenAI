@@ -61,6 +61,12 @@ Bối cảnh diễn ra trong thế giới của tựa game RPG độ khó ác m�
 - **Cảnh giới:** Phong Hầu Cảnh Sơ Kỳ
 - **Khí chất:** Ma mị, quyến rũ, một lòng trung thành phụng sự Ninh Huyền Dạ sau khi được hắn cứu thoát khỏi phong ấn.
 
+### 6. Tiêu Thần
+- **Vai trò:** Khí Vận Chi Tử Màn 2 / Kẻ sở hữu Hệ thống Thương Nhân
+- **Cảnh giới:** Kim Đan Cảnh Sơ Kỳ
+- **Biệt danh & Danh xưng:** Thương Thần, Kỳ Tài Tài Chính
+- **Khí chất & Diện mạo:** Thanh niên có vẻ ngoài lanh lợi, đôi mắt sắc sảo nhạy bén với cơ hội làm giàu. Tham vọng, thích thể hiện sự vượt trội về tài phú và dùng tiền đè người, nhưng thiếu tầm nhìn sâu xa của những kẻ thao túng thực sự.
+
 ---
 
 ## 📖 4. TỪ ĐIỂN CHÚ GIẢI THUẬT NGỮ (LORE & GLOSSARY)

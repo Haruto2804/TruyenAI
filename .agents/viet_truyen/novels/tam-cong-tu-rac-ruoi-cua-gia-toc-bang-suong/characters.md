@@ -451,6 +451,36 @@
 
 - *Động cơ:* Chống lại sự xâm nhập của Thần Điện vào Hắc Nguyệt, tranh ngôi với Đại Hoàng Tử được Thần Điện hậu thuẫn.
 
+---
+
+---
+
+## 11. Tứ Hoàng Tử Edward
+- **Vai trò:** Tứ Hoàng Tử Đế Quốc Solaria / Kẻ địch chính trị của Caelen / Đứng sau Thương Hội Kim Sư.
+- **Biệt danh & Danh xưng:** Tứ Hoàng Tử, Edward.
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788311519/truyen-ai/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/hoang-tu-soren-blackmere.jpg`)
+
+### 🎭 Tóm tắt diện mạo & Đặc điểm:
+**Cảnh giới & Tu vi:** Trung Giai Đỉnh Phong.
+
+**Ảnh Avatar (916):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/edward.jpg`
+
+**🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):** 
+
+- *Vóc dáng & Thể hình:* Cao 1m78, dáng vẻ kiêu ngạo đặc trưng của hoàng gia.
+
+- *Mái tóc:* Vàng kim rực rỡ, chải chuốt bóng bẩy.
+
+- *Đôi mắt & Ánh nhìn:* Ánh mắt hống hách, luôn nhìn người khác từ trên xuống.
+
+- *Trang phục:* Trang phục dạ hội lộng lẫy, đeo nhiều trang sức phô trương quyền lực và sự giàu có.
+
+**🧠 Tính Cách & Chiều Sâu Tâm Lý:** 
+
+- *Bản chất:* Kiêu ngạo, ngu xuẩn, tự mãn nhưng luôn cho mình là nhất. Thường sử dụng quyền lực hoàng gia và tiền bạc để chèn ép người khác.
+
+- *Động cơ:* Tiêu diệt Caelen vì lợi ích kinh tế và sự phẫn nộ cá nhân.
+
 **🕸️ Mạng Lưới Mối Quan Hệ:** 
 
 - *Caelen:* Đối tác chiến lược, không phải bạn bè — lợi ích chung chống Thần Điện.
