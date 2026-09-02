@@ -198,6 +198,11 @@ function parseDynamicCharacters(codexContent: string): any[] {
           const val = kvMatch[2].trim();
           const lowerKey = rawKey.toLowerCase();
 
+          // Strict Anti-Spoiler Guard: Never expose secret, wound, or twist to public database
+          if (lowerKey.includes("bí mật") || lowerKey.includes("vết thương") || lowerKey.includes("wound") || lowerKey.includes("twist")) {
+            continue;
+          }
+
           if (lowerKey.includes("vai trò") || lowerKey.includes("thân phận")) {
             currentChar.role = val;
           } else if (lowerKey.includes("danh xưng") || lowerKey.includes("biệt danh") || lowerKey.includes("biệt hiệu") || lowerKey.includes("bí danh")) {
