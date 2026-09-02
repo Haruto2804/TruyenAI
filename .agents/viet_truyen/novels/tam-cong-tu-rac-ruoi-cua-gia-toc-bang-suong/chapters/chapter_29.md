@@ -65,3 +65,19 @@ Caelen thu kiếm vào vỏ, ánh mắt hướng về phía màn đêm đen đ�
 "Đến đó làm gì?" Kael sửng sốt. "Đó là lãnh địa đầy rẫy ma thú cấp cao."
 
 Khóe môi Caelen vẽ lên một nụ cười lạnh lẽo. "Đi đập nát cái đinh đầu tiên mà Thần Điện Quang Minh đã đóng lên mạch máu của đại lục này."
+
+---
+
+Đêm đó, trong gian phòng luyện kim bí mật của pháo đài Frostfang, ánh lửa xanh nhạt hắt lên khuôn mặt góc cạnh của Caelen. Hắn không nghỉ ngơi mà bắt tay ngay vào việc chuẩn bị cho trận chiến khốc liệt ngày mai.
+
+Sử dụng mạng lưới của Vạn Thương Ngân Hàng, Caelen đã bí mật vận chuyển về Bắc Cảnh hàng loạt dược liệu quý hiếm. Hắn cẩn thận nhỏ giọt tinh chất từ Huyết Liên Đài vào hỗn hợp bột Băng Phách, dung hợp bằng ma lực Trung Giai của mình. Một tiếng rít xé tai vang lên, dung dịch trong ống nghiệm chuyển sang màu đỏ rực như máu sôi, tỏa ra hàn khí cắt da. 
+
+"Bạo Huyết Băng Tủy," Caelen lẩm nhẩm, cất cẩn thận lọ ma dược vào sâu trong ống tay áo. "Một thứ cấm dược ép xung ma hạch, đổi lấy tốc độ và sức mạnh tăng gấp ba lần trong thời gian ngắn. Hy vọng ta sẽ không phải dùng đến nó."
+
+Ngay sau đó, Lilian bước vào, mang theo một hộp gỗ nặng trịch. "Thiếu chủ, thợ rèn đã đúc cấp tốc xong thứ ngài yêu cầu. Ba mươi viên bi thép rỗng ruột, vỏ mỏng, độ giòn cao."
+
+"Làm tốt lắm." Caelen gật đầu, nhận lấy túi bột Tán Hồn Hương thu được từ xác Garrick lúc chiều. Với sự khéo léo của một người từng làm quen với vô số cấu trúc cơ khí ở kiếp trước, hắn tỉ mỉ nhồi thứ bột phấn kịch độc kia vào từng viên bi thép, sau đó phong kín lại bằng một lớp sáp mỏng. 
+
+"Tán Hồn Hương vốn chỉ là bột phấn, tung bay trong gió tuyết sẽ mất tác dụng." Caelen ném thử một viên bi thép lên không trung rồi bắt lại. "Nhưng nếu được ném đi với tốc độ cao, xuyên qua lớp lông ma thú và vỡ vụn dưới lớp da... nó sẽ trở thành thứ vũ khí đoạt mạng hoàn hảo."
+
+Mọi sự chuẩn bị đã hoàn tất. Caelen đứng dậy, khoác chiếc áo choàng lông sói lên vai, nhìn ra cửa sổ. Bình minh đỏ thẫm của Bắc Cảnh đang dần hiện lên nơi chân trời. Trận huyết chiến sắp bắt đầu.

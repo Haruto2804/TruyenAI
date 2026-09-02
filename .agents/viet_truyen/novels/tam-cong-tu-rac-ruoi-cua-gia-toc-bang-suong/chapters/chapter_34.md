@@ -20,7 +20,7 @@ Con ma thú rống lên thảm thiết, lớp vảy băng cứng cáp vỡ vụn
 
 Tuyệt chiêu này cần 3 giây để tụ lực. Caelen nhận ra điều đó thông qua Ma Đồng Giải Cấu. Không có bất kỳ cái khiên băng nào có thể cản được ma lực mang theo động năng và nhiệt lượng khổng lồ của một đòn Cao Giai Đỉnh Phong.
 
-"Trò trẻ con." Caelen lạnh lùng hừ mũi. Hắn không thể ấn phòng ngự. Thay vào đó, hắn vung tay ném ra ba viên bi thép tẩm Tán Hồn Hương thu được từ tên gián điệp Garrick lúc trước. Nhưng mục tiêu không phải Gareth, mà là mắt của con Sư Tử Băng.
+"Trò trẻ con." Caelen lạnh lùng hừ mũi. Hắn không chọn cách phòng ngự. Thay vào đó, hắn vung tay ném ra ba viên bi thép rỗng chứa bột Tán Hồn Hương mà hắn đã tự tay chế tạo từ đêm qua. Nhưng mục tiêu không phải Gareth, mà là mắt của con Sư Tử Băng.
 
 Bi thép nổ tung, tỏa ra một làn sương xám xịt cay xè. Thị giác và khứu giác của thú cưỡi bị kích ứng cực độ. Con Sư Tử Băng lồng lộn lên đau đớn, hất văng Gareth ngay trong lúc gã đang tập trung tụ lực ma pháp.
 

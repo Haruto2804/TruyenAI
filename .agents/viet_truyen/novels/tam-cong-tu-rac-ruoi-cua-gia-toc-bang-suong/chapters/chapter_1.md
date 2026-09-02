@@ -90,8 +90,12 @@ Lilian cắn chặt môi, máu rịn ra, nàng gật đầu trong im lặng. Nà
 
 Lilian trừng lớn mắt. "Nhưng... nhưng ma hạch của ngài..."
 
-"Đó không phải chuyện ngươi cần quan tâm." Caelen ngắt lời. Hắn ném một viên tinh thạch màu lam nhạt xuống đất. "Đây là Băng Sương Tỏa Mệnh Tinh. Nuốt nó vào."
+"Đó không phải chuyện ngươi cần quan tâm." Caelen ngắt lời. Đột nhiên, hắn đưa ngón cái lên miệng, cắn bật máu. Tốc độ quá nhanh khiến Lilian không kịp phản ứng. Dùng ngón tay nhuốm máu hòa lẫn hàn độc Hắc Tử La Lan, hắn vẽ chớp nhoáng một thiểm phù cổ đại lên chính lòng bàn tay mình, rồi ấn mạnh một chưởng thẳng vào ngực trái Lilian.
 
-Nhìn viên tinh thạch tỏa ra hàn khí bức người, Lilian biết đây là một loại độc dược khống chế sinh mệnh. Nàng không có sự lựa chọn. Nếu không nuốt, nàng sẽ bị phế ngay lập tức, và gia đình nàng sẽ chịu cơn thịnh nộ của Karlov. Nàng nhắm mắt, nhặt viên tinh thạch nuốt thẳng vào bụng. Một luồng khí lạnh buốt lập tức bám lấy ma hạch của nàng, chực chờ phát nổ nếu có lệnh từ Caelen.
+"Á!" Lilian hét lên thất thanh. Một luồng hàn khí mang theo kịch độc và ma lực bạo loạn xuyên thẳng qua da thịt, khắc sâu một ấn ký hình đóa hoa tuyết màu đỏ thẫm lên ngay vị trí tim nàng.
 
-"Tốt lắm, đối tác." Caelen nở một nụ cười nửa miệng, vẻ nhã nhặn hoàn toàn đối lập với sự tàn nhẫn trong hành động. "Từ giờ, kịch bản của Gia tộc Ravenwood... sẽ do ta đạo diễn."
+"Huyết Băng Phù." Caelen rút tay về, thản nhiên lau vết máu. "Một loại cấm thuật thời cổ đại. Từ giờ phút này, sinh mệnh của ngươi đồng bộ với ma hạch của ta. Độc trong người ta cũng nằm trong máu ngươi. Nếu ta chết, ấn ký này sẽ lập tức đóng băng và bóp nát tim ngươi. Ngươi sống, là nhờ ta sống."
+
+Cảm nhận cái lạnh buốt thấu xương đang cắm rễ vào nhịp đập trái tim, Lilian biết mình đã hoàn toàn bị trói buộc. Không một linh dược nào giải được huyết khế sinh tử này. Nàng nhắm mắt, quỳ sụp xuống, run rẩy dập đầu: "Nô tì... tuân lệnh thiếu chủ."
+
+"Tốt lắm." Caelen nở một nụ cười nửa miệng, vẻ nhã nhặn hoàn toàn đối lập với sự tàn nhẫn trong hành động. "Từ giờ, kịch bản của Gia tộc Ravenwood... sẽ do ta đạo diễn."

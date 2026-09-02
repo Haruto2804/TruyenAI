@@ -38,9 +38,11 @@ Kết tinh máu tim nguyên thủy của Thái Cổ Băng Long, bảo vật tr�
 
 Bên cạnh nó là một cuộn cổ thư bìa da rồng đen bóng: *Băng Sương Long Hồn Quyết*.
 
-Caelen bước tới, ánh mắt hắn dưới Ma Đồng có thể nhìn thấy hàng vạn sợi xích mana đỏ rực đang phong ấn chặt lấy hai món bảo vật. Nhị Trưởng Lão Karlov chắc chắn đã gia cố thêm phong ấn này để ngăn cản bất kỳ ai đoạt lấy chúng trước khi lão hoàn tất âm mưu đoạt quyền.
+Caelen bước tới. Dưới Ma Đồng Giải Cấu, hắn không chỉ thấy sự rực rỡ của Thần Tủy, mà còn nhìn thấu một tầng rào cản Huyết mạch nguyên thủy hình thành từ chính khí tức của Thái Cổ Băng Long bao bọc chặt lấy bệ đá. 
 
-Nhưng phong ấn càng phức tạp, đối với Caelen lại càng giống như một bài toán có sẵn đáp án. Hắn không cần phá vỡ toàn bộ phong ấn. Hắn chỉ cần tìm ra điểm mù của nó, luồn lách qua các lớp bảo vệ và hút lấy năng lượng lõi. 
+Đây chính là lý do Nhị Trưởng Lão Karlov mưu mô xảo quyệt lại không tự mình đoạt lấy bảo vật. Lão chỉ thuộc phân gia, huyết mạch không đủ thuần khiết. Nếu tự ý vươn tay, rào cản sẽ bạo phát và nghiền nát lão ngay lập tức. Lão bắt buộc phải chờ đợi Caelen — người duy nhất còn sót lại mang huyết mạch thuần khiết — chủ động lấy ra hoặc hấp thụ một nửa, rồi mới có thể "thu hoạch" thông qua việc rút cạn máu của hắn. Vì không thể ăn trộm, Karlov chỉ đành gia cố thêm hàng vạn sợi xích mana đỏ rực bên ngoài rào cản nguyên thủy để ngăn kẻ khác phỗng tay trên.
+
+Nhưng phong ấn của Karlov càng phức tạp, đối với Caelen lại càng giống như một bài toán có sẵn đáp án. Hắn không cần phá vỡ toàn bộ phong ấn. Hắn chỉ cần tìm ra điểm mù của nó, luồn lách qua các lớp bảo vệ và hút lấy năng lượng lõi. 
 
 Caelen ngồi khoanh chân trước bệ đá, hai tay chắp thành ấn chú, ngón trỏ khẽ chạm vào viên Hàn Băng Thần Tủy. 
 
