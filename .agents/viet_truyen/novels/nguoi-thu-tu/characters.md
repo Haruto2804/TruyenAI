@@ -40,7 +40,7 @@
 ## 3. Yuki Tanaka
 - **Vai trò:** Nghiên cứu sinh Tiến sĩ Tâm lý Hình sự, Đại học Ashford
 - **Biệt danh & Danh xưng:** Không có
-- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (`public/characters/nguoi-thu-tu/yuki-tanaka.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788326410/truyen-ai/characters/nguoi-thu-tu/yuki-tanaka.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Tuổi:** 27
@@ -56,7 +56,7 @@
 ## 4. Daniel Voss
 - **Vai trò:** Giáo sư Tâm lý Hình sự, Đại học Ashford
 - **Biệt danh & Danh xưng:** Không có
-- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (`public/characters/nguoi-thu-tu/daniel-voss.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788326410/truyen-ai/characters/nguoi-thu-tu/daniel-voss.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Tuổi:** 63
