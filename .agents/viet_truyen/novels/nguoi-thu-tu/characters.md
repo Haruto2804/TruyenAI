@@ -1,75 +1,93 @@
 # HỒ SƠ DIỆN MẠO NHÂN VẬT (VISUAL DOSSIER)
-**Tác phẩm:** Người Thứ Tư (The Fourth One)
-**Thể loại:** Psychological Thriller / Neo-Noir
+**Tác phẩm:** Người Thứ Tư
 **Thư mục lưu ảnh:** `public/characters/nguoi-thu-tu/`
 **Quy tắc:** Bạn chỉ cần lưu ảnh đại diện của nhân vật vào `public/characters/nguoi-thu-tu/<ten-nhan-vat>.png` (hoặc `.jpg`, `.webp`) rồi chạy `npm run sync:novel`. Hệ thống sẽ tự động đồng bộ lên Database và CDN!
 
 ---
 
-## 1. Maren Engel (Nhân vật chính / POV Arc 1)
-- **Vai trò:** Nữ phóng viên điều tra, nhật báo Ashford Tribune
-- **Biệt danh & Danh xưng:** Engel, Cô phóng viên cứng đầu
+## 1. Maren Engel
+- **Vai trò:** Nữ phóng viên điều tra, nhật báo Ashford Tribune.
+- **Biệt danh & Danh xưng:** Không có
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (`public/characters/nguoi-thu-tu/maren-engel.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Nữ, 34 tuổi. Cao 1m72, thân hình gầy gò, xương quai xanh lộ rõ. Mái tóc nâu sẫm cắt ngắn ngang vai luôn ướt đẫm sương mù và nước mưa. Đôi mắt xám xanh sắc lạnh như dao cạo, quầng thâm dưới mắt vì mất ngủ kinh niên. Gương mặt góc cạnh không trang điểm, đôi môi mỏng nhạt màu. Luôn mặc chiếc áo khoác trench coat đen cũ sờn kéo cao cổ, quần jeans bạc màu, giày boot da nâu dính bùn. Đầu ngón tay trỏ và ngón giữa hơi ố vàng vì khói thuốc lá.
+**Tuổi:** 34
+
+**Ngoại hình:** Cao 1m72, gầy, tóc nâu sẫm cắt ngắn ngang vai thường xuyên ướt mưa, mắt xám xanh sắc lạnh, gương mặt góc cạnh, không trang điểm. Luôn mặc áo khoác trench coat đen cũ sờn, quần jeans, giày boot da nâu. Ngón tay vàng ố vì thuốc lá.
+
+**Tính cách:** Bướng bỉnh, sắc sảo, không tin bất kỳ ai. Giỏi quan sát chi tiết nhỏ. Nghiện caffeine và nicotine. Sống một mình trong căn hộ studio bừa bộn ở Midtown.
+
+**Vết thương lòng (Wound):** Mẹ cô mất tích khi cô 12 tuổi. Không ai tìm thấy xác. Không ai nhớ rõ mẹ cô trông như thế nào. Maren lớn lên với nỗi ám ảnh: *con người có thể biến mất hoàn toàn khỏi thế giới này mà không để lại dấu vết.*
+
+**Động cơ (Motivation):** Chứng minh rằng Daniel Voss không chết tự nhiên — vì nếu một người có thể "đơn giản là ngừng tồn tại", thì điều tương tự cũng đã xảy ra với mẹ cô.
+
+**Bí mật:** Maren nghe thấy một giọng nói thì thầm trong đầu dẫn dắt cô đến các manh mối. Cô tin đó là trực giác nhà báo. Thực tế: đó là ký ức tàn dư của một người đã bị "xóa" — người đang cố gắng được nhớ lại.
+
+**Thói quen vi mô:** Cắn móng tay khi suy nghĩ; gõ bút bi lên sổ tay liên tục; nheo mắt trái khi nghi ngờ ai đó đang nói dối.
 
 ---
 
-## 2. Erik Solvang (Nhân vật chính / POV Arc 2)
-- **Vai trò:** Cựu Thanh tra Cảnh sát Ashford (Bạn thân 30 năm của Voss)
-- **Biệt danh & Danh xưng:** Cựu Thanh tra Solvang, Khắc tinh Đồ Tể Dockside
+## 2. Erik Solvang
+- **Vai trò:** Cựu Thanh tra Cảnh sát Ashford, đã nghỉ hưu 3 năm. Bạn thân 30 năm của nạn nhân Daniel Voss.
+- **Biệt danh & Danh xưng:** Không có
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (`public/characters/nguoi-thu-tu/erik-solvang.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Nam, 58 tuổi. Cao 1m80, khung xương to bè nhưng dáng người bắt đầu hơi còng. Mái tóc muối tiêu cắt ngắn kiểu nhà binh, khuôn mặt khắc khổ chằng chịt nếp nhăn của sương gió. Đôi mắt nâu sẫm trũng sâu, mệt mỏi và u uất. Mặc áo len cổ lọ xám dày dặn, khoác ngoài áo jacket da màu nâu sẫm sờn rách ở khuỷu tay. Bàn tay phải có triệu chứng run nhẹ do Parkinson sớm, ngón áp út đeo chiếc nhẫn cưới bạc cũ mà ông thường vô thức xoay tròn.
+**Tuổi:** 58
+
+**Ngoại hình:** Cao 1m80, vai rộng nhưng bắt đầu gù, tóc muối tiêu cắt ngắn kiểu quân đội, khuôn mặt khắc khổ đầy nếp nhăn, đôi mắt nâu sẫm mệt mỏi. Mặc áo len cổ lọ xám, quần vải dày, khoác áo da cũ. Tay phải run nhẹ (triệu chứng Parkinson giai đoạn sớm mà ông giấu kín).
+
+**Tính cách:** Trầm lặng, kiên nhẫn, phương pháp. Uống whisky một mình mỗi tối. Sống trong căn nhà gỗ ven hồ ngoại ô Ashford, nuôi một con chó già tên Odin.
+
+**Vết thương lòng (Wound):** 20 năm trước, Erik và Voss cùng tham gia "Dự án Lethe" — một thí nghiệm do quân đội tài trợ nhằm xóa ký ức chấn thương (Trauma Erasure) ở cựu binh PTSD. Thí nghiệm thành công quá mức — nó không chỉ xóa ký ức, mà xóa cả *sự tồn tại* của đối tượng khỏi nhận thức tập thể. 3 đối tượng thí nghiệm biến mất. Không ai nhớ họ. Erik bị xóa ký ức về sự kiện này nhưng vẫn còn lại những cơn ác mộng lặp đi lặp lại: một căn phòng trắng, tiếng la hét, và một khuôn mặt mà ông không thể nhìn rõ.
+
+**Động cơ:** Tìm ra sự thật về cái chết của Voss, đồng thời đối mặt với cảm giác tội lỗi về một tội ác mà ông không nhớ mình đã phạm.
+
+**Bí mật:** Erik chính là người đã bắn chết một trong 3 đối tượng thí nghiệm khi họ cố trốn thoát 20 năm trước. Ký ức này đã bị xóa. Nhưng cơ thể ông vẫn nhớ — tay phải run rẩy mỗi khi cầm súng.
+
+**Thói quen vi mô:** Xoay chiếc nhẫn cưới trên ngón tay (vợ ông đã ly hôn 10 năm trước); dùng ngón cái chà xát vết sẹo trên mu bàn tay trái khi hồi tưởng.
 
 ---
 
-## 3. Yuki Tanaka (Nhân vật chính / POV Arc 3)
-- **Vai trò:** Nghiên cứu sinh Tiến sĩ Tâm lý Hình sự (Học trò cuối cùng của Voss)
-- **Biệt danh & Danh xưng:** Yuki, Tanaka-san
+## 3. Yuki Tanaka
+- **Vai trò:** Nghiên cứu sinh Tiến sĩ năm cuối, Khoa Tâm lý Hình sự, Đại học Ashford. Học trò cuối cùng của Voss.
+- **Biệt danh & Danh xưng:** Không có
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (`public/characters/nguoi-thu-tu/yuki-tanaka.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Nữ, 27 tuổi. Cao 1m63, vóc người mảnh khảnh nhỏ nhắn. Mái tóc đen dài thường buộc đuôi ngựa lỏng lẻo bằng sợi dây thun đen, mái thưa lòa xòa trước trán. Đôi mắt nâu đen to tròn nhưng sâu thẳm, đồng tử mở to như luôn cảnh giác. Làn da trắng xanh xao vì thiếu ánh nắng và thức đêm nghiên cứu. Đeo cặp kính gọng tròn kim loại mỏng. Mặc áo hoodie oversize xám tro trùm kín bàn tay, mang ba lô vải bố nặng trĩu tài liệu, tay luôn ôm cuốn sổ tay ghi chép đầy ký hiệu xoắn ốc bí ẩn.
+**Tuổi:** 27
+
+**Ngoại hình:** Cao 1m63, mảnh khảnh, tóc đen dài thường buộc đuôi ngựa lỏng lẻo, mắt nâu đen sâu thẳm, da trắng xanh vì thiếu ngủ kinh niên. Luôn mang theo cặp kính gọng tròn mỏng và một chiếc ba lô vải nặng trĩu sách. Mặc áo hoodie oversize, quần jogger, giày sneaker trắng bẩn.
+
+**Tính cách:** Thông minh xuất chúng nhưng nhút nhát xã giao. Hay nói lắp khi căng thẳng. Ghi chép mọi thứ vào sổ tay bằng hệ thống ký hiệu riêng mà chỉ cô hiểu.
+
+**Vết thương lòng (Wound):** Yuki mồ côi. Cô không có BẤT KỲ ký ức nào trước 7 tuổi. Hồ sơ nhận nuôi ghi cô được tìm thấy đi lang thang một mình trên đường cao tốc ở ngoại ô Ashford, không giấy tờ, không ai đến nhận. Cô luôn tự hỏi: *Mình là con ai? Tại sao không ai tìm mình?*
+
+**Động cơ:** Hoàn thành luận văn Tiến sĩ về "Hiện tượng ký ức tập thể sai lệch" (False Collective Memory). Nghiên cứu của cô trùng khớp một cách kỳ lạ với "Dự án Lethe" mà cô chưa hề biết đến.
+
+**Bí mật:** Yuki chính là con gái của một trong 3 đối tượng thí nghiệm đã bị "xóa". Cô sống sót vì Voss đã lén cứu cô ra khỏi phòng thí nghiệm và sắp xếp cho cô được nhận nuôi. Nhưng ông ta cũng xóa ký ức của cô về cha mẹ ruột để bảo vệ bí mật. Voss nhận cô làm học trò cuối đời vì tội lỗi — ông muốn chuộc lại bằng cách cho cô một tương lai.
+
+**Thói quen vi mô:** Xoắn lọn tóc quanh ngón tay khi đọc tài liệu; cắn môi dưới khi phát hiện mâu thuẫn trong dữ liệu; vẽ các hình xoắn ốc vô thức ở lề sổ tay.
 
 ---
 
-## 4. Daniel Voss (Nạn nhân / Nhân vật bí ẩn trung tâm)
-- **Vai trò:** Giáo sư Tâm lý Hình sự Đại học Ashford (Kẻ chủ mưu Dự án Lethe)
-- **Biệt danh & Danh xưng:** Giáo sư Voss, Kẻ Đã Chết, Người Thứ Tư
+## 4. Daniel Voss
+- **Vai trò:** Giáo sư Tâm lý Hình sự, Đại học Ashford. Nạn nhân (bề ngoài). Kẻ tạo ra tất cả (thực chất).
+- **Biệt danh & Danh xưng:** Không có
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (`public/characters/nguoi-thu-tu/daniel-voss.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Nam, 63 tuổi. Cao 1m78, phong thái học thức uyên bác nhưng toát ra vẻ lạnh lùng khó gần. Mái tóc bạc trắng chải ngược mượt mà ra sau, râu quai nón cắt tỉa gọn gàng cũng bạc trắng. Đôi mắt màu xanh lá nhạt sắc như dao mổ, đeo kính gọng vàng mỏng không viền. Luôn mặc âu phục vest len màu than chì, sơ mi trắng hồ cứng không cà vạt. Tay trái luôn cầm chiếc đồng hồ quả quýt bằng bạc cổ.
+**Tuổi:** 63 (chính thức đã chết)
+
+**Ngoại hình (trước khi "chết"):** Cao 1m78, gầy, tóc trắng bạc chải ngược ra sau, râu quai nón ngắn bạc trắng. Mắt xanh lá nhạt sắc lạnh, đeo kính gọng vàng mỏng. Luôn mặc vest len xám, sơ mi trắng không cà vạt, quần âu đen. Tay trái luôn đeo chiếc đồng hồ bỏ túi bạc cổ — vật kỷ niệm duy nhất từ cha.
+
+**Tính cách:** Bề ngoài: ân cần, điềm đạm, uyên bác — hình mẫu giáo sư lý tưởng. Bên trong: lạnh lùng tính toán, mang tội lỗi nghiền nát, sẵn sàng hy sinh bất kỳ ai để che giấu sự thật về Dự án Lethe.
+
+**Wound:** Voss đã tạo ra "Dự án Lethe" với ý tốt — giúp cựu binh PTSD quên đi ký ức chiến tranh. Nhưng khi phát hiện phương pháp có thể xóa sự tồn tại của một con người khỏi nhận thức tập thể, ông ta đã không dừng lại. 3 đối tượng thí nghiệm bị "xóa", 1 bị bắn chết khi trốn thoát. 20 năm sống trong tội lỗi.
+
+**Bí mật lớn nhất (TWIST):** Voss không chết. Ông ta đã sử dụng phiên bản hoàn thiện của Dự án Lethe lên chính mình — tự xóa sự tồn tại của mình khỏi ký ức cả thế giới để trốn chạy khỏi tội lỗi quá khứ. Cái "xác" trong căn phòng khóa trái là Helmut Brandt — đối tượng thí nghiệm thứ 3 đã bị "xóa" 20 năm trước, gần đây tìm cách tái xuất hiện và tìm đến Voss đòi công lý. Voss giết ông ta, sau đó dùng Lethe khiến mọi người "nhớ nhầm" xác chết là Voss.
+
+**Thói quen vi mô:** Lau kính bằng vạt áo vest khi cần thời gian suy nghĩ; gõ nhẹ chiếc đồng hồ bỏ túi 3 lần trước khi đưa ra quyết định quan trọng.
 
 ---
 
-## 5. Nils (Nhân vật phụ then chốt)
-- **Vai trò:** Cựu thủy thủ, Chủ quán bar The Drowning Sailor (Người duy nhất miễn nhiễm Lethe)
-- **Biệt danh & Danh xưng:** Nils Câm, Lão chủ quán
-- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (`public/characters/nguoi-thu-tu/nils.png`)
-
-### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Nam, 60 tuổi. Thân hình hộ pháp, vai rộng như vách đá, đầu trọc lốc bóng lưỡng. Khuôn mặt to bè, thô kệch như được nặn ra từ khối đất sét ướt chưa gọt giũa. Miệng luôn mím chặt vì bị câm bẩm sinh, nhưng ánh mắt nhỏ, đen láy và sắc bén tột độ. Mặc áo thun ba lỗ xám bẩn bọc trong chiếc tạp dề da thuộc nâu thô ráp. Cổ luôn đeo sợi dây chuyền gắn miếng bảng phấn nhỏ bằng đá phiến và viên phấn trắng để giao tiếp.
-
----
-
-## 6. Thanh tra Lindqvist (Nhân vật phụ then chốt)
-- **Vai trò:** Điều tra viên Sở Cảnh sát Ashford (Phụ trách vụ án Voss)
-- **Biệt danh & Danh xưng:** Lindqvist, Thanh tra lười biếng
-- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (`public/characters/nguoi-thu-tu/lindqvist.png`)
-
-### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Nam, 52 tuổi. Thân hình to béo, ục ịch. Khuôn mặt phì nộn luôn đỏ ửng vì huyết áp cao và thời tiết buốt giá, cơ hàm hay giật giật khi nhai nuốt trong lúc căng thẳng. Đôi mắt sưng húp, lờ đờ vì quá ngán ngẩm công việc bàn giấy. Mặc đồng phục cảnh sát Ashford màu lam đen bên trong chiếc áo mưa cảnh sát màu vàng phản quang ướt sũng nước, đội mũ kết lệch sang một bên.
-
----
-
-## 7. Helmut Brandt (Nhân vật phụ then chốt / Nạn nhân thực sự)
-- **Vai trò:** Cựu trợ lý nghiên cứu, Đối tượng thí nghiệm số 3 của Dự án Lethe
-- **Biệt danh & Danh xưng:** Kẻ Bị Lãng Quên, Người Thứ Mười Ba
-- **Trạng thái Avatar:** ⚠️ Chưa có ảnh (`public/characters/nguoi-thu-tu/helmut-brandt.png`)
-
-### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Nam, khoảng 45 tuổi. Ngoại hình có cảm giác mờ ảo, chập chờn như một thực thể đang bị xóa bỏ khỏi thực tại. Mái tóc màu tro bết dính, gương mặt hốc hác, đôi mắt rực lên nỗi tuyệt vọng và khao khát được nhớ lại. Mặc chiếc áo blouse trắng phòng thí nghiệm đã ố vàng và rách nát sau 20 năm lẩn khuất dưới tầng hầm B3. Quanh cơ thể có hiệu ứng biến dạng quang học nhẹ.

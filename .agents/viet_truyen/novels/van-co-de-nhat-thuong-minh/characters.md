@@ -1,7 +1,7 @@
-# HỒ SƠ THIẾT KẾ NHÂN VẬT & PROMPT TẠO ẢNH 9:16 (CLOUDINARY CLOUD STORAGE)
+# HỒ SƠ DIỆN MẠO NHÂN VẬT (VISUAL DOSSIER)
 **Tác phẩm:** Vạn Cổ Đệ Nhất Thương Minh
-**Cloudinary Folder:** `truyen-ai/characters/van-co-de-nhat-thuong-minh/`
-**Quy tắc:** Mọi ảnh được tự động upload trực tiếp lên Cloudinary CDN toàn cầu. Bạn chỉ cần thả ảnh vào thư mục local rồi chạy `npm run sync:novel`, hệ thống sẽ tự động đẩy lên Cloudinary và lưu link HTTPS vĩnh viễn vào Database!
+**Thư mục lưu ảnh:** `public/characters/van-co-de-nhat-thuong-minh/`
+**Quy tắc:** Bạn chỉ cần lưu ảnh đại diện của nhân vật vào `public/characters/van-co-de-nhat-thuong-minh/<ten-nhan-vat>.png` (hoặc `.jpg`, `.webp`) rồi chạy `npm run sync:novel`. Hệ thống sẽ tự động đồng bộ lên Database và CDN!
 
 ---
 

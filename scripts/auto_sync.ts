@@ -192,13 +192,22 @@ function parseDynamicCharacters(codexContent: string): any[] {
           description: ""
         };
       } else if (currentChar) {
-        if (line.match(/\*\*(?:Vai trò & Thân phận|Thân phận|Vai trò)\*\*:/i)) {
-          currentChar.role = line.split(/:\s*/)[1]?.trim() || "";
-        } else if (line.match(/\*\*(?:Danh xưng & Biệt hiệu|Biệt danh|Biệt hiệu|Bí danh)\*\*:/i)) {
-          currentChar.aliases = line.split(/:\s*/)[1]?.trim().replace(/\.$/, "") || "";
-        } else if (line.match(/\*\*(?:Ngoại hình|Tính cách|Vết thương lòng|Động cơ|Bí mật|Thói quen vi mô|Đặc điểm|Tóm tắt|Mô tả)\*\*:/i)) {
-          const detail = line.replace(/^\s*\*\s*/, "").trim();
-          currentChar.description = currentChar.description ? `${currentChar.description}\n${detail}` : detail;
+        const kvMatch = line.match(/^\s*[*+-]?\s*\*\*(.+?)(?::)?\*\*(?::)?\s*(.*)$/);
+        if (kvMatch) {
+          const rawKey = kvMatch[1].replace(/[:*]/g, "").trim();
+          const val = kvMatch[2].trim();
+          const lowerKey = rawKey.toLowerCase();
+
+          if (lowerKey.includes("vai trò") || lowerKey.includes("thân phận")) {
+            currentChar.role = val;
+          } else if (lowerKey.includes("danh xưng") || lowerKey.includes("biệt danh") || lowerKey.includes("biệt hiệu") || lowerKey.includes("bí danh")) {
+            currentChar.aliases = val;
+          } else {
+            const detail = `**${rawKey}:** ${val}`;
+            currentChar.description = currentChar.description ? `${currentChar.description}\n\n${detail}` : detail;
+          }
+        } else if (line.trim().length > 0 && !line.startsWith("#")) {
+          currentChar.description = currentChar.description ? `${currentChar.description}\n\n${line.trim()}` : line.trim();
         }
       } else if (line.trim().startsWith("* **") && line.includes(":**")) {
         // Handle supporting characters list: "* **Thanh tra Lindqvist:** Điều tra viên..."
@@ -210,7 +219,7 @@ function parseDynamicCharacters(codexContent: string): any[] {
             name: suppName,
             role: "Nhân vật phụ",
             aliases: "",
-            description: suppDesc
+            description: `**Mô tả:** ${suppDesc}`
           });
         }
       }
@@ -253,14 +262,19 @@ function parseDynamicLores(codexContent: string): any[] {
           definition: ""
         };
       } else if (currentLore) {
-        if (line.includes("**Phân loại:**")) {
-          const m = line.match(/`([^`]+)`/) || line.match(/\*\*(?:Phân loại:)\*\*\s*(.+)/);
-          if (m && m[1]) currentLore.category = m[1].replace(/[`🔮🧪💎🏰🛡️⚡📜🌿✨🗡️]/g, "").trim();
-        } else if (line.includes("**Từ đồng nghĩa:**") || line.includes("**Biệt danh:**")) {
-          currentLore.aliases = line.split(/:\s*/)[1]?.trim().replace(/\.$/, "") || "";
-        } else if (line.includes("**Định nghĩa:**")) {
-          currentLore.definition = line.split("**Định nghĩa:**")[1].trim();
-        } else if (line.trim().length > 0 && !line.includes("**Phân loại:**") && !line.includes("**Từ đồng nghĩa:**") && !line.includes("**Định nghĩa:**")) {
+        const kvMatch = line.match(/^\s*[*+-]?\s*\*\*(.+?)(?::)?\*\*(?::)?\s*(.*)$/);
+        if (kvMatch) {
+          const rawKey = kvMatch[1].replace(/[:*]/g, "").trim().toLowerCase();
+          const val = kvMatch[2].trim();
+          if (rawKey.includes("phân loại")) {
+            const m = val.match(/`([^`]+)`/) || [null, val];
+            currentLore.category = (m[1] || val).replace(/[`🔮🧪💎🏰🛡️⚡📜🌿✨🗡️]/g, "").trim();
+          } else if (rawKey.includes("đồng nghĩa") || rawKey.includes("biệt danh")) {
+            currentLore.aliases = val.replace(/\.$/, "");
+          } else if (rawKey.includes("định nghĩa") || rawKey.includes("mô tả")) {
+            currentLore.definition = val;
+          }
+        } else if (line.trim().length > 0 && !line.startsWith("#")) {
           if (currentLore.definition) currentLore.definition += "\n" + line.trim();
         }
       }
