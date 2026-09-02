@@ -374,8 +374,28 @@ async function syncNovel(novelSlug: string) {
   });
   console.log(`Story ID: ${story.id} (${story.title}) -> Cover: ${coverUrl}`);
 
-  // 2. Parsed Characters from master_codex.md
-  const defaultCharacters = parseDynamicCharacters(codexContent);
+  // 2. Parsed Characters (Prioritize curated public characters.md, fallback to master_codex.md)
+  const charactersMdPath = path.join(novelDir, "characters.md");
+  let defaultCharacters: any[] = [];
+  if (fs.existsSync(charactersMdPath)) {
+    const charsContent = fs.readFileSync(charactersMdPath, "utf-8");
+    defaultCharacters = parseDynamicCharacters(charsContent);
+  }
+  
+  if (defaultCharacters.length === 0) {
+    defaultCharacters = parseDynamicCharacters(codexContent);
+    // Filter out spoilers / twists if parsed from raw master_codex
+    defaultCharacters.forEach(c => {
+      if (c.description) {
+        c.description = c.description
+          .split("\n\n")
+          .filter((chunk: string) => !chunk.toLowerCase().includes("twist") && !chunk.toLowerCase().includes("bí mật lớn nhất"))
+          .join("\n\n");
+      }
+    });
+    // Only generate characters.md if it didn't exist
+    generateCharactersMarkdown(novelSlug, story.title, defaultCharacters);
+  }
 
   // Auto-detect avatar image and upload to Cloudinary CDN
   const charactersToSync = await Promise.all(
@@ -404,9 +424,6 @@ async function syncNovel(novelSlug: string) {
     });
     console.log(`[Character Auto-Sync] ${char.name} -> DB OK`);
   }
-
-  // Generate / Update characters.md dossier for the user
-  generateCharactersMarkdown(novelSlug, story.title, charactersToSync);
 
   // 3. Sync Lores from master_codex.md (both dynamic table and predefined)
   const finalLores = parseDynamicLores(codexContent);

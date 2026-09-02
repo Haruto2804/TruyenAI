@@ -85,8 +85,6 @@
 
 **Wound:** Voss đã tạo ra "Dự án Lethe" với ý tốt — giúp cựu binh PTSD quên đi ký ức chiến tranh. Nhưng khi phát hiện phương pháp có thể xóa sự tồn tại của một con người khỏi nhận thức tập thể, ông ta đã không dừng lại. 3 đối tượng thí nghiệm bị "xóa", 1 bị bắn chết khi trốn thoát. 20 năm sống trong tội lỗi.
 
-**Bí mật lớn nhất (TWIST):** Voss không chết. Ông ta đã sử dụng phiên bản hoàn thiện của Dự án Lethe lên chính mình — tự xóa sự tồn tại của mình khỏi ký ức cả thế giới để trốn chạy khỏi tội lỗi quá khứ. Cái "xác" trong căn phòng khóa trái là Helmut Brandt — đối tượng thí nghiệm thứ 3 đã bị "xóa" 20 năm trước, gần đây tìm cách tái xuất hiện và tìm đến Voss đòi công lý. Voss giết ông ta, sau đó dùng Lethe khiến mọi người "nhớ nhầm" xác chết là Voss.
-
 **Thói quen vi mô:** Lau kính bằng vạt áo vest khi cần thời gian suy nghĩ; gõ nhẹ chiếc đồng hồ bỏ túi 3 lần trước khi đưa ra quyết định quan trọng.
 
 ---
