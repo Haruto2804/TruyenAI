@@ -8,9 +8,7 @@
 
 Thanh âm kim loại va chạm vang lên chát chúa, tạo ra một làn sóng xung kích quét bay lớp tuyết dày trên bán kính mười trượng. Sức mạnh của Gareth quả thực không thể coi thường, gã đỡ được nhát chém, nhưng lực phản chấn mạnh đến mức khiến cánh tay gã tê rần, và con Sư Tử Băng bên dưới phải lùi lại mấy bước, móng vuốt cày nát nền đá.
 
-"Trung Giai Đỉnh Phong mà có sức mạnh cỡ này sao?" Đồng tử Gareth co rút. Gã chợt nhận ra vũ khí của Caelen không hề chém thẳng vào cán thương, mà lại mài dọc theo những rãnh hoa văn khắc trên thân vũ khí.
-
-Đó là năng lực của Ma Đồng Giải Cấu. Mọi cấu trúc vật chất, cả kim loại luyện từ ma pháp cường hóa, đều có "đường nứt" tự nhiên. Caelen đang dùng sức mạnh cực hạn để khoét sâu vào những điểm yếu đó.
+"Trung Giai Đỉnh Phong mà..." Lời Gareth nghẹn lại ở cổ họng. Ánh mắt gã hoảng loạn phát hiện ra hắc kiếm của Caelen không hề va chạm trực diện. Nó đang trượt dọc theo những rãnh điêu khắc mỏng manh nhất trên cán thương, khoét nát cấu trúc ma kim một cách tàn nhẫn.
 
 "Băng Long Toái Cốt!" Caelen không cho đối thủ cơ hội lấy lại cân bằng, xoay người tung một cú đá bọc băng nhọn hoắt thẳng vào mạn sườn con Sư Tử Băng. 
 

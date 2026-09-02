@@ -10,7 +10,7 @@ Tại căn phòng hội nghị tầng chóp của Vạn Thương Ngân Hàng, Ca
 
 "Còn dòng tiền từ Tịnh Thuỷ 3.0?" Caelen nhấp một ngụm rượu, giọng nói điềm tĩnh không chút dao động.
 
-"Doanh thu bùng nổ, thưa ngài. Việc công bố công thức miễn phí không hề làm chúng ta thua lỗ. Ngược lại, vì chúng ta nắm giữ nguồn cung ứng Băng Sương Khoáng độc quyền từ Bắc Cảnh, mọi xưởng điều chế trên toàn đại lục đều phải nhập nguyên liệu từ Vạn Thương Ngân Hàng. Chúng ta đã trở thành nhà cung cấp độc quyền hất cẳng hoàn toàn hệ thống cũ." Lilian mỉm cười đầy ngưỡng mộ trước nước cờ tài tình của chủ nhân.
+"Doanh thu bùng nổ, thưa ngài. Việc công bố công thức miễn phí không hề làm chúng ta thua lỗ. Ngược lại, vì chúng ta nắm giữ nguồn cung ứng Băng Sương Khoáng độc quyền từ Bắc Cảnh, mọi xưởng điều chế trên toàn đại lục đều phải nhập nguyên liệu từ Vạn Thương Ngân Hàng. Chúng ta đã trở thành nhà cung cấp độc quyền hất cẳng hoàn toàn hệ thống cũ." Lilian vuốt phẳng nếp gấp trên tập tài liệu, khóe môi khẽ nhếch. Ánh mắt ả nhìn Caelen rực sáng, không giấu nổi sự sùng bái trước kẻ vừa hất cẳng một đế chế ngàn năm bằng vài lọ nước hóa học.
 
 Caelen gật đầu, nhưng trong đôi mắt xanh thẳm của hắn không có lấy một gợn sóng vui mừng. Tiền bạc và quyền lực chính trị lúc này chỉ là công cụ. Mục tiêu thực sự của hắn lớn hơn nhiều.
 

@@ -70,6 +70,6 @@ Caelen khẽ tháo đôi găng tay da hươu đen tuyền ra, cất gọn vào t
 
 "Ngồi yên ở đây." Caelen ra lệnh cho Lilian, giọng nói thản nhiên như chuẩn bị đi dạo phố. "Đừng để máu bắn lên áo, ta vừa mới thay bộ này sáng nay."
 
-Cánh cửa xe ngựa bị đạp bung. Caelen thong thả bước xuống, giày da cắm ngập vào lớp tuyết trắng xóa. Gió lạnh thổi tung chiếc áo choàng lông thú, để lộ vóc dáng cao gầy nhưng ẩn chứa sát cơ kinh khủng. Hắn ngước nhìn Boris Tai Đỏ đang vác thanh đại rìu đẫm máu khô, nhếch mép cười nhạt.
+Một cước đạp tung cánh cửa xe ngựa. Caelen thong thả bước xuống, giày da cắm ngập vào lớp tuyết trắng xóa. Gió lạnh thổi tung chiếc áo choàng lông thú, để lộ vóc dáng cao gầy nhưng ẩn chứa sát cơ kinh khủng. Hắn ngước nhìn Boris Tai Đỏ đang vác thanh đại rìu đẫm máu khô, nhếch mép cười nhạt.
 
 "Vận chuyển hàng lậu mà lại lớn tiếng ồn ào như vậy." Caelen gõ nhẹ ngón tay lên chuôi đoản kiếm tàng hình trong tay áo. "Quy tắc kinh doanh của các ngươi... tệ hại thật."

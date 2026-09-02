@@ -30,7 +30,7 @@ Evelyn đón lấy, lướt nhanh qua những dòng chữ cổ. Đồng tử cô
 
 "Nếu đệ không đột phá lên Cao Giai, Vane sẽ giết đệ trước khi mùa đông này kết thúc. Và sau khi giết đệ, hắn sẽ đồ sát toàn bộ Gia tộc Ravenwood để trả thù cho Hội Lưỡi Hái Hắc Ám," Caelen chậm rãi nói, từng lời như những nhát búa nện vào tâm trí Evelyn.
 
-Cô cắn chặt môi, sự giằng xé hiện rõ trên khuôn mặt. Nhưng cuối cùng, bản năng của một người bảo vệ gia tộc đã chiến thắng.
+Evelyn cắn môi đến bật máu. Cô nắm chặt chuôi kiếm rồi lại buông ra. Sự giằng co kéo dài hàng chục giây giữa hơi thở dồn dập. Cuối cùng, cô ngước lên, đôi mắt sắc lạnh không còn sự dao động.
 
 "Đệ cần tỷ chuẩn bị những gì?"
 

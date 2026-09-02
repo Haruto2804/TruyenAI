@@ -38,7 +38,7 @@ Caelen Von Ravenwood.
 
 Hắn đứng cách lưng Aldric đúng ba bước. Đoản kiếm Băng Sương trong tay, lưỡi kiếm bọc trong hàn khí nén cực độ, phát ra tiếng rít nhỏ li ti.
 
-Ma Đồng Giải Cấu hoạt động tối đa — những vòng ma trận cổ ngữ xoay tít trong đồng tử lam thẳm. Hắn nhìn thấu toàn bộ cấu trúc ma lực của Aldric: dòng mana Quang Minh chảy dọc theo mười bốn kinh mạch chính, tập trung tại ma hạch vùng ngực trái. Nhưng Ma Đồng nhìn thấy thêm: một vết nứt vi mô trên ma hạch — dấu vết của việc tu luyện cưỡng bức bằng Thánh Thuỷ suốt hàng trăm năm. Tuổi thọ bất tử có cái giá: ma hạch của Aldric giống như một quả bom nổ chậm.
+Ma Đồng Giải Cấu hoạt động tối đa — những vòng ma trận cổ ngữ xoay tít trong đồng tử lam thẳm. Những vòng cổ ngữ trong Ma Đồng xoay tít, lột trần mạng lưới ma lực chói lóa của Aldric. Caelen nheo mắt. Ngay giữa ngực trái, nơi ánh sáng hội tụ đặc nhất, hiện ra một vết nứt nhỏ li ti. Cái giá của năm trăm năm nuốt Thánh Thuỷ giả. Một quả bom nổ chậm chỉ chờ mồi lửa.
 
 Một điểm yếu. Chỉ cần một đòn.
 

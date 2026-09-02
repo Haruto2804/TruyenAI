@@ -35,7 +35,7 @@ Nhưng đã muộn. Caelen nắm chặt lấy quả cầu năng lượng xanh bi
 
 *BÙM!*
 
-Một tiếng nổ trầm đục vang lên trong tâm trí Caelen. Hàn Băng Thần Tủy bùng phát thứ năng lượng cuồn cuộn như sóng thần, chạy dọc theo cánh tay hắn, đánh thẳng vào kinh mạch. Sự đau đớn khủng khiếp ập đến, như hàng vạn mũi kim băng đâm xuyên qua da thịt. Độc tố Hắc Tử La Lan bám rễ trong cơ thể hắn suốt 5 năm qua như bầy giun dế gặp lửa đỏ, bị thứ năng lượng thuần khiết này thiêu rụi tàn nhẫn.
+Một tiếng nổ trầm đục vang lên trong tâm trí Caelen. Hàn Băng Thần Tủy bùng phát thứ năng lượng cuồn cuộn như sóng thần, chạy dọc theo cánh tay hắn, đánh thẳng vào kinh mạch. Sự đau đớn khủng khiếp ập đến, như hàng vạn mũi kim băng đâm xuyên qua da thịt. Từng sợi Hắc Tử La Lan bám rễ trong lục phủ ngũ tạng hắn suốt 5 năm bỗng cuộn lên co giật. Dưới sức mạnh tuyệt đối của Thần Tủy, làn sương độc đen ngòm bị ép ra khỏi các lỗ chân lông, bốc hơi xèo xèo rồi vỡ vụn thành tro bụi.
 
 "Aaaaa!" Caelen gầm lên một tiếng đau đớn xen lẫn thống khoái. Quần áo trên người hắn rách bươm, để lộ ra những đường vân ma lực màu lam đang phát sáng rực rỡ dưới lớp da.
 

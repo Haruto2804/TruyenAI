@@ -14,7 +14,7 @@ Tiếng móng ngựa bọc nỉ giẫm lên lớp tuyết dày phát ra những 
 
 Ngay khi Caelen vừa dứt lời, ba cái xác Băng Lang giấu dưới lớp tuyết đột ngột bạo tạc, nhả đầy "Hắc Hỏa Phân" độc hại. Từ trong màn khói đen đặc quánh của vụ nổ bom sinh học, một bóng đen không phát ra nửa tiếng động lao vọt ra, lưỡi hái đen ngòm to bản chém thẳng vào yết hầu Caelen bằng tốc độ của một bóng ma thực thụ. 
 
-Kẻ đó là Băng Ma Độc Nhãn - Trưởng lão Hội Lưỡi Hái Hắc Ám, kẻ được phân công trấn thủ vòng ngoài Phong Ấn Địa Mạch. Tuy không ngờ tới sự xuất hiện của nhóm Caelen, nhưng bản năng sát thủ của gã lập tức phản ứng khi bẫy sập. Gã không nói một lời thừa thãi, sát khí giấu kín đến mức hoàn hảo. Tu vi Cao Giai Trung Kỳ bộc phát tuyệt đối.
+Kẻ đó là Băng Ma Độc Nhãn - Trưởng lão Hội Lưỡi Hái Hắc Ám, kẻ được phân công trấn thủ vòng ngoài Phong Ấn Địa Mạch. Bóng đen lao vọt ra từ làn khói đặc quánh, không một tiếng động, không một tiếng thét. Một đường cung đen ngòm từ chiếc lưỡi hái to bản vô thanh vô tức vạch qua không khí, nhắm thẳng vào yết hầu Caelen. Tu vi Cao Giai Trung Kỳ bộc phát tuyệt đối.
 
 "Độc Nhãn!" Kael giật mình thét lên, nhưng đã quá muộn để ứng cứu. Lưỡi hái đã kề sát cổ Caelen.
 

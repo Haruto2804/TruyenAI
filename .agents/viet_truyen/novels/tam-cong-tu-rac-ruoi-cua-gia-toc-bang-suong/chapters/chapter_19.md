@@ -4,9 +4,7 @@ title: "Chương 19: Nước Thánh Giá Rẻ — Cơn Lũ Quét Qua Đế Quố
 
 Hai tuần sau Hội Nghị Ma Pháp Tam Quốc, thị trường Thánh Thuỷ Tịnh Hóa sụp đổ.
 
-Không phải sụp đổ từ từ. Mà là tan nát trong phút chốc, như một con đập bị khoan thủng từ mười phương.
-
-Chiến lược của Caelen đơn giản đến tàn nhẫn: tràn ngập thị trường.
+Chỉ trong hai tuần, các tu viện rỗng tuếch. Từng chồng Thánh Thuỷ gốc đóng bụi trong kho. Dưới các tuyến phố, xe ngựa mang cờ Huyết Ưng tấp nập đổ hàng. Chiến lược của Caelen vô cùng đơn giản: dùng số lượng đè bẹp thần quyền.
 
 Xưởng ngầm B7 của Iris Flamel hoạt động hai mươi bốn giờ một ngày suốt hai tuần. Nhà giả kim thiên tài đã tối ưu công thức, nâng hiệu suất thanh tẩy lên chín mươi bảy phần trăm — chỉ kém bản gốc ba phần trăm, nhưng giá thành chỉ bằng hai phần trăm. Và điều quan trọng nhất: Iris đã tìm ra cách thay thế giọt máu tim Thánh Thú bằng một hợp chất tổng hợp từ bột Băng Sương Khoáng — thứ nguyên liệu mà Ravenwood có vô tận tại Bắc Cảnh.
 

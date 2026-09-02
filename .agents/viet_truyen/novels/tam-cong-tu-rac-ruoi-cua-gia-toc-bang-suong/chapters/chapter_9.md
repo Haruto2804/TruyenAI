@@ -50,7 +50,7 @@ Cả khán phòng bỗng chốc im bặt. Đám quý tộc ngơ ngác không hi�
 
 Caelen rút từ trong túi ra một tờ giấy chứng nhận, ném lên mặt bàn.
 
-"Vì ba ngày trước, lô vũ khí giá cực rẻ từ Xưởng Vũ Khí Raven của ta đã tràn ngập thị trường ngoại ô Kinh đô. Cùng lúc đó, tin tức Thương Hội Kim Sư bị cắt đứt nguồn cung ma thạch Băng Lam, không thể hoàn thành đơn hàng cho quân đội đã được tình báo của ta lan truyền khắp các hiệp hội thợ rèn."
+"Vì ba ngày trước, lô vũ khí giá cực rẻ từ Xưởng Vũ Khí Raven của ta đã tràn ngập thị trường ngoại ô Kinh đô. Cùng lúc đó, ...mạng lưới tình báo của ta đã gieo rắc một mồi lửa khắp các hiệp hội thợ rèn: Thương Hội Kim Sư đứt nguồn cung ma thạch, hoàn toàn vỡ nợ với quân đội."
 
 Mặt Tứ Hoàng Tử từ đỏ chuyển sang trắng bệch. 
 

@@ -16,7 +16,7 @@ Hắn đã đóng lệnh bán khống, chốt lời bằng một con số khổn
 
 "Mọi thứ diễn ra đúng như ngài tính toán, thiếu chủ." Lilian bước vào, đặt một xấp tài liệu dày cộp lên bàn. "Tứ Hoàng Tử đã bị tước quyền quản lý tài chính, Thương Hội Kim Sư chính thức bị niêm phong để thanh lý tài sản. Tuy nhiên, tình hình hiện tại rất tệ. Hơn hai mươi gia tộc quý tộc đang đứng trước bờ vực tự sát vì nợ nần. Thị trường đang thiếu thanh khoản trầm trọng."
 
-"Thiếu thanh khoản?" Caelen quay lại, khóe môi nhếch lên một nụ cười cực kỳ tàn nhẫn. "Đó không phải là thảm họa. Đó là cơ hội."
+"Thiếu thanh khoản?" Caelen quay lại, khóe môi nhếch lên, để lộ hàm răng trắng ởn như loài dã thú vừa ngửi thấy mùi máu tươi. "Đó không phải là thảm họa. Đó là cơ hội."
 
 Buổi chiều cùng ngày, một bảng hiệu lớn bằng vàng khối được dựng lên ngay tại con phố sầm uất nhất Kinh đô, đối diện với trụ sở cũ của Kim Sư. 
 

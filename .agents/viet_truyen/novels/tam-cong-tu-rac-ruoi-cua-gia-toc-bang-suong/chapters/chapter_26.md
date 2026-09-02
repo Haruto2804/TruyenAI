@@ -58,4 +58,4 @@ Con golem gầm lên một tiếng không ra tiếng người, cánh tay phải 
 
 "Kẻ ngoại đạo... mang dòng máu lai tạp... không xứng đáng chạm vào di vật của Thủy Tổ..."
 
-Một luồng linh hồn màu xanh xám từ từ ngưng tụ lại phía trên bức tượng rồng băng, ánh mắt lạnh lẽo nhìn chằm chằm vào Caelen. Khí tràng của thực thể này vượt xa đám Thủ Vệ, áp bách đến mức Caelen cảm thấy xương sườn mình đang rạn nứt. Mọi kế hoạch dường như bị lật ngược trong chớp mắt.
+Một luồng linh hồn màu xanh xám từ từ ngưng tụ lại phía trên bức tượng rồng băng, ánh mắt lạnh lẽo nhìn chằm chằm vào Caelen. Luồng khí tràng vặn xoắn không khí, đè nặng xuống sảnh đường. Caelen siết chặt chuôi kiếm, lồng ngực đau nhói như bị hàng vạn tảng băng vô hình ép chặt, tiếng xương sườn khẽ kêu lên những âm thanh rạn nứt rợn người.

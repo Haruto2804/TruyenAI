@@ -8,7 +8,7 @@ Hoàng đế Aurelius ngồi trên ngai vàng rèn từ xương rồng, chậm r
 
 Đứng bên dưới bậc thềm, một nam tử mặc áo choàng đỏ thẫm — Cục trưởng Cơ quan Tình báo Hoàng gia — cúi đầu cung kính: "Thưa Bệ hạ, thông tin hoàn toàn chính xác. Hơn hai trăm Thánh Kỵ Sĩ tinh nhuệ cùng Thống Lĩnh Gareth đã tử trận tại Tuyết Sơn Huyết Tế. Thần Điện Quang Minh hiện tại đang náo loạn. Việc mất đi Phong Ấn ở phương Bắc khiến sản lượng mana cung cấp cho Thánh Sơn sụt giảm nghiêm trọng."
 
-"Đại Giáo Chủ Aldric ngã ngựa ở Đấu Trường Thiên Quang, giờ lại mất luôn Phong Ấn Địa Mạch," Aurelius cười lớn, nụ cười mang theo sự đắc ý hiếm thấy. "Thần Điện Quang Minh đè đầu cưỡi cổ hoàng thất chúng ta suốt 500 năm qua. Nay cuối cùng cũng có kẻ dám đập thẳng vào nồi cơm của chúng."
+"Aurelius ngửa cổ cười lớn, âm thanh vang dội trong đại điện vắng lặng. Vị Hoàng đế gõ nhịp những ngón tay đeo đầy nhẫn lên ngai vàng xương rồng, ánh mắt lóe lên sự thỏa mãn của một gã thợ săn vừa thấy con mồi sập bẫy. "Thần Điện Quang Minh đè đầu cưỡi cổ hoàng thất chúng ta suốt 500 năm qua. Nay cuối cùng cũng có kẻ dám đập thẳng vào nồi cơm của chúng."
 
 "Bệ hạ, nhưng sự trỗi dậy của Gia tộc Ravenwood cũng là một mối đe dọa," Cục trưởng tình báo ngập ngừng cảnh báo. "Caelen không chỉ thâu tóm Vạn Thương Ngân Hàng, thiết lập quyền kiểm soát kinh tế, mà giờ còn phục hồi địa mạch phương Bắc. Nếu để chúng tiếp tục bành trướng..."
 

@@ -50,7 +50,7 @@ Nghe đến Hội Lưỡi Hái Hắc Ám, sắc mặt Kael lập tức biến th
 
 Nhưng Caelen còn nhanh hơn. Mũi kiếm khẽ vung lên, một đường cung máu tóe ra trong đêm tối. Túi áo ngực của Garrick bị rạch toạc, một bọc nhỏ bằng da rớt xuống đất. Lilian nhanh chóng dùng phép gió cuốn cái bọc lên, mở ra. Bên trong là một nhúm bột phấn màu xám tro và một tấm lệnh bài bằng đồng khắc hình lưỡi hái.
 
-Chứng cứ rành rành. Mọi lời biện minh đều trở nên vô nghĩa.
+
 
 "Đồ khốn nạn!" Kael gầm lên, sát khí bộc phát dữ dội khiến nền đá xung quanh nứt nẻ. Ông vươn bàn tay to lớn bóp chặt lấy cổ Garrick, nhấc bổng hắn lên như nhấc một con gà. "Bao nhiêu người anh em đã chết vì sự tham lam của ngươi?!"
 

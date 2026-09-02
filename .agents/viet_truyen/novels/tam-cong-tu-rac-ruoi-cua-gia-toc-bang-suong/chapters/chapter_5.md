@@ -58,7 +58,7 @@ Bọn cướp hoảng loạn, không hẹn mà cùng vứt vũ khí, quỳ rạp
 
 "Đừng giết chúng ta! Tam thiếu chủ tha mạng! Chúng ta chỉ làm theo lệnh của thủ lĩnh!" Một tên gầy gò khóc lóc thảm thiết.
 
-Caelen từ từ bước tới. Hắn không giết chúng ngay. Hắn là một nhà tư bản, hắn biết vắt kiệt giá trị của những kẻ thất bại. 
+Caelen chậm rãi sải bước. Hắn chưa vung kiếm. Hắn là một nhà tư bản, hắn biết vắt kiệt giá trị của những kẻ thất bại. 
 
 "Mười chiếc xe thồ đằng sau vách đá kia, chứa cái gì?" Caelen dùng mũi kiếm hất cằm tên thảo khấu lên, chất giọng lạnh nhạt nhưng đầy uy áp. Dưới Ma Đồng, hắn đã sớm nhìn thấu mười cỗ xe bị phù phép tàng hình được giấu sau khe núi. 
 
@@ -68,7 +68,7 @@ Caelen mỉm cười. Một nụ cười hài lòng. Bằng chứng vật chất
 
 "Lilian!" Caelen gọi với lại.
 
-Cửa xe ngựa rụt rè mở ra. Lilian bước xuống, đôi mắt hổ phách mở to ngỡ ngàng nhìn xác Boris không đầu trên tuyết, rồi nhìn về bóng lưng thẳng tắp của Caelen. Sự khiếp sợ xen lẫn kính sợ bao trùm lấy nàng. Kẻ này... sự lột xác của hắn quá mức kinh hoàng. 
+Cửa xe ngựa rụt rè mở ra. Lilian bước xuống, đôi mắt hổ phách mở to ngỡ ngàng nhìn xác Boris không đầu trên tuyết, rồi nhìn về bóng lưng thẳng tắp của Caelen. Cổ họng Lilian nghẹn đắng. Nàng run rẩy cúi gầm mặt, không dám nhìn thẳng vào tấm lưng của kẻ vừa cắt đầu người bằng một nhát kiếm nhẹ bẫng. Kẻ này... sự lột xác của hắn quá mức kinh hoàng. 
 
 "Dạ... thưa thiếu chủ." Nàng khom người, giọng run run.
 

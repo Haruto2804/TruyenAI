@@ -26,7 +26,7 @@ Caelen không nói một lời, tay trái vung lên. Ba quả cầu kim loại n
 
 *BÙM! BÙM! BÙM!*
 
-Bom Đóng Băng Khuếch Tán của Iris Flamel phát nổ. Một luồng hàn khí tuyệt đối bung tỏa, mang theo những tinh thể băng siêu vi quét qua chiến trường. Lớp vỏ băng đen của lũ Hắc Băng Ma Nhện vốn đã cứng cáp, nay bị khí lạnh cực độ của bom làm cho giòn tan. Chỉ trong một chớp mắt, hơn một nửa bầy nhện bị đóng băng thành những bức tượng điêu khắc kỳ dị.
+Bom Đóng Băng Khuếch Tán của Iris Flamel phát nổ. Một luồng hàn khí tuyệt đối bung tỏa, mang theo những tinh thể băng siêu vi quét qua chiến trường. Khí lạnh cực độ từ vụ nổ cắn xé lớp vỏ băng đen cứng cáp của lũ ma nhện, biến chúng thành thủy tinh giòn vụn. Trong chớp mắt, hàn khí nuốt chửng hơn một nửa bầy quái vật, tạc chúng thành những bức tượng điêu khắc méo mó giữa Vực Thẳm.
 
 Evelyn chớp lấy thời cơ, gầm lên một tiếng, vung cự kiếm tung ra kỹ năng bí truyền của gia tộc: *Băng Long Trảm!*
 

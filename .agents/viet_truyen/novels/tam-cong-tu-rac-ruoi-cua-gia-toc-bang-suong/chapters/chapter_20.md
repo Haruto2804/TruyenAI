@@ -4,7 +4,7 @@ title: "Chương 20: Thánh Chiến — Khi Thần Linh Cầm Kiếm"
 
 Đại Giáo Chủ Aldric đứng trước bàn thờ vàng ròng trong Đại Thánh Đường, lưng quay về phía bức tượng Quang Minh Thần cao mười hai mét. Đôi mắt vàng kim không nhìn vào tượng thần. Lão nhìn vào khoảng trống.
 
-Trước mặt lão, mười hai Thánh Giáo Sĩ quỳ thành hai hàng. Áo bào vàng kim run rẩy, không phải vì tôn kính, mà vì sợ hãi. Bởi lần đầu tiên trong năm trăm năm, họ thấy Đại Giáo Chủ nổi giận.
+Trước mặt lão, mười hai Thánh Giáo Sĩ quỳ thành hai hàng. Mười hai Thánh Giáo Sĩ quỳ mọp dưới đất, trán rịn mồ hôi lạnh. Những lớp áo bào vàng kim cao quý giờ đây run lên bần bật theo từng bước chân của Aldric. Bởi lần đầu tiên trong năm trăm năm, họ thấy Đại Giáo Chủ nổi giận.
 
 "Bảy mươi hai phần trăm." Aldric cất lời, giọng vẫn ấm áp từ bi, nhưng mỗi từ đều mang theo áp lực ma lực Thiên Giai đè nặng. Sàn đá cẩm thạch dưới chân lão rạn nứt theo hình mạng nhện. "Doanh thu Thánh Thuỷ giảm bảy mươi hai phần trăm. Thuế cúng dường giảm bốn mươi phần trăm. Năm chi nhánh đóng cửa. Và bây giờ..."
 

@@ -11,7 +11,7 @@ Caelen híp mắt, đôi đồng tử xanh lam quét qua toàn bộ chiến trư
 *Trang bị: Khải Giáp Quang Minh (Kháng 80% ma pháp nguyên tố), Thánh Thương Cổ Đại (Sát thương xuyên giáp).*
 *Phân tích đội hình: 200 Thánh Kỵ Sĩ, tất cả đều đạt mức Trung Giai Sơ Kỳ. Chúng được tăng cường ma lực trực tiếp từ mạng lưới năng lượng của Phong Ấn Địa Mạch.*
 
-Hai mươi kỵ sĩ Băng Sương đối đầu với hai trăm Thánh Kỵ Sĩ được cường hóa vô hạn. Một cuộc chiến không có cửa thắng. Thậm chí, nếu kéo dài, dù là Kael hay Caelen cũng sẽ kiệt sức mà chết.
+
 
 "Chú Kael," Caelen lên tiếng, giọng nói tĩnh lặng đến đáng sợ, hoàn toàn không bị ảnh hưởng bởi uy áp của kẻ địch. "Mục tiêu của chúng ta không phải là giết sạch hai trăm tên chó săn này. Mục tiêu là cái cột sáng kia."
 

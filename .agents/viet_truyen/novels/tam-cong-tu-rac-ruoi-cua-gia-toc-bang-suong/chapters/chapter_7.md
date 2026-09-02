@@ -68,7 +68,7 @@ Hai ngón tay của Caelen đâm thẳng vào đan điền của Karlov.
 
 Hàn khí kinh hoàng tiêm thẳng vào ma hạch của lão. Caelen không dùng sức mạnh bạo lực để phá hủy, mà hắn dùng một cấu trúc mana tinh vi hơn để khóa chết, đóng băng vĩnh viễn dòng chảy ma lực của Karlov. Tiếng rạn nứt vang lên rõ mồn một trong không gian tĩnh lặng. Ma hạch Trung Giai Đỉnh Phong của Karlov vỡ vụn thành từng mảnh nhỏ, không thể phục hồi.
 
-Karlov đổ gục xuống sàn đá nham thạch, co giật liên hồi, đôi mắt trắng dã vì sốc và đau đớn. Một cao thủ ma pháp uy phong lẫm liệt, nay chính thức trở thành một phế nhân, tàn tạ hệt như những gì lão đã gieo rắc lên Caelen suốt năm năm qua.
+Karlov đổ gục xuống sàn đá nham thạch, co giật liên hồi, đôi mắt trắng dã vì sốc và đau đớn. Karlov đổ gục xuống sàn đá nham thạch, thân hình co giật liên hồi, đôi mắt trắng dã vì sốc và đau đớn. Đan điền nát vụn. Kẻ săn mồi phương Bắc nay chỉ còn là một phế nhân nằm chờ chết.
 
 Caelen rút tay về, thản nhiên lấy chiếc khăn lụa trắng từ túi áo ngực, cẩn thận lau sạch bụi bẩn trên ngón tay. 
 

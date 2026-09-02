@@ -62,13 +62,13 @@ Caelen khẽ vặn cổ tay. Băng Sương Khóa Ma Chỉ tiêm thẳng vào v�
 
 Rắc... Xoảng!
 
-Thanh kiếm danh giá vỡ vụn thành trăm mảnh, rơi lảng xoảng xuống sàn nhà bằng ngọc cẩm thạch. Kịch độc màu xanh lục từ lõi kiếm chảy ra xèo xèo, bốc khói ăn mòn mặt sàn, phơi bày chứng cứ ám sát rành rành trước hàng trăm con mắt của giới quý tộc.
+Thanh kiếm danh giá nổ vụn. Hàng trăm mảnh thép bắn tung tóe, găm phầm phập xuống nền ngọc cẩm thạch. Kịch độc màu xanh lục từ lõi kiếm chảy ra xèo xèo, bốc khói ăn mòn mặt sàn, phơi bày chứng cứ ám sát rành rành trước hàng trăm con mắt của giới quý tộc.
 
 Galahad lảo đảo lùi lại, ôm lấy cánh tay phải đang tê dại vì hàn khí phản phệ.
 
 Caelen không dừng lại, lướt tới vung chân đá thẳng vào ngực Galahad. Tên kiếm khách hộc máu, bay ngược ra sau, đâm sầm vào bàn tiệc của Tứ Hoàng Tử.
 
-Tiếng xì xầm bùng nổ dữ dội. Sử dụng Độc Thạch Cốt là tội tử hình ở đế quốc. Sự kiêu ngạo của Tứ Hoàng Tử đã biến thành sự ngu xuẩn không thể bào chữa.
+Tiếng xì xầm bùng nổ dữ dội. Sử dụng Độc Thạch Cốt là tội tử hình ở đế quốc. 
 
 "Ngươi... ngươi dám vu khống..." Edward đứng phắt dậy, mặt cắt không còn giọt máu, cố cãi chày cãi cối.
 

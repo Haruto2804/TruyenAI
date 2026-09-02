@@ -60,7 +60,7 @@ Hiệu suất tăng gấp mười lần. Chi phí nhân công giảm xuống cò
 
 Chỉ trong một tuần, lô hàng ma kiếm đầu tiên được ra lò, chất lượng vượt trội nhưng giá thành lại rẻ bằng một nửa so với giá thị trường hiện tại. Caelen ra lệnh tung số vũ khí này ra khắp các thương trạm xung quanh Kinh đô, đập nát hoàn toàn thị phần của các xưởng vũ khí thủ công truyền thống.
 
-"Thiếu chủ, ngài thực sự là một thiên tài." Lilian nhìn những đoàn xe chở vũ khí rời xưởng, ánh mắt sùng bái không thể giấu giếm. 
+"Thiếu chủ, ngài thực sự là một thiên tài." Lilian dõi theo những đoàn xe chở vũ khí rời xưởng, đôi mắt hổ phách phản chiếu hình bóng Caelen rực rỡ như một vị thần. 
 
 Caelen khẽ phủi bụi trên găng tay da, mỉm cười nhạt. 
 

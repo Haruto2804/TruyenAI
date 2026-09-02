@@ -42,7 +42,7 @@ Caelen không đứng dậy. Hắn chậm rãi nhấp một ngụm trà, đặt 
 
 "Đại Giáo Chủ quá khen. Ta chỉ là một tên buôn bán nhỏ lẻ ở phương Bắc, đâu dám so với cơ nghiệp tài chính vĩ đại của Thần Điện."
 
-Aldric khựng lại nửa nhịp. Nụ cười từ bi trên gương mặt trẻ trung bất tử không hề thay đổi, nhưng Ma Đồng Giải Cấu của Caelen bắt được một chi tiết cực kỳ nhỏ: dòng mana trong cơ thể Aldric dao động một khoảnh khắc tại vùng tim — dấu hiệu của sự bất an bị nén chặt.
+Aldric khựng lại nửa nhịp. Nụ cười từ bi trên gương mặt trẻ trung bất tử không hề thay đổi, nhưng Ma Đồng Giải Cấu của Caelen bắt được một chi tiết cực kỳ nhỏ: ngay khi thốt ra câu đó, dòng mana quanh tim Aldric chợt giật thót, rối loạn trong một phần mười giây trước khi phẳng lặng trở lại.
 
 "Ngươi quá khiêm tốn." Aldric bước tới, tay phải khẽ vung lên. Một tấm Thánh Bài vàng ròng hiện ra giữa không trung, tỏa ra ánh sáng ấm áp. "Bần tăng đến đây mang theo thiện ý. Đây là Thánh Bài Phúc Âm Cấp Kim — miễn thuế cúng dường trọn đời, miễn phí Thánh Thuỷ Tịnh Hóa cho toàn bộ lãnh thổ Ravenwood. Một đặc ân mà suốt ba trăm năm qua, chỉ duy nhất Hoàng gia Solaria được hưởng."
 

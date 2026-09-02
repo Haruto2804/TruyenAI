@@ -64,7 +64,7 @@ Iris cắn môi. Nàng không phải người tin vào thần linh. Bản thân 
 
 "Nếu thành công, ngươi sẽ là nhà giả kim vĩ đại nhất lịch sử đại lục Erebia." Caelen đáp, giọng không hề lên xuống. "Và ta sẽ cho ngươi thứ mà Viện Giả Kim Hoàng Gia không bao giờ cho: tự do nghiên cứu vô giới hạn."
 
-Hai từ "tự do nghiên cứu" chạm đúng tử huyệt. Đôi mắt hồng ngọc của Iris bùng lên một thứ ánh sáng mà Caelen từng thấy ở chính mình — ánh sáng của kẻ không còn gì để mất.
+Hai từ "tự do nghiên cứu" chạm đúng tử huyệt. Đôi mắt hồng ngọc của Iris bùng lên. Caelen nhìn thấy trong đó sự cuồng loạn quen thuộc—sự cuồng loạn của những con thú hoang bị dồn vào chân tường, sẵn sàng cắn xé mọi thứ.
 
 "Xưởng ở đâu?" Nàng hỏi gọn.
 

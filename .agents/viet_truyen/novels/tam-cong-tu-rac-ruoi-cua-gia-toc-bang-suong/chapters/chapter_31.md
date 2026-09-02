@@ -1,8 +1,6 @@
 # Chương 31: Diệt Sát Độc Nhãn, Đỉnh Núi Huyết Tế
 
-Bóng Ma Độc Nhãn cứng đờ người, cảm nhận rõ hơi lạnh chết chóc từ lưỡi hắc kiếm đang kề sát động mạch. Gã không thể hiểu nổi làm cách nào một tên nhãi ranh Trung Giai Đỉnh Phong lại có thể sở hữu thân pháp quỷ khốc thần sầu đến vậy. Khoảng cách một đại cảnh giới đáng lẽ phải là rào cản tuyệt đối!
-
-Nhưng kinh nghiệm chém giết hàng chục năm của một Trưởng lão sát thủ không cho phép gã khoanh tay chịu chết. 
+Mũi kiếm lạnh buốt kề sát yết hầu, nhưng Bóng Ma Độc Nhãn không hề khựng lại. Bản năng sát thủ chục năm bộc phát. Cơ bắp gã căng phồng xé rách áo choàng, khói đen phun trào từ các lỗ chân lông, đan lại thành một lớp giáp hắc ám đặc quánh chỉ trong chớp mắt. 
 
 "Ranh con, đừng quá kiêu ngạo!" Bóng Ma Độc Nhãn rống lên, ma lực trong cơ thể gã sôi sục. Bắp thịt gã phồng to dị thường, xé rách cả tấm áo choàng xám. Từ trong những lỗ chân lông, khói đen phun ra mù mịt, hòa trộn với chướng khí tạo thành một lớp giáp ma thuật đặc quánh. 
 

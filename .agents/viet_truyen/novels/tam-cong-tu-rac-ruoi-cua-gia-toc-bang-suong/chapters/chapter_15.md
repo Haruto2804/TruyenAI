@@ -6,7 +6,7 @@ Ngày Trọng Dương, Kinh đô Solaria.
 
 Đấu trường Thiên Quang — kiến trúc vĩ đại nhất đại lục Erebia — mở cửa đón hơn mười vạn khán giả. Những bậc thang đá cẩm thạch trắng xếp thành hình bán nguyệt vươn lên cao ngất, bao quanh một sân đấu hình tròn đường kính hai trăm mét, mặt sàn lát bằng Ma Ngọc Bàn Thạch — loại đá duy nhất chịu được sức phá hủy của phép thuật cấp Thiên Giai. Trên đầu, một vòm trời nhân tạo được tạo bởi Ma trận Thiên Quang chiếu ánh sáng rực rỡ giả lập một bầu trời xanh hoàn hảo.
 
-Hội Nghị Ma Pháp Tam Quốc — sự kiện ba năm một lần quy tụ tinh anh của ba đế quốc lớn nhất: Solaria, Vương quốc Hắc Nguyệt phương Đông, và Liên Bang Tự Do phương Nam. Danh nghĩa là giao lưu ma pháp, thực chất là cuộc phô trương sức mạnh quốc gia và sân khấu cho các thế lực chính trị giằng co ngôi vị bá chủ.
+Hội Nghị Ma Pháp Tam Quốc — sự kiện ba năm một lần quy tụ tinh anh của ba đế quốc lớn nhất: Solaria, Vương quốc Hắc Nguyệt phương Đông, và Liên Bang Tự Do phương Nam. 
 
 Caelen ngồi ở khu VIP dành cho đại quý tộc, chân gác lên chân, tay nhàn nhã cầm quạt giấy. Hắn đã tháo bỏ lễ phục nặng nề, khoác bộ trường bào đen viền bạc thanh lịch, gia huy Huyết Ưng thêu nhỏ gọn trên ngực trái. Bên cạnh hắn, Lilian đứng nghiêm trang, tay ôm chồng tài liệu dày cộp.
 

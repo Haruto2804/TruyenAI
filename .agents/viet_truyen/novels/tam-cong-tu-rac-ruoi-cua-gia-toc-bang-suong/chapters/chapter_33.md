@@ -28,7 +28,7 @@ Bụi tuyết mù mịt dần lắng xuống. Nơi cột sáng từng sừng s�
 
 "Ma lực của ta... Tại sao nó lại không hồi phục?" Một tên Thánh Kỵ Sĩ hoảng hốt nhìn thanh kiếm đang mờ dần ánh sáng Thánh Quang.
 
-Sự thật phũ phàng giáng xuống đầu chúng. Suốt hàng thế kỷ, lực lượng Thánh Kỵ Sĩ luôn được cường hóa vô hạn nhờ việc kết nối trực tiếp với mạng lưới hút mana của Phong Ấn Địa Mạch. Giờ đây, khi nút thắt năng lượng bị phá vỡ, chúng trở về với thực lực nguyên bản. Đối với nhiều kẻ, việc phụ thuộc quá lâu vào sức mạnh vay mượn đã khiến ma hạch thực sự của chúng teo tóp và yếu ớt.
+Những thanh Thánh Kiếm vốn rực rỡ vụt tắt ngấm. Vài tên Thánh Kỵ Sĩ gục xuống tuyết ôm ngực, thở dốc. Hàng chục năm bú mớm thứ ma lực vay mượn từ Phong Ấn đã biến ma hạch thực sự của chúng thành những thứ teo tóp, vô dụng. Khải Giáp Quang Minh trên người chúng giờ đây chỉ còn là những khối sắt vụn trĩu nặng.
 
 Trái ngược hoàn toàn với sự hoảng loạn của kẻ địch, đội kỵ sĩ Băng Sương của Gia tộc Ravenwood đang cảm nhận một luồng sinh khí mạnh mẽ chưa từng có. 
 

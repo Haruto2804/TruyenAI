@@ -12,7 +12,9 @@ Chỉ trong vỏn vẹn một tuần, kể từ cái đêm bán khống cổ phi
 
 "Ngài xem xong rồi chứ, Điện hạ?" Caelen thong thả nhấp một ngụm hồng trà, ngồi đối diện Valerie. Thái độ của hắn vô cùng thư thái, trái ngược hoàn toàn với sự căng thẳng của vị công chúa.
 
-"Ngươi... ngươi là một tên ác quỷ, Caelen." Valerie hít một hơi thật sâu, giọng nói khẽ run lên không phải vì sợ hãi, mà vì một sự chấn động quá lớn đối với thế giới quan chính trị của nàng. "Ngươi đã lợi dụng lòng tham của Tứ Hoàng Tử để kích nổ quả bóng đầu cơ, rồi lại dùng Vạn Thương Ngân Hàng đóng vai đấng cứu thế để trói buộc lũ quý tộc ngu ngốc đó. Ngươi không dùng một vạn quân Thiết Kỵ nào, nhưng quyền lực ngươi đang nắm giữ ở Kinh đô lúc này còn đáng sợ hơn cả binh quyền."
+"Ngươi... ngươi là một tên ác quỷ, Caelen." Valerie hít một hơi thật sâu. Giọng nàng run rẩy, ánh mắt nhìn hắn như thể vừa chứng kiến bầu trời sụp đổ ngay trước mắt.*
+
+--- "Ngươi đã lợi dụng lòng tham của Tứ Hoàng Tử để kích nổ quả bóng đầu cơ, rồi lại dùng Vạn Thương Ngân Hàng đóng vai đấng cứu thế để trói buộc lũ quý tộc ngu ngốc đó. Ngươi không dùng một vạn quân Thiết Kỵ nào, nhưng quyền lực ngươi đang nắm giữ ở Kinh đô lúc này còn đáng sợ hơn cả binh quyền."
 
 Caelen đặt tách trà xuống, mỉm cười nhạt. "Quyền lực thực sự không nằm ở việc ai có thanh kiếm bén hơn, Điện hạ. Mà nằm ở việc ai có khả năng trả tiền cho kẻ rèn ra thanh kiếm đó. Ta chỉ cho bọn họ vay tiền thôi mà. Lãi suất ba phần trăm, rất nhân đạo."
 

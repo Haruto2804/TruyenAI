@@ -18,9 +18,7 @@ Tiếng ồn trong đấu trường lắng xuống, biến thành một sự tĩ
 
 "Vậy thì chứng minh đi." Caelen đặt hai bình xuống giữa đấu trường, lùi lại ba bước. "Ta đề nghị một cuộc kiểm nghiệm công khai. Mời bất kỳ ai — quý tộc, dân thường, hay chính các ngài Thánh Giáo Sĩ — thử nghiệm cả hai bình Thánh Thuỷ lên một mẫu chướng khí Vực Thẳm. Kết quả sẽ nói lên tất cả."
 
-Đòn chí mạng.
-
-Nếu Thần Điện từ chối kiểm nghiệm, hàng vạn người sẽ nghi ngờ. Nếu chấp nhận và kết quả chứng minh hai bình tương đương, toàn bộ hệ thống độc quyền sẽ sụp đổ.
+Valerie ngồi trên khán đài, siết chặt tay vịn đến mức các ngón tay trắng bệch. Nàng hiểu ngay cái bẫy Caelen vừa giăng ra: Thần Điện từ chối, niềm tin của hàng vạn người sẽ lung lay; Thần Điện chấp nhận, hệ thống độc quyền ngàn năm có thể sụp đổ ngay hôm nay.
 
 Trên khán đài hoàng gia, Valerie nắm chặt tay vịn ghế, đôi mắt tím lóe lên. Nàng hiểu — Caelen đã chuẩn bị sẵn lá bài tẩy từ lâu. Cuộc gặp mặt với Aldric ba ngày trước chỉ là mồi câu để đo phản ứng. Tuyên bố tại Hội Nghị mới là đòn chính.
 

@@ -30,13 +30,13 @@ Lilian. Hầu nữ thân cận nhất của hắn. Cũng là người duy nhất
 
 "Thiếu chủ, ngài lại uống say rồi." Giọng nói của Lilian trong trẻo, mang theo một chút xót xa và dung túng như một người chị hiền từ. Nàng đặt khay bạc lên chiếc bàn gỗ sồi, cẩn thận rót canh ra bát. "Trời rất lạnh. Ngài uống chút canh Giải Trình thảo cho ấm người đi."
 
-Caelen ngồi bệt dưới đất, mái tóc bạc ánh lam tro xõa xuống che khuất nửa khuôn mặt. Hắn ngẩng đầu lên nhìn Lilian, đôi mắt màu lam thẳm dưới lớp tóc rối đột nhiên lóe lên một vòng sáng kỳ dị.
+Caelen ngồi bệt dưới đất, mái tóc bạc ánh lam tro xõa xuống che khuất nửa khuôn mặt. Hắn ngẩng đầu lên nhìn Lilian, Từ dưới lớp tóc rối, Caelen phóng ra một ánh nhìn lam thẳm, lóe lên vòng sáng kỳ dị.
 
 **Ma Đồng Giải Cấu.**
 
 Huyết mạch nguyên thủy của dòng dõi Băng Sương thượng cổ đã thức tỉnh ngay thời khắc linh hồn hắn dung nhập. Không cần hệ thống, không cần giao diện ảo. Mọi thứ hiện lên trong mắt hắn chân thực đến trần trụi.
 
-Trong đôi mắt của Caelen, thế giới vật chất bị bóc tách. Hắn nhìn thấy dòng chảy mana màu lục nhạt đang luân chuyển trong cơ thể Lilian, chứng tỏ nàng ta không phải là một hầu nữ yếu đuối, mà là một pháp sư Sơ Giai Sơ Kỳ. Hắn nhìn thấy cấu trúc vi mô của chén canh Giải Trình thảo... và hàng ngàn hạt nhỏ li ti màu tím đen mang theo kịch tính đang hòa tan một cách hoàn hảo trong đó.
+Trong đôi mắt của Caelen, thế giới vật chất bị bóc tách. Dòng mana màu lục nhạt luân chuyển mượt mà dưới lớp da của Lilian — một pháp sư Sơ Giai Sơ Kỳ đang ẩn mình trong vỏ bọc hầu nữ., mà là một pháp sư Sơ Giai Sơ Kỳ. Hắn nhìn thấy cấu trúc vi mô của chén canh Giải Trình thảo... và hàng ngàn hạt nhỏ li ti màu tím đen mang theo kịch tính đang hòa tan một cách hoàn hảo trong đó.
 
 *Hắc Tử La Lan.* Một loại kịch độc vô sắc vô vị.
 
@@ -62,7 +62,7 @@ Giọng nói lạnh lẽo của Caelen vang lên ngay bên tai nàng. Một lu�
 
 "Một, hai, ba..." Caelen lẩm nhẩm. Ngón tay trỏ tay trái của hắn — nơi đeo chiếc nhẫn bạc chạm trổ hình đầu ưng — đang ấn chính xác vào tử huyệt dưới đốt sống cổ thứ tư của Lilian. "Cấu trúc mana của ngươi thiên về ám sát vi mô, tụ lực ở phần thân trên. Chỉ cần ta ấn mạnh thêm một phân, ma hạch của ngươi sẽ nổ tung, phế đi nửa đời còn lại. Ngươi muốn thử không?"
 
-Toàn thân Lilian run rẩy kịch liệt. Nàng trợn tròn đôi mắt hổ phách, kinh hãi tột độ. Đây... đây không phải là tên phế vật nghiện ngập mà nàng vẫn âm thầm khinh bỉ. Lực tay nhạy bén, khả năng nhìn thấu huyệt đạo và kỹ thuật khống chế hoàn hảo... Kẻ này là một sát thủ chân chính!
+Toàn thân Lilian run rẩy kịch liệt. Nàng trợn tròn đôi mắt hổ phách, hô hấp ngưng trệ. Đây... đây không phải là tên phế vật nghiện ngập mà nàng vẫn âm thầm khinh bỉ. Lực tay nhạy bén, khả năng nhìn thấu huyệt đạo và kỹ thuật khống chế hoàn hảo... Kẻ này là một sát thủ chân chính!
 
 "Thiếu... thiếu chủ... Nô tì bị oan..." Lilian vẫn cố cắn răng kêu lên.
 

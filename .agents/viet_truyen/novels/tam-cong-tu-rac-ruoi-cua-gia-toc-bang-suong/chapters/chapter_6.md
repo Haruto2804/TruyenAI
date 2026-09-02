@@ -6,7 +6,7 @@ Màn bão tuyết tại Hẻm Sói Băng bất chợt trở nên lặng lẽ m�
 
 Lilian rùng mình, lùi lại núp sau một cỗ xe chứa quặng. Bản năng sinh tồn của một pháp sư Sơ Giai mách bảo nàng rằng, thứ đang đến gần là một thực thể mà nàng tuyệt đối không thể chống cự.
 
-Caelen vẫn đứng thẳng tắp trên nền tuyết trắng, hai tay khoanh lại trước ngực. Đôi mắt màu lam thẳm dưới sự thúc đẩy của Ma Đồng Giải Cấu đang phân tích từng luồng sóng ma lực xung quanh. 
+Caelen vẫn đứng thẳng tắp trên nền tuyết trắng, hai tay khoanh lại trước ngực. Dưới sự thúc đẩy của Ma Đồng Giải Cấu, Caelen quét ánh nhìn lam thẳm, bóc tách từng luồng sóng ma lực xung quanh. 
 
 *Một sát thủ Cao Giai Sơ Kỳ. Chuyên về Ám Hắc Ma Pháp và Tử Linh Thuật.*
 
@@ -24,7 +24,7 @@ Trên tay Vane là một thanh chủy thủ uốn cong bốc khói đen kịt, t
 
 Thân ảnh của Vane đột nhiên tan biến vào không khí, hóa thành hàng chục cái bóng đen tuyền bao vây lấy Caelen. Hắc Ám Phệ Hồn Trận! Đây không phải là một đòn tấn công vật lý đơn thuần, mà là ma thuật thao túng không gian và ảo ảnh. Bất cứ kẻ nào lọt vào trận pháp này đều sẽ bị ảo ảnh che mắt, trước khi bị chủy thủ tẩm độc rạch đứt yết hầu.
 
-Lilian bưng kín miệng, kinh hãi nhìn Caelen bị bóng tối nuốt chửng. Nàng tin rằng thiếu chủ của mình lợi hại, nhưng trước một sát thủ Cao Giai, sự chênh lệch cảnh giới là quá lớn!
+Lilian bịt chặt miệng, trân trân nhìn Caelen bị bóng tối nuốt chửng. Nàng tin rằng thiếu chủ của mình lợi hại, nhưng trước một sát thủ Cao Giai, sự chênh lệch cảnh giới là quá lớn!
 
 Bên trong trận pháp, Caelen không hề di chuyển. Hắn nhắm mắt lại.
 

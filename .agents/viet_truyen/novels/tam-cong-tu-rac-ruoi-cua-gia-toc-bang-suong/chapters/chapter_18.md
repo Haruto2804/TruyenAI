@@ -76,6 +76,4 @@ Nàng chớp mắt, rồi cúi đầu. "Thiếu chủ suy tính sâu xa."
 
 "Không phải suy tính sâu xa." Caelen nhìn lên mặt trăng lạnh lẽo. "Chỉ là... ta đã chết quá nhiều lần ở kiếp trước để biết rằng không nên tin ai."
 
-Gió lạnh thổi qua, cuốn đi lời nói ấy vào đêm tối. Nhưng Lilian nghe rõ, và nàng cảm thấy một cơn rùng mình chạy dọc sống lưng — không phải vì lạnh, mà vì lần đầu tiên nàng thoáng nhìn thấy bóng dáng thật sự của con người đứng trước mặt mình.
-
-Không phải quý tộc. Không phải thiên tài. Mà là một linh hồn già cỗi, mệt mỏi, đang chiến đấu bằng tất cả sự tàn nhẫn mà cuộc đời đã dạy.
+Gió lạnh thổi qua, cuốn đi lời nói ấy vào đêm tối. Gió lạnh thổi qua, cuốn đi lời nói ấy vào đêm tối. Lilian vô thức thu mình lại, kéo cao cổ áo. Bóng lưng của Caelen hắt trên mặt đất dưới ánh trăng dài ngoẵng, trông không giống một thanh niên mười sáu tuổi, mà giống một u hồn mệt mỏi vừa bò lên từ đáy vực.

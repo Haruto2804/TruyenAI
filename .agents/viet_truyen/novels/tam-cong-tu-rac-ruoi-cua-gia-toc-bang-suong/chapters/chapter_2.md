@@ -30,7 +30,7 @@ Evelyn trừng mắt nhìn Karlov. Tên cáo già này chỉ chực chờ cơ h�
 
 Sự sỉ nhục bằng tiền bạc. 
 
-Evelyn tức giận đến mức ma hạch Địa Giai Trung Kỳ trong người bắt đầu bạo phát hàn khí. Một trận chiến có nguy cơ nổ ra ngay giữa đại sảnh.
+Evelyn tức giận đến mức ...ma hạch Địa Giai Trung Kỳ trong người cuồn cuộn bạo phát hàn khí. Một trận chiến có nguy cơ nổ ra ngay giữa đại sảnh.
 
 Nhưng ngay lúc đó, tiếng vỗ tay chậm rãi và nhịp nhàng vang lên từ phía cầu thang. 
 
@@ -42,7 +42,7 @@ Mọi ánh mắt dồn về phía cầu thang. Caelen bước xuống. Không c�
 
 Valerie sững sờ. Đôi mắt tím thạch anh khẽ chớp. Đây... đây là tên phế vật nghiện ngập trong báo cáo của tình báo Hoàng gia sao? Khí chất này, sự điềm tĩnh này, hoàn toàn không giống một kẻ vừa bị từ hôn và làm nhục trước mặt toàn gia tộc. 
 
-Evelyn cũng mở to mắt ngạc nhiên. Caelen điềm nhiên đi qua mặt tỷ tỷ, bước tới chiếc bàn đặt Huyết Chiếu Hoàng Gia. Hắn không vội quỳ xuống tiếp chỉ như lẽ thường, mà kéo một chiếc ghế, ngồi phịch xuống đối diện Valerie.
+Evelyn trân trân mở to mắt. Bỏ qua cái nhìn của tỷ tỷ, Caelen sải bước thẳng tới chiếc bàn..., bước tới chiếc bàn đặt Huyết Chiếu Hoàng Gia. Hắn không vội quỳ xuống tiếp chỉ như lẽ thường, mà kéo một chiếc ghế, ngồi phịch xuống đối diện Valerie.
 
 "Cáo lỗi vì sự chậm trễ. Ta vừa phải giải quyết chút chuyện nội bộ." Caelen liếc nhìn Nhị Trưởng Lão Karlov. Kẻ đang đứng tái mặt, mồ hôi vã ra như tắm khi nhận ra Caelen vẫn còn tỉnh táo. Lilian đâu? Thuốc giải đâu? Sao hắn lại tỉnh táo thế này?
 

@@ -42,7 +42,7 @@ Caelen bước tới. Dưới Ma Đồng Giải Cấu, hắn không chỉ thấy
 
 Đây chính là lý do Nhị Trưởng Lão Karlov mưu mô xảo quyệt lại không tự mình đoạt lấy bảo vật. Lão chỉ thuộc phân gia, huyết mạch không đủ thuần khiết. Nếu tự ý vươn tay, rào cản sẽ bạo phát và nghiền nát lão ngay lập tức. Lão bắt buộc phải chờ đợi Caelen — người duy nhất còn sót lại mang huyết mạch thuần khiết — chủ động lấy ra hoặc hấp thụ một nửa, rồi mới có thể "thu hoạch" thông qua việc rút cạn máu của hắn. Vì không thể ăn trộm, Karlov chỉ đành gia cố thêm hàng vạn sợi xích mana đỏ rực bên ngoài rào cản nguyên thủy để ngăn kẻ khác phỗng tay trên.
 
-Nhưng phong ấn của Karlov càng phức tạp, đối với Caelen lại càng giống như một bài toán có sẵn đáp án. Hắn không cần phá vỡ toàn bộ phong ấn. Hắn chỉ cần tìm ra điểm mù của nó, luồn lách qua các lớp bảo vệ và hút lấy năng lượng lõi. 
+Phong ấn của Karlov tinh vi đến đâu, trong mắt Caelen cũng chỉ là một bài toán lộ đáp án. Không cần phá vỡ. Hắn chỉ việc lách qua điểm mù, cắm thẳng vào cốt lõi và rút cạn. 
 
 Caelen ngồi khoanh chân trước bệ đá, hai tay chắp thành ấn chú, ngón trỏ khẽ chạm vào Mảnh Vỡ Hàn Băng Thần Tủy. 
 

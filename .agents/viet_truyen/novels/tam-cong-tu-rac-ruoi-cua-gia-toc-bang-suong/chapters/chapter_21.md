@@ -4,7 +4,7 @@ title: "Chương 21: Bình Minh Máu — Trận Chiến Trước Cổng Kinh Đ�
 
 Bảy ngày sau khi Thánh Chiến ban bố.
 
-Bình minh. Cánh đồng Thiên Quang phía Bắc Kinh đô Solaria phủ một lớp sương mỏng. Ánh mặt trời đầu tiên xuyên qua làn sương, chiếu lên ba ngàn bộ giáp bạc xếp thành đội hình chiến đấu hoàn hảo. Thánh Kỵ Sĩ đoàn — ba ngàn kỵ binh Quang Minh, ngồi trên lưng chiến mã bọc giáp thánh, mỗi tên cầm một cây thương dài phát sáng rực rỡ. Phía sau, hai vạn dân binh tín đồ được trang bị vũ khí thô sơ nhưng cuồng tín, mắt đỏ ngầu, miệng lẩm nhẩm kinh cầu.
+Bình minh. Cánh đồng Thiên Quang phía Bắc Kinh đô Solaria phủ một lớp sương mỏng. Ánh mặt trời đầu tiên xuyên qua làn sương, chiếu lên ba ngàn bộ giáp bạc xếp thành đội hình chiến đấu hoàn hảo. Ba ngàn Thánh Kỵ Sĩ thẳng lưng trên yên ngựa, những mũi thương giơ cao tỏa ra luồng sáng vàng kim đâm thủng màn sương. Theo sau họ là hai vạn dân binh. Vũ khí của họ chỉ là cuốc xẻng và giáo mác rỉ sét, nhưng đôi mắt hằn vằn máu và tiếng lầm bầm kinh cầu không dứt lại biến họ thành một bầy dã thú khao khát tử đạo.
 
 Trên ngọn đồi cao nhất, Đại Giáo Chủ Aldric đứng uy nghi, tay trượng vàng ròng tỏa ra một vầng Thánh Quang khổng lồ như mặt trời thứ hai. Pháp bào trắng phất phới trong gió, mái tóc bạch kim bạc óng ánh.
 
