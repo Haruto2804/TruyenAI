@@ -90,9 +90,12 @@ Và một mũi tên nữa, từ "YUKI":
 
 **YUKI = CON GÁI CỦA ĐỐI TƯỢNG THÍ NGHIỆM KHÁC?**
 
-Cô lùi lại, nhìn toàn bộ bảng ghim. Sợi chỉ đỏ chạy chằng chịt, nối các mảnh ghép — nhưng vẫn còn những khoảng trống lớn.
+Cô lùi lại, nhìn toàn bộ bảng ghim. Sợi chỉ đỏ chạy chằng chịt, nối các mảnh ghép — nhưng vẫn còn những khoảng trống khổng lồ.
 
-*Ai gửi phong bì đen? Nếu Voss vẫn sống, tại sao ông ta tự tố cáo? Nếu Voss đã chết, ai đang đứng trong tầng hầm B3 đeo kính của ông ta?*
+Cô lấy một tờ ghi chú vàng, dán lên góc bảng: **BA PHONG BÌ ĐEN. KHÔNG TEM.**
+*Không có tem nghĩa là không qua bưu điện. Có kẻ đã thức trắng đêm qua, tự mình lái xe đến nhà tôi, đến quán bar của Erik, và đến ký túc xá của Yuki để nhét thư bằng tay. Hắn là ai? Tại sao hắn biết địa chỉ của cả ba?*
+
+*Nếu Voss vẫn sống, tại sao ông ta tự tố cáo? Nếu Voss đã chết, ai đang đứng trong tầng hầm B3 đeo kính của ông ta?*
 
 *Và mẹ tôi — nếu bà bị "xóa" — giọng nói trong đầu tôi có phải là bà không? Hay là ký ức tàn dư của một con người đang cố được nhớ lại?*
 

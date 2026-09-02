@@ -57,13 +57,12 @@ Maren nhíu mày, rút điện thoại gọi cho nguồn tin của cô ở phòn
 
 Cổ họng cô nghẹn lại. Một giáo sư nổi tiếng chết bất thường, và Sở cảnh sát đã... quên mất việc phong tỏa nhà ông ta?
 
-Cánh cổng không khóa. Maren đẩy nhẹ, bản lề kêu cót két.
+Cánh cổng sắt nặng nề bị khóa bằng một ổ khóa rỉ sét, nhưng Maren dễ dàng leo qua tường rào thấp bên hông.
 
-Bên trong, khu vườn bỏ hoang. Cỏ dại mọc đến đầu gối, lối đi lát đá phủ rêu xanh trơn tuột. Không có dấu hiệu ai đã cắt cỏ hay chăm sóc vườn tược từ rất lâu — kỳ lạ đối với một giáo sư nổi tiếng, giàu có.
+Bên trong, khu vườn bỏ hoang. Cỏ dại mọc đến đầu gối, lối đi lát đá phủ rêu xanh trơn tuột. Không có dấu hiệu ai đã chăm sóc khu vườn tược từ rất lâu — kỳ lạ đối với một giáo sư giàu có.
 
-Cô bước lên bậc thềm trước, nhấn chuông. Không ai trả lời. Cô gõ cửa. Tiếng vang lọt vào bên trong và chết đi trong im lặng.
-
-Cửa sau mở. Không phải bị phá — mà đơn giản là không khóa, như thể chủ nhân đã rời đi trong một cơn vội vã không kịp ngoái lại.
+Cô đi vòng ra cửa sau. Gắn trên mép cửa gỗ sồi là bảng điều khiển an ninh đời mới nhất — loại cảm biến chuyển động và mã hóa vân tay. Một giáo sư tâm lý không cần mức độ an ninh cấp quân sự này.
+Maren dùng cùi chỏ đập vỡ dứt khoát ô kính nhỏ gần tay nắm, thò tay vào vặn chốt. Cạch. Cửa mở. Không có tiếng còi báo động xé toạc không gian. Hệ thống an ninh đã bị rút điện từ bên trong, hoặc chính ngôi nhà cũng đã "quên" mất việc phải bảo vệ chủ nhân của nó.
 
 Maren bước vào bếp. Sạch sẽ đến mức vô trùng. Không bát đĩa. Không thức ăn. Tủ lạnh mở ra: trống rỗng, thậm chí không có bóng đèn bên trong — ai đó đã tháo mất.
 

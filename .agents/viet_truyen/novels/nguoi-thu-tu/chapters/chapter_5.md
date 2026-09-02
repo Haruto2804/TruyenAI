@@ -84,13 +84,13 @@ Cô quay lại, bước nhanh đến khe nứt bê tông, luồn người qua. K
 
 Mưa ập xuống như một bức tường nước. Maren đứng trước tòa nhà, hai tay chống đầu gối, thở gấp, mưa trôi dọc theo tóc xuống mặt, lạnh buốt.
 
-Cô rút điện thoại, mở ảnh vừa chụp. Ba cái ghế kim loại. Dây chằng da. Tường gạch men trắng.
+Cô rút điện thoại, mở bức ảnh toàn cảnh phòng thẩm vấn vừa chụp. Ba cái ghế kim loại. Dây chằng da. 
 
-Rồi cô vuốt sang bức ảnh cuối — bức ảnh cô chụp tấm gương một chiều, khoảnh khắc cô áp mặt vào để nhìn sang phòng quan sát.
+Và ở góc phải của bức ảnh, in lên nền tường gạch men trắng lóa sáng vì đèn flash... là một cái bóng. 
 
-Trong ảnh, phía bên kia gương, không chỉ có ngọn nến.
+Không có nguồn sáng nào trong phòng có thể hắt bóng theo góc độ đó. Cái bóng không gắn với bất kỳ vật thể vật lý nào. Nó đứng lơ lửng trên nền gạch trắng, mờ, không rõ nét, như thể ống kính máy ảnh cũng đang cố quên đi hình dáng đó. 
 
-Có một bóng người đứng trong góc phòng. Mờ, không rõ nét, như thể máy ảnh cũng đang cố quên khuôn mặt đó. Nhưng đủ rõ để thấy một chi tiết: bóng người đó đang đeo kính gọng vàng.
+Nhưng ở vị trí khuôn mặt của cái bóng, có một vệt phản quang. Một vệt sáng sắc lẹm hình cặp kính.
 
 Kính gọng vàng của Daniel Voss.
 
