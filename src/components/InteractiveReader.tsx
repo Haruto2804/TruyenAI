@@ -662,7 +662,7 @@ export function InteractiveReader({
                 {selectedItem.data.description && (
                   <div className="space-y-1.5">
                     <div className="text-[11px] font-bold text-[#d4af37] uppercase tracking-wider flex items-center gap-1.5">
-                      <Scroll className="w-3.5 h-3.5" /> Tiểu sử & Tính cách
+                      <Scroll className="w-3.5 h-3.5" /> Tóm tắt nhân vật
                     </div>
                     <p className="text-sm sm:text-base text-slate-200 leading-relaxed font-light whitespace-pre-wrap bg-black/40 border border-white/5 rounded-xl p-3.5 max-h-56 overflow-y-auto">
                       {selectedItem.data.description.replace(/\*+/g, "")}

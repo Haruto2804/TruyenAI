@@ -104,7 +104,7 @@ export default async function EditCharacterPage({
 
           <div className="space-y-2">
             <label className="block text-sm font-medium text-slate-300">
-              Mô Tả Tính Cách / Tiểu Sử Ngắn
+              Tóm Tắt Nhân Vật
             </label>
             <textarea
               name="description"

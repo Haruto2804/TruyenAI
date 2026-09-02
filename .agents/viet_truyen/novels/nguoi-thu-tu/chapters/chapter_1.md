@@ -16,7 +16,7 @@ Giọng Thanh tra Lindqvist cất lên từ bậc thềm tòa nhà. Ông ta đ�
 
 Maren bước tới. Một viên cảnh sát trẻ giơ tay định chặn lại, nhưng Lindqvist hất hàm ra hiệu cho cậu ta lùi xuống.
 
-Maren dừng bước dưới hiên, rút một điếu thuốc mới chưa châm lửa, gõ nhẹ đầu lọc xuống hộp sắt. "CSI chưa tới mà ông đã cho người dời xác đi? Định dọn dẹp hiện trường hòng khép góc à, Thanh tra? Bức ảnh ông ngủ với cô thực tập sinh ở nhà nghỉ ngoại ô vẫn còn nằm trong két sắt của tôi đấy. Năm phút."
+Maren dừng bước dưới hiên, rút một điếu thuốc mới chưa châm lửa, gõ nhẹ đầu lọc xuống hộp sắt. "Bức ảnh ông ngủ với cô thực tập sinh ở nhà nghỉ ngoại ô vẫn còn nằm trong két sắt của tôi."
 
 Lindqvist nghiến răng, cơ hàm giật lên một cái. "Đội khám nghiệm kẹt xe vì tai nạn liên hoàn trên cao tốc do bão. Bác sĩ pháp y bảo tôi cứ chuyển xác về nhà xác trước vì đằng nào cũng là đột tử," ông ta gầm gừ, khoanh tay và mắt nhìn đi chỗ khác. "Tim ngừng đập. Không dấu vết ngoại lực. Không chất độc. Cửa khóa trong. Cửa sổ cũng khóa trong. Cô có đúng năm phút, Engel."
 
@@ -58,17 +58,15 @@ Phòng 307. Cánh cửa gỗ sồi nặng nề đã bị phá khóa từ bên ng
 
 Ghế xoay da nâu sẫm hơi nghiêng ra sau, như thể người ngồi trên đó vừa đứng dậy.
 
-Maren đứng giữa phòng, xoay người chậm rãi. Bốn bức tường phủ kín giá sách. Sách y tâm lý, sách luật hình sự, sách triết học, sách thần kinh học — hàng nghìn cuốn xếp ngay ngắn theo thứ tự bảng chữ cái. Không có khoảng trống. Không có cuốn nào bị rút ra.
+Maren đứng giữa phòng, xoay người chậm rãi. Bốn bức tường phủ kín giá sách. Sách y tâm lý, sách luật hình sự, sách triết học, sách thần kinh học — hàng nghìn cuốn xếp ngay ngắn.
 
 *Nhưng sổ tay nghiên cứu đâu?*
 
-Cô biết Voss nổi tiếng với bộ sưu tập sổ tay. Mọi đồng nghiệp, mọi sinh viên đều biết. 47 cuốn, viết tay bằng bút mực xanh, bìa da đen, gáy đánh số La Mã. Chúng phải nằm đâu đó trong phòng này.
+Cô biết Voss nổi tiếng với bộ sưu tập sổ tay. Mọi đồng nghiệp, mọi sinh viên đều biết. 47 cuốn, viết tay bằng bút mực xanh, bìa da đen, gáy đánh số La Mã. 
 
-Cô kéo ngăn kéo bàn. Trống. Mở tủ đựng hồ sơ bên trái. Trống. Kiểm tra kệ phía sau cánh cửa. Trống.
+Cô đảo mắt sang chiếc két sắt nhỏ gài chìm trong góc tường. Cửa két mở toang. Bên trong, các cuốn sổ da đen xếp gọn gàng. Cô lướt ngón tay qua gáy sổ: XLII, XLIII, XLIV... Dừng lại. Khớp hoàn hảo. Nhưng ở cuối dãy, một khoảng trống nhỏ xíu. Ba cuốn cuối cùng — XLV, XLVI, XLVII — đã biến mất.
 
-Không một cuốn sổ tay nào. Không một tờ giấy nào. Không một chiếc bút nào.
-
-Căn phòng của Daniel Voss đã bị lột sạch mọi dấu vết cá nhân, chỉ chừa lại sách in và đồ nội thất cố định. Như thể ai đó — hoặc chính ông ta — đã xóa mọi bằng chứng rằng Daniel Voss từng *thực sự* làm việc tại đây.
+Mặt bàn làm việc trống trơn. Ngăn kéo rỗng tuếch. Kẻ xâm nhập dường như không xáo trộn căn phòng, chỉ lột sạch mọi dấu vết cá nhân trên bàn và lấy đi ba cuốn sổ quan trọng nhất. Như thể hắn — hoặc chính Voss — đã cố tình xóa sạch những manh mối cuối cùng.
 
 Maren rút điện thoại, bật camera, chụp liên tiếp: mặt bàn trống, ngăn kéo rỗng, ghế nghiêng, vòng tròn ánh sáng cô đơn trên gỗ sẫm.
 

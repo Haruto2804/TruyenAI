@@ -16,7 +16,7 @@ Cuối hành lang B2, một cánh cửa sắt nặng nề. Không có ký hiệu
 
 Nhưng Maren đã chuẩn bị. Cô dùng đèn pin soi dọc theo mép bê tông. Ở góc phải, sát tường, có một khe hở đủ lớn để một người gầy chui lọt. Nhưng nó hoàn toàn không phải vết nứt do lực cơ học tác động. 
 
-Maren rọi đèn sát vào: không có mảnh vỡ hay vết đập nát nào. Lớp bê tông cốt thép dày hai mươi phân ở góc này đã hoàn toàn mủn ra thành một đống cát mịn màu xám tro, đổ tràn xuống những bậc thang bên dưới. Giống như vật chất ở vị trí này đã "quên" mất cách liên kết với nhau. Và trên lớp cát xám ấy, có những vết lõm nông của những bước chân trần in hằn, hướng từ dưới hầm đi lên. Ai đó — hoặc thứ gì đó — đã tự giải thoát khỏi B3 *vài ngày trước* mà không tạo ra một tiếng động nào.
+Maren rọi đèn sát vào: không có mảnh vỡ hay vết đập nát nào. Lớp bê tông cốt thép dày hai mươi phân ở góc này đã hoàn toàn mủn ra thành một đống cát mịn màu xám tro, đổ tràn xuống những bậc thang bên dưới. Giống như vật chất ở vị trí này đã "quên" mất cách liên kết với nhau. Ai đó — hoặc thứ gì đó — đã tự giải thoát khỏi B3 *vài ngày trước* mà không cần đến búa tạ và không tạo ra một tiếng động nào.
 
 Maren tháo áo khoác, nhét vào ba lô, rồi luồn người qua khe nứt.
 

@@ -197,3 +197,5 @@ Khi viết chương mới cho dự án:
 1. **Luôn giữ góc nhìn sâu:** Nhân vật nhìn thấy gì, ngửi thấy gì, cảm giác luồng khí vận hành trong kinh mạch ra sao.
 2. **Không kết thúc chương bằng sự bình lặng:** Luôn có "Hook / Cliffhanger" (móc nối kịch tính) ở 3 câu cuối để thôi thúc độc giả bấm "Chương Tiếp Theo".
 3. **Mỗi chương đạt độ dài lý tưởng:** Từ 1.800 – 2.500 chữ, phân bổ 60% hành động/tiến triển cốt truyện, 25% đối thoại/tâm lý, 15% miêu tả môi trường & thế giới quan.
+4. **Cập nhật Chú giải (Lore & Characters):** BẮT BUỘC: Khi xuất hiện bất kỳ nhân vật mới, địa danh mới, hay khái niệm/đồ vật mới nào, phải GHI NGAY vào danh sách chú giải và hồ sơ nhân vật (`master_codex.md`). Tuyệt đối không được bỏ sót.
+5. **Không Chương VIP:** Hiện tại, không sử dụng tính năng chương VIP. Toàn bộ truyện và các chương truyện phải để trạng thái miễn phí 100% (`isVip: false`, `price: 0`).

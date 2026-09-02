@@ -2,11 +2,24 @@
 
 import { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
-import { 
-  Sparkles, User, X, Shield, Tag, 
+import {
+  Sparkles, User, X, Shield, Tag,
   ChevronRight, ChevronLeft, Maximize2, Eye, ChevronDown
 } from "lucide-react";
 import { getCharacterAvatarUrl } from "@/lib/images";
+
+function DefaultSilhouette({ showText = false, text = "Chưa có ảnh" }: { showText?: boolean; text?: string }) {
+  return (
+    <div className="w-full h-full relative overflow-hidden bg-slate-900">
+      <img src="/characters/default-avatar.jpeg" alt="Default Avatar" className="w-full h-full object-cover object-center opacity-70" />
+      {showText && (
+        <div className="absolute inset-0 flex flex-col items-center justify-end text-center p-4 pb-6">
+          <span className="text-[10px] sm:text-xs font-semibold text-slate-300 uppercase tracking-widest backdrop-blur-md bg-black/50 px-2 py-1 rounded shadow-lg border border-white/10">{text}</span>
+        </div>
+      )}
+    </div>
+  );
+}
 
 export interface CharacterItem {
   id: string;
@@ -184,13 +197,14 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
                     <img
                       src={avatar}
                       alt={char.name}
+                      onError={(e) => {
+                        (e.target as HTMLImageElement).src = '/characters/default-avatar.jpeg';
+                        (e.target as HTMLImageElement).onerror = null;
+                      }}
                       className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
                   ) : (
-                    <div className="w-full h-full flex flex-col items-center justify-center bg-slate-900 text-slate-600 p-4 text-center">
-                      <User className="w-10 h-10 text-[#d4af37]/40 mb-1.5" />
-                      <span className="text-xs text-slate-400">Chưa có ảnh</span>
-                    </div>
+                    <DefaultSilhouette showText={true} />
                   );
                 })()}
 
@@ -295,7 +309,7 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
                 <ChevronRight className="w-5 h-5" />
               </button>
 
-              <div 
+              <div
                 onClick={() => setIsFullscreenImage(true)}
                 className="relative flex-1 w-full max-h-[64vh] flex items-center justify-center cursor-pointer my-auto"
               >
@@ -306,6 +320,10 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
                       <img
                         src={avatar}
                         alt={selectedChar.name}
+                        onError={(e) => {
+                          (e.target as HTMLImageElement).src = '/characters/default-avatar.jpeg';
+                          (e.target as HTMLImageElement).onerror = null;
+                        }}
                         className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                       />
                       <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
@@ -378,11 +396,10 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
                       key={c.id}
                       type="button"
                       onClick={() => setSelectedIndex(i)}
-                      className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all shrink-0 cursor-pointer flex items-center gap-1.5 ${
-                        i === selectedIndex
-                          ? "bg-[#d4af37] text-slate-950 shadow-md shadow-[#d4af37]/20 font-extrabold scale-105"
-                          : "bg-white/5 text-slate-300 hover:bg-white/10 hover:text-white border border-white/5"
-                      }`}
+                      className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all shrink-0 cursor-pointer flex items-center gap-1.5 ${i === selectedIndex
+                        ? "bg-[#d4af37] text-slate-950 shadow-md shadow-[#d4af37]/20 font-extrabold scale-105"
+                        : "bg-white/5 text-slate-300 hover:bg-white/10 hover:text-white border border-white/5"
+                        }`}
                     >
                       <span>{c.name.split(" ")[0]}</span>
                     </button>
@@ -425,12 +442,14 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
                       <img
                         src={avatar}
                         alt={selectedChar.name}
+                        onError={(e) => {
+                          (e.target as HTMLImageElement).src = '/characters/default-avatar.jpeg';
+                          (e.target as HTMLImageElement).onerror = null;
+                        }}
                         className="w-full h-full object-cover object-center"
                       />
                     ) : (
-                      <div className="w-full h-full flex items-center justify-center bg-slate-900 text-slate-600">
-                        <User className="w-6 h-6 text-[#d4af37]/40" />
-                      </div>
+                      <DefaultSilhouette />
                     );
                   })()}
                   <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
@@ -457,7 +476,7 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
                       <span>{selectedChar.aliases}</span>
                     </div>
                   )}
-                  
+
                   <button
                     type="button"
                     onClick={() => setIsFullscreenImage(true)}
@@ -485,7 +504,7 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
             <div className="space-y-3 flex-1 overflow-y-auto py-3.5 pr-0.5">
               <div className="text-xs font-extrabold uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
                 <Sparkles className="w-3.5 h-3.5" />
-                <span>Tiểu Sử & Đặc Điểm</span>
+                <span>Tóm Tắt Nhân Vật</span>
               </div>
               {renderFormattedDescription(selectedChar.description)}
             </div>
@@ -498,11 +517,10 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
                     key={c.id}
                     type="button"
                     onClick={() => setSelectedIndex(i)}
-                    className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 cursor-pointer ${
-                      i === selectedIndex
-                        ? "bg-[#d4af37] text-slate-950 font-extrabold shadow-sm"
-                        : "bg-white/5 text-slate-300 border border-white/5 hover:bg-white/10"
-                    }`}
+                    className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 cursor-pointer ${i === selectedIndex
+                      ? "bg-[#d4af37] text-slate-950 font-extrabold shadow-sm"
+                      : "bg-white/5 text-slate-300 border border-white/5 hover:bg-white/10"
+                      }`}
                   >
                     {c.name.split(" ")[0]}
                   </button>
@@ -563,13 +581,14 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
                 <img
                   src={avatar}
                   alt={selectedChar.name}
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = '/characters/default-avatar.jpeg';
+                    (e.target as HTMLImageElement).onerror = null;
+                  }}
                   className="w-full h-full object-cover object-center"
                 />
               ) : (
-                <div className="w-full h-full flex flex-col items-center justify-center bg-slate-900 text-slate-600 p-6 text-center">
-                  <User className="w-16 h-16 text-[#d4af37]/40 mb-2" />
-                  <span className="text-sm text-slate-400">Chưa có ảnh chân dung</span>
-                </div>
+                <DefaultSilhouette showText={true} text="Chưa có ảnh chân dung" />
               );
             })()}
           </div>

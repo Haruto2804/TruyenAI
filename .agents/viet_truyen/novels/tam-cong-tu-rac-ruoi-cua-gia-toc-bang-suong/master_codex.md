@@ -21,6 +21,7 @@
 ### 1. Caelen Von Ravenwood
 * **Vai trò & Thân phận:** Nhân vật chính / Đệ tam công tử của gia tộc Công tước Ravenwood (Huyết Ưng Băng Sương).
 * **Danh xưng & Biệt hiệu:** Đống rác Bắc Cảnh, Công tử phế vật, Caelen, Đệ tam thiếu chủ.
+* **Tóm tắt nhân vật:** Từ một Đệ tam công tử bị xem là phế vật, Caelen lột xác thành kẻ thao túng tàn nhẫn đằng sau bức màn. Bằng đầu óc phân tích lạnh lùng và sự xảo quyệt tột độ, hắn biến mọi thế lực thành quân cờ trên bàn cờ quyền lực đẫm máu của riêng mình.
 * **Cảnh giới & Tu vi:** Ma Hạch Sơ Giai Đỉnh Phong (đang khai mở sau khi trừ 80% kịch độc).
 * **Ảnh Avatar (9:16):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/caelen-von-ravenwood.jpg`
 
@@ -59,8 +60,8 @@
 ### 2. Lilian
 * **Vai trò & Thân phận:** Hầu nữ thân cận của Caelen / Gián điệp ngầm của Nhị Trưởng Lão Karlov $\rightarrow$ Nội gián hai mang dưới quyền Caelen.
 * **Danh xưng & Biệt hiệu:** Ả hầu gái, Lilian.
+* **Tóm tắt nhân vật:** Bề ngoài là ả hầu gái nhu thuận, nhưng thực chất là con dao tẩm độc của Nhị Trưởng Lão cài cắm. Cuối cùng, ả bị Caelen thu phục bằng sự sợ hãi tột cùng, trở thành con bài hai mang đắc lực và trung thành nhất của gã.
 * **Cảnh giới & Tu vi:** Sơ Giai Sơ Kỳ (Chuyên về ám sát vi mô, điều chế độc dược mạn tính).
-* **Ảnh Avatar (9:16):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/lilian.jpg`
 
 * **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):**
   - *Vóc dáng & Thể hình:* Cao 1m65, thân hình thon thả thanh nhã, làn da trắng tuyết mịn màng, tỏa ra mùi hương hoa oải hương dịu nhẹ.
@@ -94,6 +95,7 @@
 ### 3. Evelyn Von Ravenwood
 * **Vai trò & Thân phận:** Đại tiểu thư Gia tộc Ravenwood / Quân đoàn trưởng Đội Quân Thiết Kỵ Băng Sương / Kiếm Vương Bắc Cảnh.
 * **Danh xưng & Biệt hiệu:** Nữ Kiếm Vương, Evelyn, Tỷ tỷ Thiết Huyết.
+* **Tóm tắt nhân vật:** Kiếm Vương Bắc Cảnh kiêu ngạo và lạnh lùng. Nàng là bức tường thành vững chãi bảo vệ gia tộc, luôn nhìn Caelen bằng ánh mắt thất vọng nhưng sâu thẳm bên trong lại sẵn sàng đổ máu để bảo vệ huyết mạch cuối cùng của Ravenwood.
 * **Cảnh giới & Tu vi:** Địa Giai Trung Kỳ (Cao thủ kiếm thuật hàng đầu phương Bắc).
 * **Ảnh Avatar (9:16):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/evelyn-von-ravenwood.jpg`
 
@@ -126,6 +128,7 @@
 ### 4. Valerie De Valois
 * **Vai trò & Thân phận:** Tam Công Chúa Đế Quốc Solaria / Vị hôn thê đối địch mang Huyết Chiếu từ hôn.
 * **Danh xưng & Biệt hiệu:** Công Chúa Solaria, Phượng Hoàng Lửa Vàng, Valerie.
+* **Tóm tắt nhân vật:** Tam Công Chúa kiêu kỳ mang theo Huyết Chiếu từ hôn để sỉ nhục Caelen. Nàng không ngờ hành động ngạo mạn này lại châm ngòi cho một cơn ác mộng kinh hoàng mang tên Caelen, kẻ sẽ từng bước nghiền nát sự kiêu hãnh của hoàng gia.
 * **Cảnh giới & Tu vi:** Cao Giai Đỉnh Phong (Hỏa hệ Ma Pháp Sư Quang Minh).
 * **Ảnh Avatar (9:16):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/valerie-de-valois.jpg`
 
@@ -161,6 +164,7 @@
 ### 5. Nhị Trưởng Lão Karlov
 * **Vai trò & Thân phận:** Nhị Trưởng Lão Gia Tộc Ravenwood / Quản sự Hậu Viện & Tài Chính Phân Nhánh / Phản diện nội tộc.
 * **Danh xưng & Biệt hiệu:** Nhị Trưởng Lão, Karlov, Nhị Trưởng lão Karlov, Lão già giảo hoạt.
+* **Tóm tắt nhân vật:** Lão cáo già thâm độc núp bóng Nhị Trưởng Lão, thao túng tài chính và mưu đồ đoạt quyền gia tộc. Lão dùng 5 năm hạ độc để phế bỏ Caelen, nhưng cuối cùng lại trở thành con mồi trong chính ván cờ do lão giăng ra.
 * **Cảnh giới & Tu vi:** Trung Giai Đỉnh Phong (Chuyên về Thổ hệ Ma Pháp và Cấm Thuật Huyết Hồn phong ấn).
 * **Ảnh Avatar (9:16):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/karlov.jpg`
 
@@ -264,7 +268,7 @@
   - *Vóc dáng & Thể hình:* Cao 1m60, nhỏ con, gầy nhưng nhanh nhẹn. Tay luôn lấm lem muội than và dung dịch hóa học.
   - *Mái tóc:* Ngắn ngang vai màu đồng đỏ (Copper Red) rối bù, cài lệch cặp kính bảo hộ dày cộp.
   - *Đôi mắt & Ánh nhìn:* Đôi mắt đỏ thẫm như hồng ngọc (Ruby Red), cháy bừng ngọn lửa cuồng nhiệt của kẻ đam mê khoa học.
-  - *Ngũ quan & Thần thái:* Gương mặt lọ lem nhưng đường nét tinh xảo, mũi nhỏ hếch bướng bỉnh, miệng hay cười toe toét khi thí nghiệm thành công.
+  - *Ngũ quan & Thần thái:* Gương mặt lọ lem nhưng đường nét tinh xảo, mũi nhỏ hếch bướng bướng bỉnh, miệng hay cười toe toét khi thí nghiệm thành công.
   - *Trang phục:* Bộ đồ giả kim sư bằng da thô khoác ngoài áo sơ mi trắng xắn tay, thắt lưng đai da treo lủng lẳng hàng chục lọ dung dịch đủ màu sắc. Cặp kính bảo hộ dày cộp bám đầy vết muội than.
   - *Dụng cụ:* Đũa ma pháp bằng đồng đen, sổ tay viết kín phương trình giả kim thuật chữ nhỏ li ti.
 
@@ -387,43 +391,91 @@
 * **Từ đồng nghĩa:** Ancient Dragon Treasury, Di Tích Thủy Tổ.
 * **Định nghĩa:** Nơi Thủy Tổ Ravenwood phong ấn thực lực cuối cùng của Thái Cổ Băng Long. Chỉ mở được khi Huyết Mạch Băng Long thức tỉnh hoàn toàn. Được ghi chép ở trang cuối phong ấn của Băng Sương Long Hồn Quyết.
 
+### 18. Pháo đài Frostfang
+* **Phân loại:** `Địa Danh`
+* **Từ đồng nghĩa:** Nanh Băng, Cứ điểm Ravenwood.
+* **Định nghĩa:** Trụ sở và thành lũy phòng ngự kiên cố của Gia tộc Ravenwood ở Bắc Cảnh. Nơi hứng chịu trực tiếp những cơn bão tuyết vĩnh cửu và chướng khí tràn ra từ Vực Thẳm.
+
+### 19. Hắc Ảnh Sát Thủ
+* **Phân loại:** `Sinh Vật`
+* **Từ đồng nghĩa:** Sát thủ Bóng tối.
+* **Định nghĩa:** Một chủng loại sát thủ đặc biệt (biến dị) của Hội Lưỡi Hái Hắc Ám. Thân thể cấu thành từ khói đen, có khả năng độn thổ (Ảnh Độn) và thao túng ma thú (Hắc Băng Ma Nhện) qua dấu ấn nguyền rủa sau gáy.
+
+### 20. Hắc Băng Ma Nhện
+* **Phân loại:** `Sinh Vật`
+* **Từ đồng nghĩa:** Nhện Băng Đen.
+* **Định nghĩa:** Quái vật đột biến sống ở Vực Thẳm Hoang Vu. Lớp vỏ bên ngoài được cấu thành từ băng đen độc hại, có khả năng nhả ra lưới nhện chứa chướng khí ăn mòn vũ khí và khiên ma thuật.
+
+### 21. Băng Long Thủ Vệ
+* **Phân loại:** `Sinh Vật / Cỗ Máy`
+* **Từ đồng nghĩa:** Golem Băng, Người đá bảo vệ.
+* **Định nghĩa:** Con rối ma thuật cổ đại hình dáng khổng lồ, được chắp vá từ đá tảng và băng tinh, bảo vệ Kho Tàng Cổ Thần. Sức mạnh tương đương cường giả Cao Giai Sơ Kỳ, hoạt động nhờ năng lượng từ trận đồ nối với Hàn Băng Thần Tủy. Tử huyệt nằm ở lõi năng lượng trong lồng ngực.
+
+### 22. Tàn Hồn Kẻ Gác Đền
+* **Phân loại:** `Sinh Vật / Thực Thể`
+* **Từ đồng nghĩa:** Hồn Ma Gác Đền, Tàn Hồn Cổ Đại.
+* **Định nghĩa:** Thực thể linh hồn mang chấp niệm bảo vệ Kho Tàng Cổ Thần, khoác bộ giáp cổ xưa của gia tộc Ravenwood. Hắn sẽ khảo nghiệm độ thuần khiết của Huyết mạch Băng Long trước khi cho phép bất cứ ai chạm vào di vật của Thủy Tổ.
+
+### 23. Rương Hắc Tinh Thạch
+* **Phân loại:** `Bảo Vật`
+* **Từ đồng nghĩa:** Rương Đen, Hắc Tinh Thạch.
+* **Định nghĩa:** Chiếc rương làm từ chất liệu Hắc Tinh Thạch cực kỳ rắn chắc, được Thủy Tổ Ravenwood giấu trong bức tượng rồng băng tại Kho Tàng Cổ Thần. Chứa đựng bí mật về sự sụp đổ của Kỷ Nguyên Ma Pháp và manh mối đánh bại Thần Điện Quang Minh.
+
+### 24. Phong Ấn Địa Mạch
+* **Phân loại:** `Bí Thuật / Trận Pháp`
+* **Từ đồng nghĩa:** Mana Leyline Seal.
+* **Định nghĩa:** Cột sáng khổng lồ do Thần Điện Quang Minh thiết lập từ 500 năm trước để hút cạn mana của đại lục Erebia, dồn về Thánh Sơn. Việc cắm phong ấn này đã xé rách địa mạch ở Bắc Cảnh, tạo ra Vực Thẳm Hoang Vu và chướng khí chết người. Có tổng cộng năm Phong Ấn trên đại lục.
+
+### 25. Tuyết Sơn Huyết Tế
+* **Phân loại:** `Địa Danh`
+* **Từ đồng nghĩa:** Đỉnh Tuyết Sơn máu.
+* **Định nghĩa:** Một ngọn núi tuyết nằm sâu trong khu vực Hẻm Sói Băng, nơi được đồn đại là từng diễn ra các nghi thức hiến tế tàn khốc. Thực chất, đây là nơi che giấu Phong Ấn Địa Mạch gần nhất của Thần Điện.
+
+### 26. Đại Tướng quân Kael Ravenwood
+* **Phân loại:** `Nhân Vật`
+* **Từ đồng nghĩa:** Tướng quân Kael, Chú Kael.
+* **Định nghĩa:** Em trai của Đương kim Công tước Ravenwood, chú ruột của Caelen. Một vị tướng dạn dày sương gió, trung thành tuyệt đối với gia tộc, hiện đang là Tổng Chỉ Huy trấn thủ Pháo đài Frostfang trong lúc Công tước vắng mặt. Tu vi đạt tới Cao Giai Trung Kỳ.
+
+### 27. Bóng Ma Độc Nhãn
+* **Phân loại:** `Nhân Vật`
+* **Từ đồng nghĩa:** Trưởng lão Độc Nhãn.
+* **Định nghĩa:** Một trong sáu vị Trưởng Lão của Hội Lưỡi Hái Hắc Ám. Thân thể được cường hóa bằng nghi thức hiến tế ma hạch, có khả năng kháng ma pháp hệ Băng 60%. Sử dụng vũ khí là một lưỡi hái khổng lồ tẩm độc Tán Hồn Hương. Tu vi Cao Giai Trung Kỳ. Đã bị Caelen tiêu diệt.
+
+### 28. Thống Lĩnh Gareth
+* **Phân loại:** `Nhân Vật`
+* **Từ đồng nghĩa:** Gareth Giáp Vàng.
+* **Định nghĩa:** Một trong các Thống Lĩnh của lực lượng Thánh Kỵ Sĩ thuộc Thần Điện Quang Minh. Tu vi đạt tới Cao Giai Đỉnh Phong, sử dụng trường thương tỏa Thánh Quang và cưỡi Sư Tử Băng đột biến. Được phái đến bảo vệ Phong Ấn Địa Mạch tại Tuyết Sơn Huyết Tế. Đã bị Caelen tiêu diệt.
+
+### 29. Hoàng đế Aurelius
+* **Phân loại:** `Nhân Vật`
+* **Từ đồng nghĩa:** Hoàng đế Solaria.
+* **Định nghĩa:** Vị quân vương tối cao của Đế quốc Solaria. Kẻ mang dã tâm thâu tóm toàn bộ quyền lực, luôn tìm cách kiềm chế sự bành trướng của Thần Điện Quang Minh và cân bằng thế lực của Tứ Đại Gia Tộc. Tu vi và năng lực thực sự vẫn là một ẩn số.
+
 ---
 
 ## 🧠 4. MEMORY MANAGER - TIẾN ĐỘ & TRẠNG THÁI (STATE TRACKING)
 
-### Trạng Thái Hiện Tại (Sau Chương 22):
+### Trạng Thái Hiện Tại (Sau Chương 25):
 * **Caelen:** 
-  - Cảnh giới: **Trung Giai Trung Kỳ** (tiến bộ từ Trung Giai Sơ Kỳ sau 1 tháng chiến đấu liên tục).
-  - Thành lập Vạn Thương Ngân Hàng, thâu tóm quyền kiểm soát tài chính 25 lãnh địa quý tộc Kinh đô.
-  - Dùng Băng Sương Khóa Ma Chỉ phong ấn ma hạch Thiên Giai của Đại Giáo Chủ Aldric trước toàn quân.
-  - Công bố công thức Tịnh Thuỷ miễn phí, phá vỡ hoàn toàn độc quyền Thần Điện.
-  - Tìm ra bí mật trang cuối Băng Sương Long Hồn Quyết: Kho Tàng Cổ Thần.
-  - Liên minh kinh tế-quân sự với Hoàng Tử Soren Blackmere (Hắc Nguyệt).
+  - Cảnh giới: **Trung Giai Trung Kỳ** (Chuẩn bị đột phá Cao Giai).
+  - Đã tìm thấy lối vào Kho Tàng Cổ Thần dưới lòng Vực Thẳm Hoang Vu cùng Evelyn.
 * **Evelyn:**
-  - Dẫn 2 vạn Thiết Kỵ Băng Sương hành quân tốc hành đến Kinh đô, phối hợp Hoàng Gia Vệ Binh vây hãm Thánh Kỵ Sĩ đoàn. Bị thương nhẹ vai trái trong cuộc đấu với Aldric Thiên Giai.
+  - Đồng hành cùng Caelen thám hiểm Vực Thẳm.
 * **Valerie:**
-  - Trở thành ứng cử viên Nữ Hoàng số 1 sau khi Tứ Hoàng Tử bị tước quyền. Ký sắc lệnh miễn thuế cho Tịnh Thuỷ Ravenwood. Bị cuốn hút bởi sự bí ẩn nguy hiểm của Caelen.
-* **Lilian:**
-  - Nâng cấp vai trò thành Trưởng mạng lưới tình báo Vạn Thương Ngân Hàng.
-* **Iris Flamel (MỚI):**
-  - Nhà giả kim thiên tài, phá vỡ công thức Thánh Thuỷ. Được ghi danh vào sách sử đại lục Erebia. Hiện đang nghiên cứu tại xưởng ngầm B7 Vạn Thương Ngân Hàng.
-* **Soren Blackmere (MỚI):**
-  - Hoàng Tử Thứ Hai Hắc Nguyệt, đối tác chiến lược xuyên quốc gia của Caelen. Nhận bằng chứng Aldric cấu kết Hội Lưỡi Hái. Chuẩn bị tranh ngôi với Đại Hoàng Tử.
-* **Aldric (MỚI → BỊ BẮT):**
-  - Bị Caelen phế ma hạch, bị bắt giữ vì tội phản quốc và cấu kết Hội Lưỡi Hái Hắc Ám. Thần Điện Quang Minh bị giải thể.
+  - Nắm quyền điều hành Đế quốc sau khi Thần Điện sụp đổ, tranh chấp quyền lực với các phe phái tại Hắc Nguyệt.
+* **Aldric (BỊ BẮT):**
+  - Bị giam giữ trong ngục tối, chờ ngày xét xử.
 * **Vane (Hội Lưỡi Hái Hắc Ám):**
-  - Tái tổ chức tại cứ điểm Vực Thẳm. Được tiếp thêm ma hạch cấm kỵ, cảnh giới nâng lên **Thiên Giai**. Thủ lĩnh mới của Hội Lưỡi Hái. Mục tiêu: trả thù Ravenwood.
+  - Cảnh giới **Thiên Giai**. Đã phái các đội sát thủ bóng tối truy sát Caelen ngay trong Vực Thẳm.
 * **Plot Hooks đang mở:**
-  - Hành trình tìm Kho Tàng Cổ Thần tại Vực Thẳm Hoang Vu để thức tỉnh hoàn toàn Huyết Mạch Băng Long.
-  - Vane Thiên Giai và Hội Lưỡi Hái Hắc Ám tái tổ chức, chuẩn bị trả thù.
-  - Soren tranh ngôi tại Hắc Nguyệt, cần sự hỗ trợ chiến lược của Caelen.
-  - Caelen cần đột phá lên Cao Giai → Thiên Giai để đối đầu Vane.
+  - Caelen và Evelyn phải đối mặt với cạm bẫy của Hội Lưỡi Hái trong Vực Thẳm để chiếm lấy Hàn Băng Thần Tủy.
+  - Vane trực tiếp tham gia truy sát Caelen sau khi các sát thủ thất bại.
+  - Cuộc chiến tranh giành ảnh hưởng giữa Soren và Đại Hoàng Tử tại Hắc Nguyệt có sự can thiệp ngầm của Vạn Thương Ngân Hàng.
 
 ---
 
 ## 📜 5. NHẬT KÝ TIẾN TRÌNH CỐT TRUYỆN (CHAPTER ARC)
 
-- **Chương 1:** Caelen tỉnh giấc, dùng kỹ năng sát thủ và nhãn quan hiện đại khống chế hầu nữ Lilian, lật ngược thế cờ bị hạ độc.
 - **Chương 2:** Tam Công Chúa Valerie đến từ hôn; Caelen dùng tư duy đàm phán chính trị để biến tờ Huyết Chiếu thành bản hợp đồng kinh tế khổng lồ.
 - **Chương 3:** Xâm nhập Tàng Thư Các Cổ, dùng Ma Đồng "hack" hệ thống bảo mật, hấp thu Hàn Băng Thần Tủy, thanh tẩy 100% độc tố và đột phá Trung Giai Sơ Kỳ.
 - **Chương 4:** Chuyến đi thanh tra Hẻm Sói Băng bị phục kích; Caelen tương kế tựu kế để bắt quả tang đường dây buôn lậu quặng của Nhị Trưởng Lão Karlov.

@@ -110,7 +110,8 @@ Mỗi phân cảnh chính phải tuần tự qua 3 tầng trải nghiệm:
 
 ### 🎨 [AGENT 5] VISUAL DIRECTOR (ĐẠO DIỄN HÌNH ẢNH & PROMPT 9:16)
 * **Nhiệm vụ:**
-  * Thiết kế hồ sơ ngoại hình toàn diện (**Head-to-Toe Visual Dossier**) cho từng nhân vật mới.
+  * Thiết kế hồ sơ ngoại hình toàn diện (**Head-to-Toe Visual Dossier**) cho từng nhân vật mới và viết **Tóm tắt nhân vật** ngắn gọn.
+  * **TUYỆT ĐỐI KHÔNG** sử dụng cụm từ "Tiểu sử & Tính cách" trong mô tả nhân vật.
   * Soạn sẵn **AI Prompt chuẩn Studio** (Tỉ lệ dọc **9:16**, phong cách Manhwa/Anime Fantasy cao cấp, cinematic lighting, 8k resolution).
   * Tự động ghi vào file `characters.md`.
 * **Hỗ trợ định dạng ảnh linh hoạt (`tennhanvat.*`):**
@@ -120,10 +121,10 @@ Mỗi phân cảnh chính phải tuần tự qua 3 tầng trải nghiệm:
 
 ### 📚 [AGENT 6] LOREKEEPER (BÁCH KHOA TOÀN THƯ & X-RAY HIGHLIGHTER)
 * **Nhiệm vụ:**
-  * Quét toàn bộ chương truyện để tự động phát hiện các thuật ngữ độc đáo.
+  * **BẮT BUỘC:** Bất kỳ thuật ngữ, khái niệm, đồ vật, địa danh mới nào xuất hiện trong từng chương **PHẢI** được trích xuất và đưa vào hệ thống chú giải. Nếu bỏ sót, hệ thống sẽ lỗi.
   * Phân loại danh mục chuẩn:
     * `🧪 Độc Dược` | `🔮 Bí Thuật` | `🏰 Địa Danh` | `💎 Bảo Vật` | `🛡️ Thế Lực` | `⚡ Cảnh Giới` | `📜 Công Pháp`
-  * Soạn định nghĩa cô đọng, sinh động và lưu vào `master_codex.md`.
+  * Soạn định nghĩa cô đọng, sinh động và lưu vào `master_codex.md`. (**CHÚ Ý:** Không tự vẽ thêm các mục như "Tiểu sử & Tính cách" vào định nghĩa).
   * Khi người đọc bấm vào từ khóa trên Web, hệ thống X-Ray Interactive Reader sẽ lập tức hiển thị bảng tra cứu!
 
 ---

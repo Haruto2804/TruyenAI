@@ -107,7 +107,7 @@ Maren rút điện thoại, gọi cho Erik Solvang. Bốn hồi chuông. Năm h�
 
 "Bốn giờ sáng, Engel."
 
-"Tôi đã xuống B3. Nó không bị bịt kín. Phòng thí nghiệm vẫn sạch sẽ. Ba cái ghế vẫn ở đó. Và có ai đó đang sống dưới đó." Cô dừng lại. "Ai đó đeo kính gọng vàng của Daniel Voss."
+"Tôi đã xuống B3. Lớp bê tông chặn cửa đã bị phá thủng. Phòng thí nghiệm vẫn sạch sẽ. Ba cái ghế vẫn ở đó. Và có ai đó đang sống dưới đó." Cô dừng lại. "Ai đó đeo kính gọng vàng của Daniel Voss."
 
 Im lặng kéo dài mười giây. Mười lăm giây.
 

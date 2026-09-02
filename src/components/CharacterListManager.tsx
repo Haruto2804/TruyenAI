@@ -208,7 +208,7 @@ export function CharacterListManager({
 
               <div className="space-y-2">
                 <label className="block text-sm font-medium text-slate-300">
-                  Tiểu Sử & Mô Tả Tính Cách
+                  Tóm Tắt Nhân Vật
                 </label>
                 <textarea
                   name="description"
