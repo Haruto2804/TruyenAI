@@ -116,6 +116,9 @@ Cô đặt bức ảnh Polaroid lên bàn, cạnh chiếc phong bì đen, cạnh
 
 *Và họ đang dùng tôi làm cánh cửa.*
 
-Cô cầm sổ tay, viết dòng cuối cùng cho Arc 1:
+Cô cầm sổ tay, viết dòng cuối cùng của đêm nay:
 
 *"Tôi không tìm kẻ giết Voss nữa. Tôi tìm người mà Voss đã giết — người mà cả thế giới đã quên. Và người đó có thể là mẹ tôi."*
+
+---
+**[HẾT ARC 1 - Sự Khởi Đầu Của Sự Quên Lãng]**
