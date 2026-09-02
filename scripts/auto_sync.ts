@@ -198,8 +198,16 @@ function parseDynamicCharacters(codexContent: string): any[] {
           const val = kvMatch[2].trim();
           const lowerKey = rawKey.toLowerCase();
 
-          // Strict Anti-Spoiler Guard: Never expose secret, wound, or twist to public database
-          if (lowerKey.includes("bí mật") || lowerKey.includes("vết thương") || lowerKey.includes("wound") || lowerKey.includes("twist")) {
+          // Strict Anti-Spoiler Guard: Never expose secret, wound, motivation, or twist to public database
+          if (
+            lowerKey.includes("bí mật") ||
+            lowerKey.includes("vết thương") ||
+            lowerKey.includes("wound") ||
+            lowerKey.includes("twist") ||
+            lowerKey.includes("động cơ") ||
+            lowerKey.includes("motivation") ||
+            lowerKey.includes("ẩn số")
+          ) {
             continue;
           }
 

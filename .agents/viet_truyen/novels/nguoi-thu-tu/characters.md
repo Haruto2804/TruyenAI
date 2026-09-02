@@ -17,8 +17,6 @@
 
 **Tính cách:** Bướng bỉnh, sắc sảo, không tin bất kỳ ai. Giỏi quan sát chi tiết nhỏ. Nghiện caffeine và nicotine. Sống một mình trong căn hộ studio bừa bộn ở Midtown.
 
-**Động cơ (Motivation):** Chứng minh rằng Daniel Voss không chết tự nhiên — vì nếu một người có thể "đơn giản là ngừng tồn tại", thì điều tương tự cũng đã xảy ra với mẹ cô.
-
 **Thói quen vi mô:** Cắn móng tay khi suy nghĩ; gõ bút bi lên sổ tay liên tục; nheo mắt trái khi nghi ngờ ai đó đang nói dối.
 
 ---
@@ -35,8 +33,6 @@
 
 **Tính cách:** Trầm lặng, kiên nhẫn, phương pháp. Uống whisky một mình mỗi tối. Sống trong căn nhà gỗ ven hồ ngoại ô Ashford, nuôi một con chó già tên Odin.
 
-**Động cơ:** Tìm ra sự thật về cái chết của Voss, đồng thời đối mặt với cảm giác tội lỗi về một tội ác mà ông không nhớ mình đã phạm.
-
 **Thói quen vi mô:** Xoay chiếc nhẫn cưới trên ngón tay (vợ ông đã ly hôn 10 năm trước); dùng ngón cái chà xát vết sẹo trên mu bàn tay trái khi hồi tưởng.
 
 ---
@@ -52,8 +48,6 @@
 **Ngoại hình:** Cao 1m63, mảnh khảnh, tóc đen dài thường buộc đuôi ngựa lỏng lẻo, mắt nâu đen sâu thẳm, da trắng xanh vì thiếu ngủ kinh niên. Luôn mang theo cặp kính gọng tròn mỏng và một chiếc ba lô vải nặng trĩu sách. Mặc áo hoodie oversize, quần jogger, giày sneaker trắng bẩn.
 
 **Tính cách:** Thông minh xuất chúng nhưng nhút nhát xã giao. Hay nói lắp khi căng thẳng. Ghi chép mọi thứ vào sổ tay bằng hệ thống ký hiệu riêng mà chỉ cô hiểu.
-
-**Động cơ:** Hoàn thành luận văn Tiến sĩ về "Hiện tượng ký ức tập thể sai lệch" (False Collective Memory). Nghiên cứu của cô trùng khớp một cách kỳ lạ với "Dự án Lethe" mà cô chưa hề biết đến.
 
 **Thói quen vi mô:** Xoắn lọn tóc quanh ngón tay khi đọc tài liệu; cắn môi dưới khi phát hiện mâu thuẫn trong dữ liệu; vẽ các hình xoắn ốc vô thức ở lề sổ tay.
 
