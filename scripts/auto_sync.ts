@@ -132,21 +132,25 @@ function generateCharactersMarkdown(novelSlug: string, novelTitle: string, chara
   let md = `# HỒ SƠ DIỆN MẠO NHÂN VẬT (VISUAL DOSSIER)\n`;
   md += `**Tác phẩm:** ${novelTitle}\n`;
   md += `**Thư mục lưu ảnh:** \`public/characters/${novelSlug}/\`\n`;
-  md += `**Quy tắc:** Bạn chỉ cần lưu ảnh đại diện của nhân vật vào \`public/characters/${novelSlug}/<ten-nhan-vat>.png\` (hoặc \`.jpg\`, \`.webp\`) rồi chạy \`npm run sync:novel\`. Hệ thống sẽ tự động đồng bộ lên Database và CDN!\n\n`;
+  md += `**Quy tắc:** Hồ sơ nhân vật hiển thị công khai trên Web CHỈ CHỨA thông tin bề ngoài thuần túy: Vai trò, Tuổi, Ngoại hình và Tính cách. Tuyệt đối KHÔNG có Động cơ, Bí mật, Vết thương lòng hay bất kỳ chi tiết nào tiết lộ diễn biến cốt truyện.\n\n`;
   md += `---\n\n`;
 
   characters.forEach((char, idx) => {
     const slugName = char.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d").replace(/[^a-z0-9]+/g, "-");
-    const avatarStatus = char.avatarUrl && fs.existsSync(path.join(process.cwd(), "public", char.avatarUrl))
+    const hasAvatar = char.avatarUrl && (
+      char.avatarUrl.startsWith("http") ||
+      fs.existsSync(path.join(process.cwd(), "public", char.avatarUrl))
+    );
+    const avatarStatus = hasAvatar
       ? `✅ Đã có ảnh (\`${char.avatarUrl}\`)`
-      : `⚠️ Chưa có ảnh (\`public/characters/${novelSlug}/${slugName}.png\`)`;
+      : `⚠️ Chưa có ảnh (\`public/characters/${novelSlug}/${slugName}.jpg\`)`;
 
     md += `## ${idx + 1}. ${char.name}\n`;
     md += `- **Vai trò:** ${char.role || "Chưa xác định"}\n`;
     md += `- **Biệt danh & Danh xưng:** ${char.aliases || "Không có"}\n`;
     md += `- **Trạng thái Avatar:** ${avatarStatus}\n\n`;
     
-    md += `### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):\n`;
+    md += `### 🎭 Tóm tắt diện mạo & Đặc điểm:\n`;
     md += `${char.description || "Chưa có mô tả chi tiết."}\n\n`;
     md += `---\n\n`;
   });
@@ -437,6 +441,9 @@ async function syncNovel(novelSlug: string) {
     });
     console.log(`[Character Auto-Sync] ${char.name} -> DB OK`);
   }
+
+  // Update characters.md dossier with latest avatar statuses
+  generateCharactersMarkdown(novelSlug, story.title, charactersToSync);
 
   // 3. Sync Lores from master_codex.md (both dynamic table and predefined)
   const finalLores = parseDynamicLores(codexContent);

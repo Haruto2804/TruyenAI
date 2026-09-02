@@ -58,11 +58,23 @@
 * **Ngoại hình:** Cao 1m78, gầy, tóc trắng bạc chải ngược ra sau, râu quai nón ngắn bạc trắng. Mắt xanh lá nhạt sắc lạnh, đeo kính gọng vàng mỏng. Luôn mặc vest len xám, sơ mi trắng không cà vạt, quần âu đen. Tay trái luôn đeo chiếc đồng hồ bỏ túi bạc cổ.
 * **Tính cách:** Bề ngoài ân cần, điềm đạm, uyên bác — hình mẫu giáo sư mẫu mực của giới học thuật.
 
-### 5. Các nhân vật phụ (Supporting Characters)
-* **Thanh tra Lindqvist:** Điều tra viên của Sở Cảnh sát Ashford, phụ trách khám nghiệm hiện trường phòng 307.
-* **Nils:** Cựu thủy thủ câm, chủ quán bar The Drowning Sailor tại khu Dockside, giao tiếp qua bảng phấn.
-* **Helmut Brandt:** Người thứ 13 trong bức ảnh Khoa Tâm lý năm 2004.
-* **Charlie:** Nguồn tin tại phòng điều độ Sở Cảnh sát Ashford.
+### 5. Nils
+* **Vai trò:** Chủ quán bar The Drowning Sailor (Cựu thủy thủ)
+* **Tuổi:** 60
+* **Ngoại hình:** Thân hình hộ pháp, vai rộng như vách đá, đầu trọc lốc bóng lưỡng. Khuôn mặt to bè, thô kệch. Miệng luôn mím chặt vì bị câm bẩm sinh, ánh mắt nhỏ, đen láy và sắc bén. Mặc áo thun ba lỗ xám trong chiếc tạp dề da thuộc nâu thô ráp. Cổ luôn đeo sợi dây chuyền gắn miếng bảng phấn nhỏ bằng đá phiến và viên phấn trắng để giao tiếp.
+* **Tính cách:** Trầm mặc, quan sát tinh tường, kín tiếng và am hiểu khu vực bến cảng.
+
+### 6. Thanh tra Lindqvist
+* **Vai trò:** Điều tra viên Sở Cảnh sát Ashford
+* **Tuổi:** 52
+* **Ngoại hình:** Thân hình to béo, ục ịch. Khuôn mặt phì nộn luôn đỏ ửng vì huyết áp cao và thời tiết buốt giá. Đôi mắt sưng húp mệt mỏi. Mặc đồng phục cảnh sát Ashford màu lam đen bên trong chiếc áo mưa cảnh sát màu vàng phản quang ướt sũng nước, đội mũ kết lệch sang một bên.
+* **Tính cách:** Thực dụng, quan liêu, thích sự đơn giản và tuân thủ nguyên tắc bàn giấy.
+
+### 7. Helmut Brandt
+* **Vai trò:** Cựu trợ lý nghiên cứu Khoa Tâm lý Hình sự (Năm 2004)
+* **Tuổi:** Khoảng 45
+* **Ngoại hình:** Mái tóc màu tro bết dính, gương mặt hốc hác gầy guộc, đôi mắt sâu thẳm. Mặc chiếc áo blouse trắng phòng thí nghiệm đã ố cũ.
+* **Tính cách:** Khép kín, trầm mặc, gắn liền với các công trình nghiên cứu học thuật cũ.
 
 ---
 
