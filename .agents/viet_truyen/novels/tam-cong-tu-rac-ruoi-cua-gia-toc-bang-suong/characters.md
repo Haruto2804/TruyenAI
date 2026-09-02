@@ -1,17 +1,17 @@
 # HỒ SƠ THIẾT KẾ NHÂN VẬT & PROMPT TẠO ẢNH 9:16 (CLOUDINARY CLOUD STORAGE)
-**Tác phẩm:** TAM CÔNG TỬ RÁC RƯỞI CỦA GIA TỘC BĂNG SƯƠNG
+**Tác phẩm:** Tam Công Tử Rác Rưởi Của Gia Tộc Băng Sương
 **Cloudinary Folder:** `truyen-ai/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/`
 **Quy tắc:** Mọi ảnh được tự động upload trực tiếp lên Cloudinary CDN toàn cầu. Bạn chỉ cần thả ảnh vào thư mục local rồi chạy `npm run sync:novel`, hệ thống sẽ tự động đẩy lên Cloudinary và lưu link HTTPS vĩnh viễn vào Database!
 
 ---
 
 ## 1. Caelen Von Ravenwood
-- **Vai trò:** Nhân vật chính / Đệ tam công tử của gia tộc Công tước Ravenwood (Huyết Ưng Băng Sương).
-- **Biệt danh & Danh xưng:** Đống rác Bắc Cảnh, Công tử phế vật, Caelen, Đệ tam thiếu chủ
+- **Vai trò:** Chưa xác định
+- **Biệt danh & Danh xưng:** Không có
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/caelen-von-ravenwood.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Từ một Đệ tam công tử bị xem là phế vật, Caelen lột xác thành kẻ thao túng tàn nhẫn đằng sau bức màn. Bằng đầu óc phân tích lạnh lùng và sự xảo quyệt tột độ, hắn biến mọi thế lực thành quân cờ trên bàn cờ quyền lực đẫm máu của riêng mình.
+Chưa có mô tả chi tiết.
 
 ### 🎨 AI Image Generation Prompt (Midjourney v6 / FLUX.1 / SDXL 9:16):
 ```text
@@ -23,16 +23,16 @@ masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, ci
 ---
 
 ## 2. Lilian
-- **Vai trò:** Hầu nữ thân cận của Caelen / Gián điệp ngầm của Nhị Trưởng Lão Karlov $\rightarrow$ Nội gián hai mang dưới quyền Caelen.
-- **Biệt danh & Danh xưng:** Ả hầu gái, Lilian
+- **Vai trò:** Chưa xác định
+- **Biệt danh & Danh xưng:** Không có
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/lilian.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Bề ngoài là ả hầu gái nhu thuận, nhưng thực chất là con dao tẩm độc của Nhị Trưởng Lão cài cắm. Cuối cùng, ả bị Caelen thu phục bằng sự sợ hãi tột cùng, trở thành con bài hai mang đắc lực và trung thành nhất của gã.
+Chưa có mô tả chi tiết.
 
 ### 🎨 AI Image Generation Prompt (Midjourney v6 / FLUX.1 / SDXL 9:16):
 ```text
-masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, cinematic dramatic lighting, 9:16 portrait vertical composition, 1girl, breathtaking beautiful young noblewoman, noble aristocrat, detailed facial features, expressive eyes, intricate fantasy clothing, soft volumetric lighting, floating magical particles, high contrast, 8k resolution, Unreal Engine 5 render, highly detailed anime illustration --ar 9:16 --v 6.0
+masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, cinematic dramatic lighting, 9:16 portrait vertical composition, 1boy, handsome young nobleman, noble aristocrat, detailed facial features, expressive eyes, intricate fantasy clothing, soft volumetric lighting, floating magical particles, high contrast, 8k resolution, Unreal Engine 5 render, highly detailed anime illustration --ar 9:16 --v 6.0
 ```
 
 > **💡 Hướng dẫn lưu file:** Sau khi sinh ảnh xong, lưu file vào: `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/lilian.png` (hoặc `.jpg`, `.webp`).
@@ -40,16 +40,16 @@ masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, ci
 ---
 
 ## 3. Evelyn Von Ravenwood
-- **Vai trò:** Đại tiểu thư Gia tộc Ravenwood / Quân đoàn trưởng Đội Quân Thiết Kỵ Băng Sương / Kiếm Vương Bắc Cảnh.
-- **Biệt danh & Danh xưng:** Nữ Kiếm Vương, Evelyn, Tỷ tỷ Thiết Huyết
+- **Vai trò:** Chưa xác định
+- **Biệt danh & Danh xưng:** Không có
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/evelyn-von-ravenwood.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Kiếm Vương Bắc Cảnh kiêu ngạo và lạnh lùng. Nàng là bức tường thành vững chãi bảo vệ gia tộc, luôn nhìn Caelen bằng ánh mắt thất vọng nhưng sâu thẳm bên trong lại sẵn sàng đổ máu để bảo vệ huyết mạch cuối cùng của Ravenwood.
+Chưa có mô tả chi tiết.
 
 ### 🎨 AI Image Generation Prompt (Midjourney v6 / FLUX.1 / SDXL 9:16):
 ```text
-masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, cinematic dramatic lighting, 9:16 portrait vertical composition, 1girl, breathtaking beautiful young noblewoman, noble aristocrat, detailed facial features, expressive eyes, intricate fantasy clothing, soft volumetric lighting, floating magical particles, high contrast, 8k resolution, Unreal Engine 5 render, highly detailed anime illustration --ar 9:16 --v 6.0
+masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, cinematic dramatic lighting, 9:16 portrait vertical composition, 1boy, handsome young nobleman, noble aristocrat, detailed facial features, expressive eyes, intricate fantasy clothing, soft volumetric lighting, floating magical particles, high contrast, 8k resolution, Unreal Engine 5 render, highly detailed anime illustration --ar 9:16 --v 6.0
 ```
 
 > **💡 Hướng dẫn lưu file:** Sau khi sinh ảnh xong, lưu file vào: `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/evelyn-von-ravenwood.png` (hoặc `.jpg`, `.webp`).
@@ -57,16 +57,16 @@ masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, ci
 ---
 
 ## 4. Valerie De Valois
-- **Vai trò:** Tam Công Chúa Đế Quốc Solaria / Vị hôn thê đối địch mang Huyết Chiếu từ hôn.
-- **Biệt danh & Danh xưng:** Công Chúa Solaria, Phượng Hoàng Lửa Vàng, Valerie
+- **Vai trò:** Chưa xác định
+- **Biệt danh & Danh xưng:** Không có
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/valerie-de-valois.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Tam Công Chúa kiêu kỳ mang theo Huyết Chiếu từ hôn để sỉ nhục Caelen. Nàng không ngờ hành động ngạo mạn này lại châm ngòi cho một cơn ác mộng kinh hoàng mang tên Caelen, kẻ sẽ từng bước nghiền nát sự kiêu hãnh của hoàng gia.
+Chưa có mô tả chi tiết.
 
 ### 🎨 AI Image Generation Prompt (Midjourney v6 / FLUX.1 / SDXL 9:16):
 ```text
-masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, cinematic dramatic lighting, 9:16 portrait vertical composition, 1girl, breathtaking beautiful young noblewoman, noble aristocrat, detailed facial features, expressive eyes, intricate fantasy clothing, soft volumetric lighting, floating magical particles, high contrast, 8k resolution, Unreal Engine 5 render, highly detailed anime illustration --ar 9:16 --v 6.0
+masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, cinematic dramatic lighting, 9:16 portrait vertical composition, 1boy, handsome young nobleman, noble aristocrat, detailed facial features, expressive eyes, intricate fantasy clothing, soft volumetric lighting, floating magical particles, high contrast, 8k resolution, Unreal Engine 5 render, highly detailed anime illustration --ar 9:16 --v 6.0
 ```
 
 > **💡 Hướng dẫn lưu file:** Sau khi sinh ảnh xong, lưu file vào: `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/valerie-de-valois.png` (hoặc `.jpg`, `.webp`).
@@ -74,12 +74,12 @@ masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, ci
 ---
 
 ## 5. Nhị Trưởng Lão Karlov
-- **Vai trò:** Nhị Trưởng Lão Gia Tộc Ravenwood / Quản sự Hậu Viện & Tài Chính Phân Nhánh / Phản diện nội tộc.
-- **Biệt danh & Danh xưng:** Nhị Trưởng Lão, Karlov, Nhị Trưởng lão Karlov, Lão già giảo hoạt
+- **Vai trò:** Chưa xác định
+- **Biệt danh & Danh xưng:** Không có
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/nhi-truong-lao-karlov.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Lão cáo già thâm độc núp bóng Nhị Trưởng Lão, thao túng tài chính và mưu đồ đoạt quyền gia tộc. Lão dùng 5 năm hạ độc để phế bỏ Caelen, nhưng cuối cùng lại trở thành con mồi trong chính ván cờ do lão giăng ra.
+Chưa có mô tả chi tiết.
 
 ### 🎨 AI Image Generation Prompt (Midjourney v6 / FLUX.1 / SDXL 9:16):
 ```text
@@ -91,12 +91,12 @@ masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, ci
 ---
 
 ## 6. Hắc Y Sứ Giả Vane
-- **Vai trò:** Sát thủ cấp cao / Sứ giả bóng tối của Hội Lưỡi Hái Hắc Ám.
-- **Biệt danh & Danh xưng:** Hắc Y Sứ Giả, Vane, Sát thủ Hắc Ám, Tử Thần Vực Thẳm
+- **Vai trò:** Chưa xác định
+- **Biệt danh & Danh xưng:** Không có
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/hac-y-su-gia-vane.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Sát thủ cấp cao / Sứ giả bóng tối của Hội Lưỡi Hái Hắc Ám.
+Chưa có mô tả chi tiết.
 
 ### 🎨 AI Image Generation Prompt (Midjourney v6 / FLUX.1 / SDXL 9:16):
 ```text
@@ -108,12 +108,12 @@ masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, ci
 ---
 
 ## 7. Boris Tai Đỏ
-- **Vai trò:** Thủ lĩnh băng cướp thảo khấu Biên Ải Frostfang.
-- **Biệt danh & Danh xưng:** Boris Tai Đỏ, Boris Red-Ear, Tướng cướp man di
+- **Vai trò:** Chưa xác định
+- **Biệt danh & Danh xưng:** Không có
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/boris-tai-do.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Thủ lĩnh băng cướp thảo khấu Biên Ải Frostfang.
+Chưa có mô tả chi tiết.
 
 ### 🎨 AI Image Generation Prompt (Midjourney v6 / FLUX.1 / SDXL 9:16):
 ```text
@@ -125,12 +125,12 @@ masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, ci
 ---
 
 ## 8. Đại Giáo Chủ Aldric
-- **Vai trò:** Đại Giáo Chủ Thần Điện Quang Minh / Phản diện chính Arc 2.
-- **Biệt danh & Danh xưng:** Đại Giáo Chủ, Aldric, Hiện Thân Quang Minh, Lão Quái Vật Thần Quyền
+- **Vai trò:** Chưa xác định
+- **Biệt danh & Danh xưng:** Không có
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/dai-giao-chu-aldric.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Đại Giáo Chủ Thần Điện Quang Minh / Phản diện chính Arc 2.
+Chưa có mô tả chi tiết.
 
 ### 🎨 AI Image Generation Prompt (Midjourney v6 / FLUX.1 / SDXL 9:16):
 ```text
@@ -142,12 +142,12 @@ masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, ci
 ---
 
 ## 9. Iris Flamel
-- **Vai trò:** Nhà giả kim thiên tài / Đồng minh khoa học của Caelen.
-- **Biệt danh & Danh xưng:** Iris, Nhà Giả Kim Điên Loạn, Iris Flamel
+- **Vai trò:** Chưa xác định
+- **Biệt danh & Danh xưng:** Không có
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/iris-flamel.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Nhà giả kim thiên tài / Đồng minh khoa học của Caelen.
+Chưa có mô tả chi tiết.
 
 ### 🎨 AI Image Generation Prompt (Midjourney v6 / FLUX.1 / SDXL 9:16):
 ```text
@@ -159,12 +159,12 @@ masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, ci
 ---
 
 ## 10. Hoàng Tử Soren Blackmere
-- **Vai trò:** Hoàng Tử Thứ Hai Vương quốc Hắc Nguyệt / Đồng minh chiến lược xuyên quốc gia.
-- **Biệt danh & Danh xưng:** Soren, Hoàng Tử Hắc Nguyệt, Soren Blackmere
+- **Vai trò:** Chưa xác định
+- **Biệt danh & Danh xưng:** Không có
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/hoang-tu-soren-blackmere.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Hoàng Tử Thứ Hai Vương quốc Hắc Nguyệt / Đồng minh chiến lược xuyên quốc gia.
+Chưa có mô tả chi tiết.
 
 ### 🎨 AI Image Generation Prompt (Midjourney v6 / FLUX.1 / SDXL 9:16):
 ```text

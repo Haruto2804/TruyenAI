@@ -74,6 +74,7 @@
 * **Thanh tra Lindqvist:** Điều tra viên của Sở Cảnh sát Ashford, phụ trách vụ án của Voss. Thực dụng, hoài nghi, mệt mỏi với công việc. Đại diện cho góc nhìn "người bình thường" và lý trí logic trước những sự kiện phi lý.
 * **Nils:** Cựu thủy thủ, chủ quán bar The Drowning Sailor. Bị câm bẩm sinh, giao tiếp qua bảng phấn. Vì một lý do nào đó, ông ta **miễn nhiễm với Hiệu ứng Lethe** — Nils nhớ rõ những người đã bị "xóa", bao gồm cả Helmut Brandt và quá khứ của Erik, nhưng không thể nói ra.
 * **Mẹ của Maren (Đối tượng thí nghiệm):** Người phụ nữ đã mất tích khi Maren 12 tuổi (nhưng Maren có một tấm ảnh chụp cô lúc 5 tuổi cùng Voss, ghi là "Ngày cô bé được tự do"). Rất có thể là một trong các đối tượng thí nghiệm của Dự án Lethe.
+* **Charlie:** Nguồn tin của Maren tại phòng điều độ Sở Cảnh sát Ashford. Cung cấp thông tin quan trọng rằng cảnh sát chưa bao giờ ra lệnh phong tỏa biệt thự của Giáo sư Voss ở Highcliff.
 
 ---
 
@@ -118,6 +119,22 @@
 ### 10. Ashford Tribune & Bệnh viện St. Aldric
 * **Phân loại:** `Địa điểm / Tổ chức`
 * **Định nghĩa:** *Tribune* là nhật báo nơi Maren làm việc, đại diện cho khao khát đi tìm sự thật của cô. *Bệnh viện St. Aldric* là nơi lưu giữ cái xác (được cho là) của Giáo sư Voss ở hiện tại.
+
+### 11. Bức ảnh Khoa Tâm lý năm 2004
+* **Phân loại:** `Đạo cụ / Manh mối`
+* **Định nghĩa:** Bức ảnh chụp nhóm 13 người của Khoa Tâm lý cách đây 20 năm. Người thứ 13 (Helmut Brandt) đã bị mờ đi thành một khoảng trống không mặt, khiến bàn tay của Voss đặt trên vai ông ta như đang lơ lửng trong không khí. Minh chứng của Hiệu ứng Lethe.
+
+### 12. Bức ảnh Polaroid cũ
+* **Phân loại:** `Đạo cụ / Manh mối`
+* **Định nghĩa:** Bức ảnh chụp Maren lúc 5 tuổi bám vào cổ Daniel Voss (khuôn mặt Voss từng mờ nhưng sau đó đã hiện rõ lại). Mặt sau ghi dòng chữ: "M. — Ngày cô bé được tự do. Tôi xin lỗi về tất cả."
+
+### 13. Log thẻ từ phòng 307
+* **Phân loại:** `Manh mối kỹ thuật số`
+* **Định nghĩa:** Dữ liệu truy cập văn phòng Voss đêm án mạng do Yuki trích xuất. Ghi nhận 2 lần quẹt thẻ hợp lệ (21:30 và 23:05) từ những tài khoản đã bị lỗi, bị "xóa" hoàn toàn danh tính khỏi máy chủ.
+
+### 14. Dòng chữ trên tường nhà Voss
+* **Phân loại:** `Manh mối`
+* **Định nghĩa:** Dòng chữ viết bằng bút dạ đen trong phòng làm việc tại biệt thự của Voss: "TÔI ĐANG QUÊN TÔI LÀ AI. Lethe hoạt động. Nhưng nó không dừng lại." Chứng tỏ Voss cũng bị ảnh hưởng bởi Lethe.
 
 ---
 

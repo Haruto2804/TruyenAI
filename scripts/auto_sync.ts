@@ -174,15 +174,14 @@ function parseDynamicCharacters(codexContent: string): any[] {
   const chars: any[] = [];
   let inCharSection = false;
   let currentChar: any = null;
-  let inDesc = false;
 
   const lines = codexContent.split("\n");
   for (const line of lines) {
-    if (line.includes("2. CHARACTER CODEX")) {
+    if (line.includes("2. CHARACTER CODEX") || line.includes("HỒ SƠ NHÂN VẬT")) {
       inCharSection = true;
       continue;
     }
-    if (inCharSection && line.startsWith("## ")) {
+    if (inCharSection && line.startsWith("## ") && !line.includes("CHARACTER") && !line.includes("NHÂN VẬT")) {
       inCharSection = false;
       if (currentChar) { chars.push(currentChar); currentChar = null; }
       break;
@@ -190,30 +189,44 @@ function parseDynamicCharacters(codexContent: string): any[] {
 
     if (inCharSection) {
       if (line.startsWith("### ")) {
-        if (currentChar) chars.push(currentChar);
-        const match = line.match(/^###\s+\d+\.\s+(.+)$/);
+        if (currentChar) {
+          chars.push(currentChar);
+          currentChar = null;
+        }
+        // If it's a subheader like "### 5. Các nhân vật phụ", don't treat it as a single character
+        if (line.toLowerCase().includes("nhân vật phụ") || line.toLowerCase().includes("supporting characters")) {
+          continue;
+        }
+
+        const match = line.match(/^###\s+(?:\d+\.\s+)?(.+?)(?:\s*\([^)]*\))?$/);
+        const name = match ? match[1].trim() : line.replace("###", "").trim();
         currentChar = {
-          name: match ? match[1].trim() : line.replace("###", "").trim(),
+          name,
           role: "",
           aliases: "",
           description: ""
         };
-        inDesc = false;
       } else if (currentChar) {
-        if (line.includes("**Vai trò & Thân phận:**")) {
-          currentChar.role = line.split("**Vai trò & Thân phận:**")[1].trim();
-          if (!currentChar.description) currentChar.description = currentChar.role; // fallback
-        } else if (line.includes("**Thân phận:**")) {
-          currentChar.role = line.split("**Thân phận:**")[1].trim();
-          if (!currentChar.description) currentChar.description = currentChar.role; // fallback
-        } else if (line.includes("**Danh xưng & Biệt hiệu:**")) {
-          currentChar.aliases = line.split("**Danh xưng & Biệt hiệu:**")[1].trim().replace(/\.$/, "");
-        } else if (line.includes("**Đặc điểm:**")) {
-          currentChar.description = line.split("**Đặc điểm:**")[1].trim();
-        } else if (line.includes("**Tóm tắt nhân vật:**")) {
-          currentChar.description = line.split("**Tóm tắt nhân vật:**")[1].trim();
-        } else if (line.includes("**Tóm tắt:**")) {
-          currentChar.description = line.split("**Tóm tắt:**")[1].trim();
+        if (line.match(/\*\*(?:Vai trò & Thân phận|Thân phận|Vai trò)\*\*:/i)) {
+          currentChar.role = line.split(/:\s*/)[1]?.trim() || "";
+        } else if (line.match(/\*\*(?:Danh xưng & Biệt hiệu|Biệt danh|Biệt hiệu|Bí danh)\*\*:/i)) {
+          currentChar.aliases = line.split(/:\s*/)[1]?.trim().replace(/\.$/, "") || "";
+        } else if (line.match(/\*\*(?:Ngoại hình|Tính cách|Vết thương lòng|Động cơ|Bí mật|Thói quen vi mô|Đặc điểm|Tóm tắt|Mô tả)\*\*:/i)) {
+          const detail = line.replace(/^\s*\*\s*/, "").trim();
+          currentChar.description = currentChar.description ? `${currentChar.description}\n${detail}` : detail;
+        }
+      } else if (line.trim().startsWith("* **") && line.includes(":**")) {
+        // Handle supporting characters list: "* **Thanh tra Lindqvist:** Điều tra viên..."
+        const suppMatch = line.match(/^\s*\*\s*\*\*(.+?)\*\*:\s*(.+)$/);
+        if (suppMatch) {
+          const suppName = suppMatch[1].replace(/\s*\([^)]*\)/g, "").trim();
+          const suppDesc = suppMatch[2].trim();
+          chars.push({
+            name: suppName,
+            role: "Nhân vật phụ",
+            aliases: "",
+            description: suppDesc
+          });
         }
       }
     }
@@ -238,7 +251,7 @@ function parseDynamicLores(codexContent: string): any[] {
         continue;
       }
     }
-    if (inLoreSection && line.startsWith("## ")) {
+    if (inLoreSection && line.startsWith("## ") && !normalizedLine.includes("LORE") && !normalizedLine.includes("GLOSSARY") && !normalizedLine.includes("CHÚ GIẢI")) {
       inLoreSection = false;
       if (currentLore) { lores.push(currentLore); currentLore = null; }
       break;
@@ -247,7 +260,7 @@ function parseDynamicLores(codexContent: string): any[] {
     if (inLoreSection) {
       if (line.startsWith("### ")) {
         if (currentLore) lores.push(currentLore);
-        const match = line.match(/^###\s+\d+\.\s+(.+)$/);
+        const match = line.match(/^###\s+(?:\d+\.\s+)?(.+)$/);
         currentLore = {
           term: match ? match[1].trim() : line.replace("###", "").trim(),
           category: "Khái Niệm",
@@ -258,8 +271,8 @@ function parseDynamicLores(codexContent: string): any[] {
         if (line.includes("**Phân loại:**")) {
           const m = line.match(/`([^`]+)`/) || line.match(/\*\*(?:Phân loại:)\*\*\s*(.+)/);
           if (m && m[1]) currentLore.category = m[1].replace(/[`🔮🧪💎🏰🛡️⚡📜🌿✨🗡️]/g, "").trim();
-        } else if (line.includes("**Từ đồng nghĩa:**")) {
-          currentLore.aliases = line.split("**Từ đồng nghĩa:**")[1].trim().replace(/\.$/, "");
+        } else if (line.includes("**Từ đồng nghĩa:**") || line.includes("**Biệt danh:**")) {
+          currentLore.aliases = line.split(/:\s*/)[1]?.trim().replace(/\.$/, "") || "";
         } else if (line.includes("**Định nghĩa:**")) {
           currentLore.definition = line.split("**Định nghĩa:**")[1].trim();
         } else if (line.trim().length > 0 && !line.includes("**Phân loại:**") && !line.includes("**Từ đồng nghĩa:**") && !line.includes("**Định nghĩa:**")) {
@@ -280,7 +293,7 @@ function parseDynamicLores(codexContent: string): any[] {
         continue;
       }
     }
-    if (inLoreTable && line.startsWith("## ")) {
+    if (inLoreTable && line.startsWith("## ") && !normalizedLine.includes("DANH MỤC") && !normalizedLine.includes("LORE")) {
       inLoreTable = false;
       break;
     }
@@ -326,6 +339,7 @@ async function syncNovel(novelSlug: string) {
 
   // 1. Parse Story Info Dynamically
   const titleMatch = codexContent.match(/>\s*\*\*Tên tiểu thuyết:\*\*\s*(.*)/i) ||
+                     codexContent.match(/\*\*(?:Tựa Truyện|Tựa truyện|Tên truyện):\*\*\s*(.*)/i) ||
                      codexContent.match(/#\s*(?:HỒ SƠ TỔNG QUAN.*?:\s*|MASTER CODEX:\s*)(.*)/i) ||
                      codexContent.match(/^#\s*(.*)/m);
   let title = titleMatch ? titleMatch[1].trim() : novelSlug;
@@ -335,13 +349,15 @@ async function syncNovel(novelSlug: string) {
 
   const genreMatch = codexContent.match(/>\s*\*\*Thể loại:\*\*\s*(.*)/i) ||
                      codexContent.match(/\*\*Thể loại:\*\*\s*(.*)/i);
-  const genre = genreMatch ? genreMatch[1].trim() : (novelSlug === "ta-sinh-ra-la-phan-dien" ? "Tiên Hiệp Game RPG, Hệ Thống Phản Diện" : "Huyền Huyễn, Tiên Hiệp");
+  const genre = genreMatch ? genreMatch[1].trim() : (novelSlug === "ta-sinh-ra-la-phan-dien" ? "Tiên Hiệp Game RPG, Hệ Thống Phản Diện" : "Huyền Huyễn, Trinh Thám");
 
   const summaryMatch = codexContent.match(/>\s*\*\*Mô tả ngắn:\*\*\s*(.*)/i) ||
-                       codexContent.match(/\*\*Mô tả:\*\*\s*(.*)/i);
+                       codexContent.match(/\*\*(?:Mô tả|Tóm tắt|Mô tả bối cảnh):\*\*\s*(.*)/i);
   let summary = summaryMatch ? summaryMatch[1].trim() : "";
   if (!summary) {
-    if (novelSlug === "ta-sinh-ra-la-phan-dien") {
+    if (novelSlug === "nguoi-thu-tu") {
+      summary = `Thành phố cảng sương mù Ashford – nơi một giáo sư tâm lý hình sự chết trong phòng khóa kín, để lại manh mối về một dự án bí mật mang tên Lethe có khả năng xóa sự tồn tại của con người khỏi nhận thức nhân loại. Nữ phóng viên điều tra Maren Engel dấn thân vào vụ án để tìm kiếm sự thật về người mẹ mất tích, nhưng càng đào sâu, cô càng nhận ra ký ức của chính mình cũng đang bị thao túng...`;
+    } else if (novelSlug === "ta-sinh-ra-la-phan-dien") {
       summary = `Bối cảnh diễn ra trong thế giới của tựa game RPG độ khó ác mộng mang tên 《Cửu Giới Tru Tiên Lục》.\n\nNinh Huyền Dạ – đích tử của Cổ Tộc Vô Cực tại Thượng Giới, đồng thời là Chân Truyền của Thái Sơ Tiên Tông, thức tỉnh trong thân xác Boss Phản Diện Màn Đầu mang số mệnh làm đá lót đường cho Khí Vận Chi Tử.\n\nKích hoạt Hệ Thống Nghịch Thiên Cải Mệnh Phản Diện, nhìn thấu điểm Khí Vận và kịch bản cuộc đời của mọi NPC. Đối diện với Khí Vận Chi Tử mang theo tàn hồn lão tổ tới cửa chất vấn, Ninh Huyền Dạ bắt đầu giăng bẫy tước đoạt cơ duyên, biến toàn bộ thiên kiêu thành quân cờ trên bàn cờ của mình...`;
     } else if (novelSlug === "tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong") {
       summary = `Đại Lục Erebia – một thế giới ma pháp cổ điển đang bước vào thời kỳ suy tàn của các đại gia tộc huyết thống trước sự trỗi dậy của Thần Điện Quang Minh.\n\nCaelen Von Ravenwood – Đệ tam công tử của gia tộc Công tước Băng Sương khét tiếng phương Bắc, kẻ bị cả kinh đô khinh miệt là "Đống rác của Bắc Cảnh", một kẻ nghiện rượu, đồi bại và bất tài. Không ai biết rằng, hắn thực chất đã bị đầu độc bằng kịch độc "Hắc Tử La Lan" làm nghẽn kinh mạch suốt năm năm qua.\n\nKhi một linh hồn chiến thuật gia kiêm sát thủ thời hiện đại nhập xác, Ma Đồng Giải Cấu thức tỉnh, nhìn thấu mọi mạch chảy mana và điểm yếu ma pháp. Đối diện với vị hôn thê Công chúa kiêu ngạo mang Huyết Chiếu đến phế hôn và âm mưu đày hắn làm vật tế thần nơi Vực Thẳm Hoang Vu, "tên phế vật" bắt đầu mỉm cười...`;
@@ -359,7 +375,6 @@ async function syncNovel(novelSlug: string) {
   });
   console.log(`Story ID: ${story.id} (${story.title}) -> Cover: ${coverUrl}`);
 
-  // 2. Defined Character Prompts & Dossiers
   // 2. Parsed Characters from master_codex.md
   const defaultCharacters = parseDynamicCharacters(codexContent);
 
@@ -382,13 +397,13 @@ async function syncNovel(novelSlug: string) {
       data: {
         storyId: story.id,
         name: char.name,
-        role: char.role,
+        role: char.role || "Nhân vật",
         aliases: char.aliases,
         avatarUrl: char.avatarUrl,
-        description: char.description
+        description: char.description || char.name
       }
     });
-    console.log(`[Character Auto-Sync] ${char.name} -> Avatar: ${char.avatarUrl}`);
+    console.log(`[Character Auto-Sync] ${char.name} -> DB OK`);
   }
 
   // Generate / Update characters.md dossier for the user
@@ -431,10 +446,13 @@ async function syncNovel(novelSlug: string) {
 
       const lines = rawText.split("\n");
       const firstLine = lines.find(l => l.startsWith("# "));
-      let chapterTitle = `Chương ${chapterNo}`;
+      let cleanSubTitle = "";
       if (firstLine) {
-        chapterTitle = firstLine.replace(/^#\s*/, "").replace(/^Chương\s*\d+[:\s-]*/i, "").trim();
+        cleanSubTitle = firstLine.replace(/^#\s*/, "").replace(/^Chương\s*\d+[:\s-]*/i, "").trim();
       }
+      
+      // Standardize Chapter Title strictly to: "Chương <số>: <Tiêu đề chương>"
+      const finalTitle = cleanSubTitle ? `Chương ${chapterNo}: ${cleanSubTitle}` : `Chương ${chapterNo}`;
 
       const bodyLines = lines.filter(l => !l.startsWith("# "));
       // Clean asterisks permanently
@@ -448,7 +466,7 @@ async function syncNovel(novelSlug: string) {
           }
         },
         update: {
-          title: chapterTitle,
+          title: finalTitle,
           content: cleanedBody,
           isVip: false,
           price: 0
@@ -456,14 +474,14 @@ async function syncNovel(novelSlug: string) {
         create: {
           storyId: story.id,
           chapterNo: chapterNo,
-          title: chapterTitle,
+          title: finalTitle,
           content: cleanedBody,
           isVip: false,
           price: 0
         }
       });
 
-      console.log(`[Chapter Auto-Sync] #${chapterNo}: ${chapterTitle} -> DB OK`);
+      console.log(`[Chapter Auto-Sync] #${chapterNo}: ${finalTitle} -> DB OK`);
     }
   }
 
