@@ -70,6 +70,11 @@
 * **Bí mật lớn nhất (TWIST):** Voss không chết. Ông ta đã sử dụng phiên bản hoàn thiện của Dự án Lethe lên chính mình — tự xóa sự tồn tại của mình khỏi ký ức cả thế giới để trốn chạy khỏi tội lỗi quá khứ. Cái "xác" trong căn phòng khóa trái là Helmut Brandt — đối tượng thí nghiệm thứ 3 đã bị "xóa" 20 năm trước, gần đây tìm cách tái xuất hiện và tìm đến Voss đòi công lý. Voss giết ông ta, sau đó dùng Lethe khiến mọi người "nhớ nhầm" xác chết là Voss.
 * **Thói quen vi mô:** Lau kính bằng vạt áo vest khi cần thời gian suy nghĩ; gõ nhẹ chiếc đồng hồ bỏ túi 3 lần trước khi đưa ra quyết định quan trọng.
 
+### 5. Các nhân vật phụ (Supporting Characters)
+* **Thanh tra Lindqvist:** Điều tra viên của Sở Cảnh sát Ashford, phụ trách vụ án của Voss. Thực dụng, hoài nghi, mệt mỏi với công việc. Đại diện cho góc nhìn "người bình thường" và lý trí logic trước những sự kiện phi lý.
+* **Nils:** Cựu thủy thủ, chủ quán bar The Drowning Sailor. Bị câm bẩm sinh, giao tiếp qua bảng phấn. Vì một lý do nào đó, ông ta **miễn nhiễm với Hiệu ứng Lethe** — Nils nhớ rõ những người đã bị "xóa", bao gồm cả Helmut Brandt và quá khứ của Erik, nhưng không thể nói ra.
+* **Mẹ của Maren (Đối tượng thí nghiệm):** Người phụ nữ đã mất tích khi Maren 12 tuổi (nhưng Maren có một tấm ảnh chụp cô lúc 5 tuổi cùng Voss, ghi là "Ngày cô bé được tự do"). Rất có thể là một trong các đối tượng thí nghiệm của Dự án Lethe.
+
 ---
 
 ## 📜 3. LORE & GLOSSARY CODEX (BÁCH KHOA CHÚ GIẢI)
@@ -106,12 +111,12 @@
 
 ## 🧠 4. MEMORY MANAGER — TIẾN ĐỘ & TRẠNG THÁI
 
-### Trạng Thái Hiện Tại (Trước Chương 1):
-* **Vụ án:** Giáo sư Daniel Voss được phát hiện chết trong văn phòng tại Đại học Ashford, cửa khóa trái từ bên trong. Cảnh sát kết luận đột tử tự nhiên. 3 Phong bì Đen được gửi đến Maren, Erik và Yuki.
-* **Maren Engel:** Nhận được Phong bì Đen. Bắt đầu điều tra vụ chết của Voss cho tòa soạn. Chưa biết gì về Dự án Lethe.
-* **Erik Solvang:** Nhận được Phong bì Đen. Đang sống ẩn dật ven hồ. Ác mộng về căn phòng trắng ngày càng dữ dội.
-* **Yuki Tanaka:** Nhận được Phong bì Đen. Đang hoàn thành luận văn về "ký ức tập thể sai lệch". Phát hiện các dữ liệu bất thường trong nghiên cứu của Voss.
-* **Daniel Voss:** "Chết" (thực tế: đang ẩn náu, bắt đầu mất dần ký ức về chính mình do Hiệu ứng Lethe quay ngược).
+### Trạng Thái Hiện Tại (Sau Arc 1 - Hết Chương 6):
+* **Vụ án:** Maren nhận ra cái xác có thể không phải là Voss, và Voss từng biết cô lúc 5 tuổi. Cô phát hiện mẹ mình có liên quan đến Dự án Lethe. Cô đột nhập hầm B3 và thấy phòng thí nghiệm vẫn được sử dụng.
+* **Maren Engel:** Vừa kết nối các manh mối: mẹ cô bị "xóa", bức ảnh lúc 5 tuổi với Voss, và bóng người đeo kính gọng vàng trong hầm B3. Đã gọi cho Erik hẹn gặp.
+* **Erik Solvang:** Bị Maren đánh thức lúc 4 giờ sáng, nghe tin B3 vẫn hoạt động và đang trên đường đến Đại học Ashford. Đã thừa nhận mình có "6 tháng khoảng trống ký ức" liên quan đến Lethe 20 năm trước.
+* **Yuki Tanaka:** Đã cung cấp log thẻ từ cho Maren (thấy 2 người vô danh vào phòng Voss đêm án mạng) và danh sách nhân sự (lộ tên Helmut Brandt). Đã kể về "Xóa tồn tại có chọn lọc".
+* **Daniel Voss:** "Chết" (thực tế: bóng người Maren nhìn thấy trong phòng quan sát ở B3 có thể chính là ông ta).
 
 ### Plot Hooks đang mở:
 * Ai gửi 3 Phong bì Đen? (Voss gửi trước khi "chết"? Hay một người đã bị "xóa" đang cố tái xuất?)
@@ -119,9 +124,17 @@
 * Nils (chủ quán bar) tại sao miễn nhiễm với Hiệu ứng Lethe?
 * 3 cuốn sổ tay mất tích đang ở đâu?
 * Yuki có mối liên hệ gì với Dự án Lethe?
+* **MỚI:** Bóng người đeo kính gọng vàng ở B3 là ai? Voss hay một tạo ảnh tàn dư?
+* **MỚI:** Mẹ của Maren đóng vai trò gì trong Dự án Lethe? Giọng nói trong đầu Maren là mẹ cô, hay là ảo giác?
 
 ---
 
 ## 📜 5. NHẬT KÝ TIẾN TRÌNH CỐT TRUYỆN (CHAPTER ARC)
 
-*(Sẽ được cập nhật sau mỗi chương)*
+* **Arc 1 (POV Maren): Chương 1 - 6**
+  * **C1:** Maren điều tra cái xác của Voss. Thấy chữ "L-E-T-H". Nhận tin nhắn bí ẩn và nghe giọng nói lạ.
+  * **C2:** Phát hiện bức ảnh nhóm 2004 bị mờ. Tìm thấy dòng chữ tuyệt vọng ở nhà Voss.
+  * **C3:** Gặp Erik Solvang, biết về khoảng trống 6 tháng và tầng hầm B3. Lời cảnh báo từ Nils.
+  * **C4:** Gặp Yuki, biết về hiện tượng "Xóa tồn tại có chọn lọc" và Helmut Brandt.
+  * **C5:** Đột nhập hầm B3, phát hiện phòng thí nghiệm còn hoạt động, chụp được bóng người đeo kính gọng vàng.
+  * **C6:** Maren tìm thấy bức ảnh Polaroid của cô và Voss lúc 5 tuổi, kết luận mẹ cô bị "xóa" bởi Dự án Lethe. Đánh thức Erik. Hết Arc 1.
