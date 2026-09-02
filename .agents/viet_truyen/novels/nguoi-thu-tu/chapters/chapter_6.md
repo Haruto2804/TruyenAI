@@ -30,11 +30,15 @@ Maren đóng laptop, xoa mắt. Cô đã thức liên tục ba mươi sáu tiế
 
 Cô với tay lấy hộp bìa cứng dưới gầm giường — hộp đựng đồ cá nhân duy nhất cô giữ từ thời ở trại trẻ mồ côi. Bên trong: vài bức ảnh cũ, một con gấu bông mất một mắt, và một chiếc hộp thiếc nhỏ đựng đồ trang sức rẻ tiền của mẹ cô.
 
-Cô mở chiếc hộp thiếc. Một sợi dây chuyền bạc, một đôi bông tai giả ngọc trai, và — dưới đáy, lót bằng giấy lụa — một bức ảnh Polaroid cô chưa bao giờ chú ý.
+Cô mở chiếc hộp thiếc. Một sợi dây chuyền bạc, một đôi bông tai giả ngọc trai, và — dưới đáy, lót bằng giấy lụa — một bức ảnh Polaroid cũ rích. 
 
-Bức ảnh cũ, màu phai, góc quăn. Chụp trong một căn phòng — tường trắng, ánh đèn huỳnh quang, sàn gạch. Một bé gái khoảng năm tuổi, tóc nâu sẫm, mắt xám xanh, đang cười, hai tay giơ lên bám vào cổ một người đàn ông đang bế cô bé.
+Suốt hai mươi hai năm qua, Maren đã nhìn bức ảnh này không dưới hàng trăm lần. Nó chụp một bé gái khoảng năm tuổi — chính là cô — đang giơ hai tay bám vào cổ ai đó. Nhưng người bế cô luôn là một khoảng trắng xóa, mờ xỉn, như thể cuộn phim hỏng.
 
-Người đàn ông đeo kính gọng vàng.
+Nhưng đêm nay, dưới ánh đèn huỳnh quang nhấp nháy của căn studio, khoảng trắng xóa đó đang rung động. Lớp sương mù ký ức — hay Hiệu ứng Lethe — đang từ từ bóc tách.
+
+Giống như việc rửa một cuộn phim cũ, hình dáng người đàn ông trong bức ảnh dần dần hiện rõ trên nền giấy. Rõ nét. Sống động.
+
+Một người đàn ông đeo kính gọng vàng.
 
 Maren nhìn khuôn mặt đó. Trẻ hơn hai mươi năm, tóc chưa bạc trắng, không có râu, nhưng đôi mắt xanh lá nhạt và chiếc kính gọng vàng mỏng — không thể nhầm lẫn.
 

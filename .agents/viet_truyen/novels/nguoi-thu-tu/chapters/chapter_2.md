@@ -49,6 +49,14 @@ Sáng hôm sau, Maren đến nhà riêng của Voss.
 
 Căn biệt thự hai tầng nằm trên đồi Highcliff, khuất sau hàng rào dẻ gai vàng úa. Mưa đã ngớt nhưng sương mù vẫn bám trên mọi bề mặt, biến cánh cổng sắt rèn thành một bức tranh thủy mặc nhòe nhoẹt.
 
+Cô dừng xe cách đó một dãy nhà, chuẩn bị sẵn tâm lý phải lẩn tránh xe tuần tra và dải băng phong tỏa. Nhưng trước cổng không có một viên cảnh sát nào. Trống trơn. 
+
+Maren nhíu mày, rút điện thoại gọi cho nguồn tin của cô ở phòng điều độ Sở Cảnh sát. 
+"Charlie, tại sao nhà của Giáo sư Voss ở Highcliff không có đội khám xét?"
+Đầu dây bên kia im lặng một nhịp. *"Ai cơ? Voss nào? Sếp không hề ra lệnh cử đội đi niêm phong nhà ai tên Voss cả, Engel à."*
+
+Cổ họng cô nghẹn lại. Một giáo sư nổi tiếng chết bất thường, và Sở cảnh sát đã... quên mất việc phong tỏa nhà ông ta?
+
 Cánh cổng không khóa. Maren đẩy nhẹ, bản lề kêu cót két.
 
 Bên trong, khu vườn bỏ hoang. Cỏ dại mọc đến đầu gối, lối đi lát đá phủ rêu xanh trơn tuột. Không có dấu hiệu ai đã cắt cỏ hay chăm sóc vườn tược từ rất lâu — kỳ lạ đối với một giáo sư nổi tiếng, giàu có.
@@ -85,6 +93,6 @@ Và nếu Daniel Voss đang tự xóa mình... thì xác chết trong phòng 307
 
 Điện thoại rung. Lại số lạ. Lần này không phải tin nhắn — mà là một cuộc gọi nhỡ kéo dài đúng một giây. Khi cô gọi lại, đầu dây bên kia phát ra tiếng tĩnh điện trắng kéo dài ba mươi giây, rồi ngắt.
 
-Trong ba mươi giây tĩnh điện đó, Maren nghe thấy — hoặc tưởng mình nghe thấy — tiếng thở. Chậm. Đều. Kiên nhẫn.
+Trong ba mươi giây tĩnh điện đó, một tiếng thở khẽ vang lên — hoặc Maren tự huyễn hoặc rằng nó có tồn tại. Chậm. Đều. Kiên nhẫn.
 
 Như thể ai đó đang ngồi im lặng ở đầu dây bên kia, chờ cô tìm ra đúng câu hỏi để hỏi.

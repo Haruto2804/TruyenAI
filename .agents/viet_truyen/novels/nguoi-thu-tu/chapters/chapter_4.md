@@ -42,9 +42,9 @@ Maren dừng bút. "Xóa tồn tại?"
 
 "Voss có dữ liệu không?"
 
-"Ông ấy có hàng tá case study. Tất cả ở trong ba cuốn sổ tay mà ông ấy không bao giờ cho ai chạm vào — cuốn XLV, XLVI và XLVII." Yuki nhíu mày. "Nhưng khi tôi vào phòng ông ấy sau khi... sau khi ông ấy mất, ba cuốn đó không còn ở đó."
+"Ông ấy có hàng tá case study. Tất cả ở trong ba cuốn sổ tay mà ông ấy không bao giờ cho ai chạm vào — cuốn XLV, XLVI và XLVII." Yuki nhíu mày. "Chiều hôm qua, khi ông ấy đi họp, tôi dọn dẹp bàn làm việc và phát hiện ba cuốn đó biến mất khỏi kệ thép an toàn. Đó là lý do tối qua tôi tức tốc lên phòng ông ấy lúc 20h15 để hỏi, nhưng ông ấy đuổi tôi về."
 
-"Tôi biết. 44 cuốn còn, 3 cuốn biến mất."
+"Tôi biết. Sáng nay lúc tôi đến hiện trường, 44 cuốn còn, 3 cuốn biến mất."
 
 Yuki nhìn Maren bằng đôi mắt nâu đen giãn to. "Cô cũng đang tìm chúng?"
 
@@ -70,7 +70,7 @@ Yuki mở mắt. Có một thứ gì đó vỡ ra trong ánh nhìn của cô —
 
 "Không ai trên thế giới *nhớ* rằng tôi thuộc về ai."
 
-Maren cảm thấy sàn phòng nghiêng đi dưới chân — một cảm giác chóng mặt nhẹ, thoáng qua. *Mẹ cô. Mẹ cô mất tích khi cô mười hai tuổi. Không ai tìm thấy. Không ai nhớ rõ mặt bà.*
+Sàn phòng dưới chân Maren đột ngột nghiêng đi — một cơn chóng mặt nhẹ, thoáng qua. *Mẹ cô. Mẹ cô mất tích khi cô mười hai tuổi. Không ai tìm thấy. Không ai nhớ rõ mặt bà.*
 
 *Chuyện của Yuki và chuyện của cô — có liên quan không?*
 
@@ -96,7 +96,7 @@ Yuki gật đầu. "Tôi sẽ gửi cho cô. Nhưng..." Cô ngập ngừng, vẽ
 
 "Gì?"
 
-"Tôi đã kiểm tra lịch sử truy cập phòng 307 bằng hệ thống thẻ từ của trường. Đêm Voss chết, có bốn lần quẹt thẻ. Thẻ của Voss lúc 19:47. Thẻ của tôi lúc 20:15 — tôi ghé qua trả sách. Và hai lần quẹt thẻ nữa."
+"Sáng nay lúc nghe tin, tôi đã lén dùng tài khoản Admin của Voss — ông ấy có thói quen viết mật khẩu dưới gầm bàn phím — để trích xuất lịch sử truy cập phòng 307. Đêm Voss chết, có bốn lần quẹt thẻ. Thẻ của Voss lúc 19:47. Thẻ của tôi lúc 20:15 — lúc tôi lên hỏi về ba cuốn sổ. Và hai lần quẹt thẻ nữa."
 
 "Của ai?"
 

@@ -14,9 +14,9 @@ Sổ tay ghi chép nằm mở trong lòng bàn tay trái của cô, mực bút b
 
 Giọng Thanh tra Lindqvist cất lên từ bậc thềm tòa nhà. Ông ta đứng dưới mái hiên, mũ kết ướt sũng, khuôn mặt phì nộn đỏ bừng trong ánh đèn cổng — trông như một con cá mập bị mắc cạn đang cố giữ vẻ uy nghi.
 
-Maren bước qua dải băng. Không ai ngăn cô lại. Ở Ashford, phóng viên Tribune có quyền tiếp cận hiện trường không chính thức — không phải vì luật cho phép, mà vì tòa soạn nắm giữ đủ bí mật bẩn của Sở Cảnh sát để đổi lấy sự "hợp tác".
+Maren bước qua dải băng. Không ai ngăn cô lại. Lindqvist nợ cô một ân tình — cô từng ém nhẹm vụ bê bối của ông ta trên mặt báo Tribune nửa năm trước. Đổi lại, ông ta chừa cho cô đúng năm phút xem hiện trường trước khi Đội khám nghiệm (CSI) đến.
 
-"Đột tử." Lindqvist nói trước khi cô kịp hỏi. Ông ta khoanh tay, mắt nhìn đi chỗ khác. "Tim ngừng đập. Không dấu vết ngoại lực. Không chất độc. Cửa khóa trong. Cửa sổ cũng khóa trong. Báo động không kích hoạt."
+"Đội Pháp y kẹt xe vì tai nạn liên hoàn trên cao tốc do bão," Lindqvist nói trước khi cô kịp thắc mắc tại sao hiện trường lại vắng vẻ. Ông ta khoanh tay, mắt nhìn đi chỗ khác. "Đột tử. Tim ngừng đập. Không dấu vết ngoại lực. Không chất độc. Cửa khóa trong. Cửa sổ cũng khóa trong."
 
 "Ông ấy ngồi hay nằm khi được phát hiện?"
 
@@ -72,7 +72,7 @@ Maren rút điện thoại, bật camera, chụp liên tiếp: mặt bàn trốn
 
 Rồi cô nhìn thấy nó.
 
-Trên sàn gỗ, ngay dưới chân bàn, ở vị trí mà chân ghế che khuất — một vết trầy nhỏ. Không phải vết trầy ngẫu nhiên. Đó là chữ. Được cào vào gỗ bằng vật nhọn, rất nhỏ, rất vội vã.
+Trên sàn gỗ, ngay dưới chân bàn, ở vị trí mà chân ghế che khuất — một vết trầy nhỏ. Không phải vết trầy ngẫu nhiên. Đó là chữ. Được cào vào gỗ bằng vật nhọn, rất nhỏ và cực kỳ mờ. Lindqvist với đôi mắt kém và thói lười biếng sẽ chẳng bao giờ cúi xuống soi đèn vào gầm bàn.
 
 Cô quỳ xuống, nghiêng đầu, đưa đèn flash điện thoại sát mặt sàn.
 
@@ -90,7 +90,7 @@ Phần còn lại bị chân bàn đè lên, không đọc được.
 
 Maren nhìn chằm chằm vào màn hình. Mưa gõ đều đặn vào cửa kính phía sau lưng cô, tạo ra thứ nhịp điệu đơn điệu như tiếng đồng hồ đếm ngược.
 
-Và trong khoảnh khắc đó — chớp nhoáng, nhanh đến mức cô không chắc nó có thật — cô nghe thấy một giọng thì thầm ngay bên tai trái. Không phải từ điện thoại. Không phải từ hành lang. Từ bên trong đầu cô.
+Và trong khoảnh khắc đó — chớp nhoáng, nhanh đến mức cô không chắc nó có thật — một giọng thì thầm vang lên ngay bên tai trái cô. Không phải âm thanh từ điện thoại. Không phải từ hành lang. Nó dội lại từ hốc tối bên trong tâm trí.
 
 *"Tìm tôi đi."*
 

@@ -14,9 +14,9 @@ B2. Phòng kỹ thuật — hệ thống điều hòa, ống nước, tủ đi�
 
 Cuối hành lang B2, một cánh cửa sắt nặng nề. Không có ký hiệu, không có bảng tên. Phía trước cửa, sàn bê tông trông khác — mới hơn, phẳng hơn, màu xám nhạt hơn so với phần còn lại. Đây là nơi bê tông được đổ để bịt lối xuống B3.
 
-Nhưng Maren đã chuẩn bị. Cô dùng đèn pin soi dọc theo mép bê tông. Ở góc phải, sát tường, có một vết nứt — rộng chừng hai ngón tay, chạy dọc theo đường ống nước cũ. Không phải vết nứt tự nhiên. Ai đó đã đục từ phía dưới lên, tạo ra một lỗ vừa đủ cho một người gầy chui qua.
+Nhưng Maren đã chuẩn bị. Cô dùng đèn pin soi dọc theo mép bê tông. Ở góc phải, sát tường, có một khe nứt đủ lớn để một người gầy chui lọt. Nhưng nó hoàn toàn không phải vết nứt tự nhiên do lún nền. 
 
-*Gần đây.* Bụi bê tông trên sàn vẫn còn trắng, chưa bám bẩn.
+Maren rọi đèn sát vào: có những vết mẻ lớn cưa nham nhở ở rìa, và bụi bê tông dưới sàn vẫn còn trắng muốt, chưa hề bám bụi bẩn. Ai đó — hoặc thứ gì đó — đã dùng công cụ hạng nặng như búa tạ và xà beng để phá vỡ lớp bê tông cốt thép này từ bên trong *vài ngày trước*. Ai đó đã tự giải thoát khỏi B3.
 
 Maren tháo áo khoác, nhét vào ba lô, rồi luồn người qua khe nứt.
 
@@ -28,7 +28,7 @@ Cô mong đợi một phòng thí nghiệm bỏ hoang — thiết bị rỉ sét
 
 Căn phòng sạch sẽ.
 
-Không phải "sạch vì bỏ hoang hai mươi năm". Mà sạch như vừa được lau chùi. Sàn gạch trắng không một hạt bụi. Tường gạch men trắng sáng bóng dưới ánh đèn pin. Không khí lạnh, khô, có mùi sát trùng nhạt — mùi bệnh viện.
+Không phải "sạch vì bỏ hoang hai mươi năm". Mà sạch như vừa được lau chùi. Sàn gạch trắng không một hạt bụi. Tường gạch men trắng sáng bóng. Ánh sáng vàng vọt hắt ra từ bóng đèn sợi đốt nhấp nháy trên trần — điện được câu trộm thô sơ từ hệ thống trục thang máy chính. Không khí lạnh, khô, có mùi sát trùng nhạt — mùi bệnh viện.
 
 *Có ai đó vẫn đang sử dụng nơi này.*
 
@@ -94,7 +94,7 @@ Có một bóng người đứng trong góc phòng. Mờ, không rõ nét, như 
 
 Kính gọng vàng của Daniel Voss.
 
-Maren nhìn chằm chằm vào bức ảnh, mưa gõ lên màn hình, và cảm thấy toàn bộ thế giới mà cô tin tưởng bắt đầu rạn nứt dưới chân.
+Maren nhìn chằm chằm vào bức ảnh, mưa gõ lên màn hình. Toàn bộ thế giới cô từng tin tưởng bắt đầu rạn nứt dưới chân.
 
 *Voss đã chết. Xác ông ta nằm trong nhà xác bệnh viện St. Aldric.*
 

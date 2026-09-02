@@ -8,7 +8,7 @@ Chỉ có một khách duy nhất. Ngồi ở góc xa nhất, lưng áp vào tư
 
 Erik Solvang.
 
-Maren nhận ra ông ta ngay. Mười lăm năm trước, khi cô còn là phóng viên tập sự, Solvang là Thanh tra nổi tiếng nhất Sở Cảnh sát Ashford — người phá vụ Đồ Tể Dockside, tay sát nhân giết bảy thủy thủ trong vòng ba tháng. Bây giờ ông ta ngồi đây, già hơn, gầy hơn, chiếc áo da cũ sờn rách ở khuỷu tay, đôi mắt nâu sẫm đục mờ đáy.
+Maren đã phải hack vào hồ sơ bảo hiểm hưu trí của Đại học Ashford sáng nay mới tìm ra cái tên này — liên lạc khẩn cấp duy nhất của Giáo sư Voss trong suốt 30 năm qua. Nhưng cô cũng nhận ra ông ta vì một lý do khác: mười lăm năm trước, Solvang là Thanh tra lừng danh nhất Ashford, người phá vụ án Đồ Tể Dockside. Bây giờ ông ta ngồi đây, già hơn, gầy hơn, chiếc áo da cũ sờn rách ở khuỷu tay, đôi mắt nâu sẫm đục mờ đáy.
 
 Ly whisky trước mặt ông ta đầy nhưng chưa uống. Tay phải đặt trên bàn, run nhẹ.
 
@@ -80,9 +80,9 @@ Maren chớp mắt. "Ông không nhớ?"
 
 "Không có gì." Ông ta gõ nhẹ ngón tay lên mặt bàn, từng tiếng một, chậm rãi. "Mọi hồ sơ liên quan đến sáu tháng đó đều không tồn tại. Không phải bị xóa — tôi biết dấu vết của dữ liệu bị xóa trông như thế nào. Mà là chúng chưa từng tồn tại. Như thể sáu tháng đó không có thật."
 
-Phía sau quầy bar, Nils đặt một ly nước trước mặt Maren mà cô không gọi. Cô liếc nhìn ông ta — khuôn mặt đất sét ướt không biểu cảm, nhưng đôi mắt nhỏ, sắc, đang nhìn thẳng vào cô với một cường độ kỳ lạ. Như thể ông ta đang cố nói điều gì đó mà miệng không cho phép.
+Phía sau quầy bar, Nils đặt một ly nước trước mặt Maren mà cô không gọi. Cô ngước lên — khuôn mặt đất sét ướt của ông chủ quán không biểu cảm, nhưng đôi mắt nhỏ, sắc, găm thẳng vào cô với một cường độ kỳ lạ. Như thể ông ta đang cố hét lên điều gì đó mà cổ họng không cho phép.
 
-Nils viết lên bảng phấn, xoay cho cô đọc:
+Nils lôi bảng phấn ra viết nhanh, rồi xoay cho cô đọc:
 
 **"Hỏi ông ấy về căn phòng dưới tầng hầm."**
 
