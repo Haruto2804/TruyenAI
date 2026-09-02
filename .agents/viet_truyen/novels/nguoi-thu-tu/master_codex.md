@@ -107,6 +107,18 @@
 * **Phân loại:** `Nhân vật / Nạn nhân thực sự`
 * **Định nghĩa:** Cựu binh, 1 trong 3 đối tượng thí nghiệm của Dự án Lethe. Bị "xóa" 20 năm trước. Gần đây bắt đầu "tái xuất hiện" — hình ảnh ông ta nhấp nháy trong gương, trong phản chiếu cửa kính, trong giấc mơ của Erik. Cái xác được phát hiện trong phòng Voss thực ra là Brandt, không phải Voss. Nhưng vì Hiệu ứng Lethe, tất cả mọi người "nhớ" khuôn mặt đó là Voss.
 
+### 8. Xóa tồn tại có chọn lọc (Selective Existence Erasure)
+* **Phân loại:** `Thuật ngữ học thuật / Khái niệm`
+* **Định nghĩa:** Thuật ngữ do Giáo sư Voss đặt ra (mà Yuki tìm thấy) để mô tả mặt trái của "Ký ức tập thể sai lệch". Không phải là đám đông nhớ sai một sự kiện, mà là vũ trụ/nhận thức tự động "quên đúng" một con người, xóa bỏ họ khỏi ký ức và vật lý. Đây chính là nguyên lý hoạt động của Hiệu ứng Lethe.
+
+### 9. Đồ Tể Dockside (The Dockside Butcher)
+* **Phân loại:** `Sự kiện quá khứ / Bối cảnh`
+* **Định nghĩa:** Tên sát nhân hàng loạt đã giết 7 thủy thủ trong 3 tháng tại Ashford 15 năm trước. Erik Solvang là người đã bắt được hắn, mang lại danh tiếng cho ông. Vụ án này cho thấy Erik từng là một thanh tra cực kỳ tài năng trước khi bị bóng ma quá khứ (Dự án Lethe) hủy hoại.
+
+### 10. Ashford Tribune & Bệnh viện St. Aldric
+* **Phân loại:** `Địa điểm / Tổ chức`
+* **Định nghĩa:** *Tribune* là nhật báo nơi Maren làm việc, đại diện cho khao khát đi tìm sự thật của cô. *Bệnh viện St. Aldric* là nơi lưu giữ cái xác (được cho là) của Giáo sư Voss ở hiện tại.
+
 ---
 
 ## 🧠 4. MEMORY MANAGER — TIẾN ĐỘ & TRẠNG THÁI
