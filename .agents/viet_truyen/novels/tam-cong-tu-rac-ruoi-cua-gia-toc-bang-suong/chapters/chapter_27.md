@@ -39,11 +39,11 @@ Một tiếng nổ trầm đục vang lên trong tâm trí Caelen. Hàn Băng Th
 
 "Aaaaa!" Caelen gầm lên một tiếng đau đớn xen lẫn thống khoái. Quần áo trên người hắn rách bươm, để lộ ra những đường vân ma lực màu lam đang phát sáng rực rỡ dưới lớp da.
 
-Tàn hồn khựng lại giữa không trung, ánh mắt rỗng tuếch lộ ra vẻ khiếp sợ. "Đây... Đây là... Băng Sương Long Hồn Quyết?! Ngươi... một kẻ chưa đến Trung Giai lại có thể thi triển công pháp cấm kỵ này?"
+Tàn hồn khựng lại giữa không trung, ánh mắt rỗng tuếch lộ ra vẻ khiếp sợ. "Đây... Đây là... Băng Sương Long Hồn Quyết?! Ngươi... một kẻ mới Trung Giai lại có thể thi triển công pháp cấm kỵ này?"
 
-"Chưa đến Trung Giai?" Khóe miệng Caelen rỉ máu, nhưng nụ cười của hắn lại vô cùng điên cuồng. "Đó là chuyện của một phút trước rồi."
+"Mới Trung Giai?" Khóe miệng Caelen rỉ máu, nhưng nụ cười của hắn lại vô cùng điên cuồng. "Đó là chuyện của một phút trước rồi."
 
-Theo tiếng gầm của Caelen, thể tích ma hạch trong cơ thể hắn bành trướng dữ dội. Những nút thắt ma lực do độc tố gây ra bị nghiền nát hoàn toàn. Năng lượng từ Hàn Băng Thần Tủy như thác đổ, đẩy tu vi của hắn vượt qua giới hạn của Sơ Giai, xông thẳng lên Trung Giai Sơ Kỳ, rồi tiếp tục củng cố vững chắc ở ranh giới Trung Giai Trung Kỳ mới chịu dừng lại.
+Theo tiếng gầm của Caelen, thể tích ma hạch trong cơ thể hắn bành trướng dữ dội. Những nút thắt ma lực do độc tố gây ra bị nghiền nát hoàn toàn. Năng lượng từ Hàn Băng Thần Tủy như thác đổ, đẩy tu vi của hắn vượt qua giới hạn của Trung Giai Trung Kỳ, xông thẳng lên Trung Giai Cao Kỳ, rồi tiếp tục củng cố vững chắc ở ranh giới Trung Giai Đỉnh Phong mới chịu dừng lại.
 
 Cùng lúc đó, vì nguồn năng lượng từ Thần Tủy bị Caelen hấp thụ, trận đồ phòng ngự cung cấp sức mạnh cho lũ Thủ Vệ lập tức tắt ngấm. Bốn con golem khổng lồ đang chuẩn bị giáng đòn chí mạng xuống nhóm của Evelyn bỗng nhiên đứng khựng lại, đôi mắt đỏ ngầu vụt tắt, rồi sụp đổ thành những đống đá vô tri.
 

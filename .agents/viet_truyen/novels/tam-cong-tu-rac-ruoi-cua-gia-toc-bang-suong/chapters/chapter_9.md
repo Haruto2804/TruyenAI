@@ -16,7 +16,7 @@ Lilian định rút kiếm, nhưng Caelen đã giơ tay cản lại. Hắn vén 
 
 Tửu lâu Tinh Môn là tụ điểm xa hoa bậc nhất Kinh đô, nơi một bữa ăn có thể bằng thu nhập cả đời của một gia đình bình dân. Tầng cao nhất đã được bao trọn. 
 
-Tứ Hoàng Tử, Edward De Valois, đang ngồi ngả ngớn trên chiếc ghế bành bọc nhung đỏ, tay xoay xoay một ly rượu máu ma thú. Xung quanh hắn là đám quý tộc xu nịnh và hai tên ma pháp sư Cao Giai tỏa ra sát khí âm trầm. Kẻ này chính là thế lực chống lưng đằng sau đường dây buôn lậu của Hội Lưỡi Hái Hắc Ám. Sự sụp đổ của Nhị Trưởng Lão Karlov và cái chết của Hắc Y Sứ Giả Vane đã khiến nguồn cung ma thạch Băng Lam của hắn bị cắt đứt.
+Tứ Hoàng Tử, Edward De Valois, đang ngồi ngả ngớn trên chiếc ghế bành bọc nhung đỏ, tay xoay xoay một ly rượu máu ma thú. Xung quanh hắn là đám quý tộc xu nịnh và hai tên ma pháp sư Cao Giai tỏa ra sát khí âm trầm. Kẻ này chính là thế lực chống lưng đằng sau đường dây buôn lậu của Hội Lưỡi Hái Hắc Ám. Sự sụp đổ của Nhị Trưởng Lão Karlov và sự thất bại thảm hại của Hắc Y Sứ Giả Vane đã khiến nguồn cung ma thạch Băng Lam của hắn bị cắt đứt.
 
 Caelen bước vào, phong thái thong dong như đang dạo bước trong chính hậu hoa viên của mình. Hắn không quỳ, cũng không hành lễ, chỉ hơi gật đầu.
 

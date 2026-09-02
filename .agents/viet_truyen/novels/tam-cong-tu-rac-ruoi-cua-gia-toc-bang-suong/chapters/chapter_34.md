@@ -1,14 +1,14 @@
 # Chương 34: Kết Liễu Gareth, Tuyết Khóc Hoang Vu
 
-Đạo lưu quang màu lam lao vút tới, xé toạc màn sương tuyết. Caelen xuất hiện ngay trước mắt Gareth nhanh đến mức tàn ảnh của hắn vẫn còn lưu lại ở vị trí xuất phát. Hắc kiếm mang theo hàn khí tuyệt đối của Trung Giai Sơ Kỳ, cộng hưởng với mana nguyên thủy vừa được giải phóng từ địa mạch, chém xuống một đòn kinh thiên động địa.
+Đạo lưu quang màu lam lao vút tới, xé toạc màn sương tuyết. Caelen xuất hiện ngay trước mắt Gareth nhanh đến mức tàn ảnh của hắn vẫn còn lưu lại ở vị trí xuất phát. Hắc kiếm mang theo hàn khí tuyệt đối của Trung Giai Đỉnh Phong, cộng hưởng với mana nguyên thủy vừa được giải phóng từ địa mạch, chém xuống một đòn kinh thiên động địa.
 
-"Đừng hòng kiêu ngạo!" Gareth gầm lên, trường thương giương cao, ngưng tụ toàn bộ sức mạnh Cao Giai Đỉnh Phong vào mũi nhọn để đỡ đòn. 
+"Đừng hòng kiêu ngạo!" Gareth gầm lên, trường thương giương cao, ngưng tụ toàn bộ sức mạnh Địa Giai Đỉnh Phong vào mũi nhọn để đỡ đòn. 
 
 *KENG!*
 
 Thanh âm kim loại va chạm vang lên chát chúa, tạo ra một làn sóng xung kích quét bay lớp tuyết dày trên bán kính mười trượng. Sức mạnh của Gareth quả thực không thể coi thường, gã đỡ được nhát chém, nhưng lực phản chấn mạnh đến mức khiến cánh tay gã tê rần, và con Sư Tử Băng bên dưới phải lùi lại mấy bước, móng vuốt cày nát nền đá.
 
-"Trung Giai Sơ Kỳ mà có sức mạnh cỡ này sao?" Đồng tử Gareth co rút. Gã chợt nhận ra vũ khí của Caelen không hề chém thẳng vào cán thương, mà lại mài dọc theo những rãnh hoa văn khắc trên thân vũ khí.
+"Trung Giai Đỉnh Phong mà có sức mạnh cỡ này sao?" Đồng tử Gareth co rút. Gã chợt nhận ra vũ khí của Caelen không hề chém thẳng vào cán thương, mà lại mài dọc theo những rãnh hoa văn khắc trên thân vũ khí.
 
 Đó là năng lực của Ma Đồng Giải Cấu. Mọi cấu trúc vật chất, cả kim loại luyện từ ma pháp cường hóa, đều có "đường nứt" tự nhiên. Caelen đang dùng sức mạnh cực hạn để khoét sâu vào những điểm yếu đó.
 
@@ -18,7 +18,7 @@ Con ma thú rống lên thảm thiết, lớp vảy băng cứng cáp vỡ vụn
 
 "Ta là Thống Lĩnh Thánh Kỵ Sĩ! Ta đại diện cho ý chí của Quang Minh!" Gareth hét lớn, ánh sáng vàng rực bùng nổ từ Khải Giáp Quang Minh, chói lòa như một vầng mặt trời thu nhỏ. Gã giáng trường thương xuống đất, thi triển kỹ năng trấn phái: "Thánh Quang Hủy Diệt!"
 
-Tuyệt chiêu này cần 3 giây để tụ lực. Caelen nhận ra điều đó thông qua Ma Đồng Giải Cấu. Không có bất kỳ cái khiên băng nào có thể cản được ma lực mang theo động năng và nhiệt lượng khổng lồ của một đòn Cao Giai Đỉnh Phong.
+Tuyệt chiêu này cần 3 giây để tụ lực. Caelen nhận ra điều đó thông qua Ma Đồng Giải Cấu. Không có bất kỳ cái khiên băng nào có thể cản được ma lực mang theo động năng và nhiệt lượng khổng lồ của một đòn Địa Giai Đỉnh Phong.
 
 "Trò trẻ con." Caelen lạnh lùng hừ mũi. Hắn không chọn cách phòng ngự. Thay vào đó, hắn vung tay ném ra ba viên bi thép rỗng chứa bột Tán Hồn Hương mà hắn đã tự tay chế tạo từ đêm qua. Nhưng mục tiêu không phải Gareth, mà là mắt của con Sư Tử Băng.
 

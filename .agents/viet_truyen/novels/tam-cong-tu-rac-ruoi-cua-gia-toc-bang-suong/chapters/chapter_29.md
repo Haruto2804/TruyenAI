@@ -4,7 +4,7 @@ Gió rít gào qua những khe hở của tường thành bằng đá đen nhám
 
 "Mở cổng! Tam Công tử và Đại tiểu thư đã trở về!" Tiếng tù và bằng sừng rồng băng vang rền khắp không gian.
 
-Cánh cổng sắt nặng hàng chục tấn rên rỉ nâng lên. Caelen cưỡi trên lưng con chiến mã bọc giáp vảy băng, áo choàng nhuốm đầy sương giá và mùi máu đen đặc trưng của chướng khí Vực Thẳm. Tu vi Trung Giai Sơ Kỳ mà hắn vừa đột phá đã được ma pháp ẩn giấu, chỉ toát ra luồng khí tức sắc bén khiến những kỵ binh canh cổng phải cúi đầu kính sợ. Không ai còn dám nhìn hắn bằng ánh mắt khinh miệt như trước kia. 
+Cánh cổng sắt nặng hàng chục tấn rên rỉ nâng lên. Caelen cưỡi trên lưng con chiến mã bọc giáp vảy băng, áo choàng nhuốm đầy sương giá và mùi máu đen đặc trưng của chướng khí Vực Thẳm. Tu vi Trung Giai Đỉnh Phong mà hắn vừa đột phá đã được ma pháp ẩn giấu, chỉ toát ra luồng khí tức sắc bén khiến những kỵ binh canh cổng phải cúi đầu kính sợ. Không ai còn dám nhìn hắn bằng ánh mắt khinh miệt như trước kia. 
 
 Đứng đón họ ở khoảng sân rộng là một người đàn ông trung niên với bộ râu quai nón bạc màu, thân hình đồ sộ bọc trong bộ giáp nặng nề chi chít vết chém. Đó là Đại Tướng quân Kael Ravenwood, chú ruột của Caelen, người đang thay mặt Đương kim Công tước trấn thủ Frostfang.
 
@@ -21,7 +21,7 @@ Kael nhíu mày, ánh mắt sắc lẹm lướt qua Caelen. Ông nhận ra khí 
 Nhưng đúng khoảnh khắc đó, Ma Đồng Giải Cấu trong mắt Caelen lóe lên. Một tia sáng xanh lướt qua cơ thể Garrick. 
 
 *Mục tiêu: Garrick (Trưởng quan Pháo đài)*
-*Tu vi: Trung Giai Sơ Kỳ*
+*Tu vi: Trung Giai Đỉnh Phong*
 *Bất thường: Tồn tại dấu ấn ma thuật ngầm ở gót giày (Định Vị Không Gian) và dấu vết bột phấn Tán Hồn Hương trong túi áo.*
 
 Tán Hồn Hương! Đó là loại độc vô sắc vô vị mà Hội Lưỡi Hái Hắc Ám thường dùng để làm tê liệt khứu giác của ma thú canh gác.
@@ -38,7 +38,7 @@ Kael cau mày: "Caelen, cháu có ý gì? Garrick đã phục vụ ở Frostfang
 
 "Mười năm là đủ để một con chó cắn chủ, thưa chú," Caelen nhếch mép. Hắn đột ngột giơ tay trái lên. Một luồng hàn khí sắc bén bắn ra, đóng băng toàn bộ bắp chân phải của Garrick xuống mặt đất, ghim chặt hắn tại chỗ.
 
-"Công tử! Ngài làm cái gì vậy?!" Garrick hoảng hốt kêu lên, cố gắng giằng chân ra nhưng vô ích. Lớp băng của Trung Giai Sơ Kỳ được khuếch đại bởi Huyết Mạch Băng Long cứng như thép tảng.
+"Công tử! Ngài làm cái gì vậy?!" Garrick hoảng hốt kêu lên, cố gắng giằng chân ra nhưng vô ích. Lớp băng của Trung Giai Đỉnh Phong được khuếch đại bởi Huyết Mạch Băng Long cứng như thép tảng.
 
 Kael và Evelyn đồng loạt biến sắc. Uy lực của đòn đánh vừa rồi tuyệt đối không phải là của một phế nhân!
 

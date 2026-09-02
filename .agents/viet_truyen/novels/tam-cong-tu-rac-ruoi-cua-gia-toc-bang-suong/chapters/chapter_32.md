@@ -1,13 +1,13 @@
 # Chương 32: Binh Lực Áp Đảo, Khai Màn Huyết Chiến
 
-Lời tuyên bố của viên Thống Lĩnh giáp vàng vang dội cả đỉnh núi, mang theo áp lực của một cường giả Cao Giai Đỉnh Phong khiến những kỵ sĩ Băng Sương cấp thấp phải tái mặt. Hai trăm Thánh Kỵ Sĩ phía sau lưng hắn đồng loạt rút kiếm, những thanh gươm bằng bạc nguyên chất phản chiếu ánh sáng từ Phong Ấn Địa Mạch, tạo thành một bức tường ánh sáng chói lòa.
+Lời tuyên bố của viên Thống Lĩnh giáp vàng vang dội cả đỉnh núi, mang theo áp lực của một cường giả Địa Giai Đỉnh Phong khiến những kỵ sĩ Băng Sương cấp thấp phải tái mặt. Hai trăm Thánh Kỵ Sĩ phía sau lưng hắn đồng loạt rút kiếm, những thanh gươm bằng bạc nguyên chất phản chiếu ánh sáng từ Phong Ấn Địa Mạch, tạo thành một bức tường ánh sáng chói lòa.
 
 "Thống Lĩnh Gareth của Thần Điện," Kael lẩm bẩm, bàn tay siết chặt đốc đại kiếm đến rịn máu. "Khốn kiếp, bọn chúng đã tập trung lực lượng tinh nhuệ nhất ở đây từ bao giờ?"
 
 Caelen híp mắt, đôi đồng tử xanh lam quét qua toàn bộ chiến trường. Ma Đồng Giải Cấu lập tức phân tích và đưa ra hàng vạn dòng dữ liệu. 
 
 *Mục tiêu chính: Thống Lĩnh Gareth*
-*Cảnh giới: Cao Giai Đỉnh Phong*
+*Cảnh giới: Địa Giai Đỉnh Phong*
 *Trang bị: Khải Giáp Quang Minh (Kháng 80% ma pháp nguyên tố), Thánh Thương Cổ Đại (Sát thương xuyên giáp).*
 *Phân tích đội hình: 200 Thánh Kỵ Sĩ, tất cả đều đạt mức Trung Giai Sơ Kỳ. Chúng được tăng cường ma lực trực tiếp từ mạng lưới năng lượng của Phong Ấn Địa Mạch.*
 
@@ -33,7 +33,7 @@ Hai làn sóng ma lực va chạm kinh hoàng. Mặt đất rung chuyển dữ d
 
 "Ngu ngốc," Gareth hừ lạnh. Hắn thúc con Sư Tử Băng lao vọt lên không trung, mũi Thánh Thương ngưng tụ một quả cầu ánh sáng chói lòa cỡ nửa mét, nhắm thẳng vào vị trí của Kael. "Quang Minh Phán Quyết!"
 
-Đòn đánh mang theo uy lực của Cao Giai Đỉnh Phong xé rách không khí, khóa chặt lấy vị trí của Kael. Nếu để quả cầu này đánh trúng, đội hình phòng ngự sẽ tan vỡ ngay lập tức.
+Đòn đánh mang theo uy lực của Địa Giai Đỉnh Phong xé rách không khí, khóa chặt lấy vị trí của Kael. Nếu để quả cầu này đánh trúng, đội hình phòng ngự sẽ tan vỡ ngay lập tức.
 
 "Cút ngay!" Evelyn quát lớn, cự kiếm vung lên tung ra Băng Long Trảm, tạo thành một con rồng băng lao lên đón đỡ quả cầu ánh sáng. 
 
@@ -47,7 +47,7 @@ Mượn sương mù từ vụ nổ ma thuật, Caelen sử dụng thân pháp vi
 
 *Khiên Thánh Quang Tương Đới: Không có tử huyệt cố định. Điểm yếu dịch chuyển liên tục theo chu kỳ 0.5 giây. Yêu cầu tấn công chính xác bằng thuộc tính đối nghịch (Hắc Ám hoặc Băng Sương Tuyệt Đối).*
 
-"Chu kỳ 0.5 giây à?" Caelen thì thầm, bàn tay đặt lên đốc kiếm. Khí tức Trung Giai Sơ Kỳ bùng nổ, Huyết mạch Băng Long kết hợp với ma lực thuần túy từ Hàn Băng Thần Tủy truyền thẳng vào hắc kiếm.
+"Chu kỳ 0.5 giây à?" Caelen thì thầm, bàn tay đặt lên đốc kiếm. Khí tức Trung Giai Đỉnh Phong bùng nổ, Huyết mạch Băng Long kết hợp với ma lực thuần túy từ Hàn Băng Thần Tủy truyền thẳng vào hắc kiếm.
 
 Hắn nhắm mắt lại, đếm thầm nhịp đập của năng lượng. *Ba... Hai... Một...*
 

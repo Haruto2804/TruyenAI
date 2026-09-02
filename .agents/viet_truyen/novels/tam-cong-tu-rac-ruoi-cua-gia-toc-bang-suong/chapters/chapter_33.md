@@ -38,7 +38,7 @@ Từ trong trung tâm của hố sâu, một bóng người từ từ bước ra
 
 Caelen rũ bỏ lớp tuyết bám trên vai, hắc kiếm trên tay kéo lê trên mặt đất tạo ra những tiếng xé gió sắc lạnh. Đôi mắt Ma Đồng Giải Cấu của hắn giờ đây rực sáng như hai viên hồng ngọc, phản chiếu luồng mana khổng lồ đang lan tỏa khắp đỉnh núi. 
 
-"Ngươi... tên ác quỷ dị giáo..." Gareth nghiến răng, trường thương rung lên bần bật. Gã vẫn là Cao Giai Đỉnh Phong, cảnh giới của gã là thật, nhưng cảm giác bất an khi mất đi nguồn tiếp tế vô hạn khiến gã đổ mồ hôi hột.
+"Ngươi... tên ác quỷ dị giáo..." Gareth nghiến răng, trường thương rung lên bần bật. Gã vẫn là Địa Giai Đỉnh Phong, cảnh giới của gã là thật, nhưng cảm giác bất an khi mất đi nguồn tiếp tế vô hạn khiến gã đổ mồ hôi hột.
 
 "Ngươi đang sợ hãi sao, Thống Lĩnh?" Caelen nhếch môi cười, giọng nói mang theo âm vang lạnh lẽo của Băng Long. Hắn chậm rãi vung kiếm chỉ thẳng vào mặt Gareth. "Sức mạnh đi vay mượn thì mãi mãi là hàng giả. Để ta cho ngươi thấy, sức mạnh thực sự của chủ nhân vùng đất này là gì."
 

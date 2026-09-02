@@ -1,6 +1,6 @@
 # Chương 31: Diệt Sát Độc Nhãn, Đỉnh Núi Huyết Tế
 
-Bóng Ma Độc Nhãn cứng đờ người, cảm nhận rõ hơi lạnh chết chóc từ lưỡi hắc kiếm đang kề sát động mạch. Gã không thể hiểu nổi làm cách nào một tên nhãi ranh Trung Giai Sơ Kỳ lại có thể sở hữu thân pháp quỷ khốc thần sầu đến vậy. Khoảng cách một đại cảnh giới đáng lẽ phải là rào cản tuyệt đối!
+Bóng Ma Độc Nhãn cứng đờ người, cảm nhận rõ hơi lạnh chết chóc từ lưỡi hắc kiếm đang kề sát động mạch. Gã không thể hiểu nổi làm cách nào một tên nhãi ranh Trung Giai Đỉnh Phong lại có thể sở hữu thân pháp quỷ khốc thần sầu đến vậy. Khoảng cách một đại cảnh giới đáng lẽ phải là rào cản tuyệt đối!
 
 Nhưng kinh nghiệm chém giết hàng chục năm của một Trưởng lão sát thủ không cho phép gã khoanh tay chịu chết. 
 
@@ -46,6 +46,6 @@ Cột sáng có đường kính hơn mười trượng, bề mặt khắc đầy
 
 Nhưng điều khiến sắc mặt Kael và các kỵ sĩ trở nên khó coi không chỉ là cột sáng kia, mà là lực lượng đang bảo vệ nó. 
 
-Xung quanh Phong Ấn Địa Mạch, hơn hai trăm Thánh Kỵ Sĩ mặc giáp bạc đang đứng nghiêm trang như những bức tượng. Ở vị trí trung tâm, ngồi trên lưng một con Sư Tử Băng đột biến, là một kỵ sĩ mặc giáp vàng rực rỡ, tay cầm trường thương tỏa ra uy áp khủng khiếp của một cường giả Cao Giai Đỉnh Phong.
+Xung quanh Phong Ấn Địa Mạch, hơn hai trăm Thánh Kỵ Sĩ mặc giáp bạc đang đứng nghiêm trang như những bức tượng. Ở vị trí trung tâm, ngồi trên lưng một con Sư Tử Băng đột biến, là một kỵ sĩ mặc giáp vàng rực rỡ, tay cầm trường thương tỏa ra uy áp khủng khiếp của một cường giả Địa Giai Đỉnh Phong.
 
 "Lũ chuột Bắc Cảnh cuối cùng cũng mò tới," viên kỵ sĩ giáp vàng nhếch mép cười, trường thương chĩa thẳng về phía nhóm người Caelen. "Đáng tiếc, đây sẽ là nấm mồ của các ngươi."

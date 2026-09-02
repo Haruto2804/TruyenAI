@@ -24,6 +24,6 @@ Nhưng đúng khoảnh khắc sinh tử đó, đồng tử xanh lam của Caelen
 
 Hắc kiếm giương lên, gạt phang lưỡi hái tối mặt một cách chính xác đến từng milimet nhờ Ma Đồng Giải Cấu nhìn thấu chuyển động. Lực phản chấn khổng lồ từ Cao Giai khiến cánh tay Caelen rền xuống, máu rỉ ra từ khe môi, nhưng bù lại, hắn đã tận dụng khoảnh khắc đó để thâm nhập vào khoảng cách áp sát. Hắn đạp lên những dòng chảy mana cực nhỏ trong không khí, thi triển bộ pháp vi mô.
 
-Bóng Ma Độc Nhãn trợn mắt kinh hãi khi mục tiêu biến mất khỏi tầm nhìn. Kẻ Trung Giai Sơ Kỳ này lại có thể bộc phát tốc độ ngang ngửa hắn!
+Bóng Ma Độc Nhãn trợn mắt kinh hãi khi mục tiêu biến mất khỏi tầm nhìn. Kẻ Trung Giai Đỉnh Phong này lại có thể bộc phát tốc độ ngang ngửa hắn!
 
 Ngay giây tiếp theo, một cảm giác ớn lạnh thấu xương truyền đến từ sau lưng gã. Mũi hắc kiếm lạnh lẽo đã kề sát động mạch cổ của Trưởng lão Hội Lưỡi Hái. Trận chiến giữa kẻ đi săn và con mồi đã hoàn toàn đảo chiều chỉ trong chớp mắt. Tuy nhiên, Caelen khẽ lảo đảo, sắc mặt tái nhợt vì phản phệ của ma dược ép xung bắt đầu cản trở cơ thể hắn. Cánh tay phải gần như phế bỏ, rũ xuống vô lực.
