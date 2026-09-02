@@ -96,7 +96,7 @@ Yuki gật đầu. "Tôi sẽ gửi cho cô. Nhưng..." Cô ngập ngừng, vẽ
 
 "Gì?"
 
-"Sáng nay lúc nghe tin, tôi đã lén dùng tài khoản Admin của Voss — ông ấy có thói quen viết mật khẩu dưới gầm bàn phím — để trích xuất lịch sử truy cập phòng 307. Đêm Voss chết, có bốn lần quẹt thẻ. Thẻ của Voss lúc 19:47. Thẻ của tôi lúc 20:15 — lúc tôi lên hỏi về ba cuốn sổ. Và hai lần quẹt thẻ nữa."
+"Sáng nay lúc nghe tin, tôi đã lén trích xuất lịch sử truy cập phòng 307. Tuần trước, Giáo sư đột ngột đưa cho tôi mã PIN Admin của ông ấy. Ông ấy bảo 'nhờ em xuất báo cáo hàng tháng', nhưng sau đó không hề nhắc lại. Giờ nghĩ lại... ông ấy *muốn* tôi giữ cái mã đó, như thể chuẩn bị sẵn để tôi tự tìm ra sự thật." Yuki nuốt nước bọt. "Đêm Voss chết, có bốn lần quẹt thẻ. Thẻ của Voss lúc 19:47. Thẻ của tôi lúc 20:15 — lúc tôi lên hỏi về ba cuốn sổ. Và hai lần quẹt thẻ nữa."
 
 "Của ai?"
 

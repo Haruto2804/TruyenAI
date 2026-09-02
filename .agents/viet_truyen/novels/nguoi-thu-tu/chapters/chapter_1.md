@@ -14,9 +14,11 @@ Sổ tay ghi chép nằm mở trong lòng bàn tay trái của cô, mực bút b
 
 Giọng Thanh tra Lindqvist cất lên từ bậc thềm tòa nhà. Ông ta đứng dưới mái hiên, mũ kết ướt sũng, khuôn mặt phì nộn đỏ bừng trong ánh đèn cổng — trông như một con cá mập bị mắc cạn đang cố giữ vẻ uy nghi.
 
-Maren bước qua dải băng. Không ai ngăn cô lại. Lindqvist nợ cô một ân tình — cô từng ém nhẹm vụ bê bối của ông ta trên mặt báo Tribune nửa năm trước. Đổi lại, ông ta chừa cho cô đúng năm phút xem hiện trường trước khi Đội khám nghiệm (CSI) đến.
+Maren bước tới. Một viên cảnh sát trẻ giơ tay định chặn lại, nhưng Lindqvist hất hàm ra hiệu cho cậu ta lùi xuống.
 
-"Đội Pháp y kẹt xe vì tai nạn liên hoàn trên cao tốc do bão," Lindqvist nói trước khi cô kịp thắc mắc tại sao hiện trường lại vắng vẻ. Ông ta khoanh tay, mắt nhìn đi chỗ khác. "Đột tử. Tim ngừng đập. Không dấu vết ngoại lực. Không chất độc. Cửa khóa trong. Cửa sổ cũng khóa trong."
+Maren dừng bước dưới hiên, rút một điếu thuốc mới chưa châm lửa, gõ nhẹ đầu lọc xuống hộp sắt. "Bức ảnh ông ngủ với cô thực tập sinh ở nhà nghỉ ngoại ô vẫn còn nằm trong két sắt của tôi."
+
+Lindqvist nghiến răng, cơ hàm giật lên một cái. "Đội Pháp y kẹt xe vì tai nạn liên hoàn trên cao tốc do bão. Cô có đúng năm phút, Engel," ông ta gầm gừ, khoanh tay và mắt nhìn đi chỗ khác. "Đột tử. Tim ngừng đập. Không dấu vết ngoại lực. Không chất độc. Cửa khóa trong. Cửa sổ cũng khóa trong."
 
 "Ông ấy ngồi hay nằm khi được phát hiện?"
 
