@@ -62,6 +62,7 @@ Cánh cổng sắt nặng nề bị khóa bằng một ổ khóa rỉ sét, như
 Bên trong, khu vườn bỏ hoang. Cỏ dại mọc đến đầu gối, lối đi lát đá phủ rêu xanh trơn tuột. Không có dấu hiệu ai đã chăm sóc khu vườn tược từ rất lâu — kỳ lạ đối với một giáo sư giàu có.
 
 Cô đi vòng ra cửa sau. Gắn trên mép cửa gỗ sồi là bảng điều khiển an ninh đời mới nhất — loại cảm biến chuyển động và mã hóa vân tay. Một giáo sư tâm lý không cần mức độ an ninh cấp quân sự này.
+
 Maren dùng cùi chỏ đập vỡ dứt khoát ô kính nhỏ gần tay nắm, thò tay vào vặn chốt. Cạch. Cửa mở. Không có tiếng còi báo động xé toạc không gian. Hệ thống an ninh đã bị rút điện từ bên trong, hoặc chính ngôi nhà cũng đã "quên" mất việc phải bảo vệ chủ nhân của nó.
 
 Maren bước vào bếp. Sạch sẽ đến mức vô trùng. Không bát đĩa. Không thức ăn. Tủ lạnh mở ra: trống rỗng, thậm chí không có bóng đèn bên trong — ai đó đã tháo mất.
@@ -86,7 +87,7 @@ Nét chữ run rẩy, xiêu vẹo, như thể người viết đang mất dần 
 
 *"Lethe hoạt động. Nhưng nó không dừng lại."*
 
-Maren chụp ảnh. Tay cô run — không phải vì lạnh. Vì cô vừa nhận ra một điều: dòng chữ này không phải lời trăng trối của một người sắp chết. Đây là nhật ký của một người đang dần bị xóa khỏi sự tồn tại.
+Maren chụp ảnh. Tay cô run — không phải vì lạnh. Một sự thật lạnh lẽo ập tới: dòng chữ này không phải lời trăng trối của một người sắp chết. Đây là nhật ký của một người đang dần bị xóa khỏi sự tồn tại.
 
 Và nếu Daniel Voss đang tự xóa mình... thì xác chết trong phòng 307 là ai?
 

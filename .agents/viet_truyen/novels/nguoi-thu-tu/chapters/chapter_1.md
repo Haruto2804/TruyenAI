@@ -62,7 +62,7 @@ Maren đứng giữa phòng, xoay người chậm rãi. Bốn bức tường ph�
 
 *Nhưng sổ tay nghiên cứu đâu?*
 
-Cô biết Voss nổi tiếng với bộ sưu tập sổ tay. Mọi đồng nghiệp, mọi sinh viên đều biết. 47 cuốn, viết tay bằng bút mực xanh, bìa da đen, gáy đánh số La Mã. 
+Voss nổi tiếng với bộ sưu tập sổ tay. Tiếng tăm lan truyền từ đồng nghiệp đến sinh viên. 47 cuốn, viết tay bằng bút mực xanh, bìa da đen, gáy đánh số La Mã. 
 
 Cô đảo mắt sang chiếc két sắt nhỏ gài chìm trong góc tường. Cửa két mở toang. Bên trong, các cuốn sổ da đen xếp gọn gàng. Cô lướt ngón tay qua gáy sổ: XLII, XLIII, XLIV... Dừng lại. Khớp hoàn hảo. Nhưng ở cuối dãy, một khoảng trống nhỏ xíu. Ba cuốn cuối cùng — XLV, XLVI, XLVII — đã biến mất.
 
@@ -70,7 +70,7 @@ Mặt bàn làm việc trống trơn. Ngăn kéo rỗng tuếch. Kẻ xâm nhậ
 
 Maren rút điện thoại, bật camera, chụp liên tiếp: mặt bàn trống, ngăn kéo rỗng, ghế nghiêng, vòng tròn ánh sáng cô đơn trên gỗ sẫm.
 
-Rồi cô nhìn thấy nó.
+Cho đến khi ánh đèn pin điện thoại quét qua vị trí đó.
 
 Trên sàn gỗ, ngay dưới chân bàn, ở vị trí mà chân ghế che khuất — một vết trầy nhỏ. Không phải vết trầy ngẫu nhiên. Đó là chữ. Được cào vào gỗ bằng vật nhọn, rất nhỏ và cực kỳ mờ. Lindqvist với đôi mắt kém và thói lười biếng sẽ chẳng bao giờ cúi xuống soi đèn vào gầm bàn.
 

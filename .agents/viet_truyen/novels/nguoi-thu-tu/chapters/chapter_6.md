@@ -48,7 +48,7 @@ Daniel Voss đang bế cô khi cô năm tuổi.
 
 Và cô không có bất kỳ ký ức nào về khoảnh khắc này.
 
-Maren lật bức ảnh. Mặt sau, viết bằng bút mực xanh, nét chữ ngay ngắn — nét chữ mà cô đã nhìn thấy trong 44 cuốn sổ tay nghiên cứu:
+Maren lật bức ảnh. Mặt sau, viết bằng bút mực xanh, nét chữ ngay ngắn — nét chữ y hệt trong 44 cuốn sổ tay nghiên cứu:
 
 *"M. — Ngày cô bé được tự do. Tôi xin lỗi về tất cả."*
 
@@ -64,7 +64,7 @@ Bàn tay cô run. Không phải run vì lạnh hay vì mệt. Run vì toàn bộ
 
 *"Ngày cô bé được tự do."*
 
-Các mảnh ghép xoay tròn trong đầu cô, chưa khớp nhau, nhưng đã đủ gần để cô nhìn thấy hình dáng bức tranh tổng thể:
+Các mảnh ghép xoay tròn trong đầu cô, chưa khớp nhau, nhưng đã đủ gần để bức tranh tổng thể dần lộ diện:
 
 *Mẹ tôi không mất tích. Mẹ tôi bị xóa.*
 

@@ -11,7 +11,7 @@
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/caelen-von-ravenwood.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Nhân vật chính / Đệ tam công tử của gia tộc Công tước Ravenwood (Huyết Ưng Băng Sương).
+Từ một Đệ tam công tử bị xem là phế vật, Caelen lột xác thành kẻ thao túng tàn nhẫn đằng sau bức màn. Bằng đầu óc phân tích lạnh lùng và sự xảo quyệt tột độ, hắn biến mọi thế lực thành quân cờ trên bàn cờ quyền lực đẫm máu của riêng mình.
 
 ### 🎨 AI Image Generation Prompt (Midjourney v6 / FLUX.1 / SDXL 9:16):
 ```text
@@ -28,7 +28,7 @@ masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, ci
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/lilian.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Hầu nữ thân cận của Caelen / Gián điệp ngầm của Nhị Trưởng Lão Karlov $\rightarrow$ Nội gián hai mang dưới quyền Caelen.
+Bề ngoài là ả hầu gái nhu thuận, nhưng thực chất là con dao tẩm độc của Nhị Trưởng Lão cài cắm. Cuối cùng, ả bị Caelen thu phục bằng sự sợ hãi tột cùng, trở thành con bài hai mang đắc lực và trung thành nhất của gã.
 
 ### 🎨 AI Image Generation Prompt (Midjourney v6 / FLUX.1 / SDXL 9:16):
 ```text
@@ -45,7 +45,7 @@ masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, ci
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/evelyn-von-ravenwood.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Đại tiểu thư Gia tộc Ravenwood / Quân đoàn trưởng Đội Quân Thiết Kỵ Băng Sương / Kiếm Vương Bắc Cảnh.
+Kiếm Vương Bắc Cảnh kiêu ngạo và lạnh lùng. Nàng là bức tường thành vững chãi bảo vệ gia tộc, luôn nhìn Caelen bằng ánh mắt thất vọng nhưng sâu thẳm bên trong lại sẵn sàng đổ máu để bảo vệ huyết mạch cuối cùng của Ravenwood.
 
 ### 🎨 AI Image Generation Prompt (Midjourney v6 / FLUX.1 / SDXL 9:16):
 ```text
@@ -62,7 +62,7 @@ masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, ci
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/valerie-de-valois.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Tam Công Chúa Đế Quốc Solaria / Vị hôn thê đối địch mang Huyết Chiếu từ hôn.
+Tam Công Chúa kiêu kỳ mang theo Huyết Chiếu từ hôn để sỉ nhục Caelen. Nàng không ngờ hành động ngạo mạn này lại châm ngòi cho một cơn ác mộng kinh hoàng mang tên Caelen, kẻ sẽ từng bước nghiền nát sự kiêu hãnh của hoàng gia.
 
 ### 🎨 AI Image Generation Prompt (Midjourney v6 / FLUX.1 / SDXL 9:16):
 ```text
@@ -79,7 +79,7 @@ masterpiece, best quality, ultra high resolution 8k, manhwa webtoon artstyle, ci
 - **Trạng thái Avatar:** ⚠️ Chưa có ảnh (Hãy tạo ảnh và lưu vào `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/nhi-truong-lao-karlov.png`)
 
 ### 🎭 Phác thảo diện mạo chi tiết (Visual Dossier):
-Nhị Trưởng Lão Gia Tộc Ravenwood / Quản sự Hậu Viện & Tài Chính Phân Nhánh / Phản diện nội tộc.
+Lão cáo già thâm độc núp bóng Nhị Trưởng Lão, thao túng tài chính và mưu đồ đoạt quyền gia tộc. Lão dùng 5 năm hạ độc để phế bỏ Caelen, nhưng cuối cùng lại trở thành con mồi trong chính ván cờ do lão giăng ra.
 
 ### 🎨 AI Image Generation Prompt (Midjourney v6 / FLUX.1 / SDXL 9:16):
 ```text
