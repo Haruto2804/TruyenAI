@@ -87,7 +87,7 @@ Nét chữ run rẩy, xiêu vẹo, như thể người viết đang mất dần 
 
 *"Lethe hoạt động. Nhưng nó không dừng lại."*
 
-Maren chụp ảnh. Tay cô run — không phải vì lạnh. Một sự thật lạnh lẽo ập tới: dòng chữ này không phải lời trăng trối của một người sắp chết. Đây là nhật ký của một người đang dần bị xóa khỏi sự tồn tại.
+Maren chụp ảnh. Tay cô run — không phải vì lạnh. Dòng chữ này không phải lời trăng trối của một người sắp chết. Đây là nhật ký của một người đang dần bị xóa khỏi sự tồn tại.
 
 Và nếu Daniel Voss đang tự xóa mình... thì xác chết trong phòng 307 là ai?
 

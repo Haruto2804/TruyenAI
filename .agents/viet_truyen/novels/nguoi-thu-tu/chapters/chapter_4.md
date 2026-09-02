@@ -118,7 +118,7 @@ Maren đứng khựng giữa hành lang. Tim cô đập chậm lại — một n
 
 Cô không phải con gái ai cả. Mẹ cô mất tích. Cha cô chưa bao giờ được nhắc đến. Cô lớn lên trong trại trẻ mồ côi Ashford từ năm mười hai tuổi.
 
-Nhưng giọng thì thầm đó — ấm áp, trầm buồn, quen thuộc đến mức xương sống cô dựng lên — giống hệt thanh âm của một người đã quen gọi cô bằng cái tên đó cả ngàn lần.
+Nhưng giọng thì thầm đó — ấm áp, trầm buồn, quen thuộc đến mức xương sống cô dựng lên — âm sắc hệt như của một người đã quen gọi cô bằng cái tên đó cả ngàn lần.
 
 Cô đưa tay sờ vào thái dương. Dưới ngón tay, mạch máu đập nhanh, nóng rẫy.
 

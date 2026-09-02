@@ -10,7 +10,7 @@ Erik Solvang.
 
 Sáng nay, Maren đã phải ném 500 đô la cho một tay môi giới chợ đen để mua lại bản sao kê điện thoại bàn nhà Voss. Suốt hai mươi năm, mỗi tháng đúng một lần, Voss chỉ gọi đi một số máy bàn cố định duy nhất chưa từng thay đổi. Lần theo địa chỉ thanh toán cước đăng ký của dãy số đó, cô tìm ra cái tên này — liên lạc khẩn cấp duy nhất của Giáo sư Voss.
 
-Nhưng còn một lý do khác khắc sâu hình ảnh ông ta vào trí nhớ cô: mười lăm năm trước, Solvang là Thanh tra lừng danh nhất Ashford, người phá vụ án Đồ Tể Dockside. Bây giờ ông ta ngồi đây, già hơn, gầy hơn, chiếc áo da cũ sờn rách ở khuỷu tay, đôi mắt nâu sẫm đục mờ đáy.
+Nhưng cái tên Solvang không chỉ nằm trên tờ sao kê điện thoại. Mười lăm năm trước, ông ta là Thanh tra lừng danh nhất Ashford, người phá vụ án Đồ Tể Dockside. Bây giờ ông ta ngồi đây, già hơn, gầy hơn, chiếc áo da cũ sờn rách ở khuỷu tay, đôi mắt nâu sẫm đục mờ đáy.
 
 Ly whisky trước mặt ông ta đầy nhưng chưa uống. Tay phải đặt trên bàn, run nhẹ.
 

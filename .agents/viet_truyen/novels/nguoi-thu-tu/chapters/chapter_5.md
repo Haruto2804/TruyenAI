@@ -24,7 +24,7 @@ Maren tháo áo khoác, nhét vào ba lô, rồi luồn người qua khe nứt.
 
 Tầng hầm B3 không giống bất cứ thứ gì cô tưởng tượng.
 
-Cô mong đợi một phòng thí nghiệm bỏ hoang — thiết bị rỉ sét, tường nấm mốc, chuột và gián. Nhưng thực tế lại hoàn toàn khác.
+Cô mong đợi một phòng thí nghiệm bỏ hoang — thiết bị rỉ sét, tường nấm mốc, chuột và gián. Thứ cô tìm thấy lại hoàn toàn khác.
 
 Căn phòng sạch sẽ.
 
@@ -42,7 +42,7 @@ Maren chụp ảnh, tay giữ chặt điện thoại để ống kính không ru
 
 Trên tường phía đông, một tấm gương lớn — loại gương một chiều dùng trong phòng thẩm vấn. Maren bước đến, soi mặt vào. Phản chiếu của cô nhìn lại: tóc nâu sẫm rối bời, mắt xám xanh trũng sâu vì thiếu ngủ, ánh đèn pin tạo ra những bóng đổ quái dị trên gương mặt góc cạnh.
 
-Cột sáng đèn pin khựng lại.
+Rồi cô thấy nó.
 
 Đằng sau phản chiếu của cô — phía bên kia tấm gương một chiều — có ánh sáng. Yếu ớt, nhấp nháy, như ngọn nến sắp tắt.
 
