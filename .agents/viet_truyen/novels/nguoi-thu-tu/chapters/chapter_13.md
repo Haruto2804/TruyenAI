@@ -101,7 +101,7 @@ Cô nhìn thẳng vào mắt Erik, rồi chuyển sang Maren:
 
 Cả khoang xe rơi vào một sự im lặng chết chóc. Chỉ có tiếng lốp xe rít trên mặt đường ướt và tiếng mưa quất ràn rạt vào nóc xe tôn.
 
-Erik từ từ hạ nòng súng xuống một góc nghiêng, ánh mắt ông nhìn chiếc màn hình nhấp nháy như nhìn thấy một con quái vật cổ xưa đội mồ sống dậy: *"Phong bì Đen thứ tư... tôi vừa tìm thấy dưới hầm B3 trưa nay. Bên trong có chứa sợi dây chuyền bạc của Sarah..."*
+Erik từ từ hạ nòng súng xuống một góc nghiêng, ánh mắt ông nhìn chiếc màn hình nhấp nháy như nhìn thấy một con quái vật cổ xưa đội mồ sống dậy: *"Phong bì Đen thứ tư... tôi vừa tìm thấy dưới hầm B3 trưa nay. Bên trong có chứa sợi dây chuyền bạc của Sarah và một chiếc thẻ từ quản trị phủ đầy bụi..."*
 
 *"Vậy thì chiếc phong bì thứ năm này chính là thứ mà kẻ đột nhập từ ống thông gió muốn cướp lại,"* Maren siết chặt vô lăng, ánh mắt cô đanh lại nhìn về phía trước qua màn sương mù mịt mùng. *"Chúng ta đang đi đâu, Yuki? Cô có thể giải mã tệp tin đó không?"*
 
