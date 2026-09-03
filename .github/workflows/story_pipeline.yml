@@ -50,5 +50,5 @@ jobs:
       - name: Lưu và Đẩy code lên GitHub (Commit & Push)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-generated story by Gemini 3.5 Flash-Lite"
+          commit_message: "Auto-generated story by Gemini 3.8 Flash"
           branch: master
