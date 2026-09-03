@@ -4,7 +4,7 @@ Căn phòng máy chủ tầng hầm B1 của Khoa Tâm lý luôn giữ ở mức
 
 Yuki Tanaka ngồi co ro trên chiếc ghế xoay gãy mất một bên tựa tay. Cả hai chân co gập lên nệm ghế, cằm tì vào đầu gối. Chiếc áo hoodie nỉ oversize màu xám tro trùm kín mít thân người gầy gò mảnh khảnh của cô, ống tay áo dài lượt thượt che hết bàn tay, chỉ để lộ mười đầu ngón tay nhợt nhạt đang lướt thoăn thoắt trên bàn phím cơ cũ. Mỗi phím bấm gõ xuống vang lên tiếng cộc cộc khô giòn, xé toạc không gian tĩnh mịch của tầng hầm lúc hai giờ sáng.
 
-Trước mặt cô, ba màn hình phụ xếp vòng cung hắt ánh sáng xanh lơ lạnh lẽo lên cặp kính gọng tròn kim loại. Đồng tử mắt Yuki co giãn liên tục theo từng dòng mã lệnh nhấp nháy chạy dọc màn hình đen tuyền.
+Trước mặt cô, ba màn hình phụ xếp vòng cung hắt ánh sáng xanh lơ lạnh lẽo lên cặp kính gọng tròn kim loại. Yuki nheo mắt sau tròng kính, ánh xanh lơ quét qua con ngươi dại đi vì thiếu ngủ khi từng dòng mã lệnh chạy xiết trên nền đen tuyền.
 
 *Sai. Vẫn sai.*
 
@@ -28,7 +28,7 @@ Lượt quẹt thẻ lúc 21:30 không phải là của một kẻ lạ mặt v�
 
 *"Cảm ơn em đã mang tài liệu đến... Em là nghiên cứu sinh của Tiến sĩ Lindholm ở tầng hai đúng không?"*
 
-Khoảnh khắc đó, một luồng khí lạnh buốt xộc thẳng từ sống lưng lên đỉnh đầu Yuki.
+Hơi thở Yuki nghẹn lại nơi cuống họng. Mười đầu ngón tay cô tê cóng như vừa chạm vào kim khí giữa trời tuyết.
 
 Cô là nghiên cứu sinh duy nhất do chính Daniel Voss trực tiếp hướng dẫn suốt ba năm ròng rã. Cô ăn ngủ trong phòng lab của ông, làm việc cùng ông mười hai tiếng mỗi ngày.
 
@@ -46,9 +46,9 @@ Và cuốn sổ XLVII—cuốn sổ thứ bốn mươi bảy được cho là đ
 
 Cạch. Cạch.
 
-Âm thanh ổ cứng cơ học quay tít kéo Yuki giật nảy mình khỏi dòng hồi tưởng. Cô đẩy gọng kính tròn lên sống mũi, mắt dán chặt vào màn hình trung tâm.
+Tiếng rít chói tai của cụm đĩa từ cào xước kim loại giật phăng Yuki về thực tại. Cô đẩy gọng kính tròn lên sống mũi, mắt dán chặt vào màn hình trung tâm.
 
-Sau khi nghe ngóng được tin đồn về việc Maren Engel cùng cựu thanh tra Erik Solvang lén lút đột nhập vào khu vực hầm B3 bị phong tỏa, Yuki biết mình không thể ngồi yên chờ đợi cảnh sát điều tra. Đám cớm bàn giấy như Lindqvist sẽ không bao giờ hiểu được thứ gì đang diễn ra ở Ashford. Bọn họ chỉ nhìn thấy những vụ án mạng, những vết trầy xước và thi thể.
+Tin đồn về cuộc đột nhập hầm B3 của Maren Engel và cựu thanh tra Erik Solvang đã rò rỉ khắp các hành lang vắng. Yuki biết mình không thể ngồi yên chờ đợi cảnh sát điều tra. Đám cớm bàn giấy như Lindqvist sẽ không bao giờ hiểu được thứ gì đang diễn ra ở Ashford. Bọn họ chỉ nhìn thấy những vụ án mạng, những vết trầy xước và thi thể.
 
 Nhưng máy móc và dữ liệu thì không biết nói dối.
 
@@ -88,6 +88,8 @@ Thế nhưng, biểu đồ phân bổ tải trọng hiển thị trên màn hìn
 
 Mồ hôi lạnh túa ra ướt đẫm trán Yuki, chảy dài xuống gò má rồi đọng lại ở cằm.
 
+Ba khối tải trọng đó không hề đi qua cửa sau 23:05... Họ đã trốn sẵn trong bóng tối của căn phòng từ trước khi cánh cửa khép lại, hoặc đi vào bằng một lối ngầm mà cảm biến ngưỡng cửa không quét tới.
+
 Không phải một người.
 Cũng không phải hai người.
 
@@ -105,7 +107,7 @@ Cô vội vã nhấn phím để truy vấn mã số thẻ từ của kẻ đã 
 `USER_ASSIGNED: DANIEL VOSS [FACULTY_PROFESSOR]`
 `STATUS: PRIMARY_KEY`
 
-Một cơn ớn lạnh buốt óc chạy dọc sống lưng Yuki.
+Lồng ngực Yuki co thắt dữ dội, khớp hàm đông cứng đến mức không bật nổi một tiếng rên.
 
 Kẻ quẹt thẻ mở cửa bước vào phòng 307 lúc 23:05... đang sử dụng chiếc thẻ từ gốc duy nhất của Giáo sư Daniel Voss.
 
