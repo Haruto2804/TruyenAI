@@ -63,43 +63,31 @@ Dấu nhắc lệnh nhấp nháy ba lần. Sau đó, một bảng dữ liệu d�
 Yuki ghé sát mặt vào màn hình, từng thớ thịt trên gò má cô giật khẽ.
 
 *Lúc 21:30:*
-Cảm biến ghi nhận tổng tải trọng 120 kg, tương ứng với hai thực thể: Daniel Voss (khoảng 72 kg) và Yuki (48 kg). Trùng khớp tuyệt đối.
+Cảm biến ghi nhận tổng tải trọng 120 kg. Hai người. Daniel Voss và cô. Tuyệt đối trùng khớp.
 
 *Lúc 21:42:*
-Yuki rời khỏi phòng. Tải trọng giảm xuống còn 72 kg. Cảm biến cho thấy Voss vẫn ngồi yên tại vị trí bàn làm việc, hầu như không có bất kỳ dao động dịch chuyển nào.
+Yuki rời khỏi phòng. Tải trọng sụt xuống còn đúng 72 kg. Cảm biến ghế cho thấy Voss vẫn ngồi bất động tại bàn làm việc.
 
 *Lúc 22:50:*
-Tải trọng của ghế làm việc đột ngột giảm về 0, trong khi tải trọng sàn tăng lên tương ứng. Nghĩa là cơ thể của Voss đã rời khỏi ghế hoặc trượt xuống sàn. Nhịp tim và nhiệt độ tỏa ra từ ghế biến mất. Rất có thể Voss đã chết vào thời điểm này—khoảng một tiếng trước khi vụ án mạng được phát hiện.
+Tải trọng của ghế đột ngột rơi thẳng về số không. Voss không còn ngồi đó nữa. Thi thể ông trượt khỏi nệm nỉ? Hay ông bị kéo xuống sàn? Cùng lúc đó, cảm biến nhiệt ghi nhận vùng nhiệt lượng của cơ thể phát tán nhanh chóng ra lớp thảm len. Voss đã chết ở mốc này—chính xác một tiếng trước khi vụ án mạng bị phát hiện.
 
-Nhưng điều khiến đồng tử của Yuki co rút lại như đầu mũi kim nằm ở mốc thời gian tiếp theo.
+Nhưng điều khiến Yuki sởn gai ốc nằm ở chuỗi dữ liệu tiếp theo.
 
 *Lúc 23:05:*
-Khóa thẻ từ ghi nhận cửa phòng 307 mở ra.
+Khóa thẻ từ ghi nhận cửa phòng 307 mở ra. Ngưỡng cửa đón nhận một đối tượng nặng xấp xỉ 70 kg bước vào.
 
-Cảm biến áp lực sàn ở ngưỡng cửa lập tức ghi nhận sự gia nhập của một đối tượng có khối lượng xấp xỉ 70 kg.
-
-Nếu chỉ có vậy, đó sẽ là hung thủ. Một kẻ lạ mặt đột nhập vào phòng để giết một người đàn ông đã chết, hoặc để lục soát két sắt.
-
-Thế nhưng, biểu đồ phân bổ tải trọng hiển thị trên màn hình không dừng lại ở con số hai người.
-
+Ngay sau đó, biểu đồ phân bổ tải trọng sàn nhảy vọt liên hồi:
 *23:08: Cảm biến góc đông bắc (khu vực tủ hồ sơ) kích hoạt: +55 kg.*
 *23:11: Cảm biến góc tây nam (phía sau rèm cửa sổ) kích hoạt: +80 kg.*
 *23:14: Cảm biến trung tâm phòng kích hoạt: +68 kg.*
 
 Mồ hôi lạnh túa ra ướt đẫm trán Yuki, chảy dài xuống gò má rồi đọng lại ở cằm.
 
-Ba khối tải trọng đó không hề đi qua cửa sau 23:05... Họ đã trốn sẵn trong bóng tối của căn phòng từ trước khi cánh cửa khép lại, hoặc đi vào bằng một lối ngầm mà cảm biến ngưỡng cửa không quét tới.
+Ba khối tải trọng đó không hề đi qua cửa sau 23:05. Họ đã trốn sẵn trong bóng tối của căn phòng từ trước, hoặc xâm nhập bằng một lối ngầm mà cảm biến ngưỡng cửa không quét tới. Bốn thực thể độc lập đứng bất động suốt mười lăm phút ở bốn góc phòng khóa kín, nhìn chằm chằm vào cái xác của Daniel Voss.
 
-Không phải một người.
-Cũng không phải hai người.
+Và đến 23:29, dữ liệu tải trọng của cả bốn thực thể đồng loạt dịch chuyển về phía bức tường phía tây—nơi đặt dãy tủ hồ sơ âm tường—rồi biến mất hoàn toàn khỏi mặt sàn. Bức tường đó che giấu một cửa sập kỹ thuật dẫn thẳng xuống trục thông gió của tòa nhà. Cửa chính phòng 307 không hề mở ra lần nào nữa cho đến sáng hôm sau khi cảnh sát cạy khóa.
 
-Trong căn phòng 307 bị khóa kín từ bên trong, vào lúc mười một giờ mười lăm phút đêm hôm đó... có tổng cộng bốn khối thực thể độc lập đứng rải rác ở bốn góc phòng.
-
-Bốn người.
-
-Và suốt mười lăm phút sau đó, dữ liệu cảm biến cho thấy không hề có bất kỳ dấu hiệu xô xát, vật lộn hay di chuyển hỗn loạn nào. Bốn khối tải trọng đó chỉ đứng bất động. Bốn bóng người đứng trong bóng tối dày đặc của căn phòng khóa trái, nhìn chằm chằm vào cái xác của Daniel Voss đang ngồi ngay ngắn trên ghế.
-
-*"Bốn..."* Yuki thì thầm thành tiếng, giọng cô khô khốc như tiếng lá mục vỡ vụn dưới chân. *"Người thứ tư... là ai?"*
+*"Bốn người..."* Yuki lẩm bẩm trong hơi thở đứt quãng. *"Kẻ thứ tư... rốt cuộc là ai?"*
 
 Cô vội vã nhấn phím để truy vấn mã số thẻ từ của kẻ đã mở cửa lúc 23:05. Màn hình console nhấp nháy, giải mã dãy số hex thành mã định danh người dùng:
 
@@ -115,13 +103,13 @@ Nhưng lúc đó, xác của Daniel Voss đã lạnh ngắt ngồi bên trong c�
 
 Chẳng lẽ... có hai Daniel Voss ở Ashford?
 
+Yuki cắn chặt môi đến mức nếm được vị tanh nồng của máu. Một nỗi sợ hãi tột cùng bóp nghẹt tâm trí cô: Với dữ liệu quẹt thẻ lúc 21:30 mang tên cô và cuốn sổ thứ 47 trong tay, nếu cảnh sát lật lại máy chủ này, cô sẽ trở thành kẻ thế mạng hoàn hảo nhất cho tội ác của những kẻ vô hình.
+
 Tút... tút... tút...
 
-Tiếng còi cảnh báo ngắt quãng của hệ thống mạng nội bộ đột ngột vang lên chói tai trong căn phòng ngập mùi ozone. Yuki giật mình đánh thót, bàn tay run rẩy làm rơi chiếc bút dạ đen xuống sàn gạch.
+Tiếng còi cảnh báo ngắt quãng của hệ thống mạng nội bộ đột ngột rít lên chói tai. Dưới chân giá máy chủ, một sợi cáp đồng bọc chì bám đầy bụi đen dẫn thẳng vào đường ống nứt toác dưới sàn bê tông—đường dây nối ngầm duy nhất chạy thẳng xuống phòng thí nghiệm B3 đã bị niêm phong hai mươi năm trước—đang nhấp nháy đèn tín hiệu màu cam dữ dội.
 
-Trên màn hình phụ bên phải, giao diện giám sát kết nối Ethernet của tòa nhà đang nhấp nháy một chấm đỏ rực.
-
-Một kết nối socket vừa được thiết lập vào máy chủ cục bộ của cô. Không qua tường lửa. Không qua cổng xác thực của trường. Nó đi thẳng từ đường dây cáp ngầm cổ xưa bên dưới chân móng tòa nhà.
+Một kết nối socket xuyên thủng mọi lớp bảo vệ, đi thẳng từ tầng ngầm sâu nhất lên phòng máy chủ của cô.
 
 Dòng chữ màu đỏ máu hiện lên giữa khung terminal:
 
@@ -137,11 +125,11 @@ Có tiếng móng tay gãi cành cạch vào thành kim loại.
 
 Một tiếng thở dài khẽ khàng, lạnh ngắt như sương mù tháng mười hai, trút xuống từ bóng tối trên cao:
 
-*"Yuki... trả cuốn sổ lại cho ta."*
+*"Yu... ki... tr... ả... s... ổ... c... ho... t... a..."*
 
-Không khí trong khoang máy chủ đông cứng lại. Mùi ozone khét lẹt ban nãy dường như bị lấn át bởi một thứ mùi ẩm mốc tởm lợm—mùi bùn sình phân hủy và nước thải ngầm tích tụ hàng chục năm dưới lòng đất sâu. 
+Không khí trong khoang máy chủ đông cứng lại. Mùi ozone khét lẹt ban nãy bị quét sạch bởi một thứ mùi hôi thối cổ xưa—mùi tanh nồng của nấm mốc địa tầng ẩm ướt hòa lẫn mùi lưu huỳnh ngột ngạt từ những đường hầm bỏ hoang. Vị đắng chát như tro kim loại xộc thẳng lên vòm họng Yuki, khiến cuống lưỡi cô tê dại và dạ dày co thắt từng cơn nôn nao.
 
-Giọng nói ấy... nghe như thanh âm của Daniel Voss. Nhưng nhịp điệu kéo dài lê thê, âm sắc méo mó và rạn vỡ, như thể phát ra từ một chiếc đĩa than bị xước sâu phát đi phát lại dưới đáy giếng hoang. 
+Giọng nói ấy... mang âm sắc của Daniel Voss. Nhưng từng âm tiết bị kéo giãn lê thê, rè đục và rạn vỡ như tiếng kim loại rỉ sét cào xé lên mặt kính vỡ dưới đáy vực sâu.
 
 *Không thể nào.*
 
@@ -155,19 +143,19 @@ Một tiếng gãy giòn vang lên. Tấm lưới sắt mạ kẽm chắn cửa 
 
 Đó là cánh tay trơ xương xám ngoét, phủ đầy những vết cào cấu thâm tím đã đóng vảy. Các đầu ngón tay khẳng khiu không còn móng, nham nhở và tưa ra như từng cào vào tường đá suốt hàng trăm đêm ròng rã. 
 
-Những ngón tay ấy sờ soạng trong không khí, hướng thẳng xuống vị trí đỉnh đầu của Yuki.
+Những ngón tay ấy sờ soạng trong không khí, hướng thẳng xuống đỉnh đầu của cô.
 
 Bản năng sinh tồn giật ngược Yuki về phía sau. Cô dùng hết sức bình sinh đạp mạnh hai chân xuống sàn, đẩy chiếc ghế xoay trượt lùi về góc phòng. Chiếc ghế va vào khung sắt của giá máy chủ tạo nên một tiếng *keng* chói tai, khiến cốc mì ăn liền dưới gầm bàn đổ nghiêng, nước súp nguội ngắt sánh ra sàn gạch.
 
-*"Trả... lại..."*
+*"T... r... ả... l... ạ... i..."*
 
-Tiếng rít rợn người trên trần nhà chuyển thành một tiếng thét khàn đục như kim loại rách toạc. Bóng đen trong ống thông gió co rút lại, chuẩn bị lao thẳng xuống.
+Tiếng rít rợn người trên trần nhà chuyển thành một tiếng thét khàn đục. Bóng đen trong ống thông gió co rút lại, chuẩn bị lao thẳng xuống.
 
-Yuki không do dự. Trong khoảnh khắc ngàn cân treo sợi tóc, cô giật phăng chiếc ổ cứng SSD gắn ngoài đang cắm vào cổng USB máy chủ—nơi tệp dữ liệu cảm biến sàn và gói tin `envelope_05.enc` vừa tải về hoàn tất. Cô quặp chặt chiếc ba lô vải bố chứa cuốn sổ đỏ XLVII trước ngực, cúi gập người lao vút về phía cửa sắt thoát hiểm.
+Yuki không chần chừ một phần mười giây. Bàn tay cô giật phăng chiếc ổ cứng SSD gắn ngoài đang cắm vào cổng USB máy chủ—nơi tệp dữ liệu cảm biến sàn và gói tin `envelope_05.enc` vừa tải về hoàn tất. Cô quặp chặt chiếc ba lô vải bố chứa cuốn sổ đỏ XLVII trước ngực, cúi gập người lao vút về phía cửa sắt thoát hiểm.
 
 Sau lưng cô, một khối thịt nặng trịch rơi huỵch xuống mặt bàn điều khiển. Màn hình máy tính vỡ toang, tia lửa điện xẹt ra đỏ lừ kèm tiếng quạt gió rên rỉ lần cuối rồi tắt ngấm.
 
-Yuki giật mạnh tay nắm cửa thoát hiểm, lao thục mạng lên cầu thang bê tông ẩm ướt dẫn ra bãi đỗ xe phía sau tòa nhà Khoa Tâm lý. Tiếng bước chân cô giẫm trên những bậc thang trơn trượt vang lên dồn dập, lồng ngực bỏng rát như sắp nứt toác vì thiếu khí.
+Yuki giật mạnh tay nắm cửa thoát hiểm, lao thục mạng lên cầu thang bê tông ẩm ướt dẫn ra bãi đỗ xe phía sau tòa nhà Khoa Tâm lý. Cơn hen suyễn nhẹ bóp nghẹt khí quản, hai chân cô run lẩy bẩy, quai ba lô bọc cuốn sổ nặng trĩu đập chan chát vào xương quai xanh gầy guộc khiến từng nhịp thở của cô rát bỏng như hớp phải mảnh thủy tinh vụn.
 
 Cánh cửa sắt nặng nề ở tầng trệt bị cô xô mạnh bung ra. 
 
@@ -195,9 +183,11 @@ Kính xe bên phụ tụt xuống hết cỡ. Giọng Erik xé toạc màn mưa,
 
 *"Yuki Tanaka! Ném chiếc ba lô ra xa ngay lập tức! Người đàn bà ngồi cạnh tao... cô ta là Mẫu vật số Không! Cô ta không phải con người!"*
 
-Maren không hề quay đầu lại, cũng không hề tỏ ra sợ hãi họng súng đang kề sát thái dương mình. Cô nhả một ngụm khói trắng mỏng vào kính chắn gió, ánh mắt xám xanh sắc lạnh liếc qua gương chiếu hậu, khóa chặt lấy bóng người đang nép sau trụ bê tông. Giọng cô trầm đục, bình thản đến rợn người lọt qua tiếng gió rít:
+Ngón tay Erik ghì chặt cò súng đến mức các khớp đốt trắng bệch ra, mắt long sòng sọc nhìn Maren: *"Mày dám nhúc nhích, tao bóp cò nát sọ!"*
 
-*"Đừng nghe lão ta, Yuki. Bộ não của Solvang đã bị Hiệu ứng Lethe đục thủng toàn bộ từ hai mươi năm trước rồi. Lão đang trong cơn hoang tưởng cấp tính. Lên xe ngay... nếu cô muốn sống sót rời khỏi khuôn viên trường đêm nay."*
+Maren không hề chớp mắt. Bàn tay phải của cô thản nhiên vặn chìa khóa rồ ga, tiếng động cơ xe gầm lên một nhịp khô khốc át cả tiếng mưa gió. Cô nhả một ngụm khói trắng mỏng vào kính chắn gió, ánh mắt xám xanh sắc lạnh liếc qua gương chiếu hậu, khóa chặt lấy bóng người đang nép sau trụ bê tông. Giọng cô trầm đục, bình thản đến rợn người lọt qua tiếng gió rít:
+
+*"Cứ bóp cò đi Solvang, rồi Lethe sẽ nuốt chửng nốt nửa bán cầu não còn lại của ông trước khi trời sáng. Đừng nghe lão ta, Yuki. Lão đang trong cơn hoang tưởng cấp tính. Lên xe ngay... nếu cô muốn sống sót rời khỏi khuôn viên trường đêm nay."*
 
 Phía sau lưng Yuki, cánh cửa sắt của tầng hầm B1 đột ngột rung lên bần bật. Then chốt kim loại bị uốn cong sang một bên dưới một lực đẩy kinh hoàng từ lòng đất sâu, kèm theo tiếng móng tay cào xé điên cuồng trên mặt thép.
 
