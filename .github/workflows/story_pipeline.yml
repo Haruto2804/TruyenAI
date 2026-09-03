@@ -1,0 +1,44 @@
+name: Tự động Viết Truyện Hàng Ngày
+
+on:
+  schedule:
+    # Chạy vào lúc 01:00 UTC (Tương đương 08:00 sáng giờ Việt Nam) mỗi ngày
+    - cron: '0 1 * * *'
+  # Cho phép kích hoạt chạy bằng tay từ giao diện GitHub Actions (rất hữu ích khi test)
+  workflow_dispatch:
+
+permissions:
+  contents: write # Cấp quyền cho GitHub Actions có thể tự động commit (lưu file mới)
+
+jobs:
+  write-story:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Kiểm tra mã nguồn (Checkout)
+        uses: actions/checkout@v4
+
+      - name: Cài đặt Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Cài đặt thư viện
+        # Cài đặt các thư viện cần thiết như @google/generative-ai
+        run: npm install
+
+      - name: Chạy Kịch bản Viết truyện (Kết hợp Skill)
+        env:
+          # Truyền API Key từ cấu hình Secrets của GitHub vào cho file chạy
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: npx tsx scripts/auto_writer.ts
+
+      - name: Kích hoạt Lệnh Đồng bộ (Sync Engine)
+        run: npm run sync:novel
+
+      - name: Lưu và Đẩy code lên GitHub (Commit & Push)
+        # Sử dụng action có sẵn để tự động commit thư mục "stories/" vừa tạo ra
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-generated story by Gemini AI"
+          branch: master
