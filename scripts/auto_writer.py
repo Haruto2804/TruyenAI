@@ -64,10 +64,13 @@ YÊU CẦU THỰC THI (ĐÃ ĐƯỢC CHẮT LỌC TỪ CÁC TÀI LIỆU TRÊN):
 - Hãy viết Chương {next_chapter_num} cho bộ tiểu thuyết dựa theo cốt truyện trong "viet_truyen.md".
 - Áp dụng triệt để quy tắc Pacing 3 nhịp (Không khí -> Tâm lý -> Hành động) và Kích hoạt ngũ quan.
 - Vượt qua bài kiểm duyệt khắc nghiệt của "Độc Giả Khó Tính" và "Tác Giả Khó Tính".
-- Tuân thủ Publishing Rules và Workflow.
+- QUY TẮC ĐỊNH DẠNG TIÊU ĐỀ BẮT BUỘC: Dòng đầu tiên của chương PHẢI LÀ tiêu đề định dạng Markdown H1:
+  # Chương {next_chapter_num}: <Tiêu đề chương thật kêu và hấp dẫn>
+  (Ví dụ: # Chương {next_chapter_num}: Huyết Vực Chờ Mong, Tuyết Khóc Hoang Vu)
+- Chương phải có ít nhất 1.500 - 2.500 từ, có chiều sâu, đa giác quan và bám sát mạch truyện.
 - Chương phải kết thúc bằng một "Cliffhanger Hook" (Móc câu lửng) ở 3 câu cuối.
 - TUYỆT ĐỐI KHÔNG dùng các ký tự asterisk (**) in đậm thừa thãi trong văn bản.
-- Trả về nguyên văn bản Markdown của chương truyện, không thêm các lời giải thích thừa như "Đây là chương truyện...".
+- Trả về nguyên văn bản Markdown của chương truyện, không thêm các lời chào hỏi hay giải thích thừa thãi.
 """
 
     print(f"Đang yêu cầu AI viết Chương {next_chapter_num} bằng model gemini-3.8-flash...")
@@ -77,7 +80,18 @@ YÊU CẦU THỰC THI (ĐÃ ĐƯỢC CHẮT LỌC TỪ CÁC TÀI LIỆU TRÊN):
             model="gemini-3.8-flash",
             input=prompt
         )
-        text = interaction.output_text
+        text = interaction.output_text.strip()
+        # Đảm bảo dòng đầu tiên luôn chuẩn format # Chương X: <Tiêu Đề>
+        lines = text.split("\n")
+        first_line = lines[0].strip() if lines else ""
+        if not first_line.startswith("#"):
+            if first_line.lower().startswith(f"chương {next_chapter_num}") or first_line.lower().startswith("chương"):
+                lines[0] = f"# {first_line}"
+            else:
+                lines.insert(0, f"# Chương {next_chapter_num}: Huyết Vực Tranh Phong")
+                lines.insert(1, "")
+            text = "\n".join(lines)
+
         print("AI đã viết xong. Đang lưu file...")
         file_path.write_text(text, encoding="utf-8")
         print(f"Đã lưu thành công tại: {file_path}")

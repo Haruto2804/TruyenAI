@@ -1,4 +1,4 @@
-Chương 36: Huyết Vực Chờ Mong
+# Chương 36: Huyết Vực Chờ Mong
 
 Hơi lạnh từ vách đá ngầm rỉ ra qua lớp giáp bạc, ngưng tụ thành những giọt sương băng đặc quánh bám chặt vào sống mũi. Không gian bên trong hang động dưới lòng Vực Thẳm Hoang Vu tối đen như mực, chỉ có ánh sáng xanh nhạt hắt ra từ Ma Đồng Giải Cấu đang xoay chuyển trong đồng tử Caelen. Mùi tanh nồng của bùn lầy lưu huỳnh hòa quyện cùng vị máu sắt rỉ rít trong lồng ngực, lạnh buốt đến mức hít vào một hơi cũng khiến cuống họng tê dại.
 
