@@ -191,20 +191,14 @@
 
 ## 🧠 4. MEMORY MANAGER — TIẾN ĐỘ & TRẠNG THÁI
 
-### Trạng Thái Hiện Tại (Hoàn Thành Arc 3 - Sau Chương 16):
-* **POV Hoàn Thành:** Yuki Tanaka (Chương 12 - 16).
-* **Bí mật đã mở:**
-  * Thân phận thật của Maren Engel: Là người có kháng thể nhận thức, được Voss giải cứu và gửi gắm hy vọng.
-  * Thân phận của sinh vật ống thông gió: Helmut Brandt bị Lethe biến thành Vong thể.
-  * Thân phận của Người Thứ Tư: Thanh tra Cảnh sát trưởng Lindqvist.
-  * Số phận của Sarah Solvang: Bị phong tỏa tại B3 năm 2004, trở thành một trong các Vong thể.
-* **Tình trạng nhóm điều tra:**
-  * Đã thoát khỏi vòng vây của Lindqvist bằng vụ nổ nghi binh tại Xưởng tàu số 4.
-  * Đã đột nhập qua đường cống DRAIN-09 tới cửa ngầm B3.
-  * Đang đối mặt với bầy Vong thể do Helmut Brandt dẫn đầu ngay trước cửa sắt B3.
-* **Vật phẩm nắm giữ:**
-  * Cuốn sổ đỏ XLVII (Chứa tần số đối kháng triệt tiêu Lethe).
-  * Ổ cứng SSD chứa dữ liệu cảm biến sàn phòng 307 và file `envelope_05.enc`.
+### Trạng Thái Hiện Tại: **ĐÃ HOÀN THÀNH TOÀN BỘ TIỂU THUYẾT (100% COMPLETE — 21/21 CHƯƠNG)**
+* **Tổng số chương:** 21 Chương (Arc 1: 6 chương, Arc 2: 5 chương, Arc 3: 5 chương, Arc 4: 5 chương).
+* **Kết cục các nhân vật:**
+  * **Erik Solvang & Sarah Solvang:** Đã hy sinh tại buồng chân không B3 để kích hoạt Tần số Đối kháng. Linh hồn và thể xác hòa làm một trong thanh thản, bị toàn nhân loại lãng quên nhưng vĩnh cửu sống trong ký ức của Maren.
+  * **Daniel Voss & Helmut Brandt:** Voss được minh oan và tưởng niệm; Brandt cùng Lindqvist bị chôn vùi dưới xoáy nước Lethe trong buồng phản ứng.
+  * **Yuki Tanaka:** Trở thành tiến sĩ, giáo sư trẻ của Đại học Ashford, công bố công trình nghiên cứu về chấn thương nhận thức, lấy lại danh dự cho thầy.
+  * **Maren Engel:** Là người duy nhất trên thế giới mang Kháng thể Nhận thức giữ lại toàn bộ ký ức về Erik Solvang và chiếc nhẫn bạc kỷ vật. Tiếp tục sống kiên cường bên bờ vịnh Ashford.
+  * **Thành phố Ashford:** Dự án Lethe bị xóa sổ, hầm B3 được đổ bê tông xây đài tưởng niệm, người dân tìm lại được ký ức về những người thân bị lãng quên.
 
 ---
 
@@ -231,5 +225,13 @@
   * **C14:** *Giải Mã Gói Tin envelope_05.* Yuki dùng chuỗi peptide nỗi đau phá mã RSA-4096. Hé lộ đoạn băng âm thanh 2004: Brandt phản bội, Sarah Solvang hy sinh để cứu bé Maren, sự tha hóa của Brandt thành Vong thể. Cuốn sổ 46 hé lộ Voss tự phân tách tâm thức để bảo vệ sự thật. Đài radio xưởng tàu phát ra giọng kẻ giật dây bí ẩn.
   * **C15:** *Cuốn Sổ Tay Thứ Bốn Mươi Bảy (XLVII).* Maren bắn nát radio. Yuki mở cuốn sổ da đỏ XLVII: Minh oan cho Maren (sở hữu Kháng thể Nhận thức bẩm sinh), hé lộ sự thật rùng rợn về các Vong thể, cơ chế Tần số Đối kháng để tiêu diệt Lethe với cái giá một người bị xóa khỏi ký ức nhân loại. Hé lộ chấn động: "Người Thứ Tư" chính là Cảnh sát trưởng Lindqvist. Xưởng tàu bị đặc nhiệm Lindqvist bao vây nghẹt thở.
   * **C16:** *Trận Chiến Đêm Giông & Cửa Ngầm B3.* Kế hoạch nghi binh: Xe sedan phát nổ húc tung cổng đánh lạc hướng lính bắn tỉa. Nhóm ba người nhảy xuống cống ngầm DRAIN-09 lội nước ngược dòng về móng hầm B3. Chạm trán bầy Vong thể do Helmut Brandt dẫn đầu gác cửa B3. Erik và Maren sẵn sàng xả thân, mở đường cho Yuki mang cuốn sổ XLVII bước vào trận chiến quyết định. Hết Arc 3.
+
+* **Arc 4: HỒI KẾT (POV Maren Engel): Chương 17 - 21**
+  * **C17:** *Cánh Cửa Thép B3.* Maren dùng Kháng thể Nhận thức trấn áp các Vong thể. Hội ngộ bi tráng giữa Erik và Sarah qua chiếc nhẫn bạc hoa tầm xuân và vết sẹo quen thuộc. Dùng thẻ gốc của Voss mở toang cánh cửa sắt dẫn vào thánh địa buồng thí nghiệm B3.
+  * **C18:** *Trái Tim Của Lethe.* Khám phá cỗ máy Cốt lõi Cộng hưởng (Resonance Core) khổng lồ đang rền rĩ ở tần số 4.8 Hz. Yuki nạp ma trận Tần số Đối kháng từ cuốn sổ XLVII. Sarah hồi phục phần nào ý thức bên Erik. Đột nhiên Lindqvist nổ C4 phá cửa hầm chính, dẫn tiểu đội đặc nhiệm ập xuống bao vây.
+  * **C19:** *Cuộc Đối Đầu Của Những Kẻ Bị Lãng Quên.* Lindqvist lột trần lý tưởng điên loạn về một xã hội bị lãng quên để cai trị, bắn bị thương bả vai Maren. Giữa hiểm cảnh ngàn cân treo sợi tóc, bầy Vong thể do Brandt và Sarah dẫn đầu tràn vào buồng B3 tử chiến với đội cảnh sát. Brandt ôm chặt Lindqvist kéo hắn chìm vào bồn dung dịch Lethe sôi sục. Cỗ máy đếm ngược 90 giây quá tải.
+  * **C20:** *Cái Giá Của Ký Ức.* Yuki nạp xong Tần số Đối kháng, nhưng cần người gạt cần thủ công trong buồng chân không và chấp nhận bị xóa sổ tồn tại. Erik trao lại chiếc nhẫn cưới cho Maren, nắm tay Sarah bước vào buồng chân không, thanh thản gạt cần điều áp. Cột sáng trắng bùng nổ giải phóng toàn bộ Vong thể. Buồng B3 sụp đổ dưới dòng nước biển khi Maren và Yuki tháo chạy.
+  * **C21:** *Tro Tàn & Bình Minh (Đại Kết Cục).* Ba tháng sau, mùa xuân về với Ashford, hồ sơ Lethe được giải mật, người dân tìm lại được ký ức về người thân. Voss được rửa sạch hàm oan. Cuốn sổ đỏ XLVII tự xóa sạch thành trang giấy trắng tinh. Tại quán bar The Drowning Sailor, Nils đã quên sạch cái tên Erik Solvang. Chỉ còn Maren đứng trước sóng biển, tay siết chặt chiếc nhẫn cưới bạc, là người duy nhất trên thế giới này còn nhớ về Erik. Toàn bộ tiểu thuyết khép lại trọn vẹn 100%.
+
 
 
