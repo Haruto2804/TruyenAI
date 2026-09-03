@@ -4,7 +4,7 @@ Những tia laser màu đỏ máu từ súng trường bắn tỉa đồng loạ
 
 *"Chúng ta có đúng ba mươi giây trước khi lựu đạn cay và đội xung kích tràn vào,"* Maren Engel cúi thấp người, nói nhanh trong tiếng mưa gào rít bên ngoài. Cô giật lấy chiếc túi nylon chống nước của xưởng tàu, bọc kín chiếc máy tính ThinkPad và ổ cứng SSD của Yuki rồi nhét chặt vào đáy ba lô.
 
-Bên cạnh cô, Erik Solvang đứng bất động trong bóng tối le lói của xưởng tàu. Khuôn mặt người cựu thanh tra già co giật dữ dội, hai mắt đỏ ngầu trừng trừng nhìn qua khe cửa chính về phía viên cảnh sát trưởng đang đứng tựa vào mũi xe tuần tra.
+Bên cạnh cô, Erik Solvang đứng bất động trong bóng tối le lói của xưởng tàu. Erik siết chặt quai hàm, cơ má giật liên hồi, trừng mắt qua khe cửa tôn rỉ sét về phía viên cảnh sát trưởng đang đứng tựa vào mũi xe tuần tra.
 
 *"Lindqvist..."* Giọng Erik gầm gừ trong cổ họng, nghe nghẹn đục và đau đớn như tiếng rên của một con dã thú trúng tên độc. *"Ba mươi năm qua... tao đã gọi nó là người anh em. Tao đã ngồi uống rượu với nó vào mỗi dịp lễ Tạ ơn, khóc trên vai nó khi tao tin rằng Sarah đã chết vì bạo bệnh... Hóa ra chính bàn tay nó đã xé nát cuộc đời tao. Chính nó là kẻ đã xóa sạch tên Sarah khỏi cõi đời này!"*
 

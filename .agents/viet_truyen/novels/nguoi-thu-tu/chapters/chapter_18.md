@@ -33,7 +33,7 @@ Dưới ánh sáng xanh lơ của buồng B3, những vết sẹo và làn khói
 
 *"Em không trách anh..."* Sarah khẽ lắc đầu, bàn tay lạnh ngắt của bà xoa lên má ông. *"Em nhớ lại rồi... Đêm đó, em đã khóa buồng cách ly để cứu cô bé... Em không hối hận..."*
 
-Tôi nhìn cảnh tượng ấy, lồng ngực thắt lại như bị một bàn tay vô hình bóp nghẹn. Sự hy sinh của người phụ nữ này đã cho tôi hai mươi năm được sống như một con người bình thường. Và món nợ đó... đêm nay tôi nhất định phải trả.
+Chứng kiến cảnh tượng ấy, cuống họng tôi nghẹn đắng, lồng ngực thắt lại buốt nhức. Sự hy sinh của người phụ nữ này đã cho tôi hai mươi năm được sống như một con người bình thường. Và món nợ đó... đêm nay tôi nhất định phải trả.
 
 *BÙM!*
 

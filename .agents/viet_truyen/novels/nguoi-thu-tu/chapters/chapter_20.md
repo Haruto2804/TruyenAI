@@ -2,7 +2,7 @@
 
 *CẢNH BÁO: ĐẾM NGƯỢC NỔ TỔNG LỰC: 50 GIÂY.*
 
-Tiếng còi báo động gầm rít như muốn xé toạc màng nhĩ. Bốn cột thủy tinh bao quanh tháp Lethe bắt đầu xuất hiện những vết nứt hình mạng nhện, dung dịch huỳnh quang màu lam lục sôi trào, bắn tung tóe những tia bọt axít bốc khói cay xè xuống mặt sàn gạch vỡ nát.
+Tiếng còi báo động gầm rít như muốn xé toạc màng nhĩ. Bốn cột thủy tinh bao quanh tháp Lethe nứt toác thành những vệt mạng nhện chằng chịt. Dung dịch huỳnh quang màu lam lục sôi trào, bắn tung tóe những bọt axít bốc khói cay xè xuống mặt sàn gạch vỡ nát.
 
 *"Erik! Không được!"* Tôi thét lên, dùng cánh tay phải còn lành lặn túm chặt lấy vạt áo len của ông. Máu từ bả vai tôi chảy ròng ròng làm ướt đẫm những ngón tay gầy guộc. *"Tôi là M-00! Tôi mang kháng thể nhận thức! Tôi mới là người phải vào buồng chân không đó!"*
 
@@ -34,7 +34,7 @@ Hai bóng người cùng bước qua cánh cửa tròn của buồng chân khôn
 
 Cánh cửa kính chịu lực dày nửa mét đóng sập lại, khóa kín bằng sáu chốt thủy lực tự động.
 
-Qua lớp kính dày bám đầy hơi nước, tôi nhìn thấy Erik và Sarah đứng cạnh nhau. Giữa không gian chật hẹp ngập tràn ánh sáng xanh lơ chết chóc, Sarah vòng tay qua cổ Erik, tựa đầu vào ngực ông như những ngày họ còn trẻ ở bờ vịnh Ashford. Erik ôm trọn lấy người vợ của mình bằng cả hai cánh tay, khuôn mặt ông áp vào mái tóc bạc của bà.
+Sau lớp kính chịu lực dày nửa mét mờ đặc hơi nước, Erik và Sarah đứng sát bên nhau. Giữa không gian chật hẹp ngập tràn ánh sáng xanh lơ chết chóc, Sarah vòng tay qua cổ Erik, tựa đầu vào ngực ông như những ngày họ còn trẻ ở bờ vịnh Ashford. Erik ôm trọn lấy người vợ của mình bằng cả hai cánh tay, khuôn mặt ông áp vào mái tóc bạc của bà.
 
 Bàn tay phải của Erik vươn ra, nắm lấy chiếc cần gạt áp lực khẩn cấp màu đỏ thẫm trên vách buồng chân không.
 
@@ -52,7 +52,7 @@ Bốn cột thủy tinh chịu áp vỡ toang thành hàng triệu mảnh vụn 
 
 Một luồng sóng ánh sáng trắng tinh khiết, chói lòa như ánh mặt trời giữa trưa hè bùng nổ từ trung tâm tháp kim loại, nuốt chửng toàn bộ buồng chân không. Không có tiếng nổ long trời lở đất của thuốc nổ. Đó là một vụ nổ của sóng âm và trường lượng tử nhận thức—một tần số đối kháng tinh khiết quét sạch mọi hạt bụi Lethe trong không gian.
 
-Trong luồng ánh sáng chói lòa đó, tôi nhìn thấy cơ thể của Erik và Sarah từ từ tan biến. Da thịt, xương tủy và những vết sẹo của họ hóa thành những hạt bụi sáng màu bạc, hòa quyện vào nhau, bay lượn lờ giữa không trung rồi tan biến vào hư không trong sự thanh thản vĩnh hằng.
+Giữa luồng sáng trắng tinh khôi, thân xác của Erik và Sarah nhẹ nhàng rã thành hàng triệu hạt bụi bạc lấp lánh. Từng hạt bụi hòa quyện vào nhau, bay lượn giữa không trung rồi tan biến vào hư không trong sự thanh thản vĩnh hằng.
 
 Sóng đối kháng lan tỏa như một vòng tròn sóng nước khổng lồ xuyên qua vách bê tông buồng B3, tràn ra cống ngầm DRAIN-09.
 

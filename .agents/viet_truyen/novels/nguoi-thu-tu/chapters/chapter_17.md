@@ -14,7 +14,7 @@ Erik gằn giọng, tiếng răng ông va vào nhau lập cập vì nước lạ
 
 *"Voss... đã... chết..."* Giọng Brandt rít lên qua kẽ răng trơ xương, âm thanh rè đục như tiếng kim loại cọ vào đá tảng. *"Sổ... XLVII... thuộc... về... cống... ngầm..."*
 
-Đám Vong thể xung quanh bắt đầu chuyển động. Chúng trườn trên vách cống, những ngón tay khẳng khiu vươn ra trong không khí, hướng thẳng về phía chiếc ba lô chống nước mà Yuki đang ôm ghì trước ngực.
+Đám Vong thể chuyển mình, trườn ràn rạt trên vách đá. Những ngón tay khẳng khiu giương ra giữa không trung, cào về phía chiếc ba lô chống nước mà Yuki đang ôm ghì trước ngực.
 
 *"Erik, hạ súng xuống!"* Tôi quát khẽ, vươn tay gạt nòng súng của ông xuống.
 
@@ -44,7 +44,7 @@ Khẩu súng lục rơi tõm xuống dòng nước buốt giá, tạo nên một
 
 *"Sarah... Chúa ơi... Sarah..."*
 
-Bóng người phụ nữ dừng lại cách Erik nửa mét. Đôi mắt đục ngầu của bà nhìn xuống người đàn ông đang khóc nấc từng cơn dưới chân mình. Những ngón tay khẳng khiu, nham nhở không còn móng khẽ giơ lên, ngập ngừng trong không khí lạnh buốt, rồi từ từ chạm nhẹ vào vệt sẹo trên mu bàn tay trái của Erik—đúng vị trí mà hai mươi năm trước, vợ ông thường dùng ngón tay xoa dịu mỗi khi ông trở về sau những ca trực đêm căng thẳng.
+Bóng người phụ nữ dừng lại cách Erik nửa mét. Bà khẽ cúi đầu, tròng mắt đục ngầu nhìn xuống người đàn ông đang khóc nấc từng cơn dưới chân mình. Những ngón tay khẳng khiu, nham nhở không còn móng khẽ giơ lên, ngập ngừng trong không khí lạnh buốt, rồi chạm nhẹ vào vệt sẹo trên mu bàn tay trái của Erik—đúng vị trí mà hai mươi năm trước, vợ ông thường dùng ngón tay xoa dịu mỗi khi ông trở về sau những ca trực đêm căng thẳng.
 
 Một giọt nước mắt trong suốt, ấm nóng chảy ra từ khóe mắt khô khốc của người phụ nữ, rơi xuống làn nước buốt giá.
 

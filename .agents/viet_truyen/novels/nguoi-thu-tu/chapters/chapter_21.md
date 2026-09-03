@@ -10,7 +10,7 @@ Toàn bộ dữ liệu viễn trắc phòng 307 và các tệp âm thanh giải 
 
 Dọc theo các con phố ở Midtown, một điều kỳ diệu lặng lẽ diễn ra.
 
-Khi sóng đối kháng quét sạch hạt bụi Lethe trong không khí, ký ức của người dân Ashford bắt đầu hồi phục như những mầm cây trồi lên sau băng tuyết. Những người già bật khóc trên bàn ăn khi bỗng nhiên nhớ ra tên của những đứa con đã mất tích từ năm 2004; những tấm bia đá trống rỗng ở nghĩa trang St. Aldric lần lượt được gia đình đến khắc lại tên họ; và những người từng bị xem là mắc chứng hoang tưởng cấp tính được trả tự do khỏi các viện tâm thần.
+Khi sóng đối kháng quét sạch hạt bụi Lethe trong không khí, ký ức của người dân Ashford hồi sinh mạnh mẽ như những mầm cây đâm chồi qua băng tuyết. Những người già bật khóc trên bàn ăn khi bỗng nhiên nhớ ra tên của những đứa con đã mất tích từ năm 2004; những tấm bia đá trống rỗng ở nghĩa trang St. Aldric lần lượt được gia đình đến khắc lại tên họ; và những người từng bị xem là mắc chứng hoang tưởng cấp tính được trả tự do khỏi các viện tâm thần.
 
 Thành phố đã nhớ lại cách để đau thương, và cũng nhớ lại cách để yêu thương.
 

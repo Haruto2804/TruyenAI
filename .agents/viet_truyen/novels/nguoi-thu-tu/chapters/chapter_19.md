@@ -63,7 +63,7 @@ Dưới sự dẫn dắt của Helmut Brandt và Sarah Solvang, những nạn nh
 
 Lindqvist hoảng hốt quay ngoắt lại. Nhưng đã quá muộn.
 
-Một bóng đen gầy guộc với chiếc áo blouse rách nát và cặp kính gọng vàng vỡ một mắt—Helmut Brandt—đã lao tới như một bóng ma. Cánh tay trơ xương đầy vết sẹo của Brandt vòng qua cổ Lindqvist, siết chặt lấy thanh quản của viên Cảnh sát trưởng!
+Từ màn khói súng mù mịt, bóng đen của Helmut Brandt phóng vút ra như một cơn lốc từ cõi chết. Cánh tay trơ xương bết dính mảnh áo blouse rách nát vòng qua cổ Lindqvist, siết chặt lấy thanh quản của viên Cảnh sát trưởng!
 
 *"Lind... qvist..."* Giọng Brandt rít lên qua kẽ răng trơ xương, đôi mắt lân tinh bùng cháy một ngọn lửa hận thù địa ngục. *"Cùng... tao... xuống... dòng... sông... Quên!"*
 
