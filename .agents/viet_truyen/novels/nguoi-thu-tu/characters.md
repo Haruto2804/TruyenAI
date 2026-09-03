@@ -8,7 +8,7 @@
 ## 1. Maren Engel
 - **Vai trò:** Nữ phóng viên điều tra, nhật báo Ashford Tribune
 - **Biệt danh & Danh xưng:** Không có
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788325803/truyen-ai/characters/nguoi-thu-tu/maren-engel.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/nguoi-thu-tu/maren-engel.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Tuổi:** 34
@@ -24,7 +24,7 @@
 ## 2. Erik Solvang
 - **Vai trò:** Cựu Thanh tra Cảnh sát Ashford (Nghỉ hưu)
 - **Biệt danh & Danh xưng:** Không có
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788325803/truyen-ai/characters/nguoi-thu-tu/erik-solvang.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/nguoi-thu-tu/erik-solvang.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Tuổi:** 58
@@ -40,7 +40,7 @@
 ## 3. Yuki Tanaka
 - **Vai trò:** Nghiên cứu sinh Tiến sĩ Tâm lý Hình sự, Đại học Ashford
 - **Biệt danh & Danh xưng:** Không có
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788326410/truyen-ai/characters/nguoi-thu-tu/yuki-tanaka.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/nguoi-thu-tu/yuki-tanaka.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Tuổi:** 27
@@ -56,7 +56,7 @@
 ## 4. Daniel Voss
 - **Vai trò:** Giáo sư Tâm lý Hình sự, Đại học Ashford
 - **Biệt danh & Danh xưng:** Không có
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788326410/truyen-ai/characters/nguoi-thu-tu/daniel-voss.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/nguoi-thu-tu/daniel-voss.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Tuổi:** 63
@@ -70,7 +70,7 @@
 ## 5. Nils
 - **Vai trò:** Chủ quán bar The Drowning Sailor (Cựu thủy thủ)
 - **Biệt danh & Danh xưng:** Không có
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788326025/truyen-ai/characters/nguoi-thu-tu/nils.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/nguoi-thu-tu/nils.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Tuổi:** 60
@@ -84,7 +84,7 @@
 ## 6. Thanh tra Lindqvist
 - **Vai trò:** Điều tra viên Sở Cảnh sát Ashford
 - **Biệt danh & Danh xưng:** Không có
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788326023/truyen-ai/characters/nguoi-thu-tu/thanh-tra-lindqvist.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/nguoi-thu-tu/thanh-tra-lindqvist.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Tuổi:** 52
@@ -98,7 +98,7 @@
 ## 7. Helmut Brandt
 - **Vai trò:** Cựu trợ lý nghiên cứu Khoa Tâm lý Hình sự (Năm 2004)
 - **Biệt danh & Danh xưng:** Không có
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788326022/truyen-ai/characters/nguoi-thu-tu/helmut-brandt.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/nguoi-thu-tu/helmut-brandt.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Tuổi:** Khoảng 45
