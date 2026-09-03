@@ -18,28 +18,31 @@ jobs:
       - name: Kiểm tra mã nguồn (Checkout)
         uses: actions/checkout@v4
 
-      - name: Cài đặt Node.js
+      - name: Cài đặt Node.js (Cho Sync Engine)
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: Cài đặt thư viện
-        # Cài đặt các thư viện cần thiết như @google/generative-ai
-        run: npm install
+      - name: Cài đặt Python (Cho Google GenAI SDK)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
 
-      - name: Chạy Kịch bản Viết truyện (Kết hợp Skill)
+      - name: Cài đặt thư viện
+        run: |
+          npm install
+          pip install google-genai
+
+      - name: Chạy Kịch bản Viết truyện (Gemini 3.5 Flash-Lite)
         env:
-          # Truyền API Key từ cấu hình Secrets của GitHub vào cho file chạy
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          NODE_OPTIONS: "--dns-result-order=ipv4first"
-        run: npx tsx scripts/auto_writer.ts
+        run: python scripts/auto_writer.py
 
       - name: Kích hoạt Lệnh Đồng bộ (Sync Engine)
         run: npm run sync:novel
 
       - name: Lưu và Đẩy code lên GitHub (Commit & Push)
-        # Sử dụng action có sẵn để tự động commit thư mục "stories/" vừa tạo ra
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-generated story by Gemini AI"
+          commit_message: "Auto-generated story by Gemini 3.5 Flash-Lite"
           branch: master
