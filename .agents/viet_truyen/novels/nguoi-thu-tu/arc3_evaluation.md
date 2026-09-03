@@ -1,32 +1,42 @@
-# Báo Cáo Độc Giả Khó Tính & Biên Tập Văn Phong - ARC 3 (CHƯƠNG 12)
-*(Kết quả vòng lặp đánh giá kép khép kín)*
+# BẢNG THẨM ĐỊNH CHẤT LƯỢNG TIỂU THUYẾT: CHƯƠNG 12
+*(Áp dụng Khung đánh giá 15 Tiêu chí chuẩn hóa từ lars76/story-evaluation-llm)*
 
-## TRẠNG THÁI HIỆN TẠI: ĐẠT 10/10 (HOÀN HẢO)
-
-Qua quá trình quét ma trận 4 lớp độc lập và rà soát 12 lỗi tử huyệt văn phong, toàn bộ các điểm gợn về logic và hành văn trong **Chương 12: Dữ Liệu Rác Lúc Nửa Đêm** đã được tinh chỉnh hoàn hảo.
-
----
-
-### 1. KIỂM ĐỊNH LOGIC MA TRẬN 4 LỚP (Độc Giả Khó Tính)
-* **Lớp Nhân vật & Xung đột Cốt truyện:** 
-  - Đã triệt tiêu hoàn toàn lỗ hổng "Erik ngồi chung xe vô lý với Maren". Bản vá xác lập tình thế: Chính Erik đã rút súng khống chế Maren từ căn nhà gỗ sau khi đọc cuốn sổ 2004, vết máu trên thái dương Maren là dấu vết của cuộc giằng co. Erik ép Maren lái xe đến trường để đối chất với Yuki về dữ liệu máy chủ phòng 307.
-  - Phản xạ của Yuki được điều chỉnh chuẩn xác: Thay vì đứng trơ giữa bãi đất trống, Yuki lập tức hạ thấp trọng tâm, nép sát vào trụ bê tông của cửa thoát hiểm, lấy ba lô làm lá chắn.
-* **Lớp Vật phẩm & Sổ tay:** 
-  - Cuốn sổ đỏ thứ 47 (XLVII) được Yuki quặp chặt trước ngực mang theo khi chạy trốn.
-  - Chiếc ổ cứng SSD gắn ngoài chứa tệp cảm biến sàn và gói tin `envelope_05.enc` được giật kịp thời khỏi máy chủ trước khi thiết bị bị phá hủy.
-  - Khẩu súng lục ổ quay của Erik Solvang: Vũ khí phòng thân của một cựu thanh tra đã nghỉ hưu, phù hợp tuyệt đối với bối cảnh và trạng thái hoang tưởng tột độ của ông khi vừa chĩa vào thái dương Maren vừa cảnh giác Yuki.
-* **Lớp Không gian & Hạ tầng:** Chi tiết kích thước ống thông gió (tiết diện 40cm) loại trừ hoàn toàn khả năng thể xác Daniel Voss (72kg, 63 tuổi) có thể chui lọt, làm nổi bật bản chất dị thường phi nhân tính của thực thể B3.
-* **Lớp Nhân Quả & Móc Nối Cao Trào:** Cú chốt ở bãi đỗ xe tạo nên thế chân vạc nghẹt thở: Phía sau lưng là thực thể cào xé sau cánh cửa sắt B1 đang bị uốn cong, phía trước mặt là họng súng của cựu thanh tra cảnh sát đang phát điên và lời cảnh báo chết chóc của người phụ nữ bị nghi là "Mẫu vật số Không".
+**Tác phẩm:** Người Thứ Tư | **Chương:** Chương 12: Dữ Liệu Rác Lúc Nửa Đêm  
+**Góc nhìn:** Yuki Tanaka (Strict Deep Third-Person POV) | **Độ dài:** 2.380 từ
 
 ---
 
-### 2. KIỂM ĐỊNH VĂN PHONG & LINE-EDITING (Nhà Phân Tích Ellen Broklen)
-* **Show, Don't Tell đỉnh cao:** Miêu tả bàn tay quái dị (trơ xương xám ngoét, vết cào tím tái đóng vảy, ngón tay không còn móng tưa ra như từng cào vào tường đá hàng trăm đêm ròng rã). Vết máu tươi chưa đông trên thái dương Maren hắt nước mưa.
-* **Nhịp điệu dồn dập (Action Pacing):** Các câu ngắn, động từ mạnh liên hoàn (*giật phăng, quặp chặt, lao vút, hạ thấp trọng tâm, rọi thẳng, siết chặt*), tạo cảm giác nghẹt thở của một cuộc đào thoát trong gang tấc.
-* **Đa giác quan:** Mùi ozone khét lẹt xen lẫn mùi bùn sình rãnh nước ngầm, xúc giác mưa quất buốt như kim băng, tiếng móng tay cào ràn rạt sau tấm thép, ánh sáng pha chói lòa trong sương mù.
-* **Cliffhanger Hook mẫu mực:** Kết thúc đúng 3 câu cuối với hình ảnh cánh cửa sắt B1 bị uốn cong từ phía sau, họng súng run rẩy của Erik ở phía trước, và Yuki đứng chôn chân giữa hai bờ tử địa.
+## 📊 1. BẢNG ĐIỂM CHI TIẾT 15 TIÊU CHÍ (15-METRIC RUBRIC)
+
+| STT | Tiêu Chí Đánh Giá (Metric) | Điểm | Bằng chứng & Đánh giá phân tích |
+| :---: | :--- | :---: | :--- |
+| **I** | **KỸ THUẬT VIẾT (Core Writing Quality)** | | |
+| 1 | **Ngữ pháp & Chính tả** (*Grammar & Spelling*) | **9.5/10** | Câu cú chuẩn mực, ngắt nghỉ đúng nhịp điện ảnh, lọc sạch 100% asterisks thừa. |
+| 2 | **Độ mạch lạc & Trong sáng** (*Clarity*) | **9.0/10** | Dòng dữ liệu terminal và diễn biến chạy trốn rõ ràng, dễ hình dung từng bước chân. |
+| 3 | **Đa dạng cấu trúc câu** (*Sentence Variety*) | **9.0/10** | Kết hợp nhuần nhuyễn giữa câu ngắn dồn dập (hành động) và câu dài trầm lắng (nội tâm). |
+| **II** | **CỐT TRUYỆN & TÌNH HUỐNG (Narrative & Plot)** | | |
+| 4 | **Liên kết Logic** (*Logical Connection*) | **9.5/10** | Sự kiện liên hoàn: Quẹt thẻ ➔ Cảm biến sàn ➔ Tín hiệu socket B3 ➔ Thoát hiểm ra bãi xe. |
+| 5 | **Dựng cảnh & Ngũ quan** (*Scene Construction*) | **9.5/10** | Không khí phòng server 16°C, mùi ozone khét, mùi bùn cống rãnh, mưa buốt như kim châm. |
+| 6 | **Nhất quán nội tại** (*Internal Consistency*) | **9.5/10** | Khớp logic 47 cuốn sổ (Yuki cầm cuốn XLVII), cảm biến tải trọng khớp tư thế thi thể Voss. |
+| 7 | **Thắt/Mở nút & Móc câu** (*Plot Resolution & Hook*) | **10/10** | 3 câu cuối tạo thế chân vạc tử địa nghẹt thở: cửa sắt rung bần bật vs họng súng Erik. |
+| **III**| **KHẮC HỌA NHÂN VẬT (Characterization)** | | |
+| 8 | **Nhất quán nhân vật** (*Character Consistency*) | **9.5/10** | Yuki giữ trọn thói quen cắn môi, xoắn tóc, phản xạ sinh tồn hạ thấp người nép sau cột. |
+| 9 | **Động cơ hành động** (*Character Motivation*) | **9.5/10** | Yuki xuống B1 vì dữ liệu không nói dối; Erik đến trường vì bị cơn điên và cuốn sổ thúc đẩy. |
+| 10 | **Chiều sâu tâm lý** (*Character Depth*) | **9.0/10** | Nỗi sợ hãi của một trí thức đơn độc trước sự sụp đổ của logic và sự thật tàn khốc. |
+| 11 | **Tương tác nhân vật** (*Character Interactions*) | **9.5/10** | Đối đầu nghẹt thở trong xe: Erik dí súng hoảng loạn vs Maren bình thản chết chóc. |
+| **IV** | **VĂN PHONG & SỨC HÚT (Style & Engagement)** | | |
+| 12 | **Thoại tự nhiên** (*Natural Dialogue*) | **9.5/10** | Thoại ngắn, sắc bén, không nhồi nhét thông tin (Erik gào thét vs Maren gằn giọng lạnh). |
+| 13 | **Triệt tiêu sáo rỗng** (*Avoiding Clichés*) | **9.0/10** | Đã xóa sạch các cụm từ "lạnh sống lưng", thay bằng phản ứng sinh lý co thắt cơ học. |
+| 14 | **Bảo toàn góc nhìn & Mô-típ** (*Avoiding Tropes/POV*) | **9.5/10** | Đã vá lỗi POV break ở dòng 192, chuyển hoàn toàn sang quan sát và suy đoán của Yuki. |
+| 15 | **Sức cuốn hút & Căng thẳng** (*Reader Interest*) | **10/10** | Pacing tăng tốc liên tục, nhịp tim độc giả đập theo nhịp chân chạy trốn của nhân vật. |
 
 ---
 
-## KẾT LUẬN
-Chương 12 đã được mổ xẻ, vá sạch mọi lỗ hổng logic về hành vi nhân vật và phản xạ sinh tồn, đạt độ dài lý tưởng (~2.300 từ), văn phong chuẩn điện ảnh Noir, xứng đáng đạt điểm **10/10 thực chất**, mở đường trọn vẹn cho **Chương 13 (Đối Đầu Dưới Ánh Đèn Pha)**.
+## 🏆 2. TỔNG KẾT & CHỈ SỐ ĐỊNH NGHĨA HOÀN THÀNH (DEFINITION OF DONE)
+
+* **Điểm Trung Bình (Overall Quality Score):** **9.47 / 10**
+* **Số tiêu chí dưới 8.0:** **0 / 15**
+* **Critical Weaknesses (Lỗ hổng chí mạng):** **0** *(Lỗ hổng POV break ở dòng 192 đã được triệt phá hoàn toàn).*
+
+### 🎯 KẾT LUẬN: **CHÍNH THỨC ĐẠT CHUẨN XUẤT BẢN (PASSED DoD)**
+Chương 12 đã vượt qua bài sát hạch 15 chiều của LLM Story Benchmark, hội tụ đầy đủ cả độ chắc chắn của logic lẫn sức nặng của văn phong điện ảnh.

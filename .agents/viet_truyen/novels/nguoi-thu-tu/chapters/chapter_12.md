@@ -189,7 +189,7 @@ Nhưng người ngồi bên ghế phụ mới là nguyên nhân của vệt máu
 
 Cựu thanh tra Erik Solvang không hề ngồi yên như một đồng minh. Khuôn mặt khắc khổ của ông giật liên hồi, hai mắt đỏ ngầu những tia máu. Bàn tay phải run rẩy vì chứng Parkinson của ông đang siết chặt báng một khẩu súng lục ổ quay cổ lỗ—họng súng lúc này không chỉ chĩa ra ngoài cửa sổ, mà chốc chốc lại giật giật hướng thẳng vào màng tang của Maren. 
 
-Hóa ra, chính Erik đã khống chế Maren từ căn nhà gỗ sau khi đọc xong cuốn sổ năm 2004, ép cô phóng viên phải lái xe đến đây để đối chất với ngọn nguồn dữ liệu.
+Nhìn nòng súng run rẩy kề sát màng tang Maren và nét mặt co giật điên loạn của Erik, một tia suy đoán lóe lên trong đầu Yuki: Lão già không hề đến đây cùng cô ta như một cộng sự. Lão đang khống chế cô phóng viên bằng khẩu súng đó.
 
 Kính xe bên phụ tụt xuống hết cỡ. Giọng Erik xé toạc màn mưa, gầm lên khàn đặc và tuyệt vọng:
 
