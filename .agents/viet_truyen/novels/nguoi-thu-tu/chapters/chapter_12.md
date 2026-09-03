@@ -138,3 +138,52 @@ Có tiếng móng tay gãi cành cạch vào thành kim loại.
 Một tiếng thở dài khẽ khàng, lạnh ngắt như sương mù tháng mười hai, trút xuống từ bóng tối trên cao:
 
 *"Yuki... trả cuốn sổ lại cho ta."*
+
+Không khí trong khoang máy chủ đông cứng lại. Mùi ozone khét lẹt ban nãy dường như bị lấn át bởi một thứ mùi ẩm mốc tởm lợm—mùi bùn sình phân hủy và nước thải ngầm tích tụ hàng chục năm dưới lòng đất sâu. 
+
+Giọng nói ấy... nghe như thanh âm của Daniel Voss. Nhưng nhịp điệu kéo dài lê thê, âm sắc méo mó và rạn vỡ, như thể phát ra từ một chiếc đĩa than bị xước sâu phát đi phát lại dưới đáy giếng hoang. 
+
+*Không thể nào.*
+
+Tư duy logic của Yuki bật lên một phản xạ cảnh báo đanh thép: Cửa ống thông gió trần chỉ có tiết diện bốn mươi centimet. Một giáo sư sáu mươi ba tuổi với khung xương nặng hơn bảy mươi cân không thể nào luồn lách qua hệ thống ống dẫn gió của tầng hầm B1. 
+
+Kẻ đang trườn trên kia không phải là con người.
+
+*Rắc!*
+
+Một tiếng gãy giòn vang lên. Tấm lưới sắt mạ kẽm chắn cửa thông gió bị bẻ cong sang một bên. Từ khoảng tối đen ngòm phía trên, một cánh tay thò xuống. 
+
+Đó là cánh tay trơ xương xám ngoét, phủ đầy những vết cào cấu thâm tím đã đóng vảy. Các đầu ngón tay khẳng khiu không còn móng, nham nhở và tưa ra như từng cào vào tường đá suốt hàng trăm đêm ròng rã. 
+
+Những ngón tay ấy sờ soạng trong không khí, hướng thẳng xuống vị trí đỉnh đầu của Yuki.
+
+Bản năng sinh tồn giật ngược Yuki về phía sau. Cô dùng hết sức bình sinh đạp mạnh hai chân xuống sàn, đẩy chiếc ghế xoay trượt lùi về góc phòng. Chiếc ghế va vào khung sắt của giá máy chủ tạo nên một tiếng *keng* chói tai, khiến cốc mì ăn liền dưới gầm bàn đổ nghiêng, nước súp nguội ngắt sánh ra sàn gạch.
+
+*"Trả... lại..."*
+
+Tiếng rít rợn người trên trần nhà chuyển thành một tiếng thét khàn đục như kim loại rách toạc. Bóng đen trong ống thông gió co rút lại, chuẩn bị lao thẳng xuống.
+
+Yuki không do dự. Trong khoảnh khắc ngàn cân treo sợi tóc, cô giật phăng chiếc ổ cứng SSD gắn ngoài đang cắm vào cổng USB máy chủ—nơi tệp dữ liệu cảm biến sàn và gói tin `envelope_05.enc` vừa tải về hoàn tất. Cô quặp chặt chiếc ba lô vải bố chứa cuốn sổ đỏ XLVII trước ngực, cúi gập người lao vút về phía cửa sắt thoát hiểm.
+
+Sau lưng cô, một khối thịt nặng trịch rơi huỵch xuống mặt bàn điều khiển. Màn hình máy tính vỡ toang, tia lửa điện xẹt ra đỏ lừ kèm tiếng quạt gió rên rỉ lần cuối rồi tắt ngấm.
+
+Yuki giật mạnh tay nắm cửa thoát hiểm, lao thục mạng lên cầu thang bê tông ẩm ướt dẫn ra bãi đỗ xe phía sau tòa nhà Khoa Tâm lý. Tiếng bước chân cô giẫm trên những bậc thang trơn trượt vang lên dồn dập, lồng ngực bỏng rát như sắp nứt toác vì thiếu khí.
+
+Cánh cửa sắt nặng nề ở tầng trệt bị cô xô mạnh bung ra. 
+
+Mưa ở Ashford đêm nay quất thẳng vào mặt Yuki, buốt lạnh như những mũi kim băng châm vào da thịt. Màn sương mù đặc quánh bao trùm cả khoảng sân vắng lặng, chỉ có ánh đèn cao áp màu vàng đục lờ mờ soi qua những vũng nước đọng.
+
+Yuki vội vã cài chốt cơ học của cửa sắt từ phía ngoài. Đằng sau cánh cửa, có tiếng móng tay sắc nhọn cào ràn rạt vào mặt kim loại dày cộp, rồi chìm dần vào tĩnh lặng.
+
+Cô lùi lại ba bước, hơi thở phả ra từng luồng khói trắng trong đêm lạnh, hai tay ghì chặt chiếc ba lô ướt sũng nước mưa. 
+
+Đột nhiên, hai luồng ánh sáng pha cực mạnh bật sáng chói lòa từ góc bãi đỗ xe, rọi thẳng vào người cô.
+
+Yuki giơ tay chắn trước mắt, con ngươi co lại sau cặp kính mờ hơi nước. 
+
+Một chiếc sedan màu xám cũ kỹ đang nổ máy âm ỉ trong bóng râm dưới tán cây phong già. Cửa kính bên ghế lái từ từ hạ xuống nửa gang tay, để lộ khuôn mặt góc cạnh tái nhợt và đốm tàn thuốc lá đỏ rực trong đêm của Maren Engel.
+
+Nhưng điều khiến tim Yuki gần như ngừng đập lại nằm ở chiếc cửa sổ bên ghế phụ.
+
+Kính xe bên phải đã hạ hẳn xuống. Từ trong bóng tối của khoang xe, một nòng súng lục ổ quay lạnh ngắt vươn ra ngoài, chĩa thẳng vào trán cô. Ngón tay run rẩy của cựu thanh tra Erik Solvang đặt trên cò súng, đôi mắt trũng sâu của ông long lên những tia máu đỏ ngầu.
+

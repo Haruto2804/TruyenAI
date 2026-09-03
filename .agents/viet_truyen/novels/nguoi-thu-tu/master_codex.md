@@ -205,4 +205,5 @@
   * **C11:** Erik tìm được cuốn sổ tay cũ giấu dưới sàn nhà. Đọc được nét chữ của chính mình từ 2004, cảnh báo rằng Maren là Mẫu vật số Không và không phải con người. Hết Arc 2.
 
 * **Arc 3 (POV Yuki Tanaka): Chương 12 - 16**
-  * **C12:** *Dữ Liệu Rác Lúc Nửa Đêm.* Yuki trích xuất dữ liệu áp lực sàn phòng 307, phát hiện có 4 người trong phòng lúc 23:15 và thẻ vào là của chính Voss. Hé lộ Yuki đang giấu cuốn sổ đỏ XLVII mà Voss giao trước khi chết. Nhận tín hiệu xâm nhập từ B3 và tiếng thì thầm rợn người trên ống thông gió đòi lại sổ. Hết C12.
+  * **C12:** *Dữ Liệu Rác Lúc Nửa Đêm.* Yuki trích xuất dữ liệu áp lực sàn phòng 307, phát hiện có 4 người trong phòng lúc 23:15 và thẻ vào là của chính Voss. Hé lộ Yuki đang giấu cuốn sổ đỏ XLVII. Thực thể quái dị tấn công từ ống thông gió đòi lại sổ, Yuki giật ổ cứng SSD chứa dữ liệu và chạy thoát ra bãi đỗ xe trong đêm mưa, bất ngờ chạm trán Maren và Erik Solvang đang chĩa thẳng họng súng vào trán cô. Hết C12.
+
