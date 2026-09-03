@@ -40,7 +40,7 @@ async function main() {
   const novelSlug = process.env.NOVEL_SLUG || "tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong";
   const novelDir = path.join(process.cwd(), ".agents", "viet_truyen", "novels", novelSlug);
   const outputDir = path.join(novelDir, "chapters");
-  
+
   // Đọc thêm master_codex.md của bộ truyện nếu có
   const codexPath = path.join(novelDir, "master_codex.md");
   if (fs.existsSync(codexPath)) {
@@ -49,7 +49,7 @@ async function main() {
     systemContext += `\n===================================\n`;
     console.log(`Đã nạp master_codex của bộ truyện: ${novelSlug}`);
   }
-  
+
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
@@ -80,9 +80,9 @@ YÊU CẦU THỰC THI (ĐÃ ĐƯỢC CHẮT LỌC TỪ CÁC TÀI LIỆU TRÊN):
   // Danh sách các model thử nghiệm chính xác theo Google AI Studio của bạn
   const candidateModels = [
     process.env.GEMINI_MODEL,
+    "gemini-3.5-flash-lite",
     "gemini-3.8-flash",
     "gemini-3.1-pro",
-    "gemini-3.5-flash-lite",
     "gemini-2.0-flash",
     "gemini-1.5-flash"
   ].filter(Boolean) as string[];

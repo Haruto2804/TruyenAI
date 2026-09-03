@@ -31,6 +31,7 @@ jobs:
         env:
           # Truyền API Key từ cấu hình Secrets của GitHub vào cho file chạy
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NODE_OPTIONS: "--dns-result-order=ipv4first"
         run: npx tsx scripts/auto_writer.ts
 
       - name: Kích hoạt Lệnh Đồng bộ (Sync Engine)
