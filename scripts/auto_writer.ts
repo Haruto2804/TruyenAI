@@ -77,14 +77,14 @@ YÊU CẦU THỰC THI (ĐÃ ĐƯỢC CHẮT LỌC TỪ CÁC TÀI LIỆU TRÊN):
 - Trả về nguyên văn bản Markdown của chương truyện, không thêm các lời giải thích thừa như "Đây là chương truyện...".
 `;
 
-  // Danh sách các model thử nghiệm theo thứ tự ưu tiên
+  // Danh sách các model thử nghiệm chính xác theo Google AI Studio của bạn
   const candidateModels = [
     process.env.GEMINI_MODEL,
-    "gemini-1.5-flash",
+    "gemini-3.8-flash",
+    "gemini-3.1-pro",
+    "gemini-3.5-flash-lite",
     "gemini-2.0-flash",
-    "gemini-1.5-flash-latest",
-    "gemini-1.5-pro-latest",
-    "gemini-pro"
+    "gemini-1.5-flash"
   ].filter(Boolean) as string[];
 
   let text = "";
