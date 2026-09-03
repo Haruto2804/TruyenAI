@@ -39,7 +39,13 @@ jobs:
         run: python scripts/auto_writer.py
 
       - name: Kích hoạt Lệnh Đồng bộ (Sync Engine)
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
         run: npm run sync:novel
+        continue-on-error: true # Không làm dừng workflow nếu chưa cấu hình DATABASE_URL trên GitHub Secret
 
       - name: Lưu và Đẩy code lên GitHub (Commit & Push)
         uses: stefanzweifel/git-auto-commit-action@v5
