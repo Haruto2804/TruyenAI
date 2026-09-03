@@ -175,15 +175,34 @@ Mưa ở Ashford đêm nay quất thẳng vào mặt Yuki, buốt lạnh như nh
 
 Yuki vội vã cài chốt cơ học của cửa sắt từ phía ngoài. Đằng sau cánh cửa, có tiếng móng tay sắc nhọn cào ràn rạt vào mặt kim loại dày cộp, rồi chìm dần vào tĩnh lặng.
 
-Cô lùi lại ba bước, hơi thở phả ra từng luồng khói trắng trong đêm lạnh, hai tay ghì chặt chiếc ba lô ướt sũng nước mưa. 
+Cô lùi lại ba bước, hơi thở phả ra từng luồng khói trắng trong đêm lạnh. 
 
-Đột nhiên, hai luồng ánh sáng pha cực mạnh bật sáng chói lòa từ góc bãi đỗ xe, rọi thẳng vào người cô.
+Đột nhiên, hai luồng ánh sáng pha cực mạnh bật sáng chói lòa từ góc khuất bãi đỗ xe, rọi thẳng vào người cô.
 
-Yuki giơ tay chắn trước mắt, con ngươi co lại sau cặp kính mờ hơi nước. 
+Bản năng cảnh giác giật giật từng thớ cơ: Yuki lập tức hạ thấp trọng tâm, lùi thụt người vào sau bờ trụ bê tông gồ ghề của cửa thoát hiểm. Hai cánh tay cô co chặt, lấy chiếc ba lô vải bố bọc cuốn sổ XLVII và chiếc ổ cứng SSD che chắn trước lồng ngực đang đập như búa gõ.
 
-Một chiếc sedan màu xám cũ kỹ đang nổ máy âm ỉ trong bóng râm dưới tán cây phong già. Cửa kính bên ghế lái từ từ hạ xuống nửa gang tay, để lộ khuôn mặt góc cạnh tái nhợt và đốm tàn thuốc lá đỏ rực trong đêm của Maren Engel.
+Đó là một chiếc sedan màu xám cũ kỹ, cần gạt nước đang gạt ràn rạt trên lớp kính lái ướt sũng. 
 
-Nhưng điều khiến tim Yuki gần như ngừng đập lại nằm ở chiếc cửa sổ bên ghế phụ.
+Ánh đèn pha vàng vọt xuyên qua màn sương đêm, để lộ khoang cabin hỗn loạn. Maren Engel ngồi sau vô lăng, bàn tay trái nắm chặt vành lái, kẹp điếu thuốc lá cháy dở rực đỏ trong bóng tối. Trên thái dương cô phóng viên có một vệt máu tươi vừa chảy xuống gò má góc cạnh, chưa kịp đông lại vì nước mưa hắt qua khe cửa sổ.
 
-Kính xe bên phải đã hạ hẳn xuống. Từ trong bóng tối của khoang xe, một nòng súng lục ổ quay lạnh ngắt vươn ra ngoài, chĩa thẳng vào trán cô. Ngón tay run rẩy của cựu thanh tra Erik Solvang đặt trên cò súng, đôi mắt trũng sâu của ông long lên những tia máu đỏ ngầu.
+Nhưng người ngồi bên ghế phụ mới là nguyên nhân của vệt máu ấy.
+
+Cựu thanh tra Erik Solvang không hề ngồi yên như một đồng minh. Khuôn mặt khắc khổ của ông giật liên hồi, hai mắt đỏ ngầu những tia máu. Bàn tay phải run rẩy vì chứng Parkinson của ông đang siết chặt báng một khẩu súng lục ổ quay cổ lỗ—họng súng lúc này không chỉ chĩa ra ngoài cửa sổ, mà chốc chốc lại giật giật hướng thẳng vào màng tang của Maren. 
+
+Hóa ra, chính Erik đã khống chế Maren từ căn nhà gỗ sau khi đọc xong cuốn sổ năm 2004, ép cô phóng viên phải lái xe đến đây để đối chất với ngọn nguồn dữ liệu.
+
+Kính xe bên phụ tụt xuống hết cỡ. Giọng Erik xé toạc màn mưa, gầm lên khàn đặc và tuyệt vọng:
+
+*"Yuki Tanaka! Ném chiếc ba lô ra xa ngay lập tức! Người đàn bà ngồi cạnh tao... cô ta là Mẫu vật số Không! Cô ta không phải con người!"*
+
+Maren không hề quay đầu lại, cũng không hề tỏ ra sợ hãi họng súng đang kề sát thái dương mình. Cô nhả một ngụm khói trắng mỏng vào kính chắn gió, ánh mắt xám xanh sắc lạnh liếc qua gương chiếu hậu, khóa chặt lấy bóng người đang nép sau trụ bê tông. Giọng cô trầm đục, bình thản đến rợn người lọt qua tiếng gió rít:
+
+*"Đừng nghe lão ta, Yuki. Bộ não của Solvang đã bị Hiệu ứng Lethe đục thủng toàn bộ từ hai mươi năm trước rồi. Lão đang trong cơn hoang tưởng cấp tính. Lên xe ngay... nếu cô muốn sống sót rời khỏi khuôn viên trường đêm nay."*
+
+Phía sau lưng Yuki, cánh cửa sắt của tầng hầm B1 đột ngột rung lên bần bật. Then chốt kim loại bị uốn cong sang một bên dưới một lực đẩy kinh hoàng từ lòng đất sâu, kèm theo tiếng móng tay cào xé điên cuồng trên mặt thép.
+
+Phía trước mặt cô, họng súng lục của cựu thanh tra run bần bật trong cơn điên loạn, đối lập với đôi mắt bình thản chết chóc của người phụ nữ ngồi sau vô lăng.
+
+Yuki đứng chôn chân giữa hai bờ tử địa, mười đầu ngón tay tê dại siết chặt vào chiếc ổ cứng đang bốc hơi ấm mỏng manh giữa trời mưa buốt giá.
+
 
