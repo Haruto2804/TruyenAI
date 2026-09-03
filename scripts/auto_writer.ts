@@ -13,8 +13,6 @@ const genAI = new GoogleGenerativeAI(apiKey);
 
 async function main() {
   console.log("Đang khởi tạo AI...");
-  // Sử dụng Gemini 1.5 Pro vì mô hình này thông minh hơn trong việc tuân thủ các quy tắc phức tạp (skill)
-  const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
 
   // 1. Đọc nội dung các Skill và Rules để nạp "Kiến thức" toàn diện cho AI
   const contextFiles = [
@@ -79,21 +77,48 @@ YÊU CẦU THỰC THI (ĐÃ ĐƯỢC CHẮT LỌC TỪ CÁC TÀI LIỆU TRÊN):
 - Trả về nguyên văn bản Markdown của chương truyện, không thêm các lời giải thích thừa như "Đây là chương truyện...".
 `;
 
-  try {
-    console.log(`Đang yêu cầu AI viết Chương ${nextChapterNum}... Quá trình này có thể mất 1-2 phút.`);
-    const result = await model.generateContent(prompt);
-    const response = await result.response;
-    const text = response.text();
+  // Danh sách các model thử nghiệm theo thứ tự ưu tiên
+  const candidateModels = [
+    process.env.GEMINI_MODEL,
+    "gemini-1.5-flash",
+    "gemini-2.0-flash",
+    "gemini-1.5-flash-latest",
+    "gemini-1.5-pro-latest",
+    "gemini-pro"
+  ].filter(Boolean) as string[];
 
+  let text = "";
+  let successModel = "";
+
+  console.log(`Đang yêu cầu AI viết Chương ${nextChapterNum}...`);
+
+  for (const modelName of candidateModels) {
+    try {
+      console.log(`Đang thử gọi model: ${modelName}...`);
+      const model = genAI.getGenerativeModel({ model: modelName });
+      const result = await model.generateContent(prompt);
+      const response = await result.response;
+      text = response.text();
+      successModel = modelName;
+      console.log(`=> Gọi thành công với model: ${modelName}!`);
+      break;
+    } catch (err: any) {
+      console.warn(`Model ${modelName} không phản hồi: ${err?.status || ''} ${err?.message || err}`);
+    }
+  }
+
+  if (!text) {
+    console.error("Lỗi: Tất cả các model Gemini đều không phản hồi thành công.");
+    process.exit(1);
+  }
+
+  try {
     console.log("AI đã viết xong. Đang lưu file...");
-    
     fs.writeFileSync(filePath, text, "utf-8");
     console.log(`Đã lưu thành công tại: ${filePath}`);
-    
     console.log("GỢI Ý: Kịch bản đã sẵn sàng để tích hợp với lệnh 'npm run sync:novel'!");
-    
   } catch (error) {
-    console.error("Có lỗi xảy ra khi gọi API:", error);
+    console.error("Có lỗi xảy ra khi lưu file:", error);
     process.exit(1);
   }
 }
