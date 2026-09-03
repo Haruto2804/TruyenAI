@@ -155,26 +155,35 @@
 * **Phân loại:** `Đạo cụ / Manh mối`
 * **Định nghĩa:** Cuốn sổ tay bìa da đen được giấu dưới sàn nhà của Erik. Chứa những ghi chép của chính ông về sự lây lan của Lethe trong sở cảnh sát, việc Sarah bị bắt xuống B3, và lời cảnh báo cuối cùng: "Đừng tin Maren Engel. Cô ta không phải con người."
 
+### 17. Cảm biến áp lực sàn phòng 307
+* **Phân loại:** `Manh mối kỹ thuật số`
+* **Định nghĩa:** Hệ thống cảm biến tải trọng ngầm dưới sàn gỗ phòng 307 do Yuki trích xuất. Ghi nhận lúc 23:15 đêm án mạng có đồng thời 4 khối tải trọng đứng bất động tại 4 góc phòng, trong khi cửa khóa kín.
+
+### 18. Cuốn sổ đỏ XLVII (The 47th Notebook)
+* **Phân loại:** `Đạo cụ / Manh mối`
+* **Định nghĩa:** Cuốn sổ tay thứ 47 bìa da đỏ của Voss. Trước khi chết, Voss đã nhét vào ba lô của Yuki và dặn cô phải trốn chạy, không được tin bất kỳ ai, kể cả người trông giống hệt ông.
+
+### 19. envelope_05.enc & B3_DEEP_CHAMBER
+* **Phân loại:** `Manh mối / Mạng nội bộ`
+* **Định nghĩa:** Tệp tin mã hóa gửi trực tiếp từ máy chủ ngầm B3 qua địa chỉ IP 10.0.0.99 vào máy tính của Yuki lúc 2 giờ sáng, đi kèm tiếng động và giọng nói từ trần ống thông gió.
+
 ---
 
 ## 🧠 4. MEMORY MANAGER — TIẾN ĐỘ & TRẠNG THÁI
 
-### Trạng Thái Hiện Tại (Sau Arc 2 - Hết Chương 11):
-* **Vụ án:** Dự án Lethe được xác định không chỉ xóa hồ sơ vật lý mà là một "virus nhận thức" lây truyền qua lời nói/sự xác nhận tập thể. 
-* **Maren Engel:** Vừa cùng Erik xuống B3, tìm thấy Phong bì Đen có dấu sáp chữ 'S'. Bị Erik phát hiện thân phận thật có thể là "Mẫu vật số Không" không phải con người.
-* **Erik Solvang:** Bị chấn động khi phát hiện vợ mình (Sarah) không chết vì tai nạn mà bị đưa xuống B3 và bị xóa khỏi ký ức toàn thành phố. Đã tìm lại được cuốn sổ tay ghi chép năm 2004 của chính mình và biết được Maren là kẻ nguy hiểm.
-* **Yuki Tanaka:** (Chưa xuất hiện trong Arc 2)
-* **Nils:** Được xác nhận miễn nhiễm với Lethe vì bị câm/ngừng giao tiếp bằng lời nói 20 năm qua. Là người nắm giữ sự thật và định hướng Erik tìm cuốn sổ.
+### Trạng Thái Hiện Tại (Mở Đầu Arc 3 - Sau Chương 12):
+* **POV Hiện Tại:** Yuki Tanaka (Nghiên cứu sinh Tiến sĩ Tâm lý Hình sự).
+* **Vụ án phòng 307:** Dữ liệu kỹ thuật số xác nhận có **bốn người** xuất hiện trong phòng 307 lúc 23:15. Kẻ dùng thẻ quẹt lúc 23:05 chính là thẻ gốc của Daniel Voss.
+* **Yuki Tanaka:** Hé lộ bí mật là người đã gặp Voss lúc 21:30. Voss lúc đó đã bị xóa ký ức về Yuki và trao cuốn sổ đỏ XLVII cho cô. Đang bị đe dọa ngay tại phòng server B1 bởi một thực thể từ trần ống thông gió.
+* **Maren Engel:** Vẫn bị nghi ngờ là Mẫu vật số Không (theo cuốn sổ năm 2004 của Erik).
+* **Erik Solvang:** Đang chìm trong cơn khủng hoảng nhận thức sau khi tìm thấy cuốn sổ của chính mình.
 
 ### Plot Hooks đang mở:
-* Ai gửi 3 Phong bì Đen? (Chiếc thứ 4 có chữ S - Sarah gửi?)
-* Xác chết trong phòng Voss thực sự là ai?
-* 3 cuốn sổ tay mất tích của Voss đang ở đâu?
-* Yuki có mối liên hệ gì với Dự án Lethe?
-* Bóng người đeo kính gọng vàng ở B3 là ai? Voss hay một tạo ảnh tàn dư?
-* Mẹ của Maren đóng vai trò gì trong Dự án Lethe? 
-* **MỚI:** Maren thực sự là "Mẫu vật số Không"? Chuyện gì đã xảy ra với cô bé 14 tuổi năm 2004? Khả năng của Maren là gì?
-* **MỚI:** Sarah Solvang còn sống hay đã chết ở B3?
+* Bốn thực thể trong phòng 307 lúc 23:15 gồm những ai? Ai là "Người Thứ Tư"?
+* Tại sao kẻ mở cửa lúc 23:05 lại mang thẻ của Voss trong khi xác của Voss đã ở trong phòng?
+* Giọng nói trên trần thông gió của Yuki là ai? Voss thật, Helmut Brandt, hay một kẻ mạo danh?
+* Nội dung tệp `envelope_05.enc` và cuốn sổ đỏ XLVII chứa đựng bí mật gì?
+* Maren có thực sự là Mẫu vật số Không nguy hiểm như Erik nghĩ, hay chính Erik đang bị bẫy nhận thức?
 
 ---
 
@@ -186,7 +195,7 @@
   * **C3:** Gặp Erik Solvang, biết về khoảng trống 6 tháng và tầng hầm B3. Lời cảnh báo từ Nils.
   * **C4:** Gặp Yuki, biết về hiện tượng "Xóa tồn tại có chọn lọc" và Helmut Brandt.
   * **C5:** Đột nhập hầm B3, phát hiện phòng thí nghiệm còn hoạt động, chụp được bóng người đeo kính gọng vàng.
-  * **C6:** Maren tìm thấy bức ảnh Polaroid của cô và Voss lúc 5 tuổi, kết luận mẹ cô bị "xóa" bởi Dự án Lethe. Đánh thức Erik. Háº¿t Arc 1.
+  * **C6:** Maren tìm thấy bức ảnh Polaroid của cô và Voss lúc 5 tuổi, kết luận mẹ cô bị "xóa" bởi Dự án Lethe. Đánh thức Erik. Hết Arc 1.
   
 * **Arc 2 (POV Erik): Chương 7 - 11**
   * **C7:** Erik hội ngộ Maren tại B3. Hồi tưởng về 6 tháng mất ký ức 20 năm trước.
@@ -194,3 +203,6 @@
   * **C9:** Trở lại đồn cảnh sát, Erik bàng hoàng phát hiện toàn bộ hồ sơ và ký ức của mọi người về Sarah đã bị xóa khỏi thực tại. Lindqvist cho rằng Erik bị hoang tưởng.
   * **C10:** Gặp Nils. Nils tiết lộ Hiệu ứng Lethe lây qua lời nói tập thể, và xác nhận Sarah chưa từng chết mà bị đưa xuống B3. Nhắc nhở tìm cuốn sổ.
   * **C11:** Erik tìm được cuốn sổ tay cũ giấu dưới sàn nhà. Đọc được nét chữ của chính mình từ 2004, cảnh báo rằng Maren là Mẫu vật số Không và không phải con người. Hết Arc 2.
+
+* **Arc 3 (POV Yuki Tanaka): Chương 12 - 16**
+  * **C12:** *Dữ Liệu Rác Lúc Nửa Đêm.* Yuki trích xuất dữ liệu áp lực sàn phòng 307, phát hiện có 4 người trong phòng lúc 23:15 và thẻ vào là của chính Voss. Hé lộ Yuki đang giấu cuốn sổ đỏ XLVII mà Voss giao trước khi chết. Nhận tín hiệu xâm nhập từ B3 và tiếng thì thầm rợn người trên ống thông gió đòi lại sổ. Hết C12.
