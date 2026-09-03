@@ -167,23 +167,44 @@
 * **Phân loại:** `Manh mối / Mạng nội bộ`
 * **Định nghĩa:** Tệp tin mã hóa gửi trực tiếp từ máy chủ ngầm B3 qua địa chỉ IP 10.0.0.99 vào máy tính của Yuki lúc 2 giờ sáng, đi kèm tiếng động và giọng nói từ trần ống thông gió.
 
+### 20. Kháng thể Nhận thức (Cognitive Immunity / M-00)
+* **Phân loại:** `Khái niệm / Năng lực sinh học`
+* **Định nghĩa:** Cơ chế tự vệ thần kinh bẩm sinh của Maren Engel (Mẫu vật số Không). Giúp cô có thể nhận biết và ghi nhớ những người hoặc đồ vật đã bị xóa khỏi thực tại bởi sóng Lethe mà không bị sụp đổ tâm lý hay bị Lethe đồng hóa.
+
+### 21. Vong thể (The Hollowed / The Forgotten Ones)
+* **Phân loại:** `Sinh vật / Thực thể biến dị`
+* **Định nghĩa:** Những con người bị Lethe xóa sạch hoàn toàn khỏi ký ức xã hội (như Sarah Solvang, Helmut Brandt, các kỹ thuật viên năm 2004). Khi không còn ai nhớ đến họ, cấu trúc sinh học bị sụp đổ: da thịt teo tóp, khung xương kéo dài trơ xương, sống lang thang vĩnh viễn dưới cống ngầm Ashford.
+
+### 22. Cốt lõi Cộng hưởng & Tần số Đối kháng (Resonance Core & Counter-Frequency)
+* **Phân loại:** `Cỗ máy / Cơ chế hóa giải`
+* **Định nghĩa:** Cỗ máy phát sóng Lethe đặt tại buồng kín B3. Cuốn sổ đỏ XLVII chứa các thông số của Tần số Đối kháng để triệt tiêu sóng Lethe, giải thoát cho các Vong thể. Tuy nhiên, người gạt cần kích hoạt thủ công trong buồng cách ly sẽ bị xóa sạch danh tính khỏi nhân loại mãi mãi.
+
+### 23. Kẻ Giật Dây - Thanh tra Cảnh sát trưởng Lindqvist (The Fourth One)
+* **Phân loại:** `Nhân vật / Kẻ phản diện giấu mặt`
+* **Định nghĩa:** "Người Thứ Tư" xuất hiện trong phòng 307 lúc 23:15 mang theo hai cuốn sổ 45 và 46 rời đi. Từng là bạn thân 30 năm của Erik Solvang, hiện đang kiểm soát toàn bộ lực lượng cảnh sát Ashford và thao túng Tòa thị chính để duy trì Dự án Lethe.
+
+### 24. Cống ngầm DRAIN-09
+* **Phân loại:** `Địa danh / Lối đi bí mật`
+* **Định nghĩa:** Đường cống làm mát thời thế chiến nối từ triền đà Xưởng đóng tàu số 4 (Khu Cảng) xuyên thẳng vào chân móng tòa nhà Khoa Tâm lý và cửa sau của hầm B3.
+
 ---
 
 ## 🧠 4. MEMORY MANAGER — TIẾN ĐỘ & TRẠNG THÁI
 
-### Trạng Thái Hiện Tại (Mở Đầu Arc 3 - Sau Chương 12):
-* **POV Hiện Tại:** Yuki Tanaka (Nghiên cứu sinh Tiến sĩ Tâm lý Hình sự).
-* **Vụ án phòng 307:** Dữ liệu kỹ thuật số xác nhận có **bốn người** xuất hiện trong phòng 307 lúc 23:15. Kẻ dùng thẻ quẹt lúc 23:05 chính là thẻ gốc của Daniel Voss.
-* **Yuki Tanaka:** Hé lộ bí mật là người đã gặp Voss lúc 21:30. Voss lúc đó đã bị xóa ký ức về Yuki và trao cuốn sổ đỏ XLVII cho cô. Đang bị đe dọa ngay tại phòng server B1 bởi một thực thể từ trần ống thông gió.
-* **Maren Engel:** Vẫn bị nghi ngờ là Mẫu vật số Không (theo cuốn sổ năm 2004 của Erik).
-* **Erik Solvang:** Đang chìm trong cơn khủng hoảng nhận thức sau khi tìm thấy cuốn sổ của chính mình.
-
-### Plot Hooks đang mở:
-* Bốn thực thể trong phòng 307 lúc 23:15 gồm những ai? Ai là "Người Thứ Tư"?
-* Tại sao kẻ mở cửa lúc 23:05 lại mang thẻ của Voss trong khi xác của Voss đã ở trong phòng?
-* Giọng nói trên trần thông gió của Yuki là ai? Voss thật, Helmut Brandt, hay một kẻ mạo danh?
-* Nội dung tệp `envelope_05.enc` và cuốn sổ đỏ XLVII chứa đựng bí mật gì?
-* Maren có thực sự là Mẫu vật số Không nguy hiểm như Erik nghĩ, hay chính Erik đang bị bẫy nhận thức?
+### Trạng Thái Hiện Tại (Hoàn Thành Arc 3 - Sau Chương 16):
+* **POV Hoàn Thành:** Yuki Tanaka (Chương 12 - 16).
+* **Bí mật đã mở:**
+  * Thân phận thật của Maren Engel: Là người có kháng thể nhận thức, được Voss giải cứu và gửi gắm hy vọng.
+  * Thân phận của sinh vật ống thông gió: Helmut Brandt bị Lethe biến thành Vong thể.
+  * Thân phận của Người Thứ Tư: Thanh tra Cảnh sát trưởng Lindqvist.
+  * Số phận của Sarah Solvang: Bị phong tỏa tại B3 năm 2004, trở thành một trong các Vong thể.
+* **Tình trạng nhóm điều tra:**
+  * Đã thoát khỏi vòng vây của Lindqvist bằng vụ nổ nghi binh tại Xưởng tàu số 4.
+  * Đã đột nhập qua đường cống DRAIN-09 tới cửa ngầm B3.
+  * Đang đối mặt với bầy Vong thể do Helmut Brandt dẫn đầu ngay trước cửa sắt B3.
+* **Vật phẩm nắm giữ:**
+  * Cuốn sổ đỏ XLVII (Chứa tần số đối kháng triệt tiêu Lethe).
+  * Ổ cứng SSD chứa dữ liệu cảm biến sàn phòng 307 và file `envelope_05.enc`.
 
 ---
 
@@ -205,5 +226,10 @@
   * **C11:** Erik tìm được cuốn sổ tay cũ giấu dưới sàn nhà. Đọc được nét chữ của chính mình từ 2004, cảnh báo rằng Maren là Mẫu vật số Không và không phải con người. Hết Arc 2.
 
 * **Arc 3 (POV Yuki Tanaka): Chương 12 - 16**
-  * **C12:** *Dữ Liệu Rác Lúc Nửa Đêm.* Yuki trích xuất dữ liệu áp lực sàn phòng 307, phát hiện có 4 người trong phòng lúc 23:15 và thẻ vào là của chính Voss. Hé lộ Yuki đang giấu cuốn sổ đỏ XLVII. Thực thể quái dị tấn công từ ống thông gió đòi lại sổ, Yuki giật ổ cứng SSD chứa dữ liệu và chạy thoát ra bãi đỗ xe trong đêm mưa, bất ngờ chạm trán Maren và Erik Solvang đang chĩa thẳng họng súng vào trán cô. Hết C12.
+  * **C12:** *Dữ Liệu Rác Lúc Nửa Đêm.* Yuki trích xuất dữ liệu áp lực sàn phòng 307, phát hiện 4 người trong phòng kín lúc 23:15 và thẻ gốc của Voss. Bị thực thể dị dạng tấn công trên trần ống gió, giật SSD chạy thoát ra bãi xe đối mặt họng súng của Erik kề thái dương Maren.
+  * **C13:** *Đối Đầu Dưới Ánh Đèn Pha.* Thoát khỏi thực thể B1 phá cửa lao ra. Đấu khẩu kịch tính trong xe: Maren hé lộ quá khứ M-00, Erik khủng hoảng ký ức. Yuki đanh thép dùng dữ liệu kỹ thuật số trấn áp cả hai, chỉ ra sự tồn tại của Phong bì Đen thứ năm (`envelope_05.enc`). Cả nhóm rút về Xưởng đóng tàu số 4.
+  * **C14:** *Giải Mã Gói Tin envelope_05.* Yuki dùng chuỗi peptide nỗi đau phá mã RSA-4096. Hé lộ đoạn băng âm thanh 2004: Brandt phản bội, Sarah Solvang hy sinh để cứu bé Maren, sự tha hóa của Brandt thành Vong thể. Cuốn sổ 46 hé lộ Voss tự phân tách tâm thức để bảo vệ sự thật. Đài radio xưởng tàu phát ra giọng kẻ giật dây bí ẩn.
+  * **C15:** *Cuốn Sổ Tay Thứ Bốn Mươi Bảy (XLVII).* Maren bắn nát radio. Yuki mở cuốn sổ da đỏ XLVII: Minh oan cho Maren (sở hữu Kháng thể Nhận thức bẩm sinh), hé lộ sự thật rùng rợn về các Vong thể, cơ chế Tần số Đối kháng để tiêu diệt Lethe với cái giá một người bị xóa khỏi ký ức nhân loại. Hé lộ chấn động: "Người Thứ Tư" chính là Cảnh sát trưởng Lindqvist. Xưởng tàu bị đặc nhiệm Lindqvist bao vây nghẹt thở.
+  * **C16:** *Trận Chiến Đêm Giông & Cửa Ngầm B3.* Kế hoạch nghi binh: Xe sedan phát nổ húc tung cổng đánh lạc hướng lính bắn tỉa. Nhóm ba người nhảy xuống cống ngầm DRAIN-09 lội nước ngược dòng về móng hầm B3. Chạm trán bầy Vong thể do Helmut Brandt dẫn đầu gác cửa B3. Erik và Maren sẵn sàng xả thân, mở đường cho Yuki mang cuốn sổ XLVII bước vào trận chiến quyết định. Hết Arc 3.
+
 
