@@ -1,21 +1,15 @@
 # HỒ SƠ DIỆN MẠO NHÂN VẬT (VISUAL DOSSIER)
 **Tác phẩm:** Tam Công Tử Rác Rưởi Của Gia Tộc Băng Sương
-**Thư mục lưu ảnh:** `public/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/`
-**Quy tắc:** Hồ sơ nhân vật hiển thị công khai trên Web CHỈ CHỨA thông tin bề ngoài thuần túy: Vai trò, Tuổi, Ngoại hình và Tính cách. Tuyệt đối KHÔNG có Động cơ, Bí mật, Vết thương lòng hay bất kỳ chi tiết nào tiết lộ diễn biến cốt truyện.
+**Quy tắc:** Hồ sơ nhân vật hiển thị công khai trên Web CHỈ CHỨA thông tin bề ngoài thuần túy: Vai trò, Tuổi, Ngoại hình và Tính cách. Tuyệt đối KHÔNG có Động cơ, Bí mật, Vết thương lòng hay bất kỳ đường dẫn/URL kỹ thuật nào.
 
 ---
 
 ## 1. Caelen Von Ravenwood
 - **Vai trò:** Nhân vật chính / Đệ tam công tử của gia tộc Công tước Ravenwood (Huyết Ưng Băng Sương).
 - **Biệt danh & Danh xưng:** Đống rác Bắc Cảnh, Công tử phế vật, Caelen, Đệ tam thiếu chủ.
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788247160/truyen-ai/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/caelen-von-ravenwood.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Tóm tắt nhân vật:** Từ một Đệ tam công tử bị xem là phế vật, Caelen lột xác thành kẻ thao túng tàn nhẫn đằng sau bức màn. Bằng đầu óc phân tích lạnh lùng và sự xảo quyệt tột độ, hắn biến mọi thế lực thành quân cờ trên bàn cờ quyền lực đẫm máu của riêng mình.
-
-**Cảnh giới & Tu vi:** Ma Hạch Sơ Giai Đỉnh Phong (đang khai mở sau khi trừ 80% kịch độc).
-
-**Ảnh Avatar (916):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/caelen-von-ravenwood.jpg`
 
 **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):** 
 
@@ -72,12 +66,9 @@
 ## 2. Lilian
 - **Vai trò:** Hầu nữ thân cận của Caelen / Gián điệp ngầm của Nhị Trưởng Lão Karlov $\rightarrow$ Nội gián hai mang dưới quyền Caelen.
 - **Biệt danh & Danh xưng:** Ả hầu gái, Lilian.
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788247168/truyen-ai/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/lilian.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Tóm tắt nhân vật:** Bề ngoài là ả hầu gái nhu thuận, nhưng thực chất là con dao tẩm độc của Nhị Trưởng Lão cài cắm. Cuối cùng, ả bị Caelen thu phục bằng sự sợ hãi tột cùng, trở thành con bài hai mang đắc lực và trung thành nhất của gã.
-
-**Cảnh giới & Tu vi:** Sơ Giai Sơ Kỳ (Chuyên về ám sát vi mô, điều chế độc dược mạn tính).
 
 **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):** 
 
@@ -128,14 +119,9 @@
 ## 3. Evelyn Von Ravenwood
 - **Vai trò:** Đại tiểu thư Gia tộc Ravenwood / Quân đoàn trưởng Đội Quân Thiết Kỵ Băng Sương / Kiếm Vương Bắc Cảnh.
 - **Biệt danh & Danh xưng:** Nữ Kiếm Vương, Evelyn, Tỷ tỷ Thiết Huyết.
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788247162/truyen-ai/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/evelyn-von-ravenwood.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Tóm tắt nhân vật:** Kiếm Vương Bắc Cảnh kiêu ngạo và lạnh lùng. Nàng là bức tường thành vững chãi bảo vệ gia tộc, luôn nhìn Caelen bằng ánh mắt thất vọng nhưng sâu thẳm bên trong lại sẵn sàng đổ máu để bảo vệ huyết mạch cuối cùng của Ravenwood.
-
-**Cảnh giới & Tu vi:** Địa Giai Trung Kỳ (Cao thủ kiếm thuật hàng đầu phương Bắc).
-
-**Ảnh Avatar (916):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/evelyn-von-ravenwood.jpg`
 
 **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):** 
 
@@ -180,14 +166,9 @@
 ## 4. Valerie De Valois
 - **Vai trò:** Tam Công Chúa Đế Quốc Solaria / Vị hôn thê đối địch mang Huyết Chiếu từ hôn.
 - **Biệt danh & Danh xưng:** Công Chúa Solaria, Phượng Hoàng Lửa Vàng, Valerie.
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788247170/truyen-ai/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/valerie-de-valois.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Tóm tắt nhân vật:** Tam Công Chúa kiêu kỳ mang theo Huyết Chiếu từ hôn để sỉ nhục Caelen. Nàng không ngờ hành động ngạo mạn này lại châm ngòi cho một cơn ác mộng kinh hoàng mang tên Caelen, kẻ sẽ từng bước nghiền nát sự kiêu hãnh của hoàng gia.
-
-**Cảnh giới & Tu vi:** Cao Giai Đỉnh Phong (Hỏa hệ Ma Pháp Sư Quang Minh).
-
-**Ảnh Avatar (916):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/valerie-de-valois.jpg`
 
 **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):** 
 
@@ -238,14 +219,9 @@
 ## 5. Nhị Trưởng Lão Karlov
 - **Vai trò:** Nhị Trưởng Lão Gia Tộc Ravenwood / Quản sự Hậu Viện & Tài Chính Phân Nhánh / Phản diện nội tộc.
 - **Biệt danh & Danh xưng:** Nhị Trưởng Lão, Karlov, Nhị Trưởng lão Karlov, Lão già giảo hoạt.
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788247169/truyen-ai/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/nhi-truong-lao-karlov.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Tóm tắt nhân vật:** Lão cáo già thâm độc núp bóng Nhị Trưởng Lão, thao túng tài chính và mưu đồ đoạt quyền gia tộc. Lão dùng 5 năm hạ độc để phế bỏ Caelen, nhưng cuối cùng lại trở thành con mồi trong chính ván cờ do lão giăng ra.
-
-**Cảnh giới & Tu vi:** Trung Giai Đỉnh Phong (Chuyên về Thổ hệ Ma Pháp và Cấm Thuật Huyết Hồn phong ấn).
-
-**Ảnh Avatar (916):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/karlov.jpg`
 
 **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):** 
 
@@ -296,13 +272,8 @@
 ## 6. Hắc Y Sứ Giả Vane
 - **Vai trò:** Sát thủ cấp cao / Sứ giả bóng tối của Hội Lưỡi Hái Hắc Ám.
 - **Biệt danh & Danh xưng:** Hắc Y Sứ Giả, Vane, Sát thủ Hắc Ám, Tử Thần Vực Thẳm.
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788247164/truyen-ai/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/hac-y-su-gia-vane.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
-**Cảnh giới & Tu vi:** Cao Giai Sơ Kỳ (Chuyên về Ám Hắc Ma Pháp, Tử Linh Thuật và Cận Chiến Ám Sát).
-
-**Ảnh Avatar (916):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/vane.jpg`
-
 **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):** 
 
 - *Vóc dáng & Thể hình:* Cao 1m82, thân hình thon gọn săn chắc như loài báo săn mồi, bước đi không phát ra bất kỳ tiếng động nào.
@@ -328,13 +299,8 @@
 ## 7. Boris Tai Đỏ
 - **Vai trò:** Thủ lĩnh băng cướp thảo khấu Biên Ải Frostfang.
 - **Biệt danh & Danh xưng:** Boris Tai Đỏ, Boris Red-Ear, Tướng cướp man di.
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788247157/truyen-ai/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/boris-tai-do.png`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
-**Cảnh giới & Tu vi:** Trung Giai Sơ Kỳ (Thổ hệ Ma Pháp kết hợp Cận Chiến Cuồng Bạo).
-
-**Ảnh Avatar (916):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/boris.jpg`
-
 **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):** 
 
 - *Vóc dáng & Thể hình:* Cao 2m05, cơ bắp cuồn cuộn như gấu xám phương Bắc, bờ ngực vạm vỡ khoác giáp xích sắt thô ráp lót lông sói xám.
@@ -358,13 +324,8 @@
 ## 8. Đại Giáo Chủ Aldric
 - **Vai trò:** Đại Giáo Chủ Thần Điện Quang Minh / Phản diện chính Arc 2.
 - **Biệt danh & Danh xưng:** Đại Giáo Chủ, Aldric, Hiện Thân Quang Minh, Lão Quái Vật Thần Quyền.
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788311519/truyen-ai/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/dai-giao-chu-aldric.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
-**Cảnh giới & Tu vi:** Thiên Giai Sơ Kỳ (Hỏa hệ Quang Minh Thánh Thuật) → BỊ PHẾ BỎ MA HẠCH bởi Băng Sương Khóa Ma Chỉ của Caelen.
-
-**Ảnh Avatar (916):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/aldric.jpg`
-
 **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):** 
 
 - *Vóc dáng & Thể hình:* Cao 1m80, dáng người thanh mảnh, ngoại hình trẻ trung như trung niên ba mươi nhờ rửa tắm Thánh Thuỷ hàng ngày (tuổi thật: 72). Sau khi bị phế ma hạch, hiện nguyên hình già nua.
@@ -390,13 +351,8 @@
 ## 9. Iris Flamel
 - **Vai trò:** Nhà giả kim thiên tài / Đồng minh khoa học của Caelen.
 - **Biệt danh & Danh xưng:** Iris, Nhà Giả Kim Điên Loạn, Iris Flamel.
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/default-avatar.jpeg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
-**Cảnh giới & Tu vi:** Sơ Giai Trung Kỳ (Chuyên về Giả Kim Thuật, không chiến đấu).
-
-**Ảnh Avatar (916):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/iris-flamel.jpg`
-
 **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):** 
 
 - *Vóc dáng & Thể hình:* Cao 1m60, nhỏ con, gầy nhưng nhanh nhẹn. Tay luôn lấm lem muội than và dung dịch hóa học.
@@ -428,13 +384,8 @@
 ## 10. Hoàng Tử Soren Blackmere
 - **Vai trò:** Hoàng Tử Thứ Hai Vương quốc Hắc Nguyệt / Đồng minh chiến lược xuyên quốc gia.
 - **Biệt danh & Danh xưng:** Soren, Hoàng Tử Hắc Nguyệt, Soren Blackmere.
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788311519/truyen-ai/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/hoang-tu-soren-blackmere.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
-**Cảnh giới & Tu vi:** Cao Giai Đỉnh Phong (Ám Hắc hệ Kiếm Thuật).
-
-**Ảnh Avatar (916):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/soren-blackmere.jpg`
-
 **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):** 
 
 - *Vóc dáng & Thể hình:* Cao 1m85, thân hình mảnh nhưng rắn rỏi như thanh kiếm rút khỏi vỏ.
@@ -458,13 +409,8 @@
 ## 11. Tứ Hoàng Tử Edward
 - **Vai trò:** Tứ Hoàng Tử Đế Quốc Solaria / Kẻ địch chính trị của Caelen / Đứng sau Thương Hội Kim Sư.
 - **Biệt danh & Danh xưng:** Tứ Hoàng Tử, Edward.
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/default-avatar.jpeg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
-**Cảnh giới & Tu vi:** Trung Giai Đỉnh Phong.
-
-**Ảnh Avatar (916):** `/characters/tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong/edward.jpg`
-
 **🎨 Diện Mạo & Ngoại Hình Siêu Chi Tiết (Head-to-Toe):** 
 
 - *Vóc dáng & Thể hình:* Cao 1m78, dáng vẻ kiêu ngạo đặc trưng của hoàng gia.

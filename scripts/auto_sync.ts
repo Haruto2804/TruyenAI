@@ -134,32 +134,38 @@ function generateCharactersMarkdown(novelSlug: string, novelTitle: string, chara
   
   let md = `# HỒ SƠ DIỆN MẠO NHÂN VẬT (VISUAL DOSSIER)\n`;
   md += `**Tác phẩm:** ${novelTitle}\n`;
-  md += `**Thư mục lưu ảnh:** \`public/characters/${novelSlug}/\`\n`;
-  md += `**Quy tắc:** Hồ sơ nhân vật hiển thị công khai trên Web CHỈ CHỨA thông tin bề ngoài thuần túy: Vai trò, Tuổi, Ngoại hình và Tính cách. Tuyệt đối KHÔNG có Động cơ, Bí mật, Vết thương lòng hay bất kỳ chi tiết nào tiết lộ diễn biến cốt truyện.\n\n`;
+  md += `**Quy tắc:** Hồ sơ nhân vật hiển thị công khai trên Web CHỈ CHỨA thông tin bề ngoài thuần túy: Vai trò, Tuổi, Ngoại hình và Tính cách. Tuyệt đối KHÔNG có Động cơ, Bí mật, Vết thương lòng hay bất kỳ đường dẫn/URL kỹ thuật nào.\n\n`;
   md += `---\n\n`;
 
   characters.forEach((char, idx) => {
-    const slugName = char.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d").replace(/[^a-z0-9]+/g, "-");
-    const hasAvatar = char.avatarUrl && (
-      char.avatarUrl.startsWith("http") ||
-      fs.existsSync(path.join(process.cwd(), "public", char.avatarUrl))
-    );
-    const avatarStatus = hasAvatar
-      ? `✅ Đã có ảnh (\`${char.avatarUrl}\`)`
-      : `⚠️ Chưa có ảnh (\`public/characters/${novelSlug}/${slugName}.jpg\`)`;
+    // Sanitize description by removing any lingering technical or avatar lines
+    let cleanDesc = (char.description || "")
+      .split("\n\n")
+      .filter((block: string) => {
+        const lower = block.toLowerCase();
+        return (
+          !lower.includes("trạng thái avatar") &&
+          !lower.includes("/characters/") &&
+          !lower.includes("http://") &&
+          !lower.includes("https://") &&
+          !lower.includes("ảnh avatar") &&
+          !lower.includes("9:16")
+        );
+      })
+      .join("\n\n")
+      .trim();
 
     md += `## ${idx + 1}. ${char.name}\n`;
-    md += `- **Vai trò:** ${char.role || "Chưa xác định"}\n`;
-    md += `- **Biệt danh & Danh xưng:** ${char.aliases || "Không có"}\n`;
-    md += `- **Trạng thái Avatar:** ${avatarStatus}\n\n`;
+    if (char.role) md += `- **Vai trò:** ${char.role}\n`;
+    if (char.aliases) md += `- **Biệt danh & Danh xưng:** ${char.aliases}\n\n`;
     
     md += `### 🎭 Tóm tắt diện mạo & Đặc điểm:\n`;
-    md += `${char.description || "Chưa có mô tả chi tiết."}\n\n`;
+    md += `${cleanDesc || "Chưa có mô tả chi tiết."}\n\n`;
     md += `---\n\n`;
   });
 
   fs.writeFileSync(charactersMdPath, md, "utf-8");
-  console.log(`Saved Character Dossier -> ${charactersMdPath}`);
+  console.log(`Saved Clean Character Dossier -> ${charactersMdPath}`);
 }
 
 function parseDynamicCharacters(codexContent: string): any[] {
@@ -205,7 +211,8 @@ function parseDynamicCharacters(codexContent: string): any[] {
           const val = kvMatch[2].trim();
           const lowerKey = rawKey.toLowerCase();
 
-          // Strict Anti-Spoiler Guard: Never expose secret, wound, motivation, or twist to public database
+          // Strict Anti-Spoiler & Tech Metadata Guard:
+          // Never expose secret, wound, motivation, twist, or technical image URLs/paths to public database
           if (
             lowerKey.includes("bí mật") ||
             lowerKey.includes("vết thương") ||
@@ -213,7 +220,18 @@ function parseDynamicCharacters(codexContent: string): any[] {
             lowerKey.includes("twist") ||
             lowerKey.includes("động cơ") ||
             lowerKey.includes("motivation") ||
-            lowerKey.includes("ẩn số")
+            lowerKey.includes("ẩn số") ||
+            lowerKey.includes("ảnh") ||
+            lowerKey.includes("avatar") ||
+            lowerKey.includes("trạng thái") ||
+            lowerKey.includes("url") ||
+            lowerKey.includes("image") ||
+            lowerKey.includes("link") ||
+            val.includes("/characters/") ||
+            val.includes("http://") ||
+            val.includes("https://") ||
+            val.match(/\.(?:jpg|png|jpeg|webp|gif|avif)\b/i) ||
+            val.includes("9:16")
           ) {
             continue;
           }
@@ -227,6 +245,19 @@ function parseDynamicCharacters(codexContent: string): any[] {
             currentChar.description = currentChar.description ? `${currentChar.description}\n\n${detail}` : detail;
           }
         } else if (line.trim().length > 0 && !line.startsWith("#")) {
+          const lowerLine = line.toLowerCase();
+          if (
+            lowerLine.includes("/characters/") ||
+            lowerLine.includes("http://") ||
+            lowerLine.includes("https://") ||
+            lowerLine.includes("avatar") ||
+            lowerLine.includes("trạng thái") ||
+            lowerLine.includes(".jpg") ||
+            lowerLine.includes(".png") ||
+            lowerLine.includes("9:16")
+          ) {
+            continue;
+          }
           currentChar.description = currentChar.description ? `${currentChar.description}\n\n${line.trim()}` : line.trim();
         }
       } else if (line.trim().startsWith("* **") && line.includes(":**")) {
@@ -371,9 +402,32 @@ async function syncNovel(novelSlug: string) {
                      codexContent.match(/\*\*Thể loại:\*\*\s*(.*)/i);
   const genre = genreMatch ? genreMatch[1].trim() : (novelSlug === "ta-sinh-ra-la-phan-dien" ? "Tiên Hiệp Game RPG, Hệ Thống Phản Diện" : "Huyền Huyễn, Trinh Thám");
 
-  const summaryMatch = codexContent.match(/>\s*\*\*Mô tả ngắn:\*\*\s*(.*)/i) ||
-                       codexContent.match(/\*\*(?:Mô tả|Tóm tắt|Mô tả bối cảnh):\*\*\s*(.*)/i);
-  let summary = summaryMatch ? summaryMatch[1].trim() : "";
+  // Multi-strategy Summary Parser
+  let summary = "";
+
+  // Strategy A: Dedicated Summary Section in master_codex.md
+  const summarySectionMatch = codexContent.match(/##\s*(?:📖\s*)?(?:TÓM TẮT CỐT TRUYỆN|TÓM TẮT|GIỚI THIỆU TRUYỆN|GIỚI THIỆU)[\s\S]*?(?=\n##|\n---|$)/i);
+  if (summarySectionMatch) {
+    const rawSection = summarySectionMatch[0];
+    const sectionLines = rawSection
+      .split("\n")
+      .filter(l => !l.startsWith("##") && !l.startsWith("---") && l.trim().length > 0)
+      .map(l => l.replace(/^\s*>\s*/, "").replace(/^[*+-]\s*\*\*(?:Tóm tắt|Mô tả):\*\*\s*/i, "").trim())
+      .filter(l => l.length > 0);
+    if (sectionLines.length > 0) {
+      summary = sectionLines.join("\n\n");
+    }
+  }
+
+  // Strategy B: Inline bullet point in master_codex.md
+  if (!summary) {
+    const bulletMatch = codexContent.match(/(?:^|\n)\s*[*>-]?\s*\*\*(?:Mô tả ngắn|Tóm tắt cốt truyện|Tóm tắt|Mô tả bối cảnh|Mô tả):\*\*\s*([^\n]+(?:\n(?!\s*[*#>-]).+)*)/i);
+    if (bulletMatch) {
+      summary = bulletMatch[1].trim();
+    }
+  }
+
+  // Strategy C: Verified official summaries for existing novels
   if (!summary) {
     if (novelSlug === "nguoi-thu-tu") {
       summary = `Thành phố cảng sương mù Ashford – nơi một giáo sư tâm lý hình sự chết trong phòng khóa kín, để lại manh mối về một dự án bí mật mang tên Lethe có khả năng xóa sự tồn tại của con người khỏi nhận thức nhân loại. Nữ phóng viên điều tra Maren Engel dấn thân vào vụ án để tìm kiếm sự thật về người mẹ mất tích, nhưng càng đào sâu, cô càng nhận ra ký ức của chính mình cũng đang bị thao túng...`;
@@ -381,8 +435,16 @@ async function syncNovel(novelSlug: string) {
       summary = `Bối cảnh diễn ra trong thế giới của tựa game RPG độ khó ác mộng mang tên 《Cửu Giới Tru Tiên Lục》.\n\nNinh Huyền Dạ – đích tử của Cổ Tộc Vô Cực tại Thượng Giới, đồng thời là Chân Truyền của Thái Sơ Tiên Tông, thức tỉnh trong thân xác Boss Phản Diện Màn Đầu mang số mệnh làm đá lót đường cho Khí Vận Chi Tử.\n\nKích hoạt Hệ Thống Nghịch Thiên Cải Mệnh Phản Diện, nhìn thấu điểm Khí Vận và kịch bản cuộc đời của mọi NPC. Đối diện với Khí Vận Chi Tử mang theo tàn hồn lão tổ tới cửa chất vấn, Ninh Huyền Dạ bắt đầu giăng bẫy tước đoạt cơ duyên, biến toàn bộ thiên kiêu thành quân cờ trên bàn cờ của mình...`;
     } else if (novelSlug === "tam-cong-tu-rac-ruoi-cua-gia-toc-bang-suong") {
       summary = `Đại Lục Erebia – một thế giới ma pháp cổ điển đang bước vào thời kỳ suy tàn của các đại gia tộc huyết thống trước sự trỗi dậy của Thần Điện Quang Minh.\n\nCaelen Von Ravenwood – Đệ tam công tử của gia tộc Công tước Băng Sương khét tiếng phương Bắc, kẻ bị cả kinh đô khinh miệt là "Đống rác của Bắc Cảnh", một kẻ nghiện rượu, đồi bại và bất tài. Không ai biết rằng, hắn thực chất đã bị đầu độc bằng kịch độc "Hắc Tử La Lan" làm nghẽn kinh mạch suốt năm năm qua.\n\nKhi một linh hồn chiến thuật gia kiêm sát thủ thời hiện đại nhập xác, Ma Đồng Giải Cấu thức tỉnh, nhìn thấu mọi mạch chảy mana và điểm yếu ma pháp. Đối diện với vị hôn thê Công chúa kiêu ngạo mang Huyết Chiếu đến phế hôn và âm mưu đày hắn làm vật tế thần nơi Vực Thẳm Hoang Vu, "tên phế vật" bắt đầu mỉm cười...`;
-    } else {
+    } else if (novelSlug === "van-co-de-nhat-thuong-minh") {
       summary = `Bị đối thủ hãm hại phá sản, mang trên lưng món nợ khổng lồ 10 vạn Linh Thạch và đan điền bị phong ấn. Cố Trường Khanh thức tỉnh "Thiên Cơ Định Giá Nhãn" nhìn thấu giá trị thực và xu hướng thị trường của vạn vật.\n\nKết hợp cùng Thẩm Lạc Cẩm — tuyệt sắc đệ nhất tài nữ lưu vong mang độc Cửu U nhưng nắm giữ mạng lưới thương lộ 10 vạn dặm, cả hai bắt đầu từ một quán cầm đồ rách nát, từng bước nuốt chửng các đại thương hội, phát hành tiền tệ tín dụng và xây dựng đế chế tài phiệt thống trị Vạn Giới!`;
+    } else if (novelSlug === "chien-luoc-gia-trong-noi") {
+      summary = `Tái sinh thành một đứa trẻ sơ sinh vừa chào đời trong nôi gỗ sồi của Lâu đài Silverguard, mang theo ký ức của một nghiên cứu sinh chuyên ngành Chiến lược Toàn cầu và Lịch sử Ngoại giao hiện đại.\n\nĐối diện với món nợ khổng lồ 50.000 đồng Ducat vàng cùng cạm bẫy siết nợ cảng biển tàn nhẫn của Ngân Hàng Vàng Lombard nhằm bức tử gia tộc Bá tước Croft, Adrian von Croft bắt đầu ván cờ chính trị của đời mình ngay từ khi chưa biết nói. Bằng sự am hiểu tường tận về Bộ Luật Phong Kiến, đòn bẩy kinh tế và nghệ thuật thao túng địa chính trị giữa năm đại cường quốc Lục Địa Aethelgard, chàng chiến lược gia trong nôi từng bước biến một bờ vịnh phá sản thành trung tâm quyền lực tối cao!`;
+    } else {
+      // Fallback specifically derived from THIS novel's own content, NEVER another story!
+      const worldMatch = codexContent.match(/##\s*.*?WORLD CODEX.*?\n([\s\S]*?)(?=\n##|\n---|$)/i);
+      summary = worldMatch 
+        ? worldMatch[1].split("\n").filter(l => l.trim().startsWith("*")).slice(0, 3).map(l => l.replace(/^\s*\*\s*/, "")).join("\n\n")
+        : `Tác phẩm ${title} - câu chuyện kịch tính và sâu sắc trên bàn cờ quyền lực.`;
     }
   }
 
