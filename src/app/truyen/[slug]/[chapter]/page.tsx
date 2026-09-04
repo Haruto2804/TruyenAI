@@ -6,6 +6,7 @@ import { cache } from "react";
 import { ArrowLeft, ChevronLeft, ChevronRight, Menu } from "lucide-react";
 import { ExpTracker } from "@/components/ExpTracker";
 import { ProgressTracker } from "@/components/ProgressTracker";
+import { ChapterKeyboardNav } from "@/components/ChapterKeyboardNav";
 import { CommentSection } from "@/components/CommentSection";
 import { UnlockButton } from "@/components/EconomyButtons";
 import { InteractiveReader } from "@/components/InteractiveReader";
@@ -274,9 +275,23 @@ export default async function ChapterDetail({
           Chương Tiếp <ChevronRight className="w-4 h-4 ml-1.5" />
         </Link>
       </div>
+
+      {/* Keyboard navigation hint & hotkey listener (← Chương trước / Chương sau →) */}
+      <ChapterKeyboardNav
+        prevUrl={prevChapter ? `/truyen/${story.slug}/${prevChapter.chapterNo}` : null}
+        nextUrl={nextChapter ? `/truyen/${story.slug}/${nextChapter.chapterNo}` : null}
+        storyUrl={`/truyen/${story.slug}`}
+      />
       
       <ExpTracker chapterId={chapter.id} />
-      <ProgressTracker storyId={story.id} chapterId={chapter.id} />
+      <ProgressTracker 
+        storyId={story.id} 
+        chapterId={chapter.id}
+        storySlug={story.slug}
+        storyTitle={story.title}
+        chapterNo={chapter.chapterNo}
+        chapterTitle={chapter.title}
+      />
 
       {/* Chapter Comments */}
       <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6 sm:p-8 shadow-xl mt-10">

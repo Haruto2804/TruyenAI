@@ -6,7 +6,7 @@ import {
   User, X, Sparkles, BookOpen, Shield, Scroll, Tag, 
   BookMarked, ShieldAlert, Flame, Compass, Gem, Layers,
   Type, Sun, Moon, Coffee, Sliders, ChevronDown, Check,
-  Maximize2, Minimize2
+  Maximize2, Minimize2, Play, Pause, FastForward
 } from "lucide-react";
 import { getCharacterAvatarUrl } from "@/lib/images";
 
@@ -169,6 +169,43 @@ export function InteractiveReader({
   const [lineHeight, setLineHeight] = useState<number>(2.2); // 1.8 to 2.5
   const [showToolbar, setShowToolbar] = useState<boolean>(false);
   const [mounted, setMounted] = useState(false);
+
+  // Auto-scroll & Zen mode states
+  const [isAutoScrolling, setIsAutoScrolling] = useState<boolean>(false);
+  const [scrollSpeed, setScrollSpeed] = useState<number>(1); // 1: Chậm, 2: Vừa, 3: Nhanh
+  const [isFullscreen, setIsFullscreen] = useState<boolean>(false);
+
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      setIsFullscreen(!!document.fullscreenElement);
+    };
+    document.addEventListener("fullscreenchange", handleFullscreenChange);
+    return () => document.removeEventListener("fullscreenchange", handleFullscreenChange);
+  }, []);
+
+  const toggleFullscreen = () => {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen().catch(() => {});
+    } else {
+      document.exitFullscreen().catch(() => {});
+    }
+  };
+
+  // Auto-scroll ticker
+  useEffect(() => {
+    if (!isAutoScrolling) return;
+
+    const step = scrollSpeed === 1 ? 1 : scrollSpeed === 2 ? 2 : 4;
+    const interval = setInterval(() => {
+      window.scrollBy({ top: step, behavior: "instant" });
+
+      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 60) {
+        setIsAutoScrolling(false);
+      }
+    }, 35);
+
+    return () => clearInterval(interval);
+  }, [isAutoScrolling, scrollSpeed]);
 
   useEffect(() => {
     setMounted(true);
@@ -473,6 +510,51 @@ export function InteractiveReader({
                 </button>
               </div>
             </div>
+
+            {/* 5. Auto-Scroll & Zen Mode Controls */}
+            <div className="pt-3 border-t border-white/10 flex flex-wrap items-center justify-between gap-3 sm:col-span-2 md:col-span-4">
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => setIsAutoScrolling(!isAutoScrolling)}
+                  className={`inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                    isAutoScrolling
+                      ? "bg-amber-400 text-slate-950 border-amber-400 shadow-md shadow-amber-400/20"
+                      : "bg-white/5 hover:bg-white/10 text-slate-200 border-white/10"
+                  }`}
+                >
+                  {isAutoScrolling ? <Pause className="w-3.5 h-3.5" /> : <Play className="w-3.5 h-3.5" />}
+                  <span>{isAutoScrolling ? "Tạm Dừng Cuộn" : "Tự Động Cuộn"}</span>
+                </button>
+
+                {isAutoScrolling && (
+                  <div className="flex items-center gap-1 bg-white/5 border border-white/10 rounded-xl p-1 text-[10px] font-bold">
+                    <span className="text-slate-400 px-1">Tốc độ:</span>
+                    {[1, 2, 3].map((s) => (
+                      <button
+                        key={s}
+                        type="button"
+                        onClick={() => setScrollSpeed(s)}
+                        className={`px-2 py-0.5 rounded-lg transition-colors cursor-pointer ${
+                          scrollSpeed === s ? "bg-[#d4af37] text-slate-950" : "text-slate-400 hover:text-white"
+                        }`}
+                      >
+                        {s}x
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              <button
+                type="button"
+                onClick={toggleFullscreen}
+                className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 text-slate-200 border border-white/10 text-xs font-bold transition-all cursor-pointer"
+              >
+                {isFullscreen ? <Minimize2 className="w-3.5 h-3.5" /> : <Maximize2 className="w-3.5 h-3.5" />}
+                <span>{isFullscreen ? "Thoát Toàn Màn Hình" : "Đọc Toàn Màn Hình"}</span>
+              </button>
+            </div>
           </div>
         </div>
       )}
@@ -738,6 +820,21 @@ export function InteractiveReader({
           </div>
         </div>,
         document.body
+      )}
+      {/* Floating Auto-Scroll Control Pill */}
+      {isAutoScrolling && (
+        <div className="fixed bottom-6 right-6 z-50 flex items-center gap-2.5 bg-slate-950/95 border border-amber-400/60 shadow-[0_10px_35px_rgba(0,0,0,0.9)] rounded-full px-4 py-2 text-xs font-bold text-white backdrop-blur-xl animate-in fade-in slide-in-from-bottom-3">
+          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
+          <span>Đang tự động cuộn ({scrollSpeed}x)</span>
+          <button
+            type="button"
+            onClick={() => setIsAutoScrolling(false)}
+            className="p-1 rounded-full bg-white/10 hover:bg-white/20 text-white ml-1 cursor-pointer"
+            title="Dừng cuộn"
+          >
+            <Pause className="w-3.5 h-3.5" />
+          </button>
+        </div>
       )}
     </div>
   );
