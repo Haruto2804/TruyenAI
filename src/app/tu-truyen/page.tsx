@@ -13,9 +13,10 @@ export default async function LibraryPage() {
 
   const userId = session.user.id;
 
-  // Fetch Bookmarks
+  // Fetch Bookmarks (Giới hạn tải 50 bộ mới nhất tránh tràn bộ nhớ)
   const bookmarks = await prisma.bookmark.findMany({
     where: { userId },
+    take: 50,
     include: {
       story: {
         include: {
@@ -26,9 +27,10 @@ export default async function LibraryPage() {
     orderBy: { createdAt: "desc" },
   });
 
-  // Fetch Reading History (with latest chapter read)
+  // Fetch Reading History (Giới hạn tải 50 lịch sử đọc mới nhất)
   const history = await prisma.readingProgress.findMany({
     where: { userId },
+    take: 50,
     include: {
       story: true,
       chapter: true,

@@ -65,33 +65,50 @@ export async function addComment(storyId: string, content: string, parentId?: st
   }
 }
 
-export async function getComments(storyId: string, chapterId?: string) {
+export async function getComments(
+  storyId: string, 
+  chapterId?: string,
+  skip: number = 0,
+  take: number = 20
+) {
   try {
-    const comments = await prisma.comment.findMany({
-      where: { 
-        storyId,
-        chapterId: chapterId || null,
-        parentId: null // Only fetch top-level comments first
-      },
-      include: {
-        user: {
-          select: { name: true, displayName: true, image: true, exp: true, path: true }
-        },
-        replies: {
-          include: {
-            user: {
-              select: { name: true, displayName: true, image: true, exp: true, path: true }
-            }
+    const where = { 
+      storyId,
+      chapterId: chapterId || null,
+      parentId: null // Only fetch top-level comments first
+    };
+
+    const [comments, total] = await Promise.all([
+      prisma.comment.findMany({
+        where,
+        skip,
+        take,
+        include: {
+          user: {
+            select: { name: true, displayName: true, image: true, exp: true, path: true }
           },
-          orderBy: { createdAt: "asc" }
-        }
-      },
-      orderBy: { createdAt: "desc" },
-    });
+          replies: {
+            include: {
+              user: {
+                select: { name: true, displayName: true, image: true, exp: true, path: true }
+              }
+            },
+            orderBy: { createdAt: "asc" }
+          }
+        },
+        orderBy: { createdAt: "desc" },
+      }),
+      prisma.comment.count({ where })
+    ]);
     
-    return { success: true, comments };
+    return { 
+      success: true, 
+      comments, 
+      total, 
+      hasMore: skip + comments.length < total 
+    };
   } catch (error) {
     console.error("Error fetching comments:", error);
-    return { success: false, comments: [] };
+    return { success: false, comments: [], total: 0, hasMore: false };
   }
 }

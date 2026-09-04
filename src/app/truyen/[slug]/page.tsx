@@ -11,6 +11,7 @@ import { CommentSection } from "@/components/CommentSection";
 import { CharacterGallery } from "@/components/CharacterGallery";
 import { LoreGallery } from "@/components/LoreGallery";
 import { StorySummary } from "@/components/StorySummary";
+import { PublicChapterList } from "@/components/PublicChapterList";
 import { getStoryCoverUrl } from "@/lib/images";
 
 interface StorySpecsCardProps {
@@ -102,8 +103,12 @@ export default async function StoryDetail({
     prisma.story.findUnique({
       where: { slug: slug },
       include: {
+        _count: {
+          select: { chapters: true }
+        },
         chapters: {
           orderBy: { chapterNo: 'asc' },
+          take: 30,
           select: { 
             id: true, 
             chapterNo: true, 
@@ -198,7 +203,7 @@ export default async function StoryDetail({
               <div className="flex flex-wrap items-center justify-start gap-2 sm:gap-2.5 text-xs sm:text-sm text-slate-300">
                 <div className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-2.5 py-1 rounded-xl shadow-sm">
                   <List className="w-3.5 h-3.5 text-[#d4af37]" />
-                  <span className="font-bold text-slate-100">{story.chapters.length}</span> chương
+                  <span className="font-bold text-slate-100">{story._count.chapters}</span> chương
                 </div>
                 <div className="flex items-center gap-1.5 bg-white/5 border border-white/10 px-2.5 py-1 rounded-xl text-slate-400 shadow-sm">
                   <Clock className="w-3.5 h-3.5 text-slate-400" />
@@ -207,7 +212,7 @@ export default async function StoryDetail({
               </div>
 
               {/* Action Buttons Desktop: Inside right column */}
-              {story.chapters.length > 0 && (
+              {story._count.chapters > 0 && (
                 <div className="hidden sm:flex pt-2.5 sm:pt-3.5 flex-wrap items-center gap-3">
                   {lastReadChapter ? (
                     <>
@@ -219,7 +224,7 @@ export default async function StoryDetail({
                         <ChevronRight className="w-4 h-4 shrink-0" />
                       </Link>
                       <Link
-                        href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
+                        href={`/truyen/${story.slug}/${story.chapters[0]?.chapterNo ?? 1}`}
                         className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/15 text-slate-200 hover:text-white border border-white/15 hover:border-[#d4af37]/40 font-bold h-11 sm:h-12 px-5 rounded-xl transition-all active:scale-98 text-xs sm:text-sm cursor-pointer whitespace-nowrap"
                       >
                         Đọc Từ Đầu
@@ -227,7 +232,7 @@ export default async function StoryDetail({
                     </>
                   ) : (
                     <Link 
-                      href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
+                      href={`/truyen/${story.slug}/${story.chapters[0]?.chapterNo ?? 1}`}
                       className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-11 sm:h-12 px-7 rounded-xl shadow-[0_4px_25px_rgba(212,175,55,0.35)] transition-all transform hover:-translate-y-0.5 active:scale-98 text-xs sm:text-sm cursor-pointer whitespace-nowrap"
                     >
                       <span>Đọc Từ Đầu</span>
@@ -244,7 +249,7 @@ export default async function StoryDetail({
           </div>
 
           {/* Action Buttons Mobile: Balanced Luxury Glassmorphism */}
-          {story.chapters.length > 0 && (
+          {story._count.chapters > 0 && (
             <div className="flex flex-col sm:hidden gap-2 pt-2 w-full">
               {lastReadChapter ? (
                 <>
@@ -262,7 +267,7 @@ export default async function StoryDetail({
                   {/* Secondary: Read from Start (50%) + Bookmark (50%) */}
                   <div className="flex items-center gap-2 w-full">
                     <Link 
-                      href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
+                      href={`/truyen/${story.slug}/${story.chapters[0]?.chapterNo ?? 1}`}
                       className="flex-1 inline-flex items-center justify-center bg-white/10 hover:bg-white/15 text-slate-200 border border-white/15 hover:border-[#d4af37]/40 font-bold h-11 px-3 rounded-xl transition-all text-xs cursor-pointer whitespace-nowrap min-w-0"
                       title="Đọc từ chương 1"
                     >
@@ -276,7 +281,7 @@ export default async function StoryDetail({
               ) : (
                 <div className="flex items-center gap-2.5 w-full">
                   <Link 
-                    href={`/truyen/${story.slug}/${story.chapters[0].chapterNo}`}
+                    href={`/truyen/${story.slug}/${story.chapters[0]?.chapterNo ?? 1}`}
                     className="flex-1 inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4af37] via-amber-400 to-yellow-500 hover:brightness-110 text-slate-950 font-extrabold h-12 px-4 rounded-xl shadow-[0_4px_20px_rgba(212,175,55,0.35)] transition-all text-sm cursor-pointer whitespace-nowrap min-w-0"
                   >
                     <span className="truncate">Đọc Từ Đầu (Chương 1)</span>
@@ -298,7 +303,7 @@ export default async function StoryDetail({
           {/* Container 1: Thẻ Tác Giả & Thông Số Đặc Sắc (100% Real DB Data) */}
           <StorySpecsCard 
             className="w-full h-full" 
-            chapterCount={story.chapters.length}
+            chapterCount={story._count.chapters}
             characterCount={story.characters.length}
             loreCount={story.lores.length}
           />
@@ -318,50 +323,13 @@ export default async function StoryDetail({
         <LoreGallery lores={story.lores} />
       </div>
 
-      {/* Chapters Grid / List Section */}
-      <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl">
-        <div className="p-4 sm:p-6 border-b border-white/5 flex items-center justify-between">
-          <h2 className="text-lg sm:text-xl font-extrabold text-white flex items-center gap-2 sm:gap-2.5">
-            <List className="w-5 h-5 text-[#d4af37]" /> Danh Sách Chương
-          </h2>
-          <span className="text-xs sm:text-sm text-slate-400 font-medium">
-            {story.chapters.length} chương đã phát hành
-          </span>
-        </div>
-
-        {story.chapters.length === 0 ? (
-          <div className="p-8 text-center text-slate-500 text-sm">
-            Truyện chưa có chương nào được đăng tải.
-          </div>
-        ) : (
-          <div className="divide-y divide-white/5 max-h-[550px] overflow-y-auto">
-            {story.chapters.map((chapter) => (
-              <Link
-                key={chapter.id}
-                href={`/truyen/${story.slug}/${chapter.chapterNo}`}
-                className="flex items-center justify-between p-3.5 sm:p-4 hover:bg-white/5 transition-colors group min-h-[48px]"
-              >
-                <div className="flex items-center gap-2.5 sm:gap-3.5 min-w-0">
-                  <span className="font-mono text-xs sm:text-sm font-extrabold text-[#d4af37] shrink-0">
-                    #{chapter.chapterNo}
-                  </span>
-                  <span className="text-xs sm:text-sm md:text-base font-semibold text-slate-200 group-hover:text-white transition-colors truncate">
-                    {chapter.title}
-                  </span>
-
-                </div>
-
-                <div className="flex items-center gap-2 shrink-0">
-                  <span className="text-[11px] sm:text-xs text-slate-400 hidden xs:inline">
-                    {chapter.createdAt.toLocaleDateString('vi-VN')}
-                  </span>
-                  <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-slate-500 group-hover:text-[#d4af37] group-hover:translate-x-1 transition-all" />
-                </div>
-              </Link>
-            ))}
-          </div>
-        )}
-      </div>
+      {/* Chapters Grid / List Section with on-demand loading */}
+      <PublicChapterList
+        storyId={story.id}
+        storySlug={story.slug}
+        initialChapters={story.chapters}
+        totalChapters={story._count.chapters}
+      />
 
       {/* Comment Section */}
       <CommentSection storyId={story.id} />

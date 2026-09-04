@@ -19,7 +19,10 @@ type CommentType = {
 export function CommentSection({ storyId, chapterId }: { storyId: string, chapterId?: string }) {
   const router = useRouter();
   const [comments, setComments] = useState<CommentType[]>([]);
+  const [total, setTotal] = useState<number>(0);
+  const [hasMore, setHasMore] = useState<boolean>(false);
   const [loading, setLoading] = useState(true);
+  const [loadingMore, setLoadingMore] = useState(false);
   const [content, setContent] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [replyTo, setReplyTo] = useState<string | null>(null);
@@ -27,11 +30,25 @@ export function CommentSection({ storyId, chapterId }: { storyId: string, chapte
 
   const fetchComments = async () => {
     setLoading(true);
-    const res = await getComments(storyId, chapterId);
+    const res = await getComments(storyId, chapterId, 0, 20);
     if (res.success && res.comments) {
       setComments(res.comments as unknown as CommentType[]);
+      setTotal(res.total ?? res.comments.length);
+      setHasMore(!!res.hasMore);
     }
     setLoading(false);
+  };
+
+  const handleLoadMore = async () => {
+    if (loadingMore || !hasMore) return;
+    setLoadingMore(true);
+    const res = await getComments(storyId, chapterId, comments.length, 20);
+    if (res.success && res.comments) {
+      setComments((prev) => [...prev, ...(res.comments as unknown as CommentType[])]);
+      setTotal(res.total ?? total);
+      setHasMore(!!res.hasMore);
+    }
+    setLoadingMore(false);
   };
 
   useEffect(() => {
@@ -149,7 +166,7 @@ export function CommentSection({ storyId, chapterId }: { storyId: string, chapte
           <span>Khu Vực Luận Đạo</span>
         </h2>
         <span className="text-xs text-slate-400 font-semibold">
-          {comments.length} bình luận
+          {total} bình luận
         </span>
       </div>
 
@@ -184,8 +201,22 @@ export function CommentSection({ storyId, chapterId }: { storyId: string, chapte
           Chưa có đạo hữu nào để lại dấu chân. Hãy là người đầu tiên luận đạo!
         </div>
       ) : (
-        <div className="divide-y divide-white/5 space-y-1">
-          {comments.map(c => renderComment(c))}
+        <div className="space-y-4">
+          <div className="divide-y divide-white/5 space-y-1">
+            {comments.map(c => renderComment(c))}
+          </div>
+
+          {hasMore && (
+            <div className="pt-2 text-center">
+              <button
+                onClick={handleLoadMore}
+                disabled={loadingMore}
+                className="px-5 py-2 rounded-xl bg-white/5 hover:bg-white/10 text-amber-300 border border-white/10 hover:border-[#d4af37]/30 text-xs font-semibold transition-all active:scale-95 disabled:opacity-50 cursor-pointer inline-flex items-center gap-2"
+              >
+                {loadingMore ? "Đang tải thêm bình luận..." : "Xem thêm bình luận"}
+              </button>
+            </div>
+          )}
         </div>
       )}
     </div>
