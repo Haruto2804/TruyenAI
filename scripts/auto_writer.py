@@ -74,14 +74,37 @@ YÊU CẦU THỰC THI (ĐÃ ĐƯỢC CHẮT LỌC TỪ CÁC TÀI LIỆU TRÊN):
 """
 
     model_name = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
-    print(f"Đang yêu cầu AI viết Chương {next_chapter_num} bằng model {model_name}...")
+    print(f"\n[AI WRITER] Đang kết nối Gemini ({model_name}) để sáng tác Chương {next_chapter_num}...", flush=True)
 
     try:
-        interaction = client.interactions.create(
-            model=model_name,
-            input=prompt
-        )
-        text = interaction.output_text.strip()
+        text = ""
+        try:
+            stream = client.interactions.create(
+                model=model_name,
+                input=prompt,
+                stream=True
+            )
+            print("⚡ Đã kết nối thành công! Đang stream nội dung truyện trực tiếp:\n" + ("=" * 50), flush=True)
+            text_chunks = []
+            for event in stream:
+                if hasattr(event, "delta") and hasattr(event.delta, "text") and event.delta.text:
+                    chunk = event.delta.text
+                    text_chunks.append(chunk)
+                    print(chunk, end="", flush=True)
+            print("\n" + ("=" * 50), flush=True)
+            text = "".join(text_chunks).strip()
+        except Exception as stream_err:
+            print(f"\n⚠️ Chế độ streaming gặp lỗi ({stream_err}), chuyển sang non-streaming...", flush=True)
+            interaction = client.interactions.create(
+                model=model_name,
+                input=prompt
+            )
+            text = interaction.output_text.strip()
+
+        if not text:
+            print("Lỗi: Không nhận được nội dung từ AI.")
+            sys.exit(1)
+
         # Đảm bảo dòng đầu tiên luôn chuẩn format # Chương X: <Tiêu Đề>
         lines = text.split("\n")
         first_line = lines[0].strip() if lines else ""
@@ -93,10 +116,11 @@ YÊU CẦU THỰC THI (ĐÃ ĐƯỢC CHẮT LỌC TỪ CÁC TÀI LIỆU TRÊN):
                 lines.insert(1, "")
             text = "\n".join(lines)
 
-        print("AI đã viết xong. Đang lưu file...")
+        word_count = len(text.split())
+        print(f"\n✅ AI đã viết xong thành công ({word_count} từ). Đang lưu file...", flush=True)
         file_path.write_text(text, encoding="utf-8")
-        print(f"Đã lưu thành công tại: {file_path}")
-        print("GỢI Ý: Kịch bản đã sẵn sàng để tích hợp với lệnh 'npm run sync:novel'!")
+        print(f"Đã lưu thành công tại: {file_path}", flush=True)
+        print("GỢI Ý: Kịch bản đã sẵn sàng để tích hợp với lệnh 'npm run sync:novel'!", flush=True)
     except Exception as e:
         print(f"Có lỗi xảy ra khi gọi API: {e}")
         sys.exit(1)

@@ -42,7 +42,8 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: "gemini-3.8-flash"
           GCE_METADATA_TIMEOUT: "1"
-        run: python scripts/auto_writer.py
+          PYTHONUNBUFFERED: "1"
+        run: python -u scripts/auto_writer.py
 
       - name: Kích hoạt Lệnh Đồng bộ (Sync Engine)
         env:
