@@ -8,7 +8,7 @@ if not api_key:
     print("Lỗi: Không tìm thấy GEMINI_API_KEY trong biến môi trường.")
     sys.exit(1)
 
-client = genai.Client()
+client = genai.Client(api_key=api_key)
 
 def main():
     print("Đang khởi tạo AI...")
@@ -73,11 +73,12 @@ YÊU CẦU THỰC THI (ĐÃ ĐƯỢC CHẮT LỌC TỪ CÁC TÀI LIỆU TRÊN):
 - Trả về nguyên văn bản Markdown của chương truyện, không thêm các lời chào hỏi hay giải thích thừa thãi.
 """
 
-    print(f"Đang yêu cầu AI viết Chương {next_chapter_num} bằng model gemini-3.8-flash...")
+    model_name = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
+    print(f"Đang yêu cầu AI viết Chương {next_chapter_num} bằng model {model_name}...")
 
     try:
         interaction = client.interactions.create(
-            model="gemini-3.8-flash",
+            model=model_name,
             input=prompt
         )
         text = interaction.output_text.strip()

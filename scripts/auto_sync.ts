@@ -101,7 +101,7 @@ async function findAndUploadCharacterAvatar(novelSlug: string, charName: string,
 
   if (targetFile) {
     const localPath = path.join(charDir, targetFile);
-    if (process.env.CLOUDINARY_CLOUD_NAME) {
+    if (process.env.CLOUDINARY_CLOUD_NAME && process.env.CLOUDINARY_API_KEY && process.env.CLOUDINARY_API_SECRET) {
       const cloudUrl = await uploadToCloud(localPath, `truyen-ai/characters/${novelSlug}`, targetSlug);
       if (cloudUrl) return cloudUrl;
     }
@@ -118,7 +118,7 @@ async function findAndUploadStoryCover(novelSlug: string): Promise<string> {
   for (const ext of imageExtensions) {
     const coverPath = path.join(coversDir, `${novelSlug}${ext}`);
     if (fs.existsSync(coverPath)) {
-      if (process.env.CLOUDINARY_CLOUD_NAME) {
+      if (process.env.CLOUDINARY_CLOUD_NAME && process.env.CLOUDINARY_API_KEY && process.env.CLOUDINARY_API_SECRET) {
         const cloudUrl = await uploadToCloud(coverPath, "truyen-ai/covers", novelSlug);
         if (cloudUrl) return cloudUrl;
       }
@@ -528,6 +528,11 @@ async function syncNovel(novelSlug: string) {
 }
 
 async function main() {
+  if (!process.env.DATABASE_URL || process.env.DATABASE_URL.trim() === "") {
+    console.warn("⚠️ DATABASE_URL chưa được cấu hình. Bỏ qua bước đồng bộ cơ sở dữ liệu.");
+    return;
+  }
+
   const novelsRoot = path.join(process.cwd(), ".agents", "viet_truyen", "novels");
   if (!fs.existsSync(novelsRoot)) {
     console.error("Novels directory not found!");

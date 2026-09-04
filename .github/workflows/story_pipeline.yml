@@ -13,15 +13,19 @@ permissions:
 jobs:
   write-story:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     
     steps:
       - name: Kiểm tra mã nguồn (Checkout)
         uses: actions/checkout@v4
+        with:
+          ref: master
 
       - name: Cài đặt Node.js (Cho Sync Engine)
         uses: actions/setup-node@v4
         with:
-          node-version: '24'
+          node-version: '20'
+          cache: 'npm'
 
       - name: Cài đặt Python (Cho Google GenAI SDK)
         uses: actions/setup-python@v5
@@ -30,12 +34,13 @@ jobs:
 
       - name: Cài đặt thư viện
         run: |
-          npm install
+          npm ci
           pip install google-genai
 
-      - name: Chạy Kịch bản Viết truyện (Gemini 3.8 Flash)
+      - name: Chạy Kịch bản Viết truyện AI
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GCE_METADATA_TIMEOUT: "1"
         run: python scripts/auto_writer.py
 
       - name: Kích hoạt Lệnh Đồng bộ (Sync Engine)
@@ -50,6 +55,5 @@ jobs:
       - name: Lưu và Đẩy code lên GitHub (Commit & Push)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-generated story by Gemini 3.8 Flash"
+          commit_message: "Auto-generated story chapter via Gemini"
           branch: master
-          push_options: '--force'
