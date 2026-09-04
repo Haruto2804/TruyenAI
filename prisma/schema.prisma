@@ -22,6 +22,8 @@ model Story {
   bookmarks Bookmark[]
   readingProgresses ReadingProgress[]
   comments  Comment[]
+
+  @@index([updatedAt(sort: Desc)])
 }
 
 model Character {

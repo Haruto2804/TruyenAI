@@ -5,13 +5,15 @@ import { deleteStory } from "@/app/admin/actions";
 import { DeleteButton } from "@/components/DeleteButton";
 
 export default async function AdminPage() {
+  // ⚡ DATABASE-LEVEL SORTING: Sử dụng B-Tree Index trên Story.updatedAt
   const stories = await prisma.story.findMany({
+    orderBy: { updatedAt: "desc" },
     include: {
       _count: {
         select: { chapters: true, characters: true, lores: true }
       },
       chapters: {
-        orderBy: { chapterNo: 'desc' },
+        orderBy: { chapterNo: "desc" },
         take: 1,
         select: {
           chapterNo: true,
@@ -21,15 +23,6 @@ export default async function AdminPage() {
         }
       }
     }
-  });
-
-  // Sắp xếp truyện nào ra chương mới nhất lên đầu
-  const sortedStories = [...stories].sort((a, b) => {
-    const aChap = a.chapters[0];
-    const bChap = b.chapters[0];
-    const aTime = aChap ? new Date(aChap.createdAt).getTime() : new Date(a.createdAt).getTime();
-    const bTime = bChap ? new Date(bChap.createdAt).getTime() : new Date(b.createdAt).getTime();
-    return bTime - aTime;
   });
 
   const ONE_HOUR_MS = 60 * 60 * 1000;
@@ -62,18 +55,15 @@ export default async function AdminPage() {
 
       {/* MOBILE VIEW: Touch-First Interactive Cards (< md) */}
       <div className="block md:hidden space-y-3.5">
-        {sortedStories.length === 0 ? (
+        {stories.length === 0 ? (
           <div className="p-8 text-center bg-slate-900/60 border border-slate-800 rounded-2xl text-slate-400 text-sm">
             Chưa có truyện nào. Bấm nút phía trên để tạo truyện đầu tiên!
           </div>
         ) : (
-          sortedStories.map((story) => {
+          stories.map((story) => {
             const latestChapter = story.chapters[0];
-            const latestReleaseTime = latestChapter
-              ? new Date(latestChapter.createdAt)
-              : new Date(story.createdAt);
-
-            const isUpdatedWithinOneHour = (now - latestReleaseTime.getTime()) <= ONE_HOUR_MS && (now - latestReleaseTime.getTime()) >= 0;
+            const storyUpdatedTime = new Date(story.updatedAt).getTime();
+            const isUpdatedWithinOneHour = (now - storyUpdatedTime) <= ONE_HOUR_MS && (now - storyUpdatedTime) >= 0;
 
             return (
               <div 
@@ -200,20 +190,17 @@ export default async function AdminPage() {
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-800/60">
-              {sortedStories.length === 0 ? (
+              {stories.length === 0 ? (
                 <tr>
                   <td colSpan={6} className="px-6 py-12 text-center text-slate-500">
                     Chưa có dữ liệu. Hãy thêm truyện mới!
                   </td>
                 </tr>
               ) : (
-                sortedStories.map((story) => {
+                stories.map((story) => {
                   const latestChapter = story.chapters[0];
-                  const latestReleaseTime = latestChapter
-                    ? new Date(latestChapter.createdAt)
-                    : new Date(story.createdAt);
-
-                  const isUpdatedWithinOneHour = (now - latestReleaseTime.getTime()) <= ONE_HOUR_MS && (now - latestReleaseTime.getTime()) >= 0;
+                  const storyUpdatedTime = new Date(story.updatedAt).getTime();
+                  const isUpdatedWithinOneHour = (now - storyUpdatedTime) <= ONE_HOUR_MS && (now - storyUpdatedTime) >= 0;
 
                   return (
                     <tr key={story.id} className="hover:bg-slate-800/40 transition-colors">
