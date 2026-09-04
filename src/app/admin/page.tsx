@@ -4,22 +4,6 @@ import { Plus, List, Edit, BookOpen, Clock, Layers, ArrowRight, Sparkles } from 
 import { deleteStory } from "@/app/admin/actions";
 import { DeleteButton } from "@/components/DeleteButton";
 
-function formatTimeAgo(date: Date | string | null | undefined): string {
-  if (!date) return "Mới ra";
-  const now = Date.now();
-  const diff = Math.max(0, now - new Date(date).getTime());
-  const mins = Math.floor(diff / (1000 * 60));
-  const hours = Math.floor(mins / 60);
-  const days = Math.floor(hours / 24);
-
-  if (mins < 1) return "Vừa xong";
-  if (mins < 60) return `${mins} phút trước`;
-  if (hours < 24) return `${hours} giờ trước`;
-  if (days === 1) return "Hôm qua";
-  if (days < 7) return `${days} ngày trước`;
-  return new Date(date).toLocaleDateString("vi-VN");
-}
-
 export default async function AdminPage() {
   const stories = await prisma.story.findMany({
     include: {
@@ -51,6 +35,9 @@ export default async function AdminPage() {
       : new Date(b.updatedAt).getTime();
     return bTime - aTime;
   });
+
+  const ONE_HOUR_MS = 60 * 60 * 1000;
+  const now = Date.now();
 
   return (
     <div className="space-y-6">
@@ -90,6 +77,8 @@ export default async function AdminPage() {
               ? new Date(Math.max(new Date(latestChapter.updatedAt || latestChapter.createdAt).getTime(), new Date(story.updatedAt).getTime()))
               : new Date(story.updatedAt);
 
+            const isUpdatedWithinOneHour = (now - latestTime.getTime()) <= ONE_HOUR_MS && (now - latestTime.getTime()) >= 0;
+
             return (
               <div 
                 key={story.id} 
@@ -110,9 +99,18 @@ export default async function AdminPage() {
                   )}
 
                   <div className="flex-1 min-w-0">
-                    <h4 className="font-bold text-slate-100 text-base leading-snug truncate">
-                      {story.title}
-                    </h4>
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <h4 className="font-bold text-slate-100 text-base leading-snug truncate">
+                        {story.title}
+                      </h4>
+                      {isUpdatedWithinOneHour && (
+                        <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">
+                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse shrink-0" />
+                          Mới Cập Nhật
+                        </span>
+                      )}
+                    </div>
+
                     {story.genre && (
                       <span className="inline-block mt-1 px-2 py-0.5 rounded text-[11px] font-medium bg-amber-500/10 text-amber-300 border border-amber-500/20 truncate max-w-full">
                         {story.genre}
@@ -132,9 +130,9 @@ export default async function AdminPage() {
                         <Layers className="w-3.5 h-3.5 text-[#d4af37]" />
                         {story._count.chapters} chương
                       </span>
-                      <span className="flex items-center gap-1 text-emerald-400 font-medium">
-                        <Clock className="w-3 h-3 text-emerald-400" />
-                        {formatTimeAgo(latestTime)}
+                      <span className="flex items-center gap-1">
+                        <Clock className="w-3 h-3 text-slate-500" />
+                        {story.updatedAt.toLocaleDateString('vi-VN')}
                       </span>
                     </div>
                   </div>
@@ -219,6 +217,8 @@ export default async function AdminPage() {
                     ? new Date(Math.max(new Date(latestChapter.updatedAt || latestChapter.createdAt).getTime(), new Date(story.updatedAt).getTime()))
                     : new Date(story.updatedAt);
 
+                  const isUpdatedWithinOneHour = (now - latestTime.getTime()) <= ONE_HOUR_MS && (now - latestTime.getTime()) >= 0;
+
                   return (
                     <tr key={story.id} className="hover:bg-slate-800/40 transition-colors">
                       <td className="px-6 py-4">
@@ -230,7 +230,15 @@ export default async function AdminPage() {
                               className="w-8 h-10 object-cover rounded bg-slate-950 border border-white/10 shrink-0" 
                             />
                           )}
-                          <span className="font-semibold text-slate-100">{story.title}</span>
+                          <div className="flex items-center gap-2">
+                            <span className="font-semibold text-slate-100">{story.title}</span>
+                            {isUpdatedWithinOneHour && (
+                              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">
+                                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse shrink-0" />
+                                Mới Cập Nhật
+                              </span>
+                            )}
+                          </div>
                         </div>
                       </td>
                       <td className="px-6 py-4 text-slate-400">{story.genre || "Chưa phân loại"}</td>
@@ -249,9 +257,7 @@ export default async function AdminPage() {
                         )}
                       </td>
                       <td className="px-6 py-4 text-slate-400 text-xs">
-                        <span className="text-emerald-400 font-medium">
-                          {formatTimeAgo(latestTime)}
-                        </span>
+                        {story.updatedAt.toLocaleDateString('vi-VN')}
                       </td>
                       <td className="px-6 py-4 text-right">
                         <div className="flex items-center justify-end gap-2">

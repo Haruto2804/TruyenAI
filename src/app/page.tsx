@@ -3,22 +3,6 @@ import prisma from "@/lib/prisma";
 import { BookOpen, PackageOpen, Sparkles } from "lucide-react";
 import { getStoryCoverUrl } from "@/lib/images";
 
-function formatTimeAgo(date: Date | string | null | undefined): string {
-  if (!date) return "Mới ra";
-  const now = Date.now();
-  const diff = Math.max(0, now - new Date(date).getTime());
-  const mins = Math.floor(diff / (1000 * 60));
-  const hours = Math.floor(mins / 60);
-  const days = Math.floor(hours / 24);
-
-  if (mins < 1) return "Vừa xong";
-  if (mins < 60) return `${mins} phút trước`;
-  if (hours < 24) return `${hours} giờ trước`;
-  if (days === 1) return "Hôm qua";
-  if (days < 7) return `${days} ngày trước`;
-  return new Date(date).toLocaleDateString("vi-VN", { day: "2-digit", month: "2-digit" });
-}
-
 export default async function Home() {
   const stories = await prisma.story.findMany({
     include: {
@@ -55,6 +39,9 @@ export default async function Home() {
     return bTime - aTime;
   });
 
+  const ONE_HOUR_MS = 60 * 60 * 1000;
+  const now = Date.now();
+
   return (
     <div className="space-y-8 sm:space-y-12 pb-28 sm:pb-12">
       {/* Hero Section */}
@@ -79,9 +66,6 @@ export default async function Home() {
             </div>
             Mới Cập Nhật
           </h2>
-          <span className="text-xs sm:text-sm text-slate-400 font-medium">
-            Tự động đẩy truyện mới nhất lên đầu
-          </span>
         </div>
 
         {sortedStories.length === 0 ? (
@@ -103,7 +87,9 @@ export default async function Home() {
               const latestTime = latestChapter
                 ? new Date(Math.max(new Date(latestChapter.updatedAt || latestChapter.createdAt).getTime(), new Date(story.updatedAt).getTime()))
                 : new Date(story.updatedAt);
-              const timeAgoStr = formatTimeAgo(latestTime);
+              
+              // CHỈ hiển thị nhãn "Mới Cập Nhật" nếu truyện có chương ra hoặc cập nhật trong vòng 1 tiếng
+              const isUpdatedWithinOneHour = (now - latestTime.getTime()) <= ONE_HOUR_MS && (now - latestTime.getTime()) >= 0;
 
               return (
                 <Link 
@@ -132,13 +118,15 @@ export default async function Home() {
                         </span>
                       </div>
 
-                      {/* Thời gian cập nhật gần nhất */}
-                      <div className="absolute top-2.5 right-2.5">
-                        <span className="inline-flex items-center gap-1 rounded-lg border border-emerald-500/30 bg-black/85 px-2 py-0.5 sm:py-1 text-[10px] sm:text-xs font-semibold text-emerald-400 backdrop-blur-md shadow-sm">
-                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse shrink-0" />
-                          <span className="truncate">{timeAgoStr}</span>
-                        </span>
-                      </div>
+                      {/* Nhãn "Mới Cập Nhật" - CHỈ hiển thị khi truyện có chương cập nhật trong vòng 1 tiếng */}
+                      {isUpdatedWithinOneHour && (
+                        <div className="absolute top-2.5 right-2.5 z-10">
+                          <span className="inline-flex items-center gap-1.5 rounded-lg border border-emerald-500/50 bg-emerald-950/90 px-2 py-0.5 sm:py-1 text-[10px] sm:text-xs font-bold text-emerald-300 backdrop-blur-md shadow-lg shadow-emerald-950/60">
+                            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse shrink-0" />
+                            <span>Mới Cập Nhật</span>
+                          </span>
+                        </div>
+                      )}
 
                       {/* Chapter Count Badge */}
                       <div className="absolute bottom-2.5 right-2.5">
