@@ -1,9 +1,15 @@
+import prisma from "@/lib/prisma";
 import { createStory } from "@/app/admin/actions";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { ImageUpload } from "@/components/ImageUpload";
+import { GenrePicker } from "@/components/admin/GenrePicker";
 
-export default function NewStoryPage() {
+export default async function NewStoryPage() {
+  const genres = await prisma.genre.findMany({
+    orderBy: { name: "asc" },
+  });
+
   return (
     <div className="max-w-2xl mx-auto space-y-5">
       <div className="flex items-center gap-3">
@@ -40,15 +46,10 @@ export default function NewStoryPage() {
             />
           </div>
 
+          {/* Genre Fixed Selection */}
           <div className="space-y-2">
-            <label htmlFor="genre" className="block text-sm font-medium text-slate-300">Thể Loại</label>
-            <input 
-              type="text" 
-              id="genre" 
-              name="genre" 
-              className="w-full min-h-[44px] bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-slate-200 text-base sm:text-sm focus:outline-none focus:ring-2 focus:ring-[#d4af37]/50 focus:border-[#d4af37]"
-              placeholder="VD: Tiên Hiệp, Huyền Huyễn"
-            />
+            <label className="block text-sm font-medium text-slate-300">Thể Loại</label>
+            <GenrePicker availableGenres={genres} />
           </div>
 
           <div className="space-y-2">

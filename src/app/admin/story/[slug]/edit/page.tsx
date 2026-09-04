@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { updateStory } from "@/app/admin/actions";
 import { ImageUpload } from "@/components/ImageUpload";
+import { GenrePicker } from "@/components/admin/GenrePicker";
 
 export default async function EditStoryPage({
   params,
@@ -12,9 +13,14 @@ export default async function EditStoryPage({
 }) {
   const { slug } = await params;
   
-  const story = await prisma.story.findUnique({
-    where: { slug: slug },
-  });
+  const [story, genres] = await Promise.all([
+    prisma.story.findUnique({
+      where: { slug: slug },
+    }),
+    prisma.genre.findMany({
+      orderBy: { name: "asc" },
+    }),
+  ]);
 
   if (!story) {
     notFound();
@@ -45,32 +51,24 @@ export default async function EditStoryPage({
             <ImageUpload name="coverUrl" initialValue={story.coverUrl || ""} />
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
-            <div className="space-y-2">
-              <label htmlFor="title" className="block text-sm font-medium text-slate-300">
-                Tên truyện <span className="text-rose-400">*</span>
-              </label>
-              <input 
-                type="text" 
-                id="title" 
-                name="title" 
-                defaultValue={story.title}
-                required
-                className="w-full min-h-[44px] bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-slate-200 text-base sm:text-sm focus:outline-none focus:ring-2 focus:ring-[#d4af37]/50 focus:border-[#d4af37]"
-              />
-            </div>
-            
-            <div className="space-y-2">
-              <label htmlFor="genre" className="block text-sm font-medium text-slate-300">Thể loại</label>
-              <input 
-                type="text" 
-                id="genre" 
-                name="genre" 
-                defaultValue={story.genre || ""}
-                required
-                className="w-full min-h-[44px] bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-slate-200 text-base sm:text-sm focus:outline-none focus:ring-2 focus:ring-[#d4af37]/50 focus:border-[#d4af37]"
-              />
-            </div>
+          <div className="space-y-2">
+            <label htmlFor="title" className="block text-sm font-medium text-slate-300">
+              Tên truyện <span className="text-rose-400">*</span>
+            </label>
+            <input 
+              type="text" 
+              id="title" 
+              name="title" 
+              defaultValue={story.title}
+              required
+              className="w-full min-h-[44px] bg-slate-950 border border-slate-800 rounded-xl px-4 py-2.5 text-slate-200 text-base sm:text-sm focus:outline-none focus:ring-2 focus:ring-[#d4af37]/50 focus:border-[#d4af37]"
+            />
+          </div>
+
+          {/* Genre Fixed Selection */}
+          <div className="space-y-2">
+            <label className="block text-sm font-medium text-slate-300">Thể loại</label>
+            <GenrePicker availableGenres={genres} initialValue={story.genre} />
           </div>
 
           <div className="space-y-2">

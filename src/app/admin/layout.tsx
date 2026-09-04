@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Settings, BookOpen, ShieldAlert } from "lucide-react";
+import { Settings, BookOpen, ShieldAlert, Tag } from "lucide-react";
 import { auth } from "@/auth";
 
 export default async function AdminLayout({
@@ -56,13 +56,20 @@ export default async function AdminLayout({
             className="flex-1 sm:flex-none justify-center inline-flex items-center gap-1.5 min-h-[42px] px-3.5 py-2 rounded-xl bg-white/5 hover:bg-[#d4af37]/15 text-slate-200 hover:text-[#d4af37] border border-white/10 hover:border-[#d4af37]/30 transition-all text-xs sm:text-sm font-semibold active:scale-95"
           >
             <BookOpen className="w-4 h-4 text-[#d4af37]" />
-            <span>Quản lý truyện</span>
+            <span>Truyện</span>
+          </Link>
+          <Link 
+            href="/admin/genres" 
+            className="flex-1 sm:flex-none justify-center inline-flex items-center gap-1.5 min-h-[42px] px-3.5 py-2 rounded-xl bg-white/5 hover:bg-[#d4af37]/15 text-slate-200 hover:text-[#d4af37] border border-white/10 hover:border-[#d4af37]/30 transition-all text-xs sm:text-sm font-semibold active:scale-95"
+          >
+            <Tag className="w-4 h-4 text-[#d4af37]" />
+            <span>Thể Loại</span>
           </Link>
           <Link 
             href="/" 
             className="flex-1 sm:flex-none justify-center inline-flex items-center gap-1.5 min-h-[42px] px-3.5 py-2 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white border border-white/10 transition-all text-xs sm:text-sm font-semibold active:scale-95"
           >
-            <span>Xem Website</span>
+            <span>Xem Web</span>
           </Link>
         </div>
       </div>
