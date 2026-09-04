@@ -1,8 +1,12 @@
 import prisma from "@/lib/prisma";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { cache } from "react";
+
+// ⚡ ISR CACHING: Cache HTML 60 giây trên edge, tối ưu tốc độ đọc truyện
+export const revalidate = 60;
 import { 
   BookOpen, Clock, List, ChevronRight, Sparkles, BookMarked, 
   MessageSquare, Feather, Users, Crown 
@@ -270,10 +274,13 @@ export default async function StoryDetail({
           <div className="flex flex-row gap-3 xs:gap-4 sm:contents items-start">
             {/* Story Cover Poster */}
             <div className="relative aspect-[2/3] w-24 xs:w-28 sm:w-56 md:w-64 lg:w-72 rounded-xl sm:rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.9)] border-2 border-[#d4af37]/40 hover:border-[#d4af37] group bg-slate-950 shrink-0 transition-all duration-300">
-              <img
+              <Image
                 src={getStoryCoverUrl(story.coverUrl, story.slug)}
                 alt={story.title}
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                fill
+                priority
+                sizes="(max-width: 640px) 112px, (max-width: 1024px) 256px, 288px"
+                className="object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-50 pointer-events-none" />
             </div>

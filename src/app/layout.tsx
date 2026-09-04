@@ -4,6 +4,7 @@ import "./globals.css";
 import Link from "next/link";
 import { BookOpen } from "lucide-react";
 import { UserMenu } from "@/components/UserMenu";
+import { QuickSearch } from "@/components/QuickSearch";
 import { MobileBottomNav } from "@/components/MobileBottomNav";
 import { auth } from "@/auth";
 
@@ -154,7 +155,8 @@ export default async function RootLayout({
                 Thiên Thư AI
               </span>
             </Link>
-            <div className="relative z-10 flex items-center min-h-[44px]">
+            <div className="relative z-10 flex items-center gap-2 sm:gap-3 min-h-[44px]">
+              <QuickSearch />
               <UserMenu />
             </div>
           </div>

@@ -12,7 +12,7 @@ import { getPublicCharacters } from "@/app/actions/character_loader";
 function DefaultSilhouette({ showText = false, text = "Chưa có ảnh" }: { showText?: boolean; text?: string }) {
   return (
     <div className="w-full h-full relative overflow-hidden bg-slate-900">
-      <img src="/characters/default-avatar.jpeg" alt="Default Avatar" className="w-full h-full object-cover object-center opacity-70" />
+      <img src="/characters/default-avatar.jpeg" alt="Default Avatar" loading="lazy" className="w-full h-full object-cover object-center opacity-70" />
       {showText && (
         <div className="absolute inset-0 flex flex-col items-center justify-end text-center p-4 pb-6">
           <span className="text-[10px] sm:text-xs font-semibold text-slate-300 uppercase tracking-widest backdrop-blur-md bg-black/50 px-2 py-1 rounded shadow-lg border border-white/10">{text}</span>
@@ -222,6 +222,7 @@ export function CharacterGallery({
                         (e.target as HTMLImageElement).onerror = null;
                       }}
                       className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
                     />
                   ) : (
                     <DefaultSilhouette showText={true} />
