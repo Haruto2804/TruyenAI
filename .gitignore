@@ -56,3 +56,9 @@ test_screenshots/
 # scratch & temporary test scripts
 scratch/
 scratch_*
+
+# python cache
+__pycache__/
+*.py[cod]
+*$py.class
+

@@ -6,6 +6,15 @@ on:
     - cron: '0 1 * * *'
   # Cho phép kích hoạt chạy bằng tay từ giao diện GitHub Actions (rất hữu ích khi test)
   workflow_dispatch:
+    inputs:
+      novel_slug:
+        description: 'Slug truyện cần viết (để trống hoặc "all" để viết toàn bộ truyện)'
+        required: false
+        default: 'all'
+      chapters_count:
+        description: 'Số chương cần viết cho mỗi truyện'
+        required: false
+        default: '5'
 
 permissions:
   contents: write # Cấp quyền cho GitHub Actions có thể tự động commit (lưu file mới)
@@ -13,7 +22,7 @@ permissions:
 jobs:
   write-story:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 45
     
     steps:
       - name: Kiểm tra mã nguồn (Checkout)
@@ -41,6 +50,8 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: "gemini-3.5-flash-lite"
+          NOVEL_SLUG: ${{ github.event.inputs.novel_slug || 'all' }}
+          CHAPTERS_PER_NOVEL: ${{ github.event.inputs.chapters_count || '5' }}
           GCE_METADATA_TIMEOUT: "1"
           PYTHONUNBUFFERED: "1"
         run: python -u scripts/auto_writer.py
@@ -57,5 +68,5 @@ jobs:
       - name: Lưu và Đẩy code lên GitHub (Commit & Push)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-generated story by Gemini 3.5 Flash Lite"
+          commit_message: "Auto-generated 5 daily chapters per novel by Gemini 3.5 Flash Lite"
           branch: master
