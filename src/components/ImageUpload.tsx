@@ -111,14 +111,14 @@ export function ImageUpload({
       <input type="hidden" name={fieldName} value={url} />
 
       {/* Tabs */}
-      <div className="flex items-center gap-2 border-b border-white/5 pb-2">
+      <div className="flex items-center gap-2 border-b border-white/5 pb-2.5">
         <button
           type="button"
           onClick={() => setActiveTab("file")}
-          className={`text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors flex items-center gap-1.5 ${
+          className={`text-xs font-semibold px-3.5 py-2 min-h-[38px] rounded-xl transition-colors flex items-center gap-1.5 active:scale-95 ${
             activeTab === "file"
               ? "bg-[#d4af37]/20 text-[#d4af37] border border-[#d4af37]/30"
-              : "text-slate-400 hover:text-slate-200"
+              : "text-slate-400 hover:text-slate-200 bg-white/5"
           }`}
         >
           <Upload className="w-3.5 h-3.5" /> Tải File Lên
@@ -126,10 +126,10 @@ export function ImageUpload({
         <button
           type="button"
           onClick={() => setActiveTab("url")}
-          className={`text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors flex items-center gap-1.5 ${
+          className={`text-xs font-semibold px-3.5 py-2 min-h-[38px] rounded-xl transition-colors flex items-center gap-1.5 active:scale-95 ${
             activeTab === "url"
               ? "bg-[#d4af37]/20 text-[#d4af37] border border-[#d4af37]/30"
-              : "text-slate-400 hover:text-slate-200"
+              : "text-slate-400 hover:text-slate-200 bg-white/5"
           }`}
         >
           <LinkIcon className="w-3.5 h-3.5" /> Nhập URL Trực Tiếp
@@ -144,7 +144,7 @@ export function ImageUpload({
           onDragOver={handleDrag}
           onDrop={handleDrop}
           onClick={() => fileInputRef.current?.click()}
-          className={`relative border-2 border-dashed rounded-2xl p-6 sm:p-8 text-center cursor-pointer transition-all ${
+          className={`relative border-2 border-dashed rounded-2xl p-6 sm:p-8 text-center cursor-pointer transition-all active:bg-white/5 ${
             dragActive
               ? "border-[#d4af37] bg-[#d4af37]/10"
               : "border-white/10 bg-black/20 hover:border-white/20 hover:bg-black/30"
@@ -189,18 +189,18 @@ export function ImageUpload({
 
       {/* Tab 2: Direct URL Input */}
       {activeTab === "url" && !url && (
-        <div className="flex gap-2">
+        <div className="flex flex-col sm:flex-row gap-2.5">
           <input
             type="url"
             value={directUrl}
             onChange={(e) => setDirectUrl(e.target.value)}
             placeholder="https://res.cloudinary.com/... hoặc link ảnh bất kỳ"
-            className="flex-1 bg-slate-950 border border-white/10 rounded-xl px-4 py-2.5 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-[#d4af37]/60"
+            className="flex-1 bg-slate-950 border border-white/10 rounded-xl px-4 py-3 text-base sm:text-sm min-h-[44px] text-slate-200 placeholder-slate-500 focus:outline-none focus:border-[#d4af37]/60"
           />
           <button
             type="button"
             onClick={handleDirectUrlApply}
-            className="bg-[#d4af37] text-slate-950 px-4 py-2.5 rounded-xl font-bold text-sm hover:brightness-110 transition-all flex items-center gap-1 shrink-0"
+            className="bg-[#d4af37] text-slate-950 px-5 py-3 min-h-[44px] rounded-xl font-bold text-sm hover:brightness-110 active:scale-98 transition-all flex items-center justify-center gap-1.5 shrink-0"
           >
             <Check className="w-4 h-4" /> Áp Dụng
           </button>
@@ -209,8 +209,8 @@ export function ImageUpload({
 
       {/* Preview Card */}
       {url && (
-        <div className="relative flex items-center gap-4 bg-white/5 border border-white/10 rounded-2xl p-4">
-          <div className="relative w-20 h-28 rounded-xl overflow-hidden bg-black/40 border border-white/10 shrink-0">
+        <div className="relative flex items-center gap-3.5 sm:gap-4 bg-white/5 border border-white/10 rounded-2xl p-3 sm:p-4">
+          <div className="relative w-16 sm:w-20 aspect-[3/4] rounded-xl overflow-hidden bg-black/40 border border-white/10 shrink-0">
             <img src={url} alt="Cover Preview" className="w-full h-full object-cover" />
           </div>
           <div className="flex-1 min-w-0 space-y-1">
@@ -222,7 +222,7 @@ export function ImageUpload({
           <button
             type="button"
             onClick={handleRemove}
-            className="p-2 rounded-xl bg-rose-500/10 hover:bg-rose-500/20 text-rose-400 border border-rose-500/20 transition-colors"
+            className="min-w-[44px] min-h-[44px] p-2.5 rounded-xl bg-rose-500/10 hover:bg-rose-500/20 active:bg-rose-500/30 text-rose-400 border border-rose-500/20 transition-colors flex items-center justify-center shrink-0"
             title="Xóa ảnh này"
           >
             <X className="w-4 h-4" />
