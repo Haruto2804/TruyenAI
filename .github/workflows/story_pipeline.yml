@@ -37,9 +37,10 @@ jobs:
           npm ci
           pip install google-genai
 
-      - name: Chạy Kịch bản Viết truyện AI
+      - name: Chạy Kịch bản Viết truyện (Gemini 3.8 Flash)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: "gemini-3.8-flash"
           GCE_METADATA_TIMEOUT: "1"
         run: python scripts/auto_writer.py
 
@@ -55,5 +56,5 @@ jobs:
       - name: Lưu và Đẩy code lên GitHub (Commit & Push)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-generated story chapter via Gemini"
+          commit_message: "Auto-generated story by Gemini 3.8 Flash"
           branch: master
