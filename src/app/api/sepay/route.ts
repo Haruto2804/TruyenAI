@@ -11,11 +11,24 @@ const calculateLinhThach = (amount: number) => {
 
 export async function POST(req: Request) {
   try {
-    // API KEY từ SePay (Nên để trong .env: SEPAY_WEBHOOK_TOKEN)
-    // const authHeader = req.headers.get("Authorization");
-    // if (authHeader !== `Bearer ${process.env.SEPAY_WEBHOOK_TOKEN}`) {
-    //   return NextResponse.json({ success: false, message: "Unauthorized" }, { status: 401 });
-    // }
+    // API KEY từ SePay (Cấu hình trong .env: SEPAY_WEBHOOK_TOKEN)
+    const webhookToken = process.env.SEPAY_WEBHOOK_TOKEN;
+    if (webhookToken) {
+      const authHeader = req.headers.get("authorization") || req.headers.get("Authorization");
+      const isValid = 
+        authHeader === `Bearer ${webhookToken}` || 
+        authHeader === `Apikey ${webhookToken}` ||
+        authHeader === webhookToken;
+
+      if (!isValid) {
+        return NextResponse.json({ success: false, message: "Unauthorized: Invalid webhook token" }, { status: 401 });
+      }
+    } else if (process.env.NODE_ENV === "production") {
+      console.error("[SePay Webhook] CRITICAL: SEPAY_WEBHOOK_TOKEN is missing in production. Refusing request.");
+      return NextResponse.json({ success: false, message: "Webhook not configured" }, { status: 503 });
+    } else {
+      console.warn("[SePay Webhook] Warning: SEPAY_WEBHOOK_TOKEN is not configured in development.");
+    }
 
     const data = await req.json();
 

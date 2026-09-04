@@ -29,8 +29,32 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Thiên Thư AI - Kho Tàng Kỳ Thư",
-  description: "Kho Tàng Kỳ Thư Vô Tận Từ Trí Tuệ Nhân Tạo",
+  metadataBase: new URL(process.env.NEXTAUTH_URL || "https://thienthuai.com"),
+  title: {
+    default: "Thiên Thư AI - Kho Tàng Kỳ Thư Vô Tận",
+    template: "%s | Thiên Thư AI",
+  },
+  description: "Nền tảng đọc và sáng tác tiểu thuyết Tiên Hiệp, Huyền Huyễn tương tác thông minh với AI. Tích hợp hồ sơ nhân vật động và bách khoa chú giải bí thuật.",
+  keywords: ["tiên hiệp", "huyền huyễn", "truyện chữ", "thiên thư ai", "đọc truyện online", "ai viết truyện"],
+  authors: [{ name: "Thiên Thư AI" }],
+  creator: "Thiên Thư AI",
+  openGraph: {
+    type: "website",
+    locale: "vi_VN",
+    url: "/",
+    siteName: "Thiên Thư AI",
+    title: "Thiên Thư AI - Kho Tàng Kỳ Thư Vô Tận",
+    description: "Nền tảng đọc và sáng tác tiểu thuyết Tiên Hiệp, Huyền Huyễn tương tác thông minh với AI.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Thiên Thư AI - Kho Tàng Kỳ Thư Vô Tận",
+    description: "Nền tảng đọc và sáng tác tiểu thuyết Tiên Hiệp, Huyền Huyễn tương tác thông minh với AI.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 // Next.js 15+ App Router type for Layout

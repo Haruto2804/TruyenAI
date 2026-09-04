@@ -1,6 +1,8 @@
 import prisma from "@/lib/prisma";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import type { Metadata } from "next";
+import { cache } from "react";
 import { 
   BookOpen, Clock, List, ChevronRight, Sparkles, BookMarked, 
   MessageSquare, Feather, Users, Crown 
@@ -91,6 +93,75 @@ function StorySpecsCard({ className = "", chapterCount, characterCount, loreCoun
   );
 }
 
+// Cached query deduplication for metadata generation and SSR page rendering
+const getStoryMeta = cache(async (slug: string) => {
+  return prisma.story.findUnique({
+    where: { slug },
+    select: {
+      id: true,
+      title: true,
+      slug: true,
+      genre: true,
+      summary: true,
+      coverUrl: true,
+      _count: {
+        select: { chapters: true },
+      },
+    },
+  });
+});
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const story = await getStoryMeta(slug);
+  if (!story) {
+    return {
+      title: "Không tìm thấy truyện | Thiên Thư AI",
+    };
+  }
+
+  const cleanSummary = (story.summary || "")
+    .replace(/[\r\n]+/g, " ")
+    .replace(/[#*`_~]/g, "")
+    .slice(0, 160)
+    .trim();
+
+  const title = `${story.title} - ${story.genre || "Tiên Hiệp"} | Thiên Thư AI`;
+  const description = `Đọc truyện ${story.title} (${story.genre || "Tiên Hiệp"}). ${cleanSummary}`;
+  const cover = getStoryCoverUrl(story.coverUrl, story.slug);
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: "book",
+      images: [
+        {
+          url: cover,
+          width: 600,
+          height: 900,
+          alt: story.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [cover],
+    },
+    alternates: {
+      canonical: `/truyen/${story.slug}`,
+    },
+  };
+}
+
 export default async function StoryDetail({
   params,
 }: {
@@ -161,8 +232,28 @@ export default async function StoryDetail({
     }
   }
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": story.title,
+    "genre": story.genre,
+    "description": (story.summary || "").replace(/[\r\n]+/g, " "),
+    "image": getStoryCoverUrl(story.coverUrl, story.slug),
+    "author": {
+      "@type": "Organization",
+      "name": "Thiên Thư AI",
+    },
+    "numberOfPages": story._count.chapters,
+  };
+
   return (
     <div className="relative max-w-5xl mx-auto space-y-5 sm:space-y-8 pb-28 md:pb-12 overflow-x-hidden w-full">
+      {/* Schema.org Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       {/* Background ambient lighting for page */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden -z-10 w-full h-full">
         <div className="absolute -top-10 left-1/4 w-72 sm:w-96 h-72 sm:h-96 bg-[#d4af37]/10 blur-[130px] rounded-full max-w-full" />

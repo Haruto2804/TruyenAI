@@ -1,6 +1,8 @@
 import prisma from "@/lib/prisma";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import type { Metadata } from "next";
+import { cache } from "react";
 import { ArrowLeft, ChevronLeft, ChevronRight, Menu } from "lucide-react";
 import { ExpTracker } from "@/components/ExpTracker";
 import { ProgressTracker } from "@/components/ProgressTracker";
@@ -8,6 +10,92 @@ import { CommentSection } from "@/components/CommentSection";
 import { UnlockButton } from "@/components/EconomyButtons";
 import { InteractiveReader } from "@/components/InteractiveReader";
 import { auth } from "@/auth";
+import { getStoryCoverUrl } from "@/lib/images";
+
+// Cached chapter metadata fetcher for deduplication
+const getChapterMeta = cache(async (slug: string, chapterNo: number) => {
+  return prisma.story.findUnique({
+    where: { slug },
+    select: {
+      id: true,
+      title: true,
+      slug: true,
+      coverUrl: true,
+      chapters: {
+        where: { chapterNo },
+        select: {
+          chapterNo: true,
+          title: true,
+          content: true,
+        },
+        take: 1,
+      },
+    },
+  });
+});
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string; chapter: string }>;
+}): Promise<Metadata> {
+  const { slug, chapter: chapterParam } = await params;
+  const chapterNo = parseInt(chapterParam, 10);
+  if (isNaN(chapterNo)) {
+    return { title: "Chương không tồn tại | Thiên Thư AI" };
+  }
+
+  const data = await getChapterMeta(slug, chapterNo);
+  if (!data) {
+    return { title: "Không tìm thấy truyện | Thiên Thư AI" };
+  }
+
+  const chapter = data.chapters[0];
+  const storyTitle = data.title;
+  const cover = getStoryCoverUrl(data.coverUrl, data.slug);
+
+  if (!chapter) {
+    return {
+      title: `Chương ${chapterNo} - ${storyTitle} | Thiên Thư AI`,
+    };
+  }
+
+  const cleanExcerpt = (chapter.content || "")
+    .replace(/[\r\n]+/g, " ")
+    .replace(/[#*`_~]/g, "")
+    .slice(0, 160)
+    .trim();
+
+  const title = `Chương ${chapter.chapterNo}: ${chapter.title || `Hồi ${chapter.chapterNo}`} - ${storyTitle} | Thiên Thư AI`;
+  const description = cleanExcerpt || `Đọc ${title} tại Thiên Thư AI.`;
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: "article",
+      images: [
+        {
+          url: cover,
+          width: 600,
+          height: 900,
+          alt: storyTitle,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [cover],
+    },
+    alternates: {
+      canonical: `/truyen/${data.slug}/${chapter.chapterNo}`,
+    },
+  };
+}
 
 export default async function ChapterDetail({
   params,
