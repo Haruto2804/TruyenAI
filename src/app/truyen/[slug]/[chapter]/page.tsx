@@ -25,8 +25,14 @@ export default async function ChapterDetail({
     prisma.story.findUnique({
       where: { slug: slug },
       include: {
-        characters: true,
-        lores: true,
+        characters: {
+          select: { id: true, name: true, aliases: true, role: true, avatarUrl: true, description: true },
+          take: 100
+        },
+        lores: {
+          select: { id: true, term: true, category: true, definition: true, aliases: true },
+          take: 100
+        },
       },
     })
   ]);

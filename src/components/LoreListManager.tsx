@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
-import { BookMarked, Edit2, Trash2, X, Sparkles, Tag, ShieldAlert, Compass, Gem, Flame, Layers } from "lucide-react";
+import { BookMarked, Edit2, Trash2, X, Sparkles, Tag, ShieldAlert, Compass, Gem, Flame, Layers, Search, Loader2 } from "lucide-react";
 import { DeleteButton } from "@/components/DeleteButton";
 import { updateLore, deleteLore } from "@/app/admin/actions";
+import { getAdminLores } from "@/app/actions/lore_loader";
 
 export interface LoreItem {
   id: string;
@@ -18,6 +19,8 @@ export interface LoreItem {
 interface LoreListManagerProps {
   lores: LoreItem[];
   storySlug: string;
+  storyId?: string;
+  totalLores?: number;
 }
 
 const CATEGORY_ICONS: Record<string, any> = {
@@ -29,7 +32,17 @@ const CATEGORY_ICONS: Record<string, any> = {
   "Cảnh Giới": Sparkles,
 };
 
-export function LoreListManager({ lores, storySlug }: LoreListManagerProps) {
+export function LoreListManager({
+  lores: initialLores,
+  storySlug,
+  storyId,
+  totalLores,
+}: LoreListManagerProps) {
+  const [lores, setLores] = useState<LoreItem[]>(initialLores);
+  const [total, setTotal] = useState<number>(totalLores ?? initialLores.length);
+  const [search, setSearch] = useState<string>("");
+  const [loadingMore, setLoadingMore] = useState(false);
+  const [searching, setSearching] = useState(false);
   const [editingLore, setEditingLore] = useState<LoreItem | null>(null);
   const [mounted, setMounted] = useState(false);
 
@@ -37,11 +50,67 @@ export function LoreListManager({ lores, storySlug }: LoreListManagerProps) {
     setMounted(true);
   }, []);
 
+  const handleSearch = async (q: string) => {
+    setSearch(q);
+    if (!storyId) return;
+    setSearching(true);
+    const res = await getAdminLores({
+      storyId,
+      skip: 0,
+      take: 12,
+      search: q
+    });
+    if (res.success) {
+      setLores(res.lores);
+      setTotal(res.total);
+    }
+    setSearching(false);
+  };
+
+  const handleLoadMore = async () => {
+    if (loadingMore || !hasMore || !storyId) return;
+    setLoadingMore(true);
+    const res = await getAdminLores({
+      storyId,
+      skip: lores.length,
+      take: 12,
+      search
+    });
+    if (res.success && res.lores.length > 0) {
+      setLores((prev) => [...prev, ...res.lores]);
+      setTotal(res.total);
+    }
+    setLoadingMore(false);
+  };
+
+  const hasMore = lores.length < total;
+  const remainingCount = total - lores.length;
+
   return (
     <div>
+      {/* Search Bar & Counter */}
+      <div className="p-3.5 sm:p-5 border-b border-white/5 flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-black/20">
+        <span className="text-xs text-slate-400 font-medium">
+          Đang hiển thị {lores.length} / {total} chú giải
+        </span>
+        <div className="relative w-full sm:w-72">
+          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500" />
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => handleSearch(e.target.value)}
+            placeholder="Tìm thuật ngữ, thể loại, định nghĩa..."
+            className="w-full bg-slate-950 border border-slate-800 focus:border-[#d4af37]/60 rounded-xl pl-10 pr-4 py-2 text-xs sm:text-sm text-white placeholder-slate-500 focus:outline-none transition-all"
+          />
+          {searching && (
+            <Loader2 className="absolute right-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[#d4af37] animate-spin" />
+          )}
+        </div>
+      </div>
+
       {lores.length === 0 ? (
         <div className="py-12 text-center text-slate-500 text-sm">
-          Chưa có khái niệm/thuật ngữ nào được tạo. Hãy thêm chú giải đầu tiên ở biểu mẫu trên!
+          {search ? "Không tìm thấy chú giải nào phù hợp." : "Chưa có khái niệm/thuật ngữ nào được tạo. Hãy thêm chú giải đầu tiên ở biểu mẫu trên!"}
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 sm:p-6">
@@ -103,6 +172,30 @@ export function LoreListManager({ lores, storySlug }: LoreListManagerProps) {
               </div>
             );
           })}
+        </div>
+      )}
+
+      {/* Load More Button */}
+      {hasMore && (
+        <div className="p-4 sm:p-5 border-t border-white/5 bg-black/20 text-center">
+          <button
+            type="button"
+            onClick={handleLoadMore}
+            disabled={loadingMore}
+            className="px-6 py-2.5 rounded-xl bg-[#d4af37]/15 hover:bg-[#d4af37]/25 text-[#d4af37] border border-[#d4af37]/30 text-xs sm:text-sm font-bold transition-all active:scale-95 disabled:opacity-50 cursor-pointer inline-flex items-center gap-2"
+          >
+            {loadingMore ? (
+              <>
+                <Loader2 className="w-4 h-4 animate-spin text-[#d4af37]" />
+                <span>Đang tải thêm...</span>
+              </>
+            ) : (
+              <>
+                <Sparkles className="w-3.5 h-3.5 text-[#d4af37]" />
+                <span>Tải thêm chú giải (còn {remainingCount})</span>
+              </>
+            )}
+          </button>
         </div>
       )}
 

@@ -98,13 +98,13 @@ export default async function StoryDetail({
 }) {
   const { slug } = await params;
 
-  const [session, story] = await Promise.all([
+  const [session, story, rawCategories] = await Promise.all([
     auth(),
     prisma.story.findUnique({
       where: { slug: slug },
       include: {
         _count: {
-          select: { chapters: true }
+          select: { chapters: true, characters: true, lores: true }
         },
         chapters: {
           orderBy: { chapterNo: 'asc' },
@@ -119,18 +119,27 @@ export default async function StoryDetail({
           }
         },
         characters: {
-          orderBy: { createdAt: 'asc' }
+          orderBy: { createdAt: 'asc' },
+          take: 8
         },
         lores: {
-          orderBy: { createdAt: 'asc' }
+          orderBy: { createdAt: 'asc' },
+          take: 8
         }
       }
+    }),
+    prisma.lore.findMany({
+      where: { story: { slug } },
+      select: { category: true },
+      distinct: ['category']
     })
   ]);
 
   if (!story) {
     notFound();
   }
+
+  const categories = Array.from(new Set(rawCategories.map((c) => c.category).filter(Boolean))) as string[];
 
   const userId = session?.user?.id;
 
@@ -304,8 +313,8 @@ export default async function StoryDetail({
           <StorySpecsCard 
             className="w-full h-full" 
             chapterCount={story._count.chapters}
-            characterCount={story.characters.length}
-            loreCount={story.lores.length}
+            characterCount={story._count.characters}
+            loreCount={story._count.lores}
           />
 
           {/* Container 2: Thẻ Tóm Tắt Nội Dung (Ngang hàng) */}
@@ -316,11 +325,21 @@ export default async function StoryDetail({
       </div>
 
       {/* Character Gallery Section (if story has characters) */}
-      <CharacterGallery characters={story.characters} storySlug={story.slug} />
+      <CharacterGallery 
+        characters={story.characters} 
+        storySlug={story.slug} 
+        storyId={story.id}
+        totalCharacters={story._count.characters}
+      />
 
       {/* Lore & Concepts Glossary Section - Generous Spacing */}
       <div className="pt-6 sm:pt-10">
-        <LoreGallery lores={story.lores} />
+        <LoreGallery 
+          lores={story.lores} 
+          storyId={story.id}
+          totalLores={story._count.lores}
+          availableCategories={categories}
+        />
       </div>
 
       {/* Chapters Grid / List Section with on-demand loading */}

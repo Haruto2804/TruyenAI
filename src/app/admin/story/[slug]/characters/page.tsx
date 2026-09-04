@@ -16,8 +16,12 @@ export default async function StoryCharactersPage({
   const story = await prisma.story.findUnique({
     where: { slug },
     include: {
+      _count: {
+        select: { characters: true }
+      },
       characters: {
-        orderBy: { createdAt: "asc" },
+        orderBy: { createdAt: "desc" },
+        take: 12,
       },
     },
   });
@@ -145,13 +149,15 @@ export default async function StoryCharactersPage({
         <div className="p-5 border-b border-white/5 flex items-center justify-between">
           <h3 className="font-bold text-slate-100 flex items-center gap-2">
             <Sparkles className="w-4 h-4 text-[#d4af37]" />
-            <span>Danh Sách Nhân Vật Đã Tạo ({story.characters.length})</span>
+            <span>Danh Sách Nhân Vật Đã Tạo ({story._count.characters})</span>
           </h3>
         </div>
 
         <CharacterListManager
           characters={story.characters}
           storySlug={story.slug}
+          storyId={story.id}
+          totalCharacters={story._count.characters}
         />
       </div>
     </div>

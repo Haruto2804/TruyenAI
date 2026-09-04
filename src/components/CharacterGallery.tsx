@@ -4,9 +4,10 @@ import { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
 import {
   Sparkles, User, X, Shield, Tag,
-  ChevronRight, ChevronLeft, Maximize2, Eye, ChevronDown
+  ChevronRight, ChevronLeft, Maximize2, Eye, ChevronDown, Loader2
 } from "lucide-react";
 import { getCharacterAvatarUrl } from "@/lib/images";
+import { getPublicCharacters } from "@/app/actions/character_loader";
 
 function DefaultSilhouette({ showText = false, text = "Chưa có ảnh" }: { showText?: boolean; text?: string }) {
   return (
@@ -33,6 +34,8 @@ export interface CharacterItem {
 interface CharacterGalleryProps {
   characters: CharacterItem[];
   storySlug?: string;
+  storyId?: string;
+  totalCharacters?: number;
 }
 
 function getCardRole(role?: string | null): string {
@@ -77,24 +80,42 @@ function renderFormattedDescription(desc: string | null) {
   );
 }
 
-export function CharacterGallery({ characters, storySlug }: CharacterGalleryProps) {
+export function CharacterGallery({
+  characters: initialCharacters,
+  storySlug,
+  storyId,
+  totalCharacters,
+}: CharacterGalleryProps) {
   const [mounted, setMounted] = useState(false);
+  const [characters, setCharacters] = useState<CharacterItem[]>(initialCharacters);
+  const [total, setTotal] = useState<number>(totalCharacters ?? initialCharacters.length);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [isFullscreenImage, setIsFullscreenImage] = useState(false);
-  const [visibleCount, setVisibleCount] = useState<number>(4);
+  const [loadingMore, setLoadingMore] = useState(false);
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
   const selectedChar = selectedIndex !== null ? characters[selectedIndex] : null;
+  const hasMore = characters.length < total;
+  const remainingCount = total - characters.length;
 
-  const visibleCharacters = characters.slice(0, visibleCount);
-  const hasMore = visibleCount < characters.length;
-  const remainingCount = characters.length - visibleCount;
+  const handleLoadMore = async () => {
+    if (loadingMore || !hasMore) return;
+    if (!storyId) return;
 
-  const handleLoadMore = () => {
-    setVisibleCount((prev) => prev + 4);
+    setLoadingMore(true);
+    const res = await getPublicCharacters({
+      storyId,
+      skip: characters.length,
+      take: 4,
+    });
+    if (res.success && res.characters.length > 0) {
+      setCharacters((prev) => [...prev, ...res.characters]);
+      setTotal(res.total);
+    }
+    setLoadingMore(false);
   };
 
   // Lock body scroll when modal is open
@@ -164,7 +185,7 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
           <div className="min-w-0">
             <h2 className="text-lg sm:text-2xl md:text-3xl font-extrabold text-white tracking-tight flex items-center gap-2 truncate">
               <span>Hồ Sơ Nhân Vật</span>
-              <span className="text-xs sm:text-base font-bold text-amber-400">({characters.length})</span>
+              <span className="text-xs sm:text-base font-bold text-amber-400">({total})</span>
             </h2>
             <p className="text-xs sm:text-sm text-slate-300 font-normal mt-0.5 truncate">
               Chiêm ngưỡng chân dung minh họa 9:16 và khám phá hồ sơ nhân vật.
@@ -179,14 +200,13 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
 
       {/* Grid Danh Sách Nhân Vật (2 Cột Mobile, 4 Cột Desktop) */}
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-3.5 sm:gap-5 md:gap-6">
-        {visibleCharacters.map((char) => {
-          const originalIndex = characters.findIndex((c) => c.id === char.id);
+        {characters.map((char, index) => {
           const shortRole = getCardRole(char.role);
 
           return (
             <div
               key={char.id}
-              onClick={() => handleOpenChar(originalIndex !== -1 ? originalIndex : 0)}
+              onClick={() => handleOpenChar(index)}
               className="group relative cursor-pointer rounded-2xl sm:rounded-3xl overflow-hidden bg-slate-900/90 border border-white/10 hover:border-[#d4af37]/70 hover:shadow-[0_12px_35px_rgba(212,175,55,0.25)] transition-all duration-300 transform active:scale-98"
             >
               {/* Khung Tranh Chuẩn 9:16 */}
@@ -248,16 +268,26 @@ export function CharacterGallery({ characters, storySlug }: CharacterGalleryProp
       {hasMore && (
         <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-3 sm:pt-4 border-t border-white/10">
           <p className="text-xs sm:text-sm text-slate-400 font-medium">
-            Đang hiển thị <span className="text-[#d4af37] font-bold">{visibleCharacters.length}</span> / {characters.length} nhân vật
+            Đang hiển thị <span className="text-[#d4af37] font-bold">{characters.length}</span> / {total} nhân vật
           </p>
           <button
             type="button"
             onClick={handleLoadMore}
-            className="w-full sm:w-auto px-6 py-2.5 sm:py-3 rounded-2xl bg-gradient-to-r from-[#d4af37]/15 via-[#d4af37]/25 to-amber-500/15 hover:from-[#d4af37]/25 hover:to-amber-500/25 text-amber-200 hover:text-white border border-[#d4af37]/40 hover:border-[#d4af37] font-bold text-xs sm:text-sm md:text-base shadow-lg shadow-black/40 transition-all flex items-center justify-center gap-2 cursor-pointer active:scale-98 group"
+            disabled={loadingMore}
+            className="w-full sm:w-auto px-6 py-2.5 sm:py-3 rounded-2xl bg-gradient-to-r from-[#d4af37]/15 via-[#d4af37]/25 to-amber-500/15 hover:from-[#d4af37]/25 hover:to-amber-500/25 text-amber-200 hover:text-white border border-[#d4af37]/40 hover:border-[#d4af37] font-bold text-xs sm:text-sm md:text-base shadow-lg shadow-black/40 transition-all flex items-center justify-center gap-2 cursor-pointer active:scale-98 group disabled:opacity-50"
           >
-            <Sparkles className="w-4 h-4 text-[#d4af37] group-hover:rotate-12 transition-transform" />
-            <span>Xem thêm nhân vật (còn {remainingCount} nhân vật)</span>
-            <ChevronDown className="w-4 h-4 text-[#d4af37] group-hover:translate-y-0.5 transition-transform" />
+            {loadingMore ? (
+              <>
+                <Loader2 className="w-4 h-4 text-[#d4af37] animate-spin" />
+                <span>Đang tải thêm...</span>
+              </>
+            ) : (
+              <>
+                <Sparkles className="w-4 h-4 text-[#d4af37] group-hover:rotate-12 transition-transform" />
+                <span>Xem thêm nhân vật (còn {remainingCount} nhân vật)</span>
+                <ChevronDown className="w-4 h-4 text-[#d4af37] group-hover:translate-y-0.5 transition-transform" />
+              </>
+            )}
           </button>
         </div>
       )}

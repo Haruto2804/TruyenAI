@@ -4,8 +4,9 @@ import { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
 import { 
   BookMarked, Sparkles, X, ShieldAlert, Flame, 
-  Compass, Gem, Layers, Tag, ChevronRight, ChevronDown 
+  Compass, Gem, Layers, Tag, ChevronRight, ChevronDown, Loader2 
 } from "lucide-react";
+import { getPublicLores } from "@/app/actions/lore_loader";
 
 export interface LoreItem {
   id: string;
@@ -17,6 +18,9 @@ export interface LoreItem {
 
 interface LoreGalleryProps {
   lores: LoreItem[];
+  storyId?: string;
+  totalLores?: number;
+  availableCategories?: string[];
 }
 
 const CATEGORY_ICONS: Record<string, any> = {
@@ -28,63 +32,65 @@ const CATEGORY_ICONS: Record<string, any> = {
   "Cảnh Giới": Sparkles,
 };
 
-export function LoreGallery({ lores }: LoreGalleryProps) {
+export function LoreGallery({
+  lores: initialLores,
+  storyId,
+  totalLores,
+  availableCategories = []
+}: LoreGalleryProps) {
   const [mounted, setMounted] = useState(false);
+  const [lores, setLores] = useState<LoreItem[]>(initialLores);
+  const [total, setTotal] = useState<number>(totalLores ?? initialLores.length);
   const [selectedLore, setSelectedLore] = useState<LoreItem | null>(null);
   const [activeCategory, setActiveCategory] = useState<string>("ALL");
-  const [visibleCount, setVisibleCount] = useState<number>(4);
+  const [loadingMore, setLoadingMore] = useState(false);
+  const [switchingCat, setSwitchingCat] = useState(false);
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
-  // Reset pagination when category changes
-  useEffect(() => {
-    setVisibleCount(4);
-  }, [activeCategory]);
+  const categories = availableCategories.length > 0
+    ? availableCategories
+    : (Array.from(new Set(lores.map((l) => l.category).filter(Boolean))) as string[]);
 
-  // Lock body scroll when modal is open
-  useEffect(() => {
-    if (selectedLore) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "unset";
+  const handleCategoryChange = async (cat: string) => {
+    setActiveCategory(cat);
+    if (!storyId) return;
+
+    setSwitchingCat(true);
+    const res = await getPublicLores({
+      storyId,
+      category: cat,
+      skip: 0,
+      take: 4
+    });
+    if (res.success) {
+      setLores(res.lores);
+      setTotal(res.total);
     }
-    return () => {
-      document.body.style.overflow = "unset";
-    };
-  }, [selectedLore]);
-
-  // Close modal on Escape key
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setSelectedLore(null);
-    };
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, []);
-
-  if (!lores || lores.length === 0) {
-    return null;
-  }
-
-  // Extract unique categories
-  const categories = Array.from(
-    new Set(lores.map((l) => l.category).filter(Boolean))
-  ) as string[];
-
-  const filteredLores =
-    activeCategory === "ALL"
-      ? lores
-      : lores.filter((l) => l.category === activeCategory);
-
-  const visibleLores = filteredLores.slice(0, visibleCount);
-  const hasMore = visibleCount < filteredLores.length;
-  const remainingCount = filteredLores.length - visibleCount;
-
-  const handleLoadMore = () => {
-    setVisibleCount((prev) => prev + 4);
+    setSwitchingCat(false);
   };
+
+  const handleLoadMore = async () => {
+    if (loadingMore || !hasMore || !storyId) return;
+
+    setLoadingMore(true);
+    const res = await getPublicLores({
+      storyId,
+      category: activeCategory,
+      skip: lores.length,
+      take: 4
+    });
+    if (res.success && res.lores.length > 0) {
+      setLores((prev) => [...prev, ...res.lores]);
+      setTotal(res.total);
+    }
+    setLoadingMore(false);
+  };
+
+  const hasMore = lores.length < total;
+  const remainingCount = total - lores.length;
 
   return (
     <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl sm:rounded-3xl p-3.5 sm:p-6 shadow-2xl space-y-4 sm:space-y-5 w-full max-w-full overflow-hidden">
@@ -105,7 +111,7 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
         </div>
 
         <span className="text-xs sm:text-sm font-bold px-2.5 sm:px-3 py-1 rounded-full bg-cyan-500/15 text-cyan-300 border border-cyan-500/30 shrink-0">
-          {lores.length} chú giải
+          {total} chú giải
         </span>
       </div>
 
@@ -114,23 +120,22 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
         <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none w-full max-w-full min-w-0">
           <button
             type="button"
-            onClick={() => setActiveCategory("ALL")}
+            onClick={() => handleCategoryChange("ALL")}
             className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm font-bold transition-all shrink-0 min-h-[36px] cursor-pointer ${
               activeCategory === "ALL"
                 ? "bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/25 font-extrabold scale-102"
                 : "bg-white/5 hover:bg-white/10 text-slate-200 border border-white/10"
             }`}
           >
-            Tất Cả ({lores.length})
+            Tất Cả
           </button>
           {categories.map((cat) => {
-            const count = lores.filter((l) => l.category === cat).length;
             const Icon = CATEGORY_ICONS[cat] || Tag;
             return (
               <button
                 key={cat}
                 type="button"
-                onClick={() => setActiveCategory(cat)}
+                onClick={() => handleCategoryChange(cat)}
                 className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm font-bold transition-all flex items-center gap-1.5 shrink-0 min-h-[36px] cursor-pointer ${
                   activeCategory === cat
                     ? "bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/25 font-extrabold scale-102"
@@ -138,7 +143,7 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
                 }`}
               >
                 <Icon className="w-3.5 h-3.5" />
-                <span>{cat} ({count})</span>
+                <span>{cat}</span>
               </button>
             );
           })}
@@ -146,61 +151,77 @@ export function LoreGallery({ lores }: LoreGalleryProps) {
       )}
 
       {/* Lore Cards Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
-        {visibleLores.map((lore) => {
-          const Icon = (lore.category && CATEGORY_ICONS[lore.category]) || BookMarked;
-          return (
-            <div
-              key={lore.id}
-              onClick={() => setSelectedLore(lore)}
-              className="p-4 sm:p-5 rounded-2xl bg-black/40 border border-white/10 hover:border-cyan-500/60 hover:shadow-[0_10px_35px_rgba(6,182,212,0.25)] transition-all cursor-pointer group flex flex-col justify-between space-y-3"
-            >
-              <div className="space-y-2">
-                <div className="flex items-center justify-between gap-2">
-                  <div className="flex items-center gap-2.5 min-w-0">
-                    <div className="p-1.5 rounded-lg bg-cyan-500/15 text-cyan-400 border border-cyan-500/30 shrink-0 shadow-inner">
-                      <Icon className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+      {switchingCat ? (
+        <div className="flex items-center justify-center py-12">
+          <Loader2 className="w-6 h-6 text-cyan-400 animate-spin" />
+        </div>
+      ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
+          {lores.map((lore) => {
+            const Icon = (lore.category && CATEGORY_ICONS[lore.category]) || BookMarked;
+            return (
+              <div
+                key={lore.id}
+                onClick={() => setSelectedLore(lore)}
+                className="p-4 sm:p-5 rounded-2xl bg-black/40 border border-white/10 hover:border-cyan-500/60 hover:shadow-[0_10px_35px_rgba(6,182,212,0.25)] transition-all cursor-pointer group flex flex-col justify-between space-y-3"
+              >
+                <div className="space-y-2">
+                  <div className="flex items-center justify-between gap-2">
+                    <div className="flex items-center gap-2.5 min-w-0">
+                      <div className="p-1.5 rounded-lg bg-cyan-500/15 text-cyan-400 border border-cyan-500/30 shrink-0 shadow-inner">
+                        <Icon className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                      </div>
+                      <h3 className="font-extrabold text-sm sm:text-base text-slate-100 group-hover:text-cyan-300 transition-colors truncate">
+                        {lore.term}
+                      </h3>
                     </div>
-                    <h3 className="font-extrabold text-sm sm:text-base text-slate-100 group-hover:text-cyan-300 transition-colors truncate">
-                      {lore.term}
-                    </h3>
+
+                    {lore.category && (
+                      <span className="px-2 py-0.5 rounded-md text-[11px] sm:text-xs font-bold bg-cyan-500/15 text-cyan-300 border border-cyan-500/30 shrink-0">
+                        {lore.category}
+                      </span>
+                    )}
                   </div>
 
-                  {lore.category && (
-                    <span className="px-2 py-0.5 rounded-md text-[11px] sm:text-xs font-bold bg-cyan-500/15 text-cyan-300 border border-cyan-500/30 shrink-0">
-                      {lore.category}
-                    </span>
-                  )}
+                  <p className="text-xs sm:text-sm text-slate-300/90 line-clamp-3 leading-relaxed font-normal">
+                    {lore.definition}
+                  </p>
                 </div>
 
-                <p className="text-xs sm:text-sm text-slate-300/90 line-clamp-3 leading-relaxed font-normal">
-                  {lore.definition}
-                </p>
+                <div className="flex items-center justify-between pt-2 border-t border-white/10 text-[11px] sm:text-xs font-bold text-slate-400 group-hover:text-cyan-300 transition-colors">
+                  <span>Chi tiết thuật ngữ</span>
+                  <ChevronRight className="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform" />
+                </div>
               </div>
-
-              <div className="flex items-center justify-between pt-2 border-t border-white/10 text-[11px] sm:text-xs font-bold text-slate-400 group-hover:text-cyan-300 transition-colors">
-                <span>Chi tiết thuật ngữ</span>
-                <ChevronRight className="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform" />
-              </div>
-            </div>
-          );
-        })}
-      </div>
+            );
+          })}
+        </div>
+      )}
 
       {/* Load More Button for Lores */}
       {hasMore && (
         <div className="flex flex-col sm:flex-row items-center justify-between gap-2.5 pt-3 border-t border-white/10">
           <p className="text-xs text-slate-400 font-medium">
-            Đang hiển thị <span className="text-cyan-400 font-bold">{visibleLores.length}</span> / {filteredLores.length} chú giải
+            Đang hiển thị <span className="text-cyan-400 font-bold">{lores.length}</span> / {total} chú giải
           </p>
           <button
             type="button"
             onClick={handleLoadMore}
-            className="w-full sm:w-auto px-5 py-2 sm:py-2.5 rounded-xl bg-gradient-to-r from-cyan-500/15 via-cyan-500/25 to-blue-500/15 hover:from-cyan-500/25 hover:to-blue-500/25 text-cyan-200 hover:text-white border border-cyan-500/40 hover:border-cyan-400 font-bold text-xs sm:text-sm shadow-lg shadow-black/40 transition-all flex items-center justify-center gap-1.5 cursor-pointer active:scale-98 group"
+            disabled={loadingMore}
+            className="w-full sm:w-auto px-5 py-2 sm:py-2.5 rounded-xl bg-gradient-to-r from-cyan-500/15 via-cyan-500/25 to-blue-500/15 hover:from-cyan-500/25 hover:to-blue-500/25 text-cyan-200 hover:text-white border border-cyan-500/40 hover:border-cyan-400 font-bold text-xs sm:text-sm shadow-lg shadow-black/40 transition-all flex items-center justify-center gap-1.5 cursor-pointer active:scale-98 group disabled:opacity-50"
           >
-            <BookMarked className="w-3.5 h-3.5 text-cyan-400 group-hover:rotate-12 transition-transform" />
-            <span>Xem thêm chú giải (còn {remainingCount} chú giải)</span>
-            <ChevronDown className="w-3.5 h-3.5 text-cyan-400 group-hover:translate-y-0.5 transition-transform" />
+            {loadingMore ? (
+              <>
+                <Loader2 className="w-3.5 h-3.5 text-cyan-400 animate-spin" />
+                <span>Đang tải thêm...</span>
+              </>
+            ) : (
+              <>
+                <BookMarked className="w-3.5 h-3.5 text-cyan-400 group-hover:rotate-12 transition-transform" />
+                <span>Xem thêm chú giải (còn {remainingCount} chú giải)</span>
+                <ChevronDown className="w-3.5 h-3.5 text-cyan-400 group-hover:translate-y-0.5 transition-transform" />
+              </>
+            )}
           </button>
         </div>
       )}

@@ -2,10 +2,11 @@
 
 import { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
-import { User, Edit2, Trash2, X, Sparkles, AlertCircle } from "lucide-react";
+import { User, Edit2, Trash2, X, Sparkles, AlertCircle, Search, Loader2 } from "lucide-react";
 import { ImageUpload } from "@/components/ImageUpload";
 import { DeleteButton } from "@/components/DeleteButton";
 import { updateCharacter, deleteCharacter } from "@/app/admin/actions";
+import { getAdminCharacters } from "@/app/actions/character_loader";
 import { getCharacterAvatarUrl } from "@/lib/images";
 
 export interface CharacterItem {
@@ -21,12 +22,21 @@ export interface CharacterItem {
 interface CharacterListManagerProps {
   characters: CharacterItem[];
   storySlug: string;
+  storyId?: string;
+  totalCharacters?: number;
 }
 
 export function CharacterListManager({
-  characters,
+  characters: initialCharacters,
   storySlug,
+  storyId,
+  totalCharacters,
 }: CharacterListManagerProps) {
+  const [characters, setCharacters] = useState<CharacterItem[]>(initialCharacters);
+  const [total, setTotal] = useState<number>(totalCharacters ?? initialCharacters.length);
+  const [search, setSearch] = useState<string>("");
+  const [loadingMore, setLoadingMore] = useState(false);
+  const [searching, setSearching] = useState(false);
   const [editingChar, setEditingChar] = useState<CharacterItem | null>(null);
   const [mounted, setMounted] = useState(false);
 
@@ -34,11 +44,67 @@ export function CharacterListManager({
     setMounted(true);
   }, []);
 
+  const handleSearch = async (q: string) => {
+    setSearch(q);
+    if (!storyId) return;
+    setSearching(true);
+    const res = await getAdminCharacters({
+      storyId,
+      skip: 0,
+      take: 12,
+      search: q
+    });
+    if (res.success) {
+      setCharacters(res.characters);
+      setTotal(res.total);
+    }
+    setSearching(false);
+  };
+
+  const handleLoadMore = async () => {
+    if (loadingMore || !hasMore || !storyId) return;
+    setLoadingMore(true);
+    const res = await getAdminCharacters({
+      storyId,
+      skip: characters.length,
+      take: 12,
+      search
+    });
+    if (res.success && res.characters.length > 0) {
+      setCharacters((prev) => [...prev, ...res.characters]);
+      setTotal(res.total);
+    }
+    setLoadingMore(false);
+  };
+
+  const hasMore = characters.length < total;
+  const remainingCount = total - characters.length;
+
   return (
     <div>
+      {/* Search Bar & Counter */}
+      <div className="p-3.5 sm:p-5 border-b border-white/5 flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-black/20">
+        <span className="text-xs text-slate-400 font-medium">
+          Đang hiển thị {characters.length} / {total} nhân vật
+        </span>
+        <div className="relative w-full sm:w-72">
+          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500" />
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => handleSearch(e.target.value)}
+            placeholder="Tìm theo tên, vai trò, biệt danh..."
+            className="w-full bg-slate-950 border border-slate-800 focus:border-[#d4af37]/60 rounded-xl pl-10 pr-4 py-2 text-xs sm:text-sm text-white placeholder-slate-500 focus:outline-none transition-all"
+          />
+          {searching && (
+            <Loader2 className="absolute right-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[#d4af37] animate-spin" />
+          )}
+        </div>
+      </div>
+
       {characters.length === 0 ? (
         <div className="py-12 text-center text-slate-500 text-sm">
-          Chưa có nhân vật nào được tạo cho bộ truyện này. Hãy thêm nhân vật đầu tiên ở form trên!
+          {search ? "Không tìm thấy nhân vật nào phù hợp." : "Chưa có nhân vật nào được tạo cho bộ truyện này. Hãy thêm nhân vật đầu tiên ở form trên!"}
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5 p-3.5 sm:p-6">
@@ -116,6 +182,30 @@ export function CharacterListManager({
               </div>
             </div>
           ))}
+        </div>
+      )}
+
+      {/* Load More Button */}
+      {hasMore && (
+        <div className="p-4 sm:p-5 border-t border-white/5 bg-black/20 text-center">
+          <button
+            type="button"
+            onClick={handleLoadMore}
+            disabled={loadingMore}
+            className="px-6 py-2.5 rounded-xl bg-[#d4af37]/15 hover:bg-[#d4af37]/25 text-[#d4af37] border border-[#d4af37]/30 text-xs sm:text-sm font-bold transition-all active:scale-95 disabled:opacity-50 cursor-pointer inline-flex items-center gap-2"
+          >
+            {loadingMore ? (
+              <>
+                <Loader2 className="w-4 h-4 animate-spin text-[#d4af37]" />
+                <span>Đang tải thêm...</span>
+              </>
+            ) : (
+              <>
+                <Sparkles className="w-3.5 h-3.5 text-[#d4af37]" />
+                <span>Tải thêm nhân vật (còn {remainingCount})</span>
+              </>
+            )}
+          </button>
         </div>
       )}
 
