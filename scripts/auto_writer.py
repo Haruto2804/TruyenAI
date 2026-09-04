@@ -73,7 +73,7 @@ YÊU CẦU THỰC THI (ĐÃ ĐƯỢC CHẮT LỌC TỪ CÁC TÀI LIỆU TRÊN):
 - Trả về nguyên văn bản Markdown của chương truyện, không thêm các lời chào hỏi hay giải thích thừa thãi.
 """
 
-    model_name = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
+    model_name = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
     print(f"\n[AI WRITER] Đang kết nối Gemini ({model_name}) để sáng tác Chương {next_chapter_num}...", flush=True)
 
     try:
