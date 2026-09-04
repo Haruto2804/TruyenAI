@@ -288,11 +288,12 @@ function parseDynamicLores(codexContent: string): any[] {
           const val = kvMatch[2].trim();
           if (rawKey.includes("phân loại")) {
             const m = val.match(/`([^`]+)`/) || [null, val];
-            currentLore.category = (m[1] || val).replace(/[`🔮🧪💎🏰🛡️⚡📜🌿✨🗡️]/g, "").trim();
+            const rawCat = (m[1] || val);
+            currentLore.category = rawCat.replace(/[\p{Extended_Pictographic}\uFE0F`]/gu, "").trim().toWellFormed();
           } else if (rawKey.includes("đồng nghĩa") || rawKey.includes("biệt danh")) {
-            currentLore.aliases = val.replace(/\.$/, "");
+            currentLore.aliases = val.replace(/\.$/, "").toWellFormed();
           } else if (rawKey.includes("định nghĩa") || rawKey.includes("mô tả")) {
-            currentLore.definition = val;
+            currentLore.definition = val.toWellFormed();
           }
         } else if (line.trim().length > 0 && !line.startsWith("#")) {
           if (currentLore.definition) currentLore.definition += "\n" + line.trim();
@@ -319,9 +320,9 @@ function parseDynamicLores(codexContent: string): any[] {
     if (inLoreTable && line.startsWith("|") && !line.includes("---") && !line.includes("Danh Mục")) {
       const parts = line.split("|").map(p => p.trim()).filter(Boolean);
       if (parts.length >= 3) {
-        const category = parts[0].replace(/[`🔮🧪💎🏰🛡️⚡📜🌿✨🗡️]/g, "").trim();
-        const term = parts[1].replace(/\*\*/g, "").trim();
-        const definition = parts[2].trim();
+        const category = parts[0].replace(/[\p{Extended_Pictographic}\uFE0F`]/gu, "").trim().toWellFormed();
+        const term = parts[1].replace(/\*\*/g, "").trim().toWellFormed();
+        const definition = parts[2].trim().toWellFormed();
         if (term && definition && !lores.find(l => l.term === term)) {
           lores.push({
             term,
@@ -468,7 +469,7 @@ async function syncNovel(novelSlug: string) {
   // 4. Sync Chapters from chapters/ folder
   const chaptersDir = path.join(novelDir, "chapters");
   if (fs.existsSync(chaptersDir)) {
-    const chapterFiles = fs.readdirSync(chaptersDir).filter(f => f.startsWith("chapter_") && f.endsWith(".md"));
+    const chapterFiles = fs.readdirSync(chaptersDir).filter(f => (f.startsWith("chapter_") || f.startsWith("chuong_")) && f.endsWith(".md"));
     chapterFiles.sort((a, b) => {
       const numA = parseInt(a.replace(/\D/g, ""), 10);
       const numB = parseInt(b.replace(/\D/g, ""), 10);
@@ -480,7 +481,7 @@ async function syncNovel(novelSlug: string) {
       const chapterPath = path.join(chaptersDir, file);
       const rawText = fs.readFileSync(chapterPath, "utf-8");
       
-      const chapterMatch = file.match(/chapter_(\d+)\.md/);
+      const chapterMatch = file.match(/(?:chapter_|chuong_)(\d+)\.md/i);
       if (!chapterMatch) continue;
       const chapterNo = parseInt(chapterMatch[1], 10);
 

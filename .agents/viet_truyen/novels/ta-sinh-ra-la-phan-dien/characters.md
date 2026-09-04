@@ -8,7 +8,7 @@
 ## 1. Ninh Huyền Dạ
 - **Vai trò:** Nhân vật chính / Thiếu Chủ Cổ Tộc Vô Cực / Boss Phản Diện Số Mệnh
 - **Biệt danh & Danh xưng:** Vô Cực Thiếu Chủ, Tiên Tông Tuyệt Thế Thần Tử, Ninh sư huynh
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/ta-sinh-ra-la-phan-dien/ninh-huyen-da.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788247154/truyen-ai/characters/ta-sinh-ra-la-phan-dien/ninh-huyen-da.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Cảnh giới ban đầu:** Kim Đan Cảnh Đỉnh Phong (Thực lực ẩn giấu: Nguyên Anh Cảnh)
@@ -20,7 +20,7 @@
 ## 2. Cố Thanh Tuyết
 - **Vai trò:** Nữ chính / Đại sư tỷ Thái Sơ Tiên Tông / Thần Nữ Băng Tâm
 - **Biệt danh & Danh xưng:** Băng Tâm Kiếm Tiên, Thanh Tuyết sư tỷ, Nữ Thần Tuyết Sơn
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/ta-sinh-ra-la-phan-dien/co-thanh-tuyet.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788247145/truyen-ai/characters/ta-sinh-ra-la-phan-dien/co-thanh-tuyet.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Cảnh giới:** Kim Đan Cảnh Trung Kỳ
@@ -32,7 +32,7 @@
 ## 3. Lâm Phàm
 - **Vai trò:** Khí Vận Chi Tử Màn 1 / Thiếu niên phế vật báo thù
 - **Biệt danh & Danh xưng:** Lâm thiếu gia, Đứa con của lửa, Tên cuồng vọng
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/ta-sinh-ra-la-phan-dien/lam-pham.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788247152/truyen-ai/characters/ta-sinh-ra-la-phan-dien/lam-pham.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Cảnh giới:** Luyện Khí Tầng 9 (Nhờ linh hồn lão tổ nâng đỡ)
@@ -44,7 +44,7 @@
 ## 4. Lạc Lão
 - **Vai trò:** Thượng Cổ Hóa Thần Cảnh Dược Tôn suy tàn.
 - **Biệt danh & Danh xưng:** Không có
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/ta-sinh-ra-la-phan-dien/lac-lao.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788247149/truyen-ai/characters/ta-sinh-ra-la-phan-dien/lac-lao.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Đặc điểm:** Từng là danh sư vạn người kính ngưỡng, mang tâm lý phòng thủ và thực dụng.
@@ -54,7 +54,7 @@
 ## 5. Dạ U
 - **Vai trò:** Hộ đạo giả bóng tối / Cửu Vĩ U Hồ Thượng Cổ
 - **Biệt danh & Danh xưng:** Không có
-- **Trạng thái Avatar:** ✅ Đã có ảnh (`/characters/ta-sinh-ra-la-phan-dien/da-u.jpg`)
+- **Trạng thái Avatar:** ✅ Đã có ảnh (`https://res.cloudinary.com/kgev6m8h/image/upload/v1788247147/truyen-ai/characters/ta-sinh-ra-la-phan-dien/da-u.jpg`)
 
 ### 🎭 Tóm tắt diện mạo & Đặc điểm:
 **Cảnh giới:** Phong Hầu Cảnh Sơ Kỳ
