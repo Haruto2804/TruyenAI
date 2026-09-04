@@ -51,7 +51,7 @@ export function QuickSearch() {
     }
   }, [isOpen]);
 
-  // Debounced search
+  // Debounced search with AbortController to prevent race conditions
   useEffect(() => {
     if (!query.trim()) {
       setResults([]);
@@ -59,22 +59,31 @@ export function QuickSearch() {
       return;
     }
 
+    const controller = new AbortController();
+
     const timer = setTimeout(async () => {
       setIsLoading(true);
       try {
-        const res = await fetch(`/api/search?q=${encodeURIComponent(query.trim())}`);
+        const res = await fetch(`/api/search?q=${encodeURIComponent(query.trim())}`, {
+          signal: controller.signal,
+        });
         if (res.ok) {
           const data = await res.json();
           setResults(data.stories || []);
         }
-      } catch (err) {
-        console.error("Failed to query stories:", err);
+      } catch (err: any) {
+        if (err.name !== "AbortError") {
+          console.error("Failed to query stories:", err);
+        }
       } finally {
         setIsLoading(false);
       }
-    }, 200);
+    }, 250); // 250ms debounce chuẩn cho gõ Telex tiếng Việt
 
-    return () => clearTimeout(timer);
+    return () => {
+      clearTimeout(timer);
+      controller.abort();
+    };
   }, [query]);
 
   return (
