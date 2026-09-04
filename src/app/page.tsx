@@ -1,16 +1,58 @@
 import Link from "next/link";
 import prisma from "@/lib/prisma";
-import { BookOpen, PackageOpen } from "lucide-react";
+import { BookOpen, PackageOpen, Sparkles } from "lucide-react";
 import { getStoryCoverUrl } from "@/lib/images";
+
+function formatTimeAgo(date: Date | string | null | undefined): string {
+  if (!date) return "Mới ra";
+  const now = Date.now();
+  const diff = Math.max(0, now - new Date(date).getTime());
+  const mins = Math.floor(diff / (1000 * 60));
+  const hours = Math.floor(mins / 60);
+  const days = Math.floor(hours / 24);
+
+  if (mins < 1) return "Vừa xong";
+  if (mins < 60) return `${mins} phút trước`;
+  if (hours < 24) return `${hours} giờ trước`;
+  if (days === 1) return "Hôm qua";
+  if (days < 7) return `${days} ngày trước`;
+  return new Date(date).toLocaleDateString("vi-VN", { day: "2-digit", month: "2-digit" });
+}
 
 export default async function Home() {
   const stories = await prisma.story.findMany({
-    orderBy: { updatedAt: 'desc' },
     include: {
       _count: {
         select: { chapters: true }
+      },
+      chapters: {
+        orderBy: { chapterNo: 'desc' },
+        take: 1,
+        select: {
+          id: true,
+          chapterNo: true,
+          title: true,
+          createdAt: true,
+          updatedAt: true
+        }
       }
     }
+  });
+
+  // Sắp xếp: Truyện nào có chương ra mới nhất hoặc cập nhật mới nhất sẽ tự động đưa lên đầu
+  const sortedStories = [...stories].sort((a, b) => {
+    const aLatest = a.chapters[0];
+    const bLatest = b.chapters[0];
+
+    const aTime = aLatest
+      ? Math.max(new Date(aLatest.updatedAt || aLatest.createdAt).getTime(), new Date(a.updatedAt).getTime())
+      : new Date(a.updatedAt).getTime();
+
+    const bTime = bLatest
+      ? Math.max(new Date(bLatest.updatedAt || bLatest.createdAt).getTime(), new Date(b.updatedAt).getTime())
+      : new Date(b.updatedAt).getTime();
+
+    return bTime - aTime;
   });
 
   return (
@@ -37,9 +79,12 @@ export default async function Home() {
             </div>
             Mới Cập Nhật
           </h2>
+          <span className="text-xs sm:text-sm text-slate-400 font-medium">
+            Tự động đẩy truyện mới nhất lên đầu
+          </span>
         </div>
 
-        {stories.length === 0 ? (
+        {sortedStories.length === 0 ? (
           /* ux-feedback: Proper Empty State with ux-copy tone */
           <div className="flex flex-col items-center justify-center py-20 px-4 text-center bg-white/5 backdrop-blur-md rounded-2xl border border-white/10">
             <PackageOpen className="size-16 text-slate-500 mb-4 opacity-50" strokeWidth={1.5} />
@@ -53,62 +98,88 @@ export default async function Home() {
           </div>
         ) : (
           <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
-            {stories.map((story) => (
-              <Link 
-                key={story.id} 
-                href={`/truyen/${story.slug}`} 
-                className="group block outline-none"
-                aria-label={`Đọc truyện ${story.title}`}
-              >
-                <div className="relative flex flex-col h-full overflow-hidden bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl sm:rounded-3xl p-2 xs:p-2.5 sm:p-3 transition-all duration-300 group-hover:-translate-y-1.5 group-hover:border-[#d4af37]/60 group-hover:shadow-[0_15px_40px_rgba(212,175,55,0.2)] group-focus-visible:ring-2 group-focus-visible:ring-[#d4af37]">
-                  
-                  {/* Cover Image Thumbnail Container (Chuẩn tỉ lệ dọc 2:3 của bìa tiểu thuyết & manhwa) */}
-                  <div className="relative aspect-[2/3] w-full overflow-hidden rounded-xl sm:rounded-2xl bg-slate-950 shadow-lg border border-white/10">
-                    <img
-                      src={getStoryCoverUrl(story.coverUrl, story.slug)}
-                      alt={story.title}
-                      className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
-                    />
+            {sortedStories.map((story) => {
+              const latestChapter = story.chapters[0];
+              const latestTime = latestChapter
+                ? new Date(Math.max(new Date(latestChapter.updatedAt || latestChapter.createdAt).getTime(), new Date(story.updatedAt).getTime()))
+                : new Date(story.updatedAt);
+              const timeAgoStr = formatTimeAgo(latestTime);
 
-                    {/* Gradient Overlay for bottom text clarity */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 pointer-events-none" />
-
-                    {/* Genre Badge */}
-                    <div className="absolute top-2.5 left-2.5 max-w-[80%]">
-                      <span className="inline-block max-w-full truncate rounded-lg border border-white/10 bg-black/80 px-2 sm:px-2.5 py-0.5 sm:py-1 text-[10px] sm:text-xs font-bold text-amber-200 backdrop-blur-md shadow-sm">
-                        {(story.genre || 'Tiên Hiệp').split(/[,/|]+/)[0]?.trim() || 'Tiên Hiệp'}
-                      </span>
-                    </div>
-
-                    {/* Chapter Count Badge */}
-                    <div className="absolute bottom-2.5 right-2.5">
-                      <span className="rounded-lg border border-white/10 bg-black/80 px-2 sm:px-2.5 py-0.5 sm:py-1 text-[10px] sm:text-xs font-medium text-slate-200 backdrop-blur-md shadow-sm flex items-center gap-1">
-                        <span className="w-1.5 h-1.5 rounded-full bg-[#d4af37]" />
-                        {story._count.chapters} chương
-                      </span>
-                    </div>
-
-                    {/* Shimmer Light Reflection on Hover */}
-                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/[0.07] to-transparent opacity-0 group-hover:opacity-100 -translate-x-full group-hover:translate-x-full transition-all duration-1000 ease-in-out pointer-events-none" />
-                  </div>
-
-                  {/* Story Details */}
-                  <div className="flex flex-1 flex-col pt-3 pb-1 px-1">
-                    <h3 className="font-extrabold text-sm sm:text-base text-slate-100 group-hover:text-[#d4af37] transition-colors line-clamp-2 leading-snug mb-1.5">
-                      {story.title}
-                    </h3>
+              return (
+                <Link 
+                  key={story.id} 
+                  href={`/truyen/${story.slug}`} 
+                  className="group block outline-none"
+                  aria-label={`Đọc truyện ${story.title}`}
+                >
+                  <div className="relative flex flex-col h-full overflow-hidden bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl sm:rounded-3xl p-2 xs:p-2.5 sm:p-3 transition-all duration-300 group-hover:-translate-y-1.5 group-hover:border-[#d4af37]/60 group-hover:shadow-[0_15px_40px_rgba(212,175,55,0.2)] group-focus-visible:ring-2 group-focus-visible:ring-[#d4af37]">
                     
-                    {story.summary ? (
-                      <p className="text-slate-400 text-xs line-clamp-2 leading-relaxed font-light">
-                        {story.summary}
-                      </p>
-                    ) : (
-                      <p className="text-slate-500 italic text-xs">Chưa có tóm tắt.</p>
-                    )}
+                    {/* Cover Image Thumbnail Container (Chuẩn tỉ lệ dọc 2:3 của bìa tiểu thuyết & manhwa) */}
+                    <div className="relative aspect-[2/3] w-full overflow-hidden rounded-xl sm:rounded-2xl bg-slate-950 shadow-lg border border-white/10">
+                      <img
+                        src={getStoryCoverUrl(story.coverUrl, story.slug)}
+                        alt={story.title}
+                        className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                      />
+
+                      {/* Gradient Overlay for bottom text clarity */}
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 pointer-events-none" />
+
+                      {/* Genre Badge */}
+                      <div className="absolute top-2.5 left-2.5 max-w-[55%]">
+                        <span className="inline-block max-w-full truncate rounded-lg border border-white/10 bg-black/80 px-2 sm:px-2.5 py-0.5 sm:py-1 text-[10px] sm:text-xs font-bold text-amber-200 backdrop-blur-md shadow-sm">
+                          {(story.genre || 'Tiên Hiệp').split(/[,/|]+/)[0]?.trim() || 'Tiên Hiệp'}
+                        </span>
+                      </div>
+
+                      {/* Thời gian cập nhật gần nhất */}
+                      <div className="absolute top-2.5 right-2.5">
+                        <span className="inline-flex items-center gap-1 rounded-lg border border-emerald-500/30 bg-black/85 px-2 py-0.5 sm:py-1 text-[10px] sm:text-xs font-semibold text-emerald-400 backdrop-blur-md shadow-sm">
+                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse shrink-0" />
+                          <span className="truncate">{timeAgoStr}</span>
+                        </span>
+                      </div>
+
+                      {/* Chapter Count Badge */}
+                      <div className="absolute bottom-2.5 right-2.5">
+                        <span className="rounded-lg border border-white/10 bg-black/80 px-2 sm:px-2.5 py-0.5 sm:py-1 text-[10px] sm:text-xs font-medium text-slate-200 backdrop-blur-md shadow-sm flex items-center gap-1">
+                          <span className="w-1.5 h-1.5 rounded-full bg-[#d4af37]" />
+                          {story._count.chapters} chương
+                        </span>
+                      </div>
+
+                      {/* Shimmer Light Reflection on Hover */}
+                      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/[0.07] to-transparent opacity-0 group-hover:opacity-100 -translate-x-full group-hover:translate-x-full transition-all duration-1000 ease-in-out pointer-events-none" />
+                    </div>
+
+                    {/* Story Details */}
+                    <div className="flex flex-1 flex-col pt-3 pb-1 px-1">
+                      <h3 className="font-extrabold text-sm sm:text-base text-slate-100 group-hover:text-[#d4af37] transition-colors line-clamp-2 leading-snug mb-1">
+                        {story.title}
+                      </h3>
+
+                      {/* Hiển thị chương ra mới nhất */}
+                      {latestChapter && (
+                        <div className="flex items-center gap-1.5 text-[11px] sm:text-xs font-medium text-amber-300/90 mb-1.5 py-0.5 border-b border-white/5 truncate">
+                          <Sparkles className="w-3 h-3 text-[#d4af37] shrink-0" />
+                          <span className="truncate">
+                            {latestChapter.title || `Chương ${latestChapter.chapterNo}`}
+                          </span>
+                        </div>
+                      )}
+                      
+                      {story.summary ? (
+                        <p className="text-slate-400 text-xs line-clamp-2 leading-relaxed font-light mt-auto">
+                          {story.summary}
+                        </p>
+                      ) : (
+                        <p className="text-slate-500 italic text-xs mt-auto">Chưa có tóm tắt.</p>
+                      )}
+                    </div>
                   </div>
-                </div>
-              </Link>
-            ))}
+                </Link>
+              );
+            })}
           </div>
         )}
       </section>

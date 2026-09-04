@@ -127,13 +127,19 @@ export async function updateChapter(formData: FormData) {
   const title = formData.get("title") as string;
   const content = formData.get("content") as string;
 
-  await prisma.chapter.update({
+  const updated = await prisma.chapter.update({
     where: { id },
     data: {
       chapterNo,
       title,
       content,
     },
+  });
+
+  // Update story updatedAt timestamp to bump to top of recently updated
+  await prisma.story.update({
+    where: { id: updated.storyId },
+    data: { updatedAt: new Date() }
   });
 
   revalidatePath("/");

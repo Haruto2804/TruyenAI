@@ -522,6 +522,14 @@ async function syncNovel(novelSlug: string) {
 
       console.log(`[Chapter Auto-Sync] #${chapterNo}: ${finalTitle} -> DB OK`);
     }
+
+    if (chapterFiles.length > 0) {
+      await prisma.story.update({
+        where: { id: story.id },
+        data: { updatedAt: new Date() }
+      });
+      console.log(`[Story Auto-Sync] Cập nhật thời gian mới nhất (updatedAt) cho [${story.title}] -> OK`);
+    }
   }
 
   console.log(`\n🎉 NOVEL [${story.title}] SYNCED SUCCESSFULLY!`);
