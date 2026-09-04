@@ -23,18 +23,13 @@ export default async function Home() {
     }
   });
 
-  // Sắp xếp: Truyện nào có chương ra mới nhất hoặc cập nhật mới nhất sẽ tự động đưa lên đầu
+  // Sắp xếp: Truyện nào có chương ra mới nhất (dựa trên thời điểm phát hành chương mới nhất) sẽ lên đầu
   const sortedStories = [...stories].sort((a, b) => {
     const aLatest = a.chapters[0];
     const bLatest = b.chapters[0];
 
-    const aTime = aLatest
-      ? Math.max(new Date(aLatest.updatedAt || aLatest.createdAt).getTime(), new Date(a.updatedAt).getTime())
-      : new Date(a.updatedAt).getTime();
-
-    const bTime = bLatest
-      ? Math.max(new Date(bLatest.updatedAt || bLatest.createdAt).getTime(), new Date(b.updatedAt).getTime())
-      : new Date(b.updatedAt).getTime();
+    const aTime = aLatest ? new Date(aLatest.createdAt).getTime() : new Date(a.createdAt).getTime();
+    const bTime = bLatest ? new Date(bLatest.createdAt).getTime() : new Date(b.createdAt).getTime();
 
     return bTime - aTime;
   });
@@ -84,12 +79,13 @@ export default async function Home() {
           <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
             {sortedStories.map((story) => {
               const latestChapter = story.chapters[0];
-              const latestTime = latestChapter
-                ? new Date(Math.max(new Date(latestChapter.updatedAt || latestChapter.createdAt).getTime(), new Date(story.updatedAt).getTime()))
-                : new Date(story.updatedAt);
+              // Thời điểm phát hành của chương mới nhất (dựa trên createdAt của chapter)
+              const latestReleaseTime = latestChapter
+                ? new Date(latestChapter.createdAt)
+                : new Date(story.createdAt);
               
-              // CHỈ hiển thị nhãn "Mới Cập Nhật" nếu truyện có chương ra hoặc cập nhật trong vòng 1 tiếng
-              const isUpdatedWithinOneHour = (now - latestTime.getTime()) <= ONE_HOUR_MS && (now - latestTime.getTime()) >= 0;
+              // CHỈ hiển thị nhãn "Mới Cập Nhật" nếu truyện có chương MỚI phát hành trong vòng 1 tiếng
+              const isUpdatedWithinOneHour = (now - latestReleaseTime.getTime()) <= ONE_HOUR_MS && (now - latestReleaseTime.getTime()) >= 0;
 
               return (
                 <Link 
@@ -118,7 +114,7 @@ export default async function Home() {
                         </span>
                       </div>
 
-                      {/* Nhãn "Mới Cập Nhật" - CHỈ hiển thị khi truyện có chương cập nhật trong vòng 1 tiếng */}
+                      {/* Nhãn "Mới Cập Nhật" - CHỈ hiển thị trên truyện CÓ CHƯƠNG MỚI PHÁT HÀNH trong vòng 1 tiếng */}
                       {isUpdatedWithinOneHour && (
                         <div className="absolute top-2.5 right-2.5 z-10">
                           <span className="inline-flex items-center gap-1.5 rounded-lg border border-emerald-500/50 bg-emerald-950/90 px-2 py-0.5 sm:py-1 text-[10px] sm:text-xs font-bold text-emerald-300 backdrop-blur-md shadow-lg shadow-emerald-950/60">

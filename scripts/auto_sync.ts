@@ -475,6 +475,7 @@ async function syncNovel(novelSlug: string) {
       return numA - numB;
     });
 
+    let hasNewlyAddedChapter = false;
     for (const file of chapterFiles) {
       const chapterPath = path.join(chaptersDir, file);
       const rawText = fs.readFileSync(chapterPath, "utf-8");
@@ -497,38 +498,47 @@ async function syncNovel(novelSlug: string) {
       // Clean asterisks permanently
       const cleanedBody = bodyLines.join("\n").replace(/\*+/g, "").trim();
 
-      await prisma.chapter.upsert({
+      const existingChapter = await prisma.chapter.findUnique({
         where: {
           storyId_chapterNo: {
             storyId: story.id,
             chapterNo: chapterNo
           }
         },
-        update: {
-          title: finalTitle,
-          content: cleanedBody,
-          isVip: false,
-          price: 0
-        },
-        create: {
-          storyId: story.id,
-          chapterNo: chapterNo,
-          title: finalTitle,
-          content: cleanedBody,
-          isVip: false,
-          price: 0
-        }
+        select: { id: true, title: true, content: true }
       });
 
-      console.log(`[Chapter Auto-Sync] #${chapterNo}: ${finalTitle} -> DB OK`);
+      if (!existingChapter) {
+        await prisma.chapter.create({
+          data: {
+            storyId: story.id,
+            chapterNo: chapterNo,
+            title: finalTitle,
+            content: cleanedBody,
+            isVip: false,
+            price: 0
+          }
+        });
+        hasNewlyAddedChapter = true;
+        console.log(`[Chapter Auto-Sync] #${chapterNo}: ${finalTitle} -> NEW CREATED`);
+      } else if (existingChapter.title !== finalTitle || existingChapter.content !== cleanedBody) {
+        await prisma.chapter.update({
+          where: { id: existingChapter.id },
+          data: {
+            title: finalTitle,
+            content: cleanedBody
+          }
+        });
+        console.log(`[Chapter Auto-Sync] #${chapterNo}: ${finalTitle} -> CONTENT UPDATED`);
+      }
     }
 
-    if (chapterFiles.length > 0) {
+    if (hasNewlyAddedChapter) {
       await prisma.story.update({
         where: { id: story.id },
         data: { updatedAt: new Date() }
       });
-      console.log(`[Story Auto-Sync] Cập nhật thời gian mới nhất (updatedAt) cho [${story.title}] -> OK`);
+      console.log(`[Story Auto-Sync] Phát hiện có chương mới! Đã cập nhật updatedAt cho [${story.title}] -> OK`);
     }
   }
 

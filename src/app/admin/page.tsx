@@ -23,16 +23,12 @@ export default async function AdminPage() {
     }
   });
 
-  // Sắp xếp truyện nào ra chương mới nhất hoặc cập nhật gần nhất lên đầu
+  // Sắp xếp truyện nào ra chương mới nhất lên đầu
   const sortedStories = [...stories].sort((a, b) => {
     const aChap = a.chapters[0];
     const bChap = b.chapters[0];
-    const aTime = aChap
-      ? Math.max(new Date(aChap.updatedAt || aChap.createdAt).getTime(), new Date(a.updatedAt).getTime())
-      : new Date(a.updatedAt).getTime();
-    const bTime = bChap
-      ? Math.max(new Date(bChap.updatedAt || bChap.createdAt).getTime(), new Date(b.updatedAt).getTime())
-      : new Date(b.updatedAt).getTime();
+    const aTime = aChap ? new Date(aChap.createdAt).getTime() : new Date(a.createdAt).getTime();
+    const bTime = bChap ? new Date(bChap.createdAt).getTime() : new Date(b.createdAt).getTime();
     return bTime - aTime;
   });
 
@@ -73,11 +69,11 @@ export default async function AdminPage() {
         ) : (
           sortedStories.map((story) => {
             const latestChapter = story.chapters[0];
-            const latestTime = latestChapter
-              ? new Date(Math.max(new Date(latestChapter.updatedAt || latestChapter.createdAt).getTime(), new Date(story.updatedAt).getTime()))
-              : new Date(story.updatedAt);
+            const latestReleaseTime = latestChapter
+              ? new Date(latestChapter.createdAt)
+              : new Date(story.createdAt);
 
-            const isUpdatedWithinOneHour = (now - latestTime.getTime()) <= ONE_HOUR_MS && (now - latestTime.getTime()) >= 0;
+            const isUpdatedWithinOneHour = (now - latestReleaseTime.getTime()) <= ONE_HOUR_MS && (now - latestReleaseTime.getTime()) >= 0;
 
             return (
               <div 
@@ -213,11 +209,11 @@ export default async function AdminPage() {
               ) : (
                 sortedStories.map((story) => {
                   const latestChapter = story.chapters[0];
-                  const latestTime = latestChapter
-                    ? new Date(Math.max(new Date(latestChapter.updatedAt || latestChapter.createdAt).getTime(), new Date(story.updatedAt).getTime()))
-                    : new Date(story.updatedAt);
+                  const latestReleaseTime = latestChapter
+                    ? new Date(latestChapter.createdAt)
+                    : new Date(story.createdAt);
 
-                  const isUpdatedWithinOneHour = (now - latestTime.getTime()) <= ONE_HOUR_MS && (now - latestTime.getTime()) >= 0;
+                  const isUpdatedWithinOneHour = (now - latestReleaseTime.getTime()) <= ONE_HOUR_MS && (now - latestReleaseTime.getTime()) >= 0;
 
                   return (
                     <tr key={story.id} className="hover:bg-slate-800/40 transition-colors">
