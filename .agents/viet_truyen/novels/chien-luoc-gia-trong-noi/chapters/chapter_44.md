@@ -1,0 +1,33 @@
+# Chương 44: Tro Tàn Vịnh Bạc Và Bản Án Mười Sáu Nọc
+
+Ngọn lửa từ mũi tên tẩm hỏa diệm liếm láp tấm thảm nhung đỏ, phát ra tiếng lép bép khô khốc hòa lẫn trong tiếng gió biển gầm rú từ ngoài ô cửa sổ bị đánh vỡ. Mùi mỡ cháy khét lẹt xộc thẳng vào khoang mũi, quện chặt với mùi tanh tưởi của dòng nước đen ngòm đang dâng lên ngập mắt cá chân. Ánh sáng vàng vọt, bệnh hoạn từ ngọn lửa hắt lên những bức tường đá hoa cương của đại sảnh, chém những cái bóng dài ngoằn ngoèo, vẹo vọ như những con quái vật đang múa máy trong đêm tối. Không gian đặc quánh lại thứ áp lực ngột ngạt của sự hủy diệt, nơi mà mỗi nhịp thở đều mang theo vị mặn chát của máu và tro tàn.
+
+Bá tước Roland đứng chết trân giữa đống đổ nát, lồng ngực phập phồng dữ dội sau cú chém toàn lực vừa rồi. Dòng kình khí màu bạc trên đại kiếm đã tắt ngấm, nhường chỗ cho những vết rạn nứt chi chít trên lưỡi thép. Mồ hôi lạnh túa ra ướt đẫm tấm áo giáp da đính huy hiệu Chim Ưng Biển Bạc, dính chặt vào bờ vai rộng đang run lên từng nhịp vì phẫn nộ và kiệt sức. Ánh mắt hắn dán chặt vào phong thư hoàng gia được niêm phong bằng sáp đỏ tươi đang nằm lọt thỏm trong hốc đá vừa lộ diện. Bản năng của một người lãnh chúa gào thét rằng thứ đó không chỉ là một bức thư, mà là một nhát dao chí mạng định đoạt sự sống chết của cả gia tộc Croft.
+
+Phu nhân Eleanor lao vội về phía chiếc nôi gỗ sồi, bàn tay trắng bệch vì sợ hãi run rẩy phủ lên ngực đứa con trai nhỏ để chắc chắn rằng nhịp đập bé bỏng ấy vẫn đang duy trì đều đặn. Đôi mắt xanh lục biếc trừng trừng nhìn mũi tên hỏa diệm đang cháy rụi bên cạnh, nỗi uất hận dâng trào đến mức nghẹn ứ ở cổ họng. Nàng ngẩng đầu lên, khuôn mặt nhợt nhạt bỗng trở nên sắc lạnh như băng giá mùa đông phương Bắc.
+
+- Roland! Hạm đội Castalia không đợi đến mùa đông nữa! Chúng đã cắn đứt yết hầu của Vịnh Sóng Bạc rồi! Giọng nàng thét lên, xé toạc lớp không gian đặc quánh mùi lưu huỳnh.
+
+Trong chiếc nôi gỗ sồi, Adrian von Croft mở to đôi mắt xám tro, dòng tư duy sắc lạnh như dao cạo đang bóc tách từng chi tiết hỗn loạn xung quanh. Tốc độ lan truyền của dòng nước đen ngòm dưới chân không phải do thủy triều tự nhiên, mà là hệ thống van xả nước ngầm của pháo đài đã bị kẻ gian thao túng từ bên trong. Chấp sự Lucien Vane không hề đánh cược vào một trận chiến dài ngày; gã muốn dùng ngọn lửa và nước biển để biến pháo đài Silverguard thành một cỗ quan tài nước khổng lồ trước khi ánh bình minh ló dạng.
+
+Chấp sự Lucien Vane vẫn đứng thẳng lưng bên mép sảnh đường, áo khoác nhung tím viền lông cáo tuyết không vương một hạt bụi. Gã khẽ nhấc ngón tay đeo nhẫn ngọc bích, gõ nhẹ ba cái lên cán gậy bạch mã, phát ra những tiếng cộc cộc khô khốc giữa tiếng thét gào của gió bão. Khóe môi gã nhếch lên một nụ cười mỏng manh, đầy vẻ thương hại giả tạo dành cho những kẻ đang giãy giụa trong vũng lầy nợ nần.
+
+- Các ngươi nghĩ rằng một bức huyết thư hoàng gia hay dăm ba câu chửi rủa có thể thay đổi được thực tế sao, thưa Bá tước? Lucien thong thả cất lời, giọng nói đều đều vang vọng trong không gian như một bản án đã được tuyên từ trước. Ngân hàng Lombard chưa bao giờ mua bán bằng sự kiên nhẫn. Nếu đến canh ba mà cửa khẩu cảng không đổi chủ, những khẩu đại pháo trên chiến hạm ngoài kia sẽ san bằng hòn đảo này thành cát bụi.
+
+Lão Hộ lăng nhân lê bước chân nặng nhọc đến bên hốc đá, cây gậy ngọc bích trong tay cắm phập xuống phiến đá để giữ vững thân hình còng cõi. Lão cúi xuống, đôi bàn tay nhăn nheo run rẩy nhặt phong thư có ấn sáp đỏ lên. Khi lớp sáp vỡ ra dưới sức nóng của ngọn lửa gần đó, ánh mắt lão bỗng co rút lại, lồng ngực phát ra một tiếng gầm gừ nghèn nghẹn như dã thú bị thương.
+
+- Đây... Đây là bản thỏa thuận bán rẻ quyền khai thác quặng mỏ phía tây mà tiên đế đã ký nháp từ hai mươi năm trước! Lão Hộ lăng nhân trừng mắt nhìn Chấp sự Vane, giọng nói già nua khàn đặc run lên bần bật. Ngươi... Ngươi đã cướp nó từ kho lưu trữ của hoàng cung!
+
+Bá tước Roland quay phắt đầu lại, gân xanh trên cổ nổi lên chằng chịt, đôi mắt đỏ ngầu như muốn phun ra lửa. Sự kiên nhẫn cuối cùng của một hiệp sĩ đã hoàn toàn tan vỡ trước minh chứng rành rành về một âm mưu táng tận lương tâm. Hắn không nói thêm một lời nào nữa, vung thanh đại kiếm đã mẻ một góc, lao thẳng về phía Lucien Vane với tốc độ của một mãnh thú bị dồn vào đường cùng. Kình khí bộc phát xé rách không khí, tạo thành một vòng xoáy gió cuồn cuộn cuốn bay những mảnh đá dăm xung quanh.
+
+Chấp sự Lucien Vane không hề lùi bước, trong đôi mắt hẹp dài lóe lên một tia sát khí lạnh lẽo. Gã khẽ phất tay, từ trong bóng tối của hành lang phía sau, hai gã lính đánh thuê mặc giáp toàn thân với những đường vân ma pháp đỏ rực lao vụt ra như quỷ dữ. Chúng vác những thanh trọng kiếm rộng bằng nửa thân người, chặn đứng đường lao tới của Bá tước Roland bằng một cú va chạm đinh tai nhức óc.
+
+Tiếng kim loại va vào nhau tạo ra một chùm tia lửa sáng lóa chói mắt, đẩy lùi Roland ngược lại ba bước. Sàn nhà dưới chân hắn rạn nứt thành từng mảng lớn, nước biển đen ngòm lập tức phun trào qua những khe nứt ấy, dâng cao đến mắt cá chân và nhuốm đỏ một khoảng không gian rộng lớn. Khí thế của kẻ địch đè nặng xuống như ngọn núi cao, ép cho hơi thở của vị Bá tước vạm vỡ trở nên đứt quãng.
+
+Phu nhân Eleanor ôm chặt lấy chiếc nôi, mồ hôi lạnh túa ra ướt đẫm tấm lưng áo lụa mỏng manh. Nàng nhận ra rằng nếu Roland ngã xuống ở đây, không một ai trong căn phòng này có thể sống sót bước chân ra khỏi pháo đài. Cảm giác bất lực và tuyệt vọng bủa vây lấy tâm can người phụ nữ, nhưng trong sâu thẳm đôi mắt xanh lục ấy, một thứ bản năng sinh tồn nguyên thủy nhất đang trỗi dậy mạnh mẽ.
+
+Trong chiếc nôi gỗ sồi, Adrian von Croft nhíu mày, dòng tư duy chiến lược trong bộ não non nớt đã tính toán xong bước đi tiếp theo. Trọng lượng của nước biển đang làm thay đổi tâm lực của toàn bộ kết cấu móng đá phía đông, và nếu dùng một lượng áp lực nhỏ tác động vào đúng điểm yếu của trụ đỡ, toàn bộ phần mái hiên đại sảnh sẽ sập xuống, chôn vùi đám lính đánh thuê mà không cần tốn một giọt mồ hôi. Cậu nhóc khẽ động đậy ngón tay nhỏ xíu, chạm nhẹ vào vách nôi để phát ra một tiếng động nhỏ, hướng sự chú ý của người mẹ về phía chiếc xà nhà đang oằn mình rên rỉ.
+
+Bá tước Roland lau vết máu rớm ra ở khóe môi, hai tay siết chặt đốc kiếm, cơ bắp cuồn cuộn gồng lên chuẩn bị cho một đợt xung phong liều chết thứ hai. Lucien Vane đứng phía sau hai tên lính đánh thuê, nụ cười nhạt nhẽo vẫn treo trên môi khi gã giơ cao phong thư hoàng gia trong tay, sẵn sàng xé nát nó để chấm dứt mọi hy vọng cuối cùng của gia tộc Croft.
+
+Đúng lúc đó, một tiếng động rợn người phát ra từ trần nhà phía trên đầu Chấp sự Vane, nơi một vết nứt dài bằng thân người bỗng nhiên bùng phát kèm theo tiếng gãy vụn của những thanh xà gỗ sồi cổ thụ.
