@@ -1,0 +1,28 @@
+# Chương 48: Tiếng Đập Dưới Hầm Ngầm Và Chiếc Khóa Vạn Năng Của Quá Khứ
+
+Mùi tanh nồng của rong rêu chết chìm quyện cùng vị mặn mòi của hơi muối biển đặc quánh ngập ngụa trong từng kẽ răng, bám chặt vào vòm họng lạnh ngắt như một lớp bùn non cô đặc. Ánh bình minh nhợt nhạt hắt qua khung cửa sổ bị xé toạc không đủ xua tan thứ bóng tối đặc quánh đang co cụm lại ở các góc phòng đại sảnh, mà chỉ vạch ra những đường tơ nhện ánh sáng mờ ảo chiếu vào hàng vũng nước đen sì trên sàn đá hoa cương. Tiếng nước rỉ rả từ những khe nứt của móng tường đá hoa cương nhỏ giọt xuống mặt nước đọng, tạo thành một thứ âm thanh đanh gọn, lạnh lẽo và dồn dập như tiếng đếm ngược của một chiếc đồng hồ cát sắp cạn.
+
+Bá tước Roland von Croft vẫn đứng chết trân tại chỗ, bàn tay siết chặt đốc đại kiếm đến mức những thớ cơ cẳng tay gồng lên nổi cộm, gân xanh chằng chịt như rễ cây cổ thụ bám sâu vào da thịt. Hơi thở của hắn nặng nhọc, từng luồng khí nóng hổi phả ra hóa thành những làn sương trắng mỏng manh trong không gian lạnh giá của hầm mộ tạm thời. Cơ thể cao lớn vạm vỡ của vị cựu kỵ sĩ phủ đầy những vệt mồ hôi lạnh và nước mưa tanh tưởi, nhưng ánh mắt hắn không hề rời khỏi vật thể nhỏ bé đang nằm gọn trong lòng bàn tay của đứa con trai sơ sinh. Trên bề mặt chiếc chìa khóa đồng cổ xưa, lớp rỉ xanh ngắt của thời gian không giấu được những đường nét chạm trổ sắc sảo của biểu tượng vòng xoáy triều cường và vương miện gãy gục – ấn ký của dòng tộc bá tước đời đầu từng cai quản vùng vịnh này trước khi gia tộc Croft tiếp quản ngai vàng lãnh địa.
+
+Trong góc nôi gỗ sồi, đôi mắt xám tro của Adrian von Croft ánh lên một tia sáng sắc bén, tĩnh lặng và lạnh lùng trái ngược hoàn toàn với hình hài của một đứa trẻ vừa lọt lòng chưa đầy tuần. Bộ óc mang theo ký tự và tư duy chiến lược toàn cầu của một nhà nghiên cứu hiện đại vận hành với tốc độ chớp nhoáng, bóc tách từng lớp dữ liệu vừa thu thập được từ trận chiến ngắn ngủi nhưng đẫm máu. Kẻ áo xám không phải là một thích khách ngẫu nhiên do Ngân hàng Lombard thuê mướn bằng tiền vàng; sự xuất hiện của chiếc chìa khóa mang dấu ấn phong kiến cổ đại này chứng minh rằng bên dưới lớp vỏ bọc tài chính lạnh lùng của Chấp sự Lucien Vane là một mạng lưới phản bội ngầm đã bám rễ sâu vào cấu trúc quyền lực của pháo đài Silverguard suốt nhiều thập kỷ. Hệ thống cống ngầm dẫn nước biển vốn được thiết kế để làm hào phòng thủ kiên cố nhất nay lại biến thành cánh cửa sau cho những kẻ muốn chôn vùi gia tộc Croft.
+
+Từ dưới tầng hầm sâu thẳm, nơi ánh sáng chưa bao giờ chạm tới, một âm thanh trầm đục bất ngờ vọng lên. Đó không phải là tiếng rít gào của quái vật hay tiếng nước vỗ bờ, mà là một nhịp gõ đều đặn, khô khốc: cốp... cốp... cốp. Âm thanh ấy giống như tiếng gót giày nện xuống nền đá lạnh, chậm rãi, dứt khoát và mang theo một sức ép vô hình khiến không khí trong đại sảnh như đặc quánh lại, đè nặng lên lồng ngực.
+
+Roland khẽ nhíu mày, thần sắc ngưng trọng đến cực điểm. Hắn cảm nhận rõ ràng từng chấn động nhỏ truyền qua lớp đá dưới chân, giống như một cỗ máy khổng lồ đang được khởi động từ sâu trong lòng đất. Bản năng chiến trường rèn giũa qua hàng chục trận chiến sinh tử thét gào trong đầu hắn rằng nguy hiểm thực sự chưa hề kết thúc; trái lại, những gì vừa diễn ra ở đại sảnh chỉ là một màn thăm dò trước khi cơn hồng thủy thực sự trút xuống.
+
+- Cha. 
+
+Một thanh âm nhỏ bé, mơ hồ nhưng rõ ràng đến kỳ lạ cất lên từ góc nôi, lọt vào thính giác nhạy bén của Roland. Không phải tiếng khóc oe oe thường thấy của trẻ sơ sinh, mà là một sự định hướng tuyệt đối. Adrian dùng bàn tay nhỏ xíu khẽ đẩy nhẹ chiếc chìa khóa đồng cổ xưa về phía mép thành nôi, đồng thời hướng ánh mắt xám tro thẳng về phía bức tượng đài đá hoa cương khắc hình vị tổ tiên đầu tiên của gia tộc đang đứng sừng sững ở góc phòng, nơi có một khe hở nhỏ chưa từng được chú ý trên bệ đỡ.
+
+Sự thấu hiểu ngầm giữa hai cha con lập tức chuyển hóa thành hành động quyết đoán. Roland không quay đầu lại, hắn bước nhanh tới bệ tượng đá, nơi tiếng gót giày dưới hầm ngầm đang vọng lên mỗi lúc một gần hơn. Hắn đưa chiếc chìa khóa đồng vào khớp nối hình con sóng được khắc chìm dưới chân bức tượng. Một tiếng cạch khô khốc vang lên, âm thanh của kim loại cổ đại khớp vào ổ khóa sau hai trăm năm ngủ quên. Ngay lập tức, một phần sàn đá bên cạnh bức tượng từ từ trượt sang một bên, hé lộ một lối đi hẹp tối thui dẫn thẳng xuống lòng đất, nơi bốc lên một mùi hăng hắc của hóa chất luyện kim và mùi máu tươi tanh tưởi.
+
+Không chút do dự, Roland vung đại kiếm, gom toàn bộ kình khí ngưng tụ quanh lưỡi kiếm thành một vòng hào quang bạc rực rỡ để soi đường, rồi bước chân dứt khoát lao xuống vực sâu tăm tối của hầm ngầm, để lại phía sau bóng lưng vững chãi che chở cho đứa con trai đang nằm lặng lẽ trong chiếc nôi gỗ sồi.
+
+Nhưng điều mà cả hai cha con Croft không thể lường trước được là, ở phía cuối đường hầm ngầm tối tăm ấy, một đôi mắt hổ phách đang lạnh lùng nhìn thẳng lên qua khe cửa vừa mở, kèm theo một tiếng cười nhạt khúc khích vang vọng trong không gian ẩm thấp. 
+
+- Cuối cùng thì chìa khóa cũng về đúng chủ nhân của nó... chỉ tiếc rằng, cửa hầm đã mở thì triều cường từ đáy vịnh sẽ không bao giờ có thể đóng lại được nữa.
+
+Ba câu cuối chương:
+Một tiếng thở dài lạnh lẽo vang lên từ trong góc tối của hầm ngầm, kèm theo tiếng nước chảy xiết ào ào như có hàng vạn khối lượng nước đang phá vỡ đê điều.
+Lớp đá dưới chân pháo đài Silverguard đột ngột rung chuyển dữ dội, nứt toác ra những đường rãnh lớn nuốt chửng lấy ánh sáng yếu ớt cuối cùng.
+Và từ trong lòng đất sâu thẳm ấy, một đôi bàn tay xám xịt thứ hai, to lớn và mang theo uy áp ngạt thở, chậm rãi vươn lên bấu chặt lấy mép cửa hầm.
