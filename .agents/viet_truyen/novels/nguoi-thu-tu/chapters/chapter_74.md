@@ -1,0 +1,17 @@
+# Chương 74: Kẻ Giật Dây Trong Sương Mù
+
+# Nhịp Không Khí: Mùi Sương Muối Và Ánh Đèn Đỏ Vỡ Nát
+
+Mùi khói súng khét lẹt cuồn cuộn dâng lên từ khe hầm dưới sàn gỗ, quyện chặt vào vị mặn mòi của sương muối và mùi cá ươn thối rữa từ góc khuất quán bar The Drowning Sailor. Ánh đèn neon duy nhất trên trần nhà chớp tắt liên hồi, chém màn đêm thành những nhát cắt đỏ rực và lạnh ngắt. Tiếng mưa phùn bên ngoài vẫn rả rích nện xuống mái tôn cũ kỹ như tiếng gõ mõ dồn dập vào tâm can. Maren đứng chết trân bên quầy bar, lồng ngực phập phồng gấp gáp, từng giọt mồ hôi lạnh túa ra từ trán chảy dọc theo gò má góc cạnh, rơi tõm xuống cổ áo trench coat đen. Xác kẻ đột nhập vừa ngã quỵ dưới khe cửa hầm cống ngầm DRAIN-09 vẫn đang co giật nhẹ trong vũng nước đen ngòm. Chiếc radio đặt trên quầy bar tiếp tục phát ra thứ âm thanh rè rè chói tai, đan xen giữa tiếng sóng biển gầm rú và tiếng bước chân nặng nề từ góc phòng tối tăm đang tiến lại gần, đều đặn đến gai người.
+
+# Nhịp Nút Thắt & Tâm Lý: Cơn Lốc Hồi Ức Và Sự Thật Trần Trụi
+
+Tâm niệm Maren xoay chuyển như điện chớp, một luồng khí lạnh xộc thẳng lên đỉnh đầu làm tê liệt cả đại não cô. Giọng nói của Giáo sư Voss vừa phát ra từ chiếc radio cũ kỹ không thể nào là thật — ông ta đã chết trong phòng 307 với vết thương thấu tim, và cuốn băng cassette trên tay cô chưa hề được bấm nút phát. Vậy thứ đang vang lên trong căn phòng chật hẹp này là gì? Cô chậm rãi quay đầu lại, đôi mắt xám xanh nheo lại cắt qua lớp sương mờ đục. Nils đã buông tấm bảng phấn, hai tay bấu chặt lấy mép quầy bar đến mức những khớp xương trắng bệch, ánh mắt đục ngầu của gã câm trừng trừng nhìn vào góc tối nơi cột trụ gỉ sét. Ý thức bất an gặm nhấm tâm can: không có kẻ thứ tư nào đột nhập ngẫu nhiên vào đây. Tất cả chỉ là một cái bẫy tâm lý được tính toán đến từng mili-mét, nhằm bóp méo nhận thức của cô về không gian và thời gian hệt như cơ chế của Dự án Lethe. Đột nhiên, tiếng bước chân dừng lại ngay phía sau tấm rách rưới che phòng kho, kèm theo một tiếng cười trầm đục vang lên từ cổ họng khô khốc.
+
+# Nhịp Bùng Nổ & Hành Động: Lưỡi Kiếm Xé Gió Và Gương Mặt Trong Bóng Tối
+
+Sát cơ chợt lóe trong ánh mắt xám xanh, Maren không chút do dự quăng khẩu súng ngắn sang tay trái, tay phải rút phắt con dao găm giấu ở ống boot chém ngược về phía sau lưng. Hơi lạnh từ lưỡi dao thép bén ngót xé toạc không khí, rít lên một tiếng đanh gọn. Từ trong bóng tối đặc quánh của góc phòng kho, một cánh tay bọc trong chiếc áo mưa cảnh sát màu vàng phản quang giơ lên cực nhanh, dùng hai ngón tay kẹp chặt lấy cổ tay Maren bằng một lực khủng khiếp như kìm thép. Lực va chạm làm cổ tay cô tê dại, con dao tuột khỏi ngón tay rơi leng keng xuống nền xi măng ẩm ướt. Cùng lúc đó, bóng người bước hẳn ra dưới ánh đèn đỏ nhấp nháy, để lộ khuôn mặt phì nộn luôn đỏ ửng vì huyết áp cao và đôi mắt sưng húp mệt mỏi. Không ai khác, đó chính là Thanh tra Lindqvist — kẻ nắm giữ toàn bộ hệ thống hồ sơ cảnh sát Ashford. Hắn nhếch mép cười khẩy, hơi thở nồng nặc mùi rượu mạnh phả thẳng vào mặt Maren, giọng nói lạnh lùng vang lên đầy vẻ bề trên: "Tìm kiếm quá khứ vốn là một tội ác, Maren Engel. Và cô vừa tự ấn nút tự hủy của chính mình."
+
+# Cliffhanger Hook
+
+Maren trừng lớn đôi mắt, toàn thân cứng đờ khi nhận ra nòng súng lục của Lindqvist đã được chĩa thẳng vào lồng ngực cô từ lúc nào. Nhưng trước khi ngón tay hắn siết cò, bức tường gỗ phía sau quán bar bỗng nổ tung thành hàng mảnh vụn, và một bàn tay to lớn mang theo chiếc nhẫn bạc hoa tầm xuân từ trong màn sương mù lao đến bóp chặt lấy cổ họng vị thanh tra.

@@ -1,0 +1,17 @@
+# Chương 75: Vết Sẹo Của Kẻ Sống Sót
+
+# Nhịp Không Khí: Mùi Máu Tanh Và Ánh Nhẫn Bạc
+
+Tiếng gỗ mục văng tứ tung trong không gian chật chội của quán bar The Drowning Sailor, hòa lẫn vào tiếng gió rít qua khe cửa sắt và tiếng sóng biển gầm rú đập vào chân móng bến cảng Dockside. Mùi máu tanh nồng nặc xộc thẳng vào khứu giác, lấn át cả mùi khói thuốc và mùi rượu rẻ tiền vương vãi trên nền xi măng ẩm ướt. Ánh đèn neon đỏ chớp nháy liên hồi, hắt lên những bóng người dài ngoằn ngoèo đang quần thảo trên mặt đất. Hơi lạnh từ sương mù vùng cửa biển len lỏi qua từng thớ vải trench coat, buốt giá thấu xương. Maren nằm khuỵu gối bên vũng nước đen, lồng ngực phập phồng kịch liệt, đôi mắt xám xanh trừng lớn nhìn bóng người vừa xuất hiện từ trong màn sương mịt mùng. Đó không ai khác ngoài Erik Solvang — cựu thanh tra với bàn tay phải mang vết sẹo dài và ngón áp út đeo chiếc nhẫn cưới bạc hoa tầm xuân. Ngón tay thô ráp của ông siết chặt lấy cổ họng Lindqvist, đẩy vị thanh tra phì nộn ép sát vào cột trụ gỉ sét cho đến khi mặt hắn chuyển sang màu tím ngắt.
+
+# Nhịp Nút Thắt & Tâm Lý: Cuộc Đối Đầu Giữa Những Đổ Vỡ
+
+Tâm niệm Maren xoay chuyển như điện chớp, một luồng hoảng loạn kết hợp với sự bàng hoàng xộc thẳng lên đỉnh đầu. Cô chưa từng nghĩ Erik lại xuất hiện đúng khoảnh khắc định mệnh này, hệt như một bóng ma bước ra từ ký ức bị lãng quên của Dự án Lethe. Lindqvist vẫn cố gắng vùng vẫy, đôi mắt sưng húp trợn trừng đầy tơ máu, hai bàn tay mập mạp bấu chặt lấy cổ tay Erik để cấu xé. Tiếng hộc lên từng hồi đứt quãng từ cổ họng vị thanh tra vang lên giữa tiếng kình phong cuộn trào: "Mày... mày tưởng có thể che giấu... tất cả sao, Solvang? Mẫu vật số Không... đã ở ngay trước mặt mày... mười lăm năm nay..." Câu nói mang theo độc tố tâm lý sắc bén, cố tình xoáy sâu vào vết thương lòng chưa bao giờ lành lặn của vị cựu thanh tra. Bàn tay đang siết cổ Lindqvist của Erik bỗng khựng lại một nhịp, cơ thể già nua lảo đảo vì chấn động tâm lý. Ánh mắt nâu sẫm trũng sâu đầy u uất thoáng qua tia dao động kịch liệt, giống như một bức tường thành kiên cố đang đứng trước nguy cơ sụp đổ hoàn toàn bởi một cú húc nhẹ từ quá khứ.
+
+# Nhịp Bùng Nổ & Hành Động: Lưỡi Súng Xé Gió Và Quyết Định Của Kẻ Cùng Đường
+
+Sát cơ chợt lóe lên trong đôi mắt đỏ ngầu của Lindqvist. Dù đang bị bóp nghẹt, gã vẫn tàn nhẫn dùng hết sức tống khủy tay phải vào sườn Erik. Tiếng xương sườn rắc nhẹ vang lên, Erik hộc ra một ngụm máu tươi văng tung tóe lên chiếc áo len cổ lọ xám, lảo đảo lùi lại phía sau ba bước. Nhanh như cắt, Lindqvist lật người rút khẩu súng lục từ bao da bên hông, nòng súng đen ngòm lập tức chĩa thẳng vào giữa trán Erik. Động tác dứt khoát không chút do dự, sát khí ngút trời bao trùm toàn bộ căn phòng. Nhưng trước khi ngón tay béo mập kịp siết cò, Maren đã lăn người nhặt lấy con dao găm dưới đất. Bằng một động tác dồn toàn bộ sức lực của cơ thể gầy gò, cô phóng vút con dao về phía cánh tay cầm súng của Lindqvist. Lưỡi thép xé gió cắm phập vào bắp tay vị thanh tra, máu tươi phun xối xả. Khẩu súng rơi leng keng xuống nền nhà. Cùng lúc đó, từ khe cửa hầm cống ngầm DRAIN-09, một bóng người cao lớn với gương mặt trắng bệch và đôi mắt vô hồn bất ngờ lao lên, dùng hai bàn tay dài ngoằng như gọng kìm kẹp chặt lấy thân hình to béo của Lindqvist, kéo giật hắn ngã nhào vào bóng tối của căn hầm ngập nước.
+
+# Cliffhanger Hook
+
+Tiếng thét kinh hoàng của Lindqvist vọng lên từ dưới lòng cống rồi tắt lịm dần vào tiếng sóng biển, trong khi từ màn hình chiếc radio cũ kỹ trên quầy bar, một giọng nói máy móc cất lên đều đặn đếm ngược từ mười về không.
