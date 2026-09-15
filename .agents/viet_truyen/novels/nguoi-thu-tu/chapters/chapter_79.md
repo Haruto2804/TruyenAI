@@ -1,0 +1,19 @@
+# Chương 79: Gương Vỡ Hư Không Và Cái Chết Của Những Ký ức
+
+# Nhịp Không Khí: Mùi Gỉ Sắt Và Hơi Thở Buốt Giá Của Hư Không
+
+Mùi gỉ sắt từ những thanh xà thép bị ăn mòn quyện lẫn với mùi khói súng khét lẹt đặc quánh trong bầu không khí ngột ngạt của tầng hầm B3. Ánh đèn đỏ chớp nháy từ cỗ máy Cốt lõi Cộng hưởng hắt lên những vệt sáng đỏ rực, quét qua gương mặt tái nhợt và đẫm mồ hôi của Erik Solvang. Dưới chân họ, vũng nước đen ngòm từ miệng cống ngầm DRAIN-09 liên tục sủi bọt, phát ra những tiếng ọp ẹp rợn người như tiếng thở dốc của hàng trăm thực thể bị giam cầm trong bóng tối suốt hai mươi năm. Cái lạnh buốt giá của vùng cực bắc luồn lách qua từng thớ vải, bám chặt vào sống lưng khiến da gà nổi lên chi chít. Tiếng bíp điện tử chói tai từ cỗ máy đếm ngược vẫn vang lên đều đặn, từng nhịp như búa bổ vào màng nhĩ, xé toạc sự tĩnh mịch của căn phòng thí nghiệm bỏ hoang. 
+
+# Nhịp Nút Thắt & Tâm Lý: Sức Nặng Của Những Cái Tên Bị Xóa Sổ
+
+Tâm niệm Erik xoay chuyển như điện chớp, một cảm giác hoang mang tột độ xộc thẳng lên đỉnh đầu. Gã đàn ông với gương mặt không một đường nét vừa cất tiếng cười khô khốc, để lại một khoảng trống rợn ngợp trong tâm trí những kẻ còn sống sót. Lời tuyên bố đó không chỉ là một lời khiêu khích; nó là một nhát dao chí mạng cứa vào nền tảng thực tại mà họ đang cố gắng bảo vệ. Nếu kẻ đứng sau tấm gương kia chưa từng tồn tại, vậy những năm tháng đau thương, những giọt nước mắt và cả sự hy sinh của Sarah rốt cuộc có ý nghĩa gì? Maren Engel cắn chặt hàm răng đến mức rỉ máu, vị mặn tanh của máu tươi lan tỏa trong khoang miệng. Cô nheo mắt trái, bàn tay siết chặt cuốn sổ tay XLVII trong túi áo khoác, cảm nhận rõ từng thớ cơ trên mặt giật liên hồi. Áp lực vô hình từ làn sóng Lethe đang bào mòn ý chí, đe dọa biến cô thành một kẻ vô danh trong chính ký ức của mình. Không còn đường lùi. Nếu buông xuôi lúc này, sự thật sẽ bị chôn vùi vĩnh viễn dưới lớp bùn đen của lịch sử.
+
+# Nhịp Bùng Nổ & Hành Động: Cơn Cuồng Phong Dưới Đáy Địa Ngục
+
+Không chút do dự, Erik gầm lên một tiếng trầm đục xé rách màn đêm, vung cẳng chân đá mạnh vào chiếc bàn thí nghiệm để tạo ra một đường xông phá. 
+- Maren, đừng nhìn vào gương mặt không có tròng mắt của nó! Đó là bẫy nhận thức! 
+Sát cơ chợt lóe, Erik lao thẳng về phía bóng người nhẵn nhụi, bàn tay thô ráp bấu chặt lấy cổ áo đối phương, quật mạnh kẻ đó xuống sàn bê tông cứng ngắc. Tiếng va đập vang lên khô khốc, tóe ra những tia lửa điện xanh ngắt từ đường dây bị đứt. Thế nhưng, kẻ thù không hề phát ra tiếng kêu đau đớn nào; thể xác hắn mềm nhũn như bùn lầy, tan chảy thành một lớp chất nhỏng đặc quánh bám chặt lấy bàn tay Erik. Cùng lúc đó, từ dưới vũng nước đen của miệng cống DRAIN-09, hàng chục cánh tay gầy guộc với những ngón tay dài ngoẵng bỗng chốc vùng lên, túm chặt lấy cổ chân Erik và Maren, kéo giật họ xuống bùn sâu. Maren không hoảng loạn; cô rút phăng con dao găm từ hông, vung tay chém đứt phăng bàn tay lạnh ngắt đang siết lấy cổ chân mình, rồi lộn người đứng dậy, phóng thẳng mũi dao vào lồng ngực của thực thể không mặt đang gầm gừ dưới đất. Cỗ máy Cốt lõi Cộng hưởng ở góc phòng bỗng thét lên một tiếng cao vút, ánh sáng chuyển từ màu đỏ rực sang màu trắng lóa mắt, nuốt chửng lấy toàn bộ gian phòng trong một cơn chấn động kinh hoàng.
+
+# Cliffhanger Hook
+
+Giữa tâm bão của luồng ánh sáng chói lòa và tiếng còi báo động xé rách màng nhĩ, một bàn tay lạnh ngắt bỗng đặt lên vai Maren từ phía sau, cất lên giọng nói quen thuộc đến gai người mà cô tưởng đã vĩnh viễn chôn vùi trong quá khứ: "Cháu gái ngốc nghếch... cháu nghĩ mình có thể mang cuốn sổ đó đi đâu khi chính bản thân cháu cũng chỉ là một ký ức đang phai mờ?"

@@ -1,0 +1,19 @@
+# Chương 78: Tiếng Kêu Xuyên Qua Sương Đen
+
+# Nhịp Không Khí: Hơi Thở Nóng Rẫy Và Tiếng Bíp Chói Tai
+
+Hơi nước mặn mặn từ vùng vịnh Ashford tràn ngập lồng ngực Maren, quyện lẫn với mùi khói thuốc súng khét lẹt và thứ mùi tanh nồng kỳ lạ như xác động vật lâu ngày bị phân hủy dưới bùn sâu. Ánh đèn đỏ chớp nháy từ cỗ máy Cốt lõi Cộng hưởng ở tầng hầm B3 hắt ngược qua khe sàn gỗ, vẽ những vệt máu động đậy lên bức tường ẩm mốc của quán bar The Drowning Sailor. Tiếng bíp điện tử chói tai vang lên từng nhịp đều đặn đến gai người: tít, tít, tít... tần số đếm ngược của cỗ máy tự hủy đang tăng tốc, làm rung bần bật cả những chiếc ly thủy tinh vỡ vụn dưới sàn. Bầu không khí đặc quánh như chì, ép chặt vào màng nhĩ khiến người ta có cảm giác ngạt thở. Ngoài khung cửa sổ bám đầy rêu phong, màn đêm đặc quánh của vùng cực bắc nuốt chửng lấy những ngọn đèn đường hiếm hoi, chỉ còn lại tiếng mưa rít qua vách đá lạnh buốt thấu xương.
+
+# Nhịp Nút Thắt & Tâm Lý: Cái Bóng Của Kẻ Tưởng Đã Chết
+
+Tâm niệm Erik xoay chuyển như điện chớp, một luồng khí lạnh ngắt từ đỉnh đầu xộc thẳng xuống sống lưng. Gã đàn ông đứng giữa màn khói mịt mù kia, với cặp kính gọng vàng mỏng manh phản chiếu ánh đèn đỏ rợn người, mang một dáng vẻ quen thuộc đến đáng sợ. Nhưng điều đó là phi lý. Daniel Voss đã chết. Xác của lão nằm trên bàn mổ ở bệnh viện St. Aldric, và chính mắt Erik cùng Maren đã chứng kiến những biến đổi sinh học khủng khiếp từ tầng hầm B3. Vậy kẻ đang đứng trước mặt họ là ai? Hay đây lại là một ảo ảnh khác được tạo ra bởi sóng Lethe, một bóng ma bám dai dẳng không chịu buông tha những kẻ dám xé toạc bức màn che giấu sự thật? Maren cắn chặt môi đến mức rỉ máu, vị mặn tanh chát lan ra trong khoang miệng. Cô nheo mắt trái, bàn tay siết chặt cuốn sổ tay XLTT trong túi áo khoác, cảm nhận rõ nhịp đập cuồng loạn của trái tim đang đập thình thịch bên lồng ngực trái. Không có chỗ cho sự hoảng sợ lúc này; nếu do dự thêm một nhịp, thứ chờ đợi họ không chỉ là cái chết vật lý mà là sự xóa sổ vĩnh viễn khỏi ký ức nhân loại.
+
+# Nhịp Bùng Nổ & Hành Động: Đường Cùng Trước Miệng Vực
+
+Không chút do dự, Erik gầm lên một tiếng trầm đục, vung báng súng nện thẳng vào chiếc bàn gỗ đổ nghiêng để tạo ra một chiến lũy tạm thời. 
+- Maren, lùi lại! Hắn không phải Voss! 
+Sát cơ chợt lóe, Erik bóp cò liên tiếp hai phát đanh thép xuyên qua làn khói trắng. Viên đạn xé gió rít lên gầm thét, cắm phập vào khung cửa gỗ sát bên tai kẻ lạ mặt, tóe ra những tia lửa sáng lóa trong đêm tối. Thế nhưng, kẻ mang khuôn mặt của Daniel Voss không hề chớp mắt, khóe môi hắn nhếch lên một nụ cười lạnh lẽo, buông lỏng bàn tay để rơi chiếc đồng hồ bỏ túi bạc cổ xuống sàn. Kình khí cuộn trào từ cơ thể gã bùng nổ, một luồng áp lực vô hình như núi thái sơn đè nặng lên vai khiến đầu gối Erik khuỵu xuống. Maren không đứng nhìn; cô lao vụt lên từ góc khuất, bàn tay phải rút gọn con dao găm sắc lẹm, chém một đường hiểm hóc thẳng vào yết hầu đối phương. Cùng lúc đó, từ dưới miệng cống ngầm DRAIN-09, hàng chục cánh tay gầy guộc xương xẩu với lớp da tái xám bỗng chốc vươn lên, túm chặt lấy cổ chân của những kẻ đặc nhiệm đang áp sát từ phía sau, kéo tụt chúng vào vũng bùn đen ngòm trong tiếng thét hãi hùng.
+
+# Cliffhanger Hook
+
+Giữa khung cảnh hỗn loạn của máu và tiếng còi báo động xé rách màn đêm, bóng người mang kính gọng vàng khẽ đưa tay tháo lớp mặt nạ da người xuống, để lộ một gương mặt nhẵn nhụi không có lấy một đường nét, rồi cất giọng cười khô khốc vang vọng giữa không trung: "Các ngươi tưởng rằng tiêu diệt được Cốt lõi là sẽ tìm lại được quá khứ sao? Hãy nhìn kỹ lại đi... kẻ đứng sau tấm gương mới chính là người chưa từng tồn tại."
