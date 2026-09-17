@@ -1,0 +1,17 @@
+# Chương 89: Hơi Thở Của Kẻ Không Tồn Tại
+
+# Nhịp Không Khí: Vết Dầu Loang Trên Nền Gạch Và Mùi Gỉ Sắt
+
+Mùi ozone khét lẹt quyện lẫn với mùi tanh nồng của máu tươi xộc thẳng vào xoang mũi Maren Engel, cay xè và buốt nhói. Hơi nước bốc lên từ vũng bùn dưới chân đặc quánh một màu đỏ thẫm, lạnh ngớt như băng tan từ đáy biển sâu. Trong không gian vòm hầm B3 chật chội, tiếng rền rỉ của cỗ máy Cốt lõi Cộng hưởng phát ra thứ tần số 4.8 Hz trầm đục, rung lên bần bật qua từng lớp gạch lát sàn và truyền thẳng vào gan bàn chân, khiến răng mảng hàm của Maren va vào nhau lách cách. Ánh đèn dự phòng chập chờn hắt những vệt sáng vàng vọt, lập lòe lên bộ khung xương gầy guộc của Helmut Brandt và thân hình đổ gục của Lindqvist bên bệ điều khiển. Không khí đặc quánh đến mức mỗi nhịp thở hít vào đều mang theo vị mặn chát của muối khoáng và hơi lạnh thấu xương của một thế giới bị bỏ quên.
+
+# Nhịp Nút Thắt & Tâm Lý: Lời Thì Thầm Từ Phía Sau Gáy
+
+Cảm giác sống lưng lạnh toát lan dọc từ đốt sống cổ xuống tận gót chân khi bàn tay đeo găng trắng áp sát vào bả vai Maren. Tâm niệm của cô xoay chuyển như điện chớp, bản năng sinh tồn trỗi dậy mạnh mẽ kéo theo tiếng kêu gào của hệ thần kinh đang căng cứng. Không quay đầu lại, Maren nhào người về phía trước, tì khuỷu tay lên vũng nước lạnh giá để tránh điểm lực từ bàn tay kỳ lạ kia. Đôi mắt xám xanh sắc lạnh như dao cạo liếc qua khóe mắt, bắt gặp bóng dáng một kẻ đang đứng chìm trong làn sương mờ của đường cống ngầm. Đó không phải là Lindqvist, cũng chẳng phải bầy Vong thể vô hồn. Gã đàn ông mặc chiếc áo măng tô màu xám tro, gương mặt che khuất trong vành mũ phớt ẩm ướt, trên ngực gạt một chiếc huy hiệu cũ kỹ đã mờ chân dung từ thời Dự án Lethe năm 2004. Erik Solvang gầm lên một tiếng khàn đục từ vòm họng, bàn tay gân guốc buông thõng khẩu súng văng xuống bùn, vội vã lao người chắn ngang giữa Maren và kẻ vừa xuất hiện.
+
+# Nhịp Bùng Nổ & Hành Động: Đường Kiếm Trong Bóng Tối
+
+Kình khí bộc phát từ cú lao của Erik khiến mặt nước dưới chân bắn tung tóe thành hàng trăm giọt liti bay lơ lửng trong không trung. Gã đàn ông áo măng tô xám không hề lùi bước, ngón tay thon dài lạnh ngắt khẽ lướt qua mép áo lấy ra một vật thể sắc nhọn phản chiếu ánh đèn chập chờn. Đó là một đoạn ống tiêm chứa dung dịch màu lam sáng rực, thứ độc dược Lethe tinh chế từng cướp đi ký ức của hàng ngàn nạn nhân xấu số. Erik vung nắm đấm nặng như búa tạ nhắm thẳng vào lồng ngực gã ta, nhưng luồng kình phong chỉ xé rách lớp vải áo mỏng manh, xuyên qua thân hình đối phương như đánh vào màn sương đặc quánh không trọng lượng. Gã ta bật cười một tiếng khô khốc, giọng nói vang lên vọng lại từ vách đá ngầm nghe như tiếng vọng của chính tâm trí Erik: "Ngươi tìm kiếm một người vợ đã chết, Erik ạ, nhưng ngươi đâu biết rằng chính ngươi mới là kẻ chưa từng sinh ra." Cùng lúc ấy, Yuki Tanaka từ góc tường tối ngo ngoe bò dậy, bàn tay run rẩy ôm chặt cuốn sổ da đỏ XLVII, hét lớn cảnh báo khi thấy bóng đèn trần trên đầu bắt đầu nứt toác dưới áp lực của tần số cộng hưởng.
+
+# Cliffhanger Hook
+
+Màn hình chính của cỗ máy Cốt lõi Cộng hưởng chợt bừng sáng một vệt đỏ rực, hiển thị dòng chữ đếm ngược mười lăm giây cuối cùng trước khi tự hủy, đồng thời một tiếng gõ cửa khô khốc, đanh thép từ bên ngoài lớp cửa thép kín mít của buồng hầm B3 bỗng vang lên ba nhịp rõ rệt.

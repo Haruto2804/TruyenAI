@@ -1,0 +1,41 @@
+# Chương 84: Sương Lạnh Xé Tim, Huyết Mạch Phản Phệ
+
+Mùi hương ngọt ngào đến ngấy người vừa xộc thẳng vào khoang mũi mang theo thứ vị tanh tưởi của mủ hoại tử và hoa độc ngâm lâu ngày trong hầm tối, lập tức biến đổi bầu không khí tĩnh mịch thành một chiếc lồng ngạt thở. Nhiệt độ xung quanh sụt giảm đột ngột đến mức hơi thở phát ra khỏi lồng ngực hóa thành từng luồng sương đen đục ngầu, xoắn xuýt lấy nhau dưới chân như những con rắn nhỏ đang cuộn mình. Hàng vạn con trùng trắng nhỏ bé bám trên vách đá phát ra những tiếng lách cách đinh tai nhức óc, hàng loạt cái đầu nhọn hoắt đồng loạt ngẩng lên, hướng về phía trung tâm đại điện nơi hai bóng người đang đứng. Tiếng thứ âm thanh rợn tóc gáy ấy cào cấu vào màng nhĩ, khiến người ta có cảm giác như hàng ngàn chiếc kim độc đang châm chích vào từng thớ thịt trên da đầu.
+
+Tâm thần Ninh Huyền Dạ chấn động mạnh, một luồng hàn khí từ sống lưng xộc thẳng lên đỉnh đầu, đánh tan đi sự điềm tĩnh thường ngày. Tròng mắt hắn khẽ co rút lại khi nhìn thấy nụ cười quỷ dị đang nở rộ trên khóe môi Cố Thanh Tuyết, nơi sắc mặt nàng đã hoàn toàn tái nhợt và bị nhuộm một màu đỏ máu tanh tưởi. Vết thương nhỏ trên vai áo nơi con trùng trắng chui vào đang rỉ ra những giọt dịch đen ngòm, ăn mòn lớp sương tuyết hà y thành một cái lỗ lớn cháy xém. Cỗ linh lực tinh thuần mà hắn vừa truyền vào cơ thể nàng lúc nãy không những không thể trấn áp được độc tính, ngược lại còn như dầu đổ vào lửa, khiến dòng máu trong kinh mạch Cố Thanh Tuyết sôi sục và đảo chiều một cách điên cuồng.
+
+Ngươi không phải là Thanh Tuyết.
+
+Giọng nói của Ninh Huyền Dạ trầm xuống, lạnh lẽo thấu xương như băng ngàn năm dưới đáy vực, mang theo sát cơ ngút trời không chút che giấu. Hắn không chút do dự siết chặt bàn tay đang ôm lấy eo nàng, đồng thời vận chuyển Thái Sơ Thôn Thiên Quyết, tạo ra một lớp hắc quang sắc bén bao bọc lấy bàn tay để ngăn không cho thứ cổ trùng kia tiếp tục cắn nuốt huyết mạch của vị đại sư tỷ. Chân Lý Thần Nhãn trong đáy mắt quay cuồng với tốc độ cực hạn, bóc tách từng lớp hắc khí đang bám trụ trên người Cố Thanh Tuyết, vạch trần một thực tế tàn nhẫn: thứ đang điều khiển thân xác nàng lúc này không phải là tàn hồn của Mạc Vân Thiên, mà là một ý chí cổ xưa hơn nhiều đã ngủ quên từ thời viễn cổ bên dưới huyết trì.
+
+Cố Thanh Tuyết — hay chính xác hơn là thực thể đang mượn xác nàng — khẽ bật cười khúc khích. Âm thanh đó phát ra từ lồng ngực vị đại sư tỷ, nhưng lại mang theo hai tầng giọng nói chồng chéo lên nhau, một thanh lãnh trong trẻo của nữ nhân, một khàn đợt ghê rợn của ác quỷ viễn cổ. Nàng ngẩng đầu lên, đôi tròng mắt đỏ rực máu nhìn thẳng vào khuôn mặt tuấn dật của Ninh Huyền Dạ, khóe môi cong lên một đường cong quỷ dị đầy khiêu khích:
+
+Ninh Thiếu Chủ thông minh tuyệt đỉnh, nhưng lại quên mất một điều... nơi này chính là mộ phần mà thiên đạo đã chuẩn bị sẵn cho những kẻ muốn nghịch thiên. Thân thể Băng Tâm Kiếm Thể này vô cùng hoàn hảo, dùng để dung chứa phân thân của bổn tọa thì còn gì bằng? Cảm ơn ngươi đã dọn sạch lũ rác rưởi ngoài kia, để bổn tọa có thể đường hoàng bước vào đạo thể này mà không gặp chút trở ngại nào.
+
+Theo lời nói đó, cỗ uy áp khủng khiếp từ Phong Hầu cảnh đỉnh phong đột ngột bùng nổ từ cơ thể Cố Thanh Tuyết, hất văng Ninh Huyền Dạ ra xa năm trượng. Nàng đứng thẳng dậy giữa không trung, tay áo sương tuyết bay phần phật, nhưng xung quanh đã bị bao trùm bởi một tầng hắc khí dày đặc hình thành từ hàng ngàn con trùng trắng đang bay lượn như một đám mây độc. Băng kiếm trong vỏ của nàng tự động tuốt ra khỏi vỏ, phát ra những tiếng kêu rên thê lương, toàn thân kiếm bị nhuộm thành một màu đỏ ngầu của máu tươi và tà khí.
+
+Ninh Huyền Dạ lùi lại nửa bước, chân đạp mạnh xuống sàn đá để triệt tiêu cỗ xung lực vừa rồi. Sắc mặt hắn vẫn giữ nguyên vẻ thâm trầm lạnh lùng, nhưng trong lòng đã sớm dâng lên một ngọn lửa phẫn nộ cùng cực. Hắn không ngờ rằng sau khi đã tính toán từng đường đi nước bước, vượt qua cả cỗ chiến khôi lẫn tàn hồn của Mạc Vân Thiên, lại vẫn bị một cỗ ý chí nguyên thủy từ thời viễn cổ đánh lén vào thời điểm then chốt nhất. Nhìn người con gái đang đứng đối diện, ánh mắt vốn dĩ thanh lãnh nay đã hoàn toàn bị tà niệm xâm chiếm, hắn siết chặt bàn tay đến mức móng tay bấm sâu vào da thịt, rỉ ra một giọt máu tươi.
+
+Ngươi tưởng chiếm được thân xác này là có thể thoát khỏi lòng bàn tay ta sao?
+
+Ninh Huyền Dạ ngẩng đầu lên, khóe môi nhếch lên một nụ cười tàn nhẫn đến cực điểm. Hắn chậm rãi giơ tay phải lên, hắc quang từ lòng bàn tay bùng nổ, ngưng tụ thành một thanh trường kiếm dài ba thước mang theo uy lực thôn phệ vạn vật. Không đợi thực thể kia kịp ra tay, thân hình hắn đã biến thành một đạo tàn ảnh màu trắng xé rách không gian, lao thẳng về phía trước với tốc độ nhanh đến mức để lại những tiếng nổâm vang dội trong không khí.
+
+Keng!
+
+Một tiếng va chạm chói tai vang lên làm rung chuyển toàn bộ không gian ngầm. Băng kiếm trong tay Cố Thanh Tuyết vung lên, mang theo hàn khí buốt giá và huyết khí ngút trời chém trực diện vào hắc kiếm của Ninh Huyền Dạ. Sức mạnh của hai luồng kình khí va đập vào nhau tạo ra một làn sóng xung kích hình cầu màu đen đỏ, hất tung toàn bộ đống phế tích xung quanh thành bụi phấn mịn màng. Áp lực vô hình đè nặng lên ngực khiến không khí trong đại điện như đặc quánh lại, không gian xung quanh bắt đầu xuất hiện những vết nứt nhỏ li ti màu đen.
+
+Ngươi quá cuồng vọng rồi, Ninh Huyền Dạ! Thực thể trong thân xác Cố Thanh Tuyết thét lên một tiếng sắc nhọn, uy lực từ Băng Tâm Kiếm Thể được đẩy lên đến cực hạn, từng đợt sóng kiếm băng giá kết hợp với huyết trùng lao òa về phía Ninh Huyền Dạ như một cơn bão tuyết màu máu.
+
+Ninh Huyền Dạ không lùi mà tiến, Chân Lý Thần Nhãn xoay chuyển liên tục, bắt trọn từng sơ hở nhỏ nhất trong chuỗi chuyển động của đối thủ. Hắn lách người tránh đi đường kiếm chí mạng, cánh tay trái vung lên đánh ra một chưởng mang theo Thái Sơ Phá Thiên Ấn giáng thẳng vào ngực trái của Cố Thanh Tuyết — nơi con trùng chủ đang cắm rễ. Chưởng ấn vàng óng rực rỡ mang theo uy thế hoàng giả trực tiếp đánh nát lớp hắc khí phòng ngự, khiến thực thể bên trong phát ra một tiếng gầm thét đau đớn tột cùng.
+
+Khốn kiếp... Ngươi dám tổn thương đạo thể này!
+
+Thực thể kia hoảng hốt lùi lại, đôi tròng mắt đỏ rực tràn ngập vẻ kinh hoàng khi nhận ra cỗ linh lực bá đạo của Ninh Huyền Dạ đang trực tiếp xâm nhập vào kinh mạch, phong tỏa toàn bộ đường đi của cổ trùng. Nó muốn mượn thêm sức mạnh từ vách đá, nhưng toàn bộ hang động lúc này đã bị Thái Sơ Thôn Thiên Quyết của Ninh Huyền Dạ phủ kín, không còn một chút nguyên khí nào để dung nạp.
+
+Ninh Huyền Dạ bước từng bước chắc nịch tiến lại gần, ánh mắt thâm trầm nhìn chằm chằm vào khuôn mặt đang giãy giụa của Cố Thanh Tuyết, giọng nói lạnh lùng vang lên như phán quyết tử hình: Đạo thể của nàng, chỉ có ta mới có quyền định đoạt. Ngươi bất quá chỉ là một con trùng rác rưởi dám mượn xác hoàn hồn, cút ra cho ta!
+
+Hắn tung người bay vút lên không trung, hai tay kết ấn phức tạp, một cỗ hắc kim thần quang từ đỉnh đầu chiếu rọi thẳng xuống đỉnh đầu Cố Thanh Tuyết, ép chặt toàn bộ tà khí và huyết trùng vào sâu trong đan điền rồi từ từ bóc tách chúng ra ngoài. Thực thể kia gào thét thê lương trong vô vọng, thân xác Cố Thanh Tuyết run lên bần bật, từng giọt mồ hôi lạnh túa ra ướt đẫm tấm lưng áo sương tuyết. 
+
+Đúng lúc cỗ hắc kim thần quang sắp sửa tiêu diệt hoàn toàn con trùng chủ, một âm thanh kỳ lạ bỗng nhiên vang lên từ phía sâu thẳm bên dưới vách đá — nơi chiếc hộp ngọc cổ xưa mà Ninh Huyền Dạ vừa nhặt lên đang đặt trong không gian giới chỉ. Nắp hộp ngọc tự động bật mở, một tia sáng màu tím đen kỳ dị vụt bay ra ngoài, xuyên thủng lớp phòng ngự bằng hắc quang của Ninh Huyền Dạ và cắm thẳng vào lồng ngực của chính hắn.
+
+Ninh Huyền Dạ khẽ biến sắc, cúi đầu nhìn xuống ngực áo nơi tia sáng tím đen vừa biến mất. Sắc mặt hắn trong chớp mắt chuyển sang màu tím thẫm, một ngụm máu tươi đen kịt trào ra khỏi khóe môi. Từ bên trong chiếc hộp ngọc dưới đất, một tiếng thở dài tang thương từ thời viễn cổ vang lên bên tai hắn, kèm theo một câu thì thầm lạnh buốt thấu xương: Cảm ơn ngươi đã mở phong ấn... vị cứu tinh tiếp theo của bổn tọa.

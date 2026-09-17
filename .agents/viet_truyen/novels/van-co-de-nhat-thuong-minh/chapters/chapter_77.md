@@ -1,0 +1,25 @@
+# Chương 77: Cục Sát Cục, Tương Phùng Vực Sâu
+
+# Nhịp 1: Không Khí (Atmosphere)
+
+Đóa hỏa diễm màu đen vừa bùng nổ trên bầu trời đêm lập tức biến thành một tầng màn sáng u ám, nuốt chửng toàn bộ ánh sáng lạnh lẽo của vầng trăng khuyết trên đỉnh Hắc Nham Hẻm. Không gian đột ngột chìm vào một thứ tĩnh lặng rợn người, thứ âm thanh gầm rú của gió bão tuyết lúc trước dường như bị bóp nghẹt bởi một loại áp lực vô hình từ sâu dưới lòng đất dội ngược lên. Mùi máu tươi và nội tạng ngập ngụa dưới chân giờ đây quyện lẫn với thứ mùi hắc ín cay nồng xộc thẳng vào xoang mũi, khiến lồng ngực của bất kỳ kẻ nào hít thở phải nhói đau như bị dao cứa. Nhiệt độ xung quanh sụt giảm đến mức đóng băng ngay cả hơi thở, những giọt máu từ vết thương trên vai Cố Trường Khanh vừa rỉ ra đã lập tức ngưng kết thành những hạt châu băng đỏ sẫm rơi lách cách xuống phiến đá. Từ dưới vực sâu vạn trượng, một thứ âm thanh rền vang tựa như tiếng dã thú hoang dã cào xé vách đá vọng lên, mang theo hơi thở âm hàn chết chóc bủa vây tứ phía. Ánh sáng từ những ngọn đuốc lụi tàn hắt lên những gương mặt tái nhợt, kinh hãi của đám sát thủ Vạn Kim Thương Hội, trong khi bóng tối từ năm hướng bốn bề bắt đầu dịch chuyển, ép sát dần vào trung tâm vòng vây.
+
+# Nhịp 2: Tâm Lý (Tension & Inner Voice)
+
+Đồng tử Cố Trường Khanh co rút lại đến tận cùng, tâm thần chấn động mạnh mẽ khi nhận ra cái bẫy giăng sẵn này không chỉ nhắm vào một mình hắn hay phân hội của Vương Chấn Thiên. Tâm niệm trong đầu hắn xoay chuyển như điện chớp, phân tích từng góc độ của chiến cục và đối chiếu với bản đồ địa hình Hắc Nham Hẻm trong ký ức. Tên cẩm bào vừa rồi cố ý để lộ sơ hở không phải do yếu kém, mà là mồi nhử dụ bọn hắn lao vào điểm mù của trận pháp giấu kín dưới đáy vực! Cảm giác nguy hiểm chí mạng từ Chiến Thần Đạo Nhãn truyền đến liên tục, cảnh báo một đòn tấn công hủy diệt đang sắp sửa ập xuống từ góc độ mù của thị giác. Đứng bên cạnh, Thẩm Lạc Cẩm sắc mặt trắng bệch không còn chút máu, ngón tay ngọc ngà run rẩy lướt trên Bàn Tính Bạch Ngọc Cửu Cung, âm thanh hạt bàn tính va chạm lách cách vang lên dồn dập như tiếng đếm ngược của tử thần. Nàng cắn chặt môi đến mức rỉ máu, giọng nói khàn đặc cất lên mang theo sự kiên định lạnh lùng: "Không phải Thiên Cương Tru Ma Trận... Đây là Cửu U Phệ Hồn Đại Trận đã thất truyền từ ngàn năm trước! Mục đích của chúng là luyện hóa toàn bộ sinh khí nơi này để mở thông đạo!" Trong khi đó, Vương Chấn Thiên trợn tròn đôi mắt vằn vện tơ máu, lão ta cuối cùng cũng bừng tỉnh nhận ra mình chỉ là một con cờ bị vứt bỏ trong ván cờ lớn của kẻ đứng sau màn, sự phẫn nộ ngập tràn lồng ngực nhưng bị đè bẹp hoàn toàn bởi nỗi sợ hãi tột cùng trước cái chết đang kề cận.
+
+# Nhịp 3: Hành Động & Climax (Action & Climax)
+
+Không đợi đối thủ kịp định thần, hàng chục bóng đen từ dưới vực sâu lao vút lên như những con dơi hút máu, trên tay cầm trường thương mang theo hắc khí cuồn cuộn đâm thẳng về phía trung tâm. Kẻ cẩm bào cười lớn một tiếng cuồng loạn, thân hình hòa vào làn sương đen, tay cầm cổ kiếm chém ra một đường kiếm khí sắc lạnh xé toạc bầu trời đêm, nhắm thẳng vào đầu Cố Trường Khanh. 
+
+Keng!
+
+Xích Tiêu Long Kiếm gầm lên một tiếng thê thiết, hỏa diễm màu đỏ rực bùng phát từ chuôi kiếm cản lại nhát chém kinh hoàng, va chạm tạo ra một vòng tròn sóng xung kích hất văng đá vụn xung quanh thành bột mịn. Cố Trường Khanh quát thấu một tiếng, đan điền chấn động mạnh mẽ, Thao Thiết Thôn Kim Quyết vận dụng toàn lực đốt cháy sạch sẽ số linh thạch còn sót lại trong trữ vật giới chỉ, biến thành một cỗ năng lượng cuồng bạo xung kích ngược trở lại khiến kẻ cẩm bào phải lùi lại nửa bước trong kinh ngạc. 
+
+Bùm!
+
+Thẩm Lạc Cẩm vung tay ném mạnh Bàn Tính Bạch Ngọc Cửu Cung xuống đất, tám viên ngọc sáng rực phóng ra tám đạo băng trùy lạnh lẽo đâm xuyên qua ngực một tên sát thủ đang lao tới cứu viện, máu tươi bắn tung tóe lên vách đá lạnh lẽo. Vương Chấn Thiên thấy đường cùng đành cắn răng gầm lên, tung ra toàn bộ Kim Đan tu vi đánh một chưởng cản trở đội hình sát thủ phía đông, hòng tranh thủ một tia sinh cơ trốn thoát khỏi miệng vực. Toàn bộ hẻm núi biến thành một lò sát sinh đẫm máu, tiếng kình khí nổ tung đùng đoàng, tiếng gầm thét và tiếng xương cốt gãy vụn hòa lẫn vào nhau trong tiếng gió rét gào thét.
+
+# Nhịp Kịch Tính Cuối (Cliffhanger Hook)
+
+Ngay giữa lúc huyết chiến dâng cao đến cực điểm, một tiếng phất tay áo nhẹ nhàng vang lên từ bóng tối dày đặc phía trên vách đá cao nhất, kèm theo tiếng cười lạnh thấu xương của một kẻ từ lâu đã mai danh ẩn tích. Một bóng người mặc đạo bào rách rưới chậm rãi bước ra mép vực, ngón tay điểm nhẹ một trượng ánh sáng vàng óng xuống trung tâm trận pháp, lập tức khóa chặt toàn bộ đường lui của Cố Trường Khanh và Thẩm Lạc Cẩm. Ánh mắt kẻ mới đến sắc như dao cau lướt qua gương mặt đang co giật vì kinh hãi của Vương Chấn Thiên, rồi dừng lại ở Cố Trường Khanh với một nụ cười tàn nhẫn: "Cố thiếu chủ, trò chơi trốn tìm đến đây là kết thúc, giao chiếc nhẫn trữ vật và nguyên thần của ngươi ra đây!"
