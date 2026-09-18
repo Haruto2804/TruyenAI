@@ -1,0 +1,17 @@
+# Chương 92: Bóng Ma Trong Tấm Gương Vỡ
+
+# Nhịp Không Khí: Lạnh Buốt Xương Tủy Và Tiếng Thở Dốc Giữa Hư Vô
+
+Hơi lạnh từ buồng chân không B3 phả thẳng vào gò má Maren Engel như những chiếc kim băng đâm xuyên qua từng thớ thịt. Không gian đặc quánh mùi ozone khét lẹt từ các bảng mạch điện tử bị thiêu rụi, hòa quyện với vị tanh nồng của máu tươi và mùi ẩm mốc của bùn đất đại dương rỉ qua các khe nứt chân tường. Ánh đèn đỏ chập chờn từ hệ thống báo động quá tải hắt lên trần vòm những vệt loang lổ như vết máu khô. Tiếng rít chói tai của cỗ máy Cốt lõi Cộng hưởng ở tần số 4.8 Hz vẫn đè nặng lên màng nhĩ, tạo ra một thứ áp lực vô hình khiến lồng ngực muốn nổ tung. Giữa nền bê tông vỡ vụn, bóng người vừa tóm lấy cổ tay Maren đứng bất động như một bức tượng sáp chết trôi, không tỏa ra bất kỳ thân nhiệt nào ngoài một sự buốt giá cắt da cắt thịt. Yuki Tanaka ngồi sụp dưới góc phòng, đôi tay run rẩy ôm chặt cuốn sổ da đỏ XLVII, mắt trân trân nhìn khoảng không gian phía trước nơi lẽ ra không nên có sự hiện diện của kẻ thứ tư.
+
+# Nhịp Nút Thắt & Tâm Lý: Sự Sụp Đổ Của Thực Tại Và Nỗi Kinh Hoàng Từ Ký ức
+
+Tâm niệm Maren xoay chuyển hỗn loạn như một cơn bão tuyết xé rách màn đêm. Cô chậm rãi quay đầu lại, đập vào mắt là gương mặt nhợt nhạt đến vô huyết của một người đáng lẽ đã chìm sâu dưới đáy biển Ashford từ hai mươi năm trước. Đôi mắt xám xanh mở trừng trừng, đồng tử co rút lại đến cực điểm khi nhận ra đường nét quen thuộc ấy không phải của Lindqvist, cũng chẳng phải của bất kỳ kẻ thù sống bằng xương bằng thịt nào. Đó là một bản sao hoàn hảo đến gai người của chính cô, nhưng đôi mắt hoàn toàn vô hồn và khoác trên mình chiếc áo blouse trắng dính đầy dung dịch Lethe đặc quánh. Cảm giác bất an tột độ bóp nghẹt từng nhịp đập, hất tung mọi phán đoán logic mà cô dày công xây dựng. Có phải nhận thức của cô đã bị sóng Lethe bóp méo đến mức tạo ra ảo giác? Hay thực thể trước mặt chính là hiện thân của Mẫu vật số Không nguyên bản mà Dự án Lethe đã giấu kín dưới tầng hầm sâu nhất? Trong khoảnh khắc ấy, ranh giới giữa thực tại và ký ức bị xóa nhòa hoàn toàn, để lại một khoảng trống rợn ngợp của sự lãng quên vĩnh hằng.
+
+# Nhịp Bùng Nổ & Hành Động: Đòn Phản Công Xé Rách Bóng Tối Và Tiếng Gào Thét
+
+Không chút do dự, dồn toàn bộ sức lực còn lại vào cơ bắp đang run lên vì mất máu, Maren giật mạnh cổ tay thoát khỏi bàn tay lạnh ngắt như băng giá, đồng thời xoay người thúc trọn cùi chỏ vào lồng ngực kẻ giả dạng. Một tiếng động khô khốc vang lên như va đập vào tảng đá ngầm, lực phản chấn khiến cánh tay cô tê dại đến tận xương sống. Kẻ đó không lùi lại một bước, khóe miệng nhếch lên một nụ cười quái dị, đôi môi mỏng nhạt màu động đậy không thành tiếng: "Mày không thể tiêu diệt một bóng ma bằng da thịt." Ngay lập tức, từ phía sau đống đổ nát, Thanh tra Lindqvist lảo đảo đứng dậy, khẩu súng trong tay hắn giơ lên run rẩy nhưng ánh mắt lại chứa đựng sự kinh hoàng tột độ khi nhìn thấy bóng người thứ tư xuất hiện trong phòng kín. Yuki Tanaka hét lên một tiếng xé rách cổ họng, vung cuốn sổ da đỏ chói về phía cỗ máy cộng hưởng đang gầm rú, kích hoạt tầng số đối kháng nhằm phá vỡ vòng vây nhận thức đang bủa vây lấy không gian chật hẹp này.
+
+# Cliffhanger Hook
+
+Giữa tiếng còi báo động réo rắt và ánh sáng trắng lóa bùng lên từ cỗ máy, một bàn tay gầy guộc lạnh ngắt từ bóng tối phía sau lưng Yuki đột ngột vươn tới, áp chặt lên miệng cô trước khi một giọng nói khàn đặc vang lên sát tai: "Đừng mở trang cuối... nếu cô không muốn quên mất lý do vì sao mình có mặt ở đây."

@@ -1,0 +1,17 @@
+# Chương 91: Tiếng Gầm Từ Vực Sâu Lethe
+
+# Nhịp Không Khí: Tiếng Gầm Của Đống Đổ Nát Và Mùi Bùn Tươi Mới
+
+Khối bê tông cốt thép nặng hàng trăm cân đổ ập xuống, đè nghiến lên đôi chân và phần hông của Erik Solvang trong một âm thanh khô khốc rợn người của xương cốt gãy vụn. Không khí trong hầm B3 lúc này đặc quánh vị mặn chát của máu tươi, hơi nước ngưng tụ lạnh buốt phả vào gò má và mùi khét lẹt của các mạch điện chập chờn tóe lửa xanh lét. Ánh đèn đỏ rực từ bảng điều khiển trung tâm nhấp nháy liên hồi, hắt những vệt sáng ma quái lên vách đá ngầm ẩm ướt rêu phong. Tiếng rít chói tai của cỗ máy Cốt lõi Cộng hưởng ở tần số 4.8 Hz xuyên thủng màng nhĩ, khiến người ta có cảm giác như sọ não sắp bị xé toạc thành từng mảnh nhỏ. Những giọt nước mưa rỉ qua các khe nứt trên trần vòm nhỏ giọt tí tách xuống vũng máu loang lổ, hòa cùng tiếng thở dốc hụt hơi, đứt quãng của Maren Engel đang quỳ sụp bên đống đổ nát. 
+
+# Nhịp Nút Thắt & Tâm Lý: Độc Thoại Nội Tâm Và Sự Đổ Vỡ Của Định Mệnh
+
+Tâm niệm của Maren xoay chuyển như điện chớp, một luồng khí lạnh ngắt xộc thẳng từ sống lưng lên đỉnh đầu, làm tê liệt toàn bộ các giác quan vốn sắc bén của cô. Đôi mắt xám xanh mở trừng trừng, đồng tử co rút lại khi nhìn thấy bàn tay chai sần của Erik đang với lên khoảng không trống rỗng, những ngón tay run rẩy cố gắng chạm vào chiếc nhẫn cưới bạc trên ngón áp út trước khi buông thõng xuống sàn. Cảm giác bất an tột độ bóp nghẹt lồng ngực cô, biến thành một thứ áp lực vô hình nặng như núi đè xuống từng thớ thịt. Có phải đây là cái kết cho tất cả? Có phải hai mươi năm truy tìm chân tướng chỉ để dẫn đến nấm mồ ẩm thấp này nơi đáy biển Ashford? Ở góc phòng, Yuki Tanaka ôm chặt cuốn sổ da đỏ XLVII vào ngực, đôi môi mỏng cắn chặt đến mức rỉ máu tươi, cơ thể run lập cập không kiểm soát được. Không ai nói với ai một lời nào, bởi trong không gian đặc quánh mùi tử khí này, mọi ngôn từ đều trở nên thừa thãi trước sự tàn khốc của Hiệu ứng Lethe đang lan rộng từng giây.
+
+# Nhịp Bùng Nổ & Hành Động: Đòn Phản Công Và Huyết Sát Tại Cửa Hầm
+
+Gầm lên một tiếng xé rách cổ họng, Maren bỏ mặc vết thương rách toác ở bả vai đang phun máu trào ra đẫm ướt chiếc trench coat đen, cô điên cuồng dùng hai bàn tay trần bới tung những khối bê tông sắc nhọn. Móng tay cô bật gốc, máu tươi đầm đìa bám vào những viên đá dăm nham nhở nhưng cô không hề cảm thấy đau đớn. Từ làn sương mù mờ ảo phía sau cánh cửa thép bị phá nát, bóng dáng Thanh tra Lindqvist xuất hiện sừng sững trong bộ đồng phục cảnh sát đẫm nước mưa, tay hắn lăm lăm khẩu súng lục nòng dài bốc khói ngút ngàn. Gã cười lạnh một tiếng, khóe miệng giật giật đầy vẻ ngạo mạn của kẻ nắm giữ toàn bộ ván cờ, đoạn chĩa thẳng nòng súng vào đầu Yuki Tanaka đang ngồi chết trân dưới sàn. Không chút do dự, Maren xoay người tung một cước ngang cực kỳ hiểm độc vào cổ tay Lindqvist, đồng thời vung mảnh vỡ thủy tinh sắc bén nhắm thẳng vào cuống họng hắn nhằm đoạt mạng trong chớp mắt.
+
+# Cliffhanger Hook
+
+Lưỡi thủy tinh vừa cách yết hầu Lindqvist nửa tấc thì khựng lại giữa không trung bởi một bàn tay lạnh ngắt như xác chết từ phía sau túm chặt lấy cổ tay Maren, trong khi một giọng nói quen thuộc đến gai người thì thầm sát tai cô: "Đừng phí sức, đứa con gái ngoan... Mày không thể giết một kẻ chưa từng tồn tại."
