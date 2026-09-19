@@ -1,0 +1,19 @@
+# Chương 88: Xích Tiêu Phá Trận, Sát Khối Giữa Màn Đêm
+
+Tiếng gió lùa qua những mỏm đá tai mèo ở miệng vực Cửu U bỗng chốc rít lên từng hồi sắc nhọn như tiếng dao cau cứa vào da thịt. Mùi máu tươi tanh tưởi hòa quyện cùng cái lạnh cắt da cắt thịt của sương mù âm tà bốc lên nồng nặc, quấn chặt lấy từng thớ cơ đang căng cứng của Cố Trường Khanh. Dưới chân hắn, lớp tuyết trắng xóa đã bị nhuốm một màu đen kịt bởi dòng máu độc rỉ ra từ vết thương của kẻ vừa bị chém đứt gân tay. Áp lực linh áp từ cảnh giới Trúc Cơ kỳ đỉnh phong của lão giả gầy gò đè nặng xuống như một ngọn núi vô hình, khiến không khí xung quanh trở nên đặc quánh, nặng nề đến mức hô hấp cũng trở thành một thứ xa xỉ.
+
+Tâm niệm Cố Trường Khanh xoay chuyển chớp nhoáng như điện chớp, chiến thần đạo nhãn trong đáy mắt lóe lên những tia kim quang sắc lạnh. Hắn nhìn thấu từng đường chuyển động của luồng kình khí đang cuộn trào trong đan điền đối phương, nhận ra điểm yếu chí mạng nằm ngay huyệt Khí Hải đang hơi hở ra sau mỗi nhịp thở dốc của lão giả. Thẩm Lạc Cẩm đứng bên cạnh hắn, hô hấp tuy có phần hỗn loạn vì hàn độc trong cơ thể đang cắn xé, nhưng đôi mắt hồ ly ma mị vẫn lóe lên thứ ánh sáng sắc bén của một kẻ thống soái chiến trường. Ngón tay thon dài của nàng siết chặt lấy Bàn Tính Bạch Ngọc Cửu Cung, những hạt châu ngọc phát ra thứ ánh sáng lam nhạt lạnh lẽo, sẵn sàng bủa vây kẻ thù bất cứ lúc nào.
+
+Kẻ không biết sống chết! Lão giả gầy gò thét lên một tiếng giận dữ, bàn tay khô khốc vung lên, một luồng hắc vụ cuồn cuộn hóa thành hình thù của những con quỷ trảo sắc bén lao thẳng về phía đầu gối Cố Trường Khanh nhằm phế đi hạ bàn của hắn. Đồng thời, đám tay chân Vạn Kim Thương Hội phía sau đồng loạt hô lớn, loan đao chém xuống rợp trời, tạo thành một bức tường đao quang chằng chịt bủa vây tứ phía.
+
+Cố Trường Khanh không lùi mà tiến, khóe môi nhếch lên một nụ cười giễu cợt đẫm máu tanh. Xích Tiêu Long Kiếm trong tay hắn bỗng bùng lên một ngọn lửa màu đỏ rực, tiếng long ngâm trầm đục vang vọng từ lưỡi kiếm cổ gỉ sét, đánh tan hoàn toàn lớp hắc vụ đang ập tới. Hắn gầm lên một tiếng, toàn thân bùng phát cỗ lực đạo cuồng bạo được nung nấu từ Thao Thiết Thôn Kim Quyết, chân phải đạp mạnh xuống đất làm văng tung tóe những tảng đá lớn.
+
+Xoẹt!
+
+Kiếm quang xé rách màn đêm, rực rỡ và tàn nhẫn như một vệt sao băng lao thẳng vào giữa đội hình kẻ địch. Đòn tấn công của Cố Trường Khanh không hề hoa mỹ nhưng mang theo sức nặng ngàn cân của sự sinh tử, chém trực diện vào quỹ đạo đao quang của đám thủ hạ. Âm thanh kim loại va chạm đanh thép vang lên chói tai, kèm theo tiếng xương gãy giòn giã và tiếng thét thảm thiết xé rách bầu không khí tĩnh mịch của biên ải.
+
+Đám tay chân Vạn Kim Thương Hội trợn trừng mắt, đồng tử co rút lại khi nhìn thấy lưỡi kiếm đỏ rực xuyên qua lớp hộ thể chân nguyên của đồng bọn như cắt đậu hũ. Máu tươi bắn tung tóe lên những vách đá lạnh ngắt, nhuộm đỏ cả một vùng tuyết trắng. Lão giả gầy gò biến sắc mặt, lão không thể ngờ một kẻ vừa rơi xuống vực sâu và cạn kiệt chân nguyên như Cố Trường Khanh lại có thể bộc phát ra cỗ chiến lực đáng sợ đến thế.
+
+Muốn chết! Lão giả gầm thét, tung người bay lên không trung, dồn toàn bộ linh lực của Trúc Cơ đỉnh phong vào bàn tay phải, tạo thành một trảo kình khổng lồ mang theo sức mạnh hủy diệt giáng thẳng xuống đỉnh đầu Cố Trường Khanh.
+
+Đúng lúc đó, từ phía sau lưng đám tay chân Vạn Kim Thương Hội, tiếng bước chân bất ngờ vang lên chậm rãi và đều đặn, phá tan âm thanh hỗn loạn của chiến cục. Kẻ vừa xuất hiện không hề vội vã ra tay, mà đứng đó dưới ánh trăng mờ ảo, khóe môi nhếch lên một nụ cười quỷ dị đầy ẩn ý. Ánh mắt hắn ta lướt qua thi thể đầy máu dưới đất, rồi dừng lại trên bóng dáng kiêu hãnh của Thẩm Lạc Cẩm, cất lên một giọng nói lạnh buốt thấu xương.
