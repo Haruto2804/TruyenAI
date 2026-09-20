@@ -1,0 +1,39 @@
+# Chương 91: Tiếng Vỗ Tay Dưới Vực Sâu, Sát Cơ Giấu Lệ
+
+Gió vực Cửu U rít gào từng hồi qua những khe đá dựng đứng như đao kiếm, mang theo cái lạnh thấu xương cắt vào da thịt và mùi tanh nồng nặc của máu tươi vừa đổ xuống. Tiếng vỗ tay lanh lảnh, đều đặn vang lên từ bóng tối mịt mờ phía dưới vực thẳm, mỗi một tiếng vang lên lại giống như một tiếng búa tạ giáng thẳng vào lồng ngực, khiến không gian xung quanh như đặc quánh lại dưới một tầng áp lực vô hình. Giọng nói già nua, khàn đợt nhưng đầy uy lực vang vọng như tiếng chuông đồng rền vang giữa đêm đen, mang theo sát ý lạnh buốt thấu tận tâm can.
+
+Cố Trường Khanh không hề quay đầu lại ngay. Đồng tử của hắn co rút lại, Chiến Thần Đạo Nhãn trong phút chốc vận chuyển đến cực hạn, xuyên thủng lớp sương mù dày đặc đang cuồn cuộn cuộn trào bên dưới vách núi. Trong tầm mắt của hắn, một bóng người cao gầy đang đứng lặng lẽ trên một mỏm đá chênh vênh cách đó ba mươi trượng. Lão ta mặc một bộ cẩm bào thêu hình đầu lâu bằng chỉ bạc, hai tay chắp sau lưng, ánh mắt đục ngầu nhưng sắc bén như diều hâu đang găm chặt vào hai người bọn họ. Hơi thở của kẻ này hòa quyện hoàn toàn vào dòng linh khí hỗn loạn của vực sâu, nếu không tận mắt nhìn thấy, người ta hoàn toàn có thể lầm tưởng đó chỉ là một khối đá vô tri.
+
+Tâm niệm Cố Trường Khanh xoay chuyển như điện chớp, tay phải siết chặt đốc Xích Tiêu Long Kiếm, cảm nhận rõ luồng Long Hồn hỏa diễm đang khẽ rung lên bần bật trong thân kiếm gỉ sét như muốn thoát ra gầm thét. Hắn hít sâu một hơi, vị ngọt tanh của máu tươi xộc thẳng vào cuống họng, kích thích toàn bộ giác quan trở nên nhạy bén đến cực điểm. Tiếng đá vụn lăn lóc từ vách núi rơi xuống vực sâu phát ra âm thanh lạo xạo khô khốc, hòa lẫn với tiếng thở dốc nặng nhọc của chính mình.
+
+Thẩm Lạc Cẩm bước lên nửa bước, tà áo màu tuyết điểm xuyết hoa mai khẽ phất phơ trong cuồng phong. Bàn tính bạch ngọc trong tay nàng ngừng xoay chuyển, ngón tay thon dài siết chặt lấy viên ngọc châu trung tâm, ánh mắt hồ ly lạnh lùng đảo qua bóng người trên mỏm đá. Giọng nàng vang lên, bình thản nhưng sắc bén như băng đao: Vạn Kim Thương Hội quả thực hào phóng, phế đi một đám sát thủ vô dụng ở Hắc Thị, lại sai đến một vị Trưởng lão hắc bào cấp bậc Nguyên Anh kỳ thế này cơ à? Lạc Xương Thiên, xem ra Vương Chấn Thiên đã ngồi không yên rồi nên mới phải đích thân phái ngươi đến đây nhặt xác cho đám chó hoang của hắn sao?
+
+Lão già mặc cẩm bào thêu đầu lâu khẽ giật mình, khóe môi nhếch lên một nụ cười quái dị lộ ra hàm răng vàng ố. Lão bước lên một bước, thân hình lập tức biến ảo thành một đạo tàn ảnh màu xám, lướt qua khoảng không gian trống rỗng rồi xuất hiện cách hai người chỉ vỏn vẹn mười trượng. Huyết áp đè nặng từ tu vi Nguyên Anh sơ kỳ cuồn cuộn ép xuống, khiến mặt tuyết dưới chân Cố Trường Khanh và Thẩm Lạc Cẩm lập tức lõm sâu xuống một vòng tròn lớn, băng tuyết chung quanh hóa thành bột mịn bay tung tóe.
+
+Hảo một nữ nhân mồm miệng lanh lợi, chẳng trách dám ở Hắc Nham Thành quậy cho thiên hạ đại loạn, tung ra thứ tiền giấy linh phiếu quái quỷ gì đó để cướp đi một nửa thị phần tài chính của Vạn Kim Thương Hội chúng ta. Lão già gọi là Lạc Xương Thiên cười lạnh, ánh mắt dơ bẩn đảo qua khuôn mặt tuyệt mỹ của Thẩm Lạc Cẩm rồi dừng lại trên người Cố Trường Khanh, giọng điệu mang theo sự khinh miệt tột cùng: Còn ngươi, Cố Trường Khanh, một tên phế vật bị hủy đan điền, không ngờ lại dùng tà thuật gì để một kiếm chém chết Phàm XKốt. Đáng tiếc, trò hề của các ngươi hôm nay đến đây là kết thúc.
+
+Áp lực linh khí vô hình cuồn trào như sóng thần, không khí xung quanh dường như bị rút cạn khiến lồng ngực đau tức khó thở. Cố Trường Khanh nhíu mày, cảm nhận rõ ràng chênh lệch cảnh giới quá lớn giữa bản thân và một lão già Nguyên Anh kỳ. Kinh mạch trong cơ thể đang gào thét dưới sức ép của Thao Thiết Thôn Kim Quyết, hắn khẽ chuyển động cổ tay, ra hiệu cho Thẩm Lạc Cẩm lùi lại phía sau. Trận chiến này không thể dùng mưu kế đơn thuần để giải quyết, đối phương đã trải qua trăm trận sống mái, sơ hở rất ít.
+
+Ngươi nói nhiều quá. Cố Trường Khanh đột nhiên cất lời, giọng nói trầm ấm nhưng lạnh lùng thấu xương, không một chút sợ hãi. Hắn bước lên chắn ngang trước mặt Thẩm Lạc Cẩm, mũi kiếm Xích Tiêu chỉ thẳng mặt Lạc Xương Thiên, sát khí bùng nổ không chút che giấu. Cò kè mặc cả ở thương trường chưa đủ, lại muốn đến đây bán mạng ở vách núi này sao?
+
+Lạc Xương Thiên cười gằn, ánh mắt lóe lên một tia độc ác: Cuồng vọng! Để ta xem miệng ngươi cứng được đến bao lâu!
+
+Hắn ta đột ngột giơ tay phải lên, năm ngón tay quắp lại thành trảo, một luồng hắc khí u ám từ lòng bàn tay bùng phát hóa thành một con quỷ trảo khổng lồ xé rách không khí lao thẳng về phía Cố Trường Khanh. Kình phong sắc nhọn phát ra tiếng réo rắt đinh tai nhức óc, mang theo uy thế hủy thiên diệt địa của cường giả Nguyên Anh kỳ. Nhiệt độ xung quanh bỗng chốc hạ xuống băng điểm, những giọt mồ hôi lạnh túa ra trên trán Cố Trường Khanh chưa kịp rơi xuống đã bị đông cứng thành những hạt băng nhỏ li ti.
+
+Đồng tử Cố Trường Khanh co rút lại đến cực hạn, trong khoảnh khắc ngàn cân treo sợi tóc đó, Chiến Thần Đạo Nhãn bỗng nhiên lóe lên một thứ ánh sáng kim sắc chói lọi. Từng đường đi nước bước của con quỷ trảo, quỹ đạo lưu chuyển của linh khí trong không trung, thậm chí là ba điểm yếu chí mạng nằm ở cổ tay và khuỷu tay của Lạc Xương Thiên hiện lên rõ mồn một trong tâm trí hắn như một bản đồ giải phẫu sống động. 
+
+Tâm niệm vận hành Thao Thiết Thôn Kim Quyết, hàng vạn viên hạ phẩm linh thạch trong trữ vật đại đồng loạt chấn động, hóa thành một dòng lũ năng lượng thuần khiết điên cuồng rót vào đan điền, bùng nổ ra một cỗ lực chiến cuồng bạo vượt qua giới hạn cảnh giới hiện tại. 
+
+Xoẹt!
+
+Cố Trường Khanh không lùi mà tiến, thân hình hóa thành một đạo xích ảnh lao vút lên như rồng lượn. Xích Tiêu Long Kiếm trong tay bùng cháy thứ ngọn lửa đỏ rực rỡ như nham thạch, mang theo tiếng long ngâm chấn động đất trời chém thẳng vào kình phong đen nhánh của đối phương. Một tiếng nổ đinh tai nhức óc vang lên, sóng xung kích cuồn cuộn hất văng băng tuyết xung quanh bay lên cao thành một bức tường mịt mờ.
+
+Thẩm Lạc Cẩm đứng ở phía sau, sắc mặt tái nhợt nhưng ánh mắt vô cùng kiên định. Nàng vung tay ném mạnh bàn tính bạch ngọc lên không trung, chín viên ngọc châu bắn ra tạo thành một đạo quang trướng băng lãnh bao bọc lấy xung quanh, phong tỏa hoàn toàn đường lui của Lạc Xương Thiên, đồng thời âm thầm tính toán sơ hở trong trận pháp phòng thủ của lão.
+
+Lạc Xương Thiên biến sắc mặt, lão không thể ngờ một tiểu tử Trúc Cơ kỳ lại có thể bộc phát ra một đòn tấn công uy lực khủng bố đến thế, trực tiếp chém vỡ con quỷ trảo hắc ám của hắn thành hàng vạn mảnh vụn linh khí tiêu tan vào hư không. Hắn lùi lại nửa bước, trong lòng dâng lên một nỗi bất an kỳ lạ. Nhưng chưa kịp để lão hoàn hồn, một luồng kiếm khí thứ hai sắc bén hơn, lạnh lẽo hơn đã từ trong làn khói mù xé gió chém thẳng tới cổ họng.
+
+Kiếm quang lóe lên, máu tươi bắn tung tóe nhuộm đỏ một góc vách núi trắng xóa.
+
+Trận chiến tạm thời lắng xuống trong chớp mắt, tiếng thở dốc nặng nề của Cố Trường Khanh vang lên đều đều trong không gian tĩnh mịch. Hắn đứng thẳng người, thanh trường kiếm trong tay vẫn đang nhỏ từng giọt máu tươi nóng hổi xuống lớp tuyết lạnh. Thẩm Lạc Cẩm bước lên mấy bước, định cất lời hỏi han, nhưng đột nhiên ánh mắt nàng khựng lại, dừng sững ở khoảng không gian sâu thẳm phía cuối hẻm núi.
+
+Từ trong lớp sương mù dày đặc tưởng chừng như vô tận ấy, một tiếng cười lạnh lẽo, tàn độc vang lên, kèm theo tiếng bước chân nặng nề dội vào vách đá như tiếng kèn lệnh của tử thần: Thật không hổ danh là người khiến Vạn Kim Thương Hội đau đầu, nhưng các ngươi thực sự nghĩ rằng Lạc Xương Thiên là kẻ mạnh nhất ở đây sao?
