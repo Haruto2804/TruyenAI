@@ -1,0 +1,16 @@
+# Chương 114: Vực Sâu Không Tiếng Động
+
+Nhịp Không Khí: Mùi Hóa Chất Cũ Kỹ Và Ánh Đèn Pin Xuyên Phá Sương Mù
+
+Hơi lạnh từ dòng nước cống ngầm bốc lên âm ẩm, đặc quánh vị mặn mòi của bùn thải và mùi chua ngầy ngật của những hóa chất thí nghiệm rò rỉ từ hai mươi năm trước. Hàng chục tia sáng trắng ngắt từ những chiếc đèn pin chiến thuật quét qua làn sương mù mỏng manh đang lờ lững trôi là đà trên mặt nước, cắt ngang không gian tối tăm bằng những vệt sáng sắc lẹm như dao cạo. Tiếng giày bốt nặng nề nện xuống lớp bùn nhão nhoét vang lên vọng lại từ vòm cống bê tông cốt thép, hòa lẫn với tiếng nước nhỏ giọt đều đặn từ các mối nối rỉ sét trên trần. Không khí nặng nề đến mức tưởng như có thể dùng tay mà vắt ra nước, đè nặng lên từng thớ cơ trên vai Maren Engel khiến lồng ngực cô phập phồng gấp gáp. Bóng dáng lão Nils lầm lũi khuất dần sau khúc quẹo của đường ống, để lại sau lưng thứ âm thanh rè rè phát ra từ thiết bị ẩn dưới da cổ, chói tai và ám ảnh như một bản thông điệp tử thần được lập trình sẵn.
+
+Nhịp Nút Thắt & Tâm Lý: Cơn Sóng Ngầm Hoảng Loạn Và Sự Tỉnh Tế Của Sát Thủ
+
+Tâm niệm Maren xoay chuyển như điện chớp, từng ý nghĩ sắc nhọn xé toạc lớp màn sương mù trong đầu cô. Đội đặc nhiệm của Lindqvist không chỉ đuổi theo cô, chúng đang dồn họ vào một cỗ máy xay thịt đã được lên dây cót sẵn từ hai thập kỷ trước. Cảm giác bất an trào dâng, bóp nghẹt lấy cuống họng, nhưng thay vì khuất phục trước hoảng loạn, đôi mắt xám xanh của Maren lại nheo lại đầy sắc bén. Đầu ngón tay trỏ và ngón giữa cô vô thức miết mạnh lên đốc khẩu súng lục lạnh ngắt, nhận ra rằng cái bẫy này không chỉ dành cho cô mà còn nhắm vào Erik và Yuki. Tiếng lên đạn lạch cạch từ phía sau lưng vang lên ngày một gần, từng bước chân áp sát như tiếng gõ cửa của tử thần. Cô biết rõ nếu cứ tiếp tục chạy theo đường cống thẳng tắp này, họ sẽ biến thành những tấm bia thịt hoàn hảo trong một không gian kín đặc không có đường lùi.
+
+Nhịp Bùng Nổ & Hành Động: Đòn Phản Công Chớp Nhoáng Và Ngã Rẽ Định Mệnh
+
+Sát cơ chợt lóe, Maren không chút do dự quăng mình nhào lộn sang bên trái, né trọn loạt đạn tiểu liên MP5 vừa xé rách không gian nơi cô vừa đứng. Những tia lửa lóe lên trong đêm tối kèm theo tiếng đạn găm chi chít vào bức tường gạch rêu phong, bắn tung tóe những mảnh vụn vữa sắc nhọn. Đồng thời, cô vung tay bóp cò hướng về phía bóng đèn pin đang lóa lên ở đầu khúc cua, tiếng súng đanh thép vang vọng đinh tai nhức óc trong đường ống hẹp. Một tiếng hét nghẹn ngào vang lên, kèm theo tiếng vật nặng ngã nhào xuống dòng nước cống đen ngòm. Không để lỡ nửa nhịp, Maren xoay người lao vụt vào một ngã rẽ vuông góc nhỏ hơn, nơi có chiếc cửa sắt mục nát dẫn thẳng vào hệ thống thông gió phụ của tòa nhà Khoa Tâm lý. Áp lực linh áp và hơi thở gấp gáp hòa quyện vào nhau, cô giơ chân đạp mạnh vào bản lề gỉ sét của cánh cửa, phát ra một tiếng rầm chấn động làm rung chuyển cả mảng tường mục.
+
+Ba câu cuối của chương:
+Ngay khoảnh khắc cánh cửa sắt bật mở tung vào một căn phòng tối om nồng mùi formol, một bàn tay lạnh ngắt từ trong bóng tối đã bất ngờ chộp lấy cổ tay cô. Đồng tử Maren co rút lại khi ánh đèn pin rọi vào gương mặt nhợt nhạt không một nếp nhăn của kẻ đang đứng chờ sẵn bên trong. Và trên chiếc bàn mổ rỉ máu ở giữa phòng, một chiếc phong bì đen thứ sáu đang từ từ rỉ ra những giọt chất lỏng đỏ sẫm dưới ánh đèn chớp đỏ của còi báo động bên ngoài.
