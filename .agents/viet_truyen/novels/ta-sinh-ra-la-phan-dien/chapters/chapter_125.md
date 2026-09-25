@@ -1,0 +1,25 @@
+# Chương 125: Bàn Tay Trong Bóng Tối, Định Số Nghịch Chuyển
+
+Nhịp Không Khí: Mùi Sắt Gỉ Và Cái Lạnh Xuyên Thấu Tâm Can
+
+Luồng kình phong từ vụ va chạm vừa rồi vẫn đang cuồn cuộn càn quét khắp không gian huyết mộ, cuốn theo từng đụn sương mù dày đặc và mạt đá sắc nhọn như dao cạo. Mùi tanh nồng của máu tươi quyện lẫn với thứ hắc khí tử vong bốc lên ngùn ngụt, xộc thẳng vào xoang mũi khiến người ta có cảm giác buồn nôn. Không gian xung quanh chìm trong một thứ ánh sáng đỏ quạch, hắt lên từ nham thạch sôi sục dưới khe vực sâu thẳm. Tiếng đá lở ầm ầm vang dội từ vách núi phía trên vẫn chưa dứt, từng tảng đá lớn nặng hàng vạn cân rơi ào ạt xuống vũng máu, tạo ra những âm thanh đinh tai nhức óc. Cố Thanh Tuyết quỳ một gối trên nền đá ẩm ướt, mái tóc dài hỗn độn rũ xuống bên gò má tái nhợt. Tấm sương tuyết hà y trên người nàng lúc này đã rách tung tóe vài chỗ, dính đầy bụi đất và những giọt mồ hôi lạnh toát ra từ sống lưng. Nàng cắn chặt đôi môi mỏng đến mức rỉ máu, sự bất lực và phẫn nộ đan xen trong lồng ngực khi nhận ra thực lực của những kẻ đứng trong bóng tối hoàn toàn vượt xa dự liệu.
+
+Nhịp Nút Thắt & Tâm Lý: Cú Đánh Sau Lưng Và Biến Chuyển Tâm Niệm
+
+Tâm niệm Ninh Huyền Dạ khẽ chấn động, một luồng hàn khí thấu xương từ huyệt đạo sau gáy bỗng nhiên lan tràn khắp toàn thân, làm cứng đờ cả mạch máu lẫn chân nguyên trong đan điền. Hắn chưa kịp quay đầu lại, nhưng Chân Lý Thần Nhãn trong thức hải đã tự động phóng thích ra một chùm kim quang chói lọi, chiếu rọi ngược lại không gian vặn xoắn phía sau lưng. Trong tích tắc đó, thời gian như ngừng trôi. Hắn thấy rõ ràng từng đường nét sắc bén của lưỡi đoản nhận rỉ máu đang cách da thịt mình chưa đầy ba tấc, và thấy cả nụ cười tàn độc, méo mó nở trên khuôn mặt của kẻ vừa xuất thủ. Kẻ này không phải là hắc bào nhân bị đánh văng ra lúc nãy, cũng không phải đám tàn dư của Ma Môn, mà là một kẻ vẫn luôn ẩn nấp dưới lớp áo đồng môn từ nhiều ngày nay. Tâm cơ sâu xa đến mức độ này, quả thực khiến người ta phải rợn tóc gáy.
+
+Ngươi tưởng mình đã phá được đại trận, nhưng thực ra ngươi chỉ đang bước sâu hơn vào cái bẫy do chính tay ngươi mở rộng! Một giọng nói khàn đặc, quen thuộc đến kỳ lạ vang lên từ phía sau lưng Ninh Huyền Dạ, mang theo sự cuồng loạn và đắc ý đến tột cùng.
+
+Ninh Huyền Dạ không hề hoảng hốt, trong ánh mắt tĩnh lặng như mặt hồ không đáy của hắn không hề có lấy một gợn sóng sợ hãi. Hắn không lùi mà tiến, toàn thân bỗng nhiên chấn động mạnh, một luồng kình khí màu tím sẫm từ kinh mạch bộc phát ra ngoài như nước lũ vỡ bờ. Đó chính là Thái Sơ Thôn Thiên Quyết, công pháp cấm kỵ có thể cắn nuốt vạn vật. Luồng kình khí bá đạo này vừa xuất hiện liền biến thành một lớp giáp khí vô hình bao bọc lấy toàn thân hắn, đồng thời va chạm trực tiếp với lưỡi đoản nhận đang đâm tới. Một tiếng kẻo kẹt đinh tai nhức óc vang lên khi kim loại ma sát với chân nguyên hộ thể, những tia lửa bắn tung tóe trong không gian tối tăm, thắp lên một khoảng sáng chớp nhoáng đầy chết chóc.
+
+Nhịp Bùng Nổ & Hành Động: Phản Kích Xé Rách Hư Không
+
+Hắc bào nhân lẩn trốn trong bóng tối không ngờ Ninh Huyền Dạ lại có thể phản ứng nhanh đến vậy trong tình thế ngàn cân treo sợi tóc. Đôi mắt hắn ta co rút lại bằng hạt cải, sự ngạo mạc vừa rồi nhanh chóng biến thành vẻ kinh hoàng tột độ khi nhìn thấy lớp giáp khí màu tím sẫm đang ăn mòn ngược lại đoản nhận trong tay mình. 
+
+Đồ khốn! Ngươi đã sớm phát hiện ra ta? Hắn thét lên một tiếng chói tai, định thu tay lùi lại vào trong không gian vặn xoắn để tẩu thoát.
+
+Nhưng đã muộn rồi. Đã bước vào tầm mắt của Ninh Huyền Dạ, thì ngẩng đầu lên hay cúi đầu xuống cũng chỉ có một con đường chết. Ninh Huyền Dạ lạnh lùng thốt ra từng chữ, âm thanh trầm thấp mang theo uy áp vô hình đè nặng lên tâm thần đối phương. Cổ tay hắn xoay tròn, trường kiếm trong tay bỗng nhiên đổi hướng, không chém về phía trước nữa mà cắm ngược xuống nền đá rồi hất mạnh lên trên. Kiếm khí vàng rực rỡ hóa thành một con cự long thứ hai, nhưng lần này nó uốn lượn theo một quỹ đạo quỷ dị, trực tiếp đâm xuyên qua lớp sương mù màu máu và càn quét thẳng vào vị trí của kẻ đánh lén.
+
+Ầm! Một tiếng nổ chấn động tâm can vang lên, vách đá xung quanh rung chuyển dữ dội, hàng ngàn mảnh đá sắc nhọn rơi rào rào như mưa đá. Kẻ đánh lén hộc ra một ngụm máu tươi đen ngòm, thân hình bay ngược ra sau như một chiếc lá khô trong cơn cuồng phong, đập mạnh vào vách thạch bản rồi trượt dài xuống vũng bùn lầy lội.
+
+Đúng lúc tình thế đang giằng co, từ trong sâu thẳm của huyết mộ, nơi dòng nham thạch đang sủi bọt khí độc, bỗng vang lên một tiếng gầm gừ trầm đục như tiếng giã cối từ địa ngục vọng về. Mặt đất dưới chân ba người bắt đầu nứt toác ra thành những khe vực sâu không thấy đáy, và một đôi bàn tay khổng lồ phủ đầy vảy rồng màu đen kẹt cứng trong nham thạch bỗng nhiên vươn lên, bấu chặt lấy vách đá với lực đạo có thể bóp nát cả càn khôn.
