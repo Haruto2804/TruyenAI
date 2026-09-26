@@ -1,0 +1,31 @@
+# Chương 127: Bóng Đen Trùng Trùng, Ma Khí Chấn Càn Khôn
+
+Nhịp Không Khí: Mùi Máu Tươi Và Sức Nóng Ngạt Thở Của Nham Thạch
+
+Không gian trong huyết mộ bỗng chốc rơi vào một sự tĩnh lặng đến rợn người, chỉ còn lại tiếng rít gào xé rách màng nhĩ của dòng nham thạch đang cuồn cuộn dâng trào từ dưới vực sâu. Nhiệt độ xung quanh tăng vọt lên đến cực điểm, khiến những giọt mồ hôi vừa túa ra trên trán đã lập tức bốc hơi thành từng làn khói trắng mỏng manh. Mùi khét lẹt của da thịt bị nung chảy hòa quyện cùng vị mặn chát của máu tươi và mùi hăng hắc của lưu huỳnh bám chặt vào từng thớ thịt, gây cảm giác ngột ngạt đến mức buồng phổi như bị ai đó bóp nghẹt. Ánh sáng đỏ quạch, chập chờn từ khe nứt địa mạch hắt lên hắt xuống, hắt vào vách đá ẩm ướt tạo thành những cái bóng vặn vẹo như quỷ dữ đang múa may quay cuồng. Từng hạt bụi đá nặng trĩu lơ lửng trong không trung, rung lên bần bật theo từng nhịp chấn động kinh hồn bạt vía của đại địa. Cố Thanh Tuyết đứng sững người, bàn tay siết chặt chuôi băng kiếm đến mức các khớp ngón tay trắng bệch, luồng hàn khí từ Băng Tâm Kiếm Thể vô thức tỏa ra xung quanh để chống lại cái nóng như lò luyện đang muốn thiêu rụi tâm can.
+
+Nhịp Nút Thắt & Tâm Lý: Cạm Bẫy Trồng Cạm Bẫy Và Sự Biến Đổi Khôn Lường
+
+Tâm niệm Ninh Huyền Dạ khẽ chấn động, Chân Lý Thần Nhãn trong thức hải lóe lên một đạo kim quang sắc bén như dao cạo, lập tức phân tích rõ ràng nguồn gốc của bóng người vừa xuất hiện từ vách đá. Kẻ đó không có nhịp đập trái tim, không có huyết khí của người sống, mà toàn thân được bao bọc bởi một lớp phù văn ma đạo cổ xưa, rõ ràng đã bị luyện thành một cỗ khôi lỗi chiến đấu cao cấp từ trước. Trong lồng ngực Ninh Huyền Dạ, sự ngạc nhiên thoáng qua rồi nhanh chóng chìm vào cõi tĩnh lặng tuyệt đối; hắn sớm đã ngờ rằng thế lực đứng sau lưng đám Khí Vận Chi Tử không chỉ có một vài con tốt thí đơn thuần. Sự phản bội và cạm bẫy nối tiếp nhau xuất hiện, nhưng tất cả đều nằm trong tầm kiểm soát của một kẻ nắm giữ thiên cơ như hắn. Hắn không hề lùi lại nửa bước, đôi mắt thâm trầm đảo qua từng đường nét vặn vẹo trên khuôn mặt vô hồn của cỗ khôi lỗi, khóe môi nhếch lên một nụ cười mỉa mai lạnh thấu xương.
+
+Ngươi tưởng có thể mượn tay cỗ ma thi này để kéo ta xuống cửu tuyền sao? Đúng là ngu muội không ai bì nổi! Tiếng cười trầm thấp của Ninh Huyền Dạ vang lên, mang theo uy áp vô hình đè nặng xuống không gian khiến kẻ vừa đọc chú ngữ phải hộc máu.
+
+Hắn không chờ đối phương kịp định thần, bàn tay áo phất lên một cái, luồng kình khí màu tím sẫm từ Thái Sơ Thôn Thiên Quyết hóa thành một dải lụa sắc bén như gươm dao, xé rách không khí lao vút đi. Cỗ khôi lỗi vừa bước ra từ vách đá tuy không có ý thức, nhưng bản năng chiến đấu của một cỗ máy giết người vẫn khiến nó lập tức giơ cao đôi thiết trảo đen sì, nghênh chiến trực diện với đòn tấn công.
+
+Nhịp Bùng Nổ & Hành Động: Đòn Sấm Sét Xé Rách Vực Sâu
+
+Ầm một tiếng, va chạm giữa kình khí màu tím và móng vuốt ma khí tạo ra một làn sóng xung kích mạnh mẽ đến mức quét sạch toàn bộ đá vụn xung quanh. Vách đá xung quanh rung chuyển dữ dội, từng tảng đá lớn hàng nghìn cân từ trên đỉnh đầu ào ạt đổ xuống như mưa rào. Cỗ khôi lỗi bị luồng kình khí bá đạo của Ninh Huyền Dạ đánh cho lùi lại bảy tám bước, hai chân cắm sâu vào nền đá cứng ngắc tạo thành hai rãnh sâu hoắm. Tuy nhiên, lớp phù văn trên người nó chợt lóe lên thứ ánh sáng màu huyết sắc, vết thương lập tức khép lại, sinh khí hắc ám trào ngược trở lại giúp nó tiếp tục gầm lên và lao tới với tốc độ còn nhanh hơn trước.
+
+Cùng lúc đó, sinh vật khổng lồ phủ đầy vảy rồng đen dưới đáy vực đã vươn được một nửa thân hình lên khỏi nham thạch. Đôi mắt đỏ rực như hai chiếc lồng đèn máu gườm gườm nhìn chằm chằm vào ba kẻ đang đứng trên bờ vực, mang theo sự thù hận vạn cổ đối với nhân thế. Cố Thanh Tuyết cắn chặt môi, linh lực trong đan điền bùng nổ, nàng tung người bay vút lên không trung, thanh băng kiếm trong tay chém ra một dòng sông băng giá lạnh hòng đóng băng động tác của con quái vật trước khi nó kịp thoát hoàn toàn khỏi phong ấn.
+
+Băng Phong Thiên Địa! Tiếng hét thanh lãnh của nàng vang vọng giữa vách núi, hàng vạn đóa hoa tuyết ngưng tụ thành một cơn bão kiếm khí trắng xóa, càn quét thẳng xuống đầu con ma thú.
+
+Nhưng ngay khi băng kiếm của Cố Thanh Tuyết vừa chạm tới lớp vảy rồng đen, một tia sáng màu đen từ khe ngực con quái vật bỗng nhiên lóe lên, phản hồi toàn bộ lực lượng băng giá ngược trở lại với một uy lực gấp bội. Nữ thần băng tâm hộc ra một ngụm máu tươi, thân hình yểu điệu chao đảo giữa không trung, rơi tự do xuống vách đá cheo leo. Ninh Huyền Dạ phản ứng cực nhanh, bóng người lóe lên như điện chớp, tay áo vung lên đỡ lấy eo thon của nàng, ôm trọn vào lòng rồi nhẹ nhàng đáp xuống một mỏm đá an toàn. Hương thơm thanh lãnh của nàng hòa lẫn với mùi máu tanh tạo nên một thứ cảm giác kỳ dị trong không gian đẫm chết chóc này.
+
+Ngươi không sao chứ? Giọng nói của Ninh Huyền Dạ vẫn bình thản như mặt hồ, nhưng bàn tay đang siết chặt lấy bờ vai nàng lại ẩn chứa một nguồn linh lực thuần khiết đang truyền vào để bảo vệ tâm mạch cho nàng.
+
+Ta không sao... Cố Thanh Tuyết khẽ lắc đầu, đôi mắt đẹp nhìn chằm chằm vào bóng lưng cao ngất của hắn, trong lòng dâng lên một thứ cảm xúc phức tạp khó tả giữa sự tin tưởng tuyệt đối và nỗi sợ hãi trước sức mạnh thâm sâu khó lường của người đồng môn này.
+
+Con ma thú dưới vực gầm lên một tiếng làm rung chuyển cả bầu trời đêm, cỗ khôi lỗi phía trước cũng đã lao sát đến nơi, giơ cao thiết trảo giáng xuống đầu bọn họ. Ninh Huyền Dạ buông tay ra, ánh mắt nhìn thẳng vào trung tâm của vụ nổ năng lượng, khóe môi cong lên một nụ cười đầy sát ý. Hắn vung tay chém ra một kiếm mang màu vàng rực rỡ, trực tiếp chẻ đôi cỗ khôi lỗi thành hai nửa trước sự kinh hoàng tột độ của kẻ đứng điều khiển trong bóng tối.
+
+Tuy nhiên, khi cỗ khôi lỗi vừa đổ rạp xuống, mặt đất dưới chân họ bắt đầu sụt lún hoàn toàn, tạo thành một cái hố đen sâu không thấy đáy. Từ trong lòng hố sâu ấy, một tiếng chuông cổ vang lên u ám và lạnh lẽo, kèm theo một bàn tay bằng xương bằng thịt trắng bệch vươn lên túm chặt lấy cổ chân của Ninh Huyền Dạ.

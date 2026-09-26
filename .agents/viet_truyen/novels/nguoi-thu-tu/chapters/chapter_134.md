@@ -1,0 +1,18 @@
+# Chương 134: Tiếng Kêu Từ Đáy Lòng Đất
+
+Nhịp Không Khí: Mùi Tanh Nồng Của Biển Sâu Và Cái Lạnh Xuyên Tủy
+
+Hơi lạnh từ vách đá ngầm ẩm ướt luồn qua từng thớ vải bết máu, xộc thẳng vào lồng ngực Maren Engel với thứ mùi ngai ngái của bùn đặc quánh và xác động vật thối rữa dưới đáy hải lưu. Tiếng nước biển gầm thét ục ục đằng sau cánh cửa thép móp méo giống như tiếng gầm rú của một con quái vật đó ăn khát máu đang cào cấu vào lớp vỏ sắt mỏng manh của khu phức hợp B3. Ánh đèn chớp đỏ từ cỗ máy Cốt lõi Cộng hưởng nhấp nháy liên hồi, hắt lên những cái bóng dài ngoằn ngoèo, méo mó trên tường đá, tạo thành một khung cảnh địa ngục trần gian. Vị tanh tưởi của máu tươi tràn ngập trong khoang miệng Maren, hòa lẫn với vị mặn chát của mồ hôi và nước biển hắt lên từ cơn hồng thủy ngầm đang dâng cao từng tấc. Cảm giác áp lực từ cột nước hàng nghìn tấn đè nặng lên mặt đất khiến màng nhĩ cô căng cứng, đau nhức như muốn nổ tung theo từng nhịp đập cuồng loạn của trái tim.
+
+Nhịp Nút Thắt & Tâm Lý: Cơn Hoảng Loạn Xuyên Thấu Và Sự Ghì Xiết Của Tử Thời
+
+Tâm niệm Maren xoay chuyển như điện chớp, kéo theo một luồng điện xẹt ngang qua đại não làm tê liệt toàn bộ hệ thống phản xạ khi bàn tay lạnh ngắt kia bịt chặt lấy miệng và mũi cô. Cảm giác nghẹt thở ập đến tức khắc, bóp nghẹt lấy cuống họng cô trong khi bóng tối đặc quánh bao trùm lấy tầm nhìn, biến mọi suy luận logic thành những mảnh vỡ hỗn độn. Độc thoại nội tâm gào thét trong buồng phổi trống rỗng: nếu đây là điểm chấm hết, mọi sự hy sinh của Erik và cuốn sổ đỏ XLVII đã tan thành mây khói, biến nỗ lực vạch trần Dự án Lethe thành một trò hề đẫm máu. Đồng tử cô co rút lại, cơ thể cứng đờ trong giây lát trước khi bản năng sinh tồn trỗi dậy mạnh mẽ, thúc giục cô thúc cùi chỏ ra phía sau với tất cả sức lực còn sót lại. Thế nhưng, lực cản từ bóng tối phía sau rắn chắc như một bức tường bê tông cốt thép, không hề dịch chuyển dù chỉ nửa inch, kèm theo hơi thở nồng nặc mùi thuốc sát trùng và thuốc lá cũ phả vào vành tai cô.
+
+Nhịp Bùng Nổ & Hành Động: Cú Xoay Người Tử Chiến Và Ánh Mắt Xuyên Thấu
+
+Sát cơ chợt lóe lên trong đáy mắt Maren; không chút do dự, cô quăng mình sang bên cạnh, tận dụng đà rơi của cơ thể để vặn ngược cổ tay kẻ đang khống chế mình. Kình khí cuộn trào trong huyết quản, cô không màng đến vết thương đang rách toác ở bả vai phải, vung chân đá hậu một cú chí mạng vào không trung. Tiếng gió rít lên xé toạc bầu không khí đặc quánh, nhưng bàn chân cô chỉ chém vào hư vô khi bóng đen đó đã uyển chuyển lùi lại một bước trong bóng tối. Dưới ánh đèn chớp đỏ ma quái, khuôn mặt của kẻ vừa xuất hiện hiện ra rõ mồn một, khiến lồng ngực Maren như ngừng đập. Đó không phải là Helmut Brandt, cũng chẳng phải kẻ giả mạo gọng kính vàng, mà là Erik Solvang với gương mặt bê bết bùn đất và đôi mắt trũng sâu đang nhìn cô bằng một vẻ thương hại đến tột cùng.
+
+Ba câu cuối chương:
+Erik khẽ lắc đầu, bàn tay run rẩy vì chứng Parkinson siết chặt lấy cổ tay cô kéo giật vào một hốc tường tối om trước khi một tia sáng laser màu đỏ quét qua đúng vị trí họ vừa đứng.
+Trên trần nhà phía trên, tiếng gót giày nện xuống mặt bê tông vang lên nặng nề, kèm theo giọng nói lạnh lùng của Thanh tra Lindqvist ra lệnh khóa chặt toàn bộ lối thoát.
+Và trong tiếng nước biển tràn vào ầm ầm từ cửa hầm phía đông, một tiếng cười khúc khích khô khốc cất lên từ bóng tối sâu thẳm bên dưới chân họ, gọi đúng tên thật của Maren mà chưa từng có ai ngoài Mẫu vật số Không được biết.
