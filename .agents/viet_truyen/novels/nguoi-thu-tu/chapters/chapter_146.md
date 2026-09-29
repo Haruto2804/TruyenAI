@@ -1,0 +1,21 @@
+# Chương 146: Kẻ Đứng Dưới Ánh Đèn Mờ
+
+Mùi muối biển tanh ngòm xộc thẳng vào cuống họng, trộn lẫn với vị ngăm đắng của khói thuốc súng còn vương lại trên đầu ngón tay Maren. Nước lạnh ngắt, đặc quánh như bùn loãng, ào ạt tràn qua mắt cá chân rồi nhanh chóng dâng lên đến đầu gối trong căn hầm B3 giờ đây đã biến thành một đống phế tích hoang tàn. Cột đèn sự cố màu đỏ lừ chớp nháy yếu ớt vài nhịp rồi vụt tắt hẳn, để lại không gian chìm ngập trong thứ ánh sáng xám xịt của buổi bình minh đang rỉ máu qua những khe nứt trên vòm bê tông. Cỗ máy Cốt lõi Cộng hưởng vừa phát ra tiếng gầm thét kinh thiên động địa giờ chỉ còn là một khối sắt méo mó, bốc lên những dải khói trắng mỏng tang như sương mù mùa đông.
+
+Maren quỵ một gối xuống sàn, bàn tay phải bấu chặt lấy vết thương rớm máu trên bả vai trái. Hơi lạnh buốt giá từ dòng nước biển len lỏi qua lớp áo trench coat sờn rách, cắn sâu vào từng thớ thịt khiến cô khẽ rùng mình. Đôi mắt xám xanh đảo nhanh qua lớp sương mù đặc quánh, tìm kiếm bóng hình của Yuki. Trong góc khuất gần bệ điều khiển, cô thiếu nữ tóc đen đang ôm chặt cuốn sổ da đỏ XLVII vào ngực, toàn thân run lẩy bẩy, lồng ngực phập phồng thở dốc từng hơi đứt quãng. Cạnh đó, Nils – gã cựu thủy thủ hộ pháp – đứng sững như một bức tượng đá bị nước bào mòn, đôi tay to lớn buông thõng, ánh mắt đờ đẫn nhìn chằm chằm vào khoảng không trống rỗng nơi Erik và Sarah vừa biến mất vào cõi hư vô.
+
+Không một tiếng động. Không một chút dấu vết. Luồng sáng trắng của Tần số Đối kháng không chỉ quét sạch bầy Vong thể và bóp nghẹt tham vọng của Lindqvist, mà còn xóa nhòa hoàn toàn sự hiện diện của Erik Solvang khỏi cõi đời này, biến ông thành một khoảnh khắc lãng quên vĩnh cửu trong ký ức của nhân loại. 
+
+Maren cắn chặt hàm răng đến mức bật máu, vị tanh ngọt lan tỏa trong vòm họng. Tâm niệm trong đầu cô xoay chuyển như điện chớp, gầm thét một nỗi căm phẫn và đau đớn đến tột cùng. Cô đứng bật dậy, khẩu Beretta trong tay phải vẫn còn vương khói, ngón tay siết chặt lấy cò súng. Đầu ngón tay trỏ và ngón giữa hơi run rẩy, nhưng ánh nhìn của cô thì sắc lạnh như dao cạo khi hướng về phía lối ra của tầng hầm.
+
+Ở đó, đứng lặng lẽ dưới cột đèn đường nhấp nháy xuyên qua vòm cống ngầm sập đổ, bóng người cao gầy mặc chiếc áo khoác dạ sờn cũ vẫn đang đứng chờ. Chiếc ô đen trên tay hắn nhỏ giọt từng giọt nước đều đặn, tạo ra âm thanh lốc cốc vang vọng giữa khoảng không tĩnh mịch. Hắn không có gương mặt của một kẻ chiến bại, cũng không có vẻ hoảng loạn của kẻ chạy trốn. Gương mặt hắn nhòe nhoẹt trong bóng tối, và khi hắn ngẩng đầu lên, thứ đập vào mắt Maren chính là một khoảng trống mờ ảo không có tròng đen, một thực thể rỗng tuếch nhưng lại phát ra thứ áp lực ngột ngạt đến nghẹt thở.
+
+Kẻ Thứ Tư. Không phải Lindqvist, cũng không phải Helmut Brandt hay bất kỳ con tốt thí nào khác. Hắn chính là kẻ đã giật dây toàn bộ vở kịch đẫm máu này từ trong bóng tối suốt hai mươi năm qua, kẻ đứng ở điểm giao tận cùng của Hiệu ứng Lethe.
+
+Maren không nói một lời. Cơ thể cô bùng lên thứ ánh sáng mờ ảo màu lam nhạt của Kháng thể Nhận thức bẩm sinh, xé toạc lớp sương mù xung quanh. Cô bước lên một bước, nước biển dưới chân văng tung tóe.
+
+Chạy đi, Maren! Tiếng hét nghẹn ngào của Yuki vang lên từ phía sau, xé rách sự tĩnh lặng đến rợn gáy của tầng hầm. Cỗ máy sắp sập! Toàn bộ móng nền của khu Cảng đang sạt lở!
+
+Nhưng Maren không màng tới cảnh báo. Cô nhắm thẳng nòng súng vào tâm ngực bóng đen kia, cắn chặt môi đến mức rách da. Kẻ đứng dưới ánh đèn mờ khẽ nhếch mép, một nụ cười nhạt nhẽo và lạnh lẽo hiện lên trên khuôn mặt không rõ hình hài. Hắn chậm rãi giơ tay phải lên, ngón tay trỏ khẽ gõ ba nhịp đều đặn lên cán chiếc ô đen, phát ra một âm thanh khô khốc vang vọng xuyên qua tiếng sóng biển đang gầm gào ngoài cửa khẩu.
+
+Đúng lúc đó, mặt đất dưới chân Maren bỗng chốc rung chuyển dữ dội, hàng loạt khối bêtông khổng từ trên trần nhà ầm ầm đổ xuống, chắn ngang giữa cô và kẻ lạ mặt. Ánh đèn đường nhấp nháy lần cuối cùng rồi tắt lịm trong tiếng rít gào của gió biển tràn vào từ mọi ngóc ngách.
