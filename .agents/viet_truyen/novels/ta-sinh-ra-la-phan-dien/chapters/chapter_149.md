@@ -1,0 +1,21 @@
+# Chương 149: Huyết Ngục Trầm Luân, Chân Long Gầm Thét
+
+Nhịp Không Khí: Tiếng Gầm Xé Rách Hư Không Và Mùi Sắt Gỉ Của Tử Vong
+
+Trong hố sâu đen ngòm vừa sụt lún, mùi máu tươi tanh nồng xộc thẳng vào khoang mũi, hòa quyện với hơi thở lưu huỳnh hầm hập bốc lên từ địa ngục khiến người ta ngạt thở. Đôi mắt khổng lồ màu đỏ máu đang từ từ mở ra trong bóng tối phát ra thứ hồng quang quỷ dị, chiếu rọi lên những vách đá sắc nhọn như dao cạo đang rung lên bần bật. Hơi thở lạnh buốt thấu xương của cường giả Phong Vương Cảnh phả vào gáy Cố Thanh Tuyết, khiến từng tấc da thịt trên người nàng nổi gai ốc, máu trong huyết mạch như đông đặc lại. Tiếng gầm rú đinh tai nhức óc từ đáy vực vọng lên làm vỡ vụn hàng ngàn khối băng xung quanh, tạo thành một cơn bão tuyết màu đỏ máu cuồn cuộn quét ngang không gian. Áp lực linh áp vô hình từ đôi mắt khổng lồ kia nặng như ngọn thái sơn đè nặng lên đỉnh đầu, ép đến mức lồng ngực Ninh Huyền Dạ nhói đau, vị ngọt tanh của máu rỉ ra từ khóe môi nhưng ánh mắt hắn vẫn tĩnh lặng như mặt hồ không đáy.
+
+Nhịp Nút Thắt & Tâm Lý: Chân Lý Thần Nhãn Xé Toạc Ma Trận Cổ Xưa
+
+Đồng tử Ninh Huyền Dạ co rút lại thành một đường chỉ kim loại, Chân Lý Thần Nhãn xoay tròn điên cuồng trong tròng mắt để phân tích cấu trúc linh lực của thực thể vừa thức tỉnh dưới lòng đất. Tâm niệm hắn biến chuyển nhanh như điện chớp, nhận ra đôi mắt đỏ máu kia không phải là sinh linh bằng da bằng thịt, mà là một cỗ oán niệm chí âm chí hàn kết hợp với trận pháp thượng cổ từ vạn năm trước. Cảm giác nguy hiểm cực hạn xộc thẳng lên đỉnh đầu không những không làm hắn sợ hãi, mà ngược lại còn kích thích sát cơ bừng bừng trong lồng ngực. Kế hoạch của tên đeo mặt nạ quỷ rõ ràng là muốn dùng máu của thiếu niên áo xám làm vật dẫn để giải phong ấn cho con quái vật dưới đáy vực, ép bọn họ vào tử địa tuyệt đối. Cố Thanh Tuyết cắn chặt hàm răng đến mức rỉ máu, thanh Băng Tâm Kiếm trong tay run rẩy bần bật, nàng tự ép bản thân phải giữ vững tâm trí, không được để luồng uy áp cấp độ Phong Vương Cảnh làm cho gục ngã trước khi kịp ra tay.
+
+Nhịp Bùng Nổ & Hành Động: Thái Sơ Thôn Thiên Quyết Đánh Nát Hư Không
+
+Không đợi con quái vật dưới đáy vực hoàn toàn chui ra khỏi mặt đất, Ninh Huyền Dạ hừ lạnh một tiếng, sát cơ bùng nổ thành một cột sáng kim quang rực trời chói lọi. Hắn vung tay áo, Thái Sơ Thôn Thiên Quyết vận dụng đến cực hạn, một luồng kình khí cuộn trào hóa thành hàng vạn đạo cự kiếm sắc bén chém thẳng xuống hố sâu đen ngòm. Tiếng va chạm đinh tai nhức óc vang lên rền trời, chấn động làm sụp đổ hoàn toàn phần vách đá còn lại, đá vụn và dung nham đen kịt bắn tung tóe khắp bốn phương tám hướng. Kẻ mang mặt nạ quỷ gầm lên một tiếng giận dữ, chiếc quạt cốt trong tay vung mạnh một cái, hàng ngàn chuỗi xích màu đỏ rực từ hư không bắn ra như những con độc xà lao thẳng về phía Ninh Huyền Dạ.
+
+Ninh Huyền Dạ ngay cả đầu cũng không thèm quay lại, tay trái vươn ra ôm lấy eo thon của Cố Thanh Tuyết, kéo nàng lùi lại nửa bước để né tránh loạt xích sắt chí mạng. Hắn tung chân đá mạnh xuống mặt đất, kim quang từ Chân Lý Thần Nhãn bùng nổ quét sạch mọi chuỗi xích đang lao tới trong chớp mắt. Cố Thanh Tuyết thấy vậy liền hợp lực, Băng Tâm Kiếm trong tay chém ra một dòng sông băng cuồn cuộn, đóng băng toàn bộ dung nham đang trào lên từ đáy vực. 
+
+Hắn nhếch môi cười lạnh, thân hình lướt đi như quỷ mị, chớp mắt đã áp sát kẻ mang mặt nạ quỷ. Bàn tay phủ đầy hỏa diễm đen kịt của Ninh Huyền Dạ điểm thẳng vào mi tâm đối phương, không cho kẻ đó bất kỳ cơ hội nào để phản kháng. Cường giả Phong Vương Cảnh biến sắc mặt, vội vàng giơ quạt cốt đỡ đòn nhưng đã quá muộn, hỏa diễm từ Thái Sơ Thôn Thiên Quyết vừa chạm vào đã thiêu rụi chiếc quạt thành tro bụi trong một nhịp thở. 
+
+Thế nhưng, ngay tại khoảnh khắc ngọn hỏa diễm chuẩn bị nuốt chửng kẻ mang mặt nạ quỷ, đôi mắt khổng lồ dưới đáy vực đột nhiên mở trừng lớn, một tia sáng đỏ rực xuyên thủng không gian bắn thẳng vào ngực Ninh Huyền Dạ. Đồng thời, một tiếng thở dài tang thương vang lên bên tai bọn họ, mang theo ý chí hoang cổ muốn chôn vùi tất cả. 
+
+Từ trong hố sâu đen ngòm ấy, một bàn tay khổng lồ xương xẩu vươn lên túm lấy cổ chân Cố Thanh Tuyết kéo giật xuống vực sâu không thấy đáy.
