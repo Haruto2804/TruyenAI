@@ -1,0 +1,33 @@
+# Chương 144: Bóng Đen Dưới Chân Tháp Bạc
+
+Mùi khói đạn súng thần công vẫn lờ lợ trong khoang mũi, hòa lẫn vị mặn chát của hơi nước biển thốc qua ô cửa sổ vỡ nát. Từng đợt gió lạnh từ ngoài khơi thổi thốc vào căn hầm kho cũ kỹ, mang theo cái buốt giá cắt da cắt thịt của những tháng cuối năm trên bờ vịnh Sóng Bạc. Dưới ánh lửa bập bùng hắt ra từ những mảng tường nứt nẻ, bóng dáng cao lớn của Hắc Lang vẫn quỳ một chân trên nền đá lạnh, tấm áo choàng đẫm sương đêm khẽ rung lên theo nhịp thở đều đặn. Lão quản gia Alistair chống chặt cây gậy gỗ xuống sàn, lồng ngực bỏng rát vì vết thương cũ tái phát nhưng đôi mắt đục ngầu lại trừng trừng nhìn thẳng vào khuôn mặt chằng chịt vết sẹo của kẻ vừa xuất hiện.
+
+Tâm niệm Alistair xoay chuyển như điện chớp. Huy hiệu đóa hoa hồng đen thêu chìm bằng chỉ bạc không thể nhầm lẫn vào đâu được. Đó là biểu tượng của Thiết Huyết Vệ, đội cận vệ tư gia dưới quyền trực tiếp của dòng dõi ngoại thích phương Bắc, những người đã biệt tích từ sau cái chết đầy u uất của cố bá tước đời trước. Sự xuất hiện của bọn họ vào đúng thời khắc sinh tử này, khi pháo đài Silverguard đang oằn mình hứng chịu những loạt đạn pháo không rõ từ đâu dội tới, mang theo một tầng ý nghĩa vô cùng mờ ám. Liệu đây là một cứu viện bất ngờ hay chỉ là một bầy sói khác đến xâu xé khúc xương tàn của gia tộc Croft?
+
+Hắc Lang từ từ đứng dậy, hành động chậm rãi và cẩn trọng để không gây ra bất kỳ sự hiểu lầm nào có thể dẫn đến đổ máu vô ích. Hắn đưa đôi mắt sắc như dao cạo liếc qua thân hình gầy gò đang run rẩy vì mất máu của Alistair, rồi cúi đầu thấp hơn một chút khi nhìn sang chiếc nôi gỗ sồi ở góc phòng.
+
+- Lão quản gia, vết thương trên vai ông không chờ được nữa đâu. Nếu không cầm máu ngay, độc dược từ mũi tên của đám cận vệ hoàng gia sẽ ngấm vào tâm mạch trước khi mặt trời mọc sau rặng núi Đen. - Giọng nói của Hắc Lang trầm đục, vang lên trong không gian chật hẹp với một thứ uy áp vô hình khiến người ta khó lòng sinh tâm phản kháng.
+
+Alistair cắn chặt hàm răng khô khốc, máu tươi rỉ ra từ khóe môi nhưng lão vẫn không lùi lại nửa bước. Lão lấy thân hình già nua che khuất tầm nhìn của kẻ đối diện hướng về phía đứa trẻ, giọng nói khàn đặc phát ra từ cổ họng:
+
+- Ngươi lấy tư cách gì để tiếp quản lãnh địa này? Thiết Huyết Vệ đã tan rã từ mười năm trước theo sắc lệnh giải giáp của hoàng gia. Các ngươi chỉ là những bóng ma trốn chạy trong rừng sâu, lấy gì để chống lại hạm đội của Liên minh thương bang và lệnh trừng phạt từ kinh thành?
+
+Một nụ cười nhạt xuất hiện trên khóe môi chằng chịt sẹo của Hắc Lang. Hắn không hề tức giận trước sự hoài nghi của lão bộc trung thành, ngược lại, trong ánh mắt hắn thoáng hiện lên một tia kính nể hiếm hoi dành cho sự kiên định đến mức ngoan cố này. Hắn khẽ giơ bàn tay chai sần lên, rút từ trong vạt áo khoác ra một tấm lệnh bài bằng đồng thau nặng trịch, trên mặt khắc hình một thanh kiếm gãy xuyên qua vương miện.
+
+- Tư cách nằm ở đây. Và nó nằm ở cả sự lựa chọn của tiểu chủ nhân trong chiếc nôi kia. - Hắc Lang hạ thấp giọng, bước lên một bước. - Ông nghĩ tiếng pháo ngoài khơi vừa rồi là do ai bắn? Ngân hàng Lombard đang siết nợ, đúng vậy. Nhưng Chấp sự Lucien Vane chỉ là một con cờ bị dắt mũi bởi những thế lực lớn hơn ở phía đông. Bọn chúng muốn phôi thai của gia tộc Croft phải chết, hoặc phải đầu hàng tuyệt đối. Nhưng chúng đã quên mất một điều: Vịnh Sóng Bạc chưa bao giờ là vùng đất khuất phục trước đồng tiền bẩn thỉu.
+
+Nằm gọn trong lớp rơm khô, Adrian khẽ chuyển động ngón tay nhỏ xíu. Đôi mắt xám tro không hề chớp lấy một cái, tĩnh lặng quan sát từng biểu cảm và lời nói của gã đội trưởng Thiết Huyết Vệ. Bộ óc vĩ đại của một chiến lược gia được tái sinh trong hình hài một đứa trẻ sơ sinh đang nhanh chóng xâu chuỗi các mảnh ghép thông tin lại với nhau. Hạm đội nã pháo không phải của quân đội chính quy Leonis, cũng không hoàn toàn thuộc về lực lượng đánh thuê Castalia tiêu chuẩn. Góc bắn và quỹ đạo đạn pháo lúc nãy chỉ có thể xuất phát từ dòng hải lưu ngầm phía tây bắc – nơi chỉ có những con tàu ngầm chiến lược hoặc hải tặc đánh thuê kiểm soát bởi các lãnh chúa độc lập mới dám tiếp cận. Sự xuất hiện của Hắc Lang đúng lúc này chứng tỏ bên ngoài kia đang diễn ra một cuộc thanh trừng đẫm máu giữa các thế lực ngầm, và gia tộc Croft chính là tâm điểm của ván cờ.
+
+Kình khí cuộn trào bên ngoài pháo đài mỗi lúc một dữ dội hơn. Tiếng hò hét giết chóc, tiếng kim loại va chạm vào nhau leng keng xuyên qua những bức tường đá dày ba trượng, dội thẳng vào màng nhĩ. Cơn gió biển mang theo mùi máu tanh nồng nặc và hơi khói súng khét lẹt len lỏi qua từng ngóc ngách của căn hầm, khiến không khí trở nên ngột ngạt đến tột cùng.
+
+Alistair trừng mắt nhìn tấm lệnh bài trên tay Hắc Lang. Lão nhận ra vật đó. Đó là minh chứng cho lời thề máu giữa cố bá tước và đội cận vệ tư gia, thứ đã biến mất trong đêm hỏa hoạn mười năm trước. Sự hoài nghi trong lòng lão dần bị lay động bởi thực tế tàn khốc trước mắt: nếu không có sự trợ giúp của những kẻ này, lão và đứa trẻ không thể nào sống sót qua khỏi đêm nay khi đám cận vệ hoàng gia và sát thủ của ngân hàng đang tràn vào từng lớp cửa.
+
+- Ngươi muốn điều kiện gì? - Alistair cuối cùng cũng chịu buông lỏng một chút sự cảnh giác, giọng nói khàn đặc mang theo sự mệt mỏi tột cùng.
+
+Hắc Lang không đáp ngay. Hắn thu tấm lệnh bài lại, quỳ một gối xuống sát cạnh chiếc nôi gỗ sồi. Đôi mắt sắc lạnh của gã chiến binh bỗng trở nên dịu lại một cách kỳ lạ khi nhìn vào khuôn mặt thanh tú, bình thản đến khó tin của đứa trẻ sơ sinh. Hắn đưa một ngón tay thô ráp ra, và kỳ lạ thay, bé Adrian không hề khóc thét hay hoảng sợ, mà lại đưa ngón tay bé xíu nắm hờ lấy ngón tay của gã, như một sự thừa nhận ngầm đầy uy quyền.
+
+- Ta không cần điều kiện gì cả, lão quản gia. Bởi vì sinh mệnh của chúng ta đã được gắn liền với dòng máu của gia tộc Croft từ nhiều đời nay. - Hắc Lang ngẩng đầu lên, ánh mắt sắc bén quét qua căn phòng tối om. - Hơn nữa, vị tiểu chủ nhân này từ khi sinh ra đã không có ý định làm một kẻ thua cuộc. Nhìn ánh mắt của ngài ấy xem... ngài ấy đang chờ chúng ta mở đường đấy.
+
+Ngay tại khoảnh khắc đó, một tiếng nổ kinh hoàng khác vang lên ngay phía trên trần nhà. Lớp vữa trắng phau và những tảng đá hoa cương nặng hàng chục cân bất ngờ đổ ụp xuống, che lấp hoàn toàn lối đi duy nhất dẫn lên tầng trên. Bụi mịt mù cuộn lên dày đặc như một bức màn màu xám, bóp nghẹt lấy không gian và tiếng thở của con người.
+
+Ánh chớp lóe lên từ bên ngoài chiếu qua ô cửa sổ vỡ, soi rõ một bóng người thứ ba đang lặng lẽ bước qua đống đổ nát, đứng chắn ngay lối thoát duy nhất của căn hầm với một thanh trường kiếm đẫm máu trên tay.
