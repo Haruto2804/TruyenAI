@@ -1,0 +1,23 @@
+# Chương 185: Tro Tàn Và Bình Minh Vĩnh Hằng
+
+Mùi tanh tưởi của bùn ẩm, hóa chất phân hủy và máu tươi quyện chặt vào nhau trong không gian đặc quánh của tầng hầm B3, dần bị át đi bởi làn gió biển mặn mòi tràn vào từ ô cửa vòm vỡ nát. Ánh nắng ban mai tháng mười hai của thành phố Ashford yếu ớt rọi qua lớp khói sương mờ đục, hắt lên mặt sàn bê tông loang lổ những vệt sáng vàng vọt, lạnh lẽo. Gã cảnh sát trưởng Lindqvist đã chìm hoàn toàn xuống vòm dung dịch màu đen đặc sủi bọt ngầu đục, không còn để lại dù chỉ một gợn sóng nhỏ. Bầy Vong thể kéo gã theo cùng cũng tan biến vào những góc khuất ẩm thấp của hệ thống cống ngầm, trả lại cho căn phòng một sự tĩnh mịch đến rợn ngườm.
+
+Maren Engel đứng tựa lưng vào bức tường bê tông lạnh buốt, đôi tay gầy gò run lên bần bật khi cô đưa lên áp chặt vào bả vai đang rỉ máu. Vết thương từ viên đạn sượt qua ở chương trước bắt đầu nhói lên từng cơn buốt nhói theo nhịp đập của lồng ngực, hòa lẫn vào vị mặn đắng của mồ hôi đọng lại khóe môi. Cô nheo mắt trái, thói quen vi mô khi đối mặt với những biến động bất ngờ, đôi mắt xám xanh sắc lạnh dán chặt vào cỗ máy Cốt lõi Cộng hưởng đang dần tắt lịm ở góc phòng. Những tiếng rít gào của tần số siêu âm đã hoàn toàn im bặt, thay vào đó là tiếng quạt tản nhiệt quay chậm chạp rồi dừng hẳn trong một tiếng lách cách khô khốc.
+
+Erik Solvang đứng cách cô không xa, dáng người cao lớn nhưng hơi còng xuống của cựu thanh tra bỗng trở nên cô độc giữa đống đổ nát. Bàn tay phải của ông với những ngón tay hằn vết sẹo đang vô thức khua khoang trong không trung, như thể đang tìm kiếm thứ gì đó đã mất từ hai mươi năm trước. Đôi mắt nâu sẫm trũng sâu nhìn đăm đăm vào vũng dung dịch đen ngòm nơi Lindqvist vừa biến mất, nơi chiếc nhẫn cưới bạc của ông — vật thế chấp cuối cùng cho ký ức về Sarah — đang nằm lăn lóc bên cạnh một mảnh kính vỡ. 
+
+Mọi chuyện... thực sự đã kết thúc rồi sao, Erik? Maren cất giọng khàn đặc, cổ họng cô khô rát như nuốt phải tro tàn. 
+
+Erik không quay đầu lại. Ông chậm rãi bước đến bên vũng dung dịch, cúi người nhặt chiếc nhẫn cưới bạc lên. Bề mặt kim loại xỉn màu lạnh ngắt chạm vào lòng bàn tay chai sần của ông, mang theo một thứ cảm giác chân thật đến nao lòng. Không có phép màu nào giữ lại được những gì đã bị thời gian bóp méo, Maren. Nhưng ít nhất, thành phố ngoài kia sẽ không còn phải ngủ quên trong một cơn ác mộng do kẻ khác giật dây nữa. Yuki đã mang cuốn sổ XLVII rời đi, và ánh sáng mặt trời đang thực sự chiếu xuống bến cảng.
+
+Đúng lúc ấy, một tiếng chuông điện thoại di động chói tai bỗng vang lên từ túi áo khoác của Lindqvist đã bị ngập một nửa dưới bùn đen. Âm thanh đanh gọn, gấp gáp phá vỡ sự tĩnh lặng nặng nề của tầng hầm. Maren giật mình ngẩng đầu lên, bản năng nghề nghiệp của một nữ phóng viên điều tra lập tức trỗi dậy. Cô bước tới, dùng mũi giày khều chiếc điện thoại đời cũ vỏ nhựa đen ngòm lên khỏi vũng nước, màn hình vẫn sáng rực rỡ giữa khung cảnh tối tăm.
+
+Dòng chữ hiển thị trên màn hình không có tên người gọi, chỉ có một dãy số mã hóa ngắn gọn: 10.0.0.99. 
+
+Đó chính là địa chỉ IP nội bộ từng gửi gói tin envelope_05.enc vào máy tính của Yuki trước thềm đêm hỗn loạn này. Maren nín thở, trái tim đập thình thịch lồng ngực như muốn nhảy ra ngoài. Cô bấm nút nhận cuộc gọi, đưa chiếc điện thoại dính đầy bùn đất lên sát màng nhĩ, nhưng thứ âm thanh truyền đến không phải là tiếng nói con người. Đó là một thứ âm thanh ù ù như tiếng sóng biển gầm rú trong vỏ ốc, kèm theo một giọng nói được bóp méo bằng phần mềm tổng hợp âm thanh kỹ thuật số, phát ra từng từ đều đặn, chậm rãi đến lạnh sống lưng.
+
+Cuộc chơi ở Ashford đã hạ màn, phóng viên Maren Engel. Nhưng cô có bao giờ tự hỏi, ai là kẻ đã cấp nguồn điện đầu tiên cho cỗ máy Lethe vào năm 2004, trước khi Lindqvist kịp bước chân vào khoa tâm lý này không?
+
+Đồng tử Maren co rút lại, một luồng khí lạnh ngắt xộc thẳng từ sống lưng lên đến đỉnh đầu, làm toàn bộ tóc gáy cô dựng đứng lên. Cô há hốc miệng định cất tiếng hỏi, nhưng đầu dây bên kia đã ngắt kết nối trong một tiếng tút dài khô khốc. 
+
+Từ phía trên cửa vòm hầm B3, tiếng bước chân dồn dập của lực lượng cảnh sát địa phương cùng tiếng còi hụ xe cứu thương bắt đầu vang lên từ phía xa của khu công nghiệp, xé toạc màn sương mỏng buổi sáng. Thế nhưng, trong lòng Maren lúc này không có lấy một chút vui mừng của kẻ chiến thắng. Cô chậm rãi quay đầu nhìn Erik, chỉ thấy cựu thanh tra đang đứng chết lặng bên ô cửa sổ vỡ, ánh mắt ông nhìn đăm đăm ra khoảng không vô định ngoài vịnh biển, nơi một cánh hải âu duy nhất đang chao lượn dưới vầng thái dương vừa ló rạng, nhưng cái bóng của nó hắt xuống mặt nước lại mang hình thù của một con số bốn vặn vẹo.
