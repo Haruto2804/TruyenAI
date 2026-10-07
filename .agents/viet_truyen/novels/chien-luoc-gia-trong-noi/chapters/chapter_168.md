@@ -1,0 +1,49 @@
+# Chương 168: Chiếc Nhẫn Sắt Và Sự Im Lặng Của Kẻ Sở Hữu Vương Miện
+
+Mùi khói đạn súng thần công vẫn cuồn cuộn phả vào hầm ngầm cổ kính, đặc quánh và cay xè, bám chặt vào từng thớ vải ẩm mốc của áo giáp. Tiếng kim loại va vào nền đá lạnh buốt vang lên khô khốc, xé toạc bầu không gian tĩnh mịch vừa được lập lại sau tiếng gầm của sinh vật khổng lồ. Vật thể vừa bị ném lăn lóc vào vũng bùn dưới chân Chấp sự Lucien Vane không phải thứ gì khác ngoài một chiếc mũ trụ hiệp sĩ mạ vàng, trên đỉnh khắc chìm gia huy sư tử hai đầu của Hoàng gia Leonis, giờ đây đã móp méo một nửa và nhuộm đẫm một màu máu đen sẫm.
+
+Chấp sự Lucien Vane nuốt khan một ngụm nước bọt đặc quánh, cổ họng lão khò khè như tiếng bễ lò rèn thủng. Ánh mắt hẹp dài của lão trân trân nhìn vào vết lõm trên chiếc mũ trụ hoàng gia, nơi vừa ghi dấu một cú vung gươm dã man đến mức xuyên thủng cả lớp thép dày ba ly. Miếng nhung tím viền lông cáo tuyết trên vai lão run lẩy bẩy theo nhịp thở gấp gáp, mồ hôi lạnh từ trán chảy dọc xuống gò má trắng bệch, hòa lẫn với lớp bụi đá trắng phau như muối mịn đang rơi lả tả từ vòm trần nứt nẻ. Lão ta hiểu rõ ý nghĩa của vật thể đó: sự viện trợ từ Hoàng gia mà lão hằng ngóng đợi đã bị chặn đứng ngay bên ngoài cửa khẩu, và kẻ làm điều đó không phải là một toán hải tặc vô danh, mà là một thế lực hoàn toàn vượt ngoài tầm với của Ngân hàng Lombard tại vùng đất phía tây này.
+
+Từ làn khói xám đặc đặc quánh cuồn cuộn tràn qua bức tường đá vừa đổ sập, một bóng người cao lớn bước vào. Kẻ vừa xuất hiện không mang áo giáp mạ vàng rực rỡ hay cờ xí ngợp trời của đội quân viễn thông triều đình, mà khoác một chiếc áo choàng dài màu xám tro đậm màu bùn đất và sương muối biển. Gã rút đôi găng tay da thuộc dính đầy vết máu tươi sẫm màu, ném nó thờ ơ xuống thềm đá bên cạnh vũng bùn. Mái tóc màu tro được cắt ngắn gọn gàng theo kiểu quân nhân lộ ra dưới ánh đuốc chập chờn, cùng với một vết sẹo dài chạy từ đuôi lông mày trái vắt ngang qua sống mũi cao gầy. Đó là Sir Gareth, vị tướng quân cai quản đội phòng vệ biên thùy miền tây, người đáng lẽ ra lúc này phải đang đóng quân cách đó ba mươi dặm ở pháo đài Oakhaven.
+
+Giám mục Malachi lùi lại nửa bước, bàn tay đang run rẩy siết chặt lấy cây quyền trượng bằng bạc nguyên khối đến mức các khớp xương trắng bệch. Ánh sáng thánh tẩy yếu ớt từ đầu gậy chao đảo theo từng nhịp thở gấp gáp của lão, phản chiếu lên đôi mắt đục ngầu đầy vẻ hoang mang tột độ. Lão không ngờ rằng vị tướng biên thùy vốn nổi tiếng trung quân ái quốc và tuân thủ tuyệt đối thánh lệnh lại dám tự ý rời bỏ vị trí chiến lược để xuất hiện tại đây, vào đúng thời khắc nhạy cảm nhất của gia tộc Croft.
+
+- Sir Gareth! Ngươi... ngươi dám phản bội lại chiếu chỉ của Hoàng gia và sự ủy nhiệm của Tòa thánh sao? - Giọng nói của Giám mục Malachi rít lên qua kẽ răng, khô khốc và sắc lẹm như tiếng mài dao trên đá tảng.
+
+Sir Gareth không thèm liếc nhìn vị Giám mục lấy một cái. Gã bước những bước vững chãi trên nền đá nứt nẻ, tiếng ủng sắt dập xuống phát ra những âm thanh trầm đục vang vọng khắp vòm hầm. Ánh mắt lạnh lùng, sắc bén như lưỡi dao cạo của gã quét qua đám kỵ sĩ Thánh Đường đang khép nép dựa lưng vào vách đá, lướt qua sinh vật khổng lồ đang cúi đầu sát mặt đất như một cỗ chiến mã tuân lệnh chủ nhân, rồi dừng lại trọn vẹn tại chiếc nôi gỗ sồi cổ kính đặt ở góc khuất ẩm ướt nhất của căn hầm. 
+
+Trong chiếc nôi nhỏ bé ấy, Adrian von Croft vẫn giữ nguyên vẹn tư thế nằm nghiêng, đôi mắt xám tro tĩnh lặng đến mức rợn ngợp không hề chớp lấy một cái trước sự hiện diện áp đảo của viên tướng biên thùy. Không gian dường như ngưng đọng lại trong tích tắc; một luồng linh lực vô hình tỏa ra từ cơ thể non nớt của đứa trẻ sơ sinh dường như đang thì thầm dẫn dắt từng bước di chuyển của Sir Gareth, khiến gã dừng chân cách chiếc nôi đúng ba bước chân, rồi chậm rãi quỳ một chân xuống nền đất lạnh giá.
+
+Hành động đó của vị tướng quân uy quyền bậc nhất vùng biên ải làm cho tất cả những kẻ có mặt trong hầm ngầm phải chết lặng. Kaelen nới lỏng bàn tay đang cầm quạt xương cá voi, đôi mắt hẹp lại dò xét, trong khi Bá tước Roland dù vẫn giữ nguyên tư thế thủ thế nhưng cơ bắp trên vai đã phần nào giãn ra, nhường chỗ cho một sự suy đoán sâu xa. 
+
+- Lãnh chúa Roland, Phu nhân Eleanor. - Giếng giọng trầm đục, vang dội của Sir Gareth phá vỡ sự im lặng ngột ngạt. Gã không đứng lên ngay mà ngước nhìn đứa trẻ trong nôi bằng một ánh mắt phức tạp chứa đựng cả sự kính trọng lẫn nỗi sợ hãi sâu kín. - Bệ hạ ở kinh thành đã băng hà từ ba ngày trước. Tin tức này đã được phong tỏa hoàn toàn tại Hoàng thành Sol-Leonis, nhưng những con kền kền ở phương nam đã bắt đầu rục rịch chia nhau miếng mồi thừa.
+
+Chấp sự Lucien Vane nghe đến đây liền chao đảo, suýt ngã quỵ xuống đống bùn nếu không có bức tường đá phía sau lưng đỡ lấy. Lão ta trợn tròn mắt, lẩm bẩm trong vô thức:
+- Băng hà? Không thể nào... Ta vừa nhận được hối phiếu có ngọc ấn hoàng gia vào tuần trước...
+
+- Hối phiếu đó được ký bởi một cái xác đang phân hủy trong cung điện, thưa Chấp sự đại nhân. - Sir Gareth lạnh lùng cắt ngang, khóe môi nhếch lên một nụ cười nhạt đầynguy hiểm. - Ngân hàng Lombard các ngươi tưởng rằng có thể mua chuộc cả vương quốc bằng những đồng tiền vàng pha tạp chất của mình sao? Các ngươi quên mất rằng vùng đất Vịnh Sóng Bạc này chưa bao giờ thuộc về triều đình, và càng không nằm trong sổ sách nợ nần của các ngươi.
+
+Giám mục Malachi ôm chặt lấy cây quyền trượng, lùi sát vào góc tường khi nhận ra cục diện đã hoàn toàn xoay chiều. Lão hiểu rằng nếu tin tức về cái chết của vị vua trẻ tuổi bị lộ ra ngoài trong lúc các phe phái đang tranh giành ngai vàng, mọi chiến dịch thanh trừng dị giáo tại miền tây này sẽ bị hủy bỏ để dồn lực về kinh đô. Tòa thánh không còn dư sức bảo vệ những con tốt thí như lão tại vùng đất hoang vu khỉ ho cò gáy này nữa.
+
+- Ngươi muốn gì, Gareth? - Bá tước Roland hạ thấp mũi đại kiếm xuống một chút, giọng nói trầm ổn nhưng mang theo uy lực của kẻ chủ nhà. - Ngươi cho nổ pháo vào tường thành của ta, cản đường viện binh hoàng gia, và quỳ gối trước con trai ta. Đừng vòng vo nữa, hãy nói cho ta biết cái giá mà ngươi mang đến.
+
+Sir Gareth đứng thẳng dậy, rút từ trong vách áo khoác ra một chiếc hộp gỗ mun được khắc tinh xảo hình huy hiệu chim ưng hai đầu nhưng đã bị một vết chém gạch chéo xóa bỏ hoàn toàn. Gã đặt chiếc hộp lên mặt chiếc nôi gỗ sồi, ngay sát bên cạnh bàn tay nhỏ xíu của Adrian. Đứa trẻ khẽ chuyển động ngón tay, chạm nhẹ vào bề mặt lạnh ngót của chiếc hộp gỗ trước khi rút lại, ánh mắt xám tro ánh lên một tia sắc sảo thấu triệt tâm can.
+
+- Ta không mang giá cả, thưa Bá tước. Ta mang theo một bản hiệp ước. - Sir Gareth đưa mắt nhìn thẳng vào người đứng đầu gia tộc Croft, từng tiếng nói phát ra chắc nịch như đinh đóng cột. - Đội quân phòng vệ biên thùy miền tây dưới quyền ta sẽ tuyên bố trung thành tuyệt đối với người thừa kế của gia tộc Croft. Đổi lại, ta muốn toàn bộ quyền khai thác mỏ quặng sắt ở dãy Răng Quỷ và quyền miễn thuế hàng hải trong vòng mười năm tới thuộc về liên minh quân sự mới của chúng ta.
+
+Chấp sự Lucien Vane nghe đến điều kiện đó liền hộc lên một tiếng như kẻ sắp chết đuối. Lão ta lê cơ thể nặng nề tiến lên vài bước, giơ ngón tay đeo đầy nhẫn ngọc chỉ thẳng vào mặt Sir Gareth, giọng hét lên lạc cả giọng:
+- Ngươi điên rồi! Khế ước nợ 50.000 Ducat vàng của Ngân hàng Lombard có hiệu lực theo luật pháp lục địa! Nếu các ngươi dám nuốt lời, hạm đội đánh thuê Castalia sẽ san phẳng cái vũng bùn này thành bình địa trước khi mùa đông năm nay kết thúc! San phẳng!
+
+Sir Gareth quay đầu lại, ném cho Chấp sự Vane một ánh nhìn sắc như dao cạo khiến lão ta tự động ngậm miệng lại, sống lưng lạnh toát. Vị tướng quân chậm rãi rút từ trong thắt lưng ra một vật khác thả xuống cạnh chiếc mũ trụ móp méo dưới bùn. Đó là một con dấu bằng đồng nguyên khối, trên mặt khắc hình một chiếc chìa khóa gãy đôi nằm trên nền ngọn lửa.
+
+- San bằng ư? Chấp sự đại nhân, có lẽ ngươi chưa nhận được tin tức mới nhất từ chi nhánh chính của Ngân hàng Lombard tại thủ đô Castalia. - Giọng nói của Sir Gareth mang theo một thứ âm hưởng giễu cợt lạnh lẽo. - Tối hôm qua, kho bạc trung tâm của các ngươi vừa bị đốt cháy rụi thành tro tàn bởi một đám 'giặc cướp' vô danh. Toàn bộ các văn bản khế ước nợ gốc của các vương hầu phương tây đều đã hóa thành tro bụi trong ngọn lửa đó.
+
+Chấp sự Vane trợn trừng mắt, hai chân mềm nhũn khuỵu hẳn xuống vũng bùn đen ngòm. Lão ta mở to miệng nhưng không thể phát ra bất kỳ âm thanh nào, toàn thân run lẩy bẩy như bị cơn sốt rét rừng cắn xé. Hợp đồng vay nợ - vũ khí sắc bén nhất, chiếc xích sắt tàn nhẫn nhất mà ngân hàng dùng để siết cổ hàng loạt gia tộc quý tộc lục địa - giờ đây đã không còn tồn tại trên giấy tờ pháp lý. Trò chơi tài chính mà lão tự hào nắm giữ đã sụp đổ hoàn toàn trong một đêm.
+
+Trong góc khuất của căn hầm, sinh vật khổng lồ dưới quan tài đồng đen dường như cảm nhận được sự thay đổi của bầu không khí, nó khẽ gầm lên một tiếng trầm đục vang vọng trong lồng ngực, rồi từ từ thu mình lại vào sâu trong lớp bóng tối dày đặc phía sau bệ đá cổ. 
+
+Bá tước Roland đứng lặng đi vài giây, sự căng thẳng đè nặng trên đôi vai hắn suốt bao nhiêu tháng trời bỗng chốc tan biến, nhường chỗ cho một quyết đoán sắc bén của một lãnh chúa thực thụ. Hắn quay sang nhìn Phu nhân Eleanor đang mỉm cười dịu dàng, rồi cúi xuống nhìn đứa con trai bé bỏng trong nôi. Adrian von Croft lúc này đang nhắm hờ đôi mắt, khóe miệng nhỏ xíu vắt lên một nụ cười cực kỳ mờ nhạt, gần như không thể nhận ra.
+
+Sir Gareth quỳ một gối xuống, cúi đầu sát mặt đất trước chiếc nôi gỗ sồi như thể đang thề nguyện trước ngai vàng tối cao của một vị đế vương thực thụ. 
+
+- Ván cờ đã được bày xong, thưa tiểu chủ nhân. - Sir Gareth thì thầm bằng một âm thanh chỉ đủ cho hai người nghe thấy. - Bây giờ, chúng ta sẽ bắt đầu thu hồi lại những gì thuộc về Vịnh Sóng Bạc từ tay ai?
